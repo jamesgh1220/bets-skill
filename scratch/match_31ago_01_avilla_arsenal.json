@@ -1,0 +1,11 @@
+{
+  "home_team": "Aston Villa",
+  "away_team": "Arsenal",
+  "xg_home_for": 1.15,
+  "xg_home_against": 1.27,
+  "xg_away_for": 2.50,
+  "xg_away_against": 0.65,
+  "elo_home": 1650,
+  "elo_away": 2000,
+  "odds": { "1": 6.25, "X": 4.10, "2": 1.53, "over_2_5": 1.75, "under_2_5": 2.10 }
+}

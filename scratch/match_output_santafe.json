@@ -1,0 +1,60 @@
+{
+  "match": "Independiente Santa Fe vs Fortaleza",
+  "probabilities": {
+    "1": 0.5439,
+    "X": 0.2654,
+    "2": 0.1907,
+    "over_2_5": 0.384,
+    "under_2_5": 0.616,
+    "btts_yes": 0.4201,
+    "btts_no": 0.5799,
+    "expected_goals_home": 1.45,
+    "expected_goals_away": 0.77
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.95,
+      "model_prob": 0.5439,
+      "implied_prob": 0.5128,
+      "fair_odds": 1.84,
+      "edge": 6.06,
+      "ev_percent": 6.06,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.2,
+      "model_prob": 0.2654,
+      "implied_prob": 0.3125,
+      "fair_odds": 3.77,
+      "edge": -15.07,
+      "ev_percent": -15.07,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.2,
+      "model_prob": 0.1907,
+      "implied_prob": 0.2381,
+      "fair_odds": 5.24,
+      "edge": -19.91,
+      "ev_percent": -19.91,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.65,
+      "model_prob": 0.616,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.62,
+      "edge": 1.64,
+      "ev_percent": 1.64,
+      "stake_recommended_units": 0.01,
+      "has_value": false
+    }
+  }
+}

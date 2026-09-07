@@ -1,0 +1,60 @@
+{
+  "match": "Columbus Crew vs New England Revolution",
+  "probabilities": {
+    "1": 0.5565,
+    "X": 0.2457,
+    "2": 0.1978,
+    "over_2_5": 0.4752,
+    "under_2_5": 0.5248,
+    "btts_yes": 0.4945,
+    "btts_no": 0.5055,
+    "expected_goals_home": 1.65,
+    "expected_goals_away": 0.93
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.65,
+      "model_prob": 0.5565,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.8,
+      "edge": -8.18,
+      "ev_percent": -8.18,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.8,
+      "model_prob": 0.2457,
+      "implied_prob": 0.2632,
+      "fair_odds": 4.07,
+      "edge": -6.63,
+      "ev_percent": -6.63,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 5.0,
+      "model_prob": 0.1978,
+      "implied_prob": 0.2,
+      "fair_odds": 5.06,
+      "edge": -1.1,
+      "ev_percent": -1.1,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.7,
+      "model_prob": 0.4752,
+      "implied_prob": 0.5882,
+      "fair_odds": 2.1,
+      "edge": -19.22,
+      "ev_percent": -19.22,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

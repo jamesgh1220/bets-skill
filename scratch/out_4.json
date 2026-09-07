@@ -1,0 +1,93 @@
+{
+  "match": "Parma vs Cremonese",
+  "probabilities": {
+    "1": 0.4842,
+    "X": 0.2696,
+    "2": 0.2462,
+    "over_2_5": 0.4303,
+    "under_2_5": 0.5697,
+    "btts_yes": 0.4806,
+    "btts_no": 0.5194,
+    "expected_goals_home": 1.43,
+    "expected_goals_away": 0.98
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.01,
+      "model_prob": 0.4842,
+      "implied_prob": 0.4975,
+      "fair_odds": 2.07,
+      "edge": -2.68,
+      "ev_percent": -2.68,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.1,
+      "model_prob": 0.2696,
+      "implied_prob": 0.3226,
+      "fair_odds": 3.71,
+      "edge": -16.42,
+      "ev_percent": -16.42,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.25,
+      "model_prob": 0.2462,
+      "implied_prob": 0.3077,
+      "fair_odds": 4.06,
+      "edge": -19.98,
+      "ev_percent": -19.98,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.85,
+      "model_prob": 0.5697,
+      "implied_prob": 0.5405,
+      "fair_odds": 1.76,
+      "edge": 5.39,
+      "ev_percent": 5.39,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.95,
+      "model_prob": 0.4303,
+      "implied_prob": 0.5128,
+      "fair_odds": 2.32,
+      "edge": -16.09,
+      "ev_percent": -16.09,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.95,
+      "model_prob": 0.4806,
+      "implied_prob": 0.5128,
+      "fair_odds": 2.08,
+      "edge": -6.28,
+      "ev_percent": -6.28,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_no": {
+      "market": "btts_no",
+      "odds": 1.8,
+      "model_prob": 0.5194,
+      "implied_prob": 0.5556,
+      "fair_odds": 1.93,
+      "edge": -6.51,
+      "ev_percent": -6.51,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

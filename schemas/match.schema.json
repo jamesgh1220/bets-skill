@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "match_id",
+    "competition",
+    "season",
+    "kickoff",
+    "home_team",
+    "away_team",
+    "status"
+  ],
+  "properties": {
+    "match_id": {
+      "type": "string"
+    },
+    "competition": {
+      "type": "string"
+    },
+    "season": {
+      "type": "string"
+    },
+    "kickoff": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "home_team": {
+      "type": "string"
+    },
+    "away_team": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "scheduled",
+        "postponed",
+        "cancelled",
+        "live",
+        "finished"
+      ]
+    },
+    "venue": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

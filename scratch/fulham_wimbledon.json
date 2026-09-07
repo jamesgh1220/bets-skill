@@ -1,0 +1,19 @@
+{
+  "home_team": "Fulham",
+  "away_team": "AFC Wimbledon",
+  "xg_home_for": 1.90,
+  "xg_home_against": 1.05,
+  "xg_away_for": 0.90,
+  "xg_away_against": 1.75,
+  "elo_home": 1680,
+  "elo_away": 1390,
+  "odds": {
+    "1": 1.30,
+    "X": 5.50,
+    "2": 9.50,
+    "over_2_5": 1.55,
+    "under_2_5": 2.35,
+    "btts_yes": 2.10,
+    "btts_no": 1.65
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "match": "Barracas Central vs Argentinos Juniors",
+  "probabilities": {
+    "1": 0.3036,
+    "X": 0.3007,
+    "2": 0.3957,
+    "over_2_5": 0.3504,
+    "under_2_5": 0.6496,
+    "btts_yes": 0.4287,
+    "btts_no": 0.5713,
+    "expected_goals_home": 0.98,
+    "expected_goals_away": 1.12
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 3.8,
+      "model_prob": 0.3036,
+      "implied_prob": 0.2632,
+      "fair_odds": 3.29,
+      "edge": 15.37,
+      "ev_percent": 15.37,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.0,
+      "model_prob": 0.3007,
+      "implied_prob": 0.3333,
+      "fair_odds": 3.33,
+      "edge": -9.79,
+      "ev_percent": -9.79,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.13,
+      "model_prob": 0.3957,
+      "implied_prob": 0.4695,
+      "fair_odds": 2.53,
+      "edge": -15.72,
+      "ev_percent": -15.72,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.75,
+      "model_prob": 0.6496,
+      "implied_prob": 0.5714,
+      "fair_odds": 1.54,
+      "edge": 13.68,
+      "ev_percent": 13.68,
+      "stake_recommended_units": 0.05,
+      "has_value": true
+    },
+    "btts_no": {
+      "market": "btts_no",
+      "odds": 1.65,
+      "model_prob": 0.5713,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.75,
+      "edge": -5.74,
+      "ev_percent": -5.74,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

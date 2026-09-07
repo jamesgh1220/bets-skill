@@ -1,0 +1,11 @@
+{
+  "home_team": "Alianza",
+  "away_team": "Atletico Nacional",
+  "xg_home_for": 1.30,
+  "xg_home_against": 1.18,
+  "xg_away_for": 1.43,
+  "xg_away_against": 1.43,
+  "elo_home": 1500,
+  "elo_away": 1700,
+  "odds": { "1": 2.22, "X": 4.17, "2": 3.23, "under_2_5": 2.10 }
+}

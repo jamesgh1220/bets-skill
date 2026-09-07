@@ -1,0 +1,71 @@
+{
+  "match": "Braga vs Vitória de Guimarães",
+  "probabilities": {
+    "1": 0.5858,
+    "X": 0.2374,
+    "2": 0.1768,
+    "over_2_5": 0.4752,
+    "under_2_5": 0.5248,
+    "btts_yes": 0.4891,
+    "btts_no": 0.5109,
+    "expected_goals_home": 1.67,
+    "expected_goals_away": 0.9
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.72,
+      "model_prob": 0.5858,
+      "implied_prob": 0.5814,
+      "fair_odds": 1.71,
+      "edge": 0.76,
+      "ev_percent": 0.76,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.75,
+      "model_prob": 0.2374,
+      "implied_prob": 0.2667,
+      "fair_odds": 4.21,
+      "edge": -10.98,
+      "ev_percent": -10.98,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 5.0,
+      "model_prob": 0.1768,
+      "implied_prob": 0.2,
+      "fair_odds": 5.66,
+      "edge": -11.6,
+      "ev_percent": -11.6,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.85,
+      "model_prob": 0.4752,
+      "implied_prob": 0.5405,
+      "fair_odds": 2.1,
+      "edge": -12.09,
+      "ev_percent": -12.09,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.95,
+      "model_prob": 0.5248,
+      "implied_prob": 0.5128,
+      "fair_odds": 1.91,
+      "edge": 2.34,
+      "ev_percent": 2.34,
+      "stake_recommended_units": 0.01,
+      "has_value": false
+    }
+  }
+}

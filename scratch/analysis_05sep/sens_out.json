@@ -1,0 +1,49 @@
+{
+  "match": "Athletic Club vs Atletico Madrid",
+  "probabilities": {
+    "1": 0.4279,
+    "X": 0.2675,
+    "2": 0.3046,
+    "over_2_5": 0.5002,
+    "under_2_5": 0.4998,
+    "btts_yes": 0.5462,
+    "btts_no": 0.4538,
+    "expected_goals_home": 1.48,
+    "expected_goals_away": 1.2
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 3.15,
+      "model_prob": 0.4279,
+      "implied_prob": 0.3175,
+      "fair_odds": 2.34,
+      "edge": 34.79,
+      "ev_percent": 34.79,
+      "stake_recommended_units": 0.04,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.45,
+      "model_prob": 0.2675,
+      "implied_prob": 0.2899,
+      "fair_odds": 3.74,
+      "edge": -7.71,
+      "ev_percent": -7.71,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.25,
+      "model_prob": 0.3046,
+      "implied_prob": 0.4444,
+      "fair_odds": 3.28,
+      "edge": -31.47,
+      "ev_percent": -31.47,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

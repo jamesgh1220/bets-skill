@@ -1,0 +1,27 @@
+{
+  "match": "Envigado vs Union Magdalena",
+  "probabilities": {
+    "1": 0.4839,
+    "X": 0.2603,
+    "2": 0.2559,
+    "over_2_5": 0.4815,
+    "under_2_5": 0.5185,
+    "btts_yes": 0.5226,
+    "btts_no": 0.4774,
+    "expected_goals_home": 1.52,
+    "expected_goals_away": 1.07
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.15,
+      "model_prob": 0.4839,
+      "implied_prob": 0.4651,
+      "fair_odds": 2.07,
+      "edge": 4.04,
+      "ev_percent": 4.04,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "result_id",
+    "prediction_id",
+    "match_id",
+    "settled_at",
+    "outcome",
+    "stake_units",
+    "odds_taken",
+    "profit_units"
+  ],
+  "properties": {
+    "result_id": {
+      "type": "string"
+    },
+    "prediction_id": {
+      "type": "string"
+    },
+    "match_id": {
+      "type": "string"
+    },
+    "settled_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "outcome": {
+      "type": "string",
+      "enum": [
+        "win",
+        "loss",
+        "push",
+        "void",
+        "half_win",
+        "half_loss"
+      ]
+    },
+    "stake_units": {
+      "type": "number",
+      "minimum": 0
+    },
+    "odds_taken": {
+      "type": "number",
+      "exclusiveMinimum": 1
+    },
+    "closing_odds": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 1
+    },
+    "profit_units": {
+      "type": "number"
+    },
+    "roi": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "clv": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "model_probability": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "source_id",
+    "type",
+    "claim",
+    "retrieved_at",
+    "url",
+    "reliability"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "transfer",
+        "injury",
+        "suspension",
+        "manager",
+        "lineup",
+        "odds",
+        "statistics",
+        "fixture",
+        "other"
+      ]
+    },
+    "claim": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "reliability": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "source_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "match": "America de Cali vs Alianza Valledupar",
+  "probabilities": {
+    "1": 0.6795,
+    "X": 0.205,
+    "2": 0.1155,
+    "over_2_5": 0.4814,
+    "under_2_5": 0.5186,
+    "btts_yes": 0.4057,
+    "btts_no": 0.5943,
+    "expected_goals_home": 1.98,
+    "expected_goals_away": 0.62
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.4,
+      "model_prob": 0.6795,
+      "implied_prob": 0.7143,
+      "fair_odds": 1.47,
+      "edge": -4.87,
+      "ev_percent": -4.87,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.2,
+      "model_prob": 0.205,
+      "implied_prob": 0.2381,
+      "fair_odds": 4.88,
+      "edge": -13.9,
+      "ev_percent": -13.9,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 9.0,
+      "model_prob": 0.1155,
+      "implied_prob": 0.1111,
+      "fair_odds": 8.66,
+      "edge": 3.95,
+      "ev_percent": 3.95,
+      "stake_recommended_units": 0.0,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.9,
+      "model_prob": 0.5186,
+      "implied_prob": 0.5263,
+      "fair_odds": 1.93,
+      "edge": -1.47,
+      "ev_percent": -1.47,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.85,
+      "model_prob": 0.4814,
+      "implied_prob": 0.5405,
+      "fair_odds": 2.08,
+      "edge": -10.94,
+      "ev_percent": -10.94,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_no": {
+      "market": "btts_no",
+      "odds": 1.6,
+      "model_prob": 0.5943,
+      "implied_prob": 0.625,
+      "fair_odds": 1.68,
+      "edge": -4.91,
+      "ev_percent": -4.91,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

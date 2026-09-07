@@ -1,0 +1,71 @@
+{
+  "match": "Estoril vs Arouca",
+  "probabilities": {
+    "1": 0.381,
+    "X": 0.2835,
+    "2": 0.3355,
+    "over_2_5": 0.4303,
+    "under_2_5": 0.5697,
+    "btts_yes": 0.496,
+    "btts_no": 0.504,
+    "expected_goals_home": 1.23,
+    "expected_goals_away": 1.17
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.2,
+      "model_prob": 0.381,
+      "implied_prob": 0.4545,
+      "fair_odds": 2.62,
+      "edge": -16.18,
+      "ev_percent": -16.18,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.4,
+      "model_prob": 0.2835,
+      "implied_prob": 0.2941,
+      "fair_odds": 3.53,
+      "edge": -3.61,
+      "ev_percent": -3.61,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.35,
+      "model_prob": 0.3355,
+      "implied_prob": 0.2985,
+      "fair_odds": 2.98,
+      "edge": 12.39,
+      "ev_percent": 12.39,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.8,
+      "model_prob": 0.5697,
+      "implied_prob": 0.5556,
+      "fair_odds": 1.76,
+      "edge": 2.55,
+      "ev_percent": 2.55,
+      "stake_recommended_units": 0.01,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.68,
+      "model_prob": 0.496,
+      "implied_prob": 0.5952,
+      "fair_odds": 2.02,
+      "edge": -16.67,
+      "ev_percent": -16.67,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

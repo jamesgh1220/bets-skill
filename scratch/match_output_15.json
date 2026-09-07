@@ -1,0 +1,60 @@
+{
+  "match": "Deportivo Riestra vs Velez Sarsfield",
+  "probabilities": {
+    "1": 0.3372,
+    "X": 0.2952,
+    "2": 0.3676,
+    "over_2_5": 0.384,
+    "under_2_5": 0.616,
+    "btts_yes": 0.4586,
+    "btts_no": 0.5414,
+    "expected_goals_home": 1.1,
+    "expected_goals_away": 1.12
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.82,
+      "model_prob": 0.3372,
+      "implied_prob": 0.3546,
+      "fair_odds": 2.97,
+      "edge": -4.91,
+      "ev_percent": -4.91,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 2.78,
+      "model_prob": 0.2952,
+      "implied_prob": 0.3597,
+      "fair_odds": 3.39,
+      "edge": -17.93,
+      "ev_percent": -17.93,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.87,
+      "model_prob": 0.3676,
+      "implied_prob": 0.3484,
+      "fair_odds": 2.72,
+      "edge": 5.5,
+      "ev_percent": 5.5,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.65,
+      "model_prob": 0.616,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.62,
+      "edge": 1.64,
+      "ev_percent": 1.64,
+      "stake_recommended_units": 0.01,
+      "has_value": false
+    }
+  }
+}

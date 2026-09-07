@@ -1,0 +1,19 @@
+{
+  "home_team": "Ajax Amsterdam",
+  "away_team": "Willem II",
+  "xg_home_for": 2.2,
+  "xg_home_against": 0.9,
+  "xg_away_for": 1.1,
+  "xg_away_against": 1.5,
+  "elo_home": 2250,
+  "elo_away": 1650,
+  "odds": {
+    "1": 1.25,
+    "X": 6.50,
+    "2": 12.00,
+    "under_2_5": 2.30,
+    "over_2_5": 1.60,
+    "btts_yes": 1.85,
+    "btts_no": 1.95
+  }
+}

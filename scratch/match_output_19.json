@@ -1,0 +1,60 @@
+{
+  "match": "Atletico Tucuman vs Belgrano",
+  "probabilities": {
+    "1": 0.4372,
+    "X": 0.2914,
+    "2": 0.2714,
+    "over_2_5": 0.3706,
+    "under_2_5": 0.6294,
+    "btts_yes": 0.4385,
+    "btts_no": 0.5615,
+    "expected_goals_home": 1.25,
+    "expected_goals_away": 0.93
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.88,
+      "model_prob": 0.4372,
+      "implied_prob": 0.3472,
+      "fair_odds": 2.29,
+      "edge": 25.91,
+      "ev_percent": 25.91,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 2.92,
+      "model_prob": 0.2914,
+      "implied_prob": 0.3425,
+      "fair_odds": 3.43,
+      "edge": -14.91,
+      "ev_percent": -14.91,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.9,
+      "model_prob": 0.2714,
+      "implied_prob": 0.3448,
+      "fair_odds": 3.68,
+      "edge": -21.29,
+      "ev_percent": -21.29,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.55,
+      "model_prob": 0.6294,
+      "implied_prob": 0.6452,
+      "fair_odds": 1.59,
+      "edge": -2.44,
+      "ev_percent": -2.44,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

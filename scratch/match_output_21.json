@@ -1,0 +1,60 @@
+{
+  "match": "Junior vs Independiente Santa Fe",
+  "probabilities": {
+    "1": 0.3683,
+    "X": 0.2895,
+    "2": 0.3422,
+    "over_2_5": 0.404,
+    "under_2_5": 0.596,
+    "btts_yes": 0.4749,
+    "btts_no": 0.5251,
+    "expected_goals_home": 1.15,
+    "expected_goals_away": 1.15
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.89,
+      "model_prob": 0.3683,
+      "implied_prob": 0.5291,
+      "fair_odds": 2.72,
+      "edge": -30.39,
+      "ev_percent": -30.39,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.35,
+      "model_prob": 0.2895,
+      "implied_prob": 0.2985,
+      "fair_odds": 3.45,
+      "edge": -3.02,
+      "ev_percent": -3.02,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.03,
+      "model_prob": 0.3422,
+      "implied_prob": 0.2481,
+      "fair_odds": 2.92,
+      "edge": 37.91,
+      "ev_percent": 37.91,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.6,
+      "model_prob": 0.596,
+      "implied_prob": 0.625,
+      "fair_odds": 1.68,
+      "edge": -4.64,
+      "ev_percent": -4.64,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

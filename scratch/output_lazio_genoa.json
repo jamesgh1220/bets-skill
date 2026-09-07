@@ -1,0 +1,60 @@
+{
+  "match": "Lazio vs Genoa",
+  "probabilities": {
+    "1": 0.4831,
+    "X": 0.2677,
+    "2": 0.2492,
+    "over_2_5": 0.425,
+    "under_2_5": 0.575,
+    "btts_yes": 0.483,
+    "btts_no": 0.517,
+    "expected_goals_home": 1.36,
+    "expected_goals_away": 1.02
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.88,
+      "model_prob": 0.4831,
+      "implied_prob": 0.5319,
+      "fair_odds": 2.07,
+      "edge": -9.18,
+      "ev_percent": -9.18,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.64,
+      "model_prob": 0.2677,
+      "implied_prob": 0.2747,
+      "fair_odds": 3.74,
+      "edge": -2.56,
+      "ev_percent": -2.56,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.82,
+      "model_prob": 0.2492,
+      "implied_prob": 0.2075,
+      "fair_odds": 4.01,
+      "edge": 20.11,
+      "ev_percent": 20.11,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 2.0,
+      "model_prob": 0.575,
+      "implied_prob": 0.5,
+      "fair_odds": 1.74,
+      "edge": 15.0,
+      "ev_percent": 15.0,
+      "stake_recommended_units": 0.04,
+      "has_value": true
+    }
+  }
+}

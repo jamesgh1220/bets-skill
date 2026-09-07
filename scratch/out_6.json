@@ -1,0 +1,60 @@
+{
+  "match": "Al-Hilal vs Al-Ahli SC",
+  "probabilities": {
+    "1": 0.598,
+    "X": 0.2132,
+    "2": 0.1888,
+    "over_2_5": 0.6199,
+    "under_2_5": 0.3801,
+    "btts_yes": 0.5961,
+    "btts_no": 0.4039,
+    "expected_goals_home": 2.08,
+    "expected_goals_away": 1.12
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.66,
+      "model_prob": 0.598,
+      "implied_prob": 0.6024,
+      "fair_odds": 1.67,
+      "edge": -0.73,
+      "ev_percent": -0.73,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.75,
+      "model_prob": 0.2132,
+      "implied_prob": 0.2667,
+      "fair_odds": 4.69,
+      "edge": -20.05,
+      "ev_percent": -20.05,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.0,
+      "model_prob": 0.1888,
+      "implied_prob": 0.25,
+      "fair_odds": 5.3,
+      "edge": -24.48,
+      "ev_percent": -24.48,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.57,
+      "model_prob": 0.6199,
+      "implied_prob": 0.6369,
+      "fair_odds": 1.61,
+      "edge": -2.68,
+      "ev_percent": -2.68,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

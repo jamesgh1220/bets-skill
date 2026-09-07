@@ -1,0 +1,82 @@
+{
+  "match": "Strasbourg vs Lens",
+  "probabilities": {
+    "1": 0.2733,
+    "X": 0.2477,
+    "2": 0.479,
+    "over_2_5": 0.5878,
+    "under_2_5": 0.4122,
+    "btts_yes": 0.5987,
+    "btts_no": 0.4013,
+    "expected_goals_home": 1.23,
+    "expected_goals_away": 1.83
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 3.65,
+      "model_prob": 0.2733,
+      "implied_prob": 0.274,
+      "fair_odds": 3.66,
+      "edge": -0.25,
+      "ev_percent": -0.25,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.7,
+      "model_prob": 0.2477,
+      "implied_prob": 0.2703,
+      "fair_odds": 4.04,
+      "edge": -8.35,
+      "ev_percent": -8.35,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.1,
+      "model_prob": 0.479,
+      "implied_prob": 0.4762,
+      "fair_odds": 2.09,
+      "edge": 0.59,
+      "ev_percent": 0.59,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.78,
+      "model_prob": 0.5878,
+      "implied_prob": 0.5618,
+      "fair_odds": 1.7,
+      "edge": 4.63,
+      "ev_percent": 4.63,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 2.02,
+      "model_prob": 0.4122,
+      "implied_prob": 0.495,
+      "fair_odds": 2.43,
+      "edge": -16.74,
+      "ev_percent": -16.74,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.7,
+      "model_prob": 0.5987,
+      "implied_prob": 0.5882,
+      "fair_odds": 1.67,
+      "edge": 1.78,
+      "ev_percent": 1.78,
+      "stake_recommended_units": 0.01,
+      "has_value": false
+    }
+  }
+}

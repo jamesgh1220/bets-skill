@@ -1,0 +1,11 @@
+{
+  "home_team": "Napoli",
+  "away_team": "Como",
+  "xg_home_for": 1.35,
+  "xg_home_against": 0.98,
+  "xg_away_for": 1.64,
+  "xg_away_against": 0.90,
+  "elo_home": 1950,
+  "elo_away": 1900,
+  "odds": { "1": 2.60, "X": 3.10, "2": 2.70, "under_2_5": 2.15 }
+}

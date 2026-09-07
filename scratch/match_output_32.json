@@ -1,0 +1,82 @@
+{
+  "match": "AZ Alkmaar vs Go Ahead Eagles",
+  "probabilities": {
+    "1": 0.6287,
+    "X": 0.197,
+    "2": 0.1743,
+    "over_2_5": 0.6778,
+    "under_2_5": 0.3222,
+    "btts_yes": 0.6301,
+    "btts_no": 0.3699,
+    "expected_goals_home": 2.31,
+    "expected_goals_away": 1.19
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.48,
+      "model_prob": 0.6287,
+      "implied_prob": 0.6757,
+      "fair_odds": 1.59,
+      "edge": -6.95,
+      "ev_percent": -6.95,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.6,
+      "model_prob": 0.197,
+      "implied_prob": 0.2174,
+      "fair_odds": 5.08,
+      "edge": -9.38,
+      "ev_percent": -9.38,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 6.2,
+      "model_prob": 0.1743,
+      "implied_prob": 0.1613,
+      "fair_odds": 5.74,
+      "edge": 8.07,
+      "ev_percent": 8.07,
+      "stake_recommended_units": 0.0,
+      "has_value": true
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.58,
+      "model_prob": 0.6778,
+      "implied_prob": 0.6329,
+      "fair_odds": 1.48,
+      "edge": 7.09,
+      "ev_percent": 7.09,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 2.35,
+      "model_prob": 0.3222,
+      "implied_prob": 0.4255,
+      "fair_odds": 3.1,
+      "edge": -24.28,
+      "ev_percent": -24.28,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.67,
+      "model_prob": 0.6301,
+      "implied_prob": 0.5988,
+      "fair_odds": 1.59,
+      "edge": 5.23,
+      "ev_percent": 5.23,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    }
+  }
+}

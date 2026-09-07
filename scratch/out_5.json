@@ -1,0 +1,93 @@
+{
+  "match": "Torino vs Monza",
+  "probabilities": {
+    "1": 0.488,
+    "X": 0.2397,
+    "2": 0.2723,
+    "over_2_5": 0.5879,
+    "under_2_5": 0.4121,
+    "btts_yes": 0.6098,
+    "btts_no": 0.3902,
+    "expected_goals_home": 1.73,
+    "expected_goals_away": 1.32
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.76,
+      "model_prob": 0.488,
+      "implied_prob": 0.5682,
+      "fair_odds": 2.05,
+      "edge": -14.11,
+      "ev_percent": -14.11,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.3,
+      "model_prob": 0.2397,
+      "implied_prob": 0.303,
+      "fair_odds": 4.17,
+      "edge": -20.9,
+      "ev_percent": -20.9,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.9,
+      "model_prob": 0.2723,
+      "implied_prob": 0.2564,
+      "fair_odds": 3.67,
+      "edge": 6.2,
+      "ev_percent": 6.2,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.9,
+      "model_prob": 0.5879,
+      "implied_prob": 0.5263,
+      "fair_odds": 1.7,
+      "edge": 11.7,
+      "ev_percent": 11.7,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.9,
+      "model_prob": 0.4121,
+      "implied_prob": 0.5263,
+      "fair_odds": 2.43,
+      "edge": -21.7,
+      "ev_percent": -21.7,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 2.0,
+      "model_prob": 0.6098,
+      "implied_prob": 0.5,
+      "fair_odds": 1.64,
+      "edge": 21.96,
+      "ev_percent": 21.96,
+      "stake_recommended_units": 0.05,
+      "has_value": true
+    },
+    "btts_no": {
+      "market": "btts_no",
+      "odds": 1.75,
+      "model_prob": 0.3902,
+      "implied_prob": 0.5714,
+      "fair_odds": 2.56,
+      "edge": -31.72,
+      "ev_percent": -31.72,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

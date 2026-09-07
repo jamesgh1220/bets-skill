@@ -1,0 +1,82 @@
+{
+  "match": "Auxerre vs Angers",
+  "probabilities": {
+    "1": 0.4697,
+    "X": 0.2632,
+    "2": 0.267,
+    "over_2_5": 0.4753,
+    "under_2_5": 0.5247,
+    "btts_yes": 0.5219,
+    "btts_no": 0.4781,
+    "expected_goals_home": 1.48,
+    "expected_goals_away": 1.1
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.95,
+      "model_prob": 0.4697,
+      "implied_prob": 0.5128,
+      "fair_odds": 2.13,
+      "edge": -8.41,
+      "ev_percent": -8.41,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.5,
+      "model_prob": 0.2632,
+      "implied_prob": 0.2857,
+      "fair_odds": 3.8,
+      "edge": -7.88,
+      "ev_percent": -7.88,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.1,
+      "model_prob": 0.267,
+      "implied_prob": 0.2439,
+      "fair_odds": 3.75,
+      "edge": 9.47,
+      "ev_percent": 9.47,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 2.0,
+      "model_prob": 0.4753,
+      "implied_prob": 0.5,
+      "fair_odds": 2.1,
+      "edge": -4.94,
+      "ev_percent": -4.94,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.8,
+      "model_prob": 0.5247,
+      "implied_prob": 0.5556,
+      "fair_odds": 1.91,
+      "edge": -5.55,
+      "ev_percent": -5.55,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.8,
+      "model_prob": 0.5219,
+      "implied_prob": 0.5556,
+      "fair_odds": 1.92,
+      "edge": -6.06,
+      "ev_percent": -6.06,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

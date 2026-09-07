@@ -1,0 +1,19 @@
+{
+  "home_team": "PSG",
+  "away_team": "Monaco",
+  "xg_home_for": 2.1,
+  "xg_home_against": 0.8,
+  "xg_away_for": 1.1,
+  "xg_away_against": 1.6,
+  "elo_home": 1680,
+  "elo_away": 1560,
+  "odds": {
+    "1": 1.40,
+    "X": 5.30,
+    "2": 6.50,
+    "under_2_5": 2.05,
+    "over_2_5": 1.72,
+    "btts_yes": 1.95,
+    "btts_no": 1.78
+  }
+}

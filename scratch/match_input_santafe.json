@@ -1,0 +1,16 @@
+{
+  "home_team": "Independiente Santa Fe",
+  "away_team": "Fortaleza",
+  "xg_home_for": 1.40,
+  "xg_home_against": 0.85,
+  "xg_away_for": 0.95,
+  "xg_away_against": 1.25,
+  "elo_home": 1580,
+  "elo_away": 1470,
+  "odds": {
+    "1": 1.95,
+    "X": 3.20,
+    "2": 4.20,
+    "under_2_5": 1.65
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "match": "Aston Villa vs Arsenal",
+  "probabilities": {
+    "1": 0.3354,
+    "X": 0.2601,
+    "2": 0.4045,
+    "over_2_5": 0.554,
+    "under_2_5": 0.446,
+    "btts_yes": 0.5915,
+    "btts_no": 0.4085,
+    "expected_goals_home": 1.38,
+    "expected_goals_away": 1.52
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 3.6,
+      "model_prob": 0.3354,
+      "implied_prob": 0.2778,
+      "fair_odds": 2.98,
+      "edge": 20.74,
+      "ev_percent": 20.74,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.3,
+      "model_prob": 0.2601,
+      "implied_prob": 0.303,
+      "fair_odds": 3.84,
+      "edge": -14.17,
+      "ev_percent": -14.17,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.9,
+      "model_prob": 0.4045,
+      "implied_prob": 0.5263,
+      "fair_odds": 2.47,
+      "edge": -23.14,
+      "ev_percent": -23.14,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

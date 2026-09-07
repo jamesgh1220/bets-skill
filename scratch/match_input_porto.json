@@ -1,0 +1,19 @@
+{
+  "home_team": "FC Porto",
+  "away_team": "Moreirense",
+  "xg_home_for": 2.3,
+  "xg_home_against": 0.7,
+  "xg_away_for": 0.7,
+  "xg_away_against": 2.0,
+  "elo_home": 1640,
+  "elo_away": 1400,
+  "odds": {
+    "1": 1.17,
+    "X": 7.00,
+    "2": 19.00,
+    "under_2_5": 2.15,
+    "over_2_5": 1.67,
+    "btts_yes": 2.10,
+    "btts_no": 1.68
+  }
+}

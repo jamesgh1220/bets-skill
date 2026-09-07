@@ -1,0 +1,19 @@
+{
+  "home_team": "Genoa",
+  "away_team": "Como",
+  "xg_home_for": 1.1,
+  "xg_home_against": 1.6,
+  "xg_away_for": 1.6,
+  "xg_away_against": 1.2,
+  "elo_home": 1450,
+  "elo_away": 1520,
+  "odds": {
+    "1": 5.25,
+    "X": 3.10,
+    "2": 1.80,
+    "under_2_5": 1.60,
+    "over_2_5": 2.30,
+    "btts_yes": 1.95,
+    "btts_no": 1.80
+  }
+}

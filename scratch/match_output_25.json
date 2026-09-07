@@ -1,0 +1,60 @@
+{
+  "match": "Atlanta United vs Charlotte FC",
+  "probabilities": {
+    "1": 0.4304,
+    "X": 0.2668,
+    "2": 0.3028,
+    "over_2_5": 0.494,
+    "under_2_5": 0.506,
+    "btts_yes": 0.5423,
+    "btts_no": 0.4577,
+    "expected_goals_home": 1.45,
+    "expected_goals_away": 1.2
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.6,
+      "model_prob": 0.4304,
+      "implied_prob": 0.3846,
+      "fair_odds": 2.32,
+      "edge": 11.9,
+      "ev_percent": 11.9,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.45,
+      "model_prob": 0.2668,
+      "implied_prob": 0.2899,
+      "fair_odds": 3.75,
+      "edge": -7.95,
+      "ev_percent": -7.95,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.7,
+      "model_prob": 0.3028,
+      "implied_prob": 0.3704,
+      "fair_odds": 3.3,
+      "edge": -18.24,
+      "ev_percent": -18.24,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.75,
+      "model_prob": 0.494,
+      "implied_prob": 0.5714,
+      "fair_odds": 2.02,
+      "edge": -13.55,
+      "ev_percent": -13.55,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "match": "Barranquilla vs Boca Juniors de Cali",
+  "probabilities": {
+    "1": 0.4164,
+    "X": 0.2733,
+    "2": 0.3103,
+    "over_2_5": 0.4689,
+    "under_2_5": 0.5311,
+    "btts_yes": 0.524,
+    "btts_no": 0.476,
+    "expected_goals_home": 1.38,
+    "expected_goals_away": 1.18
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.6,
+      "model_prob": 0.4164,
+      "implied_prob": 0.3846,
+      "fair_odds": 2.4,
+      "edge": 8.26,
+      "ev_percent": 8.26,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    }
+  }
+}

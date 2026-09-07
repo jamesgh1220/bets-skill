@@ -1,0 +1,93 @@
+{
+  "match": "Ipswich vs Liverpool",
+  "probabilities": {
+    "1": 0.2475,
+    "X": 0.2514,
+    "2": 0.5011,
+    "over_2_5": 0.5305,
+    "under_2_5": 0.4695,
+    "btts_yes": 0.5481,
+    "btts_no": 0.4519,
+    "expected_goals_home": 1.07,
+    "expected_goals_away": 1.73
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 5.5,
+      "model_prob": 0.2475,
+      "implied_prob": 0.1818,
+      "fair_odds": 4.04,
+      "edge": 36.13,
+      "ev_percent": 36.13,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.75,
+      "model_prob": 0.2514,
+      "implied_prob": 0.2105,
+      "fair_odds": 3.98,
+      "edge": 19.42,
+      "ev_percent": 19.42,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.51,
+      "model_prob": 0.5011,
+      "implied_prob": 0.6623,
+      "fair_odds": 2.0,
+      "edge": -24.33,
+      "ev_percent": -24.33,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.85,
+      "model_prob": 0.4695,
+      "implied_prob": 0.5405,
+      "fair_odds": 2.13,
+      "edge": -13.14,
+      "ev_percent": -13.14,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.95,
+      "model_prob": 0.5305,
+      "implied_prob": 0.5128,
+      "fair_odds": 1.89,
+      "edge": 3.45,
+      "ev_percent": 3.45,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.75,
+      "model_prob": 0.5481,
+      "implied_prob": 0.5714,
+      "fair_odds": 1.82,
+      "edge": -4.08,
+      "ev_percent": -4.08,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_no": {
+      "market": "btts_no",
+      "odds": 2.05,
+      "model_prob": 0.4519,
+      "implied_prob": 0.4878,
+      "fair_odds": 2.21,
+      "edge": -7.36,
+      "ev_percent": -7.36,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

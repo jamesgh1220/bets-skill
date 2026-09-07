@@ -1,0 +1,19 @@
+{
+  "home_team": "Liverpool",
+  "away_team": "Nottingham Forest",
+  "xg_home_for": 2.1,
+  "xg_home_against": 1.0,
+  "xg_away_for": 1.2,
+  "xg_away_against": 1.4,
+  "elo_home": 2158,
+  "elo_away": 2058,
+  "odds": {
+    "1": 1.45,
+    "X": 4.70,
+    "2": 6.10,
+    "under_2_5": 2.20,
+    "over_2_5": 1.65,
+    "btts_yes": 1.74,
+    "btts_no": 2.05
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "match": "AFC Bournemouth vs Everton FC",
+  "probabilities": {
+    "1": 0.5329,
+    "X": 0.2462,
+    "2": 0.2209,
+    "over_2_5": 0.5063,
+    "under_2_5": 0.4937,
+    "btts_yes": 0.528,
+    "btts_no": 0.472,
+    "expected_goals_home": 1.68,
+    "expected_goals_away": 1.02
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.85,
+      "model_prob": 0.5329,
+      "implied_prob": 0.5405,
+      "fair_odds": 1.88,
+      "edge": -1.41,
+      "ev_percent": -1.41,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.6,
+      "model_prob": 0.2462,
+      "implied_prob": 0.2778,
+      "fair_odds": 4.06,
+      "edge": -11.37,
+      "ev_percent": -11.37,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.5,
+      "model_prob": 0.2209,
+      "implied_prob": 0.2222,
+      "fair_odds": 4.53,
+      "edge": -0.59,
+      "ev_percent": -0.59,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.95,
+      "model_prob": 0.4937,
+      "implied_prob": 0.5128,
+      "fair_odds": 2.03,
+      "edge": -3.73,
+      "ev_percent": -3.73,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.85,
+      "model_prob": 0.5063,
+      "implied_prob": 0.5405,
+      "fair_odds": 1.98,
+      "edge": -6.33,
+      "ev_percent": -6.33,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.8,
+      "model_prob": 0.528,
+      "implied_prob": 0.5556,
+      "fair_odds": 1.89,
+      "edge": -4.96,
+      "ev_percent": -4.96,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_no": {
+      "market": "btts_no",
+      "odds": 2.0,
+      "model_prob": 0.472,
+      "implied_prob": 0.5,
+      "fair_odds": 2.12,
+      "edge": -5.6,
+      "ev_percent": -5.6,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

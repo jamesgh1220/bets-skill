@@ -1,0 +1,11 @@
+{
+  "home_team": "Leeds United",
+  "away_team": "Brentford",
+  "xg_home_for": 1.42,
+  "xg_home_against": 1.44,
+  "xg_away_for": 1.58,
+  "xg_away_against": 1.38,
+  "elo_home": 1900,
+  "elo_away": 1850,
+  "odds": { "1": 2.40, "X": 3.40, "2": 2.60, "under_2_5": 2.05 }
+}

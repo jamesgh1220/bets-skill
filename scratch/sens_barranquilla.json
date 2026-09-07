@@ -1,0 +1,11 @@
+{
+  "home_team": "Barranquilla",
+  "away_team": "Boca Juniors de Cali",
+  "xg_home_for": 1.0,
+  "xg_home_against": 1.5,
+  "xg_away_for": 1.1,
+  "xg_away_against": 1.5,
+  "elo_home": 1380,
+  "elo_away": 1410,
+  "odds": { "1": 2.60 }
+}

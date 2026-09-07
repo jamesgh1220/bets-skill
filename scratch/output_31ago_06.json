@@ -1,0 +1,71 @@
+{
+  "match": "Benfica vs Estoril",
+  "probabilities": {
+    "1": 0.78,
+    "X": 0.1589,
+    "2": 0.0611,
+    "over_2_5": 0.5242,
+    "under_2_5": 0.4758,
+    "btts_yes": 0.3818,
+    "btts_no": 0.6182,
+    "expected_goals_home": 2.23,
+    "expected_goals_away": 0.55
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.15,
+      "model_prob": 0.78,
+      "implied_prob": 0.8696,
+      "fair_odds": 1.28,
+      "edge": -10.3,
+      "ev_percent": -10.3,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 9.8,
+      "model_prob": 0.1589,
+      "implied_prob": 0.102,
+      "fair_odds": 6.29,
+      "edge": 55.72,
+      "ev_percent": 55.72,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 22.0,
+      "model_prob": 0.0611,
+      "implied_prob": 0.0455,
+      "fair_odds": 16.37,
+      "edge": 34.42,
+      "ev_percent": 34.42,
+      "stake_recommended_units": 0.0,
+      "has_value": true
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.4,
+      "model_prob": 0.5242,
+      "implied_prob": 0.7143,
+      "fair_odds": 1.91,
+      "edge": -26.61,
+      "ev_percent": -26.61,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 2.8,
+      "model_prob": 0.4758,
+      "implied_prob": 0.3571,
+      "fair_odds": 2.1,
+      "edge": 33.22,
+      "ev_percent": 33.22,
+      "stake_recommended_units": 0.05,
+      "has_value": true
+    }
+  }
+}

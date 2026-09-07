@@ -1,0 +1,2721 @@
+[
+  {
+    "match": "Liverpool vs Nottingham Forest",
+    "probabilities": {
+      "1": 0.5296,
+      "X": 0.2423,
+      "2": 0.2281,
+      "over_2_5": 0.5281,
+      "under_2_5": 0.4719,
+      "btts_yes": 0.5516,
+      "btts_no": 0.4484,
+      "expected_goals_home": 1.69,
+      "expected_goals_away": 1.1
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.45,
+        "model_prob": 0.5296,
+        "implied_prob": 0.6897,
+        "fair_odds": 1.89,
+        "edge": -23.21,
+        "ev_percent": -23.21,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 4.25,
+        "model_prob": 0.2423,
+        "implied_prob": 0.2353,
+        "fair_odds": 4.13,
+        "edge": 2.98,
+        "ev_percent": 2.98,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 5.5,
+        "model_prob": 0.2281,
+        "implied_prob": 0.1818,
+        "fair_odds": 4.38,
+        "edge": 25.46,
+        "ev_percent": 25.46,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.57,
+        "model_prob": 0.5281,
+        "implied_prob": 0.6369,
+        "fair_odds": 1.89,
+        "edge": -17.09,
+        "ev_percent": -17.09,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 2.35,
+        "model_prob": 0.4719,
+        "implied_prob": 0.4255,
+        "fair_odds": 2.12,
+        "edge": 10.9,
+        "ev_percent": 10.9,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.7,
+        "model_prob": 0.5516,
+        "implied_prob": 0.5882,
+        "fair_odds": 1.81,
+        "edge": -6.23,
+        "ev_percent": -6.23,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Premier League"
+  },
+  {
+    "match": "AFC Bournemouth vs Everton",
+    "probabilities": {
+      "1": 0.4862,
+      "X": 0.2464,
+      "2": 0.2674,
+      "over_2_5": 0.5586,
+      "under_2_5": 0.4414,
+      "btts_yes": 0.5844,
+      "btts_no": 0.4156,
+      "expected_goals_home": 1.69,
+      "expected_goals_away": 1.23
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.1,
+        "model_prob": 0.4862,
+        "implied_prob": 0.4762,
+        "fair_odds": 2.06,
+        "edge": 2.1,
+        "ev_percent": 2.1,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.5,
+        "model_prob": 0.2464,
+        "implied_prob": 0.2857,
+        "fair_odds": 4.06,
+        "edge": -13.76,
+        "ev_percent": -13.76,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 3.4,
+        "model_prob": 0.2674,
+        "implied_prob": 0.2941,
+        "fair_odds": 3.74,
+        "edge": -9.08,
+        "ev_percent": -9.08,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.85,
+        "model_prob": 0.5586,
+        "implied_prob": 0.5405,
+        "fair_odds": 1.79,
+        "edge": 3.34,
+        "ev_percent": 3.34,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.95,
+        "model_prob": 0.4414,
+        "implied_prob": 0.5128,
+        "fair_odds": 2.27,
+        "edge": -13.93,
+        "ev_percent": -13.93,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.72,
+        "model_prob": 0.5844,
+        "implied_prob": 0.5814,
+        "fair_odds": 1.71,
+        "edge": 0.52,
+        "ev_percent": 0.52,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Premier League"
+  },
+  {
+    "match": "Tottenham Hotspur vs Newcastle United",
+    "probabilities": {
+      "1": 0.3727,
+      "X": 0.2729,
+      "2": 0.3543,
+      "over_2_5": 0.4915,
+      "under_2_5": 0.5085,
+      "btts_yes": 0.5445,
+      "btts_no": 0.4555,
+      "expected_goals_home": 1.33,
+      "expected_goals_away": 1.31
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.25,
+        "model_prob": 0.3727,
+        "implied_prob": 0.4444,
+        "fair_odds": 2.68,
+        "edge": -16.14,
+        "ev_percent": -16.14,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.6,
+        "model_prob": 0.2729,
+        "implied_prob": 0.2778,
+        "fair_odds": 3.66,
+        "edge": -1.76,
+        "ev_percent": -1.76,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.95,
+        "model_prob": 0.3543,
+        "implied_prob": 0.339,
+        "fair_odds": 2.82,
+        "edge": 4.52,
+        "ev_percent": 4.52,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.65,
+        "model_prob": 0.4915,
+        "implied_prob": 0.6061,
+        "fair_odds": 2.03,
+        "edge": -18.9,
+        "ev_percent": -18.9,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 2.2,
+        "model_prob": 0.5085,
+        "implied_prob": 0.4545,
+        "fair_odds": 1.97,
+        "edge": 11.87,
+        "ev_percent": 11.87,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.57,
+        "model_prob": 0.5445,
+        "implied_prob": 0.6369,
+        "fair_odds": 1.84,
+        "edge": -14.51,
+        "ev_percent": -14.51,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Premier League"
+  },
+  {
+    "match": "Levante vs Real Betis",
+    "probabilities": {
+      "1": 0.3667,
+      "X": 0.2662,
+      "2": 0.3671,
+      "over_2_5": 0.5388,
+      "under_2_5": 0.4612,
+      "btts_yes": 0.5811,
+      "btts_no": 0.4189,
+      "expected_goals_home": 1.42,
+      "expected_goals_away": 1.42
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 3.25,
+        "model_prob": 0.3667,
+        "implied_prob": 0.3077,
+        "fair_odds": 2.73,
+        "edge": 19.18,
+        "ev_percent": 19.18,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.35,
+        "model_prob": 0.2662,
+        "implied_prob": 0.2985,
+        "fair_odds": 3.76,
+        "edge": -10.82,
+        "ev_percent": -10.82,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.23,
+        "model_prob": 0.3671,
+        "implied_prob": 0.4484,
+        "fair_odds": 2.72,
+        "edge": -18.14,
+        "ev_percent": -18.14,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.91,
+        "model_prob": 0.5388,
+        "implied_prob": 0.5236,
+        "fair_odds": 1.86,
+        "edge": 2.91,
+        "ev_percent": 2.91,
+        "stake_recommended_units": 0.01,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.9,
+        "model_prob": 0.4612,
+        "implied_prob": 0.5263,
+        "fair_odds": 2.17,
+        "edge": -12.37,
+        "ev_percent": -12.37,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.75,
+        "model_prob": 0.5811,
+        "implied_prob": 0.5714,
+        "fair_odds": 1.72,
+        "edge": 1.69,
+        "ev_percent": 1.69,
+        "stake_recommended_units": 0.01,
+        "has_value": false
+      }
+    },
+    "league": "LaLiga"
+  },
+  {
+    "match": "Real Sociedad vs Espanyol",
+    "probabilities": {
+      "1": 0.4819,
+      "X": 0.2463,
+      "2": 0.2718,
+      "over_2_5": 0.5575,
+      "under_2_5": 0.4425,
+      "btts_yes": 0.5862,
+      "btts_no": 0.4138,
+      "expected_goals_home": 1.65,
+      "expected_goals_away": 1.26
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.85,
+        "model_prob": 0.4819,
+        "implied_prob": 0.5405,
+        "fair_odds": 2.08,
+        "edge": -10.85,
+        "ev_percent": -10.85,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.7,
+        "model_prob": 0.2463,
+        "implied_prob": 0.2703,
+        "fair_odds": 4.06,
+        "edge": -8.87,
+        "ev_percent": -8.87,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 4.3,
+        "model_prob": 0.2718,
+        "implied_prob": 0.2326,
+        "fair_odds": 3.68,
+        "edge": 16.87,
+        "ev_percent": 16.87,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.83,
+        "model_prob": 0.5575,
+        "implied_prob": 0.5464,
+        "fair_odds": 1.79,
+        "edge": 2.02,
+        "ev_percent": 2.02,
+        "stake_recommended_units": 0.01,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.98,
+        "model_prob": 0.4425,
+        "implied_prob": 0.5051,
+        "fair_odds": 2.26,
+        "edge": -12.39,
+        "ev_percent": -12.39,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.73,
+        "model_prob": 0.5862,
+        "implied_prob": 0.578,
+        "fair_odds": 1.71,
+        "edge": 1.41,
+        "ev_percent": 1.41,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "LaLiga"
+  },
+  {
+    "match": "Sevilla vs Atletico de Madrid",
+    "probabilities": {
+      "1": 0.3181,
+      "X": 0.2642,
+      "2": 0.4177,
+      "over_2_5": 0.5137,
+      "under_2_5": 0.4863,
+      "btts_yes": 0.5596,
+      "btts_no": 0.4404,
+      "expected_goals_home": 1.27,
+      "expected_goals_away": 1.46
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 3.6,
+        "model_prob": 0.3181,
+        "implied_prob": 0.2778,
+        "fair_odds": 3.14,
+        "edge": 14.52,
+        "ev_percent": 14.52,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.4,
+        "model_prob": 0.2642,
+        "implied_prob": 0.2941,
+        "fair_odds": 3.79,
+        "edge": -10.17,
+        "ev_percent": -10.17,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.05,
+        "model_prob": 0.4177,
+        "implied_prob": 0.4878,
+        "fair_odds": 2.39,
+        "edge": -14.37,
+        "ev_percent": -14.37,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 2.0,
+        "model_prob": 0.5137,
+        "implied_prob": 0.5,
+        "fair_odds": 1.95,
+        "edge": 2.74,
+        "ev_percent": 2.74,
+        "stake_recommended_units": 0.01,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.8,
+        "model_prob": 0.4863,
+        "implied_prob": 0.5556,
+        "fair_odds": 2.06,
+        "edge": -12.47,
+        "ev_percent": -12.47,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.8,
+        "model_prob": 0.5596,
+        "implied_prob": 0.5556,
+        "fair_odds": 1.79,
+        "edge": 0.73,
+        "ev_percent": 0.73,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "LaLiga"
+  },
+  {
+    "match": "Fiorentina vs Frosinone",
+    "probabilities": {
+      "1": 0.5361,
+      "X": 0.2488,
+      "2": 0.2152,
+      "over_2_5": 0.4878,
+      "under_2_5": 0.5122,
+      "btts_yes": 0.5102,
+      "btts_no": 0.4898,
+      "expected_goals_home": 1.65,
+      "expected_goals_away": 0.98
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.62,
+        "model_prob": 0.5361,
+        "implied_prob": 0.6173,
+        "fair_odds": 1.87,
+        "edge": -13.15,
+        "ev_percent": -13.15,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.9,
+        "model_prob": 0.2488,
+        "implied_prob": 0.2564,
+        "fair_odds": 4.02,
+        "edge": -2.97,
+        "ev_percent": -2.97,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 5.5,
+        "model_prob": 0.2152,
+        "implied_prob": 0.1818,
+        "fair_odds": 4.65,
+        "edge": 18.36,
+        "ev_percent": 18.36,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.8,
+        "model_prob": 0.4878,
+        "implied_prob": 0.5556,
+        "fair_odds": 2.05,
+        "edge": -12.2,
+        "ev_percent": -12.2,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.95,
+        "model_prob": 0.5122,
+        "implied_prob": 0.5128,
+        "fair_odds": 1.95,
+        "edge": -0.12,
+        "ev_percent": -0.12,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.8,
+        "model_prob": 0.5102,
+        "implied_prob": 0.5556,
+        "fair_odds": 1.96,
+        "edge": -8.16,
+        "ev_percent": -8.16,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Serie A"
+  },
+  {
+    "match": "Monza vs Udinese",
+    "probabilities": {
+      "1": 0.3205,
+      "X": 0.2616,
+      "2": 0.4179,
+      "over_2_5": 0.5353,
+      "under_2_5": 0.4647,
+      "btts_yes": 0.5724,
+      "btts_no": 0.4276,
+      "expected_goals_home": 1.25,
+      "expected_goals_away": 1.56
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.95,
+        "model_prob": 0.3205,
+        "implied_prob": 0.339,
+        "fair_odds": 3.12,
+        "edge": -5.45,
+        "ev_percent": -5.45,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.25,
+        "model_prob": 0.2616,
+        "implied_prob": 0.3077,
+        "fair_odds": 3.82,
+        "edge": -14.98,
+        "ev_percent": -14.98,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.4,
+        "model_prob": 0.4179,
+        "implied_prob": 0.4167,
+        "fair_odds": 2.39,
+        "edge": 0.3,
+        "ev_percent": 0.3,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 2.15,
+        "model_prob": 0.5353,
+        "implied_prob": 0.4651,
+        "fair_odds": 1.87,
+        "edge": 15.09,
+        "ev_percent": 15.09,
+        "stake_recommended_units": 0.03,
+        "has_value": true
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.67,
+        "model_prob": 0.4647,
+        "implied_prob": 0.5988,
+        "fair_odds": 2.15,
+        "edge": -22.4,
+        "ev_percent": -22.4,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.95,
+        "model_prob": 0.5724,
+        "implied_prob": 0.5128,
+        "fair_odds": 1.75,
+        "edge": 11.62,
+        "ev_percent": 11.62,
+        "stake_recommended_units": 0.03,
+        "has_value": true
+      }
+    },
+    "league": "Serie A"
+  },
+  {
+    "match": "Sassuolo vs Torino",
+    "probabilities": {
+      "1": 0.4415,
+      "X": 0.2665,
+      "2": 0.292,
+      "over_2_5": 0.4853,
+      "under_2_5": 0.5147,
+      "btts_yes": 0.5341,
+      "btts_no": 0.4659,
+      "expected_goals_home": 1.45,
+      "expected_goals_away": 1.17
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.22,
+        "model_prob": 0.4415,
+        "implied_prob": 0.4505,
+        "fair_odds": 2.27,
+        "edge": -1.99,
+        "ev_percent": -1.99,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.3,
+        "model_prob": 0.2665,
+        "implied_prob": 0.303,
+        "fair_odds": 3.75,
+        "edge": -12.06,
+        "ev_percent": -12.06,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 3.25,
+        "model_prob": 0.292,
+        "implied_prob": 0.3077,
+        "fair_odds": 3.42,
+        "edge": -5.1,
+        "ev_percent": -5.1,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.9,
+        "model_prob": 0.4853,
+        "implied_prob": 0.5263,
+        "fair_odds": 2.06,
+        "edge": -7.79,
+        "ev_percent": -7.79,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.9,
+        "model_prob": 0.5147,
+        "implied_prob": 0.5263,
+        "fair_odds": 1.94,
+        "edge": -2.21,
+        "ev_percent": -2.21,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.73,
+        "model_prob": 0.5341,
+        "implied_prob": 0.578,
+        "fair_odds": 1.87,
+        "edge": -7.6,
+        "ev_percent": -7.6,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Serie A"
+  },
+  {
+    "match": "Juventus vs Parma",
+    "probabilities": {
+      "1": 0.6958,
+      "X": 0.1973,
+      "2": 0.1069,
+      "over_2_5": 0.4976,
+      "under_2_5": 0.5024,
+      "btts_yes": 0.4136,
+      "btts_no": 0.5864,
+      "expected_goals_home": 2.03,
+      "expected_goals_away": 0.64
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.22,
+        "model_prob": 0.6958,
+        "implied_prob": 0.8197,
+        "fair_odds": 1.44,
+        "edge": -15.11,
+        "ev_percent": -15.11,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 6.85,
+        "model_prob": 0.1973,
+        "implied_prob": 0.146,
+        "fair_odds": 5.07,
+        "edge": 35.15,
+        "ev_percent": 35.15,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "2": {
+        "market": "2",
+        "odds": 15.5,
+        "model_prob": 0.1069,
+        "implied_prob": 0.0645,
+        "fair_odds": 9.35,
+        "edge": 65.69,
+        "ev_percent": 65.69,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.67,
+        "model_prob": 0.4976,
+        "implied_prob": 0.5988,
+        "fair_odds": 2.01,
+        "edge": -16.9,
+        "ev_percent": -16.9,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 2.22,
+        "model_prob": 0.5024,
+        "implied_prob": 0.4505,
+        "fair_odds": 1.99,
+        "edge": 11.53,
+        "ev_percent": 11.53,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 2.35,
+        "model_prob": 0.4136,
+        "implied_prob": 0.4255,
+        "fair_odds": 2.42,
+        "edge": -2.8,
+        "ev_percent": -2.8,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Serie A"
+  },
+  {
+    "match": "Strasbourg vs Lens",
+    "probabilities": {
+      "1": 0.2733,
+      "X": 0.2477,
+      "2": 0.479,
+      "over_2_5": 0.5878,
+      "under_2_5": 0.4122,
+      "btts_yes": 0.5987,
+      "btts_no": 0.4013,
+      "expected_goals_home": 1.23,
+      "expected_goals_away": 1.83
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 3.65,
+        "model_prob": 0.2733,
+        "implied_prob": 0.274,
+        "fair_odds": 3.66,
+        "edge": -0.25,
+        "ev_percent": -0.25,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.7,
+        "model_prob": 0.2477,
+        "implied_prob": 0.2703,
+        "fair_odds": 4.04,
+        "edge": -8.35,
+        "ev_percent": -8.35,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.1,
+        "model_prob": 0.479,
+        "implied_prob": 0.4762,
+        "fair_odds": 2.09,
+        "edge": 0.59,
+        "ev_percent": 0.59,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.78,
+        "model_prob": 0.5878,
+        "implied_prob": 0.5618,
+        "fair_odds": 1.7,
+        "edge": 4.63,
+        "ev_percent": 4.63,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 2.02,
+        "model_prob": 0.4122,
+        "implied_prob": 0.495,
+        "fair_odds": 2.43,
+        "edge": -16.74,
+        "ev_percent": -16.74,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.7,
+        "model_prob": 0.5987,
+        "implied_prob": 0.5882,
+        "fair_odds": 1.67,
+        "edge": 1.78,
+        "ev_percent": 1.78,
+        "stake_recommended_units": 0.01,
+        "has_value": false
+      }
+    },
+    "league": "Ligue 1"
+  },
+  {
+    "match": "Lyon vs Le Havre",
+    "probabilities": {
+      "1": 0.645,
+      "X": 0.2162,
+      "2": 0.1388,
+      "over_2_5": 0.5001,
+      "under_2_5": 0.4999,
+      "btts_yes": 0.4647,
+      "btts_no": 0.5353,
+      "expected_goals_home": 1.9,
+      "expected_goals_away": 0.77
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.52,
+        "model_prob": 0.645,
+        "implied_prob": 0.6579,
+        "fair_odds": 1.55,
+        "edge": -1.96,
+        "ev_percent": -1.96,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 4.65,
+        "model_prob": 0.2162,
+        "implied_prob": 0.2151,
+        "fair_odds": 4.63,
+        "edge": 0.53,
+        "ev_percent": 0.53,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 7.45,
+        "model_prob": 0.1388,
+        "implied_prob": 0.1342,
+        "fair_odds": 7.2,
+        "edge": 3.41,
+        "ev_percent": 3.41,
+        "stake_recommended_units": 0.0,
+        "has_value": true
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.65,
+        "model_prob": 0.5001,
+        "implied_prob": 0.6061,
+        "fair_odds": 2.0,
+        "edge": -17.48,
+        "ev_percent": -17.48,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 2.25,
+        "model_prob": 0.4999,
+        "implied_prob": 0.4444,
+        "fair_odds": 2.0,
+        "edge": 12.48,
+        "ev_percent": 12.48,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.85,
+        "model_prob": 0.4647,
+        "implied_prob": 0.5405,
+        "fair_odds": 2.15,
+        "edge": -14.03,
+        "ev_percent": -14.03,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Ligue 1"
+  },
+  {
+    "match": "Lorient vs Troyes",
+    "probabilities": {
+      "1": 0.5171,
+      "X": 0.2666,
+      "2": 0.2162,
+      "over_2_5": 0.4106,
+      "under_2_5": 0.5894,
+      "btts_yes": 0.4538,
+      "btts_no": 0.5462,
+      "expected_goals_home": 1.45,
+      "expected_goals_away": 0.88
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.84,
+        "model_prob": 0.5171,
+        "implied_prob": 0.5435,
+        "fair_odds": 1.93,
+        "edge": -4.85,
+        "ev_percent": -4.85,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.55,
+        "model_prob": 0.2666,
+        "implied_prob": 0.2817,
+        "fair_odds": 3.75,
+        "edge": -5.36,
+        "ev_percent": -5.36,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 4.3,
+        "model_prob": 0.2162,
+        "implied_prob": 0.2326,
+        "fair_odds": 4.63,
+        "edge": -7.03,
+        "ev_percent": -7.03,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 2.0,
+        "model_prob": 0.4106,
+        "implied_prob": 0.5,
+        "fair_odds": 2.44,
+        "edge": -17.88,
+        "ev_percent": -17.88,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.8,
+        "model_prob": 0.5894,
+        "implied_prob": 0.5556,
+        "fair_odds": 1.7,
+        "edge": 6.09,
+        "ev_percent": 6.09,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.95,
+        "model_prob": 0.4538,
+        "implied_prob": 0.5128,
+        "fair_odds": 2.2,
+        "edge": -11.51,
+        "ev_percent": -11.51,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Ligue 1"
+  },
+  {
+    "match": "Brest vs Toulouse",
+    "probabilities": {
+      "1": 0.4255,
+      "X": 0.2674,
+      "2": 0.3071,
+      "over_2_5": 0.4903,
+      "under_2_5": 0.5097,
+      "btts_yes": 0.5404,
+      "btts_no": 0.4596,
+      "expected_goals_home": 1.43,
+      "expected_goals_away": 1.21
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.7,
+        "model_prob": 0.4255,
+        "implied_prob": 0.3704,
+        "fair_odds": 2.35,
+        "edge": 14.89,
+        "ev_percent": 14.89,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.5,
+        "model_prob": 0.2674,
+        "implied_prob": 0.2857,
+        "fair_odds": 3.74,
+        "edge": -6.41,
+        "ev_percent": -6.41,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.75,
+        "model_prob": 0.3071,
+        "implied_prob": 0.3636,
+        "fair_odds": 3.26,
+        "edge": -15.55,
+        "ev_percent": -15.55,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.9,
+        "model_prob": 0.4903,
+        "implied_prob": 0.5263,
+        "fair_odds": 2.04,
+        "edge": -6.84,
+        "ev_percent": -6.84,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.9,
+        "model_prob": 0.5097,
+        "implied_prob": 0.5263,
+        "fair_odds": 1.96,
+        "edge": -3.16,
+        "ev_percent": -3.16,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.74,
+        "model_prob": 0.5404,
+        "implied_prob": 0.5747,
+        "fair_odds": 1.85,
+        "edge": -5.97,
+        "ev_percent": -5.97,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Ligue 1"
+  },
+  {
+    "match": "Auxerre vs Angers",
+    "probabilities": {
+      "1": 0.4697,
+      "X": 0.2632,
+      "2": 0.267,
+      "over_2_5": 0.4753,
+      "under_2_5": 0.5247,
+      "btts_yes": 0.5219,
+      "btts_no": 0.4781,
+      "expected_goals_home": 1.48,
+      "expected_goals_away": 1.1
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.95,
+        "model_prob": 0.4697,
+        "implied_prob": 0.5128,
+        "fair_odds": 2.13,
+        "edge": -8.41,
+        "ev_percent": -8.41,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.5,
+        "model_prob": 0.2632,
+        "implied_prob": 0.2857,
+        "fair_odds": 3.8,
+        "edge": -7.88,
+        "ev_percent": -7.88,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 4.1,
+        "model_prob": 0.267,
+        "implied_prob": 0.2439,
+        "fair_odds": 3.75,
+        "edge": 9.47,
+        "ev_percent": 9.47,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 2.0,
+        "model_prob": 0.4753,
+        "implied_prob": 0.5,
+        "fair_odds": 2.1,
+        "edge": -4.94,
+        "ev_percent": -4.94,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.8,
+        "model_prob": 0.5247,
+        "implied_prob": 0.5556,
+        "fair_odds": 1.91,
+        "edge": -5.55,
+        "ev_percent": -5.55,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.8,
+        "model_prob": 0.5219,
+        "implied_prob": 0.5556,
+        "fair_odds": 1.92,
+        "edge": -6.06,
+        "ev_percent": -6.06,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Ligue 1"
+  },
+  {
+    "match": "Deportivo Riestra vs Velez Sarsfield",
+    "probabilities": {
+      "1": 0.3372,
+      "X": 0.2952,
+      "2": 0.3676,
+      "over_2_5": 0.384,
+      "under_2_5": 0.616,
+      "btts_yes": 0.4586,
+      "btts_no": 0.5414,
+      "expected_goals_home": 1.1,
+      "expected_goals_away": 1.12
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.82,
+        "model_prob": 0.3372,
+        "implied_prob": 0.3546,
+        "fair_odds": 2.97,
+        "edge": -4.91,
+        "ev_percent": -4.91,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 2.78,
+        "model_prob": 0.2952,
+        "implied_prob": 0.3597,
+        "fair_odds": 3.39,
+        "edge": -17.93,
+        "ev_percent": -17.93,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.87,
+        "model_prob": 0.3676,
+        "implied_prob": 0.3484,
+        "fair_odds": 2.72,
+        "edge": 5.5,
+        "ev_percent": 5.5,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.65,
+        "model_prob": 0.616,
+        "implied_prob": 0.6061,
+        "fair_odds": 1.62,
+        "edge": 1.64,
+        "ev_percent": 1.64,
+        "stake_recommended_units": 0.01,
+        "has_value": false
+      }
+    },
+    "league": "Liga Argentina"
+  },
+  {
+    "match": "Rosario Central vs Gimnasia La Plata",
+    "probabilities": {
+      "1": 0.5172,
+      "X": 0.26,
+      "2": 0.2228,
+      "over_2_5": 0.4433,
+      "under_2_5": 0.5567,
+      "btts_yes": 0.4838,
+      "btts_no": 0.5162,
+      "expected_goals_home": 1.5,
+      "expected_goals_away": 0.95
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.94,
+        "model_prob": 0.5172,
+        "implied_prob": 0.5155,
+        "fair_odds": 1.93,
+        "edge": 0.34,
+        "ev_percent": 0.34,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.3,
+        "model_prob": 0.26,
+        "implied_prob": 0.303,
+        "fair_odds": 3.85,
+        "edge": -14.2,
+        "ev_percent": -14.2,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 4.6,
+        "model_prob": 0.2228,
+        "implied_prob": 0.2174,
+        "fair_odds": 4.49,
+        "edge": 2.49,
+        "ev_percent": 2.49,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.7,
+        "model_prob": 0.5567,
+        "implied_prob": 0.5882,
+        "fair_odds": 1.8,
+        "edge": -5.36,
+        "ev_percent": -5.36,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Liga Argentina"
+  },
+  {
+    "match": "Huracan vs Estudiantes Rio Cuarto",
+    "probabilities": {
+      "1": 0.5352,
+      "X": 0.2741,
+      "2": 0.1908,
+      "over_2_5": 0.3504,
+      "under_2_5": 0.6496,
+      "btts_yes": 0.3983,
+      "btts_no": 0.6017,
+      "expected_goals_home": 1.35,
+      "expected_goals_away": 0.75
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.72,
+        "model_prob": 0.5352,
+        "implied_prob": 0.5814,
+        "fair_odds": 1.87,
+        "edge": -7.95,
+        "ev_percent": -7.95,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.4,
+        "model_prob": 0.2741,
+        "implied_prob": 0.2941,
+        "fair_odds": 3.65,
+        "edge": -6.81,
+        "ev_percent": -6.81,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 5.2,
+        "model_prob": 0.1908,
+        "implied_prob": 0.1923,
+        "fair_odds": 5.24,
+        "edge": -0.78,
+        "ev_percent": -0.78,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.55,
+        "model_prob": 0.6496,
+        "implied_prob": 0.6452,
+        "fair_odds": 1.54,
+        "edge": 0.69,
+        "ev_percent": 0.69,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Liga Argentina"
+  },
+  {
+    "match": "Talleres vs Central Cordoba",
+    "probabilities": {
+      "1": 0.5943,
+      "X": 0.2453,
+      "2": 0.1604,
+      "over_2_5": 0.4171,
+      "under_2_5": 0.5829,
+      "btts_yes": 0.428,
+      "btts_no": 0.572,
+      "expected_goals_home": 1.6,
+      "expected_goals_away": 0.75
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.66,
+        "model_prob": 0.5943,
+        "implied_prob": 0.6024,
+        "fair_odds": 1.68,
+        "edge": -1.35,
+        "ev_percent": -1.35,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.5,
+        "model_prob": 0.2453,
+        "implied_prob": 0.2857,
+        "fair_odds": 4.08,
+        "edge": -14.15,
+        "ev_percent": -14.15,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 6.1,
+        "model_prob": 0.1604,
+        "implied_prob": 0.1639,
+        "fair_odds": 6.23,
+        "edge": -2.16,
+        "ev_percent": -2.16,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.6,
+        "model_prob": 0.5829,
+        "implied_prob": 0.625,
+        "fair_odds": 1.72,
+        "edge": -6.74,
+        "ev_percent": -6.74,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Liga Argentina"
+  },
+  {
+    "match": "Atletico Tucuman vs Belgrano",
+    "probabilities": {
+      "1": 0.4372,
+      "X": 0.2914,
+      "2": 0.2714,
+      "over_2_5": 0.3706,
+      "under_2_5": 0.6294,
+      "btts_yes": 0.4385,
+      "btts_no": 0.5615,
+      "expected_goals_home": 1.25,
+      "expected_goals_away": 0.93
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.88,
+        "model_prob": 0.4372,
+        "implied_prob": 0.3472,
+        "fair_odds": 2.29,
+        "edge": 25.91,
+        "ev_percent": 25.91,
+        "stake_recommended_units": 0.03,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 2.92,
+        "model_prob": 0.2914,
+        "implied_prob": 0.3425,
+        "fair_odds": 3.43,
+        "edge": -14.91,
+        "ev_percent": -14.91,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.9,
+        "model_prob": 0.2714,
+        "implied_prob": 0.3448,
+        "fair_odds": 3.68,
+        "edge": -21.29,
+        "ev_percent": -21.29,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.55,
+        "model_prob": 0.6294,
+        "implied_prob": 0.6452,
+        "fair_odds": 1.59,
+        "edge": -2.44,
+        "ev_percent": -2.44,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Liga Argentina"
+  },
+  {
+    "match": "Jaguares vs America de Cali",
+    "probabilities": {
+      "1": 0.2668,
+      "X": 0.2879,
+      "2": 0.4453,
+      "over_2_5": 0.384,
+      "under_2_5": 0.616,
+      "btts_yes": 0.4468,
+      "btts_no": 0.5532,
+      "expected_goals_home": 0.93,
+      "expected_goals_away": 1.3
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 4.45,
+        "model_prob": 0.2668,
+        "implied_prob": 0.2247,
+        "fair_odds": 3.75,
+        "edge": 18.73,
+        "ev_percent": 18.73,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.4,
+        "model_prob": 0.2879,
+        "implied_prob": 0.2941,
+        "fair_odds": 3.47,
+        "edge": -2.11,
+        "ev_percent": -2.11,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 1.79,
+        "model_prob": 0.4453,
+        "implied_prob": 0.5587,
+        "fair_odds": 2.25,
+        "edge": -20.29,
+        "ev_percent": -20.29,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.65,
+        "model_prob": 0.616,
+        "implied_prob": 0.6061,
+        "fair_odds": 1.62,
+        "edge": 1.64,
+        "ev_percent": 1.64,
+        "stake_recommended_units": 0.01,
+        "has_value": false
+      }
+    },
+    "league": "Liga Colombiana"
+  },
+  {
+    "match": "Junior vs Independiente Santa Fe",
+    "probabilities": {
+      "1": 0.3683,
+      "X": 0.2895,
+      "2": 0.3422,
+      "over_2_5": 0.404,
+      "under_2_5": 0.596,
+      "btts_yes": 0.4749,
+      "btts_no": 0.5251,
+      "expected_goals_home": 1.15,
+      "expected_goals_away": 1.15
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.89,
+        "model_prob": 0.3683,
+        "implied_prob": 0.5291,
+        "fair_odds": 2.72,
+        "edge": -30.39,
+        "ev_percent": -30.39,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.35,
+        "model_prob": 0.2895,
+        "implied_prob": 0.2985,
+        "fair_odds": 3.45,
+        "edge": -3.02,
+        "ev_percent": -3.02,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 4.03,
+        "model_prob": 0.3422,
+        "implied_prob": 0.2481,
+        "fair_odds": 2.92,
+        "edge": 37.91,
+        "ev_percent": 37.91,
+        "stake_recommended_units": 0.03,
+        "has_value": true
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.6,
+        "model_prob": 0.596,
+        "implied_prob": 0.625,
+        "fair_odds": 1.68,
+        "edge": -4.64,
+        "ev_percent": -4.64,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Liga Colombiana"
+  },
+  {
+    "match": "Alianza Valledupar vs Atletico Nacional",
+    "probabilities": {
+      "1": 0.239,
+      "X": 0.2729,
+      "2": 0.4881,
+      "over_2_5": 0.4106,
+      "under_2_5": 0.5894,
+      "btts_yes": 0.4622,
+      "btts_no": 0.5378,
+      "expected_goals_home": 0.93,
+      "expected_goals_away": 1.4
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 3.9,
+        "model_prob": 0.239,
+        "implied_prob": 0.2564,
+        "fair_odds": 4.18,
+        "edge": -6.79,
+        "ev_percent": -6.79,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.25,
+        "model_prob": 0.2729,
+        "implied_prob": 0.3077,
+        "fair_odds": 3.66,
+        "edge": -11.31,
+        "ev_percent": -11.31,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 1.97,
+        "model_prob": 0.4881,
+        "implied_prob": 0.5076,
+        "fair_odds": 2.05,
+        "edge": -3.84,
+        "ev_percent": -3.84,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.6,
+        "model_prob": 0.5894,
+        "implied_prob": 0.625,
+        "fair_odds": 1.7,
+        "edge": -5.7,
+        "ev_percent": -5.7,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Liga Colombiana"
+  },
+  {
+    "match": "DC United vs LAFC",
+    "probabilities": {
+      "1": 0.3368,
+      "X": 0.2635,
+      "2": 0.3997,
+      "over_2_5": 0.5423,
+      "under_2_5": 0.4577,
+      "btts_yes": 0.5825,
+      "btts_no": 0.4175,
+      "expected_goals_home": 1.35,
+      "expected_goals_away": 1.5
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 3.3,
+        "model_prob": 0.3368,
+        "implied_prob": 0.303,
+        "fair_odds": 2.97,
+        "edge": 11.14,
+        "ev_percent": 11.14,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.6,
+        "model_prob": 0.2635,
+        "implied_prob": 0.2778,
+        "fair_odds": 3.8,
+        "edge": -5.14,
+        "ev_percent": -5.14,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.1,
+        "model_prob": 0.3997,
+        "implied_prob": 0.4762,
+        "fair_odds": 2.5,
+        "edge": -16.06,
+        "ev_percent": -16.06,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.65,
+        "model_prob": 0.5423,
+        "implied_prob": 0.6061,
+        "fair_odds": 1.84,
+        "edge": -10.52,
+        "ev_percent": -10.52,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "MLS"
+  },
+  {
+    "match": "Seattle Sounders vs Chicago Fire",
+    "probabilities": {
+      "1": 0.4334,
+      "X": 0.2639,
+      "2": 0.3027,
+      "over_2_5": 0.494,
+      "under_2_5": 0.506,
+      "btts_yes": 0.5438,
+      "btts_no": 0.4562,
+      "expected_goals_home": 1.43,
+      "expected_goals_away": 1.23
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.4,
+        "model_prob": 0.4334,
+        "implied_prob": 0.4167,
+        "fair_odds": 2.31,
+        "edge": 4.02,
+        "ev_percent": 4.02,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.5,
+        "model_prob": 0.2639,
+        "implied_prob": 0.2857,
+        "fair_odds": 3.79,
+        "edge": -7.63,
+        "ev_percent": -7.63,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 3.0,
+        "model_prob": 0.3027,
+        "implied_prob": 0.3333,
+        "fair_odds": 3.3,
+        "edge": -9.19,
+        "ev_percent": -9.19,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.7,
+        "model_prob": 0.494,
+        "implied_prob": 0.5882,
+        "fair_odds": 2.02,
+        "edge": -16.02,
+        "ev_percent": -16.02,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "MLS"
+  },
+  {
+    "match": "Atlanta United vs Charlotte FC",
+    "probabilities": {
+      "1": 0.4304,
+      "X": 0.2668,
+      "2": 0.3028,
+      "over_2_5": 0.494,
+      "under_2_5": 0.506,
+      "btts_yes": 0.5423,
+      "btts_no": 0.4577,
+      "expected_goals_home": 1.45,
+      "expected_goals_away": 1.2
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.6,
+        "model_prob": 0.4304,
+        "implied_prob": 0.3846,
+        "fair_odds": 2.32,
+        "edge": 11.9,
+        "ev_percent": 11.9,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.45,
+        "model_prob": 0.2668,
+        "implied_prob": 0.2899,
+        "fair_odds": 3.75,
+        "edge": -7.95,
+        "ev_percent": -7.95,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.7,
+        "model_prob": 0.3028,
+        "implied_prob": 0.3704,
+        "fair_odds": 3.3,
+        "edge": -18.24,
+        "ev_percent": -18.24,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.75,
+        "model_prob": 0.494,
+        "implied_prob": 0.5714,
+        "fair_odds": 2.02,
+        "edge": -13.55,
+        "ev_percent": -13.55,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "MLS"
+  },
+  {
+    "match": "Inter Miami vs CF Montreal",
+    "probabilities": {
+      "1": 0.573,
+      "X": 0.2278,
+      "2": 0.1992,
+      "over_2_5": 0.5597,
+      "under_2_5": 0.4403,
+      "btts_yes": 0.5615,
+      "btts_no": 0.4385,
+      "expected_goals_home": 1.85,
+      "expected_goals_away": 1.08
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.4,
+        "model_prob": 0.573,
+        "implied_prob": 0.7143,
+        "fair_odds": 1.75,
+        "edge": -19.78,
+        "ev_percent": -19.78,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 4.5,
+        "model_prob": 0.2278,
+        "implied_prob": 0.2222,
+        "fair_odds": 4.39,
+        "edge": 2.51,
+        "ev_percent": 2.51,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 7.0,
+        "model_prob": 0.1992,
+        "implied_prob": 0.1429,
+        "fair_odds": 5.02,
+        "edge": 39.44,
+        "ev_percent": 39.44,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.55,
+        "model_prob": 0.5597,
+        "implied_prob": 0.6452,
+        "fair_odds": 1.79,
+        "edge": -13.25,
+        "ev_percent": -13.25,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "MLS"
+  },
+  {
+    "match": "NY Red Bulls vs Philadelphia Union",
+    "probabilities": {
+      "1": 0.4523,
+      "X": 0.26,
+      "2": 0.2877,
+      "over_2_5": 0.5125,
+      "under_2_5": 0.4875,
+      "btts_yes": 0.5539,
+      "btts_no": 0.4461,
+      "expected_goals_home": 1.52,
+      "expected_goals_away": 1.2
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.3,
+        "model_prob": 0.4523,
+        "implied_prob": 0.4348,
+        "fair_odds": 2.21,
+        "edge": 4.03,
+        "ev_percent": 4.03,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.5,
+        "model_prob": 0.26,
+        "implied_prob": 0.2857,
+        "fair_odds": 3.85,
+        "edge": -9.0,
+        "ev_percent": -9.0,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 3.1,
+        "model_prob": 0.2877,
+        "implied_prob": 0.3226,
+        "fair_odds": 3.48,
+        "edge": -10.81,
+        "ev_percent": -10.81,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.72,
+        "model_prob": 0.5125,
+        "implied_prob": 0.5814,
+        "fair_odds": 1.95,
+        "edge": -11.85,
+        "ev_percent": -11.85,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "MLS"
+  },
+  {
+    "match": "Toronto FC vs NYCFC",
+    "probabilities": {
+      "1": 0.3556,
+      "X": 0.2692,
+      "2": 0.3751,
+      "over_2_5": 0.5064,
+      "under_2_5": 0.4936,
+      "btts_yes": 0.5554,
+      "btts_no": 0.4446,
+      "expected_goals_home": 1.3,
+      "expected_goals_away": 1.4
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 3.1,
+        "model_prob": 0.3556,
+        "implied_prob": 0.3226,
+        "fair_odds": 2.81,
+        "edge": 10.24,
+        "ev_percent": 10.24,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.55,
+        "model_prob": 0.2692,
+        "implied_prob": 0.2817,
+        "fair_odds": 3.71,
+        "edge": -4.43,
+        "ev_percent": -4.43,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.25,
+        "model_prob": 0.3751,
+        "implied_prob": 0.4444,
+        "fair_odds": 2.67,
+        "edge": -15.6,
+        "ev_percent": -15.6,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.68,
+        "model_prob": 0.5064,
+        "implied_prob": 0.5952,
+        "fair_odds": 1.97,
+        "edge": -14.92,
+        "ev_percent": -14.92,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "MLS"
+  },
+  {
+    "match": "Columbus Crew vs New England Revolution",
+    "probabilities": {
+      "1": 0.5565,
+      "X": 0.2457,
+      "2": 0.1978,
+      "over_2_5": 0.4752,
+      "under_2_5": 0.5248,
+      "btts_yes": 0.4945,
+      "btts_no": 0.5055,
+      "expected_goals_home": 1.65,
+      "expected_goals_away": 0.93
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.65,
+        "model_prob": 0.5565,
+        "implied_prob": 0.6061,
+        "fair_odds": 1.8,
+        "edge": -8.18,
+        "ev_percent": -8.18,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.8,
+        "model_prob": 0.2457,
+        "implied_prob": 0.2632,
+        "fair_odds": 4.07,
+        "edge": -6.63,
+        "ev_percent": -6.63,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 5.0,
+        "model_prob": 0.1978,
+        "implied_prob": 0.2,
+        "fair_odds": 5.06,
+        "edge": -1.1,
+        "ev_percent": -1.1,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.7,
+        "model_prob": 0.4752,
+        "implied_prob": 0.5882,
+        "fair_odds": 2.1,
+        "edge": -19.22,
+        "ev_percent": -19.22,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "MLS"
+  },
+  {
+    "match": "Houston Dynamo vs San Jose Earthquakes",
+    "probabilities": {
+      "1": 0.5444,
+      "X": 0.2485,
+      "2": 0.207,
+      "over_2_5": 0.4752,
+      "under_2_5": 0.5248,
+      "btts_yes": 0.4995,
+      "btts_no": 0.5005,
+      "expected_goals_home": 1.62,
+      "expected_goals_away": 0.95
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.7,
+        "model_prob": 0.5444,
+        "implied_prob": 0.5882,
+        "fair_odds": 1.84,
+        "edge": -7.45,
+        "ev_percent": -7.45,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.75,
+        "model_prob": 0.2485,
+        "implied_prob": 0.2667,
+        "fair_odds": 4.02,
+        "edge": -6.81,
+        "ev_percent": -6.81,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 4.8,
+        "model_prob": 0.207,
+        "implied_prob": 0.2083,
+        "fair_odds": 4.83,
+        "edge": -0.64,
+        "ev_percent": -0.64,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.72,
+        "model_prob": 0.4752,
+        "implied_prob": 0.5814,
+        "fair_odds": 2.1,
+        "edge": -18.27,
+        "ev_percent": -18.27,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "MLS"
+  },
+  {
+    "match": "Excelsior Rotterdam vs Sparta Rotterdam",
+    "probabilities": {
+      "1": 0.4389,
+      "X": 0.2334,
+      "2": 0.3277,
+      "over_2_5": 0.6809,
+      "under_2_5": 0.3191,
+      "btts_yes": 0.687,
+      "btts_no": 0.313,
+      "expected_goals_home": 1.88,
+      "expected_goals_away": 1.64
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.45,
+        "model_prob": 0.4389,
+        "implied_prob": 0.4082,
+        "fair_odds": 2.28,
+        "edge": 7.53,
+        "ev_percent": 7.53,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.71,
+        "model_prob": 0.2334,
+        "implied_prob": 0.2695,
+        "fair_odds": 4.28,
+        "edge": -13.41,
+        "ev_percent": -13.41,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.68,
+        "model_prob": 0.3277,
+        "implied_prob": 0.3731,
+        "fair_odds": 3.05,
+        "edge": -12.18,
+        "ev_percent": -12.18,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.55,
+        "model_prob": 0.6809,
+        "implied_prob": 0.6452,
+        "fair_odds": 1.47,
+        "edge": 5.54,
+        "ev_percent": 5.54,
+        "stake_recommended_units": 0.03,
+        "has_value": true
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 2.4,
+        "model_prob": 0.3191,
+        "implied_prob": 0.4167,
+        "fair_odds": 3.13,
+        "edge": -23.42,
+        "ev_percent": -23.42,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.5,
+        "model_prob": 0.687,
+        "implied_prob": 0.6667,
+        "fair_odds": 1.46,
+        "edge": 3.05,
+        "ev_percent": 3.05,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      }
+    },
+    "league": "Eredivisie"
+  },
+  {
+    "match": "AZ Alkmaar vs Go Ahead Eagles",
+    "probabilities": {
+      "1": 0.6287,
+      "X": 0.197,
+      "2": 0.1743,
+      "over_2_5": 0.6778,
+      "under_2_5": 0.3222,
+      "btts_yes": 0.6301,
+      "btts_no": 0.3699,
+      "expected_goals_home": 2.31,
+      "expected_goals_away": 1.19
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.48,
+        "model_prob": 0.6287,
+        "implied_prob": 0.6757,
+        "fair_odds": 1.59,
+        "edge": -6.95,
+        "ev_percent": -6.95,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 4.6,
+        "model_prob": 0.197,
+        "implied_prob": 0.2174,
+        "fair_odds": 5.08,
+        "edge": -9.38,
+        "ev_percent": -9.38,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 6.2,
+        "model_prob": 0.1743,
+        "implied_prob": 0.1613,
+        "fair_odds": 5.74,
+        "edge": 8.07,
+        "ev_percent": 8.07,
+        "stake_recommended_units": 0.0,
+        "has_value": true
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.58,
+        "model_prob": 0.6778,
+        "implied_prob": 0.6329,
+        "fair_odds": 1.48,
+        "edge": 7.09,
+        "ev_percent": 7.09,
+        "stake_recommended_units": 0.03,
+        "has_value": true
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 2.35,
+        "model_prob": 0.3222,
+        "implied_prob": 0.4255,
+        "fair_odds": 3.1,
+        "edge": -24.28,
+        "ev_percent": -24.28,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.67,
+        "model_prob": 0.6301,
+        "implied_prob": 0.5988,
+        "fair_odds": 1.59,
+        "edge": 5.23,
+        "ev_percent": 5.23,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      }
+    },
+    "league": "Eredivisie"
+  },
+  {
+    "match": "PEC Zwolle vs NEC Nijmegen",
+    "probabilities": {
+      "1": 0.2358,
+      "X": 0.2186,
+      "2": 0.5456,
+      "over_2_5": 0.6879,
+      "under_2_5": 0.3121,
+      "btts_yes": 0.6556,
+      "btts_no": 0.3444,
+      "expected_goals_home": 1.3,
+      "expected_goals_away": 2.25
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 4.3,
+        "model_prob": 0.2358,
+        "implied_prob": 0.2326,
+        "fair_odds": 4.24,
+        "edge": 1.39,
+        "ev_percent": 1.39,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 4.3,
+        "model_prob": 0.2186,
+        "implied_prob": 0.2326,
+        "fair_odds": 4.57,
+        "edge": -6.0,
+        "ev_percent": -6.0,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 1.68,
+        "model_prob": 0.5456,
+        "implied_prob": 0.5952,
+        "fair_odds": 1.83,
+        "edge": -8.34,
+        "ev_percent": -8.34,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.4,
+        "model_prob": 0.6879,
+        "implied_prob": 0.7143,
+        "fair_odds": 1.45,
+        "edge": -3.69,
+        "ev_percent": -3.69,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 2.87,
+        "model_prob": 0.3121,
+        "implied_prob": 0.3484,
+        "fair_odds": 3.2,
+        "edge": -10.43,
+        "ev_percent": -10.43,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.44,
+        "model_prob": 0.6556,
+        "implied_prob": 0.6944,
+        "fair_odds": 1.53,
+        "edge": -5.59,
+        "ev_percent": -5.59,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Eredivisie"
+  },
+  {
+    "match": "Alverca vs Santa Clara",
+    "probabilities": {
+      "1": 0.3442,
+      "X": 0.2763,
+      "2": 0.3795,
+      "over_2_5": 0.4549,
+      "under_2_5": 0.5451,
+      "btts_yes": 0.5135,
+      "btts_no": 0.4865,
+      "expected_goals_home": 1.16,
+      "expected_goals_away": 1.33
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.7,
+        "model_prob": 0.3442,
+        "implied_prob": 0.3704,
+        "fair_odds": 2.91,
+        "edge": -7.07,
+        "ev_percent": -7.07,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.1,
+        "model_prob": 0.2763,
+        "implied_prob": 0.3226,
+        "fair_odds": 3.62,
+        "edge": -14.35,
+        "ev_percent": -14.35,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 2.65,
+        "model_prob": 0.3795,
+        "implied_prob": 0.3774,
+        "fair_odds": 2.64,
+        "edge": 0.57,
+        "ev_percent": 0.57,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 2.35,
+        "model_prob": 0.4549,
+        "implied_prob": 0.4255,
+        "fair_odds": 2.2,
+        "edge": 6.9,
+        "ev_percent": 6.9,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.56,
+        "model_prob": 0.5451,
+        "implied_prob": 0.641,
+        "fair_odds": 1.83,
+        "edge": -14.96,
+        "ev_percent": -14.96,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.87,
+        "model_prob": 0.5135,
+        "implied_prob": 0.5348,
+        "fair_odds": 1.95,
+        "edge": -3.98,
+        "ev_percent": -3.98,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Liga Portugal"
+  },
+  {
+    "match": "Arouca vs Maritimo",
+    "probabilities": {
+      "1": 0.4377,
+      "X": 0.2705,
+      "2": 0.2918,
+      "over_2_5": 0.4497,
+      "under_2_5": 0.5503,
+      "btts_yes": 0.5089,
+      "btts_no": 0.4911,
+      "expected_goals_home": 1.33,
+      "expected_goals_away": 1.14
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 2.28,
+        "model_prob": 0.4377,
+        "implied_prob": 0.4386,
+        "fair_odds": 2.28,
+        "edge": -0.2,
+        "ev_percent": -0.2,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.25,
+        "model_prob": 0.2705,
+        "implied_prob": 0.3077,
+        "fair_odds": 3.7,
+        "edge": -12.09,
+        "ev_percent": -12.09,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 3.1,
+        "model_prob": 0.2918,
+        "implied_prob": 0.3226,
+        "fair_odds": 3.43,
+        "edge": -9.54,
+        "ev_percent": -9.54,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 2.1,
+        "model_prob": 0.4497,
+        "implied_prob": 0.4762,
+        "fair_odds": 2.22,
+        "edge": -5.56,
+        "ev_percent": -5.56,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 1.72,
+        "model_prob": 0.5503,
+        "implied_prob": 0.5814,
+        "fair_odds": 1.82,
+        "edge": -5.35,
+        "ev_percent": -5.35,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 1.8,
+        "model_prob": 0.5089,
+        "implied_prob": 0.5556,
+        "fair_odds": 1.97,
+        "edge": -8.4,
+        "ev_percent": -8.4,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Liga Portugal"
+  },
+  {
+    "match": "Academico de Viseu vs FC Porto",
+    "probabilities": {
+      "1": 0.1615,
+      "X": 0.2203,
+      "2": 0.6181,
+      "over_2_5": 0.5304,
+      "under_2_5": 0.4696,
+      "btts_yes": 0.5082,
+      "btts_no": 0.4918,
+      "expected_goals_home": 0.89,
+      "expected_goals_away": 1.91
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 8.5,
+        "model_prob": 0.1615,
+        "implied_prob": 0.1176,
+        "fair_odds": 6.19,
+        "edge": 37.28,
+        "ev_percent": 37.28,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 5.2,
+        "model_prob": 0.2203,
+        "implied_prob": 0.1923,
+        "fair_odds": 4.54,
+        "edge": 14.56,
+        "ev_percent": 14.56,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "2": {
+        "market": "2",
+        "odds": 1.32,
+        "model_prob": 0.6181,
+        "implied_prob": 0.7576,
+        "fair_odds": 1.62,
+        "edge": -18.41,
+        "ev_percent": -18.41,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "over_2_5": {
+        "market": "over_2_5",
+        "odds": 1.8,
+        "model_prob": 0.5304,
+        "implied_prob": 0.5556,
+        "fair_odds": 1.89,
+        "edge": -4.53,
+        "ev_percent": -4.53,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "under_2_5": {
+        "market": "under_2_5",
+        "odds": 2.0,
+        "model_prob": 0.4696,
+        "implied_prob": 0.5,
+        "fair_odds": 2.13,
+        "edge": -6.08,
+        "ev_percent": -6.08,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "btts_yes": {
+        "market": "btts_yes",
+        "odds": 2.15,
+        "model_prob": 0.5082,
+        "implied_prob": 0.4651,
+        "fair_odds": 1.97,
+        "edge": 9.26,
+        "ev_percent": 9.26,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      }
+    },
+    "league": "Liga Portugal"
+  }
+]

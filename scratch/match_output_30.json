@@ -1,0 +1,60 @@
+{
+  "match": "Houston Dynamo vs San Jose Earthquakes",
+  "probabilities": {
+    "1": 0.5444,
+    "X": 0.2485,
+    "2": 0.207,
+    "over_2_5": 0.4752,
+    "under_2_5": 0.5248,
+    "btts_yes": 0.4995,
+    "btts_no": 0.5005,
+    "expected_goals_home": 1.62,
+    "expected_goals_away": 0.95
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.7,
+      "model_prob": 0.5444,
+      "implied_prob": 0.5882,
+      "fair_odds": 1.84,
+      "edge": -7.45,
+      "ev_percent": -7.45,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.75,
+      "model_prob": 0.2485,
+      "implied_prob": 0.2667,
+      "fair_odds": 4.02,
+      "edge": -6.81,
+      "ev_percent": -6.81,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.8,
+      "model_prob": 0.207,
+      "implied_prob": 0.2083,
+      "fair_odds": 4.83,
+      "edge": -0.64,
+      "ev_percent": -0.64,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.72,
+      "model_prob": 0.4752,
+      "implied_prob": 0.5814,
+      "fair_odds": 2.1,
+      "edge": -18.27,
+      "ev_percent": -18.27,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

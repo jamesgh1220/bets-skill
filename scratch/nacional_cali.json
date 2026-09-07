@@ -1,0 +1,19 @@
+{
+  "home_team": "Atlético Nacional",
+  "away_team": "Deportivo Cali",
+  "xg_home_for": 1.65,
+  "xg_home_against": 0.90,
+  "xg_away_for": 1.05,
+  "xg_away_against": 1.45,
+  "elo_home": 1540,
+  "elo_away": 1410,
+  "odds": {
+    "1": 1.62,
+    "X": 3.80,
+    "2": 5.50,
+    "over_2_5": 2.10,
+    "under_2_5": 1.72,
+    "btts_yes": 2.05,
+    "btts_no": 1.70
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "match": "Real Betis vs Real Madrid",
+  "probabilities": {
+    "1": 0.2343,
+    "X": 0.2482,
+    "2": 0.5176,
+    "over_2_5": 0.5305,
+    "under_2_5": 0.4695,
+    "btts_yes": 0.5391,
+    "btts_no": 0.4609,
+    "expected_goals_home": 1.02,
+    "expected_goals_away": 1.77
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 7.15,
+      "model_prob": 0.2343,
+      "implied_prob": 0.1399,
+      "fair_odds": 4.27,
+      "edge": 67.52,
+      "ev_percent": 67.52,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 5.12,
+      "model_prob": 0.2482,
+      "implied_prob": 0.1953,
+      "fair_odds": 4.03,
+      "edge": 27.08,
+      "ev_percent": 27.08,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.38,
+      "model_prob": 0.5176,
+      "implied_prob": 0.7246,
+      "fair_odds": 1.93,
+      "edge": -28.57,
+      "ev_percent": -28.57,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.95,
+      "model_prob": 0.4695,
+      "implied_prob": 0.5128,
+      "fair_odds": 2.13,
+      "edge": -8.45,
+      "ev_percent": -8.45,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.85,
+      "model_prob": 0.5305,
+      "implied_prob": 0.5405,
+      "fair_odds": 1.89,
+      "edge": -1.86,
+      "ev_percent": -1.86,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.7,
+      "model_prob": 0.5391,
+      "implied_prob": 0.5882,
+      "fair_odds": 1.85,
+      "edge": -8.35,
+      "ev_percent": -8.35,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_no": {
+      "market": "btts_no",
+      "odds": 2.1,
+      "model_prob": 0.4609,
+      "implied_prob": 0.4762,
+      "fair_odds": 2.17,
+      "edge": -3.21,
+      "ev_percent": -3.21,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

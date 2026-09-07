@@ -1,0 +1,60 @@
+{
+  "match": "Inter Palmira vs Real Cundinamarca",
+  "probabilities": {
+    "1": 0.4793,
+    "X": 0.271,
+    "2": 0.2497,
+    "over_2_5": 0.4303,
+    "under_2_5": 0.5697,
+    "btts_yes": 0.4806,
+    "btts_no": 0.5194,
+    "expected_goals_home": 1.43,
+    "expected_goals_away": 0.98
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.1,
+      "model_prob": 0.4793,
+      "implied_prob": 0.4762,
+      "fair_odds": 2.09,
+      "edge": 0.65,
+      "ev_percent": 0.65,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.1,
+      "model_prob": 0.271,
+      "implied_prob": 0.3226,
+      "fair_odds": 3.69,
+      "edge": -15.99,
+      "ev_percent": -15.99,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.4,
+      "model_prob": 0.2497,
+      "implied_prob": 0.2941,
+      "fair_odds": 4.0,
+      "edge": -15.1,
+      "ev_percent": -15.1,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.6,
+      "model_prob": 0.5697,
+      "implied_prob": 0.625,
+      "fair_odds": 1.76,
+      "edge": -8.85,
+      "ev_percent": -8.85,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

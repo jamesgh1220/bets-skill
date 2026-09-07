@@ -1,0 +1,49 @@
+{
+  "match": "FC Barcelona vs Rayo Vallecano",
+  "probabilities": {
+    "1": 0.6523,
+    "X": 0.208,
+    "2": 0.1397,
+    "over_2_5": 0.5422,
+    "under_2_5": 0.4578,
+    "btts_yes": 0.5081,
+    "btts_no": 0.4919,
+    "expected_goals_home": 1.98,
+    "expected_goals_away": 0.88
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.22,
+      "model_prob": 0.6523,
+      "implied_prob": 0.8197,
+      "fair_odds": 1.53,
+      "edge": -20.42,
+      "ev_percent": -20.42,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 7.75,
+      "model_prob": 0.208,
+      "implied_prob": 0.129,
+      "fair_odds": 4.81,
+      "edge": 61.2,
+      "ev_percent": 61.2,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 14.0,
+      "model_prob": 0.1397,
+      "implied_prob": 0.0714,
+      "fair_odds": 7.16,
+      "edge": 95.58,
+      "ev_percent": 95.58,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    }
+  }
+}

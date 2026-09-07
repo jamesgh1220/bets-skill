@@ -1,0 +1,60 @@
+{
+  "match": "DC United vs LAFC",
+  "probabilities": {
+    "1": 0.3368,
+    "X": 0.2635,
+    "2": 0.3997,
+    "over_2_5": 0.5423,
+    "under_2_5": 0.4577,
+    "btts_yes": 0.5825,
+    "btts_no": 0.4175,
+    "expected_goals_home": 1.35,
+    "expected_goals_away": 1.5
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 3.3,
+      "model_prob": 0.3368,
+      "implied_prob": 0.303,
+      "fair_odds": 2.97,
+      "edge": 11.14,
+      "ev_percent": 11.14,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.6,
+      "model_prob": 0.2635,
+      "implied_prob": 0.2778,
+      "fair_odds": 3.8,
+      "edge": -5.14,
+      "ev_percent": -5.14,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.1,
+      "model_prob": 0.3997,
+      "implied_prob": 0.4762,
+      "fair_odds": 2.5,
+      "edge": -16.06,
+      "ev_percent": -16.06,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.65,
+      "model_prob": 0.5423,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.84,
+      "edge": -10.52,
+      "ev_percent": -10.52,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "match": "Torino vs Monza",
+  "probabilities": {
+    "1": 0.4592,
+    "X": 0.2482,
+    "2": 0.2925,
+    "over_2_5": 0.5655,
+    "under_2_5": 0.4345,
+    "btts_yes": 0.5964,
+    "btts_no": 0.4036,
+    "expected_goals_home": 1.62,
+    "expected_goals_away": 1.32
+  },
+  "evaluations": {
+    "2": {
+      "market": "2",
+      "odds": 3.9,
+      "model_prob": 0.2925,
+      "implied_prob": 0.2564,
+      "fair_odds": 3.42,
+      "edge": 14.07,
+      "ev_percent": 14.07,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.9,
+      "model_prob": 0.5655,
+      "implied_prob": 0.5263,
+      "fair_odds": 1.77,
+      "edge": 7.44,
+      "ev_percent": 7.44,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 2.0,
+      "model_prob": 0.5964,
+      "implied_prob": 0.5,
+      "fair_odds": 1.68,
+      "edge": 19.28,
+      "ev_percent": 19.28,
+      "stake_recommended_units": 0.05,
+      "has_value": true
+    }
+  }
+}

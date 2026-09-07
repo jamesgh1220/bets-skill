@@ -1,0 +1,11 @@
+{
+  "home_team": "Tigre",
+  "away_team": "Barracas Central",
+  "xg_home_for": 1.45,
+  "xg_home_against": 1.05,
+  "xg_away_for": 0.85,
+  "xg_away_against": 1.20,
+  "elo_home": 1480,
+  "elo_away": 1420,
+  "odds": { "1": 1.82, "X": 3.14, "2": 5.40, "over_2_5": 2.15, "under_2_5": 1.70 }
+}

@@ -1,0 +1,49 @@
+{
+  "match": "Atalanta vs Bologna",
+  "probabilities": {
+    "1": 0.53,
+    "X": 0.2462,
+    "2": 0.2238,
+    "over_2_5": 0.5063,
+    "under_2_5": 0.4937,
+    "btts_yes": 0.5322,
+    "btts_no": 0.4678,
+    "expected_goals_home": 1.65,
+    "expected_goals_away": 1.05
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.9,
+      "model_prob": 0.53,
+      "implied_prob": 0.5263,
+      "fair_odds": 1.89,
+      "edge": 0.7,
+      "ev_percent": 0.7,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.6,
+      "model_prob": 0.2462,
+      "implied_prob": 0.2778,
+      "fair_odds": 4.06,
+      "edge": -11.37,
+      "ev_percent": -11.37,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.1,
+      "model_prob": 0.2238,
+      "implied_prob": 0.2439,
+      "fair_odds": 4.47,
+      "edge": -8.24,
+      "ev_percent": -8.24,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

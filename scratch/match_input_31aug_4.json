@@ -1,0 +1,16 @@
+{
+  "home_team": "Instituto",
+  "away_team": "San Lorenzo",
+  "league": "Liga Argentina",
+  "xg_home_for": 1.25,
+  "xg_home_against": 0.85,
+  "xg_away_for": 0.8,
+  "xg_away_against": 1.2,
+  "elo_home": 1610,
+  "elo_away": 1580,
+  "odds": {
+    "1": 1.83,
+    "X": 3.1,
+    "2": 4.5
+  }
+}

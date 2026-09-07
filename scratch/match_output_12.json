@@ -1,0 +1,82 @@
+{
+  "match": "Lorient vs Troyes",
+  "probabilities": {
+    "1": 0.5171,
+    "X": 0.2666,
+    "2": 0.2162,
+    "over_2_5": 0.4106,
+    "under_2_5": 0.5894,
+    "btts_yes": 0.4538,
+    "btts_no": 0.5462,
+    "expected_goals_home": 1.45,
+    "expected_goals_away": 0.88
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.84,
+      "model_prob": 0.5171,
+      "implied_prob": 0.5435,
+      "fair_odds": 1.93,
+      "edge": -4.85,
+      "ev_percent": -4.85,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.55,
+      "model_prob": 0.2666,
+      "implied_prob": 0.2817,
+      "fair_odds": 3.75,
+      "edge": -5.36,
+      "ev_percent": -5.36,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.3,
+      "model_prob": 0.2162,
+      "implied_prob": 0.2326,
+      "fair_odds": 4.63,
+      "edge": -7.03,
+      "ev_percent": -7.03,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 2.0,
+      "model_prob": 0.4106,
+      "implied_prob": 0.5,
+      "fair_odds": 2.44,
+      "edge": -17.88,
+      "ev_percent": -17.88,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.8,
+      "model_prob": 0.5894,
+      "implied_prob": 0.5556,
+      "fair_odds": 1.7,
+      "edge": 6.09,
+      "ev_percent": 6.09,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.95,
+      "model_prob": 0.4538,
+      "implied_prob": 0.5128,
+      "fair_odds": 2.2,
+      "edge": -11.51,
+      "ev_percent": -11.51,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "home_team": "Fortaleza",
+  "away_team": "Once Caldas",
+  "xg_home_for": 1.0,
+  "xg_home_against": 1.2,
+  "xg_away_for": 1.2,
+  "xg_away_against": 1.0,
+  "elo_home": 1450,
+  "elo_away": 1500,
+  "odds": { "1": 2.55, "X": 3.10, "2": 2.75 }
+}

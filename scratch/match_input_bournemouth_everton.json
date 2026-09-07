@@ -1,0 +1,19 @@
+{
+  "home_team": "AFC Bournemouth",
+  "away_team": "Everton FC",
+  "xg_home_for": 1.6,
+  "xg_home_against": 1.2,
+  "xg_away_for": 1.1,
+  "xg_away_against": 1.5,
+  "elo_home": 2120,
+  "elo_away": 2041,
+  "odds": {
+    "1": 1.85,
+    "X": 3.60,
+    "2": 4.50,
+    "under_2_5": 1.95,
+    "over_2_5": 1.85,
+    "btts_yes": 1.80,
+    "btts_no": 2.00
+  }
+}

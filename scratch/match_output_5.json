@@ -1,0 +1,60 @@
+{
+  "match": "Cagliari vs Verona",
+  "probabilities": {
+    "1": 0.4593,
+    "X": 0.2643,
+    "2": 0.2764,
+    "over_2_5": 0.4815,
+    "under_2_5": 0.5185,
+    "btts_yes": 0.5282,
+    "btts_no": 0.4718,
+    "expected_goals_home": 1.48,
+    "expected_goals_away": 1.12
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.3,
+      "model_prob": 0.4593,
+      "implied_prob": 0.4348,
+      "fair_odds": 2.18,
+      "edge": 5.64,
+      "ev_percent": 5.64,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.1,
+      "model_prob": 0.2643,
+      "implied_prob": 0.3226,
+      "fair_odds": 3.78,
+      "edge": -18.07,
+      "ev_percent": -18.07,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.2,
+      "model_prob": 0.2764,
+      "implied_prob": 0.3125,
+      "fair_odds": 3.62,
+      "edge": -11.55,
+      "ev_percent": -11.55,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.65,
+      "model_prob": 0.5185,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.93,
+      "edge": -14.45,
+      "ev_percent": -14.45,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

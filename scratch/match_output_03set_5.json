@@ -1,0 +1,71 @@
+{
+  "match": "Palermo vs Mantova",
+  "probabilities": {
+    "1": 0.5382,
+    "X": 0.2517,
+    "2": 0.2101,
+    "over_2_5": 0.4689,
+    "under_2_5": 0.5311,
+    "btts_yes": 0.4917,
+    "btts_no": 0.5083,
+    "expected_goals_home": 1.62,
+    "expected_goals_away": 0.93
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.65,
+      "model_prob": 0.5382,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.86,
+      "edge": -11.2,
+      "ev_percent": -11.2,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.0,
+      "model_prob": 0.2517,
+      "implied_prob": 0.25,
+      "fair_odds": 3.97,
+      "edge": 0.68,
+      "ev_percent": 0.68,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 5.0,
+      "model_prob": 0.2101,
+      "implied_prob": 0.2,
+      "fair_odds": 4.76,
+      "edge": 5.05,
+      "ev_percent": 5.05,
+      "stake_recommended_units": 0.0,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.8,
+      "model_prob": 0.5311,
+      "implied_prob": 0.5556,
+      "fair_odds": 1.88,
+      "edge": -4.4,
+      "ev_percent": -4.4,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.9,
+      "model_prob": 0.4689,
+      "implied_prob": 0.5263,
+      "fair_odds": 2.13,
+      "edge": -10.91,
+      "ev_percent": -10.91,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "home_team": "Lecce",
+  "away_team": "Roma",
+  "xg_home_for": 0.90,
+  "xg_home_against": 1.30,
+  "xg_away_for": 1.50,
+  "xg_away_against": 0.95,
+  "elo_home": 1715,
+  "elo_away": 1971,
+  "odds": { "1": 8.50, "X": 3.90, "2": 1.44, "over_2_5": 1.95, "under_2_5": 1.85 }
+}

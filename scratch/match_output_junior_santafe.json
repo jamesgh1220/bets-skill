@@ -1,0 +1,93 @@
+{
+  "match": "Junior de Barranquilla vs Independiente Santa Fe",
+  "probabilities": {
+    "1": 0.4876,
+    "X": 0.2638,
+    "2": 0.2486,
+    "over_2_5": 0.4562,
+    "under_2_5": 0.5438,
+    "btts_yes": 0.5019,
+    "btts_no": 0.4981,
+    "expected_goals_home": 1.48,
+    "expected_goals_away": 1.02
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.1,
+      "model_prob": 0.4876,
+      "implied_prob": 0.4762,
+      "fair_odds": 2.05,
+      "edge": 2.4,
+      "ev_percent": 2.4,
+      "stake_recommended_units": 0.01,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.2,
+      "model_prob": 0.2638,
+      "implied_prob": 0.3125,
+      "fair_odds": 3.79,
+      "edge": -15.58,
+      "ev_percent": -15.58,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.5,
+      "model_prob": 0.2486,
+      "implied_prob": 0.2857,
+      "fair_odds": 4.02,
+      "edge": -12.99,
+      "ev_percent": -12.99,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 2.0,
+      "model_prob": 0.5438,
+      "implied_prob": 0.5,
+      "fair_odds": 1.84,
+      "edge": 8.76,
+      "ev_percent": 8.76,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.8,
+      "model_prob": 0.4562,
+      "implied_prob": 0.5556,
+      "fair_odds": 2.19,
+      "edge": -17.88,
+      "ev_percent": -17.88,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.85,
+      "model_prob": 0.5019,
+      "implied_prob": 0.5405,
+      "fair_odds": 1.99,
+      "edge": -7.15,
+      "ev_percent": -7.15,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_no": {
+      "market": "btts_no",
+      "odds": 1.95,
+      "model_prob": 0.4981,
+      "implied_prob": 0.5128,
+      "fair_odds": 2.01,
+      "edge": -2.87,
+      "ev_percent": -2.87,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

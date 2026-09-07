@@ -1,0 +1,60 @@
+{
+  "match": "Real Sociedad vs Celta Vigo",
+  "probabilities": {
+    "1": 0.5536,
+    "X": 0.2431,
+    "2": 0.2033,
+    "over_2_5": 0.494,
+    "under_2_5": 0.506,
+    "btts_yes": 0.513,
+    "btts_no": 0.487,
+    "expected_goals_home": 1.68,
+    "expected_goals_away": 0.98
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.15,
+      "model_prob": 0.5536,
+      "implied_prob": 0.4651,
+      "fair_odds": 1.81,
+      "edge": 19.02,
+      "ev_percent": 19.02,
+      "stake_recommended_units": 0.04,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.58,
+      "model_prob": 0.2431,
+      "implied_prob": 0.2793,
+      "fair_odds": 4.11,
+      "edge": -12.97,
+      "ev_percent": -12.97,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.71,
+      "model_prob": 0.2033,
+      "implied_prob": 0.2695,
+      "fair_odds": 4.92,
+      "edge": -24.58,
+      "ev_percent": -24.58,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.7,
+      "model_prob": 0.506,
+      "implied_prob": 0.5882,
+      "fair_odds": 1.98,
+      "edge": -13.98,
+      "ev_percent": -13.98,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

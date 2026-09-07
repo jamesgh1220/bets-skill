@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "prediction_id",
+    "match_id",
+    "analysis_date",
+    "information_cutoff",
+    "market",
+    "selection",
+    "odds",
+    "estimated_probability",
+    "implied_probability",
+    "fair_odds",
+    "edge",
+    "ev",
+    "stake_units",
+    "confidence",
+    "decision"
+  ],
+  "properties": {
+    "prediction_id": {
+      "type": "string"
+    },
+    "match_id": {
+      "type": "string"
+    },
+    "analysis_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "information_cutoff": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "market": {
+      "type": "string"
+    },
+    "selection": {
+      "type": "string"
+    },
+    "odds": {
+      "type": "number",
+      "exclusiveMinimum": 1
+    },
+    "estimated_probability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "implied_probability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "fair_odds": {
+      "type": "number",
+      "exclusiveMinimum": 1
+    },
+    "edge": {
+      "type": "number"
+    },
+    "ev": {
+      "type": "number"
+    },
+    "minimum_acceptable_odds": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 1
+    },
+    "stake_units": {
+      "type": "number",
+      "minimum": 0
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "medium_high",
+        "high"
+      ]
+    },
+    "uncertainty": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "model": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "robustness_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "correlation_group": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "bet",
+        "no_bet",
+        "watch"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  }
+}

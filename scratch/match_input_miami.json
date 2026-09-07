@@ -1,0 +1,16 @@
+{
+  "home_team": "Inter Miami",
+  "away_team": "Atlanta United",
+  "xg_home_for": 2.10,
+  "xg_home_against": 1.30,
+  "xg_away_for": 1.35,
+  "xg_away_against": 1.70,
+  "elo_home": 1640,
+  "elo_away": 1510,
+  "odds": {
+    "1": 1.75,
+    "X": 4.10,
+    "2": 4.33,
+    "under_2_5": 2.60
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "home_team": "Udinese",
+  "away_team": "Lazio",
+  "xg_home_for": 1.45,
+  "xg_home_against": 1.2,
+  "xg_away_for": 1.24,
+  "xg_away_against": 0.8,
+  "elo_home": 1580,
+  "elo_away": 1700,
+  "odds": {
+    "1": 2.65,
+    "X": 3.13,
+    "2": 2.85,
+    "under_2_5": 1.63,
+    "btts_no": 1.8
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "match": "Instituto vs San Lorenzo",
+  "probabilities": {
+    "1": 0.5194,
+    "X": 0.282,
+    "2": 0.1987,
+    "over_2_5": 0.3368,
+    "under_2_5": 0.6632,
+    "btts_yes": 0.3802,
+    "btts_no": 0.6198,
+    "expected_goals_home": 1.35,
+    "expected_goals_away": 0.7
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.83,
+      "model_prob": 0.5194,
+      "implied_prob": 0.5464,
+      "fair_odds": 1.93,
+      "edge": -4.95,
+      "ev_percent": -4.95,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.1,
+      "model_prob": 0.282,
+      "implied_prob": 0.3226,
+      "fair_odds": 3.55,
+      "edge": -12.58,
+      "ev_percent": -12.58,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.5,
+      "model_prob": 0.1987,
+      "implied_prob": 0.2222,
+      "fair_odds": 5.03,
+      "edge": -10.58,
+      "ev_percent": -10.58,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

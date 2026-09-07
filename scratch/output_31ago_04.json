@@ -1,0 +1,71 @@
+{
+  "match": "Lecce vs Roma",
+  "probabilities": {
+    "1": 0.2826,
+    "X": 0.2791,
+    "2": 0.4383,
+    "over_2_5": 0.4106,
+    "under_2_5": 0.5894,
+    "btts_yes": 0.4763,
+    "btts_no": 0.5237,
+    "expected_goals_home": 1.05,
+    "expected_goals_away": 1.27
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 8.5,
+      "model_prob": 0.2826,
+      "implied_prob": 0.1176,
+      "fair_odds": 3.54,
+      "edge": 140.21,
+      "ev_percent": 140.21,
+      "stake_recommended_units": 0.05,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.9,
+      "model_prob": 0.2791,
+      "implied_prob": 0.2564,
+      "fair_odds": 3.58,
+      "edge": 8.85,
+      "ev_percent": 8.85,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.44,
+      "model_prob": 0.4383,
+      "implied_prob": 0.6944,
+      "fair_odds": 2.28,
+      "edge": -36.88,
+      "ev_percent": -36.88,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.95,
+      "model_prob": 0.4106,
+      "implied_prob": 0.5128,
+      "fair_odds": 2.44,
+      "edge": -19.93,
+      "ev_percent": -19.93,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.85,
+      "model_prob": 0.5894,
+      "implied_prob": 0.5405,
+      "fair_odds": 1.7,
+      "edge": 9.04,
+      "ev_percent": 9.04,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    }
+  }
+}

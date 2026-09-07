@@ -1,0 +1,60 @@
+{
+  "match": "Seattle Sounders vs Chicago Fire",
+  "probabilities": {
+    "1": 0.4334,
+    "X": 0.2639,
+    "2": 0.3027,
+    "over_2_5": 0.494,
+    "under_2_5": 0.506,
+    "btts_yes": 0.5438,
+    "btts_no": 0.4562,
+    "expected_goals_home": 1.43,
+    "expected_goals_away": 1.23
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.4,
+      "model_prob": 0.4334,
+      "implied_prob": 0.4167,
+      "fair_odds": 2.31,
+      "edge": 4.02,
+      "ev_percent": 4.02,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.5,
+      "model_prob": 0.2639,
+      "implied_prob": 0.2857,
+      "fair_odds": 3.79,
+      "edge": -7.63,
+      "ev_percent": -7.63,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.0,
+      "model_prob": 0.3027,
+      "implied_prob": 0.3333,
+      "fair_odds": 3.3,
+      "edge": -9.19,
+      "ev_percent": -9.19,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.7,
+      "model_prob": 0.494,
+      "implied_prob": 0.5882,
+      "fair_odds": 2.02,
+      "edge": -16.02,
+      "ev_percent": -16.02,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

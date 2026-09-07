@@ -1,0 +1,16 @@
+{
+  "home_team": "Bayer Leverkusen",
+  "away_team": "Union Berlin",
+  "xg_home_for": 1.95,
+  "xg_home_against": 0.95,
+  "xg_away_for": 1.05,
+  "xg_away_against": 1.55,
+  "elo_home": 1780,
+  "elo_away": 1580,
+  "odds": {
+    "1": 1.55,
+    "X": 4.40,
+    "2": 6.00,
+    "under_2_5": 2.25
+  }
+}

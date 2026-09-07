@@ -1,0 +1,60 @@
+{
+  "match": "Rosario Central vs Gimnasia La Plata",
+  "probabilities": {
+    "1": 0.5172,
+    "X": 0.26,
+    "2": 0.2228,
+    "over_2_5": 0.4433,
+    "under_2_5": 0.5567,
+    "btts_yes": 0.4838,
+    "btts_no": 0.5162,
+    "expected_goals_home": 1.5,
+    "expected_goals_away": 0.95
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.94,
+      "model_prob": 0.5172,
+      "implied_prob": 0.5155,
+      "fair_odds": 1.93,
+      "edge": 0.34,
+      "ev_percent": 0.34,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.3,
+      "model_prob": 0.26,
+      "implied_prob": 0.303,
+      "fair_odds": 3.85,
+      "edge": -14.2,
+      "ev_percent": -14.2,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.6,
+      "model_prob": 0.2228,
+      "implied_prob": 0.2174,
+      "fair_odds": 4.49,
+      "edge": 2.49,
+      "ev_percent": 2.49,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.7,
+      "model_prob": 0.5567,
+      "implied_prob": 0.5882,
+      "fair_odds": 1.8,
+      "edge": -5.36,
+      "ev_percent": -5.36,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "match": "Barcelona vs Rayo Vallecano",
+  "probabilities": {
+    "1": 0.709,
+    "X": 0.1905,
+    "2": 0.1005,
+    "over_2_5": 0.5183,
+    "under_2_5": 0.4817,
+    "btts_yes": 0.4532,
+    "btts_no": 0.5468,
+    "expected_goals_home": 2.03,
+    "expected_goals_away": 0.73
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.18,
+      "model_prob": 0.709,
+      "implied_prob": 0.8475,
+      "fair_odds": 1.41,
+      "edge": -16.34,
+      "ev_percent": -16.34,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 9.5,
+      "model_prob": 0.1905,
+      "implied_prob": 0.1053,
+      "fair_odds": 5.25,
+      "edge": 80.97,
+      "ev_percent": 80.97,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 18.0,
+      "model_prob": 0.1005,
+      "implied_prob": 0.0556,
+      "fair_odds": 9.95,
+      "edge": 80.9,
+      "ev_percent": 80.9,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.35,
+      "model_prob": 0.5183,
+      "implied_prob": 0.7407,
+      "fair_odds": 1.93,
+      "edge": -30.03,
+      "ev_percent": -30.03,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 3.0,
+      "model_prob": 0.4817,
+      "implied_prob": 0.3333,
+      "fair_odds": 2.08,
+      "edge": 44.51,
+      "ev_percent": 44.51,
+      "stake_recommended_units": 0.06,
+      "has_value": true
+    }
+  }
+}

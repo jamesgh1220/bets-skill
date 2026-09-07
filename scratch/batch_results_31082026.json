@@ -1,0 +1,352 @@
+[
+  {
+    "match": "FC Barcelona vs Rayo Vallecano",
+    "probabilities": {
+      "1": 0.6523,
+      "X": 0.208,
+      "2": 0.1397,
+      "over_2_5": 0.5422,
+      "under_2_5": 0.4578,
+      "btts_yes": 0.5081,
+      "btts_no": 0.4919,
+      "expected_goals_home": 1.98,
+      "expected_goals_away": 0.88
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.22,
+        "model_prob": 0.6523,
+        "implied_prob": 0.8197,
+        "fair_odds": 1.53,
+        "edge": -20.42,
+        "ev_percent": -20.42,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 7.75,
+        "model_prob": 0.208,
+        "implied_prob": 0.129,
+        "fair_odds": 4.81,
+        "edge": 61.2,
+        "ev_percent": 61.2,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "2": {
+        "market": "2",
+        "odds": 14.0,
+        "model_prob": 0.1397,
+        "implied_prob": 0.0714,
+        "fair_odds": 7.16,
+        "edge": 95.58,
+        "ev_percent": 95.58,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      }
+    },
+    "league": "LaLiga"
+  },
+  {
+    "match": "Aston Villa vs Arsenal",
+    "probabilities": {
+      "1": 0.3354,
+      "X": 0.2601,
+      "2": 0.4045,
+      "over_2_5": 0.554,
+      "under_2_5": 0.446,
+      "btts_yes": 0.5915,
+      "btts_no": 0.4085,
+      "expected_goals_home": 1.38,
+      "expected_goals_away": 1.52
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 3.6,
+        "model_prob": 0.3354,
+        "implied_prob": 0.2778,
+        "fair_odds": 2.98,
+        "edge": 20.74,
+        "ev_percent": 20.74,
+        "stake_recommended_units": 0.02,
+        "has_value": true
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.3,
+        "model_prob": 0.2601,
+        "implied_prob": 0.303,
+        "fair_odds": 3.84,
+        "edge": -14.17,
+        "ev_percent": -14.17,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 1.9,
+        "model_prob": 0.4045,
+        "implied_prob": 0.5263,
+        "fair_odds": 2.47,
+        "edge": -23.14,
+        "ev_percent": -23.14,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Premier League"
+  },
+  {
+    "match": "Atalanta vs Bologna",
+    "probabilities": {
+      "1": 0.53,
+      "X": 0.2462,
+      "2": 0.2238,
+      "over_2_5": 0.5063,
+      "under_2_5": 0.4937,
+      "btts_yes": 0.5322,
+      "btts_no": 0.4678,
+      "expected_goals_home": 1.65,
+      "expected_goals_away": 1.05
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.9,
+        "model_prob": 0.53,
+        "implied_prob": 0.5263,
+        "fair_odds": 1.89,
+        "edge": 0.7,
+        "ev_percent": 0.7,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.6,
+        "model_prob": 0.2462,
+        "implied_prob": 0.2778,
+        "fair_odds": 4.06,
+        "edge": -11.37,
+        "ev_percent": -11.37,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 4.1,
+        "model_prob": 0.2238,
+        "implied_prob": 0.2439,
+        "fair_odds": 4.47,
+        "edge": -8.24,
+        "ev_percent": -8.24,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Serie A"
+  },
+  {
+    "match": "Sporting Braga vs Vitória Guimarães",
+    "probabilities": {
+      "1": 0.5138,
+      "X": 0.2514,
+      "2": 0.2349,
+      "over_2_5": 0.5002,
+      "under_2_5": 0.4998,
+      "btts_yes": 0.5291,
+      "btts_no": 0.4709,
+      "expected_goals_home": 1.62,
+      "expected_goals_away": 1.05
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.74,
+        "model_prob": 0.5138,
+        "implied_prob": 0.5747,
+        "fair_odds": 1.95,
+        "edge": -10.6,
+        "ev_percent": -10.6,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.6,
+        "model_prob": 0.2514,
+        "implied_prob": 0.2778,
+        "fair_odds": 3.98,
+        "edge": -9.5,
+        "ev_percent": -9.5,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 4.85,
+        "model_prob": 0.2349,
+        "implied_prob": 0.2062,
+        "fair_odds": 4.26,
+        "edge": 13.93,
+        "ev_percent": 13.93,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      }
+    },
+    "league": "Liga Portugal"
+  },
+  {
+    "match": "Instituto vs San Lorenzo",
+    "probabilities": {
+      "1": 0.5194,
+      "X": 0.282,
+      "2": 0.1987,
+      "over_2_5": 0.3368,
+      "under_2_5": 0.6632,
+      "btts_yes": 0.3802,
+      "btts_no": 0.6198,
+      "expected_goals_home": 1.35,
+      "expected_goals_away": 0.7
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.83,
+        "model_prob": 0.5194,
+        "implied_prob": 0.5464,
+        "fair_odds": 1.93,
+        "edge": -4.95,
+        "ev_percent": -4.95,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 3.1,
+        "model_prob": 0.282,
+        "implied_prob": 0.3226,
+        "fair_odds": 3.55,
+        "edge": -12.58,
+        "ev_percent": -12.58,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "2": {
+        "market": "2",
+        "odds": 4.5,
+        "model_prob": 0.1987,
+        "implied_prob": 0.2222,
+        "fair_odds": 5.03,
+        "edge": -10.58,
+        "ev_percent": -10.58,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      }
+    },
+    "league": "Liga Argentina"
+  },
+  {
+    "match": "Deportivo Pasto vs Deportivo Pereira",
+    "probabilities": {
+      "1": 0.4882,
+      "X": 0.2774,
+      "2": 0.2344,
+      "over_2_5": 0.3906,
+      "under_2_5": 0.6094,
+      "btts_yes": 0.4433,
+      "btts_no": 0.5567,
+      "expected_goals_home": 1.38,
+      "expected_goals_away": 0.88
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.48,
+        "model_prob": 0.4882,
+        "implied_prob": 0.6757,
+        "fair_odds": 2.05,
+        "edge": -27.75,
+        "ev_percent": -27.75,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 4.1,
+        "model_prob": 0.2774,
+        "implied_prob": 0.2439,
+        "fair_odds": 3.6,
+        "edge": 13.73,
+        "ev_percent": 13.73,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "2": {
+        "market": "2",
+        "odds": 8.4,
+        "model_prob": 0.2344,
+        "implied_prob": 0.119,
+        "fair_odds": 4.27,
+        "edge": 96.9,
+        "ev_percent": 96.9,
+        "stake_recommended_units": 0.03,
+        "has_value": true
+      }
+    },
+    "league": "Liga Colombiana"
+  },
+  {
+    "match": "Deportes Tolima vs Cúcuta Deportivo",
+    "probabilities": {
+      "1": 0.5515,
+      "X": 0.2457,
+      "2": 0.2027,
+      "over_2_5": 0.4815,
+      "under_2_5": 0.5185,
+      "btts_yes": 0.5024,
+      "btts_no": 0.4976,
+      "expected_goals_home": 1.65,
+      "expected_goals_away": 0.95
+    },
+    "evaluations": {
+      "1": {
+        "market": "1",
+        "odds": 1.41,
+        "model_prob": 0.5515,
+        "implied_prob": 0.7092,
+        "fair_odds": 1.81,
+        "edge": -22.24,
+        "ev_percent": -22.24,
+        "stake_recommended_units": 0.0,
+        "has_value": false
+      },
+      "X": {
+        "market": "X",
+        "odds": 4.55,
+        "model_prob": 0.2457,
+        "implied_prob": 0.2198,
+        "fair_odds": 4.07,
+        "edge": 11.79,
+        "ev_percent": 11.79,
+        "stake_recommended_units": 0.01,
+        "has_value": true
+      },
+      "2": {
+        "market": "2",
+        "odds": 9.1,
+        "model_prob": 0.2027,
+        "implied_prob": 0.1099,
+        "fair_odds": 4.93,
+        "edge": 84.46,
+        "ev_percent": 84.46,
+        "stake_recommended_units": 0.03,
+        "has_value": true
+      }
+    },
+    "league": "Liga Colombiana"
+  }
+]

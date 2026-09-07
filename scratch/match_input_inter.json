@@ -1,0 +1,16 @@
+{
+  "home_team": "Inter Milan",
+  "away_team": "Napoli",
+  "xg_home_for": 1.75,
+  "xg_home_against": 1.00,
+  "xg_away_for": 1.40,
+  "xg_away_against": 1.20,
+  "elo_home": 1810,
+  "elo_away": 1750,
+  "odds": {
+    "1": 2.15,
+    "X": 3.40,
+    "2": 3.50,
+    "under_2_5": 1.90
+  }
+}

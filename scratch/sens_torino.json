@@ -1,0 +1,11 @@
+{
+  "home_team": "Torino",
+  "away_team": "Monza",
+  "xg_home_for": 1.2,
+  "xg_home_against": 1.5,
+  "xg_away_for": 1.4,
+  "xg_away_against": 1.8,
+  "elo_home": 1530,
+  "elo_away": 1490,
+  "odds": { "2": 3.90, "over_2_5": 1.90, "btts_yes": 2.00 }
+}

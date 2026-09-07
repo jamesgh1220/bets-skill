@@ -1,0 +1,19 @@
+{
+  "home_team": "FC Barcelona",
+  "away_team": "Athletic Club",
+  "xg_home_for": 2.35,
+  "xg_home_against": 0.85,
+  "xg_away_for": 1.30,
+  "xg_away_against": 1.25,
+  "elo_home": 1950,
+  "elo_away": 1720,
+  "odds": {
+    "1": 1.35,
+    "X": 5.25,
+    "2": 8.50,
+    "over_2_5": 1.55,
+    "under_2_5": 2.35,
+    "btts_yes": 1.80,
+    "btts_no": 1.95
+  }
+}

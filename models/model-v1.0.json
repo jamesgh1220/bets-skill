@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "created_at": "2026-08-25T00:00:00Z",
+  "parent_version": null,
+  "status": "active",
+  "description": "Versión inicial del modelo de predicción de fútbol",
+  "model_type": "ensemble",
+  "components": {
+    "poisson": {
+      "enabled": true,
+      "weight": 0.35,
+      "parameters": {
+        "home_advantage": 0.25,
+        "max_goals": 8
+      }
+    },
+    "dixon_coles": {
+      "enabled": true,
+      "weight": 0.30,
+      "parameters": {
+        "rho": -0.13,
+        "home_advantage": 0.25
+      }
+    },
+    "ratings": {
+      "enabled": true,
+      "weight": 0.20,
+      "parameters": {
+        "elo_k_factor": 20,
+        "home_advantage_elo": 100,
+        "decay_factor": 0.95
+      }
+    },
+    "regression": {
+      "enabled": true,
+      "weight": 0.15,
+      "parameters": {
+        "features": [
+          "xG_for", "xG_against", "shots_for", "shots_against",
+          "possession_avg", "ppda", "home_advantage", "form_last_5",
+          "rest_days", "travel_distance"
+        ],
+        "regularization": "l2",
+        "alpha": 0.1
+      }
+    }
+  },
+  "markets": {
+    "1x2": {
+      "enabled": true,
+      "calibration_tranches": [0, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.0],
+      "min_edge": 0.03,
+      "min_confidence": "medium"
+    },
+    "over_under_2_5": {
+      "enabled": true,
+      "calibration_tranches": [0, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 1.0],
+      "min_edge": 0.03,
+      "min_confidence": "medium"
+    },
+    "btts": {
+      "enabled": true,
+      "calibration_tranches": [0, 0.3, 0.4, 0.5, 0.6, 0.7, 1.0],
+      "min_edge": 0.03,
+      "min_confidence": "medium"
+    },
+    "asian_handicap": {
+      "enabled": false,
+      "calibration_tranches": [],
+      "min_edge": 0.05,
+      "min_confidence": "medium_high"
+    },
+    "double_chance": {
+      "enabled": true,
+      "calibration_tranches": [0, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+      "min_edge": 0.02,
+      "min_confidence": "medium"
+    },
+    "team_totals": {
+      "enabled": false,
+      "calibration_tranches": [],
+      "min_edge": 0.04,
+      "min_confidence": "medium_high"
+    }
+  },
+  "features": {
+    "offensive": [
+      "xG_for", "goals_scored_avg", "shots_per_game", "shots_on_target_pct",
+      "big_chances_created", "xG_per_shot", "progressive_passes",
+      "touches_in_box", "set_piece_xG"
+    ],
+    "defensive": [
+      "xG_against", "goals_conceded_avg", "shots_conceded", "ppda",
+      "errors_leading_to_shot", "set_piece_xG_conceded"
+    ],
+    "contextual": [
+      "home_advantage", "rest_days", "travel_distance", "congestion_index",
+      "competition_importance", "manager_tenure", "head_to_head_record"
+    ],
+    "form": [
+      "form_last_5", "form_last_10", "xG_form_last_5", "unbeaten_run",
+      "clean_sheet_pct"
+    ],
+    "player": [
+      "key_player_availability", "squad_depth", "suspension_count",
+      "injury_count", "transfer_activity"
+    ]
+  },
+  "weighting": {
+    "offensive": 0.30,
+    "defensive": 0.25,
+    "contextual": 0.20,
+    "form": 0.15,
+    "player": 0.10
+  },
+  "filters": {
+    "min_matches_analyzed": 10,
+    "max_days_since_last_match": 30,
+    "exclude_friendly": true,
+    "exclude_postponed": true,
+    "min_league_reliability": "medium"
+  },
+  "calibration": {
+    "method": "isotonic_regression",
+    "min_samples_per_tranche": 30,
+    "recalibrate_frequency": "monthly",
+    "platt_scaling": false
+  },
+  "uncertainty": {
+    "base_uncertainty": 0.05,
+    "small_sample_threshold": 15,
+    "small_sample_penalty": 0.10,
+    "manager_change_penalty": 0.08,
+    "high_congestion_penalty": 0.05
+  },
+  "validation": {
+    "backtest_period": "2024-08-01 a 2026-07-31",
+    "out_of_sample_period": "2026-08-01 a 2026-08-24",
+    "metrics": {
+      "brier": null,
+      "log_loss": null,
+      "calibration_error": null,
+      "roi": null,
+      "yield": null,
+      "clv": null
+    }
+  }
+}

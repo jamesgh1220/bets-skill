@@ -1,0 +1,11 @@
+{
+  "home_team": "Deportivo Pasto",
+  "away_team": "Deportivo Pereira",
+  "xg_home_for": 1.20,
+  "xg_home_against": 1.40,
+  "xg_away_for": 0.80,
+  "xg_away_against": 1.30,
+  "elo_home": 1380,
+  "elo_away": 1400,
+  "odds": { "1": 1.40, "X": 4.60, "2": 9.50, "over_2_5": 2.20, "under_2_5": 1.65 }
+}

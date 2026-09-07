@@ -1,0 +1,11 @@
+{
+  "home_team": "Barcelona",
+  "away_team": "Rayo Vallecano",
+  "xg_home_for": 2.20,
+  "xg_home_against": 0.80,
+  "xg_away_for": 0.90,
+  "xg_away_against": 1.60,
+  "elo_home": 1950,
+  "elo_away": 1500,
+  "odds": { "1": 1.18, "X": 9.50, "2": 18.00, "over_2_5": 1.35, "under_2_5": 3.00 }
+}

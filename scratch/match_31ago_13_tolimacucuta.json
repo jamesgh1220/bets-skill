@@ -1,0 +1,11 @@
+{
+  "home_team": "Deportes Tolima",
+  "away_team": "Cúcuta Deportivo",
+  "xg_home_for": 1.60,
+  "xg_home_against": 1.00,
+  "xg_away_for": 0.75,
+  "xg_away_against": 1.50,
+  "elo_home": 1520,
+  "elo_away": 1350,
+  "odds": { "1": 1.40, "X": 4.60, "2": 9.20, "over_2_5": 2.00, "under_2_5": 1.75 }
+}

@@ -1,0 +1,60 @@
+{
+  "match": "Huracan vs Estudiantes Rio Cuarto",
+  "probabilities": {
+    "1": 0.5352,
+    "X": 0.2741,
+    "2": 0.1908,
+    "over_2_5": 0.3504,
+    "under_2_5": 0.6496,
+    "btts_yes": 0.3983,
+    "btts_no": 0.6017,
+    "expected_goals_home": 1.35,
+    "expected_goals_away": 0.75
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.72,
+      "model_prob": 0.5352,
+      "implied_prob": 0.5814,
+      "fair_odds": 1.87,
+      "edge": -7.95,
+      "ev_percent": -7.95,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.4,
+      "model_prob": 0.2741,
+      "implied_prob": 0.2941,
+      "fair_odds": 3.65,
+      "edge": -6.81,
+      "ev_percent": -6.81,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 5.2,
+      "model_prob": 0.1908,
+      "implied_prob": 0.1923,
+      "fair_odds": 5.24,
+      "edge": -0.78,
+      "ev_percent": -0.78,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.55,
+      "model_prob": 0.6496,
+      "implied_prob": 0.6452,
+      "fair_odds": 1.54,
+      "edge": 0.69,
+      "ev_percent": 0.69,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

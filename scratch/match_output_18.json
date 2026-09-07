@@ -1,0 +1,60 @@
+{
+  "match": "Talleres vs Central Cordoba",
+  "probabilities": {
+    "1": 0.5943,
+    "X": 0.2453,
+    "2": 0.1604,
+    "over_2_5": 0.4171,
+    "under_2_5": 0.5829,
+    "btts_yes": 0.428,
+    "btts_no": 0.572,
+    "expected_goals_home": 1.6,
+    "expected_goals_away": 0.75
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.66,
+      "model_prob": 0.5943,
+      "implied_prob": 0.6024,
+      "fair_odds": 1.68,
+      "edge": -1.35,
+      "ev_percent": -1.35,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.5,
+      "model_prob": 0.2453,
+      "implied_prob": 0.2857,
+      "fair_odds": 4.08,
+      "edge": -14.15,
+      "ev_percent": -14.15,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 6.1,
+      "model_prob": 0.1604,
+      "implied_prob": 0.1639,
+      "fair_odds": 6.23,
+      "edge": -2.16,
+      "ev_percent": -2.16,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.6,
+      "model_prob": 0.5829,
+      "implied_prob": 0.625,
+      "fair_odds": 1.72,
+      "edge": -6.74,
+      "ev_percent": -6.74,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

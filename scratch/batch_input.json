@@ -1,0 +1,130 @@
+{
+  "matches": [
+    {
+      "id": "betis_realmadrid",
+      "home_team": "Real Betis",
+      "away_team": "Real Madrid",
+      "xg_home_for": 1.35,
+      "xg_home_against": 1.25,
+      "xg_away_for": 1.95,
+      "xg_away_against": 0.95,
+      "elo_home": 1680,
+      "elo_away": 1890,
+      "odds": {
+        "1": 5.20,
+        "X": 4.10,
+        "2": 1.57,
+        "under_2_5": 2.15,
+        "over_2_5": 1.70
+      }
+    },
+    {
+      "id": "ipswich_liverpool",
+      "home_team": "Ipswich Town",
+      "away_team": "Liverpool",
+      "xg_home_for": 1.05,
+      "xg_home_against": 1.85,
+      "xg_away_for": 2.10,
+      "xg_away_against": 1.10,
+      "elo_home": 1520,
+      "elo_away": 1860,
+      "odds": {
+        "1": 6.00,
+        "X": 4.50,
+        "2": 1.55,
+        "under_2_5": 2.45,
+        "over_2_5": 1.55
+      }
+    },
+    {
+      "id": "genoa_como",
+      "home_team": "Genoa",
+      "away_team": "Como",
+      "xg_home_for": 1.10,
+      "xg_home_against": 1.45,
+      "xg_away_for": 1.50,
+      "xg_away_against": 1.15,
+      "elo_home": 1580,
+      "elo_away": 1650,
+      "odds": {
+        "1": 4.60,
+        "X": 3.60,
+        "2": 1.85,
+        "under_2_5": 1.80,
+        "over_2_5": 2.00
+      }
+    },
+    {
+      "id": "stuttgart_koln",
+      "home_team": "Stuttgart",
+      "away_team": "Köln",
+      "xg_home_for": 1.85,
+      "xg_home_against": 1.20,
+      "xg_away_for": 1.15,
+      "xg_away_against": 1.65,
+      "elo_home": 1730,
+      "elo_away": 1590,
+      "odds": {
+        "1": 1.65,
+        "X": 4.10,
+        "2": 4.80,
+        "under_2_5": 2.25,
+        "over_2_5": 1.65
+      }
+    },
+    {
+      "id": "lyon_auxerre",
+      "home_team": "Lyon",
+      "away_team": "Auxerre",
+      "xg_home_for": 1.75,
+      "xg_home_against": 1.15,
+      "xg_away_for": 1.05,
+      "xg_away_against": 1.70,
+      "elo_home": 1710,
+      "elo_away": 1540,
+      "odds": {
+        "1": 1.53,
+        "X": 4.30,
+        "2": 6.00,
+        "under_2_5": 2.20,
+        "over_2_5": 1.67
+      }
+    },
+    {
+      "id": "sparta_zwolle",
+      "home_team": "Sparta Rotterdam",
+      "away_team": "PEC Zwolle",
+      "xg_home_for": 1.45,
+      "xg_home_against": 1.30,
+      "xg_away_for": 1.20,
+      "xg_away_against": 1.50,
+      "elo_home": 1600,
+      "elo_away": 1550,
+      "odds": {
+        "1": 2.20,
+        "X": 3.45,
+        "2": 3.20,
+        "under_2_5": 1.95,
+        "over_2_5": 1.85
+      }
+    },
+    {
+      "id": "porto_moreirense",
+      "home_team": "Porto",
+      "away_team": "Moreirense",
+      "xg_home_for": 2.20,
+      "xg_home_against": 0.70,
+      "xg_away_for": 0.85,
+      "xg_away_against": 1.90,
+      "elo_home": 1820,
+      "elo_away": 1560,
+      "odds": {
+        "1": 1.20,
+        "X": 6.50,
+        "2": 15.00,
+        "under_2_5": 2.30,
+        "over_2_5": 1.62
+      }
+    }
+  ]
+}

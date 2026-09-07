@@ -1,0 +1,82 @@
+{
+  "match": "Academico de Viseu vs FC Porto",
+  "probabilities": {
+    "1": 0.1615,
+    "X": 0.2203,
+    "2": 0.6181,
+    "over_2_5": 0.5304,
+    "under_2_5": 0.4696,
+    "btts_yes": 0.5082,
+    "btts_no": 0.4918,
+    "expected_goals_home": 0.89,
+    "expected_goals_away": 1.91
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 8.5,
+      "model_prob": 0.1615,
+      "implied_prob": 0.1176,
+      "fair_odds": 6.19,
+      "edge": 37.28,
+      "ev_percent": 37.28,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 5.2,
+      "model_prob": 0.2203,
+      "implied_prob": 0.1923,
+      "fair_odds": 4.54,
+      "edge": 14.56,
+      "ev_percent": 14.56,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.32,
+      "model_prob": 0.6181,
+      "implied_prob": 0.7576,
+      "fair_odds": 1.62,
+      "edge": -18.41,
+      "ev_percent": -18.41,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.8,
+      "model_prob": 0.5304,
+      "implied_prob": 0.5556,
+      "fair_odds": 1.89,
+      "edge": -4.53,
+      "ev_percent": -4.53,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 2.0,
+      "model_prob": 0.4696,
+      "implied_prob": 0.5,
+      "fair_odds": 2.13,
+      "edge": -6.08,
+      "ev_percent": -6.08,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 2.15,
+      "model_prob": 0.5082,
+      "implied_prob": 0.4651,
+      "fair_odds": 1.97,
+      "edge": 9.26,
+      "ev_percent": 9.26,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    }
+  }
+}

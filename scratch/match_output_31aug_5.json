@@ -1,0 +1,49 @@
+{
+  "match": "Deportivo Pasto vs Deportivo Pereira",
+  "probabilities": {
+    "1": 0.4882,
+    "X": 0.2774,
+    "2": 0.2344,
+    "over_2_5": 0.3906,
+    "under_2_5": 0.6094,
+    "btts_yes": 0.4433,
+    "btts_no": 0.5567,
+    "expected_goals_home": 1.38,
+    "expected_goals_away": 0.88
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.48,
+      "model_prob": 0.4882,
+      "implied_prob": 0.6757,
+      "fair_odds": 2.05,
+      "edge": -27.75,
+      "ev_percent": -27.75,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.1,
+      "model_prob": 0.2774,
+      "implied_prob": 0.2439,
+      "fair_odds": 3.6,
+      "edge": 13.73,
+      "ev_percent": 13.73,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 8.4,
+      "model_prob": 0.2344,
+      "implied_prob": 0.119,
+      "fair_odds": 4.27,
+      "edge": 96.9,
+      "ev_percent": 96.9,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    }
+  }
+}

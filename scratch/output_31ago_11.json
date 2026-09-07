@@ -1,0 +1,71 @@
+{
+  "match": "Instituto vs San Lorenzo",
+  "probabilities": {
+    "1": 0.4862,
+    "X": 0.2753,
+    "2": 0.2385,
+    "over_2_5": 0.4039,
+    "under_2_5": 0.5961,
+    "btts_yes": 0.4547,
+    "btts_no": 0.5453,
+    "expected_goals_home": 1.4,
+    "expected_goals_away": 0.9
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.95,
+      "model_prob": 0.4862,
+      "implied_prob": 0.5128,
+      "fair_odds": 2.06,
+      "edge": -5.19,
+      "ev_percent": -5.19,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.4,
+      "model_prob": 0.2753,
+      "implied_prob": 0.2941,
+      "fair_odds": 3.63,
+      "edge": -6.4,
+      "ev_percent": -6.4,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.0,
+      "model_prob": 0.2385,
+      "implied_prob": 0.25,
+      "fair_odds": 4.19,
+      "edge": -4.6,
+      "ev_percent": -4.6,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 2.2,
+      "model_prob": 0.4039,
+      "implied_prob": 0.4545,
+      "fair_odds": 2.48,
+      "edge": -11.14,
+      "ev_percent": -11.14,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.65,
+      "model_prob": 0.5961,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.68,
+      "edge": -1.64,
+      "ev_percent": -1.64,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "match": "Jaguares vs America de Cali",
+  "probabilities": {
+    "1": 0.2668,
+    "X": 0.2879,
+    "2": 0.4453,
+    "over_2_5": 0.384,
+    "under_2_5": 0.616,
+    "btts_yes": 0.4468,
+    "btts_no": 0.5532,
+    "expected_goals_home": 0.93,
+    "expected_goals_away": 1.3
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 4.45,
+      "model_prob": 0.2668,
+      "implied_prob": 0.2247,
+      "fair_odds": 3.75,
+      "edge": 18.73,
+      "ev_percent": 18.73,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.4,
+      "model_prob": 0.2879,
+      "implied_prob": 0.2941,
+      "fair_odds": 3.47,
+      "edge": -2.11,
+      "ev_percent": -2.11,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.79,
+      "model_prob": 0.4453,
+      "implied_prob": 0.5587,
+      "fair_odds": 2.25,
+      "edge": -20.29,
+      "ev_percent": -20.29,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.65,
+      "model_prob": 0.616,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.62,
+      "edge": 1.64,
+      "ev_percent": 1.64,
+      "stake_recommended_units": 0.01,
+      "has_value": false
+    }
+  }
+}

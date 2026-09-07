@@ -1,0 +1,11 @@
+{
+  "home_team": "Lazio",
+  "away_team": "Genoa",
+  "xg_home_for": 1.14,
+  "xg_home_against": 1.05,
+  "xg_away_for": 1.24,
+  "xg_away_against": 1.33,
+  "elo_home": 1900,
+  "elo_away": 1750,
+  "odds": { "1": 1.88, "X": 3.64, "2": 4.82, "under_2_5": 2.00 }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "odds_id",
+    "match_id",
+    "bookmaker",
+    "market",
+    "selection",
+    "odds",
+    "timestamp"
+  ],
+  "properties": {
+    "odds_id": {
+      "type": "string"
+    },
+    "match_id": {
+      "type": "string"
+    },
+    "bookmaker": {
+      "type": "string"
+    },
+    "market": {
+      "type": "string"
+    },
+    "selection": {
+      "type": "string"
+    },
+    "line": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "odds": {
+      "type": "number",
+      "exclusiveMinimum": 1
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "is_opening": {
+      "type": "boolean"
+    },
+    "is_closing": {
+      "type": "boolean"
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    }
+  }
+}

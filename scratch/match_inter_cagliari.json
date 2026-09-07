@@ -1,0 +1,11 @@
+{
+  "home_team": "Cagliari",
+  "away_team": "Inter Milan",
+  "xg_home_for": 1.02,
+  "xg_home_against": 1.44,
+  "xg_away_for": 1.88,
+  "xg_away_against": 0.92,
+  "elo_home": 1878,
+  "elo_away": 2229,
+  "odds": { "1": 6.50, "X": 3.80, "2": 1.53, "under_2_5": 2.30 }
+}

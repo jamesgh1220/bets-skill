@@ -1,0 +1,60 @@
+{
+  "match": "Inter Miami vs CF Montreal",
+  "probabilities": {
+    "1": 0.573,
+    "X": 0.2278,
+    "2": 0.1992,
+    "over_2_5": 0.5597,
+    "under_2_5": 0.4403,
+    "btts_yes": 0.5615,
+    "btts_no": 0.4385,
+    "expected_goals_home": 1.85,
+    "expected_goals_away": 1.08
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.4,
+      "model_prob": 0.573,
+      "implied_prob": 0.7143,
+      "fair_odds": 1.75,
+      "edge": -19.78,
+      "ev_percent": -19.78,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.5,
+      "model_prob": 0.2278,
+      "implied_prob": 0.2222,
+      "fair_odds": 4.39,
+      "edge": 2.51,
+      "ev_percent": 2.51,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 7.0,
+      "model_prob": 0.1992,
+      "implied_prob": 0.1429,
+      "fair_odds": 5.02,
+      "edge": 39.44,
+      "ev_percent": 39.44,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.55,
+      "model_prob": 0.5597,
+      "implied_prob": 0.6452,
+      "fair_odds": 1.79,
+      "edge": -13.25,
+      "ev_percent": -13.25,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

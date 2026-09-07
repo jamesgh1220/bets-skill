@@ -1,0 +1,60 @@
+{
+  "match": "Alianza Valledupar vs Atletico Nacional",
+  "probabilities": {
+    "1": 0.239,
+    "X": 0.2729,
+    "2": 0.4881,
+    "over_2_5": 0.4106,
+    "under_2_5": 0.5894,
+    "btts_yes": 0.4622,
+    "btts_no": 0.5378,
+    "expected_goals_home": 0.93,
+    "expected_goals_away": 1.4
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 3.9,
+      "model_prob": 0.239,
+      "implied_prob": 0.2564,
+      "fair_odds": 4.18,
+      "edge": -6.79,
+      "ev_percent": -6.79,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.25,
+      "model_prob": 0.2729,
+      "implied_prob": 0.3077,
+      "fair_odds": 3.66,
+      "edge": -11.31,
+      "ev_percent": -11.31,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.97,
+      "model_prob": 0.4881,
+      "implied_prob": 0.5076,
+      "fair_odds": 2.05,
+      "edge": -3.84,
+      "ev_percent": -3.84,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.6,
+      "model_prob": 0.5894,
+      "implied_prob": 0.625,
+      "fair_odds": 1.7,
+      "edge": -5.7,
+      "ev_percent": -5.7,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

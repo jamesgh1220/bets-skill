@@ -1,0 +1,82 @@
+{
+  "match": "Monza vs Udinese",
+  "probabilities": {
+    "1": 0.3205,
+    "X": 0.2616,
+    "2": 0.4179,
+    "over_2_5": 0.5353,
+    "under_2_5": 0.4647,
+    "btts_yes": 0.5724,
+    "btts_no": 0.4276,
+    "expected_goals_home": 1.25,
+    "expected_goals_away": 1.56
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.95,
+      "model_prob": 0.3205,
+      "implied_prob": 0.339,
+      "fair_odds": 3.12,
+      "edge": -5.45,
+      "ev_percent": -5.45,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.25,
+      "model_prob": 0.2616,
+      "implied_prob": 0.3077,
+      "fair_odds": 3.82,
+      "edge": -14.98,
+      "ev_percent": -14.98,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.4,
+      "model_prob": 0.4179,
+      "implied_prob": 0.4167,
+      "fair_odds": 2.39,
+      "edge": 0.3,
+      "ev_percent": 0.3,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 2.15,
+      "model_prob": 0.5353,
+      "implied_prob": 0.4651,
+      "fair_odds": 1.87,
+      "edge": 15.09,
+      "ev_percent": 15.09,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.67,
+      "model_prob": 0.4647,
+      "implied_prob": 0.5988,
+      "fair_odds": 2.15,
+      "edge": -22.4,
+      "ev_percent": -22.4,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.95,
+      "model_prob": 0.5724,
+      "implied_prob": 0.5128,
+      "fair_odds": 1.75,
+      "edge": 11.62,
+      "ev_percent": 11.62,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "home_team": "Chelsea",
+  "away_team": "Luton Town",
+  "xg_home_for": 2.20,
+  "xg_home_against": 0.95,
+  "xg_away_for": 1.10,
+  "xg_away_against": 1.80,
+  "elo_home": 1820,
+  "elo_away": 1530,
+  "odds": {
+    "1": 1.25,
+    "X": 6.00,
+    "2": 11.00,
+    "over_2_5": 1.48,
+    "under_2_5": 2.55,
+    "btts_yes": 1.90,
+    "btts_no": 1.85
+  }
+}

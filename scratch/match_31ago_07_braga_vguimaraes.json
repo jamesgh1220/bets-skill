@@ -1,0 +1,11 @@
+{
+  "home_team": "Braga",
+  "away_team": "Vitória de Guimarães",
+  "xg_home_for": 1.70,
+  "xg_home_against": 1.00,
+  "xg_away_for": 1.05,
+  "xg_away_against": 1.40,
+  "elo_home": 1946,
+  "elo_away": 1720,
+  "odds": { "1": 1.72, "X": 3.75, "2": 5.00, "over_2_5": 1.85, "under_2_5": 1.95 }
+}

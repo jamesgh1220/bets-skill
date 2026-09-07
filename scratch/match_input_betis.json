@@ -1,0 +1,19 @@
+{
+  "home_team": "Real Betis",
+  "away_team": "Real Madrid",
+  "xg_home_for": 1.0,
+  "xg_home_against": 1.7,
+  "xg_away_for": 2.1,
+  "xg_away_against": 0.8,
+  "elo_home": 1520,
+  "elo_away": 1660,
+  "odds": {
+    "1": 7.15,
+    "X": 5.12,
+    "2": 1.38,
+    "under_2_5": 1.95,
+    "over_2_5": 1.85,
+    "btts_yes": 1.70,
+    "btts_no": 2.10
+  }
+}

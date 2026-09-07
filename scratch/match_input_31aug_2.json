@@ -1,0 +1,16 @@
+{
+  "home_team": "Atalanta",
+  "away_team": "Bologna",
+  "league": "Serie A",
+  "xg_home_for": 1.85,
+  "xg_home_against": 1.1,
+  "xg_away_for": 1.25,
+  "xg_away_against": 1.2,
+  "elo_home": 1840,
+  "elo_away": 1730,
+  "odds": {
+    "1": 1.9,
+    "X": 3.6,
+    "2": 4.1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "match": "Deportes Tolima vs Cúcuta Deportivo",
+  "probabilities": {
+    "1": 0.5515,
+    "X": 0.2457,
+    "2": 0.2027,
+    "over_2_5": 0.4815,
+    "under_2_5": 0.5185,
+    "btts_yes": 0.5024,
+    "btts_no": 0.4976,
+    "expected_goals_home": 1.65,
+    "expected_goals_away": 0.95
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.41,
+      "model_prob": 0.5515,
+      "implied_prob": 0.7092,
+      "fair_odds": 1.81,
+      "edge": -22.24,
+      "ev_percent": -22.24,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.55,
+      "model_prob": 0.2457,
+      "implied_prob": 0.2198,
+      "fair_odds": 4.07,
+      "edge": 11.79,
+      "ev_percent": 11.79,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 9.1,
+      "model_prob": 0.2027,
+      "implied_prob": 0.1099,
+      "fair_odds": 4.93,
+      "edge": 84.46,
+      "ev_percent": 84.46,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    }
+  }
+}
