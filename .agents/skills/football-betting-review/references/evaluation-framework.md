@@ -14,7 +14,7 @@ La skill `football-betting-review` opera de forma completamente automática:
 
 ## Fuente de Datos
 
-Cargar artefactos desde `artifacts/analisis-{dia}-{mes}-{año}.md`.
+Cargar artefactos vigentes desde `artifacts/analisis-YYYY-MM-DD--{modelo-ia}--vNN.md` y conservar los nombres anteriores como legado `legacy-unknown`.
 
 Cada artefacto contiene:
 - Metadatos del análisis (fecha, ligas, universo)
@@ -29,7 +29,7 @@ Cada artefacto contiene:
 3. **Buscar resultados automáticamente**: Usar web search para cada pick PENDIENTE con fecha pasada.
 4. **Actualizar artefactos**: Cambiar estado de PENDIENTE a GANADA/PERDIDA/PUSH/VOID.
 5. **Calcular métricas**: N, stake, profit, ROI, yield, win rate, odds media, EV medio, CLV, max drawdown.
-6. **Segmentar**: Por liga, mercado, rango de cuotas, stake, confianza, período.
+6. **Segmentar**: Primero por modelo de IA y versión de motor; dentro de cada serie, por liga, mercado, rango de cuotas, stake, confianza y período.
 7. **Analizar calibración**: Probabilidad modelo vs win rate observado.
 8. **Estudiar drawdown**: Rachas, caídas máximas, varianza vs evidencia.
 

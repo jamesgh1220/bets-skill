@@ -13,7 +13,7 @@ La skill `football-model-refinement` toma el diagnóstico y propone cambios cont
 
 ## Fuentes de Datos
 
-- **Artefactos**: `artifacts/analisis-*.md` (picks generados por analysis)
+- **Artefactos**: `artifacts/analisis-*.md` (picks generados por analysis, agrupados por modelo de IA y versión de motor)
 - **Modelo actual**: `models/model-v{X}.{Y}.json` (configuración activa)
 - **Resultados**: Proporcionados por el usuario o desde archivos externos
 
@@ -22,9 +22,9 @@ La skill `football-model-refinement` toma el diagnóstico y propone cambios cont
 ### Paso 1: Cargar Datos
 
 1. Leer modelo actual desde `models/` (versión con estado `active`)
-2. Cargar artefactos de predicciones desde `artifacts/`
+2. Cargar artefactos de predicciones desde `artifacts/` y formar series independientes `modelo-ia + versión-motor`; los legacy se mantienen como `legacy-unknown`
 3. Cargar o solicitar resultados reales (GANADA/PERDIDA/PUSH/VOID)
-4. Construir dataset de predicciones vs resultados
+4. Construir un dataset de predicciones vs resultados por serie, nunca un agregado que mezcle modelos de IA
 
 ### Paso 2: Métricas de Calidad
 
@@ -98,6 +98,7 @@ Generar reporte con:
 ```
 === DIAGNÓSTICO DEL MODELO ===
 Versión: {version}
+Modelo de IA: {modelo_ia}
 Período evaluado: {inicio} - {fin}
 N predicciones: {N}
 
@@ -142,5 +143,7 @@ Períodos problemáticos: {lista}
 - **Separar calidad de predicción de precio pagado.**
 - **No confundir suerte con skill** en muestras pequeñas.
 - **Generar recomendaciones accionables** para `football-model-refinement`.
+- **Series aisladas:** Mostrar las métricas de cada combinación de modelo de IA y motor por separado. No comparar ni combinar series distintas como si fueran una sola muestra.
+- **Ambigüedad:** Si no se puede identificar una serie concreta para una recomendación accionable, limitarse a reportar diagnóstico descriptivo y solicitar el modelo/versión objetivo antes de refinement.
 
 Consultar `references/metrics.md`, `calibration.md` y `overfitting.md`.

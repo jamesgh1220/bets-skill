@@ -28,13 +28,14 @@ Tomar el diagnóstico de `football-model-evaluation` y proponer mejoras controla
 - **Diagnóstico**: Resultado de `football-model-evaluation`
 - **Modelo actual**: `models/model-v{X}.{Y}.json` (versión active)
 - **Datos históricos**: Búsqueda automática de estadísticas, resultados, xG
-- **Artefactos**: `artifacts/analisis-*.md` (predicciones anteriores)
+- **Artefactos**: `artifacts/analisis-*.md` (predicciones anteriores, separadas por modelo de IA y versión del motor)
 
 ## Proceso Detallado
 
 ### Paso 1: Cargar Diagnóstico
 
 1. Leer diagnóstico generado por `football-model-evaluation`
+   - El diagnóstico debe identificar una única serie `modelo-ia + versión-motor`; no usar resultados agregados de series distintas.
 2. Identificar mercados con problemas de calibración
 3. Identificar métricas deterioradas vs versión anterior
 4. Identificar señales de sobreajuste
@@ -185,5 +186,6 @@ Si se aprueba:
 - **Documentar todo.** Cada cambio debe tener justificación y métricas.
 - **Priorizar sobre calibración.** La calibración es más importante que el ROI.
 - **Un cambio a la vez.** No combinar múltiples cambios en una propuesta.
+- **Series aisladas:** La identidad de la IA que generó el análisis es trazabilidad experimental; un refinement solo cambia el motor predictivo indicado, nunca esa identidad. Solicitar una serie concreta si el diagnóstico no la especifica.
 
 Consultar `references/refinement-methodology.md` y `versioning-protocol.md`.

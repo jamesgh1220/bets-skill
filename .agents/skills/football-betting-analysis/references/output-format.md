@@ -1,79 +1,44 @@
 # Output Format
 
-## Pantalla — Ranking Global (pre-selección)
+El artefacto es un contrato de datos para review, evaluation y refinement. No se publica ningún análisis que no supere `scripts/validate_analysis_artifact.py`.
 
-Mostrar primero el ranking completo de todos los candidatos con value (antes de la selección top 0-6):
+## Pantalla
 
-| Rank | Partido | Mercado | Selección | Cuota | Prob. | Justa | Edge | EV | Stake | Confianza |
-|---|---|---|---|---:|---:|---:|---:|---:|---:|---|
+Mostrar primero `Ranking Global` de los candidatos con value y después la selección final de 0 a 6 picks. Cada pick mostrado incluye cuota, probabilidad modelo e implícita, justa, edge, EV, stake, confianza, incertidumbre, razones, riesgos y cuota mínima. Incluir siempre los `NO BET` relevantes y el portfolio.
 
-Ordenar por value robusto, no por cuota alta.
+## Artefacto obligatorio
 
-Luego mostrar la **selección final (0-6 picks)** con el siguiente formato en pantalla:
-
----
-
-## Pantalla — Picks Seleccionados (Top 0-6)
-
-### Resumen
-- **Picks candidatos totales:** N
-- **Picks seleccionados:** M (M <= 6)
-- **Excluidos por:** (breve justificación de por qué no entraron)
-
-### Tabla Top Picks
-
-| Rank | Partido | Mercado | Selección | Cuota | Prob. | Justa | Edge | EV | Stake | Confianza |
-|---|---|---|---|---:|---:|---:|---:|---:|---:|---|
-
----
-
-## Pick (detalle de cada uno)
-
-**Partido:** A vs B
-**Mercado:** ...
-**Selección:** ...
-**Cuota:** ...
-**Probabilidad modelo:** ...
-**Probabilidad implícita:** ...
-**Cuota justa:** ...
-**Edge:** ...
-**EV:** ...
-**Cuota mínima:** ...
-**Stake:** ...
-**Confianza:** ...
-**Incertidumbre:** ...
-
-**Por qué:** ...
-**Riesgos:** ...
-**Condición de entrada:** cuota >= cuota mínima.
-
-Incluir NO BET y portfolio/correlaciones.
-
----
-
-## Artefacto .md — Estructura del Archivo
-
-Cada análisis genera un archivo en `artifacts/analisis-{dia}-{mes}-{año}.md` con esta estructura exacta:
+La plantilla siguiente debe respetarse literalmente en títulos, etiquetas y columnas. Sustituir todos los marcadores; para cero picks conservar las tablas sin filas y escribir `- Ninguno.` en NO BET cuando corresponda.
 
 ```markdown
 # Análisis de Apuestas — {fecha_en_texto}
 
 ## Metadatos
-- **Fecha de análisis:** {analysis_date}
-- **Ligas analizadas:** {lista de ligas}
-- **Rango de fechas solicitado:** {rango}
+- **Fecha de análisis:** {YYYY-MM-DDTHH:MM:SS±HH:MM}
+- **Fecha(s) de partido:** {fecha o rango solicitado}
+- **Information cutoff:** {YYYY-MM-DDTHH:MM:SS±HH:MM}
+- **Modelo de IA:** {identificador recibido en modelo}
+- **Versión del motor predictivo:** {model-vX.Y}
+- **Ligas analizadas:** {lista}
+- **Rango de fechas solicitado:** {rango original}
 - **Partidos en universo:** {N}
-- **Picks iniciales con value:** {N_candidatos}
-- **Picks finales seleccionados:** {N_seleccionados}
+- **Picks iniciales con value:** {N}
+- **Picks finales seleccionados:** {N, entre 0 y 6}
+
+## Universo Analizado
+{partidos incluidos y exclusiones por fecha/liga}
+
+## Ranking Global
+| Rank | Partido | Mercado | Selección | Cuota | Prob. | Justa | Edge | EV | Stake | Confianza |
+|---|---|---|---|---:|---:|---:|---:|---:|---:|---|
+| ... |
 
 ## Picks Recomendados (Top {N})
-
 | Rank | Partido | Mercado | Selección | Cuota | Prob. | Justa | Edge | EV | Stake | Confianza |
-|------|---------|---------|-----------|-------|-------|-------|------|-----|-------|-----------|
+|---|---|---|---|---:|---:|---:|---:|---:|---:|---|
 | 1 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
 ## Detalle de Picks
-
 ### Pick 1: {Equipo A} vs {Equipo B}
 - **Mercado:** ...
 - **Selección:** ...
@@ -84,15 +49,15 @@ Cada análisis genera un archivo en `artifacts/analisis-{dia}-{mes}-{año}.md` c
 - **Edge:** ...
 - **EV:** ...
 - **Cuota mínima:** ...
-- **Stake:** ...u ({descripción})
+- **Stake:** ...u
 - **Confianza:** ...
 - **Incertidumbre:** ...
 - **Por qué:** ...
 - **Riesgos:** ...
 - **Fuentes:** ...
 
-### Pick 2: ...
-(repetir para cada pick)
+## NO BET / Excluidos
+- {partido/mercado}: {razón}, o `Ninguno.`
 
 ## Portfolio y Correlaciones
 - **Exposición total:** {total_stake}u
@@ -100,27 +65,24 @@ Cada análisis genera un archivo en `artifacts/analisis-{dia}-{mes}-{año}.md` c
 - **Ajuste de stake por correlación:** ...
 
 ## Tracking
-- **Estado:** PENDIENTE
-- **Resultado:** (completar después del partido)
-- **Profit/Loss:** (completar después del partido)
+| Pick | Estado | Resultado | Profit/Loss |
+|---|---|---|---|
+| {Pick 1} | PENDIENTE | — | — |
 ```
 
-### Convención de Nombres de Archivo
+## Nombre y publicación
 
-- Formato: `analisis-{dia}-{mes}-{año}.md`
-- Mes en español minúsculas: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre
-- Ejemplos:
-  - `analisis-26-agosto-2026.md`
-  - `analisis-5-septiembre-2026.md`
-  - `analisis-15-octubre-2026.md`
+- Formato final: `artifacts/analisis-YYYY-MM-DD--{modelo-slug}--vNN.md`.
+- `{modelo-slug}` es la versión minúscula, ASCII y con guiones del parámetro obligatorio `modelo:`. El valor original se mantiene en `Modelo de IA`.
+- La revisión comienza en `v01`; ejecuciones posteriores con misma fecha y modelo reciben `v02`, `v03`, etc.
+- Crear un temporal único en `scratch/`, validarlo y publicarlo exclusivamente con:
 
-### Tracking de Picks
+  ```bash
+  python3 scripts/publish_analysis_artifact.py --input {temporal} --analysis-date {YYYY-MM-DD} --model "{modelo}"
+  ```
 
-El artefacto incluye una sección `## Tracking` con estado:
-- `PENDIENTE` — Pick registrado, esperando resultado
-- `GANADA` — Pick ganado, profit positivo
-- `PERDIDA` — Pick perdido
-- `PUSH` — Empate/devolución
-- `VOID` — Anulado
+- Si el comando falla, corregir el temporal y repetir. No terminar ni presentar la corrida como completada hasta que el comando imprima la ruta final.
 
-La skill `football-betting-review` puede leer estos artefactos para calcular métricas de rendimiento.
+## Tracking de Picks
+
+Estados permitidos: `PENDIENTE`, `GANADA`, `PERDIDA`, `PUSH` y `VOID`. Review actualiza exclusivamente las filas de Tracking del artefacto publicado.

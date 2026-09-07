@@ -10,13 +10,14 @@ description: Revisa apuestas históricas buscando resultados automáticamente, c
 La skill carga predicciones desde los artefactos generados por `football-betting-analysis`:
 
 - **Directorio:** `artifacts/`
-- **Patrón de archivos:** `analisis-{dia}-{mes}-{año}.md`
-- **Formato:** Markdown con secciones Metadatos, Picks Recomendados (tabla), Detalle de Picks, Portfolio y Tracking.
+- **Patrón vigente:** `analisis-YYYY-MM-DD--{modelo-ia}--vNN.md`
+- **Formato vigente:** El contrato de `football-betting-analysis/references/output-format.md`.
+- **Legado:** Los archivos anteriores se aceptan por extracción best-effort y se etiquetan `legacy-unknown`; no se renombran ni se mezclan con series trazables.
 
 ## Flujo Automatizado (Sin Input Manual)
 
 ```
-1. Leer todos los artefactos artifacts/analisis-*.md
+1. Leer todos los artefactos artifacts/analisis-*.md y clasificarlos por `modelo-ia + versión-motor`
 2. Identificar picks con estado PENDIENTE
 3. Para cada pick PENDIENTE:
    a. Verificar si la fecha del partido ya pasó
@@ -24,7 +25,7 @@ La skill carga predicciones desde los artefactos generados por `football-betting
    c. Determinar GANADA/PERDIDA/PUSH/VOID según mercado
    d. Calcular profit
    e. Actualizar artefacto con resultado
-4. Calcular métricas de rendimiento globales
+4. Calcular métricas independientes por serie; no sumar picks de modelos de IA distintos
 5. Mostrar reporte completo
 ```
 
@@ -32,10 +33,12 @@ La skill carga predicciones desde los artefactos generados por `football-betting
 
 Leer todos los archivos `artifacts/analisis-*.md`:
 
-1. Extraer metadatos: fecha de análisis, ligas, rango de fechas
+1. Extraer metadatos: fecha de análisis, ligas, rango, modelo de IA y versión del motor
 2. Extraer picks de la tabla: Rank, Partido, Mercado, Selección, Cuota, Stake, Estado
 3. Extraer detalle de picks: datos completos
 4. Identificar picks con estado `PENDIENTE`
+
+Para un archivo con nombre o estructura vigente, validar su identidad mediante metadatos y mantenerlo en su propia serie. Para un archivo legacy, intentar extraer los campos disponibles y asignar `modelo-ia=legacy-unknown`; informar los campos no disponibles sin bloquear los demás archivos.
 
 ## Paso 2: Verificar Fechas
 
@@ -148,11 +151,13 @@ Analizar rendimiento por:
 
 ## Formato de Salida
 
-### Resumen General
+### Resumen General por Serie
 
 ```
 === RESUMEN DE RENDIMIENTO ===
 Período: {fecha_inicio} - {fecha_fin}
+Modelo de IA: {modelo_ia}
+Versión del motor: {version_motor}
 N picks: {N}
 Stake total: {stake}u
 Profit: {profit}u

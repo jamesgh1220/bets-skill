@@ -10,7 +10,7 @@ description: Analiza partidos y mercados de fútbol, verifica actualidad, estima
 La skill se invoca con el siguiente formato:
 
 ```
-/football-betting-analysis ligas:[lista] fechas:[fecha/rango] partidos:[lista/todos]
+/football-betting-analysis ligas:[lista] fechas:[fecha/rango] partidos:[lista/todos] modelo:[id]
 ```
 
 ### Parámetros
@@ -22,10 +22,11 @@ La skill se invoca con el siguiente formato:
 - **partidos** (requerido): 
   - `todos` para analizar todos los partidos de las ligas en las fechas especificadas
   - Lista de partidos específicos: `Juventus vs Inter, Milan vs Napoli`
+- **modelo** (requerido): Identificador de la IA que ejecuta la corrida. Ejemplo: `gpt-5`, `claude-sonnet` o `gemini-2-5-pro`. No es la versión del motor predictivo.
 
 ## Proceso de Análisis
 
-1. **Parsear parámetros**: Extraer ligas, fechas y partidos de la invocación.
+1. **Parsear parámetros**: Extraer ligas, fechas, partidos y el identificador obligatorio `modelo` de la invocación.
 2. **Construir el universo**: Universo = intersección(ligas, fechas, partidos). Solo incluir partidos dentro del rango de fechas especificado.
 3. **Verificar actualidad de equipos y jugadores.**
 4. **Buscar cuotas en bookmakers colombianos**: Consultar cuotas en las casas de apuestas configuradas (Betplay, Betsson, Wplay, Rushbet, Zamba, Sportium) usando web scraping/búsqueda.
@@ -53,10 +54,16 @@ La skill se invoca con el siguiente formato:
 9. **Comparar candidatos globalmente.**
 10. **Emitir picks y `NO BET`.**
 11. **SELECCIONAR TOP 0-6**: Del total de picks con value devolver de 0 a 6 apuestas óptimas.
-12. **GENERAR ARTEFACTO**: Crear archivo `artifacts/analisis-{dia}-{mes}-{año}.md`.
+12. **GENERAR Y PUBLICAR ARTEFACTO (OBLIGATORIO)**:
+   - Leer y respetar `references/output-format.md` antes de redactarlo.
+   - Registrar por separado el `Modelo de IA` recibido y la `Versión del motor predictivo` activa.
+   - Crear un temporal único dentro de `scratch/`; no escribir directamente en `artifacts/`.
+   - Ejecutar `python3 scripts/publish_analysis_artifact.py --input {temporal} --analysis-date {YYYY-MM-DD} --model "{modelo}"`.
+   - El publicador valida el contrato y asigna atómicamente `analisis-YYYY-MM-DD--{modelo-slug}--vNN.md`. Si falla, corregir el archivo y volver a ejecutarlo. **No finalizar el análisis sin una ruta final publicada.**
 
 ## Reglas Críticas de Filtrado
 
 - **Filtrado estricto por fechas**: Solo analizar partidos cuya fecha de juego esté dentro del rango proporcionado.
 - **Filtrado por ligas**: Solo analizar partidos de las ligas especificadas.
 - **Cálculo Determinista**: Todos los cálculos cuantitativos son ejecutados por `scripts/calc_engine.py`.
+- **Contrato de salida**: `references/output-format.md` es obligatorio; no se permiten secciones, etiquetas o columnas alternativas.

@@ -199,7 +199,7 @@ Al finalizar la búsqueda, mostrar:
 
 ```
 === ACTUALIZACIÓN DE RESULTADOS ===
-Artefacto: analisis-25-agosto-2026.md
+Artefacto: analisis-2026-08-25--gpt-5--v01.md
 Partidos buscados: 4
 Resultados encontrados: 3
 Pendientes: 1
