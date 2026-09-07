@@ -24,7 +24,7 @@ Sistema cuantitativo para análisis de apuestas de fútbol, búsqueda de value y
 **Invocación:**
 
 ```
-/football-betting-analysis ligas:[lista] fechas:[fecha/rango] partidos:[lista/todos]
+/football-betting-analysis ligas:[lista] fechas:[fecha/rango] partidos:[lista/todos] modelo:[id]
 ```
 
 **Parámetros:**
@@ -32,19 +32,20 @@ Sistema cuantitativo para análisis de apuestas de fútbol, búsqueda de value y
 - `ligas` (requerido): Lista de ligas separadas por comas
 - `fechas` (requerido): Fecha única o rango de fechas
 - `partidos` (requerido): `todos` o lista de partidos específicos
+- `modelo` (requerido): identificador de la IA que ejecuta la corrida
 
 **Ejemplos:**
 
 ```
-/football-betting-analysis ligas:Premier League, LaLiga fechas:5 de septiembre de 2026 partidos:todos
-/football-betting-analysis ligas:Serie A fechas:5-7 septiembre 2026 partidos:Juventus vs Inter
+/football-betting-analysis ligas:Premier League, LaLiga fechas:5 de septiembre de 2026 partidos:todos modelo:gpt-5
+/football-betting-analysis ligas:Serie A fechas:5-7 septiembre 2026 partidos:Juventus vs Inter modelo:claude-sonnet
 ```
 
 **Salida:**
 
 - Ranking completo de candidatos con value
 - Selección final de **0-6 picks más óptimos**
-- Artefacto `artifacts/analisis-{dia}-{mes}-{año}.md`
+- Artefacto validado `artifacts/analisis-YYYY-MM-DD--{modelo-ia}--vNN.md`
 
 ---
 
@@ -137,12 +138,12 @@ Sistema cuantitativo para análisis de apuestas de fútbol, búsqueda de value y
 
 ### Día 25 de Agosto — Generas Apuestas
 
-Ejecutas: `/football-betting-analysis ligas:Premier League, LaLiga fechas:25-27 agosto partidos:todos`
+Ejecutas: `/football-betting-analysis ligas:Premier League, LaLiga fechas:25-27 agosto partidos:todos modelo:gpt-5`
 
 Resultado:
 - 12 candidatos con value
 - Selección final: 4 picks
-- Artefacto: `artifacts/analisis-25-agosto-2026.md`
+- Artefacto: `artifacts/analisis-2026-08-25--gpt-5--v01.md`
 
 Picks generados:
 1. Arsenal vs Chelsea → Over 2.5 → Cuota 1.90 → 0.50u
@@ -157,7 +158,7 @@ Estado: Todos PENDIENTE
 Ejecutas: `/football-review`
 
 La skill automáticamente:
-- Lee `artifacts/analisis-25-agosto-2026.md`
+- Lee `artifacts/analisis-2026-08-25--gpt-5--v01.md` dentro de la serie `gpt-5 + model-v1.0`
 - Busca resultados de los 4 partidos via web search
 - Actualiza cada pick:
   - Arsenal 3-1 Chelsea → Over 2.5 → GANADA (+0.45u)

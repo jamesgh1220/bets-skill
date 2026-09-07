@@ -31,7 +31,7 @@ Poisson, Dixon-Coles, ratings, regresión, Bayes, Monte Carlo y ensembles según
 ## Salida
 - Cada pick debe incluir partido, mercado, selección, cuota, probabilidades, cuota justa, edge, EV, cuota mínima, stake, confianza, incertidumbre, razones, riesgos y fuentes.
 - **Máximo 6 picks finales.** Seleccionar los más óptimos por EV robusto, edge y diversificación. No forzar a llegar a 6 si no hay value suficiente.
-- **Generar artefacto `.md`** en `artifacts/` con cada análisis completo. Nombre: `analisis-{dia}-{mes}-{año}.md`.
+- **Generar artefacto `.md` validado** en `artifacts/` con cada análisis completo. Nombre: `analisis-YYYY-MM-DD--{modelo-ia}--vNN.md`; `modelo:` es obligatorio y la publicación debe usar `scripts/publish_analysis_artifact.py`.
 - Luego ranking global y portfolio.
 - La skill `football-betting-review` lee estos artefactos para evaluar rendimiento histórico.
 
