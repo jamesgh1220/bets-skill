@@ -112,5 +112,18 @@ De acuerdo con las reglas de selección cuantitativa (máximo 6 picks optimizado
 
 ---
 
+## 4. Tracking / Resultados
+
+| # | Partido | Mercado | Selección | Cuota | Stake | Resultado | Estado | P/L |
+| :-: | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **1** | Sparta Rotterdam vs PEC Zwolle | 1X2 | **Sparta Rotterdam (1)** | **2.20** | **0.50u** | 2 - 2 | PERDIDA | -0.50u |
+| **2** | Genoa vs Como | 1X2 | **Genoa (1)** | **4.60** | **0.25u** | 1 - 4 | PERDIDA | -0.25u |
+| **3** | Real Betis vs Real Madrid | 1X2 | **Real Betis (1)** | **5.20** | **0.25u** | 1 - 0 | GANADA | +1.05u |
+| **4** | Porto vs Moreirense | Totales | **Under 2.5 Goles** | **2.30** | **0.25u** | 2 - 1 (3 goles) | PERDIDA | -0.25u |
+| **5** | Lyon vs Auxerre | 1X2 | **Auxerre (2)** | **6.00** | **0.25u** | 3 - 1 | PERDIDA | -0.25u |
+| **Total** | | | | | **1.50u** | | **1 G / 4 P** | **-0.20u** |
+
+---
+
 > [!NOTE]
 > Todos los datos cuantitativos provinieron de la ejecución estricta del motor `calc_engine.py` en `scratch/batch_results.json`. Ninguna probabilidad o cuota justa ha sido estimada de forma empírica o manual.

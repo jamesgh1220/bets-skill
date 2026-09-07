@@ -1,0 +1,33 @@
+{
+  "version": "1.1",
+  "created_at": "2026-09-07T00:00:00Z",
+  "parent_version": "1.0",
+  "status": "deprecated",
+  "description": "Modelo probabilidad-primero con mercados ampliados (O/U 1.5/2.5/3.5, BTTS, doble oportunidad, DNB, corners y tarjetas) y selección por EV robusto con excepción limitada de cuota alta. Ajustes precautorios de calibración aplicados tras backtest.",
+  "model_type": "ensemble_with_count_markets",
+  "components": {
+    "poisson": {"enabled": true, "weight": 0.35, "parameters": {"home_advantage": 0.25, "max_goals": 8}},
+    "dixon_coles": {"enabled": true, "weight": 0.30, "parameters": {"rho": -0.13, "home_advantage": 0.25}},
+    "ratings": {"enabled": true, "weight": 0.20, "parameters": {"elo_k_factor": 20, "home_advantage_elo": 100, "decay_factor": 0.95}},
+    "regression": {"enabled": true, "weight": 0.15, "parameters": {"features": ["xG_for", "xG_against", "shots_for", "shots_against", "possession_avg", "ppda", "home_advantage", "form_last_5", "rest_days", "travel_distance"], "regularization": "l2", "alpha": 0.1}}
+  },
+  "markets": {
+    "1x2": {"enabled": true, "min_edge": 0.03, "min_confidence": "medium"},
+    "over_under": {"enabled": true, "lines": [1.5, 2.5, 3.5], "min_edge": 0.04, "min_confidence": "medium"},
+    "btts": {"enabled": true, "min_edge": 0.05, "min_confidence": "medium_high"},
+    "double_chance": {"enabled": true, "min_edge": 0.02, "min_confidence": "medium"},
+    "dnb": {"enabled": true, "min_edge": 0.02, "min_confidence": "medium"},
+    "corners": {"enabled": true, "min_edge": 0.05, "min_confidence": "medium_high"},
+    "cards": {"enabled": true, "min_edge": 0.05, "min_confidence": "medium_high"}
+  },
+  "count_markets": {
+    "corners": {"lines": [8.5, 9.5, 10.5], "dispersion": 12.0, "required_inputs": ["corners_home_for", "corners_home_against", "corners_away_for", "corners_away_against"]},
+    "cards": {"lines": [3.5, 4.5, 5.5], "dispersion": 7.0, "required_inputs": ["cards_home_for", "cards_home_against", "cards_away_for", "cards_away_against"]}
+  },
+  "selection": {
+    "priority": {"odds_min": 1.5, "odds_max": 2.2, "min_model_probability": 0.55, "min_robust_ev": 0.05},
+    "longshot_exception": {"odds_min": 3.0, "min_model_probability": 0.3, "min_robust_ev": 0.1, "max_picks": 1, "stake_cap_units": 0.25}
+  },
+  "uncertainty": {"base_uncertainty": 0.05, "small_sample_threshold": 15, "small_sample_penalty": 0.10, "manager_change_penalty": 0.08, "high_congestion_penalty": 0.05},
+  "validation": {"backtest_period": "2024-08-01 a 2026-07-31", "out_of_sample_period": "2026-08-01 a 2026-08-24", "required_metrics": ["brier", "log_loss", "calibration_error", "roi", "clv", "drawdown", "stability"], "activation_requires_user_approval": true, "backtest_results": {"performed_on": "2026-09-07", "source": "artefactos legacy 2026-08-27 a 2026-09-07 (aceptados puntualmente)", "n_picks": 42, "stake_total_units": 9.95, "profit_units": 0.2196, "roi_pct": 2.21, "win_rate_pct": 40.48, "avg_odds": 3.02, "max_drawdown_units": 1.83, "over_under_2_5_pct": -4.8, "btts_pct": -100.0, "away_1x2_pct": 98.7, "clv": null, "brier": null, "log_loss": null, "calibration_error": null, "findings": ["Sobreconfianza sistémica: EV medio model ~18.7% vs ROI realizado +2.21%", "Under 2.5 sobreestimado (prob. modelo 54-58% vs 46.7% observado)", "BTTS 0/2 en backtest; se elevó min_edge a 0.05 y confianza a medium_high", "1X2 visitante fue el único mercado claramente rentable (+1.49u)", "Ajustes precautorios: over_under.min_edge 0.03→0.04, btts.min_edge 0.03→0.05"]}}
+}

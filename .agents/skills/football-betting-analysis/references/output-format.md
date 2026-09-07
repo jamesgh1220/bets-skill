@@ -4,7 +4,7 @@ El artefacto es un contrato de datos para review, evaluation y refinement. No se
 
 ## Pantalla
 
-Mostrar primero `Ranking Global` de los candidatos con value y después la selección final de 0 a 6 picks. Cada pick mostrado incluye cuota, probabilidad modelo e implícita, justa, edge, EV, stake, confianza, incertidumbre, razones, riesgos y cuota mínima. Incluir siempre los `NO BET` relevantes y el portfolio.
+Mostrar primero `Ranking Global` de los candidatos con value y después la selección final de 0 a 6 picks. Cada pick mostrado incluye perfil de selección, cuota, probabilidad modelo e implícita, justa, edge, EV bruto, EV robusto, stake, confianza, incertidumbre, razones, riesgos y cuota mínima. Incluir siempre los `NO BET` relevantes y el portfolio.
 
 ## Artefacto obligatorio
 
@@ -29,14 +29,14 @@ La plantilla siguiente debe respetarse literalmente en títulos, etiquetas y col
 {partidos incluidos y exclusiones por fecha/liga}
 
 ## Ranking Global
-| Rank | Partido | Mercado | Selección | Cuota | Prob. | Justa | Edge | EV | Stake | Confianza |
-|---|---|---|---|---:|---:|---:|---:|---:|---:|---|
+| Rank | Partido | Mercado | Selección | Perfil | Cuota | Prob. | Justa | Edge | EV | EV robusto | Stake | Confianza |
+|---|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
 | ... |
 
 ## Picks Recomendados (Top {N})
-| Rank | Partido | Mercado | Selección | Cuota | Prob. | Justa | Edge | EV | Stake | Confianza |
-|---|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+| Rank | Partido | Mercado | Selección | Perfil | Cuota | Prob. | Justa | Edge | EV | EV robusto | Stake | Confianza |
+|---|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| 1 | ... | ... | ... | prioritario/excepcional | ... | ... | ... | ... | ... | ... | ... | ... |
 
 ## Detalle de Picks
 ### Pick 1: {Equipo A} vs {Equipo B}
@@ -44,10 +44,13 @@ La plantilla siguiente debe respetarse literalmente en títulos, etiquetas y col
 - **Selección:** ...
 - **Cuota:** ...
 - **Probabilidad modelo:** ...
+- **Probabilidad conservadora:** ...
 - **Probabilidad implícita:** ...
 - **Cuota justa:** ...
 - **Edge:** ...
 - **EV:** ...
+- **EV robusto:** ...
+- **Perfil de selección:** prioritario/excepcional
 - **Cuota mínima:** ...
 - **Stake:** ...u
 - **Confianza:** ...

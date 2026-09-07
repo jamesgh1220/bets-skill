@@ -47,3 +47,28 @@ def calculate_1x2_over_btts(matrix):
         "btts_yes": p_btts_yes,
         "btts_no": 1.0 - p_btts_yes
     }
+
+
+def probability_total_over(matrix, line: float) -> float:
+    """Return the probability that the total goals is strictly above a line."""
+    return sum(probability for (home, away), probability in matrix.items() if home + away > line)
+
+
+def calculate_extended_markets(matrix):
+    """Derive standard goals and protected-result markets from a score matrix."""
+    base = calculate_1x2_over_btts(matrix)
+    result = dict(base)
+    for line in (1.5, 2.5, 3.5):
+        key = str(line).replace(".", "_")
+        over = probability_total_over(matrix, line)
+        result[f"over_{key}"] = over
+        result[f"under_{key}"] = 1.0 - over
+    result.update({
+        "1x": base["1"] + base["X"],
+        "x2": base["X"] + base["2"],
+        "12": base["1"] + base["2"],
+        # DNB markets contain a push on the draw; the engine treats that separately.
+        "dnb_home": base["1"],
+        "dnb_away": base["2"],
+    })
+    return result

@@ -154,9 +154,13 @@
 - **Rayo vs Racing, Villarreal vs Deportivo, Newcastle vs Bournemouth, Man City vs Coventry, Lens vs Lorient, Benfica vs Marítimo, otros:** sin cuota verificada suficiente en casas colombianas en cutoff → no analysis cuantitativo fiable. NO BET.
 
 ## Tracking
-- **Estado:** PENDIENTE
-- **Resultado:** (completar después de los partidos)
-- **Profit/Loss:** (completar después de los partidos)
+
+| # | Partido | Mercado | Selección | Cuota | Stake | Resultado | Estado | P/L |
+|---|---------|---------|-----------|-------|-------|-----------|--------|-----|
+| 1 | Gimnasia (M) vs Boca | 1X2 | Gimnasia (Mendoza) | 4.05 | 0.50u | 2 - 2 | PERDIDA | -0.50u |
+| 2 | Ajax vs PSV | 1X2 | Ajax | 2.60 | 0.50u | 1 - 3 | PERDIDA | -0.50u |
+| 3 | Athletic vs Atlético | 1X2 | Athletic Club | 3.15 | 0.25u | 3 - 0 | GANADA | +0.54u |
+| **Total** | | | | | **1.25u** | | **1 G / 2 P** | **-0.46u** |
 
 ---
 *Análisis cuantitativo ejecutado con `scripts/calc_engine.py` (modelo v1.0 activo). Probabilidades, cuotas justas, edge, EV y Kelly provienen del motor; ninguna se inventó manualmente. Las apuestas no están garantizadas; apostar con responsabilidad (+18).*

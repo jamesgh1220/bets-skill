@@ -30,7 +30,7 @@ La skill se invoca con el siguiente formato:
 2. **Construir el universo**: Universo = intersección(ligas, fechas, partidos). Solo incluir partidos dentro del rango de fechas especificado.
 3. **Verificar actualidad de equipos y jugadores.**
 4. **Buscar cuotas en bookmakers colombianos**: Consultar cuotas en las casas de apuestas configuradas (Betplay, Betsson, Wplay, Rushbet, Zamba, Sportium) usando web scraping/búsqueda.
-5. **Recopilar estadísticas y contexto**: Extraer xG_for, xG_against, Elo ratings y cuotas de entrada.
+5. **Recopilar estadísticas y contexto**: Extraer xG_for, xG_against, Elo ratings y cuotas de entrada. Para corners y tarjetas, exigir tasas `for/against` de ambos equipos; sin esos cuatro datos el mercado queda no disponible.
 6. **EJECUTAR MOTOR CUANTITATIVO DE CÁLCULO EN PYTHON (MANDATORIO)**:
    - Crear archivo temporal JSON en `scratch/match_input.json` con la información del partido:
      ```json
@@ -43,7 +43,19 @@ La skill se invoca con el siguiente formato:
        "xg_away_against": 1.3,
        "elo_home": 1600,
        "elo_away": 1500,
-       "odds": { "1": 1.95, "X": 3.40, "2": 4.10, "under_2_5": 2.05 }
+       "odds": {
+         "1": 1.95, "X": 3.40, "2": 4.10,
+         "over_1_5": 1.55, "under_2_5": 2.05, "over_3_5": 2.45,
+         "btts_yes": 1.85, "1x": 1.35, "dnb_home": 1.45
+       },
+       "corners_home_for": 5.4,
+       "corners_home_against": 4.2,
+       "corners_away_for": 4.8,
+       "corners_away_against": 5.1,
+       "cards_home_for": 2.1,
+       "cards_home_against": 2.4,
+       "cards_away_for": 2.3,
+       "cards_away_against": 2.0
      }
      ```
    - Ejecutar en la terminal vía `run_command`:
@@ -51,10 +63,11 @@ La skill se invoca con el siguiente formato:
    - **NUNCA inferir ni inventar probabilidades manualmente.** Utilizar estrictamente las probabilidades, cuotas justas, Edge, EV y Kelly asignados por la salida JSON del script de Python.
 7. **Hacer sensibilidad y robustez.**
 8. **Detectar correlaciones.**
-9. **Comparar candidatos globalmente.**
-10. **Emitir picks y `NO BET`.**
-11. **SELECCIONAR TOP 0-6**: Del total de picks con value devolver de 0 a 6 apuestas óptimas.
-12. **GENERAR Y PUBLICAR ARTEFACTO (OBLIGATORIO)**:
+9. **Comparar candidatos globalmente** mediante `scripts.selection.select_portfolio`.
+10. **Aplicar selección probabilidad-primero**: un pick prioritario requiere cuota 1.50–2.20, probabilidad modelo >=55% y EV robusto >=5%. Las cuotas >=3.00 requieren probabilidad >=30%, EV robusto >=10%, y como máximo una puede entrar con stake máximo 0.25u. Los demás candidatos se consignan como `NO BET / Excluidos`, incluso con EV bruto positivo.
+11. **Emitir picks y `NO BET`.** No llenar artificialmente el máximo de seis picks.
+12. **SELECCIONAR TOP 0-6**: Del total de picks con value devolver de 0 a 6 apuestas óptimas.
+13. **GENERAR Y PUBLICAR ARTEFACTO (OBLIGATORIO)**:
    - Leer y respetar `references/output-format.md` antes de redactarlo.
    - Registrar por separado el `Modelo de IA` recibido y la `Versión del motor predictivo` activa.
    - Crear un temporal único dentro de `scratch/`; no escribir directamente en `artifacts/`.
@@ -66,4 +79,6 @@ La skill se invoca con el siguiente formato:
 - **Filtrado estricto por fechas**: Solo analizar partidos cuya fecha de juego esté dentro del rango proporcionado.
 - **Filtrado por ligas**: Solo analizar partidos de las ligas especificadas.
 - **Cálculo Determinista**: Todos los cálculos cuantitativos son ejecutados por `scripts/calc_engine.py`.
+- **Sin mercados inventados**: Corners y tarjetas solo se calculan al tener sus tasas de ambos equipos y una cuota verificable; props de tiros/jugadores quedan fuera de `v1.1` hasta disponer de un modelo y datos específicos.
+- **Activación controlada**: `model-v1.2` es ACTIVE. La calibración Platt (1X2 local/visitante y O/U 2.5) se aplica automáticamente en `calc_engine.py`; no sustituir la versión activa sin backtest out-of-sample y aprobación explícita del usuario.
 - **Contrato de salida**: `references/output-format.md` es obligatorio; no se permiten secciones, etiquetas o columnas alternativas.

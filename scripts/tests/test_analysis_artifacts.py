@@ -27,14 +27,14 @@ VALID_ARTIFACT = """# Análisis de Apuestas — 7 de septiembre de 2026
 Equipo A vs Equipo B.
 
 ## Ranking Global
-| Rank | Partido | Mercado | Selección | Cuota | Prob. | Justa | Edge | EV | Stake | Confianza |
-|---|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | Equipo A vs Equipo B | 1X2 | Local | 2.00 | 55% | 1.82 | 10% | 10% | 0.25u | Media |
+| Rank | Partido | Mercado | Selección | Perfil | Cuota | Prob. | Justa | Edge | EV | EV robusto | Stake | Confianza |
+|---|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| 1 | Equipo A vs Equipo B | 1X2 | Local | prioritario | 2.00 | 55% | 1.82 | 10% | 10% | 5% | 0.25u | Media |
 
 ## Picks Recomendados (Top 1)
-| Rank | Partido | Mercado | Selección | Cuota | Prob. | Justa | Edge | EV | Stake | Confianza |
-|---|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | Equipo A vs Equipo B | 1X2 | Local | 2.00 | 55% | 1.82 | 10% | 10% | 0.25u | Media |
+| Rank | Partido | Mercado | Selección | Perfil | Cuota | Prob. | Justa | Edge | EV | EV robusto | Stake | Confianza |
+|---|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| 1 | Equipo A vs Equipo B | 1X2 | Local | prioritario | 2.00 | 55% | 1.82 | 10% | 10% | 5% | 0.25u | Media |
 
 ## Detalle de Picks
 ### Pick 1: Equipo A vs Equipo B
@@ -42,10 +42,13 @@ Equipo A vs Equipo B.
 - **Selección:** Local
 - **Cuota:** 2.00
 - **Probabilidad modelo:** 55%
+- **Probabilidad conservadora:** 50%
 - **Probabilidad implícita:** 50%
 - **Cuota justa:** 1.82
 - **Edge:** 10%
 - **EV:** 10%
+- **EV robusto:** 5%
+- **Perfil de selección:** prioritario
 - **Cuota mínima:** 1.90
 - **Stake:** 0.25u
 - **Confianza:** Media

@@ -198,9 +198,10 @@
 
 | Pick | Estado | Resultado | Profit/Loss |
 |------|--------|-----------|-------------|
-| Barcelona vs Rayo Under 2.5 | PENDIENTE | — | — |
-| Defensa y Justicia local | PENDIENTE | — | — |
-| Lecce vs Roma Under 2.5 | PENDIENTE | — | — |
-| Osasuna local | PENDIENTE | — | — |
-| Tolima-Cúcuta empate | PENDIENTE | — | — |
-| Tigre-Barracas visitante | PENDIENTE | — | — |
+| Barcelona vs Rayo Under 2.5 | PERDIDA | 5-2 (7 goles) | -0.06u |
+| Defensa y Justicia local | GANADA | 1-0 | +0.07u |
+| Lecce vs Roma Under 2.5 | PERDIDA | 0-4 (4 goles) | -0.03u |
+| Osasuna local | GANADA | 1-0 | +0.03u |
+| Tolima-Cúcuta empate | PERDIDA | 2-1 | -0.01u |
+| Tigre-Barracas visitante | PERDIDA | 0-0 | -0.01u |
+| **Total** | **2 G / 4 P** | | **-0.01u** |

@@ -128,9 +128,14 @@
 ---
 
 ## Tracking
-- **Estado:** PENDIENTE
-- **Resultado:** (completar después del partido)
-- **Profit/Loss:** (completar después del partido)
+
+| # | Partido | Mercado | Selección | Cuota | Stake | Resultado | Estado | P/L |
+|---|---------|---------|-----------|-------|-------|-----------|--------|-----|
+| 1 | Sevilla vs Atletico | 1X2 | Victoria Sevilla | 3.45 | 0.02u | 1 - 3 | PERDIDA | -0.02u |
+| 2 | Sevilla vs Atletico | Under 2.5 | Under 2.5 | 2.05 | 0.03u | 4 goles | PERDIDA | -0.03u |
+| 3 | Juventus vs Parma | Over 2.5 | Over 2.5 | 2.15 | 0.01u | 2 goles | PERDIDA | -0.01u |
+| 4 | Junior vs Santa Fe | Under 2.5 | Under 2.5 | 2.00 | 0.02u | 2 goles (1-1) | GANADA | +0.02u |
+| **Total** | | | | | **0.08u** | | **1 G / 3 P** | **-0.04u** |
 
 ---
 

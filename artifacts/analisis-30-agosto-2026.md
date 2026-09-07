@@ -195,8 +195,11 @@
 
 | # | Partido | Mercado | Selección | Cuota | Stake | Estado | Resultado | P/L |
 |---|---------|---------|-----------|-------|-------|--------|-----------|-----|
-| 1 | Millonarios vs Inter Bogota | Under 2.5 | Under 2.5 | 2.20 | 0.05u | PENDIENTE | | |
-| 2 | Napoli vs Como | Under 2.5 | Under 2.5 | 2.15 | 0.04u | PENDIENTE | | |
-| 3 | Cagliari vs Inter | Under 2.5 | Under 2.5 | 2.30 | 0.03u | PENDIENTE | | |
-| 4 | Lazio vs Genoa | Under 2.5 | Under 2.5 | 2.00 | 0.04u | PENDIENTE | | |
-| 5 | Lille vs PSG | 1X2 | Lille | 3.80 | 0.03u | PENDIENTE | | |
+| 1 | Millonarios vs Inter Bogota | Under 2.5 | Under 2.5 | 2.20 | 0.05u | GANADA | 0 - 0 | +0.06u |
+| 2 | Napoli vs Como | Under 2.5 | Under 2.5 | 2.15 | 0.04u | PERDIDA | 1 - 2 (3 goles) | -0.04u |
+| 3 | Cagliari vs Inter | Under 2.5 | Under 2.5 | 2.30 | 0.03u | GANADA | 0 - 1 (1 gol) | +0.04u |
+| 4 | Lazio vs Genoa | Under 2.5 | Under 2.5 | 2.00 | 0.04u | GANADA | 1 - 0 (1 gol) | +0.04u |
+| 5 | Lille vs PSG | 1X2 | Lille | 3.80 | 0.03u | PERDIDA | 2 - 2 | -0.03u |
+| **Total** | | | | | **0.19u** | | | **+0.07u** |
+
+**P/L acumulado:** +0.07u (3 G / 2 P)

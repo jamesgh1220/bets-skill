@@ -129,6 +129,10 @@ Ordenado por EV robusto (Edge sostenido bajo escenarios adversos).
 - Coppa Italia con riesgo de rotación.
 
 ## Tracking
-- **Estado:** PENDIENTE
-- **Resultado:** (completar después del partido)
-- **Profit/Loss:** (completar después del partido)
+
+| # | Partido | Mercado | Selección | Cuota | Stake | Resultado | Estado | P/L |
+|---|---------|---------|-----------|-------|-------|-----------|--------|-----|
+| 1 | Torino vs Monza | BTTS | Sí | 2.00 | 0.50u | 0 - 1 (sin BTTS) | PERDIDA | -0.50u |
+| 2 | Envigado vs Unión Magdalena | 1X2 | Local (Envigado) | 2.15 | 0.50u | 0 - 1 | PERDIDA | -0.50u |
+| 3 | Barranquilla vs Boca Cali | 1X2 | Local (Barranquilla) | 2.60 | 0.25u | 2 - 1 | GANADA | +0.40u |
+| **Total** | | | | | **1.25u** | | **1 G / 2 P** | **-0.60u** |

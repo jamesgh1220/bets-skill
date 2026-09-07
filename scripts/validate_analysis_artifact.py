@@ -36,13 +36,13 @@ REQUIRED_METADATA = (
     "Picks finales seleccionados",
 )
 PICK_COLUMNS = (
-    "Rank", "Partido", "Mercado", "Selección", "Cuota", "Prob.", "Justa",
-    "Edge", "EV", "Stake", "Confianza",
+    "Rank", "Partido", "Mercado", "Selección", "Perfil", "Cuota", "Prob.", "Justa",
+    "Edge", "EV", "EV robusto", "Stake", "Confianza",
 )
 DETAIL_FIELDS = (
     "Mercado", "Selección", "Cuota", "Probabilidad modelo",
-    "Probabilidad implícita", "Cuota justa", "Edge", "EV", "Cuota mínima",
-    "Stake", "Confianza", "Incertidumbre", "Por qué", "Riesgos", "Fuentes",
+    "Probabilidad conservadora", "Probabilidad implícita", "Cuota justa", "Edge", "EV", "EV robusto",
+    "Perfil de selección", "Cuota mínima", "Stake", "Confianza", "Incertidumbre", "Por qué", "Riesgos", "Fuentes",
 )
 
 
@@ -148,6 +148,11 @@ def validate_artifact(
             errors.append("La tabla de Picks Recomendados no tiene las columnas obligatorias.")
         elif selected is not None and len(rows) - 2 != selected:
             errors.append("La cantidad de filas en Picks Recomendados no coincide con los metadatos.")
+
+    if "## Ranking Global" in lines:
+        rows = _table_rows(_section_body(lines, "## Ranking Global"))
+        if not rows or tuple(rows[0]) != PICK_COLUMNS:
+            errors.append("La tabla de Ranking Global no tiene las columnas obligatorias.")
 
     detail_count = len([line for line in lines if re.fullmatch(r"### Pick \d+: .+", line)])
     if selected is not None and detail_count != selected:

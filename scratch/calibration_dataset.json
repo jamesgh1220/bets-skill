@@ -1,0 +1,3005 @@
+[
+ {
+  "match": "Toronto FC vs NYCFC",
+  "file": "match_output_28.json",
+  "probs": {
+   "1": 0.3556,
+   "X": 0.2692,
+   "2": 0.3751,
+   "over_2_5": 0.5064,
+   "under_2_5": 0.4936,
+   "btts_yes": 0.5554,
+   "btts_no": 0.4446,
+   "expected_goals_home": 1.3,
+   "expected_goals_away": 1.4
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Lorient vs Troyes",
+  "file": "match_output_12.json",
+  "probs": {
+   "1": 0.5171,
+   "X": 0.2666,
+   "2": 0.2162,
+   "over_2_5": 0.4106,
+   "under_2_5": 0.5894,
+   "btts_yes": 0.4538,
+   "btts_no": 0.5462,
+   "expected_goals_home": 1.45,
+   "expected_goals_away": 0.88
+  },
+  "outcome": [
+   1,
+   2
+  ]
+ },
+ {
+  "match": "Monaco vs Marseille",
+  "file": "output_monaco_marseille.json",
+  "probs": {
+   "1": 0.4065,
+   "X": 0.2609,
+   "2": 0.3326,
+   "over_2_5": 0.5305,
+   "under_2_5": 0.4695,
+   "btts_yes": 0.5741,
+   "btts_no": 0.4259,
+   "expected_goals_home": 1.45,
+   "expected_goals_away": 1.35
+  },
+  "outcome": [
+   2,
+   0
+  ]
+ },
+ {
+  "match": "Chelsea vs Luton Town",
+  "file": "out_chelsea.json",
+  "probs": {
+   "1": 0.6749,
+   "X": 0.1953,
+   "2": 0.1299,
+   "over_2_5": 0.5821,
+   "under_2_5": 0.4179,
+   "btts_yes": 0.528,
+   "btts_no": 0.472,
+   "expected_goals_home": 2.12,
+   "expected_goals_away": 0.9
+  },
+  "outcome": [
+   2,
+   0
+  ]
+ },
+ {
+  "match": "Real Sociedad vs Celta Vigo",
+  "file": "match_output_2.json",
+  "probs": {
+   "1": 0.5536,
+   "X": 0.2431,
+   "2": 0.2033,
+   "over_2_5": 0.494,
+   "under_2_5": 0.506,
+   "btts_yes": 0.513,
+   "btts_no": 0.487,
+   "expected_goals_home": 1.68,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "Al-Hilal vs Al-Ahli SC",
+  "file": "out_6.json",
+  "probs": {
+   "1": 0.598,
+   "X": 0.2132,
+   "2": 0.1888,
+   "over_2_5": 0.6199,
+   "under_2_5": 0.3801,
+   "btts_yes": 0.5961,
+   "btts_no": 0.4039,
+   "expected_goals_home": 2.08,
+   "expected_goals_away": 1.12
+  },
+  "outcome": [
+   3,
+   0
+  ]
+ },
+ {
+  "match": "Seattle Sounders vs Chicago Fire",
+  "file": "match_output_24.json",
+  "probs": {
+   "1": 0.4334,
+   "X": 0.2639,
+   "2": 0.3027,
+   "over_2_5": 0.494,
+   "under_2_5": 0.506,
+   "btts_yes": 0.5438,
+   "btts_no": 0.4562,
+   "expected_goals_home": 1.43,
+   "expected_goals_away": 1.23
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Barcelona vs Rayo Vallecano",
+  "file": "output_31ago_03.json",
+  "probs": {
+   "1": 0.709,
+   "X": 0.1905,
+   "2": 0.1005,
+   "over_2_5": 0.5183,
+   "under_2_5": 0.4817,
+   "btts_yes": 0.4532,
+   "btts_no": 0.5468,
+   "expected_goals_home": 2.03,
+   "expected_goals_away": 0.73
+  },
+  "outcome": [
+   5,
+   2
+  ]
+ },
+ {
+  "match": "Elche vs Real Sociedad",
+  "file": "sens_out.json",
+  "probs": {
+   "1": 0.3581,
+   "X": 0.2795,
+   "2": 0.3624,
+   "over_2_5": 0.4689,
+   "under_2_5": 0.5311,
+   "btts_yes": 0.5268,
+   "btts_no": 0.4732,
+   "expected_goals_home": 1.27,
+   "expected_goals_away": 1.27
+  },
+  "outcome": null
+ },
+ {
+  "match": "Udinese vs Lazio",
+  "file": "match_output_07sep_5.json",
+  "probs": {
+   "1": 0.3815,
+   "X": 0.2891,
+   "2": 0.3294,
+   "over_2_5": 0.4159,
+   "under_2_5": 0.5841,
+   "btts_yes": 0.4827,
+   "btts_no": 0.5173,
+   "expected_goals_home": 1.25,
+   "expected_goals_away": 1.09
+  },
+  "outcome": null
+ },
+ {
+  "match": "AZ Alkmaar vs Go Ahead Eagles",
+  "file": "match_output_32.json",
+  "probs": {
+   "1": 0.6287,
+   "X": 0.197,
+   "2": 0.1743,
+   "over_2_5": 0.6778,
+   "under_2_5": 0.3222,
+   "btts_yes": 0.6301,
+   "btts_no": 0.3699,
+   "expected_goals_home": 2.31,
+   "expected_goals_away": 1.19
+  },
+  "outcome": [
+   5,
+   2
+  ]
+ },
+ {
+  "match": "RKC Waalwijk vs NAC Breda",
+  "file": "match_output_rkc.json",
+  "probs": {
+   "1": 0.2648,
+   "X": 0.2616,
+   "2": 0.4736,
+   "over_2_5": 0.5063,
+   "under_2_5": 0.4937,
+   "btts_yes": 0.536,
+   "btts_no": 0.464,
+   "expected_goals_home": 1.07,
+   "expected_goals_away": 1.62
+  },
+  "outcome": [
+   4,
+   2
+  ]
+ },
+ {
+  "match": "Lille vs PSG",
+  "file": "output_lille_psg.json",
+  "probs": {
+   "1": 0.3439,
+   "X": 0.2622,
+   "2": 0.3939,
+   "over_2_5": 0.5305,
+   "under_2_5": 0.4695,
+   "btts_yes": 0.5746,
+   "btts_no": 0.4254,
+   "expected_goals_home": 1.38,
+   "expected_goals_away": 1.42
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Real Madrid vs Málaga",
+  "file": "output_real_madrid_malaga.json",
+  "probs": {
+   "1": 0.6256,
+   "X": 0.214,
+   "2": 0.1604,
+   "over_2_5": 0.5446,
+   "under_2_5": 0.4554,
+   "btts_yes": 0.5379,
+   "btts_no": 0.4621,
+   "expected_goals_home": 1.87,
+   "expected_goals_away": 0.99
+  },
+  "outcome": [
+   4,
+   0
+  ]
+ },
+ {
+  "match": "FC Barcelona vs Athletic Club",
+  "file": "out_barca.json",
+  "probs": {
+   "1": 0.6231,
+   "X": 0.2161,
+   "2": 0.1608,
+   "over_2_5": 0.5481,
+   "under_2_5": 0.4519,
+   "btts_yes": 0.5299,
+   "btts_no": 0.4701,
+   "expected_goals_home": 1.93,
+   "expected_goals_away": 0.95
+  },
+  "outcome": [
+   2,
+   0
+  ]
+ },
+ {
+  "match": "Fulham vs AFC Wimbledon",
+  "file": "out_fulham.json",
+  "probs": {
+   "1": 0.6556,
+   "X": 0.2085,
+   "2": 0.1359,
+   "over_2_5": 0.5304,
+   "under_2_5": 0.4696,
+   "btts_yes": 0.4971,
+   "btts_no": 0.5029,
+   "expected_goals_home": 1.95,
+   "expected_goals_away": 0.85
+  },
+  "outcome": [
+   3,
+   0
+  ]
+ },
+ {
+  "match": "Inter Miami vs Atlanta United",
+  "file": "match_output_miami.json",
+  "probs": {
+   "1": 0.5758,
+   "X": 0.2176,
+   "2": 0.2065,
+   "over_2_5": 0.6251,
+   "under_2_5": 0.3749,
+   "btts_yes": 0.6123,
+   "btts_no": 0.3877,
+   "expected_goals_home": 2.02,
+   "expected_goals_away": 1.2
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Real Betis vs Real Madrid",
+  "file": "batch_results.json",
+  "probs": {
+   "1": 0.3092,
+   "X": 0.2606,
+   "2": 0.4302,
+   "over_2_5": 0.5185,
+   "under_2_5": 0.4815,
+   "btts_yes": 0.5629,
+   "btts_no": 0.4371,
+   "expected_goals_home": 1.27,
+   "expected_goals_away": 1.48
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Ipswich Town vs Liverpool",
+  "file": "batch_results.json",
+  "probs": {
+   "1": 0.2244,
+   "X": 0.2291,
+   "2": 0.5465,
+   "over_2_5": 0.5878,
+   "under_2_5": 0.4122,
+   "btts_yes": 0.5952,
+   "btts_no": 0.4048,
+   "expected_goals_home": 1.2,
+   "expected_goals_away": 1.85
+  },
+  "outcome": [
+   0,
+   2
+  ]
+ },
+ {
+  "match": "Genoa vs Como",
+  "file": "batch_results.json",
+  "probs": {
+   "1": 0.3503,
+   "X": 0.2749,
+   "2": 0.3748,
+   "over_2_5": 0.4816,
+   "under_2_5": 0.5184,
+   "btts_yes": 0.536,
+   "btts_no": 0.464,
+   "expected_goals_home": 1.25,
+   "expected_goals_away": 1.35
+  },
+  "outcome": [
+   1,
+   4
+  ]
+ },
+ {
+  "match": "Stuttgart vs Köln",
+  "file": "batch_results.json",
+  "probs": {
+   "1": 0.579,
+   "X": 0.2266,
+   "2": 0.1944,
+   "over_2_5": 0.5597,
+   "under_2_5": 0.4403,
+   "btts_yes": 0.5567,
+   "btts_no": 0.4433,
+   "expected_goals_home": 1.88,
+   "expected_goals_away": 1.05
+  },
+  "outcome": [
+   4,
+   1
+  ]
+ },
+ {
+  "match": "Lyon vs Auxerre",
+  "file": "batch_results.json",
+  "probs": {
+   "1": 0.5946,
+   "X": 0.226,
+   "2": 0.1794,
+   "over_2_5": 0.5364,
+   "under_2_5": 0.4636,
+   "btts_yes": 0.5312,
+   "btts_no": 0.4688,
+   "expected_goals_home": 1.85,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   3,
+   1
+  ]
+ },
+ {
+  "match": "Sparta Rotterdam vs PEC Zwolle",
+  "file": "batch_results.json",
+  "probs": {
+   "1": 0.4923,
+   "X": 0.2531,
+   "2": 0.2546,
+   "over_2_5": 0.5124,
+   "under_2_5": 0.4876,
+   "btts_yes": 0.5461,
+   "btts_no": 0.4539,
+   "expected_goals_home": 1.6,
+   "expected_goals_away": 1.12
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Porto vs Moreirense",
+  "file": "batch_results.json",
+  "probs": {
+   "1": 0.7273,
+   "X": 0.1807,
+   "2": 0.092,
+   "over_2_5": 0.5362,
+   "under_2_5": 0.4638,
+   "btts_yes": 0.4286,
+   "btts_no": 0.5714,
+   "expected_goals_home": 2.17,
+   "expected_goals_away": 0.65
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Cagliari vs Lecce",
+  "file": "match_output_07sep_4.json",
+  "probs": {
+   "1": 0.4957,
+   "X": 0.2837,
+   "2": 0.2206,
+   "over_2_5": 0.3531,
+   "under_2_5": 0.6469,
+   "btts_yes": 0.4078,
+   "btts_no": 0.5922,
+   "expected_goals_home": 1.32,
+   "expected_goals_away": 0.79
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "PEC Zwolle vs NEC Nijmegen",
+  "file": "match_output_33.json",
+  "probs": {
+   "1": 0.2358,
+   "X": 0.2186,
+   "2": 0.5456,
+   "over_2_5": 0.6879,
+   "under_2_5": 0.3121,
+   "btts_yes": 0.6556,
+   "btts_no": 0.3444,
+   "expected_goals_home": 1.3,
+   "expected_goals_away": 2.25
+  },
+  "outcome": [
+   1,
+   3
+  ]
+ },
+ {
+  "match": "Cagliari vs Hellas Verona",
+  "file": "match_output_03set_6.json",
+  "probs": {
+   "1": 0.4593,
+   "X": 0.2643,
+   "2": 0.2764,
+   "over_2_5": 0.4815,
+   "under_2_5": 0.5185,
+   "btts_yes": 0.5282,
+   "btts_no": 0.4718,
+   "expected_goals_home": 1.48,
+   "expected_goals_away": 1.12
+  },
+  "outcome": [
+   1,
+   2
+  ]
+ },
+ {
+  "match": "Osasuna vs Getafe",
+  "file": "output_31ago_02.json",
+  "probs": {
+   "1": 0.5352,
+   "X": 0.2628,
+   "2": 0.2021,
+   "over_2_5": 0.4106,
+   "under_2_5": 0.5894,
+   "btts_yes": 0.4437,
+   "btts_no": 0.5563,
+   "expected_goals_home": 1.5,
+   "expected_goals_away": 0.82
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Atlanta United vs Charlotte FC",
+  "file": "match_output_25.json",
+  "probs": {
+   "1": 0.4304,
+   "X": 0.2668,
+   "2": 0.3028,
+   "over_2_5": 0.494,
+   "under_2_5": 0.506,
+   "btts_yes": 0.5423,
+   "btts_no": 0.4577,
+   "expected_goals_home": 1.45,
+   "expected_goals_away": 1.2
+  },
+  "outcome": [
+   0,
+   2
+  ]
+ },
+ {
+  "match": "Toulouse FC vs Lille OSC",
+  "file": "match_output_3.json",
+  "probs": {
+   "1": 0.312,
+   "X": 0.274,
+   "2": 0.414,
+   "over_2_5": 0.4816,
+   "under_2_5": 0.5184,
+   "btts_yes": 0.5324,
+   "btts_no": 0.4676,
+   "expected_goals_home": 1.18,
+   "expected_goals_away": 1.43
+  },
+  "outcome": [
+   0,
+   1
+  ]
+ },
+ {
+  "match": "Junior de Barranquilla vs Independiente Santa Fe",
+  "file": "match_output_junior_santafe.json",
+  "probs": {
+   "1": 0.4876,
+   "X": 0.2638,
+   "2": 0.2486,
+   "over_2_5": 0.4562,
+   "under_2_5": 0.5438,
+   "btts_yes": 0.5019,
+   "btts_no": 0.4981,
+   "expected_goals_home": 1.48,
+   "expected_goals_away": 1.02
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Leeds United vs Brentford",
+  "file": "output_leeds_brentford.json",
+  "probs": {
+   "1": 0.4318,
+   "X": 0.2512,
+   "2": 0.317,
+   "over_2_5": 0.5563,
+   "under_2_5": 0.4437,
+   "btts_yes": 0.5934,
+   "btts_no": 0.4066,
+   "expected_goals_home": 1.52,
+   "expected_goals_away": 1.39
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Brest vs Toulouse",
+  "file": "match_output_13.json",
+  "probs": {
+   "1": 0.4255,
+   "X": 0.2674,
+   "2": 0.3071,
+   "over_2_5": 0.4903,
+   "under_2_5": 0.5097,
+   "btts_yes": 0.5404,
+   "btts_no": 0.4596,
+   "expected_goals_home": 1.43,
+   "expected_goals_away": 1.21
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Deportes Tolima vs Cúcuta Deportivo",
+  "file": "match_output_31aug_6.json",
+  "probs": {
+   "1": 0.5515,
+   "X": 0.2457,
+   "2": 0.2027,
+   "over_2_5": 0.4815,
+   "under_2_5": 0.5185,
+   "btts_yes": 0.5024,
+   "btts_no": 0.4976,
+   "expected_goals_home": 1.65,
+   "expected_goals_away": 0.95
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Columbus Crew vs New England Revolution",
+  "file": "match_output_29.json",
+  "probs": {
+   "1": 0.5565,
+   "X": 0.2457,
+   "2": 0.1978,
+   "over_2_5": 0.4752,
+   "under_2_5": 0.5248,
+   "btts_yes": 0.4945,
+   "btts_no": 0.5055,
+   "expected_goals_home": 1.65,
+   "expected_goals_away": 0.93
+  },
+  "outcome": [
+   1,
+   3
+  ]
+ },
+ {
+  "match": "Palermo vs Mantova",
+  "file": "match_output_4.json",
+  "probs": {
+   "1": 0.4828,
+   "X": 0.2651,
+   "2": 0.252,
+   "over_2_5": 0.4562,
+   "under_2_5": 0.5438,
+   "btts_yes": 0.5019,
+   "btts_no": 0.4981,
+   "expected_goals_home": 1.48,
+   "expected_goals_away": 1.02
+  },
+  "outcome": [
+   5,
+   2
+  ]
+ },
+ {
+  "match": "Alianza Valledupar vs Atletico Nacional",
+  "file": "match_output_22.json",
+  "probs": {
+   "1": 0.239,
+   "X": 0.2729,
+   "2": 0.4881,
+   "over_2_5": 0.4106,
+   "under_2_5": 0.5894,
+   "btts_yes": 0.4622,
+   "btts_no": 0.5378,
+   "expected_goals_home": 0.93,
+   "expected_goals_away": 1.4
+  },
+  "outcome": [
+   1,
+   5
+  ]
+ },
+ {
+  "match": "Atalanta vs Bologna",
+  "file": "output_31ago_05.json",
+  "probs": {
+   "1": 0.5026,
+   "X": 0.2579,
+   "2": 0.2396,
+   "over_2_5": 0.4752,
+   "under_2_5": 0.5248,
+   "btts_yes": 0.5124,
+   "btts_no": 0.4876,
+   "expected_goals_home": 1.55,
+   "expected_goals_away": 1.02
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Real Sociedad vs Espanyol",
+  "file": "match_output_realsociedad_espanyol.json",
+  "probs": {
+   "1": 0.5453,
+   "X": 0.2469,
+   "2": 0.2078,
+   "over_2_5": 0.4815,
+   "under_2_5": 0.5185,
+   "btts_yes": 0.5072,
+   "btts_no": 0.4928,
+   "expected_goals_home": 1.62,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Deportivo Pereira vs Independiente Medellin",
+  "file": "match_output_03set_1.json",
+  "probs": {
+   "1": 0.2852,
+   "X": 0.2815,
+   "2": 0.4333,
+   "over_2_5": 0.4303,
+   "under_2_5": 0.5697,
+   "btts_yes": 0.4867,
+   "btts_no": 0.5133,
+   "expected_goals_home": 1.02,
+   "expected_goals_away": 1.38
+  },
+  "outcome": [
+   0,
+   3
+  ]
+ },
+ {
+  "match": "Independiente Santa Fe vs Fortaleza",
+  "file": "match_output_santafe.json",
+  "probs": {
+   "1": 0.5439,
+   "X": 0.2654,
+   "2": 0.1907,
+   "over_2_5": 0.384,
+   "under_2_5": 0.616,
+   "btts_yes": 0.4201,
+   "btts_no": 0.5799,
+   "expected_goals_home": 1.45,
+   "expected_goals_away": 0.77
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Alverca vs Santa Clara",
+  "file": "match_output_34.json",
+  "probs": {
+   "1": 0.3442,
+   "X": 0.2763,
+   "2": 0.3795,
+   "over_2_5": 0.4549,
+   "under_2_5": 0.5451,
+   "btts_yes": 0.5135,
+   "btts_no": 0.4865,
+   "expected_goals_home": 1.16,
+   "expected_goals_away": 1.33
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Talleres vs Central Cordoba",
+  "file": "match_output_18.json",
+  "probs": {
+   "1": 0.5943,
+   "X": 0.2453,
+   "2": 0.1604,
+   "over_2_5": 0.4171,
+   "under_2_5": 0.5829,
+   "btts_yes": 0.428,
+   "btts_no": 0.572,
+   "expected_goals_home": 1.6,
+   "expected_goals_away": 0.75
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "Atlético Nacional vs Deportivo Cali",
+  "file": "out_nacional.json",
+  "probs": {
+   "1": 0.5787,
+   "X": 0.2421,
+   "2": 0.1792,
+   "over_2_5": 0.4625,
+   "under_2_5": 0.5375,
+   "btts_yes": 0.4722,
+   "btts_no": 0.5278,
+   "expected_goals_home": 1.67,
+   "expected_goals_away": 0.85
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Sassuolo vs Torino",
+  "file": "match_output_8.json",
+  "probs": {
+   "1": 0.4415,
+   "X": 0.2665,
+   "2": 0.292,
+   "over_2_5": 0.4853,
+   "under_2_5": 0.5147,
+   "btts_yes": 0.5341,
+   "btts_no": 0.4659,
+   "expected_goals_home": 1.45,
+   "expected_goals_away": 1.17
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Estudiantes vs Newell's Old Boys",
+  "file": "output_31ago_09.json",
+  "probs": {
+   "1": 0.5301,
+   "X": 0.2603,
+   "2": 0.2096,
+   "over_2_5": 0.4303,
+   "under_2_5": 0.5697,
+   "btts_yes": 0.4635,
+   "btts_no": 0.5365,
+   "expected_goals_home": 1.52,
+   "expected_goals_away": 0.88
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "FC Copenhague vs FC Inter Turku",
+  "file": "out_copenhague.json",
+  "probs": {
+   "1": 0.7485,
+   "X": 0.1673,
+   "2": 0.0843,
+   "over_2_5": 0.5819,
+   "under_2_5": 0.4181,
+   "btts_yes": 0.4587,
+   "btts_no": 0.5413,
+   "expected_goals_home": 2.33,
+   "expected_goals_away": 0.7
+  },
+  "outcome": [
+   4,
+   1
+  ]
+ },
+ {
+  "match": "Barranquilla vs Boca Juniors de Cali",
+  "file": "sens_out_bar.json",
+  "probs": {
+   "1": 0.4164,
+   "X": 0.2733,
+   "2": 0.3103,
+   "over_2_5": 0.4689,
+   "under_2_5": 0.5311,
+   "btts_yes": 0.524,
+   "btts_no": 0.476,
+   "expected_goals_home": 1.38,
+   "expected_goals_away": 1.18
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Ipswich vs Liverpool",
+  "file": "match_output_liverpool.json",
+  "probs": {
+   "1": 0.2475,
+   "X": 0.2514,
+   "2": 0.5011,
+   "over_2_5": 0.5305,
+   "under_2_5": 0.4695,
+   "btts_yes": 0.5481,
+   "btts_no": 0.4519,
+   "expected_goals_home": 1.07,
+   "expected_goals_away": 1.73
+  },
+  "outcome": [
+   0,
+   2
+  ]
+ },
+ {
+  "match": "Aston Villa vs Arsenal",
+  "file": "match_output_31aug_1.json",
+  "probs": {
+   "1": 0.3354,
+   "X": 0.2601,
+   "2": 0.4045,
+   "over_2_5": 0.554,
+   "under_2_5": 0.446,
+   "btts_yes": 0.5915,
+   "btts_no": 0.4085,
+   "expected_goals_home": 1.38,
+   "expected_goals_away": 1.52
+  },
+  "outcome": [
+   0,
+   1
+  ]
+ },
+ {
+  "match": "Auxerre vs Angers",
+  "file": "match_output_14.json",
+  "probs": {
+   "1": 0.4697,
+   "X": 0.2632,
+   "2": 0.267,
+   "over_2_5": 0.4753,
+   "under_2_5": 0.5247,
+   "btts_yes": 0.5219,
+   "btts_no": 0.4781,
+   "expected_goals_home": 1.48,
+   "expected_goals_away": 1.1
+  },
+  "outcome": [
+   1,
+   3
+  ]
+ },
+ {
+  "match": "Jaguares de Cordoba vs America de Cali",
+  "file": "match_output_jaguares_americadecali.json",
+  "probs": {
+   "1": 0.3574,
+   "X": 0.278,
+   "2": 0.3645,
+   "over_2_5": 0.4562,
+   "under_2_5": 0.5438,
+   "btts_yes": 0.5166,
+   "btts_no": 0.4834,
+   "expected_goals_home": 1.27,
+   "expected_goals_away": 1.23
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Deportivo Riestra vs Velez Sarsfield",
+  "file": "match_output_15.json",
+  "probs": {
+   "1": 0.3372,
+   "X": 0.2952,
+   "2": 0.3676,
+   "over_2_5": 0.384,
+   "under_2_5": 0.616,
+   "btts_yes": 0.4586,
+   "btts_no": 0.5414,
+   "expected_goals_home": 1.1,
+   "expected_goals_away": 1.12
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "FC Barcelona vs Rayo Vallecano",
+  "file": "match_output_31aug_0.json",
+  "probs": {
+   "1": 0.6523,
+   "X": 0.208,
+   "2": 0.1397,
+   "over_2_5": 0.5422,
+   "under_2_5": 0.4578,
+   "btts_yes": 0.5081,
+   "btts_no": 0.4919,
+   "expected_goals_home": 1.98,
+   "expected_goals_away": 0.88
+  },
+  "outcome": [
+   5,
+   2
+  ]
+ },
+ {
+  "match": "Sevilla FC vs Atletico Madrid",
+  "file": "match_output_sevilla_atletico.json",
+  "probs": {
+   "1": 0.3538,
+   "X": 0.2765,
+   "2": 0.3697,
+   "over_2_5": 0.4562,
+   "under_2_5": 0.5438,
+   "btts_yes": 0.5166,
+   "btts_no": 0.4834,
+   "expected_goals_home": 1.27,
+   "expected_goals_away": 1.23
+  },
+  "outcome": [
+   1,
+   3
+  ]
+ },
+ {
+  "match": "Defensa y Justicia vs Platense",
+  "file": "output_31ago_08.json",
+  "probs": {
+   "1": 0.4746,
+   "X": 0.2685,
+   "2": 0.2569,
+   "over_2_5": 0.4433,
+   "under_2_5": 0.5567,
+   "btts_yes": 0.4945,
+   "btts_no": 0.5055,
+   "expected_goals_home": 1.43,
+   "expected_goals_away": 1.02
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Juventus vs Parma",
+  "file": "match_output_9.json",
+  "probs": {
+   "1": 0.6958,
+   "X": 0.1973,
+   "2": 0.1069,
+   "over_2_5": 0.4976,
+   "under_2_5": 0.5024,
+   "btts_yes": 0.4136,
+   "btts_no": 0.5864,
+   "expected_goals_home": 2.03,
+   "expected_goals_away": 0.64
+  },
+  "outcome": [
+   2,
+   0
+  ]
+ },
+ {
+  "match": "Platense vs Deportivo Riestra",
+  "file": "match_output_platense.json",
+  "probs": {
+   "1": 0.4428,
+   "X": 0.2793,
+   "2": 0.2778,
+   "over_2_5": 0.4172,
+   "under_2_5": 0.5828,
+   "btts_yes": 0.4785,
+   "btts_no": 0.5215,
+   "expected_goals_home": 1.33,
+   "expected_goals_away": 1.02
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Atletico Tucuman vs Belgrano",
+  "file": "match_output_19.json",
+  "probs": {
+   "1": 0.4372,
+   "X": 0.2914,
+   "2": 0.2714,
+   "over_2_5": 0.3706,
+   "under_2_5": 0.6294,
+   "btts_yes": 0.4385,
+   "btts_no": 0.5615,
+   "expected_goals_home": 1.25,
+   "expected_goals_away": 0.93
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "Getafe vs Celta Vigo",
+  "file": "match_output_07sep_2.json",
+  "probs": {
+   "1": 0.457,
+   "X": 0.3037,
+   "2": 0.2394,
+   "over_2_5": 0.299,
+   "under_2_5": 0.701,
+   "btts_yes": 0.3738,
+   "btts_no": 0.6262,
+   "expected_goals_home": 1.14,
+   "expected_goals_away": 0.78
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Arouca vs Maritimo",
+  "file": "match_output_35.json",
+  "probs": {
+   "1": 0.4377,
+   "X": 0.2705,
+   "2": 0.2918,
+   "over_2_5": 0.4497,
+   "under_2_5": 0.5503,
+   "btts_yes": 0.5089,
+   "btts_no": 0.4911,
+   "expected_goals_home": 1.33,
+   "expected_goals_away": 1.14
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "America de Cali vs Alianza Valledupar",
+  "file": "match_output_03set_0.json",
+  "probs": {
+   "1": 0.6795,
+   "X": 0.205,
+   "2": 0.1155,
+   "over_2_5": 0.4814,
+   "under_2_5": 0.5186,
+   "btts_yes": 0.4057,
+   "btts_no": 0.5943,
+   "expected_goals_home": 1.98,
+   "expected_goals_away": 0.62
+  },
+  "outcome": [
+   3,
+   0
+  ]
+ },
+ {
+  "match": "Deportivo Pasto vs Deportivo Pereira",
+  "file": "output_31ago_12.json",
+  "probs": {
+   "1": 0.4558,
+   "X": 0.2789,
+   "2": 0.2653,
+   "over_2_5": 0.4172,
+   "under_2_5": 0.5828,
+   "btts_yes": 0.473,
+   "btts_no": 0.527,
+   "expected_goals_home": 1.38,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   1,
+   2
+  ]
+ },
+ {
+  "match": "Lecce vs Roma",
+  "file": "output_31ago_04.json",
+  "probs": {
+   "1": 0.2826,
+   "X": 0.2791,
+   "2": 0.4383,
+   "over_2_5": 0.4106,
+   "under_2_5": 0.5894,
+   "btts_yes": 0.4763,
+   "btts_no": 0.5237,
+   "expected_goals_home": 1.05,
+   "expected_goals_away": 1.27
+  },
+  "outcome": [
+   0,
+   4
+  ]
+ },
+ {
+  "match": "DC United vs LAFC",
+  "file": "match_output_23.json",
+  "probs": {
+   "1": 0.3368,
+   "X": 0.2635,
+   "2": 0.3997,
+   "over_2_5": 0.5423,
+   "under_2_5": 0.4577,
+   "btts_yes": 0.5825,
+   "btts_no": 0.4175,
+   "expected_goals_home": 1.35,
+   "expected_goals_away": 1.5
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "Fortaleza vs Once Caldas",
+  "file": "out_1.json",
+  "probs": {
+   "1": 0.3727,
+   "X": 0.2965,
+   "2": 0.3308,
+   "over_2_5": 0.3773,
+   "under_2_5": 0.6227,
+   "btts_yes": 0.4529,
+   "btts_no": 0.5471,
+   "expected_goals_home": 1.12,
+   "expected_goals_away": 1.07
+  },
+  "outcome": [
+   1,
+   2
+  ]
+ },
+ {
+  "match": "Cagliari vs Verona",
+  "file": "match_output_5.json",
+  "probs": {
+   "1": 0.4593,
+   "X": 0.2643,
+   "2": 0.2764,
+   "over_2_5": 0.4815,
+   "under_2_5": 0.5185,
+   "btts_yes": 0.5282,
+   "btts_no": 0.4718,
+   "expected_goals_home": 1.48,
+   "expected_goals_away": 1.12
+  },
+  "outcome": [
+   1,
+   2
+  ]
+ },
+ {
+  "match": "Internacional FC Palmira vs Real Cundinamarca",
+  "file": "all_results_03set.json",
+  "probs": {
+   "1": 0.4603,
+   "X": 0.2686,
+   "2": 0.2711,
+   "over_2_5": 0.4562,
+   "under_2_5": 0.5438,
+   "btts_yes": 0.5078,
+   "btts_no": 0.4922,
+   "expected_goals_home": 1.43,
+   "expected_goals_away": 1.07
+  },
+  "outcome": [
+   0,
+   2
+  ]
+ },
+ {
+  "match": "Estudiantes Rio Cuarto vs Sarmiento",
+  "file": "match_output_estudiantes.json",
+  "probs": {
+   "1": 0.3078,
+   "X": 0.2847,
+   "2": 0.4075,
+   "over_2_5": 0.4172,
+   "under_2_5": 0.5828,
+   "btts_yes": 0.4785,
+   "btts_no": 0.5215,
+   "expected_goals_home": 1.02,
+   "expected_goals_away": 1.32
+  },
+  "outcome": [
+   0,
+   2
+  ]
+ },
+ {
+  "match": "Newcastle United vs Bournemouth",
+  "file": "match_output.json",
+  "probs": {
+   "1": 0.5349,
+   "X": 0.2442,
+   "2": 0.2209,
+   "over_2_5": 0.5124,
+   "under_2_5": 0.4876,
+   "btts_yes": 0.5352,
+   "btts_no": 0.4648,
+   "expected_goals_home": 1.67,
+   "expected_goals_away": 1.05
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "FC Porto vs Moreirense",
+  "file": "match_output_porto.json",
+  "probs": {
+   "1": 0.753,
+   "X": 0.1682,
+   "2": 0.0789,
+   "over_2_5": 0.5419,
+   "under_2_5": 0.4581,
+   "btts_yes": 0.3967,
+   "btts_no": 0.6033,
+   "expected_goals_home": 2.27,
+   "expected_goals_away": 0.57
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Academico de Viseu vs FC Porto",
+  "file": "match_output_36.json",
+  "probs": {
+   "1": 0.1615,
+   "X": 0.2203,
+   "2": 0.6181,
+   "over_2_5": 0.5304,
+   "under_2_5": 0.4696,
+   "btts_yes": 0.5082,
+   "btts_no": 0.4918,
+   "expected_goals_home": 0.89,
+   "expected_goals_away": 1.91
+  },
+  "outcome": [
+   0,
+   3
+  ]
+ },
+ {
+  "match": "Llaneros vs Deportes Tolima",
+  "file": "match_output_07sep_1.json",
+  "probs": {
+   "1": 0.3996,
+   "X": 0.2934,
+   "2": 0.307,
+   "over_2_5": 0.3907,
+   "under_2_5": 0.6093,
+   "btts_yes": 0.4608,
+   "btts_no": 0.5392,
+   "expected_goals_home": 1.23,
+   "expected_goals_away": 1.02
+  },
+  "outcome": null
+ },
+ {
+  "match": "Torino vs Monza",
+  "file": "sens_out_tor.json",
+  "probs": {
+   "1": 0.4592,
+   "X": 0.2482,
+   "2": 0.2925,
+   "over_2_5": 0.5655,
+   "under_2_5": 0.4345,
+   "btts_yes": 0.5964,
+   "btts_no": 0.4036,
+   "expected_goals_home": 1.62,
+   "expected_goals_away": 1.32
+  },
+  "outcome": [
+   0,
+   1
+  ]
+ },
+ {
+  "match": "Instituto vs San Lorenzo",
+  "file": "output_31ago_11.json",
+  "probs": {
+   "1": 0.4862,
+   "X": 0.2753,
+   "2": 0.2385,
+   "over_2_5": 0.4039,
+   "under_2_5": 0.5961,
+   "btts_yes": 0.4547,
+   "btts_no": 0.5453,
+   "expected_goals_home": 1.4,
+   "expected_goals_away": 0.9
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Braga vs Vitória de Guimarães",
+  "file": "output_31ago_07.json",
+  "probs": {
+   "1": 0.5858,
+   "X": 0.2374,
+   "2": 0.1768,
+   "over_2_5": 0.4752,
+   "under_2_5": 0.5248,
+   "btts_yes": 0.4891,
+   "btts_no": 0.5109,
+   "expected_goals_home": 1.67,
+   "expected_goals_away": 0.9
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Envigado vs Union Magdalena",
+  "file": "out_2.json",
+  "probs": {
+   "1": 0.5228,
+   "X": 0.2547,
+   "2": 0.2225,
+   "over_2_5": 0.4689,
+   "under_2_5": 0.5311,
+   "btts_yes": 0.5011,
+   "btts_no": 0.4989,
+   "expected_goals_home": 1.58,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   0,
+   1
+  ]
+ },
+ {
+  "match": "Jaguares vs America de Cali",
+  "file": "match_output_20.json",
+  "probs": {
+   "1": 0.2668,
+   "X": 0.2879,
+   "2": 0.4453,
+   "over_2_5": 0.384,
+   "under_2_5": 0.616,
+   "btts_yes": 0.4468,
+   "btts_no": 0.5532,
+   "expected_goals_home": 0.93,
+   "expected_goals_away": 1.3
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Fiorentina vs Frosinone",
+  "file": "match_output_6.json",
+  "probs": {
+   "1": 0.5361,
+   "X": 0.2488,
+   "2": 0.2152,
+   "over_2_5": 0.4878,
+   "under_2_5": 0.5122,
+   "btts_yes": 0.5102,
+   "btts_no": 0.4898,
+   "expected_goals_home": 1.65,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   0,
+   3
+  ]
+ },
+ {
+  "match": "Belgrano vs Huracán",
+  "file": "match_output_belgrano.json",
+  "probs": {
+   "1": 0.5134,
+   "X": 0.2574,
+   "2": 0.2293,
+   "over_2_5": 0.4689,
+   "under_2_5": 0.5311,
+   "btts_yes": 0.5011,
+   "btts_no": 0.4989,
+   "expected_goals_home": 1.57,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "NYCFC vs Nashville SC",
+  "file": "match_output_nycfc.json",
+  "probs": {
+   "1": 0.3646,
+   "X": 0.2656,
+   "2": 0.3698,
+   "over_2_5": 0.5305,
+   "under_2_5": 0.4695,
+   "btts_yes": 0.5746,
+   "btts_no": 0.4254,
+   "expected_goals_home": 1.38,
+   "expected_goals_away": 1.43
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "Rosario Central vs Gimnasia La Plata",
+  "file": "match_output_16.json",
+  "probs": {
+   "1": 0.5172,
+   "X": 0.26,
+   "2": 0.2228,
+   "over_2_5": 0.4433,
+   "under_2_5": 0.5567,
+   "btts_yes": 0.4838,
+   "btts_no": 0.5162,
+   "expected_goals_home": 1.5,
+   "expected_goals_away": 0.95
+  },
+  "outcome": [
+   1,
+   2
+  ]
+ },
+ {
+  "match": "Sporting Braga vs Vitória Guimarães",
+  "file": "match_output_31aug_3.json",
+  "probs": {
+   "1": 0.5138,
+   "X": 0.2514,
+   "2": 0.2349,
+   "over_2_5": 0.5002,
+   "under_2_5": 0.4998,
+   "btts_yes": 0.5291,
+   "btts_no": 0.4709,
+   "expected_goals_home": 1.62,
+   "expected_goals_away": 1.05
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Athletic Club vs Atlético Madrid",
+  "file": "match_output_athletic.json",
+  "probs": {
+   "1": 0.4184,
+   "X": 0.2749,
+   "2": 0.3068,
+   "over_2_5": 0.4689,
+   "under_2_5": 0.5311,
+   "btts_yes": 0.5224,
+   "btts_no": 0.4776,
+   "expected_goals_home": 1.4,
+   "expected_goals_away": 1.15
+  },
+  "outcome": [
+   3,
+   0
+  ]
+ },
+ {
+  "match": "Millonarios vs Inter Bogota",
+  "file": "output_millonarios_inter.json",
+  "probs": {
+   "1": 0.5562,
+   "X": 0.2526,
+   "2": 0.1911,
+   "over_2_5": 0.4303,
+   "under_2_5": 0.5697,
+   "btts_yes": 0.4635,
+   "btts_no": 0.5365,
+   "expected_goals_home": 1.52,
+   "expected_goals_away": 0.88
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "AFC Bournemouth vs Everton FC",
+  "file": "match_output_bournemouth_everton.json",
+  "probs": {
+   "1": 0.5329,
+   "X": 0.2462,
+   "2": 0.2209,
+   "over_2_5": 0.5063,
+   "under_2_5": 0.4937,
+   "btts_yes": 0.528,
+   "btts_no": 0.472,
+   "expected_goals_home": 1.68,
+   "expected_goals_away": 1.02
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Crystal Palace vs Manchester City",
+  "file": "batch_results_28082026.json",
+  "probs": {
+   "1": 0.2599,
+   "X": 0.2453,
+   "2": 0.4948,
+   "over_2_5": 0.5423,
+   "under_2_5": 0.4577,
+   "btts_yes": 0.5741,
+   "btts_no": 0.4259,
+   "expected_goals_home": 1.23,
+   "expected_goals_away": 1.62
+  },
+  "outcome": [
+   1,
+   4
+  ]
+ },
+ {
+  "match": "Deportivo Alavés vs Villarreal",
+  "file": "batch_results_28082026.json",
+  "probs": {
+   "1": 0.3772,
+   "X": 0.2752,
+   "2": 0.3476,
+   "over_2_5": 0.4753,
+   "under_2_5": 0.5247,
+   "btts_yes": 0.5307,
+   "btts_no": 0.4693,
+   "expected_goals_home": 1.35,
+   "expected_goals_away": 1.23
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Racing Santander vs Elche",
+  "file": "batch_results_28082026.json",
+  "probs": {
+   "1": 0.4726,
+   "X": 0.2685,
+   "2": 0.2588,
+   "over_2_5": 0.4497,
+   "under_2_5": 0.5503,
+   "btts_yes": 0.4983,
+   "btts_no": 0.5017,
+   "expected_goals_home": 1.45,
+   "expected_goals_away": 1.02
+  },
+  "outcome": [
+   3,
+   2
+  ]
+ },
+ {
+  "match": "Bayern Múnich vs Stuttgart",
+  "file": "batch_results_28082026.json",
+  "probs": {
+   "1": 0.6048,
+   "X": 0.2102,
+   "2": 0.185,
+   "over_2_5": 0.6251,
+   "under_2_5": 0.3749,
+   "btts_yes": 0.6031,
+   "btts_no": 0.3969,
+   "expected_goals_home": 2.08,
+   "expected_goals_away": 1.15
+  },
+  "outcome": [
+   5,
+   1
+  ]
+ },
+ {
+  "match": "AC Milan vs Venezia",
+  "file": "batch_results_28082026.json",
+  "probs": {
+   "1": 0.6762,
+   "X": 0.2032,
+   "2": 0.1206,
+   "over_2_5": 0.5184,
+   "under_2_5": 0.4816,
+   "btts_yes": 0.4703,
+   "btts_no": 0.5297,
+   "expected_goals_home": 1.98,
+   "expected_goals_away": 0.78
+  },
+  "outcome": [
+   2,
+   0
+  ]
+ },
+ {
+  "match": "FC Groningen vs Fortuna Sittard",
+  "file": "batch_results_28082026.json",
+  "probs": {
+   "1": 0.5181,
+   "X": 0.256,
+   "2": 0.2259,
+   "over_2_5": 0.4689,
+   "under_2_5": 0.5311,
+   "btts_yes": 0.5011,
+   "btts_no": 0.4989,
+   "expected_goals_home": 1.57,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   2,
+   3
+  ]
+ },
+ {
+  "match": "Rio Ave vs Sporting CP",
+  "file": "batch_results_28082026.json",
+  "probs": {
+   "1": 0.2079,
+   "X": 0.2365,
+   "2": 0.5557,
+   "over_2_5": 0.5305,
+   "under_2_5": 0.4695,
+   "btts_yes": 0.5438,
+   "btts_no": 0.4562,
+   "expected_goals_home": 1.05,
+   "expected_goals_away": 1.75
+  },
+  "outcome": [
+   0,
+   4
+  ]
+ },
+ {
+  "match": "Boca Juniors vs Lanús",
+  "file": "batch_results_28082026.json",
+  "probs": {
+   "1": 0.5106,
+   "X": 0.272,
+   "2": 0.2174,
+   "over_2_5": 0.3906,
+   "under_2_5": 0.6094,
+   "btts_yes": 0.4389,
+   "btts_no": 0.5611,
+   "expected_goals_home": 1.4,
+   "expected_goals_away": 0.85
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Unión de Santa Fe vs Sarmiento",
+  "file": "batch_results_28082026.json",
+  "probs": {
+   "1": 0.5502,
+   "X": 0.2639,
+   "2": 0.1859,
+   "over_2_5": 0.384,
+   "under_2_5": 0.616,
+   "btts_yes": 0.4141,
+   "btts_no": 0.5859,
+   "expected_goals_home": 1.48,
+   "expected_goals_away": 0.75
+  },
+  "outcome": [
+   4,
+   1
+  ]
+ },
+ {
+  "match": "SC Freiburg vs SV Werder Bremen",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4982,
+   "X": 0.2457,
+   "2": 0.256,
+   "over_2_5": 0.5423,
+   "under_2_5": 0.4577,
+   "btts_yes": 0.5714,
+   "btts_no": 0.4286,
+   "expected_goals_home": 1.65,
+   "expected_goals_away": 1.2
+  },
+  "outcome": [
+   4,
+   1
+  ]
+ },
+ {
+  "match": "FC Augsburg vs FC Schalke 04",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4873,
+   "X": 0.248,
+   "2": 0.2647,
+   "over_2_5": 0.5423,
+   "under_2_5": 0.4577,
+   "btts_yes": 0.5731,
+   "btts_no": 0.4269,
+   "expected_goals_home": 1.64,
+   "expected_goals_away": 1.21
+  },
+  "outcome": [
+   3,
+   0
+  ]
+ },
+ {
+  "match": "Banfield vs River Plate",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.3279,
+   "X": 0.2901,
+   "2": 0.3821,
+   "over_2_5": 0.4132,
+   "under_2_5": 0.5868,
+   "btts_yes": 0.4814,
+   "btts_no": 0.5186,
+   "expected_goals_home": 1.11,
+   "expected_goals_away": 1.23
+  },
+  "outcome": [
+   2,
+   3
+  ]
+ },
+ {
+  "match": "Argentinos Juniors vs Aldosivi",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.554,
+   "X": 0.2537,
+   "2": 0.1924,
+   "over_2_5": 0.429,
+   "under_2_5": 0.571,
+   "btts_yes": 0.4618,
+   "btts_no": 0.5382,
+   "expected_goals_home": 1.52,
+   "expected_goals_away": 0.87
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Independiente vs Gimnasia de Mendoza",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4548,
+   "X": 0.2776,
+   "2": 0.2676,
+   "over_2_5": 0.4079,
+   "under_2_5": 0.5921,
+   "btts_yes": 0.4712,
+   "btts_no": 0.5288,
+   "expected_goals_home": 1.31,
+   "expected_goals_away": 1.01
+  },
+  "outcome": [
+   0,
+   3
+  ]
+ },
+ {
+  "match": "Independiente Rivadavia vs Racing Club",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4316,
+   "X": 0.2791,
+   "2": 0.2894,
+   "over_2_5": 0.4264,
+   "under_2_5": 0.5736,
+   "btts_yes": 0.488,
+   "btts_no": 0.512,
+   "expected_goals_home": 1.32,
+   "expected_goals_away": 1.06
+  },
+  "outcome": [
+   3,
+   1
+  ]
+ },
+ {
+  "match": "Aguilas Doradas vs Boyaca Chico",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.6108,
+   "X": 0.2467,
+   "2": 0.1426,
+   "over_2_5": 0.3773,
+   "under_2_5": 0.6227,
+   "btts_yes": 0.37,
+   "btts_no": 0.63,
+   "expected_goals_home": 1.59,
+   "expected_goals_away": 0.61
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Independiente Medellin vs Llaneros FC",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.5245,
+   "X": 0.2649,
+   "2": 0.2107,
+   "over_2_5": 0.4106,
+   "under_2_5": 0.5894,
+   "btts_yes": 0.4519,
+   "btts_no": 0.5481,
+   "expected_goals_home": 1.46,
+   "expected_goals_away": 0.86
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Millonarios FC vs Internacional de Bogota",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.6301,
+   "X": 0.2347,
+   "2": 0.1353,
+   "over_2_5": 0.4105,
+   "under_2_5": 0.5895,
+   "btts_yes": 0.3914,
+   "btts_no": 0.6086,
+   "expected_goals_home": 1.69,
+   "expected_goals_away": 0.64
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "Deportivo Cali vs Atletico Bucaramanga",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.3817,
+   "X": 0.2994,
+   "2": 0.3189,
+   "over_2_5": 0.3638,
+   "under_2_5": 0.6362,
+   "btts_yes": 0.4411,
+   "btts_no": 0.5589,
+   "expected_goals_home": 1.12,
+   "expected_goals_away": 1.02
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Real Madrid vs Malaga CF",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.7528,
+   "X": 0.1662,
+   "2": 0.081,
+   "over_2_5": 0.5707,
+   "under_2_5": 0.4293,
+   "btts_yes": 0.4357,
+   "btts_no": 0.5643,
+   "expected_goals_home": 2.33,
+   "expected_goals_away": 0.65
+  },
+  "outcome": [
+   4,
+   0
+  ]
+ },
+ {
+  "match": "RC Deportivo de La Coruna vs Valencia CF",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4303,
+   "X": 0.3013,
+   "2": 0.2684,
+   "over_2_5": 0.3436,
+   "under_2_5": 0.6564,
+   "btts_yes": 0.4122,
+   "btts_no": 0.5878,
+   "expected_goals_home": 1.23,
+   "expected_goals_away": 0.85
+  },
+  "outcome": [
+   3,
+   1
+  ]
+ },
+ {
+  "match": "RC Celta de Vigo vs Athletic Club",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.5265,
+   "X": 0.2508,
+   "2": 0.2227,
+   "over_2_5": 0.494,
+   "under_2_5": 0.506,
+   "btts_yes": 0.513,
+   "btts_no": 0.487,
+   "expected_goals_home": 1.68,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   0,
+   2
+  ]
+ },
+ {
+  "match": "St. Louis CITY SC vs FC Dallas",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4361,
+   "X": 0.2588,
+   "2": 0.3051,
+   "over_2_5": 0.5365,
+   "under_2_5": 0.4635,
+   "btts_yes": 0.5746,
+   "btts_no": 0.4254,
+   "expected_goals_home": 1.55,
+   "expected_goals_away": 1.27
+  },
+  "outcome": [
+   3,
+   3
+  ]
+ },
+ {
+  "match": "Paris FC vs OGC Nice",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4423,
+   "X": 0.2929,
+   "2": 0.2648,
+   "over_2_5": 0.3571,
+   "under_2_5": 0.6429,
+   "btts_yes": 0.427,
+   "btts_no": 0.573,
+   "expected_goals_home": 1.23,
+   "expected_goals_away": 0.9
+  },
+  "outcome": [
+   3,
+   0
+  ]
+ },
+ {
+  "match": "Stade Rennais vs Le Mans FC",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.5706,
+   "X": 0.2221,
+   "2": 0.2073,
+   "over_2_5": 0.5987,
+   "under_2_5": 0.4013,
+   "btts_yes": 0.5964,
+   "btts_no": 0.4036,
+   "expected_goals_home": 1.93,
+   "expected_goals_away": 1.17
+  },
+  "outcome": [
+   3,
+   2
+  ]
+ },
+ {
+  "match": "AS Monaco vs Olympique de Marseille",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.3614,
+   "X": 0.2456,
+   "2": 0.393,
+   "over_2_5": 0.6095,
+   "under_2_5": 0.3905,
+   "btts_yes": 0.6331,
+   "btts_no": 0.3669,
+   "expected_goals_home": 1.48,
+   "expected_goals_away": 1.68
+  },
+  "outcome": [
+   2,
+   0
+  ]
+ },
+ {
+  "match": "Chelsea vs Brighton and Hove Albion",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4267,
+   "X": 0.2461,
+   "2": 0.3271,
+   "over_2_5": 0.5966,
+   "under_2_5": 0.4034,
+   "btts_yes": 0.6243,
+   "btts_no": 0.3757,
+   "expected_goals_home": 1.61,
+   "expected_goals_away": 1.48
+  },
+  "outcome": [
+   4,
+   3
+  ]
+ },
+ {
+  "match": "Sunderland vs Fulham",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.3894,
+   "X": 0.2747,
+   "2": 0.3359,
+   "over_2_5": 0.4878,
+   "under_2_5": 0.5122,
+   "btts_yes": 0.5406,
+   "btts_no": 0.4594,
+   "expected_goals_home": 1.38,
+   "expected_goals_away": 1.25
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Manchester United vs Ipswich Town",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.5779,
+   "X": 0.2263,
+   "2": 0.1958,
+   "over_2_5": 0.5597,
+   "under_2_5": 0.4403,
+   "btts_yes": 0.5615,
+   "btts_no": 0.4385,
+   "expected_goals_home": 1.85,
+   "expected_goals_away": 1.07
+  },
+  "outcome": [
+   5,
+   2
+  ]
+ },
+ {
+  "match": "SSC Napoli vs Como 1907",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4472,
+   "X": 0.3034,
+   "2": 0.2494,
+   "over_2_5": 0.2963,
+   "under_2_5": 0.7037,
+   "btts_yes": 0.378,
+   "btts_no": 0.622,
+   "expected_goals_home": 1.07,
+   "expected_goals_away": 0.83
+  },
+  "outcome": [
+   1,
+   2
+  ]
+ },
+ {
+  "match": "Cagliari Calcio vs Inter de Milan",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.289,
+   "X": 0.3474,
+   "2": 0.3636,
+   "over_2_5": 0.2013,
+   "under_2_5": 0.7987,
+   "btts_yes": 0.2956,
+   "btts_no": 0.7044,
+   "expected_goals_home": 0.74,
+   "expected_goals_away": 0.8
+  },
+  "outcome": [
+   0,
+   1
+  ]
+ },
+ {
+  "match": "SS Lazio vs Genoa CFC",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4114,
+   "X": 0.3311,
+   "2": 0.2575,
+   "over_2_5": 0.2296,
+   "under_2_5": 0.7704,
+   "btts_yes": 0.3189,
+   "btts_no": 0.6811,
+   "expected_goals_home": 0.93,
+   "expected_goals_away": 0.72
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "FC Utrecht vs PSV Eindhoven",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.1992,
+   "X": 0.2039,
+   "2": 0.5969,
+   "over_2_5": 0.694,
+   "under_2_5": 0.306,
+   "btts_yes": 0.641,
+   "btts_no": 0.359,
+   "expected_goals_home": 1.21,
+   "expected_goals_away": 2.38
+  },
+  "outcome": [
+   1,
+   6
+  ]
+ },
+ {
+  "match": "Willem II vs SC Heerenveen",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.2608,
+   "X": 0.2432,
+   "2": 0.496,
+   "over_2_5": 0.59,
+   "under_2_5": 0.41,
+   "btts_yes": 0.5977,
+   "btts_no": 0.4023,
+   "expected_goals_home": 1.21,
+   "expected_goals_away": 1.85
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Feyenoord vs ADO Den Haag",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.7566,
+   "X": 0.1534,
+   "2": 0.09,
+   "over_2_5": 0.678,
+   "under_2_5": 0.322,
+   "btts_yes": 0.532,
+   "btts_no": 0.468,
+   "expected_goals_home": 2.66,
+   "expected_goals_away": 0.84
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "SC Telstar vs AFC Ajax",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.2536,
+   "X": 0.2455,
+   "2": 0.5009,
+   "over_2_5": 0.554,
+   "under_2_5": 0.446,
+   "btts_yes": 0.5747,
+   "btts_no": 0.4253,
+   "expected_goals_home": 1.18,
+   "expected_goals_away": 1.73
+  },
+  "outcome": [
+   0,
+   4
+  ]
+ },
+ {
+  "match": "SC Cambuur vs FC Twente",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.1969,
+   "X": 0.2114,
+   "2": 0.5917,
+   "over_2_5": 0.6472,
+   "under_2_5": 0.3528,
+   "btts_yes": 0.6137,
+   "btts_no": 0.3863,
+   "expected_goals_home": 1.16,
+   "expected_goals_away": 2.17
+  },
+  "outcome": [
+   1,
+   4
+  ]
+ },
+ {
+  "match": "CD Nacional vs CF Estrela da Amadora",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.4628,
+   "X": 0.2723,
+   "2": 0.2649,
+   "over_2_5": 0.4368,
+   "under_2_5": 0.5632,
+   "btts_yes": 0.4907,
+   "btts_no": 0.5093,
+   "expected_goals_home": 1.4,
+   "expected_goals_away": 1.02
+  },
+  "outcome": [
+   2,
+   3
+  ]
+ },
+ {
+  "match": "Casa Pia AC vs Moreirense FC",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.3733,
+   "X": 0.2857,
+   "2": 0.341,
+   "over_2_5": 0.4237,
+   "under_2_5": 0.5763,
+   "btts_yes": 0.4909,
+   "btts_no": 0.5091,
+   "expected_goals_home": 1.2,
+   "expected_goals_away": 1.17
+  },
+  "outcome": [
+   0,
+   1
+  ]
+ },
+ {
+  "match": "FC Famalicao vs Gil Vicente FC",
+  "file": "batch_output.json",
+  "probs": {
+   "1": 0.2934,
+   "X": 0.3076,
+   "2": 0.3991,
+   "over_2_5": 0.2895,
+   "under_2_5": 0.7105,
+   "btts_yes": 0.3641,
+   "btts_no": 0.6359,
+   "expected_goals_home": 0.75,
+   "expected_goals_away": 1.12
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "Chelsea vs Brighton",
+  "file": "output_chelsea_brighton.json",
+  "probs": {
+   "1": 0.4568,
+   "X": 0.2499,
+   "2": 0.2934,
+   "over_2_5": 0.5734,
+   "under_2_5": 0.4266,
+   "btts_yes": 0.6,
+   "btts_no": 0.4,
+   "expected_goals_home": 1.68,
+   "expected_goals_away": 1.31
+  },
+  "outcome": [
+   4,
+   3
+  ]
+ },
+ {
+  "match": "Liverpool vs Nottingham Forest",
+  "file": "match_output_liverpool_forest.json",
+  "probs": {
+   "1": 0.5851,
+   "X": 0.228,
+   "2": 0.1869,
+   "over_2_5": 0.5423,
+   "under_2_5": 0.4577,
+   "btts_yes": 0.5336,
+   "btts_no": 0.4664,
+   "expected_goals_home": 1.88,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   2,
+   2
+  ]
+ },
+ {
+  "match": "Cagliari vs Inter Milan",
+  "file": "output_inter_cagliari.json",
+  "probs": {
+   "1": 0.2413,
+   "X": 0.2522,
+   "2": 0.5065,
+   "over_2_5": 0.489,
+   "under_2_5": 0.511,
+   "btts_yes": 0.5293,
+   "btts_no": 0.4707,
+   "expected_goals_home": 1.09,
+   "expected_goals_away": 1.53
+  },
+  "outcome": [
+   0,
+   1
+  ]
+ },
+ {
+  "match": "Napoli vs Como",
+  "file": "output_napoli_como.json",
+  "probs": {
+   "1": 0.4075,
+   "X": 0.275,
+   "2": 0.3176,
+   "over_2_5": 0.4394,
+   "under_2_5": 0.5606,
+   "btts_yes": 0.5031,
+   "btts_no": 0.4969,
+   "expected_goals_home": 1.25,
+   "expected_goals_away": 1.19
+  },
+  "outcome": [
+   1,
+   2
+  ]
+ },
+ {
+  "match": "Huracan vs Estudiantes Rio Cuarto",
+  "file": "match_output_17.json",
+  "probs": {
+   "1": 0.5352,
+   "X": 0.2741,
+   "2": 0.1908,
+   "over_2_5": 0.3504,
+   "under_2_5": 0.6496,
+   "btts_yes": 0.3983,
+   "btts_no": 0.6017,
+   "expected_goals_home": 1.35,
+   "expected_goals_away": 0.75
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Alianza FC vs Atletico Nacional",
+  "file": "match_output_alianza_nacional.json",
+  "probs": {
+   "1": 0.3315,
+   "X": 0.2693,
+   "2": 0.3992,
+   "over_2_5": 0.494,
+   "under_2_5": 0.506,
+   "btts_yes": 0.5458,
+   "btts_no": 0.4542,
+   "expected_goals_home": 1.27,
+   "expected_goals_away": 1.38
+  },
+  "outcome": [
+   1,
+   5
+  ]
+ },
+ {
+  "match": "Monza vs Udinese",
+  "file": "match_output_7.json",
+  "probs": {
+   "1": 0.3205,
+   "X": 0.2616,
+   "2": 0.4179,
+   "over_2_5": 0.5353,
+   "under_2_5": 0.4647,
+   "btts_yes": 0.5724,
+   "btts_no": 0.4276,
+   "expected_goals_home": 1.25,
+   "expected_goals_away": 1.56
+  },
+  "outcome": [
+   2,
+   3
+  ]
+ },
+ {
+  "match": "Junior vs Independiente Santa Fe",
+  "file": "match_output_21.json",
+  "probs": {
+   "1": 0.3683,
+   "X": 0.2895,
+   "2": 0.3422,
+   "over_2_5": 0.404,
+   "under_2_5": 0.596,
+   "btts_yes": 0.4749,
+   "btts_no": 0.5251,
+   "expected_goals_home": 1.15,
+   "expected_goals_away": 1.15
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Benfica vs Estoril",
+  "file": "output_31ago_06.json",
+  "probs": {
+   "1": 0.78,
+   "X": 0.1589,
+   "2": 0.0611,
+   "over_2_5": 0.5242,
+   "under_2_5": 0.4758,
+   "btts_yes": 0.3818,
+   "btts_no": 0.6182,
+   "expected_goals_home": 2.23,
+   "expected_goals_away": 0.55
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Tigre vs Barracas Central",
+  "file": "output_31ago_10.json",
+  "probs": {
+   "1": 0.5221,
+   "X": 0.2685,
+   "2": 0.2094,
+   "over_2_5": 0.3973,
+   "under_2_5": 0.6027,
+   "btts_yes": 0.4374,
+   "btts_no": 0.5626,
+   "expected_goals_home": 1.45,
+   "expected_goals_away": 0.82
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "Barracas Central vs Argentinos Juniors",
+  "file": "match_output_07sep_0.json",
+  "probs": {
+   "1": 0.3036,
+   "X": 0.3007,
+   "2": 0.3957,
+   "over_2_5": 0.3504,
+   "under_2_5": 0.6496,
+   "btts_yes": 0.4287,
+   "btts_no": 0.5713,
+   "expected_goals_home": 0.98,
+   "expected_goals_away": 1.12
+  },
+  "outcome": null
+ },
+ {
+  "match": "Ajax Amsterdam vs Willem II",
+  "file": "match_output_ajax_willemii.json",
+  "probs": {
+   "1": 0.6792,
+   "X": 0.1961,
+   "2": 0.1246,
+   "over_2_5": 0.5422,
+   "under_2_5": 0.4578,
+   "btts_yes": 0.5081,
+   "btts_no": 0.4919,
+   "expected_goals_home": 1.98,
+   "expected_goals_away": 0.88
+  },
+  "outcome": null
+ },
+ {
+  "match": "Strasbourg vs Lens",
+  "file": "match_output_10.json",
+  "probs": {
+   "1": 0.2733,
+   "X": 0.2477,
+   "2": 0.479,
+   "over_2_5": 0.5878,
+   "under_2_5": 0.4122,
+   "btts_yes": 0.5987,
+   "btts_no": 0.4013,
+   "expected_goals_home": 1.23,
+   "expected_goals_away": 1.83
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "America de Cali vs Alianza FC",
+  "file": "all_results.json",
+  "probs": {
+   "1": 0.5844,
+   "X": 0.2459,
+   "2": 0.1696,
+   "over_2_5": 0.4303,
+   "under_2_5": 0.5697,
+   "btts_yes": 0.4399,
+   "btts_no": 0.5601,
+   "expected_goals_home": 1.62,
+   "expected_goals_away": 0.78
+  },
+  "outcome": [
+   3,
+   0
+  ]
+ },
+ {
+  "match": "Inter Palmira vs Real Cundinamarca",
+  "file": "all_results.json",
+  "probs": {
+   "1": 0.4793,
+   "X": 0.271,
+   "2": 0.2497,
+   "over_2_5": 0.4303,
+   "under_2_5": 0.5697,
+   "btts_yes": 0.4806,
+   "btts_no": 0.5194,
+   "expected_goals_home": 1.43,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   0,
+   2
+  ]
+ },
+ {
+  "match": "Tottenham Hotspur vs Newcastle United",
+  "file": "match_output_tottenham_newcastle.json",
+  "probs": {
+   "1": 0.4283,
+   "X": 0.2612,
+   "2": 0.3104,
+   "over_2_5": 0.5423,
+   "under_2_5": 0.4577,
+   "btts_yes": 0.5784,
+   "btts_no": 0.4216,
+   "expected_goals_home": 1.57,
+   "expected_goals_away": 1.27
+  },
+  "outcome": [
+   0,
+   2
+  ]
+ },
+ {
+  "match": "Estoril vs Arouca",
+  "file": "all_results_07sep.json",
+  "probs": {
+   "1": 0.381,
+   "X": 0.2835,
+   "2": 0.3355,
+   "over_2_5": 0.4303,
+   "under_2_5": 0.5697,
+   "btts_yes": 0.496,
+   "btts_no": 0.504,
+   "expected_goals_home": 1.23,
+   "expected_goals_away": 1.17
+  },
+  "outcome": null
+ },
+ {
+  "match": "Gil Vicente vs Academico de Viseu",
+  "file": "all_results_07sep.json",
+  "probs": {
+   "1": 0.5851,
+   "X": 0.2503,
+   "2": 0.1646,
+   "over_2_5": 0.4039,
+   "under_2_5": 0.5961,
+   "btts_yes": 0.4158,
+   "btts_no": 0.5842,
+   "expected_goals_home": 1.57,
+   "expected_goals_away": 0.72
+  },
+  "outcome": [
+   0,
+   1
+  ]
+ },
+ {
+  "match": "Ararat-Armenia vs Universitatea Craiova",
+  "file": "out_ararat.json",
+  "probs": {
+   "1": 0.3662,
+   "X": 0.2761,
+   "2": 0.3576,
+   "over_2_5": 0.4816,
+   "under_2_5": 0.5184,
+   "btts_yes": 0.5367,
+   "btts_no": 0.4633,
+   "expected_goals_home": 1.3,
+   "expected_goals_away": 1.3
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "Houston Dynamo vs San Jose Earthquakes",
+  "file": "match_output_30.json",
+  "probs": {
+   "1": 0.5444,
+   "X": 0.2485,
+   "2": 0.207,
+   "over_2_5": 0.4752,
+   "under_2_5": 0.5248,
+   "btts_yes": 0.4995,
+   "btts_no": 0.5005,
+   "expected_goals_home": 1.62,
+   "expected_goals_away": 0.95
+  },
+  "outcome": [
+   0,
+   0
+  ]
+ },
+ {
+  "match": "Inter Miami vs CF Montreal",
+  "file": "match_output_26.json",
+  "probs": {
+   "1": 0.573,
+   "X": 0.2278,
+   "2": 0.1992,
+   "over_2_5": 0.5597,
+   "under_2_5": 0.4403,
+   "btts_yes": 0.5615,
+   "btts_no": 0.4385,
+   "expected_goals_home": 1.85,
+   "expected_goals_away": 1.08
+  },
+  "outcome": [
+   7,
+   1
+  ]
+ },
+ {
+  "match": "Parma vs Cremonese",
+  "file": "out_4.json",
+  "probs": {
+   "1": 0.4842,
+   "X": 0.2696,
+   "2": 0.2462,
+   "over_2_5": 0.4303,
+   "under_2_5": 0.5697,
+   "btts_yes": 0.4806,
+   "btts_no": 0.5194,
+   "expected_goals_home": 1.43,
+   "expected_goals_away": 0.98
+  },
+  "outcome": [
+   0,
+   2
+  ]
+ },
+ {
+  "match": "Bayer Leverkusen vs Union Berlin",
+  "file": "match_output_bayer.json",
+  "probs": {
+   "1": 0.6242,
+   "X": 0.2203,
+   "2": 0.1556,
+   "over_2_5": 0.5184,
+   "under_2_5": 0.4816,
+   "btts_yes": 0.5,
+   "btts_no": 0.5,
+   "expected_goals_home": 1.88,
+   "expected_goals_away": 0.88
+  },
+  "outcome": [
+   4,
+   0
+  ]
+ },
+ {
+  "match": "NY Red Bulls vs Philadelphia Union",
+  "file": "match_output_27.json",
+  "probs": {
+   "1": 0.4523,
+   "X": 0.26,
+   "2": 0.2877,
+   "over_2_5": 0.5125,
+   "under_2_5": 0.4875,
+   "btts_yes": 0.5539,
+   "btts_no": 0.4461,
+   "expected_goals_home": 1.52,
+   "expected_goals_away": 1.2
+  },
+  "outcome": [
+   1,
+   3
+  ]
+ },
+ {
+  "match": "Excelsior Rotterdam vs Sparta Rotterdam",
+  "file": "match_output_31.json",
+  "probs": {
+   "1": 0.4389,
+   "X": 0.2334,
+   "2": 0.3277,
+   "over_2_5": 0.6809,
+   "under_2_5": 0.3191,
+   "btts_yes": 0.687,
+   "btts_no": 0.313,
+   "expected_goals_home": 1.88,
+   "expected_goals_away": 1.64
+  },
+  "outcome": [
+   2,
+   1
+  ]
+ },
+ {
+  "match": "Inter Milan vs Napoli",
+  "file": "match_output_inter.json",
+  "probs": {
+   "1": 0.504,
+   "X": 0.2531,
+   "2": 0.2429,
+   "over_2_5": 0.5002,
+   "under_2_5": 0.4998,
+   "btts_yes": 0.5328,
+   "btts_no": 0.4672,
+   "expected_goals_home": 1.6,
+   "expected_goals_away": 1.07
+  },
+  "outcome": [
+   3,
+   2
+  ]
+ },
+ {
+  "match": "Alianza vs Atletico Nacional",
+  "file": "output_alianza_nacional.json",
+  "probs": {
+   "1": 0.4037,
+   "X": 0.2632,
+   "2": 0.333,
+   "over_2_5": 0.499,
+   "under_2_5": 0.501,
+   "btts_yes": 0.5439,
+   "btts_no": 0.4561,
+   "expected_goals_home": 1.49,
+   "expected_goals_away": 1.18
+  },
+  "outcome": [
+   1,
+   5
+  ]
+ },
+ {
+  "match": "AFC Bournemouth vs Everton",
+  "file": "all_results_29aug.json",
+  "probs": {
+   "1": 0.4862,
+   "X": 0.2464,
+   "2": 0.2674,
+   "over_2_5": 0.5586,
+   "under_2_5": 0.4414,
+   "btts_yes": 0.5844,
+   "btts_no": 0.4156,
+   "expected_goals_home": 1.69,
+   "expected_goals_away": 1.23
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Levante vs Real Betis",
+  "file": "all_results_29aug.json",
+  "probs": {
+   "1": 0.3667,
+   "X": 0.2662,
+   "2": 0.3671,
+   "over_2_5": 0.5388,
+   "under_2_5": 0.4612,
+   "btts_yes": 0.5811,
+   "btts_no": 0.4189,
+   "expected_goals_home": 1.42,
+   "expected_goals_away": 1.42
+  },
+  "outcome": [
+   5,
+   2
+  ]
+ },
+ {
+  "match": "Sevilla vs Atletico de Madrid",
+  "file": "all_results_29aug.json",
+  "probs": {
+   "1": 0.3181,
+   "X": 0.2642,
+   "2": 0.4177,
+   "over_2_5": 0.5137,
+   "under_2_5": 0.4863,
+   "btts_yes": 0.5596,
+   "btts_no": 0.4404,
+   "expected_goals_home": 1.27,
+   "expected_goals_away": 1.46
+  },
+  "outcome": [
+   1,
+   3
+  ]
+ },
+ {
+  "match": "Lyon vs Le Havre",
+  "file": "all_results_29aug.json",
+  "probs": {
+   "1": 0.645,
+   "X": 0.2162,
+   "2": 0.1388,
+   "over_2_5": 0.5001,
+   "under_2_5": 0.4999,
+   "btts_yes": 0.4647,
+   "btts_no": 0.5353,
+   "expected_goals_home": 1.9,
+   "expected_goals_away": 0.77
+  },
+  "outcome": [
+   1,
+   1
+  ]
+ },
+ {
+  "match": "Lazio vs Genoa",
+  "file": "output_lazio_genoa.json",
+  "probs": {
+   "1": 0.4831,
+   "X": 0.2677,
+   "2": 0.2492,
+   "over_2_5": 0.425,
+   "under_2_5": 0.575,
+   "btts_yes": 0.483,
+   "btts_no": 0.517,
+   "expected_goals_home": 1.36,
+   "expected_goals_away": 1.02
+  },
+  "outcome": [
+   1,
+   0
+  ]
+ },
+ {
+  "match": "PSG vs Monaco",
+  "file": "match_output_psg.json",
+  "probs": {
+   "1": 0.6365,
+   "X": 0.2144,
+   "2": 0.1492,
+   "over_2_5": 0.5304,
+   "under_2_5": 0.4696,
+   "btts_yes": 0.4897,
+   "btts_no": 0.5103,
+   "expected_goals_home": 1.98,
+   "expected_goals_away": 0.83
+  },
+  "outcome": [
+   1,
+   2
+  ]
+ }
+]

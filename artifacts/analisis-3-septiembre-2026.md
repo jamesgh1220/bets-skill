@@ -129,9 +129,13 @@
 - **Palermo vs Mantova (2) @5.00 (+5.1%):** Edge marginal. NO BET.
 
 ## Tracking
-- **Estado:** PENDIENTE
-- **Resultado:** (completar después del partido)
-- **Profit/Loss:** (completar después del partido)
+
+| # | Partido | Mercado | Selección | Cuota | Stake | Resultado | Estado | P/L |
+|---|---------|---------|-----------|-------|-------|-----------|--------|-----|
+| 1 | Real Sociedad vs Celta | 1X2 | Real Sociedad | 2.10 | 0.50u | 0 - 0 | PERDIDA | -0.50u |
+| 2 | Cagliari vs Verona | 1X2 | Verona | 4.20 | 0.25u | 1 - 2 | GANADA | +0.80u |
+| 3 | Palmira vs Cundinamarca | 1X2 | Real Cundinamarca | 4.80 | 0.25u | 0 - 2 | GANADA | +0.95u |
+| **Total** | | | | | **1.00u** | | **2 G / 1 P** | **+1.25u** |
 
 ---
 *Análisis cuantitativo ejecutado con `scripts/calc_engine.py` (modelo ensemble v1.0 activo). Las probabilidades, cuotas justas, edge, EV y Kelly son las del motor. Las apuestas no están garantizadas; apostar con responsabilidad (+18).*
