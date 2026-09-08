@@ -1,0 +1,15 @@
+{
+  "home_team": "Boca Juniors",
+  "away_team": "Sao Paulo",
+  "xg_home_for": 1.4,
+  "xg_home_against": 0.85,
+  "xg_away_for": 1.5,
+  "xg_away_against": 1.05,
+  "elo_home": 1750,
+  "elo_away": 1720,
+  "odds": {
+    "1": 1.99,
+    "X": 3.3,
+    "2": 4.1
+  }
+}

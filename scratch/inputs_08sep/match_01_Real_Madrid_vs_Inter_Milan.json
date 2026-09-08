@@ -1,0 +1,17 @@
+{
+  "home_team": "Real Madrid",
+  "away_team": "Inter Milan",
+  "xg_home_for": 2.3,
+  "xg_home_against": 1.05,
+  "xg_away_for": 1.8,
+  "xg_away_against": 1.15,
+  "elo_home": 2080,
+  "elo_away": 1950,
+  "odds": {
+    "1": 1.65,
+    "X": 4.4,
+    "2": 4.85,
+    "btts_yes": 1.53,
+    "1x": 1.28
+  }
+}

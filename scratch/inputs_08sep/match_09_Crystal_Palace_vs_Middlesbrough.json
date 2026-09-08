@@ -1,0 +1,15 @@
+{
+  "home_team": "Crystal Palace",
+  "away_team": "Middlesbrough",
+  "xg_home_for": 1.6,
+  "xg_home_against": 1.45,
+  "xg_away_for": 1.65,
+  "xg_away_against": 1.1,
+  "elo_home": 1680,
+  "elo_away": 1560,
+  "odds": {
+    "1": 1.76,
+    "X": 4.05,
+    "2": 4.4
+  }
+}

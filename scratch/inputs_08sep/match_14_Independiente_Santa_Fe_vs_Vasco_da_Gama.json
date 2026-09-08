@@ -1,0 +1,15 @@
+{
+  "home_team": "Independiente Santa Fe",
+  "away_team": "Vasco da Gama",
+  "xg_home_for": 1.25,
+  "xg_home_against": 1.35,
+  "xg_away_for": 1.5,
+  "xg_away_against": 1.7,
+  "elo_home": 1660,
+  "elo_away": 1650,
+  "odds": {
+    "1": 2.28,
+    "X": 3.35,
+    "2": 3.25
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "home_team": "Borussia Dortmund",
+  "away_team": "Villarreal",
+  "xg_home_for": 2.05,
+  "xg_home_against": 1.2,
+  "xg_away_for": 1.45,
+  "xg_away_against": 1.25,
+  "elo_home": 1870,
+  "elo_away": 1690,
+  "odds": {
+    "1": 1.75,
+    "X": 4.0,
+    "2": 4.2,
+    "over_2_5": 1.62,
+    "under_2_5": 2.25
+  }
+}

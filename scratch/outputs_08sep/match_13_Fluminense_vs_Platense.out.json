@@ -1,0 +1,67 @@
+{
+  "match": "Fluminense vs Platense",
+  "probabilities": {
+    "1": 0.6179,
+    "X": 0.2394,
+    "2": 0.1427,
+    "under_1_5": 0.2655,
+    "over_1_5": 0.7345,
+    "under_2_5": 0.4121,
+    "over_2_5": 0.5879,
+    "under_3_5": 0.7415,
+    "over_3_5": 0.2585,
+    "btts_yes": 0.4834,
+    "btts_no": 0.5166,
+    "1x": 0.8573,
+    "x2": 0.3821,
+    "12": 0.7606,
+    "dnb_home": 0.6179,
+    "dnb_away": 0.1427,
+    "expected_goals_home": 1.7,
+    "expected_goals_away": 0.88
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.43,
+      "model_prob": 0.6179,
+      "push_prob": 0.0,
+      "conservative_prob": 0.5679,
+      "implied_prob": 0.6993,
+      "fair_odds": 1.62,
+      "edge": -11.64,
+      "ev_percent": -11.64,
+      "robust_ev_percent": -18.79,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.85,
+      "model_prob": 0.2394,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1894,
+      "implied_prob": 0.2597,
+      "fair_odds": 4.18,
+      "edge": -7.83,
+      "ev_percent": -7.83,
+      "robust_ev_percent": -27.08,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 10.0,
+      "model_prob": 0.1427,
+      "push_prob": 0.0,
+      "conservative_prob": 0.0927,
+      "implied_prob": 0.1,
+      "fair_odds": 7.01,
+      "edge": 42.7,
+      "ev_percent": 42.7,
+      "robust_ev_percent": -7.3,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    }
+  }
+}

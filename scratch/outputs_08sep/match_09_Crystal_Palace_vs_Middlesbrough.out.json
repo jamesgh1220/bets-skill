@@ -1,0 +1,67 @@
+{
+  "match": "Crystal Palace vs Middlesbrough",
+  "probabilities": {
+    "1": 0.3576,
+    "X": 0.2478,
+    "2": 0.3946,
+    "under_1_5": 0.2077,
+    "over_1_5": 0.7923,
+    "under_2_5": 0.3138,
+    "over_2_5": 0.6862,
+    "under_3_5": 0.6697,
+    "over_3_5": 0.3303,
+    "btts_yes": 0.5927,
+    "btts_no": 0.4073,
+    "1x": 0.6054,
+    "x2": 0.6424,
+    "12": 0.7522,
+    "dnb_home": 0.3576,
+    "dnb_away": 0.3946,
+    "expected_goals_home": 1.48,
+    "expected_goals_away": 1.42
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.76,
+      "model_prob": 0.3576,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3076,
+      "implied_prob": 0.5682,
+      "fair_odds": 2.8,
+      "edge": -37.06,
+      "ev_percent": -37.06,
+      "robust_ev_percent": -45.86,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.05,
+      "model_prob": 0.2478,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1978,
+      "implied_prob": 0.2469,
+      "fair_odds": 4.04,
+      "edge": 0.36,
+      "ev_percent": 0.36,
+      "robust_ev_percent": -19.89,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.4,
+      "model_prob": 0.3946,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3446,
+      "implied_prob": 0.2273,
+      "fair_odds": 2.53,
+      "edge": 73.62,
+      "ev_percent": 73.62,
+      "robust_ev_percent": 51.62,
+      "stake_recommended_units": 0.05,
+      "has_value": true
+    }
+  }
+}

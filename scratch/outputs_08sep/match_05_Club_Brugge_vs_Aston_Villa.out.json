@@ -1,0 +1,81 @@
+{
+  "match": "Club Brugge vs Aston Villa",
+  "probabilities": {
+    "1": 0.3871,
+    "X": 0.2632,
+    "2": 0.3497,
+    "under_1_5": 0.2284,
+    "over_1_5": 0.7716,
+    "under_2_5": 0.3493,
+    "over_2_5": 0.6507,
+    "under_3_5": 0.6975,
+    "over_3_5": 0.3025,
+    "btts_yes": 0.5558,
+    "btts_no": 0.4442,
+    "1x": 0.6503,
+    "x2": 0.6129,
+    "12": 0.7368,
+    "dnb_home": 0.3871,
+    "dnb_away": 0.3497,
+    "expected_goals_home": 1.62,
+    "expected_goals_away": 1.15
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.6,
+      "model_prob": 0.3871,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3371,
+      "implied_prob": 0.3846,
+      "fair_odds": 2.58,
+      "edge": 0.65,
+      "ev_percent": 0.65,
+      "robust_ev_percent": -12.35,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.65,
+      "model_prob": 0.2632,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2132,
+      "implied_prob": 0.274,
+      "fair_odds": 3.8,
+      "edge": -3.93,
+      "ev_percent": -3.93,
+      "robust_ev_percent": -22.18,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.45,
+      "model_prob": 0.3497,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2997,
+      "implied_prob": 0.4082,
+      "fair_odds": 2.86,
+      "edge": -14.32,
+      "ev_percent": -14.32,
+      "robust_ev_percent": -26.57,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.63,
+      "model_prob": 0.6507,
+      "push_prob": 0.0,
+      "conservative_prob": 0.6007,
+      "implied_prob": 0.6135,
+      "fair_odds": 1.54,
+      "edge": 6.06,
+      "ev_percent": 6.06,
+      "robust_ev_percent": -2.09,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    }
+  }
+}

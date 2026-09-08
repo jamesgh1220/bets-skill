@@ -1,0 +1,67 @@
+{
+  "match": "Boca Juniors vs Sao Paulo",
+  "probabilities": {
+    "1": 0.3941,
+    "X": 0.2831,
+    "2": 0.3228,
+    "under_1_5": 0.3007,
+    "over_1_5": 0.6993,
+    "under_2_5": 0.4725,
+    "over_2_5": 0.5275,
+    "under_3_5": 0.7787,
+    "over_3_5": 0.2213,
+    "btts_yes": 0.4892,
+    "btts_no": 0.5108,
+    "1x": 0.6772,
+    "x2": 0.6059,
+    "12": 0.7169,
+    "dnb_home": 0.3941,
+    "dnb_away": 0.3228,
+    "expected_goals_home": 1.35,
+    "expected_goals_away": 1.05
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.99,
+      "model_prob": 0.3941,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3441,
+      "implied_prob": 0.5025,
+      "fair_odds": 2.54,
+      "edge": -21.57,
+      "ev_percent": -21.57,
+      "robust_ev_percent": -31.52,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.3,
+      "model_prob": 0.2831,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2331,
+      "implied_prob": 0.303,
+      "fair_odds": 3.53,
+      "edge": -6.58,
+      "ev_percent": -6.58,
+      "robust_ev_percent": -23.08,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 4.1,
+      "model_prob": 0.3228,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2728,
+      "implied_prob": 0.2439,
+      "fair_odds": 3.1,
+      "edge": 32.35,
+      "ev_percent": 32.35,
+      "robust_ev_percent": 11.85,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    }
+  }
+}
