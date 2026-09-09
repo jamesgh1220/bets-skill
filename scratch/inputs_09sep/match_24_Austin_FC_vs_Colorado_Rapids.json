@@ -1,0 +1,18 @@
+{
+  "home_team": "Austin FC",
+  "away_team": "Colorado Rapids",
+  "xg_home_for": 1.26,
+  "xg_home_against": 1.91,
+  "xg_away_for": 1.35,
+  "xg_away_against": 1.28,
+  "elo_home": 1470,
+  "elo_away": 1560,
+  "odds": {
+    "1": 2.5,
+    "X": 3.5,
+    "2": 2.7,
+    "over_2_5": 1.74,
+    "under_2_5": 2.05,
+    "btts_yes": 1.58
+  }
+}

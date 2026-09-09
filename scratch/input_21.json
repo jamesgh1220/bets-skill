@@ -1,0 +1,21 @@
+{
+  "home_team": "Moreirense FC",
+  "away_team": "SL Benfica",
+  "league": "Liga Portugal",
+  "xg_home_for": 1.15,
+  "xg_home_against": 1.45,
+  "xg_away_for": 2.1,
+  "xg_away_against": 0.9,
+  "elo_home": 1560,
+  "elo_away": 1830,
+  "odds": {
+    "1": 6.5,
+    "X": 4.3,
+    "2": 1.48,
+    "over_2_5": 1.7,
+    "under_2_5": 2.1,
+    "btts_yes": 1.85,
+    "x2": 1.1,
+    "dnb_away": 1.18
+  }
+}

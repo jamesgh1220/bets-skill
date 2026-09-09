@@ -1,0 +1,67 @@
+{
+  "match": "Deportivo Pasto vs Independiente Medellin",
+  "probabilities": {
+    "1": 0.2607,
+    "X": 0.2787,
+    "2": 0.4607,
+    "under_1_5": 0.2746,
+    "over_1_5": 0.7254,
+    "under_2_5": 0.4288,
+    "over_2_5": 0.5712,
+    "under_3_5": 0.7522,
+    "over_3_5": 0.2478,
+    "btts_yes": 0.5218,
+    "btts_no": 0.4782,
+    "1x": 0.5393,
+    "x2": 0.7393,
+    "12": 0.7213,
+    "dnb_home": 0.2607,
+    "dnb_away": 0.4607,
+    "expected_goals_home": 1.27,
+    "expected_goals_away": 1.25
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 3.3,
+      "model_prob": 0.2607,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2107,
+      "implied_prob": 0.303,
+      "fair_odds": 3.84,
+      "edge": -13.97,
+      "ev_percent": -13.97,
+      "robust_ev_percent": -30.47,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.1,
+      "model_prob": 0.2787,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2287,
+      "implied_prob": 0.3226,
+      "fair_odds": 3.59,
+      "edge": -13.6,
+      "ev_percent": -13.6,
+      "robust_ev_percent": -29.1,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.2,
+      "model_prob": 0.4607,
+      "push_prob": 0.0,
+      "conservative_prob": 0.4107,
+      "implied_prob": 0.4545,
+      "fair_odds": 2.17,
+      "edge": 1.35,
+      "ev_percent": 1.35,
+      "robust_ev_percent": -9.65,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

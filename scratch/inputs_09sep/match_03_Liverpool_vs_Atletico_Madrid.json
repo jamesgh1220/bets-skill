@@ -1,0 +1,22 @@
+{
+  "home_team": "Liverpool",
+  "away_team": "Atletico Madrid",
+  "xg_home_for": 1.9,
+  "xg_home_against": 1.05,
+  "xg_away_for": 1.45,
+  "xg_away_against": 1.35,
+  "elo_home": 1905,
+  "elo_away": 1876,
+  "odds": {
+    "1": 1.75,
+    "X": 4.17,
+    "2": 4.9,
+    "over_2_5": 1.62,
+    "under_2_5": 2.47,
+    "btts_yes": 1.62,
+    "btts_no": 2.38,
+    "1x": 1.22,
+    "12": 1.26,
+    "x2": 2.19
+  }
+}

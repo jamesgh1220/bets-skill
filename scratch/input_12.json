@@ -1,0 +1,21 @@
+{
+  "home_team": "Am\u00e9rica de Cali",
+  "away_team": "Deportivo Pereira",
+  "league": "Copa Colombia",
+  "xg_home_for": 1.55,
+  "xg_home_against": 0.95,
+  "xg_away_for": 1.05,
+  "xg_away_against": 1.35,
+  "elo_home": 1540,
+  "elo_away": 1460,
+  "odds": {
+    "1": 1.8,
+    "X": 3.3,
+    "2": 4.6,
+    "over_2_5": 2.15,
+    "under_2_5": 1.68,
+    "btts_yes": 2.0,
+    "1x": 1.18,
+    "dnb_home": 1.3
+  }
+}

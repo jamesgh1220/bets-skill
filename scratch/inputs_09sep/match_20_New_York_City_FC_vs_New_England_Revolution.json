@@ -1,0 +1,18 @@
+{
+  "home_team": "New York City FC",
+  "away_team": "New England Revolution",
+  "xg_home_for": 1.39,
+  "xg_home_against": 1.43,
+  "xg_away_for": 1.41,
+  "xg_away_against": 1.56,
+  "elo_home": 1520,
+  "elo_away": 1560,
+  "odds": {
+    "1": 2.25,
+    "X": 3.6,
+    "2": 3.0,
+    "over_2_5": 1.85,
+    "under_2_5": 1.86,
+    "btts_yes": 1.57
+  }
+}

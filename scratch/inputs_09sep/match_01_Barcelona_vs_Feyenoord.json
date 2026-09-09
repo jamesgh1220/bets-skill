@@ -1,0 +1,20 @@
+{
+  "home_team": "Barcelona",
+  "away_team": "Feyenoord",
+  "xg_home_for": 2.3,
+  "xg_home_against": 0.75,
+  "xg_away_for": 1.9,
+  "xg_away_against": 1.35,
+  "elo_home": 1980,
+  "elo_away": 1730,
+  "odds": {
+    "1": 1.11,
+    "X": 13.78,
+    "2": 27.0,
+    "over_2_5": 1.19,
+    "under_2_5": 5.5,
+    "btts_yes": 1.85,
+    "12": 1.04,
+    "x2": 8.3
+  }
+}

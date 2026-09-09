@@ -1,0 +1,18 @@
+{
+  "home_team": "Toronto FC",
+  "away_team": "Nashville SC",
+  "xg_home_for": 1.33,
+  "xg_home_against": 1.48,
+  "xg_away_for": 1.36,
+  "xg_away_against": 1.22,
+  "elo_home": 1490,
+  "elo_away": 1680,
+  "odds": {
+    "1": 2.9,
+    "X": 3.6,
+    "2": 2.3,
+    "over_2_5": 1.67,
+    "under_2_5": 2.16,
+    "btts_yes": 1.54
+  }
+}

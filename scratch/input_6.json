@@ -1,0 +1,21 @@
+{
+  "home_team": "LAFC",
+  "away_team": "Red Bull New York",
+  "league": "Major League Soccer",
+  "xg_home_for": 1.85,
+  "xg_home_against": 1.1,
+  "xg_away_for": 1.2,
+  "xg_away_against": 1.35,
+  "elo_home": 1640,
+  "elo_away": 1570,
+  "odds": {
+    "1": 1.85,
+    "X": 3.6,
+    "2": 4.1,
+    "over_2_5": 1.75,
+    "under_2_5": 2.05,
+    "btts_yes": 1.7,
+    "1x": 1.24,
+    "dnb_home": 1.36
+  }
+}

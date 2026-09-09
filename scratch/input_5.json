@@ -1,0 +1,22 @@
+{
+  "home_team": "VfB Stuttgart",
+  "away_team": "Viking FK",
+  "league": "Champions League",
+  "xg_home_for": 1.9,
+  "xg_home_against": 1.15,
+  "xg_away_for": 1.1,
+  "xg_away_against": 1.8,
+  "elo_home": 1780,
+  "elo_away": 1580,
+  "odds": {
+    "1": 1.35,
+    "X": 5.2,
+    "2": 8.0,
+    "over_2_5": 1.5,
+    "under_2_5": 2.5,
+    "btts_yes": 1.75,
+    "btts_no": 2.0,
+    "1x": 1.08,
+    "dnb_home": 1.11
+  }
+}

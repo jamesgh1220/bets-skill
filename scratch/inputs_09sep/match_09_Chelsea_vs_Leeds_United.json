@@ -1,0 +1,18 @@
+{
+  "home_team": "Chelsea",
+  "away_team": "Leeds United",
+  "xg_home_for": 2.0,
+  "xg_home_against": 1.6,
+  "xg_away_for": 1.5,
+  "xg_away_against": 1.1,
+  "elo_home": 1800,
+  "elo_away": 1720,
+  "odds": {
+    "1": 1.65,
+    "X": 3.95,
+    "2": 4.7,
+    "over_2_5": 1.67,
+    "under_2_5": 2.2,
+    "btts_yes": 1.65
+  }
+}

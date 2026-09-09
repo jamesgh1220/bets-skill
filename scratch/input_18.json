@@ -1,0 +1,21 @@
+{
+  "home_team": "Santos FC",
+  "away_team": "Atl\u00e9tico-MG",
+  "league": "Copa Sudamericana",
+  "xg_home_for": 1.4,
+  "xg_home_against": 1.15,
+  "xg_away_for": 1.45,
+  "xg_away_against": 1.1,
+  "elo_home": 1650,
+  "elo_away": 1720,
+  "odds": {
+    "1": 2.7,
+    "X": 3.1,
+    "2": 2.65,
+    "over_2_5": 2.15,
+    "under_2_5": 1.68,
+    "btts_yes": 1.88,
+    "x2": 1.44,
+    "dnb_away": 1.85
+  }
+}

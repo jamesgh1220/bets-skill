@@ -1,0 +1,21 @@
+{
+  "home_team": "Paris Saint-Germain",
+  "away_team": "Slovan Bratislava",
+  "league": "Champions League",
+  "xg_home_for": 2.5,
+  "xg_home_against": 0.85,
+  "xg_away_for": 0.9,
+  "xg_away_against": 2.1,
+  "elo_home": 1930,
+  "elo_away": 1560,
+  "odds": {
+    "1": 1.1,
+    "X": 9.5,
+    "2": 21.0,
+    "over_2_5": 1.25,
+    "under_2_5": 3.8,
+    "over_3_5": 1.7,
+    "btts_yes": 2.2,
+    "btts_no": 1.6
+  }
+}

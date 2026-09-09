@@ -1,0 +1,67 @@
+{
+  "match": "Once Caldas vs Alianza Valledupar",
+  "probabilities": {
+    "1": 0.4906,
+    "X": 0.2773,
+    "2": 0.2321,
+    "under_1_5": 0.312,
+    "over_1_5": 0.688,
+    "under_2_5": 0.4906,
+    "over_2_5": 0.5094,
+    "under_3_5": 0.7891,
+    "over_3_5": 0.2109,
+    "btts_yes": 0.4617,
+    "btts_no": 0.5383,
+    "1x": 0.7679,
+    "x2": 0.5094,
+    "12": 0.7227,
+    "dnb_home": 0.4906,
+    "dnb_away": 0.2321,
+    "expected_goals_home": 1.45,
+    "expected_goals_away": 0.9
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.39,
+      "model_prob": 0.4906,
+      "push_prob": 0.0,
+      "conservative_prob": 0.4406,
+      "implied_prob": 0.7194,
+      "fair_odds": 2.04,
+      "edge": -31.81,
+      "ev_percent": -31.81,
+      "robust_ev_percent": -38.76,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.33,
+      "model_prob": 0.2773,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2273,
+      "implied_prob": 0.2309,
+      "fair_odds": 3.61,
+      "edge": 20.07,
+      "ev_percent": 20.07,
+      "robust_ev_percent": -1.58,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 7.5,
+      "model_prob": 0.2321,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1821,
+      "implied_prob": 0.1333,
+      "fair_odds": 4.31,
+      "edge": 74.08,
+      "ev_percent": 74.08,
+      "robust_ev_percent": 36.57,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    }
+  }
+}

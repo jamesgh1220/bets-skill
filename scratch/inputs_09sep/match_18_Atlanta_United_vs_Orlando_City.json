@@ -1,0 +1,15 @@
+{
+  "home_team": "Atlanta United",
+  "away_team": "Orlando City",
+  "xg_home_for": 1.36,
+  "xg_home_against": 1.44,
+  "xg_away_for": 1.41,
+  "xg_away_against": 1.87,
+  "elo_home": 1460,
+  "elo_away": 1490,
+  "odds": {
+    "1": 2.15,
+    "X": 3.9,
+    "2": 3.0
+  }
+}

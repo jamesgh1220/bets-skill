@@ -1,0 +1,21 @@
+{
+  "home_team": "Once Caldas",
+  "away_team": "Alianza FC",
+  "league": "Copa Colombia",
+  "xg_home_for": 1.45,
+  "xg_home_against": 1.0,
+  "xg_away_for": 0.95,
+  "xg_away_against": 1.4,
+  "elo_home": 1510,
+  "elo_away": 1430,
+  "odds": {
+    "1": 1.85,
+    "X": 3.25,
+    "2": 4.4,
+    "over_2_5": 2.2,
+    "under_2_5": 1.65,
+    "btts_yes": 2.05,
+    "1x": 1.2,
+    "dnb_home": 1.33
+  }
+}

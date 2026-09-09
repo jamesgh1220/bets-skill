@@ -1,0 +1,18 @@
+{
+  "home_team": "D.C. United",
+  "away_team": "Columbus Crew",
+  "xg_home_for": 1.39,
+  "xg_home_against": 1.61,
+  "xg_away_for": 1.43,
+  "xg_away_against": 1.24,
+  "elo_home": 1480,
+  "elo_away": 1450,
+  "odds": {
+    "1": 2.55,
+    "X": 3.5,
+    "2": 2.6,
+    "over_2_5": 1.66,
+    "under_2_5": 2.17,
+    "btts_yes": 1.53
+  }
+}

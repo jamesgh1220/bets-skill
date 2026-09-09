@@ -1,0 +1,67 @@
+{
+  "match": "Portland Timbers vs St. Louis City",
+  "probabilities": {
+    "1": 0.2565,
+    "X": 0.244,
+    "2": 0.4994,
+    "under_1_5": 0.1709,
+    "over_1_5": 0.8291,
+    "under_2_5": 0.2503,
+    "over_2_5": 0.7497,
+    "under_3_5": 0.6126,
+    "over_3_5": 0.3874,
+    "btts_yes": 0.6353,
+    "btts_no": 0.3647,
+    "1x": 0.5006,
+    "x2": 0.7435,
+    "12": 0.756,
+    "dnb_home": 0.2565,
+    "dnb_away": 0.4994,
+    "expected_goals_home": 1.52,
+    "expected_goals_away": 1.64
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.3,
+      "model_prob": 0.2565,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2065,
+      "implied_prob": 0.4348,
+      "fair_odds": 3.9,
+      "edge": -41.01,
+      "ev_percent": -41.01,
+      "robust_ev_percent": -52.51,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.2,
+      "model_prob": 0.244,
+      "push_prob": 0.0,
+      "conservative_prob": 0.194,
+      "implied_prob": 0.2381,
+      "fair_odds": 4.1,
+      "edge": 2.48,
+      "ev_percent": 2.48,
+      "robust_ev_percent": -18.52,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.8,
+      "model_prob": 0.4994,
+      "push_prob": 0.0,
+      "conservative_prob": 0.4494,
+      "implied_prob": 0.3571,
+      "fair_odds": 2.0,
+      "edge": 39.83,
+      "ev_percent": 39.83,
+      "robust_ev_percent": 25.83,
+      "stake_recommended_units": 0.06,
+      "has_value": true
+    }
+  }
+}

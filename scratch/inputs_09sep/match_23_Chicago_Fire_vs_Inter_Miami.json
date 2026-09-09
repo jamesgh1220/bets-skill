@@ -1,0 +1,18 @@
+{
+  "home_team": "Chicago Fire",
+  "away_team": "Inter Miami",
+  "xg_home_for": 1.53,
+  "xg_home_against": 1.4,
+  "xg_away_for": 1.72,
+  "xg_away_against": 1.44,
+  "elo_home": 1570,
+  "elo_away": 1650,
+  "odds": {
+    "1": 2.15,
+    "X": 4.2,
+    "2": 2.8,
+    "over_2_5": 1.26,
+    "under_2_5": 3.7,
+    "btts_yes": 1.26
+  }
+}

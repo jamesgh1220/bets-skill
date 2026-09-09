@@ -1,0 +1,18 @@
+{
+  "home_team": "Houston Dynamo",
+  "away_team": "Real Salt Lake",
+  "xg_home_for": 1.46,
+  "xg_home_against": 1.44,
+  "xg_away_for": 1.61,
+  "xg_away_against": 1.47,
+  "elo_home": 1630,
+  "elo_away": 1530,
+  "odds": {
+    "1": 1.74,
+    "X": 4.09,
+    "2": 4.2,
+    "over_2_5": 1.6,
+    "under_2_5": 2.3,
+    "btts_yes": 1.56
+  }
+}

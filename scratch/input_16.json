@@ -1,0 +1,21 @@
+{
+  "home_team": "Palmeiras",
+  "away_team": "Liga de Quito",
+  "league": "Copa Libertadores",
+  "xg_home_for": 2.05,
+  "xg_home_against": 0.85,
+  "xg_away_for": 1.05,
+  "xg_away_against": 1.6,
+  "elo_home": 1820,
+  "elo_away": 1640,
+  "odds": {
+    "1": 1.45,
+    "X": 4.2,
+    "2": 7.25,
+    "over_2_5": 1.8,
+    "under_2_5": 2.0,
+    "btts_yes": 2.05,
+    "1x": 1.1,
+    "dnb_home": 1.15
+  }
+}

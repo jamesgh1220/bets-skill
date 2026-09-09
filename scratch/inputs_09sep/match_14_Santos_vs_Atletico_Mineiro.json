@@ -1,0 +1,19 @@
+{
+  "home_team": "Santos",
+  "away_team": "Atletico Mineiro",
+  "xg_home_for": 1.35,
+  "xg_home_against": 1.1,
+  "xg_away_for": 0.85,
+  "xg_away_against": 0.95,
+  "elo_home": 1800,
+  "elo_away": 1820,
+  "odds": {
+    "1": 2.1,
+    "X": 3.1,
+    "2": 3.25,
+    "over_2_5": 2.38,
+    "under_2_5": 1.57,
+    "btts_yes": 1.91,
+    "btts_no": 1.72
+  }
+}

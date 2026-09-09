@@ -1,0 +1,26 @@
+{
+  "home_team": "Liverpool FC",
+  "away_team": "Atl\u00e9tico de Madrid",
+  "league": "Champions League",
+  "xg_home_for": 2.1,
+  "xg_home_against": 1.0,
+  "xg_away_for": 1.35,
+  "xg_away_against": 1.15,
+  "elo_home": 1910,
+  "elo_away": 1840,
+  "odds": {
+    "1": 1.9,
+    "X": 3.5,
+    "2": 4.0,
+    "over_1_5": 1.28,
+    "over_2_5": 1.9,
+    "under_2_5": 1.9,
+    "over_3_5": 3.2,
+    "btts_yes": 1.8,
+    "btts_no": 1.95,
+    "1x": 1.25,
+    "x2": 1.85,
+    "dnb_home": 1.38,
+    "dnb_away": 2.8
+  }
+}

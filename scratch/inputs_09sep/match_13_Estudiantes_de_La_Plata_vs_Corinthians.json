@@ -1,0 +1,19 @@
+{
+  "home_team": "Estudiantes de La Plata",
+  "away_team": "Corinthians",
+  "xg_home_for": 1.1,
+  "xg_home_against": 0.8,
+  "xg_away_for": 0.95,
+  "xg_away_against": 1.35,
+  "elo_home": 1770,
+  "elo_away": 1780,
+  "odds": {
+    "1": 2.3,
+    "X": 3.0,
+    "2": 3.4,
+    "over_2_5": 2.8,
+    "under_2_5": 1.4,
+    "btts_yes": 2.17,
+    "btts_no": 1.6
+  }
+}

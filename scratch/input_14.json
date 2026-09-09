@@ -1,0 +1,21 @@
+{
+  "home_team": "Deportivo Pasto",
+  "away_team": "Independiente Medell\u00edn",
+  "league": "Copa Colombia",
+  "xg_home_for": 1.25,
+  "xg_home_against": 1.1,
+  "xg_away_for": 1.35,
+  "xg_away_against": 1.15,
+  "elo_home": 1450,
+  "elo_away": 1530,
+  "odds": {
+    "1": 2.65,
+    "X": 3.05,
+    "2": 2.75,
+    "over_2_5": 2.3,
+    "under_2_5": 1.6,
+    "btts_yes": 1.95,
+    "x2": 1.45,
+    "dnb_away": 1.9
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "home_team": "Sporting CP",
+  "away_team": "Galatasaray",
+  "league": "Champions League",
+  "xg_home_for": 2.0,
+  "xg_home_against": 1.1,
+  "xg_away_for": 1.5,
+  "xg_away_against": 1.4,
+  "elo_home": 1810,
+  "elo_away": 1730,
+  "odds": {
+    "1": 1.7,
+    "X": 3.9,
+    "2": 4.6,
+    "over_1_5": 1.22,
+    "over_2_5": 1.65,
+    "under_2_5": 2.2,
+    "btts_yes": 1.68,
+    "btts_no": 2.1,
+    "1x": 1.2,
+    "dnb_home": 1.28
+  }
+}
