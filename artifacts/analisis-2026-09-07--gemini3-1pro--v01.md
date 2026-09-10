@@ -134,8 +134,9 @@ Todos los partidos de las ligas solicitadas para el 8 de septiembre de 2026.
 - **Ajuste de stake por correlación:** 0.0u
 
 ## Tracking
-| Pick | Estado | Resultado | Profit/Loss |
-|---|---|---|---|
-| Pick 1 | PENDIENTE | — | — |
-| Pick 2 | PENDIENTE | — | — |
-| Pick 3 | PENDIENTE | — | — |
+| Pick | Estado | Resultado | Profit/Loss | P/L Acumulado |
+|---|---|---|---|---|
+| Borussia Dortmund vs Villarreal (Over 2.5) a 1.62 | GANADA | 3 - 2 | +0.04u | +0.04u |
+| Lille vs Real Betis (Over 2.5) a 1.83 | GANADA | 2 - 3 | +0.05u | +0.09u |
+| NEC Nijmegen vs Excelsior (2) a 5.60 | PERDIDA | 2 - 2 | -0.07u | +0.02u |
+| **Total** | | | **2 G / 1 P** | **+0.02u** |

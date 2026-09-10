@@ -138,8 +138,9 @@ Todos los parámetros cuantitativos (lambdas xG, probabilidades del ensamble Poi
 - **Ajuste de stake por correlación:** No procede ajuste por correlación; los stakes ya reflejan Kelly fraccionado/4 del motor (0.06–0.07u) y el tope de longshot de 0.25u.
 
 ## Tracking
-| Pick | Estado | Resultado | Profit/Loss |
-|---|---|---|---|
-| NEC Nijmegen vs Excelsior (2) a 5.60 | PENDIENTE | — | — |
-| Lille vs Real Betis (Over 2.5) a 1.83 | PENDIENTE | — | — |
-| Borussia Dortmund vs Villarreal (Over 2.5) a 1.62 | PENDIENTE | — | — |
+| Pick | Estado | Resultado | Profit/Loss | P/L Acumulado |
+|---|---|---|---|---|
+| NEC Nijmegen vs Excelsior (2) a 5.60 | PERDIDA | 2 - 2 | -0.07u | -0.07u |
+| Lille vs Real Betis (Over 2.5) a 1.83 | GANADA | 2 - 3 | +0.05u | -0.02u |
+| Borussia Dortmund vs Villarreal (Over 2.5) a 1.62 | GANADA | 3 - 2 | +0.04u | +0.02u |
+| **Total** | | | **2 G / 1 P** | **+0.02u** |

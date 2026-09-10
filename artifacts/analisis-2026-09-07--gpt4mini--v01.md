@@ -133,8 +133,9 @@
 - **Ajuste de stake por correlación:** exposición contenida en dos overs del mismo bloque de Champions League; no se añadió un cuarto pick ni se apalancó la correlación.
 
 ## Tracking
-| Pick | Estado | Resultado | Profit/Loss |
-|---|---|---|---|
-| Borussia Dortmund vs Villarreal / over_2_5 | PENDIENTE | — | — |
-| Lille vs Real Betis / over_2_5 | PENDIENTE | — | — |
-| NEC Nijmegen vs Excelsior / 2 | PENDIENTE | — | — |
+| Pick | Estado | Resultado | Profit/Loss | P/L Acumulado |
+|---|---|---|---|---|
+| Borussia Dortmund vs Villarreal / over_2_5 | GANADA | 3 - 2 | +0.04u | +0.04u |
+| Lille vs Real Betis / over_2_5 | GANADA | 2 - 3 | +0.05u | +0.09u |
+| NEC Nijmegen vs Excelsior / 2 | PERDIDA | 2 - 2 | -0.07u | +0.02u |
+| **Total** | | | **2 G / 1 P** | **+0.02u** |
