@@ -1,0 +1,81 @@
+{
+  "match": "Boca Juniors vs Central Córdoba (SdE)",
+  "probabilities": {
+    "1": 0.7168,
+    "X": 0.2016,
+    "2": 0.0816,
+    "under_1_5": 0.2254,
+    "over_1_5": 0.7746,
+    "under_2_5": 0.3421,
+    "over_2_5": 0.6579,
+    "under_3_5": 0.6921,
+    "over_3_5": 0.3079,
+    "btts_yes": 0.4819,
+    "btts_no": 0.5181,
+    "1x": 0.9184,
+    "x2": 0.2832,
+    "12": 0.7984,
+    "dnb_home": 0.7168,
+    "dnb_away": 0.0816,
+    "expected_goals_home": 2.0,
+    "expected_goals_away": 0.8
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.35,
+      "model_prob": 0.7168,
+      "push_prob": 0.0,
+      "conservative_prob": 0.6668,
+      "implied_prob": 0.7407,
+      "fair_odds": 1.4,
+      "edge": -3.23,
+      "ev_percent": -3.23,
+      "robust_ev_percent": -9.98,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.58,
+      "model_prob": 0.2016,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1516,
+      "implied_prob": 0.2183,
+      "fair_odds": 4.96,
+      "edge": -7.67,
+      "ev_percent": -7.67,
+      "robust_ev_percent": -30.57,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 10.4,
+      "model_prob": 0.0816,
+      "push_prob": 0.0,
+      "conservative_prob": 0.0316,
+      "implied_prob": 0.0962,
+      "fair_odds": 12.25,
+      "edge": -15.14,
+      "ev_percent": -15.14,
+      "robust_ev_percent": -67.14,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.73,
+      "model_prob": 0.3421,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2921,
+      "implied_prob": 0.578,
+      "fair_odds": 2.92,
+      "edge": -40.82,
+      "ev_percent": -40.82,
+      "robust_ev_percent": -49.47,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

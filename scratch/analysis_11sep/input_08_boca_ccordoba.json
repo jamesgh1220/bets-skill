@@ -1,0 +1,16 @@
+{
+  "home_team": "Boca Juniors",
+  "away_team": "Central Córdoba (SdE)",
+  "xg_home_for": 1.75,
+  "xg_home_against": 0.95,
+  "xg_away_for": 0.9,
+  "xg_away_against": 2.0,
+  "elo_home": 1700,
+  "elo_away": 1410,
+  "odds": {
+    "1": 1.35,
+    "X": 4.58,
+    "2": 10.4,
+    "under_2_5": 1.73
+  }
+}

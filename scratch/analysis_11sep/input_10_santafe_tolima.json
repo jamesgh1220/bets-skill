@@ -1,0 +1,15 @@
+{
+  "home_team": "Independiente Santa Fe",
+  "away_team": "Deportes Tolima",
+  "xg_home_for": 1.45,
+  "xg_home_against": 1.1,
+  "xg_away_for": 1.5,
+  "xg_away_against": 1.2,
+  "elo_home": 1570,
+  "elo_away": 1550,
+  "odds": {
+    "1": 2.32,
+    "X": 3.03,
+    "2": 3.32
+  }
+}

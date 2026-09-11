@@ -1,0 +1,67 @@
+{
+  "match": "Independiente Santa Fe vs Deportes Tolima",
+  "probabilities": {
+    "1": 0.3848,
+    "X": 0.2697,
+    "2": 0.3455,
+    "under_1_5": 0.2552,
+    "over_1_5": 0.7448,
+    "under_2_5": 0.3957,
+    "over_2_5": 0.6043,
+    "under_3_5": 0.7306,
+    "over_3_5": 0.2694,
+    "btts_yes": 0.5364,
+    "btts_no": 0.4636,
+    "1x": 0.6545,
+    "x2": 0.6152,
+    "12": 0.7303,
+    "dnb_home": 0.3848,
+    "dnb_away": 0.3455,
+    "expected_goals_home": 1.45,
+    "expected_goals_away": 1.18
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.32,
+      "model_prob": 0.3848,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3348,
+      "implied_prob": 0.431,
+      "fair_odds": 2.6,
+      "edge": -10.73,
+      "ev_percent": -10.73,
+      "robust_ev_percent": -22.33,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.03,
+      "model_prob": 0.2697,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2197,
+      "implied_prob": 0.33,
+      "fair_odds": 3.71,
+      "edge": -18.28,
+      "ev_percent": -18.28,
+      "robust_ev_percent": -33.43,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.32,
+      "model_prob": 0.3455,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2955,
+      "implied_prob": 0.3012,
+      "fair_odds": 2.89,
+      "edge": 14.71,
+      "ev_percent": 14.71,
+      "robust_ev_percent": -1.89,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "home_team": "Sevilla",
+  "away_team": "Valencia",
+  "xg_home_for": 1.55,
+  "xg_home_against": 1.35,
+  "xg_away_for": 0.95,
+  "xg_away_against": 1.9,
+  "elo_home": 1610,
+  "elo_away": 1560,
+  "odds": {
+    "1": 2.35,
+    "X": 3.09,
+    "2": 3.32,
+    "over_2_5": 2.35,
+    "under_2_5": 1.65,
+    "btts_yes": 2.0,
+    "btts_no": 1.75,
+    "1x": 1.29,
+    "x2": 1.67
+  }
+}

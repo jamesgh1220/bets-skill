@@ -1,0 +1,67 @@
+{
+  "match": "Jaguares vs Fortaleza",
+  "probabilities": {
+    "1": 0.2999,
+    "X": 0.2733,
+    "2": 0.4268,
+    "under_1_5": 0.2505,
+    "over_1_5": 0.7495,
+    "under_2_5": 0.3877,
+    "over_2_5": 0.6123,
+    "under_3_5": 0.7251,
+    "over_3_5": 0.2749,
+    "btts_yes": 0.5458,
+    "btts_no": 0.4542,
+    "1x": 0.5732,
+    "x2": 0.7001,
+    "12": 0.7267,
+    "dnb_home": 0.2999,
+    "dnb_away": 0.4268,
+    "expected_goals_home": 1.38,
+    "expected_goals_away": 1.27
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.33,
+      "model_prob": 0.2999,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2499,
+      "implied_prob": 0.4292,
+      "fair_odds": 3.33,
+      "edge": -30.12,
+      "ev_percent": -30.12,
+      "robust_ev_percent": -41.77,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 2.83,
+      "model_prob": 0.2733,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2233,
+      "implied_prob": 0.3534,
+      "fair_odds": 3.66,
+      "edge": -22.66,
+      "ev_percent": -22.66,
+      "robust_ev_percent": -36.81,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.25,
+      "model_prob": 0.4268,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3768,
+      "implied_prob": 0.3077,
+      "fair_odds": 2.34,
+      "edge": 38.71,
+      "ev_percent": 38.71,
+      "robust_ev_percent": 22.46,
+      "stake_recommended_units": 0.04,
+      "has_value": true
+    }
+  }
+}

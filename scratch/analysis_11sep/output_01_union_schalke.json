@@ -1,0 +1,81 @@
+{
+  "match": "Union Berlin vs Schalke 04",
+  "probabilities": {
+    "1": 0.5098,
+    "X": 0.2466,
+    "2": 0.2436,
+    "under_1_5": 0.216,
+    "over_1_5": 0.784,
+    "under_2_5": 0.3277,
+    "over_2_5": 0.6723,
+    "under_3_5": 0.6809,
+    "over_3_5": 0.3191,
+    "btts_yes": 0.5617,
+    "btts_no": 0.4383,
+    "1x": 0.7564,
+    "x2": 0.4902,
+    "12": 0.7534,
+    "dnb_home": 0.5098,
+    "dnb_away": 0.2436,
+    "expected_goals_home": 1.73,
+    "expected_goals_away": 1.12
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.11,
+      "model_prob": 0.5098,
+      "push_prob": 0.0,
+      "conservative_prob": 0.4598,
+      "implied_prob": 0.4739,
+      "fair_odds": 1.96,
+      "edge": 7.57,
+      "ev_percent": 7.57,
+      "robust_ev_percent": -2.98,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.73,
+      "model_prob": 0.2466,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1966,
+      "implied_prob": 0.2681,
+      "fair_odds": 4.06,
+      "edge": -8.02,
+      "ev_percent": -8.02,
+      "robust_ev_percent": -26.67,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.23,
+      "model_prob": 0.2436,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1936,
+      "implied_prob": 0.3096,
+      "fair_odds": 4.11,
+      "edge": -21.32,
+      "ev_percent": -21.32,
+      "robust_ev_percent": -37.47,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 1.6,
+      "model_prob": 0.6723,
+      "push_prob": 0.0,
+      "conservative_prob": 0.6223,
+      "implied_prob": 0.625,
+      "fair_odds": 1.49,
+      "edge": 7.57,
+      "ev_percent": 7.57,
+      "robust_ev_percent": -0.43,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    }
+  }
+}
