@@ -30,7 +30,7 @@ La skill se invoca con el siguiente formato:
 2. **Construir el universo**: Universo = intersección(ligas, fechas, partidos). Solo incluir partidos dentro del rango de fechas especificado.
 3. **Verificar actualidad de equipos y jugadores.**
 4. **Buscar cuotas en bookmakers colombianos**: Consultar cuotas en las casas de apuestas configuradas (Betplay, Betsson, Wplay, Rushbet, Zamba, Sportium) usando web scraping/búsqueda.
-5. **Recopilar estadísticas y contexto**: Extraer xG_for, xG_against, Elo ratings y cuotas de entrada. Para corners y tarjetas, exigir tasas `for/against` de ambos equipos; sin esos cuatro datos el mercado queda no disponible.
+5. **Recopilar estadísticas y contexto**: Extraer xG_for, xG_against, Elo ratings y cuotas de entrada. Para corners y tarjetas, exigir tasas `for/against` de ambos equipos; sin esos cuatro datos el mercado queda no disponible. **COBRAR SIEMPRE AMBOS LADOS O/U**: para cada línea de goles (1.5, 2.5, 3.5) capturar cuotas de `over_X` Y `under_X`. El motor calcula las probabilidades de los seis lados; un mercado O/U está incompleto si solo se provee el lado over.
 6. **EJECUTAR MOTOR CUANTITATIVO DE CÁLCULO EN PYTHON (MANDATORIO)**:
    - Crear archivo temporal JSON en `scratch/match_input.json` con la información del partido:
      ```json
@@ -43,11 +43,12 @@ La skill se invoca con el siguiente formato:
        "xg_away_against": 1.3,
        "elo_home": 1600,
        "elo_away": 1500,
-       "odds": {
-         "1": 1.95, "X": 3.40, "2": 4.10,
-         "over_1_5": 1.55, "under_2_5": 2.05, "over_3_5": 2.45,
-         "btts_yes": 1.85, "1x": 1.35, "dnb_home": 1.45
-       },
+"odds": {
+          "1": 1.95, "X": 3.40, "2": 4.10,
+          "over_1_5": 1.55, "under_1_5": 3.20, "under_2_5": 2.05,
+          "over_3_5": 2.45, "under_3_5": 1.65,
+          "btts_yes": 1.85, "1x": 1.35, "dnb_home": 1.45
+        },
        "corners_home_for": 5.4,
        "corners_home_against": 4.2,
        "corners_away_for": 4.8,
@@ -70,6 +71,8 @@ La skill se invoca con el siguiente formato:
 13. **GENERAR Y PUBLICAR ARTEFACTO (OBLIGATORIO)**:
    - Leer y respetar `references/output-format.md` antes de redactarlo.
    - Registrar por separado el `Modelo de IA` recibido y la `Versión del motor predictivo` activa.
+   - **Documentar SIEMPRE ambos lados O/U**: el artefacto debe incluir la sección `## Evaluación Over/Under por Partido` (over y under por línea 1.5/2.5/3.5) y, en `NO BET / Excluidos`, justificar explícitamente el lado rechazado (típicamente el under) con el EV del motor. Un pick over SIN justificar el under analizado es un artefacto incompleto.
+   - Recomendado: generar el temporal con `python3 scripts/render_artifact.py --results {results.json} --meta {meta.json} --output scratch/temp_artifact.md` para respetar el contrato y la sección O/U de forma determinista.
    - Crear un temporal único dentro de `scratch/`; no escribir directamente en `artifacts/`.
    - Ejecutar `python3 scripts/publish_analysis_artifact.py --input {temporal} --analysis-date {YYYY-MM-DD} --model "{modelo}"`.
    - El publicador valida el contrato y asigna atómicamente `analisis-YYYY-MM-DD--{modelo-slug}--vNN.md`. Si falla, corregir el archivo y volver a ejecutarlo. **No finalizar el análisis sin una ruta final publicada.**

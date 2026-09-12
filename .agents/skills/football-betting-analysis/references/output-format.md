@@ -6,6 +6,8 @@ El artefacto es un contrato de datos para review, evaluation y refinement. No se
 
 Mostrar primero `Ranking Global` de los candidatos con value y después la selección final de 0 a 6 picks. Cada pick mostrado incluye perfil de selección, cuota, probabilidad modelo e implícita, justa, edge, EV bruto, EV robusto, stake, confianza, incertidumbre, razones, riesgos y cuota mínima. Incluir siempre los `NO BET` relevantes y el portfolio.
 
+Todo artefacto debe mostrar la sección `## Evaluación Over/Under por Partido` que documente AMBOS lados (over y under) de las líneas 1.5, 2.5 y 3.5. Cuando el pick favorezca un lado, el `NO BET / Excluidos` debe justificar explícitamente por qué el lado contrario (típicamente el under) fue rechazado, usando el EV/EV robusto del motor, no solo "por probabilidad". Cuotas no capturadas se marcan `n/d`; nunca se inventan.
+
 ## Artefacto obligatorio
 
 La plantilla siguiente debe respetarse literalmente en títulos, etiquetas y columnas. Sustituir todos los marcadores; para cero picks conservar las tablas sin filas y escribir `- Ninguno.` en NO BET cuando corresponda.
@@ -30,7 +32,13 @@ La plantilla siguiente debe respetarse literalmente en títulos, etiquetas y col
 
 ## Ranking Global
 | Rank | Partido | Mercado | Selección | Perfil | Cuota | Prob. | Justa | Edge | EV | EV robusto | Stake | Confianza |
-|---|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+|---|---|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| ... |
+
+## Evaluación Over/Under por Partido
+Ambos lados del mercado de goles (over y under) por línea 1.5/2.5/3.5. `n/d` = cuota no capturada.
+| Partido | Línea | Prob Over | Cuota Over | EV Over | Prob Under | Cuota Under | EV Under | Veredicto |
+|---|---|---|---|---:|---:|---:|---:|---:|---|
 | ... |
 
 ## Picks Recomendados (Top {N})

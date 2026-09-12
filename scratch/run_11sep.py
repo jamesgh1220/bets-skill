@@ -182,6 +182,7 @@ matches = [
 model_config = load_model_config("models/model-v1.2.json")
 
 all_candidates = []
+all_evaluations = []
 all_results = []
 
 for m in matches:
@@ -189,19 +190,21 @@ for m in matches:
     res["league"] = m["league"]
     all_results.append(res)
     for m_key, ev in res["evaluations"].items():
+        full = dict(ev)
+        full["match"] = res["match"]
+        full["league"] = m["league"]
+        full["home_team"] = m["home_team"]
+        full["away_team"] = m["away_team"]
+        all_evaluations.append(full)
         if ev["has_value"]:
-            cand = dict(ev)
-            cand["match"] = res["match"]
-            cand["league"] = m["league"]
-            cand["home_team"] = m["home_team"]
-            cand["away_team"] = m["away_team"]
-            all_candidates.append(cand)
+            all_candidates.append(full)
 
 selected, excluded = select_portfolio(all_candidates, max_picks=6)
 
 output_data = {
     "all_results": all_results,
     "all_candidates": all_candidates,
+    "all_evaluations": all_evaluations,
     "selected": selected,
     "excluded": excluded
 }
@@ -210,6 +213,11 @@ with open("scratch/results_11sep.json", "w", encoding="utf-8") as f:
     json.dump(output_data, f, indent=2, ensure_ascii=False)
 
 print(f"Total partidos procesados: {len(all_results)}")
+print(f"Total evaluaciones de mercado (todos los lados): {len(all_evaluations)}")
+over_fn = lambda m: m.split("_")[0]
+import collections
+ou = collections.Counter(("over" if e["market"].startswith("over_2_5") else "under" if e["market"].startswith("under_2_5") else "other") for e in all_evaluations)
+print(f"O/U 2.5 evaluados -> over: {ou['over']} | under: {ou['under']}")
 print(f"Total candidatos con value (bruto): {len(all_candidates)}")
 print(f"Picks seleccionados (prioritario/excepcional): {len(selected)}")
 print(f"Picks excluidos: {len(excluded)}")

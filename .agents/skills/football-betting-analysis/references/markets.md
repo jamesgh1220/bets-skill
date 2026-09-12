@@ -2,6 +2,8 @@
 
 Analizar 1X2, double chance, DNB, Asian Handicap, Over/Under, BTTS, team totals y player props cuando existan datos suficientes.
 
+**Over/Under: evaluar SIEMPRE los dos lados.** Para cada línea (1.5, 2.5, 3.5) capturar la cuota de `over_X` y de `under_X` e informar ambos en el análisis. Un lado puede tener value aunque el otro no lo tenga; el lado sin value debe consignarse en `NO BET` con su EV del motor, nunca omitirse.
+
 Player props requieren minutos, rol, titularidad, volumen, rival, balón parado y sustitución esperada.
 
 Para cada candidato comparar: cuota, probabilidad implícita, probabilidad modelo, cuota justa, edge, EV, robustez y stake.

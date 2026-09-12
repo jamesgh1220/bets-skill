@@ -1,0 +1,70 @@
+{
+  "analysis_date_iso": "2026-09-10T20:14:00-05:00",
+  "match_dates_text": "11 de septiembre de 2026",
+  "information_cutoff": "2026-09-10T20:12:52-05:00",
+  "model_ia": "gemini3.6flash",
+  "engine_version": "model-v1.2",
+  "leagues_display": "Bundesliga, Liga Argentina, Liga Colombiana, LaLiga, Ligue 1, Serie A, Eredivisie",
+  "requested_range": "11 de septiembre de 2026",
+  "universe_preamble": "Se analizaron los 10 partidos programados para el viernes 11 de septiembre de 2026 en las 7 ligas solicitadas:",
+  "universe_matches": [
+    "1. **LaLiga (España):** Sevilla FC vs. Valencia CF (Ramón Sánchez-Pizjuán)",
+    "2. **Ligue 1 (Francia):** Stade Rennais vs. Olympique de Marseille (Roazhon Park)",
+    "3. **Serie A (Italia):** Venezia FC vs. ACF Fiorentina (Pierluigi Penzo)",
+    "4. **Bundesliga (Alemania):** 1. FC Union Berlin vs. FC Schalke 04 (An der Alten Försterei)",
+    "5. **Eredivisie (Países Bajos):** AZ Alkmaar vs. Willem II (AFAS Stadion)",
+    "6. **Liga BetPlay (Colombia):** Jaguares de Córdoba vs. Fortaleza FC (Estadio Jaraguay)",
+    "7. **Liga BetPlay (Colombia):** Independiente Santa Fe vs. Deportes Tolima (Estadio Nemesio Camacho El Campín)",
+    "8. **Liga Profesional (Argentina):** Newell's Old Boys vs. Vélez Sarsfield (Estadio Marcelo Bielsa)",
+    "9. **Liga Profesional (Argentina):** Defensa y Justicia vs. Gimnasia y Esgrima Mendoza (Estadio Norberto Tomaghello)",
+    "10. **Liga Profesional (Argentina):** Boca Juniors vs. Central Córdoba (Estadio Alberto J. Armando - La Bombonera)"
+  ],
+  "picks_details": [
+    {
+      "match": "Stade Rennais vs Olympique de Marseille",
+      "market": "over_2_5",
+      "min_odds": "1.70",
+      "conf": "Media-Alta",
+      "why": "Ambos conjuntos presentan un volumen ofensivo elevado (xG combinados proyectados > 2.85). Rennes en Roazhon Park mantiene un estilo directo y vertical, mientras que Marseille posee transiciones muy rápidas que abren el partido.",
+      "risks": "Posible repliegue defensivo de Marseille si logra adelantarse temprano en el marcador. El under 2.5 podría ganar si el ritmo baja tras un gol temprano.",
+      "sources": "Opta Sports, Ligue1.com, Betplay odds cutoff 2026-09-10"
+    },
+    {
+      "match": "Venezia FC vs ACF Fiorentina",
+      "market": "over_2_5",
+      "min_odds": "1.80",
+      "conf": "Media-Alta",
+      "why": "Venezia sufre conceded xG alto (1.55 xGA) ante equipos con presencia de área como Fiorentina (1.45 xGF). El patrón táctico favorece un intercambio constante de llegadas en ambas áreas.",
+      "risks": "Falta de efectividad en definición por parte de los delanteros de Venezia. Un marcador controlado por Fiorentina favorecería al under 2.5.",
+      "sources": "Lega Serie A official stats, Sky Italia, Betsson odds cutoff 2026-09-10"
+    },
+    {
+      "match": "Sevilla FC vs Valencia CF",
+      "market": "over_2_5",
+      "min_odds": "1.88",
+      "conf": "Media-Alta",
+      "why": "Sevilla muestra vocación ofensiva destacada en el Sánchez-Pizjuán pero desajustes defensivos por bandas. Valencia llega urgido de puntos y con fragilidad defensiva visitante (xGA 1.45).",
+      "risks": "Partido trabado en mediocampo con exceso de faltas en los primeros 45 minutos, que podría derivar en un partido de menos de 2.5 goles.",
+      "sources": "LaLiga EA Sports stats, Marca, Wplay odds cutoff 2026-09-10"
+    },
+    {
+      "match": "1. FC Union Berlin vs FC Schalke 04",
+      "market": "over_2_5",
+      "min_odds": "1.82",
+      "conf": "Media",
+      "why": "Union Berlin aprovecha al máximo la pelota parada en An der Alten Försterei (xGF 1.40) ante la floja respuesta aérea de Schalke 04 (xGA 1.50). La calibración del modelo otorga cuota justa de 1.70.",
+      "risks": "Bajo ritmo de juego si el empate se mantiene hasta el tramo final, empujando el total hacia el under 2.5.",
+      "sources": "Bundesliga.com, Kicker, Rushbet odds cutoff 2026-09-10"
+    },
+    {
+      "match": "Defensa y Justicia vs Gimnasia y Esgrima Mendoza",
+      "market": "over_2_5",
+      "min_odds": "1.98",
+      "conf": "Media",
+      "why": "Defensa y Justicia plantea partidos abiertos en Florencio Varela. Gimnasia de Mendoza ha demostrado ser un visitante peligroso en contraataques, generando ocasiones de gol constantes.",
+      "risks": "Ritmo de juego cortado por faltas frecuentes típico de la Liga Argentina, que puede dejar el partido bajo el total en 2.5.",
+      "sources": "Liga Profesional de Fútbol, TyC Sports, Zamba odds cutoff 2026-09-10"
+    }
+  ],
+  "fallback_source": "Opta Sports, FootyStats, agregador de cuotas colombianas cutoff 2026-09-10"
+}
