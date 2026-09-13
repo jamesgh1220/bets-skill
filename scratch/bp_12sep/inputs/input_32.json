@@ -1,0 +1,21 @@
+{
+ "home_team": "Columbus Crew",
+ "away_team": "Red Bull New York",
+ "league": "MLS",
+ "xg_home_for": 1.85,
+ "xg_home_against": 1.2,
+ "xg_away_for": 1.45,
+ "xg_away_against": 1.3,
+ "elo_home": 1660,
+ "elo_away": 1600,
+ "odds": {
+  "1": 1.8,
+  "X": 4.0,
+  "2": 3.8,
+  "btts_yes": 1.44,
+  "btts_no": 2.63,
+  "over_3_5": 2.2,
+  "under_3_5": 1.67
+ },
+ "match": "Columbus Crew vs Red Bull New York"
+}

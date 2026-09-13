@@ -1,0 +1,29 @@
+{
+  "home_team": "Colorado Rapids",
+  "away_team": "CF Montr\u00e9al",
+  "league": "MLS",
+  "xg_home_for": 1.6,
+  "xg_home_against": 1.35,
+  "xg_away_for": 1.2,
+  "xg_away_against": 1.65,
+  "elo_home": 1600,
+  "elo_away": 1520,
+  "odds": {
+    "1": 1.62,
+    "X": 4.0,
+    "2": 4.4,
+    "over_1_5": 1.28,
+    "under_1_5": 3.6,
+    "over_2_5": 1.95,
+    "under_2_5": 1.88,
+    "over_3_5": 3.3,
+    "under_3_5": 1.33,
+    "btts_yes": 1.85,
+    "btts_no": 1.95,
+    "1x": 1.15,
+    "x2": 2.1,
+    "12": 1.18,
+    "dnb_home": 1.22,
+    "dnb_away": 3.3
+  }
+}

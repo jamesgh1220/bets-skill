@@ -1,0 +1,17 @@
+{
+ "home_team": "SC Cambuur",
+ "away_team": "NEC Nijmegen",
+ "league": "Eredivisie",
+ "xg_home_for": 1.2,
+ "xg_home_against": 1.65,
+ "xg_away_for": 1.5,
+ "xg_away_against": 1.35,
+ "elo_home": 1520,
+ "elo_away": 1640,
+ "odds": {
+  "1": 5.9,
+  "X": 5.2,
+  "2": 1.49
+ },
+ "match": "SC Cambuur vs NEC Nijmegen"
+}

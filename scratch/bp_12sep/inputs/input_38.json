@@ -1,0 +1,17 @@
+{
+ "home_team": "Sporting Kansas City",
+ "away_team": "LAFC",
+ "league": "MLS",
+ "xg_home_for": 1.35,
+ "xg_home_against": 1.65,
+ "xg_away_for": 1.8,
+ "xg_away_against": 1.2,
+ "elo_home": 1540,
+ "elo_away": 1660,
+ "odds": {
+  "1": 4.45,
+  "X": 4.35,
+  "2": 1.67
+ },
+ "match": "Sporting Kansas City vs LAFC"
+}

@@ -1,0 +1,27 @@
+{
+ "home_team": "Tottenham Hotspur",
+ "away_team": "Everton",
+ "league": "Premier League",
+ "xg_home_for": 1.8,
+ "xg_home_against": 1.35,
+ "xg_away_for": 1.2,
+ "xg_away_against": 1.4,
+ "elo_home": 1740,
+ "elo_away": 1610,
+ "odds": {
+  "1": 1.99,
+  "X": 3.6,
+  "2": 3.66,
+  "over_1_5": 1.24,
+  "under_1_5": 3.97,
+  "over_2_5": 1.78,
+  "under_2_5": 2.03,
+  "over_3_5": 2.93,
+  "under_3_5": 1.38,
+  "btts_yes": 1.64,
+  "1x": 1.27,
+  "x2": 1.78,
+  "12": 1.27
+ },
+ "match": "Tottenham Hotspur vs Everton"
+}

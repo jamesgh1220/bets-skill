@@ -1,0 +1,30 @@
+{
+ "home_team": "Internacional de Bogotá",
+ "away_team": "Llaneros FC",
+ "league": "Liga Colombiana",
+ "xg_home_for": 1.35,
+ "xg_home_against": 1.1,
+ "xg_away_for": 0.95,
+ "xg_away_against": 1.5,
+ "elo_home": 1560,
+ "elo_away": 1470,
+ "odds": {
+  "1": 1.81,
+  "X": 3.45,
+  "2": 5.6,
+  "1x": 1.2,
+  "12": 1.37,
+  "x2": 2.16,
+  "over_1_5": 1.48,
+  "under_1_5": 2.98,
+  "over_2_5": 2.44,
+  "under_2_5": 1.66,
+  "over_3_5": 4.84,
+  "under_3_5": 1.23,
+  "btts_yes": 2.2,
+  "btts_no": 1.76,
+  "dnb_home": 1.36,
+  "dnb_away": 4.03
+ },
+ "match": "Internacional de Bogotá vs Llaneros FC"
+}

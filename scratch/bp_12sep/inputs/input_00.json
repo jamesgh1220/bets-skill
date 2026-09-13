@@ -1,0 +1,26 @@
+{
+ "home_team": "AFC Bournemouth",
+ "away_team": "Brentford",
+ "league": "Premier League",
+ "xg_home_for": 1.45,
+ "xg_home_against": 1.45,
+ "xg_away_for": 1.5,
+ "xg_away_against": 1.5,
+ "elo_home": 1640,
+ "elo_away": 1650,
+ "odds": {
+  "1": 2.49,
+  "X": 3.53,
+  "2": 2.7,
+  "over_1_5": 1.18,
+  "under_1_5": 4.53,
+  "over_2_5": 1.62,
+  "under_2_5": 2.24,
+  "over_3_5": 2.53,
+  "under_3_5": 1.5,
+  "btts_yes": 1.5,
+  "1x": 1.44,
+  "12": 1.28
+ },
+ "match": "AFC Bournemouth vs Brentford"
+}

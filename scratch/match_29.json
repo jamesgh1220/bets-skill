@@ -1,0 +1,29 @@
+{
+  "home_team": "C.D. Nacional",
+  "away_team": "Alverca",
+  "league": "Liga Portugal",
+  "xg_home_for": 1.15,
+  "xg_home_against": 1.55,
+  "xg_away_for": 1.2,
+  "xg_away_against": 1.45,
+  "elo_home": 1520,
+  "elo_away": 1530,
+  "odds": {
+    "1": 2.95,
+    "X": 3.2,
+    "2": 2.5,
+    "over_1_5": 1.28,
+    "under_1_5": 3.6,
+    "over_2_5": 1.95,
+    "under_2_5": 1.88,
+    "over_3_5": 3.3,
+    "under_3_5": 1.33,
+    "btts_yes": 1.85,
+    "btts_no": 1.95,
+    "1x": 1.53,
+    "x2": 1.4,
+    "12": 1.35,
+    "dnb_home": 2.03,
+    "dnb_away": 1.72
+  }
+}

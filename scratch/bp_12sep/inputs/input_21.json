@@ -1,0 +1,20 @@
+{
+ "home_team": "AJ Auxerre",
+ "away_team": "Nice",
+ "league": "Ligue 1",
+ "xg_home_for": 1.2,
+ "xg_home_against": 1.5,
+ "xg_away_for": 1.55,
+ "xg_away_against": 1.15,
+ "elo_home": 1560,
+ "elo_away": 1710,
+ "odds": {
+  "1": 2.65,
+  "X": 3.44,
+  "2": 2.88,
+  "over_2_5": 1.93,
+  "btts_yes": 1.73,
+  "btts_no": 2.05
+ },
+ "match": "AJ Auxerre vs Nice"
+}

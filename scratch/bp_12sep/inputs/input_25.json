@@ -1,0 +1,21 @@
+{
+ "home_team": "FC Twente",
+ "away_team": "ADO Den Haag",
+ "league": "Eredivisie",
+ "xg_home_for": 1.95,
+ "xg_home_against": 1.05,
+ "xg_away_for": 1.05,
+ "xg_away_against": 1.95,
+ "elo_home": 1720,
+ "elo_away": 1490,
+ "odds": {
+  "1": 1.25,
+  "X": 6.5,
+  "2": 12.5,
+  "over_2_5": 1.3,
+  "under_2_5": 3.5,
+  "btts_yes": 1.7,
+  "btts_no": 2.05
+ },
+ "match": "FC Twente vs ADO Den Haag"
+}

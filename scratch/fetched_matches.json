@@ -1,0 +1,767 @@
+[
+  {
+    "league": "Premier League",
+    "name": "Brentford at AFC Bournemouth",
+    "home_team": "AFC Bournemouth",
+    "away_team": "Brentford",
+    "date": "2026-09-12T14:00Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "BOU +145",
+      "ml_home": "+145",
+      "ml_away": "+175",
+      "ml_draw": "+260"
+    },
+    "event_id": "401879285"
+  },
+  {
+    "league": "Premier League",
+    "name": "Nottingham Forest at Aston Villa",
+    "home_team": "Aston Villa",
+    "away_team": "Nottingham Forest",
+    "date": "2026-09-12T14:00Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "AVL +125",
+      "ml_home": "+125",
+      "ml_away": "+225",
+      "ml_draw": "+240"
+    },
+    "event_id": "401879284"
+  },
+  {
+    "league": "Premier League",
+    "name": "Hull City at Chelsea",
+    "home_team": "Chelsea",
+    "away_team": "Hull City",
+    "date": "2026-09-12T14:00Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "CHE -475",
+      "ml_home": "-475",
+      "ml_away": "+1200",
+      "ml_draw": "+600"
+    },
+    "event_id": "401879283"
+  },
+  {
+    "league": "Premier League",
+    "name": "Ipswich Town at Crystal Palace",
+    "home_team": "Crystal Palace",
+    "away_team": "Ipswich Town",
+    "date": "2026-09-12T14:00Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "CRY -110",
+      "ml_home": "-110",
+      "ml_away": "+300",
+      "ml_draw": "+270"
+    },
+    "event_id": "401879281"
+  },
+  {
+    "league": "Premier League",
+    "name": "Fulham at Liverpool",
+    "home_team": "Liverpool",
+    "away_team": "Fulham",
+    "date": "2026-09-12T14:00Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "LIV -200",
+      "ml_home": "-200",
+      "ml_away": "+500",
+      "ml_draw": "+370"
+    },
+    "event_id": "401879279"
+  },
+  {
+    "league": "Premier League",
+    "name": "Everton at Tottenham Hotspur",
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Everton",
+    "date": "2026-09-12T16:30Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "TOT +100",
+      "ml_home": "+100",
+      "ml_away": "+250",
+      "ml_draw": "+270"
+    },
+    "event_id": "401879277"
+  },
+  {
+    "league": "Premier League",
+    "name": "Arsenal at Sunderland",
+    "home_team": "Sunderland",
+    "away_team": "Arsenal",
+    "date": "2026-09-12T19:00Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "ARS -165",
+      "ml_home": "+500",
+      "ml_away": "-165",
+      "ml_draw": "+280"
+    },
+    "event_id": "401878779"
+  },
+  {
+    "league": "LaLiga",
+    "name": "Alavés at Racing Santander",
+    "home_team": "Racing Santander",
+    "away_team": "Alavés",
+    "date": "2026-09-12T12:00Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "ALA +160",
+      "ml_home": "+170",
+      "ml_away": "+160",
+      "ml_draw": "+245"
+    },
+    "event_id": "401882881"
+  },
+  {
+    "league": "LaLiga",
+    "name": "Espanyol at Osasuna",
+    "home_team": "Osasuna",
+    "away_team": "Espanyol",
+    "date": "2026-09-12T14:15Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "OSA +125",
+      "ml_home": "+125",
+      "ml_away": "+245",
+      "ml_draw": "+215"
+    },
+    "event_id": "401882882"
+  },
+  {
+    "league": "LaLiga",
+    "name": "Elche at Athletic Club",
+    "home_team": "Athletic Club",
+    "away_team": "Elche",
+    "date": "2026-09-12T16:30Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "ATH -245",
+      "ml_home": "-245",
+      "ml_away": "+650",
+      "ml_draw": "+390"
+    },
+    "event_id": "401882886"
+  },
+  {
+    "league": "LaLiga",
+    "name": "Rayo Vallecano at Real Madrid",
+    "home_team": "Real Madrid",
+    "away_team": "Rayo Vallecano",
+    "date": "2026-09-12T19:00Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "RMA -750",
+      "ml_home": "-750",
+      "ml_away": "+1700",
+      "ml_draw": "+800"
+    },
+    "event_id": "401882880"
+  },
+  {
+    "league": "Bundesliga",
+    "name": "SC Paderborn 07 at Borussia Dortmund",
+    "home_team": "Borussia Dortmund",
+    "away_team": "SC Paderborn 07",
+    "date": "2026-09-12T13:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "DOR -400",
+      "ml_home": "-400",
+      "ml_away": "+800",
+      "ml_draw": "+500"
+    },
+    "event_id": "401884799"
+  },
+  {
+    "league": "Bundesliga",
+    "name": "Bayer Leverkusen at FC Augsburg",
+    "home_team": "FC Augsburg",
+    "away_team": "Bayer Leverkusen",
+    "date": "2026-09-12T13:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "B04 -115",
+      "ml_home": "+245",
+      "ml_away": "-115",
+      "ml_draw": "+290"
+    },
+    "event_id": "401884795"
+  },
+  {
+    "league": "Bundesliga",
+    "name": "Eintracht Frankfurt at Mainz",
+    "home_team": "Mainz",
+    "away_team": "Eintracht Frankfurt",
+    "date": "2026-09-12T13:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "M05 -135",
+      "ml_home": "-135",
+      "ml_away": "+295",
+      "ml_draw": "+290"
+    },
+    "event_id": "401884794"
+  },
+  {
+    "league": "Bundesliga",
+    "name": "Borussia Mönchengladbach at SC Freiburg",
+    "home_team": "SC Freiburg",
+    "away_team": "Borussia Mönchengladbach",
+    "date": "2026-09-12T13:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "SCF -155",
+      "ml_home": "-155",
+      "ml_away": "+350",
+      "ml_draw": "+300"
+    },
+    "event_id": "401884796"
+  },
+  {
+    "league": "Bundesliga",
+    "name": "VfB Stuttgart at TSG Hoffenheim",
+    "home_team": "TSG Hoffenheim",
+    "away_team": "VfB Stuttgart",
+    "date": "2026-09-12T13:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "TSG +120",
+      "ml_home": "+120",
+      "ml_away": "+175",
+      "ml_draw": "+290"
+    },
+    "event_id": "401884797"
+  },
+  {
+    "league": "Bundesliga",
+    "name": "Werder Bremen at FC Cologne",
+    "home_team": "FC Cologne",
+    "away_team": "Werder Bremen",
+    "date": "2026-09-12T16:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "KOE +105",
+      "ml_home": "+105",
+      "ml_away": "+220",
+      "ml_draw": "+260"
+    },
+    "event_id": "401884792"
+  },
+  {
+    "league": "Serie A",
+    "name": "Frosinone at Genoa",
+    "home_team": "Genoa",
+    "away_team": "Frosinone",
+    "date": "2026-09-12T13:00Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "GEN +120",
+      "ml_home": "+120",
+      "ml_away": "+215",
+      "ml_draw": "+225"
+    },
+    "event_id": "401874991"
+  },
+  {
+    "league": "Serie A",
+    "name": "AC Milan at Lazio",
+    "home_team": "Lazio",
+    "away_team": "AC Milan",
+    "date": "2026-09-12T16:00Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "MIL +105",
+      "ml_home": "+265",
+      "ml_away": "+105",
+      "ml_draw": "+210"
+    },
+    "event_id": "401874941"
+  },
+  {
+    "league": "Serie A",
+    "name": "Cagliari at Atalanta",
+    "home_team": "Atalanta",
+    "away_team": "Cagliari",
+    "date": "2026-09-12T18:45Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "ATA -150",
+      "ml_home": "-150",
+      "ml_away": "+390",
+      "ml_draw": "+265"
+    },
+    "event_id": "401874979"
+  },
+  {
+    "league": "Ligue 1",
+    "name": "AS Monaco at Strasbourg",
+    "home_team": "Strasbourg",
+    "away_team": "AS Monaco",
+    "date": "2026-09-12T15:15Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "MON +115",
+      "ml_home": "+220",
+      "ml_away": "+115",
+      "ml_draw": "+280"
+    },
+    "event_id": "401876458"
+  },
+  {
+    "league": "Ligue 1",
+    "name": "Nice at AJ Auxerre",
+    "home_team": "AJ Auxerre",
+    "away_team": "Nice",
+    "date": "2026-09-12T18:45Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "NICE +155",
+      "ml_home": "+180",
+      "ml_away": "+155",
+      "ml_draw": "+240"
+    },
+    "event_id": "401876466"
+  },
+  {
+    "league": "Ligue 1",
+    "name": "Angers at Le Havre AC",
+    "home_team": "Le Havre AC",
+    "away_team": "Angers",
+    "date": "2026-09-12T18:45Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "HAC +160",
+      "ml_home": "+160",
+      "ml_away": "+180",
+      "ml_draw": "+230"
+    },
+    "event_id": "401876464"
+  },
+  {
+    "league": "Ligue 1",
+    "name": "Toulouse at Lorient",
+    "home_team": "Lorient",
+    "away_team": "Toulouse",
+    "date": "2026-09-12T18:45Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "LOR +145",
+      "ml_home": "+145",
+      "ml_away": "+195",
+      "ml_draw": "+235"
+    },
+    "event_id": "401876461"
+  },
+  {
+    "league": "Ligue 1",
+    "name": "Lyon at Paris FC",
+    "home_team": "Paris FC",
+    "away_team": "Lyon",
+    "date": "2026-09-12T18:45Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "LYON +155",
+      "ml_home": "+160",
+      "ml_away": "+155",
+      "ml_draw": "+265"
+    },
+    "event_id": "401876460"
+  },
+  {
+    "league": "Eredivisie",
+    "name": "ADO Den Haag at FC Twente",
+    "home_team": "FC Twente",
+    "away_team": "ADO Den Haag",
+    "date": "2026-09-12T14:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "TWE -425",
+      "ml_home": "-425",
+      "ml_away": "+850",
+      "ml_draw": "+550"
+    },
+    "event_id": "401875610"
+  },
+  {
+    "league": "Eredivisie",
+    "name": "FC Groningen at Go Ahead Eagles",
+    "home_team": "Go Ahead Eagles",
+    "away_team": "FC Groningen",
+    "date": "2026-09-12T16:45Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "GAE +130",
+      "ml_home": "+130",
+      "ml_away": "+175",
+      "ml_draw": "+285"
+    },
+    "event_id": "401875609"
+  },
+  {
+    "league": "Eredivisie",
+    "name": "Ajax Amsterdam at Fortuna Sittard",
+    "home_team": "Fortuna Sittard",
+    "away_team": "Ajax Amsterdam",
+    "date": "2026-09-12T18:00Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "AJA -245",
+      "ml_home": "+550",
+      "ml_away": "-245",
+      "ml_draw": "+425"
+    },
+    "event_id": "401875608"
+  },
+  {
+    "league": "Eredivisie",
+    "name": "NEC Nijmegen at SC Cambuur",
+    "home_team": "SC Cambuur",
+    "away_team": "NEC Nijmegen",
+    "date": "2026-09-12T19:00Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "NEC -160",
+      "ml_home": "+360",
+      "ml_away": "-160",
+      "ml_draw": "+340"
+    },
+    "event_id": "401875604"
+  },
+  {
+    "league": "Liga Portugal",
+    "name": "Alverca at C.D. Nacional",
+    "home_team": "C.D. Nacional",
+    "away_team": "Alverca",
+    "date": "2026-09-12T14:30Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "ALV +150",
+      "ml_home": "+195",
+      "ml_away": "+150",
+      "ml_draw": "+220"
+    },
+    "event_id": "401885441"
+  },
+  {
+    "league": "Liga Portugal",
+    "name": "FC Porto at Casa Pia",
+    "home_team": "Casa Pia",
+    "away_team": "FC Porto",
+    "date": "2026-09-12T17:00Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "FCP -475",
+      "ml_home": "+1200",
+      "ml_away": "-475",
+      "ml_draw": "+550"
+    },
+    "event_id": "401885444"
+  },
+  {
+    "league": "Liga Portugal",
+    "name": "Vitória de Guimaraes at Académico de Viseu",
+    "home_team": "Académico de Viseu",
+    "away_team": "Vitória de Guimaraes",
+    "date": "2026-09-12T19:30Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "VSC +105",
+      "ml_home": "+280",
+      "ml_away": "+105",
+      "ml_draw": "+230"
+    },
+    "event_id": "401885447"
+  },
+  {
+    "league": "MLS",
+    "name": "Red Bull New York at Columbus Crew",
+    "home_team": "Columbus Crew",
+    "away_team": "Red Bull New York",
+    "date": "2026-09-12T23:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "CLB -135",
+      "ml_home": "-135",
+      "ml_away": "+280",
+      "ml_draw": "+320"
+    },
+    "event_id": "761804"
+  },
+  {
+    "league": "MLS",
+    "name": "Atlanta United FC at D.C. United",
+    "home_team": "D.C. United",
+    "away_team": "Atlanta United FC",
+    "date": "2026-09-12T23:30Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "DC +115",
+      "ml_home": "+115",
+      "ml_away": "+190",
+      "ml_draw": "+270"
+    },
+    "event_id": "761803"
+  },
+  {
+    "league": "MLS",
+    "name": "Charlotte FC at FC Cincinnati",
+    "home_team": "FC Cincinnati",
+    "away_team": "Charlotte FC",
+    "date": "2026-09-12T23:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "CIN +100",
+      "ml_home": "+100",
+      "ml_away": "+200",
+      "ml_draw": "+300"
+    },
+    "event_id": "761802"
+  },
+  {
+    "league": "MLS",
+    "name": "Nashville SC at Inter Miami CF",
+    "home_team": "Inter Miami CF",
+    "away_team": "Nashville SC",
+    "date": "2026-09-12T23:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "MIA +105",
+      "ml_home": "+105",
+      "ml_away": "+200",
+      "ml_draw": "+290"
+    },
+    "event_id": "761800"
+  },
+  {
+    "league": "MLS",
+    "name": "Toronto FC at Orlando City SC",
+    "home_team": "Orlando City SC",
+    "away_team": "Toronto FC",
+    "date": "2026-09-12T23:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "ORL -120",
+      "ml_home": "-120",
+      "ml_away": "+255",
+      "ml_draw": "+295"
+    },
+    "event_id": "761801"
+  },
+  {
+    "league": "MLS",
+    "name": "Portland Timbers at FC Dallas",
+    "home_team": "FC Dallas",
+    "away_team": "Portland Timbers",
+    "date": "2026-09-13T00:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "DAL -130",
+      "ml_home": "-130",
+      "ml_away": "+270",
+      "ml_draw": "+300"
+    },
+    "event_id": "761805"
+  },
+  {
+    "league": "MLS",
+    "name": "LAFC at Sporting Kansas City",
+    "home_team": "Sporting Kansas City",
+    "away_team": "LAFC",
+    "date": "2026-09-13T00:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "LAFC -150",
+      "ml_home": "+320",
+      "ml_away": "-150",
+      "ml_draw": "+320"
+    },
+    "event_id": "761806"
+  },
+  {
+    "league": "MLS",
+    "name": "Minnesota United FC at St. Louis CITY SC",
+    "home_team": "St. Louis CITY SC",
+    "away_team": "Minnesota United FC",
+    "date": "2026-09-13T00:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "STL +100",
+      "ml_home": "+100",
+      "ml_away": "+215",
+      "ml_draw": "+275"
+    },
+    "event_id": "761807"
+  },
+  {
+    "league": "MLS",
+    "name": "CF Montréal at Colorado Rapids",
+    "home_team": "Colorado Rapids",
+    "away_team": "CF Montréal",
+    "date": "2026-09-13T01:30Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "COL -160",
+      "ml_home": "-160",
+      "ml_away": "+340",
+      "ml_draw": "+300"
+    },
+    "event_id": "761808"
+  },
+  {
+    "league": "MLS",
+    "name": "New York City FC at Real Salt Lake",
+    "home_team": "Real Salt Lake",
+    "away_team": "New York City FC",
+    "date": "2026-09-13T01:30Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "RSL -105",
+      "ml_home": "-105",
+      "ml_away": "+255",
+      "ml_draw": "+250"
+    },
+    "event_id": "761809"
+  },
+  {
+    "league": "MLS",
+    "name": "Seattle Sounders FC at LA Galaxy",
+    "home_team": "LA Galaxy",
+    "away_team": "Seattle Sounders FC",
+    "date": "2026-09-13T02:30Z",
+    "odds_data": {
+      "overUnder": 3.5,
+      "details": "LA +115",
+      "ml_home": "+115",
+      "ml_away": "+190",
+      "ml_draw": "+270"
+    },
+    "event_id": "761811"
+  },
+  {
+    "league": "MLS",
+    "name": "Houston Dynamo FC at San Jose Earthquakes",
+    "home_team": "San Jose Earthquakes",
+    "away_team": "Houston Dynamo FC",
+    "date": "2026-09-13T02:30Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "SJ +130",
+      "ml_home": "+130",
+      "ml_away": "+175",
+      "ml_draw": "+250"
+    },
+    "event_id": "761810"
+  },
+  {
+    "league": "Liga Argentina",
+    "name": "Platense at Estudiantes de La Plata",
+    "home_team": "Estudiantes de La Plata",
+    "away_team": "Platense",
+    "date": "2026-09-12T17:45Z",
+    "odds_data": {
+      "overUnder": 1.5,
+      "details": "EST -105",
+      "ml_home": "-105",
+      "ml_away": "+340",
+      "ml_draw": "+205"
+    },
+    "event_id": "401841554"
+  },
+  {
+    "league": "Liga Argentina",
+    "name": "Aldosivi at Independiente Rivadavia",
+    "home_team": "Independiente Rivadavia",
+    "away_team": "Aldosivi",
+    "date": "2026-09-12T17:45Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "RIV -235",
+      "ml_home": "-235",
+      "ml_away": "+650",
+      "ml_draw": "+340"
+    },
+    "event_id": "401841567"
+  },
+  {
+    "league": "Liga Argentina",
+    "name": "River Plate at Atlético Tucumán",
+    "home_team": "Atlético Tucumán",
+    "away_team": "River Plate",
+    "date": "2026-09-12T20:30Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "RIV +115",
+      "ml_home": "+270",
+      "ml_away": "+115",
+      "ml_draw": "+210"
+    },
+    "event_id": "401841559"
+  },
+  {
+    "league": "Liga Argentina",
+    "name": "Unión (Santa Fe) at Talleres (Córdoba)",
+    "home_team": "Talleres (Córdoba)",
+    "away_team": "Unión (Santa Fe)",
+    "date": "2026-09-12T23:00Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "TALL +130",
+      "ml_home": "+130",
+      "ml_away": "+245",
+      "ml_draw": "+200"
+    },
+    "event_id": "401841563"
+  },
+  {
+    "league": "Liga Colombiana",
+    "name": "Llaneros FC at Internacional de Bogotá",
+    "home_team": "Internacional de Bogotá",
+    "away_team": "Llaneros FC",
+    "date": "2026-09-12T21:05Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "BOG -135",
+      "ml_home": "-135",
+      "ml_away": "+380",
+      "ml_draw": "+230"
+    },
+    "event_id": "401877891"
+  },
+  {
+    "league": "Liga Colombiana",
+    "name": "Independiente Medellín at Boyacá Chicó FC",
+    "home_team": "Boyacá Chicó FC",
+    "away_team": "Independiente Medellín",
+    "date": "2026-09-12T23:10Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "DIM -120",
+      "ml_home": "+290",
+      "ml_away": "-120",
+      "ml_draw": "+240"
+    },
+    "event_id": "401877880"
+  },
+  {
+    "league": "Liga Colombiana",
+    "name": "Atlético Junior at Alianza FC",
+    "home_team": "Alianza FC",
+    "away_team": "Atlético Junior",
+    "date": "2026-09-13T01:20Z",
+    "odds_data": {
+      "overUnder": 2.5,
+      "details": "JUN +120",
+      "ml_home": "+195",
+      "ml_away": "+120",
+      "ml_draw": "+230"
+    },
+    "event_id": "401878007"
+  }
+]

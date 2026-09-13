@@ -1,0 +1,21 @@
+{
+ "home_team": "Fortuna Sittard",
+ "away_team": "Ajax Amsterdam",
+ "league": "Eredivisie",
+ "xg_home_for": 1.15,
+ "xg_home_against": 1.75,
+ "xg_away_for": 2.1,
+ "xg_away_against": 1.1,
+ "elo_home": 1530,
+ "elo_away": 1790,
+ "odds": {
+  "1": 6.0,
+  "X": 4.7,
+  "2": 1.55,
+  "over_2_5": 1.36,
+  "under_2_5": 3.1,
+  "btts_yes": 1.53,
+  "btts_no": 2.37
+ },
+ "match": "Fortuna Sittard vs Ajax Amsterdam"
+}

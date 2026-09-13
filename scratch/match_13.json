@@ -1,0 +1,29 @@
+{
+  "home_team": "Mainz",
+  "away_team": "Eintracht Frankfurt",
+  "league": "Bundesliga",
+  "xg_home_for": 1.4,
+  "xg_home_against": 1.35,
+  "xg_away_for": 1.65,
+  "xg_away_against": 1.4,
+  "elo_home": 1630,
+  "elo_away": 1720,
+  "odds": {
+    "1": 1.74,
+    "X": 3.9,
+    "2": 3.95,
+    "over_1_5": 1.18,
+    "under_1_5": 4.8,
+    "over_2_5": 1.55,
+    "under_2_5": 2.35,
+    "over_3_5": 2.45,
+    "under_3_5": 1.55,
+    "btts_yes": 1.85,
+    "btts_no": 1.95,
+    "1x": 1.2,
+    "x2": 1.96,
+    "12": 1.21,
+    "dnb_home": 1.29,
+    "dnb_away": 2.94
+  }
+}

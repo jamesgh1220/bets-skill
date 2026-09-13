@@ -1,0 +1,19 @@
+{
+ "home_team": "Real Madrid",
+ "away_team": "Rayo Vallecano",
+ "league": "LaLiga",
+ "xg_home_for": 2.3,
+ "xg_home_against": 0.8,
+ "xg_away_for": 1.1,
+ "xg_away_against": 1.65,
+ "elo_home": 1960,
+ "elo_away": 1580,
+ "odds": {
+  "1": 1.11,
+  "X": 9.0,
+  "2": 22.0,
+  "over_3_5": 1.8,
+  "btts_yes": 2.0
+ },
+ "match": "Real Madrid vs Rayo Vallecano"
+}

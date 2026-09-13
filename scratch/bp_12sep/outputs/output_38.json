@@ -1,0 +1,67 @@
+{
+ "match": "Sporting Kansas City vs LAFC",
+ "probabilities": {
+  "1": 0.2192,
+  "X": 0.2479,
+  "2": 0.533,
+  "under_1_5": 0.1925,
+  "over_1_5": 0.8075,
+  "under_2_5": 0.2874,
+  "over_2_5": 0.7126,
+  "under_3_5": 0.6473,
+  "over_3_5": 0.3527,
+  "btts_yes": 0.608,
+  "btts_no": 0.392,
+  "1x": 0.467,
+  "x2": 0.7808,
+  "12": 0.7521,
+  "dnb_home": 0.2192,
+  "dnb_away": 0.533,
+  "expected_goals_home": 1.4,
+  "expected_goals_away": 1.6
+ },
+ "evaluations": {
+  "1": {
+   "market": "1",
+   "odds": 4.45,
+   "model_prob": 0.2192,
+   "push_prob": 0.0,
+   "conservative_prob": 0.1692,
+   "implied_prob": 0.2247,
+   "fair_odds": 4.56,
+   "edge": -2.46,
+   "ev_percent": -2.46,
+   "robust_ev_percent": -24.71,
+   "stake_recommended_units": 0.0,
+   "has_value": false
+  },
+  "X": {
+   "market": "X",
+   "odds": 4.35,
+   "model_prob": 0.2479,
+   "push_prob": 0.0,
+   "conservative_prob": 0.1979,
+   "implied_prob": 0.2299,
+   "fair_odds": 4.03,
+   "edge": 7.84,
+   "ev_percent": 7.84,
+   "robust_ev_percent": -13.91,
+   "stake_recommended_units": 0.01,
+   "has_value": true
+  },
+  "2": {
+   "market": "2",
+   "odds": 1.67,
+   "model_prob": 0.533,
+   "push_prob": 0.0,
+   "conservative_prob": 0.483,
+   "implied_prob": 0.5988,
+   "fair_odds": 1.88,
+   "edge": -10.99,
+   "ev_percent": -10.99,
+   "robust_ev_percent": -19.34,
+   "stake_recommended_units": 0.0,
+   "has_value": false
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "home_team": "Colorado Rapids",
+ "away_team": "CF Montréal",
+ "league": "MLS",
+ "xg_home_for": 1.6,
+ "xg_home_against": 1.35,
+ "xg_away_for": 1.2,
+ "xg_away_against": 1.65,
+ "elo_home": 1600,
+ "elo_away": 1520,
+ "odds": {
+  "1": 1.71,
+  "X": 4.0,
+  "2": 4.4,
+  "btts_yes": 1.62
+ },
+ "match": "Colorado Rapids vs CF Montréal"
+}

@@ -1,0 +1,30 @@
+{
+ "home_team": "Atlético Tucumán",
+ "away_team": "River Plate",
+ "league": "Liga Argentina",
+ "xg_home_for": 1.15,
+ "xg_home_against": 1.4,
+ "xg_away_for": 1.75,
+ "xg_away_against": 0.95,
+ "elo_home": 1550,
+ "elo_away": 1730,
+ "odds": {
+  "1": 4.0,
+  "X": 3.1,
+  "2": 2.26,
+  "1x": 1.76,
+  "12": 1.46,
+  "x2": 1.31,
+  "over_1_5": 1.57,
+  "under_1_5": 2.7,
+  "over_2_5": 2.72,
+  "under_2_5": 1.55,
+  "over_3_5": 5.72,
+  "under_3_5": 1.2,
+  "btts_yes": 2.21,
+  "btts_no": 1.78,
+  "dnb_home": 2.76,
+  "dnb_away": 1.56
+ },
+ "match": "Atlético Tucumán vs River Plate"
+}

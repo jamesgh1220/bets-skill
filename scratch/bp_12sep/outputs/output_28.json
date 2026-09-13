@@ -1,0 +1,67 @@
+{
+ "match": "SC Cambuur vs NEC Nijmegen",
+ "probabilities": {
+  "1": 0.2497,
+  "X": 0.2591,
+  "2": 0.4912,
+  "under_1_5": 0.2157,
+  "over_1_5": 0.7843,
+  "under_2_5": 0.3276,
+  "over_2_5": 0.6724,
+  "under_3_5": 0.6808,
+  "over_3_5": 0.3192,
+  "btts_yes": 0.5837,
+  "btts_no": 0.4163,
+  "1x": 0.5088,
+  "x2": 0.7503,
+  "12": 0.7409,
+  "dnb_home": 0.2497,
+  "dnb_away": 0.4912,
+  "expected_goals_home": 1.4,
+  "expected_goals_away": 1.45
+ },
+ "evaluations": {
+  "1": {
+   "market": "1",
+   "odds": 5.9,
+   "model_prob": 0.2497,
+   "push_prob": 0.0,
+   "conservative_prob": 0.1997,
+   "implied_prob": 0.1695,
+   "fair_odds": 4.0,
+   "edge": 47.32,
+   "ev_percent": 47.32,
+   "robust_ev_percent": 17.82,
+   "stake_recommended_units": 0.02,
+   "has_value": true
+  },
+  "X": {
+   "market": "X",
+   "odds": 5.2,
+   "model_prob": 0.2591,
+   "push_prob": 0.0,
+   "conservative_prob": 0.2091,
+   "implied_prob": 0.1923,
+   "fair_odds": 3.86,
+   "edge": 34.73,
+   "ev_percent": 34.73,
+   "robust_ev_percent": 8.73,
+   "stake_recommended_units": 0.02,
+   "has_value": true
+  },
+  "2": {
+   "market": "2",
+   "odds": 1.49,
+   "model_prob": 0.4912,
+   "push_prob": 0.0,
+   "conservative_prob": 0.4412,
+   "implied_prob": 0.6711,
+   "fair_odds": 2.04,
+   "edge": -26.81,
+   "ev_percent": -26.81,
+   "robust_ev_percent": -34.26,
+   "stake_recommended_units": 0.0,
+   "has_value": false
+  }
+ }
+}

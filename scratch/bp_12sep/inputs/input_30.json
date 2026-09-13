@@ -1,0 +1,20 @@
+{
+ "home_team": "Casa Pia",
+ "away_team": "FC Porto",
+ "league": "Liga Portugal",
+ "xg_home_for": 0.95,
+ "xg_home_against": 1.9,
+ "xg_away_for": 2.15,
+ "xg_away_against": 0.85,
+ "elo_home": 1510,
+ "elo_away": 1860,
+ "odds": {
+  "1": 11.0,
+  "X": 5.4,
+  "2": 1.26,
+  "under_2_5": 1.95,
+  "btts_yes": 4.75,
+  "btts_no": 1.22
+ },
+ "match": "Casa Pia vs FC Porto"
+}

@@ -1,0 +1,29 @@
+{
+  "home_team": "Racing Santander",
+  "away_team": "Alav\u00e9s",
+  "league": "LaLiga",
+  "xg_home_for": 1.2,
+  "xg_home_against": 1.4,
+  "xg_away_for": 1.25,
+  "xg_away_against": 1.35,
+  "elo_home": 1540,
+  "elo_away": 1590,
+  "odds": {
+    "1": 2.7,
+    "X": 3.45,
+    "2": 2.6,
+    "over_1_5": 1.28,
+    "under_1_5": 3.6,
+    "over_2_5": 1.95,
+    "under_2_5": 1.88,
+    "over_3_5": 3.3,
+    "under_3_5": 1.33,
+    "btts_yes": 1.85,
+    "btts_no": 1.95,
+    "1x": 1.51,
+    "x2": 1.48,
+    "12": 1.32,
+    "dnb_home": 1.92,
+    "dnb_away": 1.85
+  }
+}

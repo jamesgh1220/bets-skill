@@ -1,0 +1,29 @@
+{
+  "home_team": "Atalanta",
+  "away_team": "Cagliari",
+  "league": "Serie A",
+  "xg_home_for": 1.95,
+  "xg_home_against": 1.1,
+  "xg_away_for": 1.1,
+  "xg_away_against": 1.65,
+  "elo_home": 1800,
+  "elo_away": 1550,
+  "odds": {
+    "1": 1.67,
+    "X": 3.65,
+    "2": 4.9,
+    "over_1_5": 1.28,
+    "under_1_5": 3.6,
+    "over_2_5": 1.95,
+    "under_2_5": 1.88,
+    "over_3_5": 3.3,
+    "under_3_5": 1.33,
+    "btts_yes": 1.85,
+    "btts_no": 1.95,
+    "1x": 1.15,
+    "x2": 2.09,
+    "12": 1.25,
+    "dnb_home": 1.21,
+    "dnb_away": 3.56
+  }
+}

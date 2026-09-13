@@ -1,0 +1,29 @@
+{
+  "home_team": "Le Havre AC",
+  "away_team": "Angers",
+  "league": "Ligue 1",
+  "xg_home_for": 1.15,
+  "xg_home_against": 1.4,
+  "xg_away_for": 1.1,
+  "xg_away_against": 1.55,
+  "elo_home": 1560,
+  "elo_away": 1540,
+  "odds": {
+    "1": 2.6,
+    "X": 3.3,
+    "2": 2.8,
+    "over_1_5": 1.28,
+    "under_1_5": 3.6,
+    "over_2_5": 1.95,
+    "under_2_5": 1.88,
+    "over_3_5": 3.3,
+    "under_3_5": 1.33,
+    "btts_yes": 1.85,
+    "btts_no": 1.95,
+    "1x": 1.45,
+    "x2": 1.51,
+    "12": 1.35,
+    "dnb_home": 1.81,
+    "dnb_away": 1.95
+  }
+}

@@ -1,0 +1,28 @@
+{
+ "home_team": "Estudiantes de La Plata",
+ "away_team": "Platense",
+ "league": "Liga Argentina",
+ "xg_home_for": 1.45,
+ "xg_home_against": 0.95,
+ "xg_away_for": 0.95,
+ "xg_away_against": 1.35,
+ "elo_home": 1640,
+ "elo_away": 1520,
+ "odds": {
+  "1": 1.78,
+  "X": 3.45,
+  "2": 6.25,
+  "1x": 1.14,
+  "12": 1.36,
+  "x2": 2.1,
+  "over_1_5": 1.56,
+  "under_1_5": 2.57,
+  "over_2_5": 2.6,
+  "under_2_5": 1.5,
+  "btts_yes": 2.43,
+  "btts_no": 1.6,
+  "dnb_home": 1.24,
+  "dnb_away": 4.0
+ },
+ "match": "Estudiantes de La Plata vs Platense"
+}

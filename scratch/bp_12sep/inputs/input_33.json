@@ -1,0 +1,17 @@
+{
+ "home_team": "D.C. United",
+ "away_team": "Atlanta United FC",
+ "league": "MLS",
+ "xg_home_for": 1.5,
+ "xg_home_against": 1.5,
+ "xg_away_for": 1.45,
+ "xg_away_against": 1.55,
+ "elo_home": 1560,
+ "elo_away": 1570,
+ "odds": {
+  "1": 2.2,
+  "X": 3.8,
+  "2": 2.95
+ },
+ "match": "D.C. United vs Atlanta United FC"
+}

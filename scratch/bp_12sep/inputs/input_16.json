@@ -1,0 +1,21 @@
+{
+ "home_team": "FC Cologne",
+ "away_team": "Werder Bremen",
+ "league": "Bundesliga",
+ "xg_home_for": 1.4,
+ "xg_home_against": 1.45,
+ "xg_away_for": 1.35,
+ "xg_away_against": 1.55,
+ "elo_home": 1610,
+ "elo_away": 1600,
+ "odds": {
+  "1": 2.08,
+  "X": 3.65,
+  "2": 3.1,
+  "over_2_5": 1.58,
+  "under_2_5": 2.35,
+  "btts_yes": 1.49,
+  "btts_no": 2.48
+ },
+ "match": "FC Cologne vs Werder Bremen"
+}

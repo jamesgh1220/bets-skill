@@ -1,0 +1,27 @@
+{
+ "home_team": "Chelsea",
+ "away_team": "Hull City",
+ "league": "Premier League",
+ "xg_home_for": 2.0,
+ "xg_home_against": 1.1,
+ "xg_away_for": 0.9,
+ "xg_away_against": 2.1,
+ "elo_home": 1820,
+ "elo_away": 1450,
+ "odds": {
+  "1": 1.23,
+  "X": 6.41,
+  "2": 11.82,
+  "over_1_5": 1.11,
+  "under_1_5": 6.04,
+  "over_2_5": 1.4,
+  "under_2_5": 2.85,
+  "over_3_5": 2.02,
+  "under_3_5": 1.75,
+  "btts_yes": 1.87,
+  "1x": 1.04,
+  "x2": 4.02,
+  "12": 1.11
+ },
+ "match": "Chelsea vs Hull City"
+}

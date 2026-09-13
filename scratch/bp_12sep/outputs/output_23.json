@@ -1,0 +1,67 @@
+{
+ "match": "Lorient vs Toulouse",
+ "probabilities": {
+  "1": 0.345,
+  "X": 0.2659,
+  "2": 0.3891,
+  "under_1_5": 0.2325,
+  "over_1_5": 0.7675,
+  "under_2_5": 0.3568,
+  "over_2_5": 0.6432,
+  "under_3_5": 0.7031,
+  "over_3_5": 0.2969,
+  "btts_yes": 0.5629,
+  "btts_no": 0.4371,
+  "1x": 0.6109,
+  "x2": 0.655,
+  "12": 0.7341,
+  "dnb_home": 0.345,
+  "dnb_away": 0.3891,
+  "expected_goals_home": 1.48,
+  "expected_goals_away": 1.27
+ },
+ "evaluations": {
+  "1": {
+   "market": "1",
+   "odds": 2.64,
+   "model_prob": 0.345,
+   "push_prob": 0.0,
+   "conservative_prob": 0.295,
+   "implied_prob": 0.3788,
+   "fair_odds": 2.9,
+   "edge": -8.92,
+   "ev_percent": -8.92,
+   "robust_ev_percent": -22.12,
+   "stake_recommended_units": 0.0,
+   "has_value": false
+  },
+  "X": {
+   "market": "X",
+   "odds": 3.26,
+   "model_prob": 0.2659,
+   "push_prob": 0.0,
+   "conservative_prob": 0.2159,
+   "implied_prob": 0.3067,
+   "fair_odds": 3.76,
+   "edge": -13.32,
+   "ev_percent": -13.32,
+   "robust_ev_percent": -29.62,
+   "stake_recommended_units": 0.0,
+   "has_value": false
+  },
+  "2": {
+   "market": "2",
+   "odds": 2.71,
+   "model_prob": 0.3891,
+   "push_prob": 0.0,
+   "conservative_prob": 0.3391,
+   "implied_prob": 0.369,
+   "fair_odds": 2.57,
+   "edge": 5.45,
+   "ev_percent": 5.45,
+   "robust_ev_percent": -8.1,
+   "stake_recommended_units": 0.01,
+   "has_value": true
+  }
+ }
+}

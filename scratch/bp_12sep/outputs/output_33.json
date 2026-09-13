@@ -1,0 +1,67 @@
+{
+ "match": "D.C. United vs Atlanta United FC",
+ "probabilities": {
+  "1": 0.384,
+  "X": 0.2518,
+  "2": 0.3642,
+  "under_1_5": 0.1925,
+  "over_1_5": 0.8075,
+  "under_2_5": 0.2874,
+  "over_2_5": 0.7126,
+  "under_3_5": 0.6473,
+  "over_3_5": 0.3527,
+  "btts_yes": 0.6051,
+  "btts_no": 0.3949,
+  "1x": 0.6358,
+  "x2": 0.616,
+  "12": 0.7482,
+  "dnb_home": 0.384,
+  "dnb_away": 0.3642,
+  "expected_goals_home": 1.65,
+  "expected_goals_away": 1.35
+ },
+ "evaluations": {
+  "1": {
+   "market": "1",
+   "odds": 2.2,
+   "model_prob": 0.384,
+   "push_prob": 0.0,
+   "conservative_prob": 0.334,
+   "implied_prob": 0.4545,
+   "fair_odds": 2.6,
+   "edge": -15.52,
+   "ev_percent": -15.52,
+   "robust_ev_percent": -26.52,
+   "stake_recommended_units": 0.0,
+   "has_value": false
+  },
+  "X": {
+   "market": "X",
+   "odds": 3.8,
+   "model_prob": 0.2518,
+   "push_prob": 0.0,
+   "conservative_prob": 0.2018,
+   "implied_prob": 0.2632,
+   "fair_odds": 3.97,
+   "edge": -4.32,
+   "ev_percent": -4.32,
+   "robust_ev_percent": -23.32,
+   "stake_recommended_units": 0.0,
+   "has_value": false
+  },
+  "2": {
+   "market": "2",
+   "odds": 2.95,
+   "model_prob": 0.3642,
+   "push_prob": 0.0,
+   "conservative_prob": 0.3142,
+   "implied_prob": 0.339,
+   "fair_odds": 2.75,
+   "edge": 7.44,
+   "ev_percent": 7.44,
+   "robust_ev_percent": -7.31,
+   "stake_recommended_units": 0.01,
+   "has_value": true
+  }
+ }
+}

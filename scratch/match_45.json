@@ -1,0 +1,29 @@
+{
+  "home_team": "Independiente Rivadavia",
+  "away_team": "Aldosivi",
+  "league": "Liga Argentina",
+  "xg_home_for": 1.5,
+  "xg_home_against": 1.0,
+  "xg_away_for": 0.9,
+  "xg_away_against": 1.75,
+  "elo_home": 1600,
+  "elo_away": 1470,
+  "odds": {
+    "1": 1.43,
+    "X": 4.4,
+    "2": 7.5,
+    "over_1_5": 1.28,
+    "under_1_5": 3.6,
+    "over_2_5": 1.95,
+    "under_2_5": 1.88,
+    "over_3_5": 3.3,
+    "under_3_5": 1.33,
+    "btts_yes": 1.85,
+    "btts_no": 1.95,
+    "1x": 1.08,
+    "x2": 2.77,
+    "12": 1.2,
+    "dnb_home": 1.1,
+    "dnb_away": 5.8
+  }
+}

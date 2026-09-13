@@ -1,0 +1,22 @@
+{
+ "home_team": "Racing Santander",
+ "away_team": "Alavés",
+ "league": "LaLiga",
+ "xg_home_for": 1.2,
+ "xg_home_against": 1.4,
+ "xg_away_for": 1.25,
+ "xg_away_against": 1.35,
+ "elo_home": 1540,
+ "elo_away": 1590,
+ "odds": {
+  "1": 2.44,
+  "X": 3.56,
+  "2": 2.84,
+  "over_2_5": 1.73,
+  "under_2_5": 2.1,
+  "btts_yes": 1.62,
+  "dnb_home": 1.73,
+  "dnb_away": 2.0
+ },
+ "match": "Racing Santander vs Alavés"
+}

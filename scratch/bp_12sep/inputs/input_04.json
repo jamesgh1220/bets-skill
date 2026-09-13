@@ -1,0 +1,27 @@
+{
+ "home_team": "Liverpool",
+ "away_team": "Fulham",
+ "league": "Premier League",
+ "xg_home_for": 2.25,
+ "xg_home_against": 0.95,
+ "xg_away_for": 1.25,
+ "xg_away_against": 1.55,
+ "elo_home": 1930,
+ "elo_away": 1600,
+ "odds": {
+  "1": 1.49,
+  "X": 4.69,
+  "2": 5.85,
+  "over_1_5": 1.12,
+  "under_1_5": 5.59,
+  "over_2_5": 1.44,
+  "under_2_5": 2.7,
+  "over_3_5": 2.1,
+  "under_3_5": 1.7,
+  "btts_yes": 1.56,
+  "1x": 1.12,
+  "x2": 2.55,
+  "12": 1.17
+ },
+ "match": "Liverpool vs Fulham"
+}
