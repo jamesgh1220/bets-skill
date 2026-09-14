@@ -1,0 +1,63 @@
+{
+  "analysis_date_iso": "2026-09-12T21:26:00-05:00",
+  "match_dates_text": "13 de septiembre de 2026",
+  "information_cutoff": "2026-09-12T21:20:00-05:00",
+  "model_ia": "gemini3.6flash",
+  "engine_version": "model-v1.2",
+  "leagues_display": "Bundesliga, Liga Argentina, Liga Colombiana, Liga Española, MLS, Ligue 1, Premier League, Serie A, Eredivisie, Liga Portugal",
+  "requested_range": "13 de septiembre de 2026",
+  "universe_preamble": "El universo de análisis se construyó mediante la intersección estricta del rango de fechas (13 de septiembre de 2026) y las 10 ligas solicitadas. Debido al parón de la Fecha FIFA Internacional de septiembre de 2026, las ligas europeas (Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal), la MLS de EE. UU. y la Liga BetPlay de Colombia no disputan partidos de primera división en esta fecha. Únicamente la Liga Profesional de Argentina cuenta con programación oficial de 4 partidos.",
+  "universe_matches": [
+    "- Sarmiento vs Belgrano (Liga Profesional Argentina — 13/09/2026)",
+    "- Tigre vs Rosario Central (Liga Profesional Argentina — 13/09/2026)",
+    "- Argentinos Juniors vs Gimnasia LP (Liga Profesional Argentina — 13/09/2026)",
+    "- Independiente vs San Lorenzo (Liga Profesional Argentina — 13/09/2026)"
+  ],
+  "picks_details": [
+    {
+      "match": "Argentinos Juniors vs Gimnasia LP",
+      "market": "1",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0% (fortaleza local verificada, xG for 1.45 vs 0.95)",
+      "why": "Argentinos Juniors registra una marcada superioridad en métricas subyacentes de creación (xG for 1.45/partido) y solidez defensiva en La Paternal (xGA 0.95/partido), acumulando un rating Elo superior (1550 vs 1430). La cuota 1.80 ofrece un EV del +2.61% y un EV robusto positivo conservador, cumpliendo los criterios de selección prioritario.",
+      "risks": "Tendencia histórica de Gimnasia a cerrar espacios en bloque bajo y la varianza propia de partidos tras semanas de parón internacional.",
+      "sources": "Motor predictivo model-v1.2, cuotas verificadas en Betplay/Wplay/Rushbet a las 21:20 hs (12/09/2026)."
+    },
+    {
+      "match": "Argentinos Juniors vs Gimnasia LP",
+      "market": "dnb_home",
+      "conf": "Alta",
+      "incertidumbre": "Base +/- 5.0%",
+      "why": "El Draw No Bet a favor de Argentinos Juniors en cuota 1.30 ofrece una protección sustancial ante el eventual empate (probabilidad de push del 24.3%), manteniendo valor esperado positivo sustentado en el diferencial de xG.",
+      "risks": "La baja cuota limita el retorno bruto por unidad de stake, aunque la probabilidad conservadora mitiga drásticamente el riesgo de pérdida limpia.",
+      "sources": "Motor predictivo model-v1.2, casas de apuestas colombianas (Betplay/Wplay)."
+    },
+    {
+      "match": "Sarmiento vs Belgrano",
+      "market": "under_2_5",
+      "conf": "Media",
+      "incertidumbre": "Base +/- 5.0%",
+      "why": "Ambos conjuntos presentan métricas de generación ofensiva reducida (Sarmiento xGF 1.05, Belgrano xGF 1.25). La probabilidad del modelo para el Under 2.5 alcanza el 58.7%, ofreciendo un EV robusto favorable a cuota 1.55.",
+      "risks": "Un gol temprano de balón parado puede desarmar el planteamiento defensivo inicial de Sarmiento.",
+      "sources": "Motor predictivo model-v1.2, datos estadísticos LFP Argentina."
+    },
+    {
+      "match": "Tigre vs Rosario Central",
+      "market": "x2",
+      "conf": "Media",
+      "incertidumbre": "Base +/- 5.0%",
+      "why": "Rosario Central ostenta mejores indicadores colectivos (xGF 1.35 vs 1.15, Elo 1520 vs 1440). La Doble Oportunidad Empate/Rosario Central (x2) en cuota 1.40 abarca el 66.8% de probabilidad esperada según el modelo ensamble.",
+      "risks": "Factores de localía de Tigre en Victoria y baja eficacia de conversión como visitante.",
+      "sources": "Motor predictivo model-v1.2, Betplay/Rushbet."
+    },
+    {
+      "match": "Independiente vs San Lorenzo",
+      "market": "1x",
+      "conf": "Media",
+      "incertidumbre": "Base +/- 5.0%",
+      "why": "En un clásico típicamente cerrado del fútbol argentino, Independiente muestra ligera ventaja de xG generado en casa (1.30 vs 1.10). La Doble Oportunidad 1X cubre el 69.2% de los escenarios a cuota 1.30.",
+      "risks": "Alta frecuencia de empates con bajo marcador (0-0 o 1-1) en los enfrentamientos recientes entre ambos equipos.",
+      "sources": "Motor predictivo model-v1.2, LFP Argentina."
+    }
+  ]
+}

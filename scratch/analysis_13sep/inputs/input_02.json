@@ -1,0 +1,25 @@
+{
+ "home_team": "Celta Vigo",
+ "away_team": "Málaga",
+ "league": "LaLiga",
+ "xg_home_for": 1.15,
+ "xg_home_against": 1.25,
+ "xg_away_for": 0.85,
+ "xg_away_against": 1.6,
+ "elo_home": 1600,
+ "elo_away": 1500,
+ "odds": {
+  "1": 1.8,
+  "X": 3.8,
+  "2": 5.38,
+  "over_1_5": 1.37,
+  "under_1_5": 3.25,
+  "over_2_5": 2.07,
+  "under_2_5": 1.78,
+  "over_3_5": 3.6,
+  "under_3_5": 1.29,
+  "btts_yes": 2.03,
+  "btts_no": 1.85
+ },
+ "match": "Celta Vigo vs Málaga"
+}

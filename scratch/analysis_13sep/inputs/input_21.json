@@ -1,0 +1,21 @@
+{
+ "home_team": "Chicago Fire FC",
+ "away_team": "New England Revolution",
+ "league": "MLS",
+ "xg_home_for": 1.89,
+ "xg_home_against": 1.43,
+ "xg_away_for": 1.61,
+ "xg_away_against": 1.45,
+ "elo_home": 1620,
+ "elo_away": 1630,
+ "odds": {
+  "1": 1.87,
+  "X": 3.85,
+  "2": 3.5,
+  "over_3_5": 1.77,
+  "under_3_5": 1.72,
+  "btts_yes": 1.44,
+  "btts_no": 2.63
+ },
+ "match": "Chicago Fire FC vs New England Revolution"
+}

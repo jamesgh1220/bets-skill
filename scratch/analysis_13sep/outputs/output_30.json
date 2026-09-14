@@ -1,0 +1,67 @@
+{
+  "match": "Atlético Nacional vs Águilas Doradas",
+  "probabilities": {
+    "1": 0.5704,
+    "X": 0.2555,
+    "2": 0.1741,
+    "under_1_5": 0.2854,
+    "over_1_5": 0.7146,
+    "under_2_5": 0.4461,
+    "over_2_5": 0.5539,
+    "under_3_5": 0.7629,
+    "over_3_5": 0.2371,
+    "btts_yes": 0.4725,
+    "btts_no": 0.5275,
+    "1x": 0.8259,
+    "x2": 0.4296,
+    "12": 0.7445,
+    "dnb_home": 0.5704,
+    "dnb_away": 0.1741,
+    "expected_goals_home": 1.6,
+    "expected_goals_away": 0.88
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.39,
+      "model_prob": 0.5704,
+      "push_prob": 0.0,
+      "conservative_prob": 0.5204,
+      "implied_prob": 0.7194,
+      "fair_odds": 1.75,
+      "edge": -20.71,
+      "ev_percent": -20.71,
+      "robust_ev_percent": -27.66,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.95,
+      "model_prob": 0.2555,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2055,
+      "implied_prob": 0.2532,
+      "fair_odds": 3.91,
+      "edge": 0.92,
+      "ev_percent": 0.92,
+      "robust_ev_percent": -18.83,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 8.0,
+      "model_prob": 0.1741,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1241,
+      "implied_prob": 0.125,
+      "fair_odds": 5.74,
+      "edge": 39.28,
+      "ev_percent": 39.28,
+      "robust_ev_percent": -0.72,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+ "home_team": "Atlético Nacional",
+ "away_team": "Águilas Doradas",
+ "league": "Liga Colombiana",
+ "xg_home_for": 1.7,
+ "xg_home_against": 0.8,
+ "xg_away_for": 1.2,
+ "xg_away_against": 1.25,
+ "elo_home": 1700,
+ "elo_away": 1550,
+ "odds": {
+  "1": 1.39,
+  "X": 3.95,
+  "2": 8.0
+ },
+ "match": "Atlético Nacional vs Águilas Doradas"
+}

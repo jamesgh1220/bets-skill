@@ -1,0 +1,17 @@
+{
+ "home_team": "PSV Eindhoven",
+ "away_team": "Sparta Rotterdam",
+ "league": "Eredivisie",
+ "xg_home_for": 2.15,
+ "xg_home_against": 0.9,
+ "xg_away_for": 1.05,
+ "xg_away_against": 1.65,
+ "elo_home": 1870,
+ "elo_away": 1560,
+ "odds": {
+  "1": 1.2,
+  "X": 7.0,
+  "2": 11.0
+ },
+ "match": "PSV Eindhoven vs Sparta Rotterdam"
+}

@@ -1,0 +1,67 @@
+{
+  "match": "Levante vs Barcelona",
+  "probabilities": {
+    "1": 0.0679,
+    "X": 0.2014,
+    "2": 0.7307,
+    "under_1_5": 0.2204,
+    "over_1_5": 0.7796,
+    "under_2_5": 0.3348,
+    "over_2_5": 0.6652,
+    "under_3_5": 0.6865,
+    "over_3_5": 0.3135,
+    "btts_yes": 0.5367,
+    "btts_no": 0.4633,
+    "1x": 0.2693,
+    "x2": 0.9321,
+    "12": 0.7986,
+    "dnb_home": 0.0679,
+    "dnb_away": 0.7307,
+    "expected_goals_home": 1.0,
+    "expected_goals_away": 1.83
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 15.0,
+      "model_prob": 0.0679,
+      "push_prob": 0.0,
+      "conservative_prob": 0.0179,
+      "implied_prob": 0.0667,
+      "fair_odds": 14.73,
+      "edge": 1.85,
+      "ev_percent": 1.85,
+      "robust_ev_percent": -73.15,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 9.0,
+      "model_prob": 0.2014,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1514,
+      "implied_prob": 0.1111,
+      "fair_odds": 4.97,
+      "edge": 81.26,
+      "ev_percent": 81.26,
+      "robust_ev_percent": 36.26,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.14,
+      "model_prob": 0.7307,
+      "push_prob": 0.0,
+      "conservative_prob": 0.6807,
+      "implied_prob": 0.8772,
+      "fair_odds": 1.37,
+      "edge": -16.7,
+      "ev_percent": -16.7,
+      "robust_ev_percent": -22.4,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

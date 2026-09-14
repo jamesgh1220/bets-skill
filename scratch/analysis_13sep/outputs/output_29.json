@@ -1,0 +1,67 @@
+{
+  "match": "Deportivo Pereira vs Atlético Bucaramanga",
+  "probabilities": {
+    "1": 0.2153,
+    "X": 0.2799,
+    "2": 0.5048,
+    "under_1_5": 0.2953,
+    "over_1_5": 0.7047,
+    "under_2_5": 0.4636,
+    "over_2_5": 0.5364,
+    "under_3_5": 0.7735,
+    "over_3_5": 0.2265,
+    "btts_yes": 0.4991,
+    "btts_no": 0.5009,
+    "1x": 0.4952,
+    "x2": 0.7847,
+    "12": 0.7201,
+    "dnb_home": 0.2153,
+    "dnb_away": 0.5048,
+    "expected_goals_home": 1.12,
+    "expected_goals_away": 1.3
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 4.2,
+      "model_prob": 0.2153,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1653,
+      "implied_prob": 0.2381,
+      "fair_odds": 4.64,
+      "edge": -9.57,
+      "ev_percent": -9.57,
+      "robust_ev_percent": -30.57,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.5,
+      "model_prob": 0.2799,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2299,
+      "implied_prob": 0.2857,
+      "fair_odds": 3.57,
+      "edge": -2.04,
+      "ev_percent": -2.04,
+      "robust_ev_percent": -19.54,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.74,
+      "model_prob": 0.5048,
+      "push_prob": 0.0,
+      "conservative_prob": 0.4548,
+      "implied_prob": 0.5747,
+      "fair_odds": 1.98,
+      "edge": -12.16,
+      "ev_percent": -12.16,
+      "robust_ev_percent": -20.86,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

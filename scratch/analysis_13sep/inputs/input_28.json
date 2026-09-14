@@ -1,0 +1,17 @@
+{
+ "home_team": "Huracán",
+ "away_team": "Racing Club",
+ "league": "Liga Argentina",
+ "xg_home_for": 1.1,
+ "xg_home_against": 0.95,
+ "xg_away_for": 1.25,
+ "xg_away_against": 1.2,
+ "elo_home": 1620,
+ "elo_away": 1660,
+ "odds": {
+  "1": 2.65,
+  "X": 2.75,
+  "2": 3.15
+ },
+ "match": "Huracán vs Racing Club"
+}

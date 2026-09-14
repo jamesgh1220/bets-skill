@@ -1,0 +1,81 @@
+{
+  "match": "Brest vs Paris Saint-Germain",
+  "probabilities": {
+    "1": 0.2113,
+    "X": 0.2424,
+    "2": 0.5464,
+    "under_1_5": 0.2157,
+    "over_1_5": 0.7843,
+    "under_2_5": 0.3276,
+    "over_2_5": 0.6724,
+    "under_3_5": 0.6808,
+    "over_3_5": 0.3192,
+    "btts_yes": 0.5837,
+    "btts_no": 0.4163,
+    "1x": 0.4536,
+    "x2": 0.7887,
+    "12": 0.7576,
+    "dnb_home": 0.2113,
+    "dnb_away": 0.5464,
+    "expected_goals_home": 1.4,
+    "expected_goals_away": 1.45
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 9.25,
+      "model_prob": 0.2113,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1613,
+      "implied_prob": 0.1081,
+      "fair_odds": 4.73,
+      "edge": 95.45,
+      "ev_percent": 95.45,
+      "robust_ev_percent": 49.2,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 6.1,
+      "model_prob": 0.2424,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1924,
+      "implied_prob": 0.1639,
+      "fair_odds": 4.13,
+      "edge": 47.86,
+      "ev_percent": 47.86,
+      "robust_ev_percent": 17.36,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.24,
+      "model_prob": 0.5464,
+      "push_prob": 0.0,
+      "conservative_prob": 0.4964,
+      "implied_prob": 0.8065,
+      "fair_odds": 1.83,
+      "edge": -32.25,
+      "ev_percent": -32.25,
+      "robust_ev_percent": -38.45,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.71,
+      "model_prob": 0.5837,
+      "push_prob": 0.0,
+      "conservative_prob": 0.5337,
+      "implied_prob": 0.5848,
+      "fair_odds": 1.71,
+      "edge": -0.19,
+      "ev_percent": -0.19,
+      "robust_ev_percent": -8.74,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

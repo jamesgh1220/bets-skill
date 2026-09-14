@@ -1,0 +1,18 @@
+{
+ "home_team": "Real Sociedad",
+ "away_team": "Atlético Madrid",
+ "league": "LaLiga",
+ "xg_home_for": 1.2,
+ "xg_home_against": 1.05,
+ "xg_away_for": 1.5,
+ "xg_away_against": 0.95,
+ "elo_home": 1690,
+ "elo_away": 1780,
+ "odds": {
+  "1": 2.92,
+  "X": 3.68,
+  "2": 2.39,
+  "under_2_5": 2.15
+ },
+ "match": "Real Sociedad vs Atlético Madrid"
+}

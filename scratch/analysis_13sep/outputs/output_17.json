@@ -1,0 +1,67 @@
+{
+  "match": "PSV Eindhoven vs Sparta Rotterdam",
+  "probabilities": {
+    "1": 0.7126,
+    "X": 0.2005,
+    "2": 0.0869,
+    "under_1_5": 0.213,
+    "over_1_5": 0.787,
+    "under_2_5": 0.3209,
+    "over_2_5": 0.6791,
+    "under_3_5": 0.6754,
+    "over_3_5": 0.3246,
+    "btts_yes": 0.5027,
+    "btts_no": 0.4973,
+    "1x": 0.9131,
+    "x2": 0.2874,
+    "12": 0.7995,
+    "dnb_home": 0.7126,
+    "dnb_away": 0.0869,
+    "expected_goals_home": 2.02,
+    "expected_goals_away": 0.85
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.2,
+      "model_prob": 0.7126,
+      "push_prob": 0.0,
+      "conservative_prob": 0.6626,
+      "implied_prob": 0.8333,
+      "fair_odds": 1.4,
+      "edge": -14.49,
+      "ev_percent": -14.49,
+      "robust_ev_percent": -20.49,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 7.0,
+      "model_prob": 0.2005,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1505,
+      "implied_prob": 0.1429,
+      "fair_odds": 4.99,
+      "edge": 40.35,
+      "ev_percent": 40.35,
+      "robust_ev_percent": 5.35,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 11.0,
+      "model_prob": 0.0869,
+      "push_prob": 0.0,
+      "conservative_prob": 0.0369,
+      "implied_prob": 0.0909,
+      "fair_odds": 11.51,
+      "edge": -4.41,
+      "ev_percent": -4.41,
+      "robust_ev_percent": -59.41,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

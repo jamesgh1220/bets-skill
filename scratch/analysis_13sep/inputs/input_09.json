@@ -1,0 +1,19 @@
+{
+ "home_team": "Napoli",
+ "away_team": "Bologna",
+ "league": "Serie A",
+ "xg_home_for": 1.6,
+ "xg_home_against": 1.35,
+ "xg_away_for": 1.05,
+ "xg_away_against": 1.2,
+ "elo_home": 1750,
+ "elo_away": 1620,
+ "odds": {
+  "1": 1.84,
+  "X": 3.58,
+  "2": 4.65,
+  "over_2_5": 1.85,
+  "under_2_5": 1.85
+ },
+ "match": "Napoli vs Bologna"
+}

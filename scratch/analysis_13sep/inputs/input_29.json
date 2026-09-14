@@ -1,0 +1,17 @@
+{
+ "home_team": "Deportivo Pereira",
+ "away_team": "Atlético Bucaramanga",
+ "league": "Liga Colombiana",
+ "xg_home_for": 1.05,
+ "xg_home_against": 1.5,
+ "xg_away_for": 1.35,
+ "xg_away_against": 0.95,
+ "elo_home": 1530,
+ "elo_away": 1620,
+ "odds": {
+  "1": 4.2,
+  "X": 3.5,
+  "2": 1.74
+ },
+ "match": "Deportivo Pereira vs Atlético Bucaramanga"
+}

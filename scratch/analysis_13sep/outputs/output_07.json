@@ -1,0 +1,81 @@
+{
+  "match": "SV Elversberg vs Bayern Munich",
+  "probabilities": {
+    "1": 0.0986,
+    "X": 0.2096,
+    "2": 0.6918,
+    "under_1_5": 0.2041,
+    "over_1_5": 0.7959,
+    "under_2_5": 0.3071,
+    "over_2_5": 0.6929,
+    "under_3_5": 0.6641,
+    "over_3_5": 0.3359,
+    "btts_yes": 0.5777,
+    "btts_no": 0.4223,
+    "1x": 0.3082,
+    "x2": 0.9014,
+    "12": 0.7904,
+    "dnb_home": 0.0986,
+    "dnb_away": 0.6918,
+    "expected_goals_home": 1.18,
+    "expected_goals_away": 1.75
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 12.0,
+      "model_prob": 0.0986,
+      "push_prob": 0.0,
+      "conservative_prob": 0.0486,
+      "implied_prob": 0.0833,
+      "fair_odds": 10.14,
+      "edge": 18.32,
+      "ev_percent": 18.32,
+      "robust_ev_percent": -41.68,
+      "stake_recommended_units": 0.0,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 8.0,
+      "model_prob": 0.2096,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1596,
+      "implied_prob": 0.125,
+      "fair_odds": 4.77,
+      "edge": 67.68,
+      "ev_percent": 67.68,
+      "robust_ev_percent": 27.68,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.14,
+      "model_prob": 0.6918,
+      "push_prob": 0.0,
+      "conservative_prob": 0.6418,
+      "implied_prob": 0.8772,
+      "fair_odds": 1.45,
+      "edge": -21.13,
+      "ev_percent": -21.13,
+      "robust_ev_percent": -26.83,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.52,
+      "model_prob": 0.5777,
+      "push_prob": 0.0,
+      "conservative_prob": 0.5277,
+      "implied_prob": 0.6579,
+      "fair_odds": 1.73,
+      "edge": -12.19,
+      "ev_percent": -12.19,
+      "robust_ev_percent": -19.79,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

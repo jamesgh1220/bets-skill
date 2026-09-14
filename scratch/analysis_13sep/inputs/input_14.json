@@ -1,0 +1,18 @@
+{
+ "home_team": "Excelsior",
+ "away_team": "FC Utrecht",
+ "league": "Eredivisie",
+ "xg_home_for": 1.8,
+ "xg_home_against": 1.1,
+ "xg_away_for": 1.35,
+ "xg_away_against": 2.1,
+ "elo_home": 1660,
+ "elo_away": 1560,
+ "odds": {
+  "1": 2.2,
+  "X": 3.7,
+  "2": 2.95,
+  "over_2_5": 1.6
+ },
+ "match": "Excelsior vs FC Utrecht"
+}

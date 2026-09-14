@@ -1,0 +1,19 @@
+{
+ "home_team": "RB Leipzig",
+ "away_team": "Hamburg SV",
+ "league": "Bundesliga",
+ "xg_home_for": 1.65,
+ "xg_home_against": 1.5,
+ "xg_away_for": 0.75,
+ "xg_away_against": 2.0,
+ "elo_home": 1750,
+ "elo_away": 1480,
+ "odds": {
+  "1": 1.43,
+  "X": 5.0,
+  "2": 7.31,
+  "btts_yes": 1.62,
+  "btts_no": 2.21
+ },
+ "match": "RB Leipzig vs Hamburg SV"
+}

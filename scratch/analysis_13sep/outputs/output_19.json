@@ -1,0 +1,67 @@
+{
+  "match": "Benfica vs Gil Vicente",
+  "probabilities": {
+    "1": 0.6645,
+    "X": 0.235,
+    "2": 0.1005,
+    "under_1_5": 0.3019,
+    "over_1_5": 0.6981,
+    "under_2_5": 0.4726,
+    "over_2_5": 0.5274,
+    "under_3_5": 0.7788,
+    "over_3_5": 0.2212,
+    "btts_yes": 0.4257,
+    "btts_no": 0.5743,
+    "1x": 0.8995,
+    "x2": 0.3355,
+    "12": 0.765,
+    "dnb_home": 0.6645,
+    "dnb_away": 0.1005,
+    "expected_goals_home": 1.68,
+    "expected_goals_away": 0.73
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.15,
+      "model_prob": 0.6645,
+      "push_prob": 0.0,
+      "conservative_prob": 0.6145,
+      "implied_prob": 0.8696,
+      "fair_odds": 1.5,
+      "edge": -23.58,
+      "ev_percent": -23.58,
+      "robust_ev_percent": -29.33,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 7.2,
+      "model_prob": 0.235,
+      "push_prob": 0.0,
+      "conservative_prob": 0.185,
+      "implied_prob": 0.1389,
+      "fair_odds": 4.26,
+      "edge": 69.2,
+      "ev_percent": 69.2,
+      "robust_ev_percent": 33.2,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 15.0,
+      "model_prob": 0.1005,
+      "push_prob": 0.0,
+      "conservative_prob": 0.0505,
+      "implied_prob": 0.0667,
+      "fair_odds": 9.95,
+      "edge": 50.75,
+      "ev_percent": 50.75,
+      "robust_ev_percent": -24.25,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    }
+  }
+}

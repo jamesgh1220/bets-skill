@@ -1,0 +1,20 @@
+{
+ "home_team": "Coventry City",
+ "away_team": "Brighton & Hove Albion",
+ "league": "Premier League",
+ "xg_home_for": 0.9,
+ "xg_home_against": 1.55,
+ "xg_away_for": 1.65,
+ "xg_away_against": 1.35,
+ "elo_home": 1490,
+ "elo_away": 1680,
+ "odds": {
+  "1": 4.0,
+  "X": 3.75,
+  "2": 1.85,
+  "over_2_5": 1.83,
+  "under_2_5": 2.1,
+  "btts_yes": 1.7
+ },
+ "match": "Coventry City vs Brighton & Hove Albion"
+}

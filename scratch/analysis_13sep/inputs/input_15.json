@@ -1,0 +1,25 @@
+{
+ "home_team": "Heerenveen",
+ "away_team": "Telstar",
+ "league": "Eredivisie",
+ "xg_home_for": 1.35,
+ "xg_home_against": 1.7,
+ "xg_away_for": 1.05,
+ "xg_away_against": 2.05,
+ "elo_home": 1590,
+ "elo_away": 1510,
+ "odds": {
+  "1": 1.63,
+  "X": 4.5,
+  "2": 4.6,
+  "over_1_5": 1.11,
+  "under_1_5": 6.5,
+  "over_2_5": 1.4,
+  "under_2_5": 2.88,
+  "over_3_5": 1.91,
+  "under_3_5": 1.8,
+  "btts_yes": 1.5,
+  "btts_no": 2.5
+ },
+ "match": "Heerenveen vs Telstar"
+}

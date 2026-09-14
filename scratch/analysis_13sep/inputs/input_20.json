@@ -1,0 +1,19 @@
+{
+ "home_team": "FC Famalicao",
+ "away_team": "Sporting CP",
+ "league": "Liga Portugal",
+ "xg_home_for": 0.95,
+ "xg_home_against": 1.3,
+ "xg_away_for": 2.0,
+ "xg_away_against": 0.8,
+ "elo_home": 1580,
+ "elo_away": 1870,
+ "odds": {
+  "1": 5.66,
+  "X": 4.23,
+  "2": 1.51,
+  "over_2_5": 1.75,
+  "btts_no": 1.92
+ },
+ "match": "FC Famalicao vs Sporting CP"
+}

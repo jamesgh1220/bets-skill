@@ -1,0 +1,21 @@
+{
+ "home_team": "Vancouver Whitecaps",
+ "away_team": "Austin FC",
+ "league": "MLS",
+ "xg_home_for": 2.21,
+ "xg_home_against": 0.94,
+ "xg_away_for": 1.06,
+ "xg_away_against": 1.94,
+ "elo_home": 1700,
+ "elo_away": 1540,
+ "odds": {
+  "1": 1.28,
+  "X": 5.75,
+  "2": 8.5,
+  "over_3_5": 1.87,
+  "under_3_5": 1.85,
+  "btts_yes": 1.8,
+  "btts_no": 1.95
+ },
+ "match": "Vancouver Whitecaps vs Austin FC"
+}

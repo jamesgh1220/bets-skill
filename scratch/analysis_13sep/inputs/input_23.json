@@ -1,0 +1,21 @@
+{
+ "home_team": "San Diego FC",
+ "away_team": "Philadelphia Union",
+ "league": "MLS",
+ "xg_home_for": 1.5,
+ "xg_home_against": 1.4,
+ "xg_away_for": 1.6,
+ "xg_away_against": 1.35,
+ "elo_home": 1600,
+ "elo_away": 1640,
+ "odds": {
+  "1": 2.6,
+  "X": 3.65,
+  "2": 2.4,
+  "over_3_5": 1.76,
+  "under_3_5": 1.64,
+  "btts_yes": 1.44,
+  "btts_no": 2.7
+ },
+ "match": "San Diego FC vs Philadelphia Union"
+}
