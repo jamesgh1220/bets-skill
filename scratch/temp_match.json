@@ -1,1 +1,29 @@
-{"id": "porto_moreirense", "home_team": "Porto", "away_team": "Moreirense", "xg_home_for": 2.2, "xg_home_against": 0.7, "xg_away_for": 0.85, "xg_away_against": 1.9, "elo_home": 1820, "elo_away": 1560, "odds": {"1": 1.2, "X": 6.5, "2": 15.0, "under_2_5": 2.3, "over_2_5": 1.62}}
+{
+  "home_team": "Sporting Braga",
+  "away_team": "Estoril Praia",
+  "league": "Liga Portugal",
+  "xg_home_for": 1.9,
+  "xg_home_against": 1.05,
+  "xg_away_for": 1.05,
+  "xg_away_against": 1.7,
+  "elo_home": 1720,
+  "elo_away": 1530,
+  "odds": {
+    "1": 1.44,
+    "X": 4.75,
+    "2": 7.0,
+    "over_1_5": 1.2,
+    "under_1_5": 4.4,
+    "over_2_5": 1.65,
+    "under_2_5": 2.25,
+    "over_3_5": 2.6,
+    "under_3_5": 1.48,
+    "btts_yes": 1.8,
+    "btts_no": 2.0,
+    "1x": 1.1,
+    "x2": 2.8,
+    "12": 1.18,
+    "dnb_home": 1.15,
+    "dnb_away": 5.0
+  }
+}

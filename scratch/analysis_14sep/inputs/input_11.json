@@ -1,0 +1,18 @@
+{
+ "home_team": "América de Cali",
+ "away_team": "Deportivo Pasto",
+ "league": "Liga Colombiana",
+ "xg_home_for": 1.6,
+ "xg_home_against": 0.8,
+ "xg_away_for": 0.9,
+ "xg_away_against": 1.7,
+ "elo_home": 1720,
+ "elo_away": 1520,
+ "odds": {
+  "1": 1.37,
+  "X": 4.2,
+  "2": 7.5,
+  "btts_no": 1.65
+ },
+ "match": "América de Cali vs Deportivo Pasto"
+}

@@ -1,0 +1,18 @@
+{
+ "home_team": "Braga",
+ "away_team": "Estoril",
+ "league": "Liga Portugal",
+ "xg_home_for": 1.6,
+ "xg_home_against": 1.1,
+ "xg_away_for": 0.9,
+ "xg_away_against": 1.5,
+ "elo_home": 1770,
+ "elo_away": 1590,
+ "odds": {
+  "1": 1.44,
+  "X": 4.5,
+  "2": 6.8,
+  "btts_yes": 1.83
+ },
+ "match": "Braga vs Estoril"
+}

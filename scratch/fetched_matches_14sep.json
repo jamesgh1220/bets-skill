@@ -1,0 +1,182 @@
+[
+  {
+    "league": "Premier League",
+    "name": "Newcastle United at Leeds United",
+    "home_team": "Leeds United",
+    "away_team": "Newcastle United",
+    "date": "2026-09-14T19:00Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 2.5,
+      "ml_home": "+135",
+      "ml_away": "+195",
+      "ml_draw": "+255"
+    },
+    "event_id": "401879280"
+  },
+  {
+    "league": "LaLiga",
+    "name": "Real Betis at Villarreal",
+    "home_team": "Villarreal",
+    "away_team": "Real Betis",
+    "date": "2026-09-14T19:00Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 2.5,
+      "ml_home": "-105",
+      "ml_away": "+265",
+      "ml_draw": "+290"
+    },
+    "event_id": "401882877"
+  },
+  {
+    "league": "Serie A",
+    "name": "Parma at Como",
+    "home_team": "Como",
+    "away_team": "Parma",
+    "date": "2026-09-14T16:30Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 2.5,
+      "ml_home": "-475",
+      "ml_away": "+1100",
+      "ml_draw": "+500"
+    },
+    "event_id": "401874933"
+  },
+  {
+    "league": "Serie A",
+    "name": "AS Roma at Torino",
+    "home_team": "Torino",
+    "away_team": "AS Roma",
+    "date": "2026-09-14T16:30Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 2.5,
+      "ml_home": "+450",
+      "ml_away": "-190",
+      "ml_draw": "+310"
+    },
+    "event_id": "401874950"
+  },
+  {
+    "league": "Serie A",
+    "name": "Udinese at Internazionale",
+    "home_team": "Internazionale",
+    "away_team": "Udinese",
+    "date": "2026-09-14T18:45Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 3.5,
+      "ml_home": "-425",
+      "ml_away": "+900",
+      "ml_draw": "+500"
+    },
+    "event_id": "401874966"
+  },
+  {
+    "league": "Liga Portugal",
+    "name": "Estrela at Rio Ave",
+    "home_team": "Rio Ave",
+    "away_team": "Estrela",
+    "date": "2026-09-14T17:45Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 2.5,
+      "ml_home": "+165",
+      "ml_away": "+165",
+      "ml_draw": "+230"
+    },
+    "event_id": "401885440"
+  },
+  {
+    "league": "Liga Portugal",
+    "name": "Maritimo at Moreirense",
+    "home_team": "Moreirense",
+    "away_team": "Maritimo",
+    "date": "2026-09-14T19:15Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 2.5,
+      "ml_home": "+145",
+      "ml_away": "+195",
+      "ml_draw": "+220"
+    },
+    "event_id": "401885442"
+  },
+  {
+    "league": "Liga Portugal",
+    "name": "Estoril at Braga",
+    "home_team": "Braga",
+    "away_team": "Estoril",
+    "date": "2026-09-14T19:45Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 2.5,
+      "ml_home": "-225",
+      "ml_away": "+550",
+      "ml_draw": "+360"
+    },
+    "event_id": "401885445"
+  },
+  {
+    "league": "Liga Argentina",
+    "name": "Barracas Central at Banfield",
+    "home_team": "Banfield",
+    "away_team": "Barracas Central",
+    "date": "2026-09-14T22:00Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 1.5,
+      "ml_home": "+140",
+      "ml_away": "+235",
+      "ml_draw": "+190"
+    },
+    "event_id": "401841558"
+  },
+  {
+    "league": "Liga Argentina",
+    "name": "Lanús at Deportivo Riestra",
+    "home_team": "Deportivo Riestra",
+    "away_team": "Lanús",
+    "date": "2026-09-14T22:00Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 1.5,
+      "ml_home": "+215",
+      "ml_away": "+165",
+      "ml_draw": "+175"
+    },
+    "event_id": "401841555"
+  },
+  {
+    "league": "Liga Argentina",
+    "name": "Estudiantes de Río Cuarto at Instituto (Córdoba)",
+    "home_team": "Instituto (Córdoba)",
+    "away_team": "Estudiantes de Río Cuarto",
+    "date": "2026-09-15T00:15Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 2.5,
+      "ml_home": "-230",
+      "ml_away": "+750",
+      "ml_draw": "+310"
+    },
+    "event_id": "401841566"
+  },
+  {
+    "league": "Liga Colombiana",
+    "name": "Deportivo Pasto at América de Cali",
+    "home_team": "América de Cali",
+    "away_team": "Deportivo Pasto",
+    "date": "2026-09-15T01:00Z",
+    "status": "STATUS_SCHEDULED",
+    "odds_data": {
+      "overUnder": 2.5,
+      "ml_home": "-270",
+      "ml_away": "+650",
+      "ml_draw": "+320"
+    },
+    "event_id": "401877902"
+  }
+]

@@ -1,0 +1,23 @@
+{
+ "home_team": "Rio Ave",
+ "away_team": "Estrela Amadora",
+ "league": "Liga Portugal",
+ "xg_home_for": 1.0,
+ "xg_home_against": 1.35,
+ "xg_away_for": 1.15,
+ "xg_away_against": 1.25,
+ "elo_home": 1580,
+ "elo_away": 1620,
+ "odds": {
+  "1": 2.55,
+  "X": 3.2,
+  "2": 2.95,
+  "over_1_5": 1.38,
+  "under_1_5": 2.9,
+  "over_2_5": 2.1,
+  "under_2_5": 1.72,
+  "btts_yes": 1.8,
+  "btts_no": 1.95
+ },
+ "match": "Rio Ave vs Estrela Amadora"
+}

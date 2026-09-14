@@ -1,0 +1,17 @@
+{
+ "home_team": "Instituto",
+ "away_team": "Estudiantes Río Cuarto",
+ "league": "Liga Argentina",
+ "xg_home_for": 1.4,
+ "xg_home_against": 0.9,
+ "xg_away_for": 0.8,
+ "xg_away_against": 1.4,
+ "elo_home": 1680,
+ "elo_away": 1550,
+ "odds": {
+  "1": 1.43,
+  "X": 4.1,
+  "2": 8.5
+ },
+ "match": "Instituto vs Estudiantes Río Cuarto"
+}

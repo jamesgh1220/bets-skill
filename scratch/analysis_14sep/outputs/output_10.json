@@ -1,0 +1,67 @@
+{
+  "match": "Instituto vs Estudiantes Río Cuarto",
+  "probabilities": {
+    "1": 0.591,
+    "X": 0.2639,
+    "2": 0.145,
+    "under_1_5": 0.3356,
+    "over_1_5": 0.6644,
+    "under_2_5": 0.5279,
+    "over_2_5": 0.4721,
+    "under_3_5": 0.8095,
+    "over_3_5": 0.1905,
+    "btts_yes": 0.4104,
+    "btts_no": 0.5896,
+    "1x": 0.855,
+    "x2": 0.409,
+    "12": 0.7361,
+    "dnb_home": 0.591,
+    "dnb_away": 0.145,
+    "expected_goals_home": 1.52,
+    "expected_goals_away": 0.73
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.43,
+      "model_prob": 0.591,
+      "push_prob": 0.0,
+      "conservative_prob": 0.541,
+      "implied_prob": 0.6993,
+      "fair_odds": 1.69,
+      "edge": -15.49,
+      "ev_percent": -15.49,
+      "robust_ev_percent": -22.64,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.1,
+      "model_prob": 0.2639,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2139,
+      "implied_prob": 0.2439,
+      "fair_odds": 3.79,
+      "edge": 8.2,
+      "ev_percent": 8.2,
+      "robust_ev_percent": -12.3,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 8.5,
+      "model_prob": 0.145,
+      "push_prob": 0.0,
+      "conservative_prob": 0.095,
+      "implied_prob": 0.1176,
+      "fair_odds": 6.9,
+      "edge": 23.25,
+      "ev_percent": 23.25,
+      "robust_ev_percent": -19.25,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    }
+  }
+}

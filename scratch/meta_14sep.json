@@ -1,0 +1,37 @@
+{
+  "analysis_date_iso": "2026-09-13T19:00:00-05:00",
+  "match_dates_text": "14 de septiembre de 2026",
+  "information_cutoff": "2026-09-13T10:00:00-05:00",
+  "model_ia": "bigpickle",
+  "engine_version": "model-v1.2",
+  "leagues_display": "Premier League, LaLiga (España), Serie A, Liga Portugal, Liga Argentina, Liga Colombiana",
+  "requested_range": "14 de septiembre de 2026",
+  "universe_preamble": "Universo = intersección(ligas, fecha 14 de septiembre de 2026, partidos=todos) para el lunes 14 de septiembre de 2026. Se analizaron los 12 partidos programados en las 6 ligas solicitadas con cuotas reales verificadas (prematch) recopiladas el día previo/13 de septiembre, cutoff antes del primer kickoff (Como vs Parma, 16:30 UTC). Partidos que en UTC caen el 15 de septiembre se incluyen porque en hora local de Argentina (Córdoba) y Colombia (Cali) se juegan el lunes 14 por la noche:",
+  "universe_matches": [
+    "1. **Premier League:** Leeds United vs Newcastle United (14 sep 2026, 19:00 UTC)",
+    "2. **LaLiga (España):** Villarreal vs Real Betis (14 sep 2026, 19:00 UTC)",
+    "3. **Serie A:** Como vs Parma (14 sep 2026, 16:30 UTC)",
+    "4. **Serie A:** Torino vs Roma (14 sep 2026, 16:30 UTC)",
+    "5. **Serie A:** Inter vs Udinese (14 sep 2026, 18:45 UTC)",
+    "6. **Liga Portugal:** Rio Ave vs Estrela Amadora (14 sep 2026, 17:45 UTC)",
+    "7. **Liga Portugal:** Moreirense vs Marítimo (14 sep 2026, 19:15 UTC)",
+    "8. **Liga Portugal:** Braga vs Estoril (14 sep 2026, 19:45 UTC)",
+    "9. **Liga Argentina:** Banfield vs Barracas Central (14 sep 2026, 22:00 UTC)",
+    "10. **Liga Argentina:** Deportivo Riestra vs Lanús (14 sep 2026, 22:00 UTC)",
+    "11. **Liga Argentina:** Instituto vs Estudiantes Río Cuarto (15 sep 2026, 00:15 UTC - lunes 21:15 local en Córdoba)",
+    "12. **Liga Colombiana:** América de Cali vs Deportivo Pasto (15 sep 2026, 01:00 UTC - lunes 20:00 local en Cali)"
+  ],
+  "picks_details": [
+    {
+      "match": "Leeds United vs Newcastle United",
+      "market": "over_2_5",
+      "conf": "Media",
+      "min_odds": "1.95",
+      "incertidumbre": "Alta-media; es un pick frágil del portfolio. En el escenario pesimista (xG -10% en los cuatro insumos) la probabilidad cae a 47.2% y el EV robusto a -11.3% (el value desaparece); en el optimista (+10%) sube a 64.3% y EV robusto +24.6%. El Elo (+-30 puntos) no altera el resultado. El value depende de que Newcastle sostenga su producción ofensiva alta frente a una defensa de Leeds que, aunque cuenta poco en contra, vive en partidos de marcador corto.",
+      "why": "El modelo proyecta goles esperados ajustados de 1.35 (local) y 1.15 (visitante), total esperado ~2.50, y asigna 56.3% al over 2.5 frente a 47.6% implícito en cuota 2.10 (cuota justa 1.78; edge +18.2%, EV robusto +7.7%). Newcastle llega como uno de los ataques más generadores de la Premier (racha reciente de xG elevado, 12 goles en la temporada) y Leeds, aunque invicto en casa, ha encajado en 4 de sus 5 partidos; el mercado otorga solo 1.95 al conjunto total cuando ambos equipos han participado en partidos con goles en el tramo reciente.",
+      "risks": "Leeds construye sus victorias con margen corto (1-0, 1-0, 2-1, 1-1) y si el partido muere 1-0/1-1 no se cubre la línea; la sensibilidad pesimista anula el value (EV -0.8%, rEV -11.3%). Cuota 2.10 exige precisión en la proyección de goles. El lado opuesto (under 2.5) queda documentado sin value en la sección O/U. Stake mínimo 0.04u por fragilidad.",
+      "sources": "bet365 (1X2 2.50/3.40/2.87; O/U 2.5: over @2.10 / under @1.72; BTTS 1.72/2.00; cutoff 2026-09-12/13), consenso Betfred (2.55/3.40/2.90). Contexto: forma Leeds 4W-1D (9 GF 4 GA, home invicto), Newcastle 3W-1D-1L con xG reciente elevado; Premier League 2026/27. Motor calc_engine.py model-v1.2."
+    }
+  ],
+  "fallback_source": "Agregadores prematch y casas internacionales (bet365, Betfred, ESPN/Odds, wincomparator, Sports Mole, betmines, tips.gg, DRatings, FOX Sports, futbol24, JOKERBET) con cutoff 2026-09-13T10:00:00-05:00; cuotas decimales verificadas prematch. Mercados sin cuota verificada quedan como n/d (no se fabrican). Motor calc_engine.py model-v1.2."
+}

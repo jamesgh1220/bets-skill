@@ -1,0 +1,5412 @@
+{
+  "props": {
+    "pageProps": {
+      "matches": [
+        {
+          "match_reference": {
+            "id": 222579,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#000033",
+            "homeHex2": null,
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 24,
+          "homeComp": "US Major League Soccer",
+          "homeGroup": "Group West",
+          "awayGroup": "Group East",
+          "awayComp": "US Major League Soccer",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#000066",
+            "awayHex2": "#000000",
+            "awayHex3": "#0099FF"
+          },
+          "awayLeagueStanding": 21,
+          "match_date": "2026-09-14T01:00:00.000Z",
+          "match_time": "01:00",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 84
+            },
+            "name": "US Major League Soccer",
+            "sort_order": 50
+          },
+          "round": {
+            "round_number": 1
+          },
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 4868
+              },
+              "name": "San Diego",
+              "short_name": "San Diego",
+              "teamAbrevName": "SAN"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 1730
+              },
+              "name": "Philadelphia Union",
+              "short_name": "Philadelphia",
+              "teamAbrevName": "PHI"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "79351400",
+                      "event": "36040301",
+                      "market": "930.382736951"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "San Diego FC",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "9/5",
+                "odds_decimal": 2.8,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36040301",
+                      "market": "930.382736951"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "16/5",
+                "odds_decimal": 4.2,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36040301",
+                      "market": "927.401284470"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "3/1",
+                "odds_decimal": 4,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36040301",
+                      "market": "924.537606099"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "29/10",
+                "odds_decimal": 3.9,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "4589333",
+                      "event": "36040301",
+                      "market": "930.382736951"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Philadelphia",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "11/10",
+                "odds_decimal": 2.1,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "4589333",
+                      "event": "36040301",
+                      "market": "927.401284470"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Philadelphia",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "23/20",
+                "odds_decimal": 2.15,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "4589333",
+                      "event": "36040301",
+                      "market": "924.537606099"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Philadelphia",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "11/10",
+                "odds_decimal": 2.1,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "79351400",
+                      "event": "36040301",
+                      "market": "927.401284470"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "San Diego FC",
+                "result": null,
+                "sort_value": 3,
+                "odds": "9/5",
+                "odds_decimal": 2.8,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "79351400",
+                      "event": "36040301",
+                      "market": "924.537606099"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "San Diego FC",
+                "result": null,
+                "sort_value": 6,
+                "odds": "9/5",
+                "odds_decimal": 2.8,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 244205,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#0000FF",
+            "homeHex2": "#000000",
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 2,
+          "homeComp": "Finnish Veikkausliiga",
+          "homeGroup": "Group Championship",
+          "awayGroup": "Group Championship",
+          "awayComp": "Finnish Veikkausliiga",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#FFFFFF",
+            "awayHex2": "#000000",
+            "awayHex3": null
+          },
+          "awayLeagueStanding": 6,
+          "match_date": "2026-09-14T15:00:00.000Z",
+          "match_time": "15:00",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 34
+            },
+            "name": "Finnish Veikkausliiga",
+            "sort_order": 94
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 612
+              },
+              "name": "Inter Turku",
+              "short_name": "Inter Turku",
+              "teamAbrevName": "INT"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 609
+              },
+              "name": "VPS",
+              "short_name": "VPS",
+              "teamAbrevName": "VPS"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "7066086",
+                      "event": "36052807",
+                      "market": "930.383321849"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "FC Inter Turku",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "8/13",
+                "odds_decimal": 1.62,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36052807",
+                      "market": "930.383321849"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "5/2",
+                "odds_decimal": 3.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36052807",
+                      "market": "927.401881484"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "13/5",
+                "odds_decimal": 3.6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36052807",
+                      "market": "924.538217892"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "13/5",
+                "odds_decimal": 3.6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "139511",
+                      "event": "36052807",
+                      "market": "930.383321849"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "VPS",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "18/5",
+                "odds_decimal": 4.6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "139511",
+                      "event": "36052807",
+                      "market": "927.401881484"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "VPS",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "15/4",
+                "odds_decimal": 4.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "139511",
+                      "event": "36052807",
+                      "market": "924.538217892"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "VPS",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "15/4",
+                "odds_decimal": 4.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "7066086",
+                      "event": "36052807",
+                      "market": "927.401881484"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "FC Inter Turku",
+                "result": null,
+                "sort_value": 3,
+                "odds": "8/13",
+                "odds_decimal": 1.62,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "7066086",
+                      "event": "36052807",
+                      "market": "924.538217892"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "FC Inter Turku",
+                "result": null,
+                "sort_value": 6,
+                "odds": "8/13",
+                "odds_decimal": 1.62,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 230016,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#481822",
+            "homeHex2": "#ffffff",
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 14,
+          "homeComp": "Italian Serie A",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Italian Serie A",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#990000",
+            "awayHex2": "#F0BC42",
+            "awayHex3": null
+          },
+          "awayLeagueStanding": 2,
+          "match_date": "2026-09-14T16:30:00.000Z",
+          "match_time": "16:30",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 6
+            },
+            "name": "Italian Serie A",
+            "sort_order": 17
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 118
+              },
+              "name": "Torino",
+              "short_name": "Torino",
+              "teamAbrevName": "TOR"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 29
+              },
+              "name": "Roma",
+              "short_name": "Roma",
+              "teamAbrevName": "ROM"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "44503",
+                      "event": "36006770",
+                      "market": "930.381283880"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Torino",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "5/1",
+                "odds_decimal": 6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "44503",
+                      "event": "36006770",
+                      "market": "927.399798192"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Torino",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "5/1",
+                "odds_decimal": 6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "44503",
+                      "event": "36006770",
+                      "market": "924.536082271"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Torino",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "11/2",
+                "odds_decimal": 6.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36006770",
+                      "market": "930.381283880"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "16/5",
+                "odds_decimal": 4.2,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36006770",
+                      "market": "927.399798192"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "3/1",
+                "odds_decimal": 4,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36006770",
+                      "market": "924.536082271"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "16/5",
+                "odds_decimal": 4.2,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "56967",
+                      "event": "36006770",
+                      "market": "930.381283880"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Roma",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "1/2",
+                "odds_decimal": 1.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "56967",
+                      "event": "36006770",
+                      "market": "927.399798192"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Roma",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "1/2",
+                "odds_decimal": 1.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "56967",
+                      "event": "36006770",
+                      "market": "924.536082271"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Roma",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "8/15",
+                "odds_decimal": 1.53,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 229859,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#0033CC",
+            "homeHex2": "#FFFFFF",
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 6,
+          "homeComp": "Italian Serie A",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Italian Serie A",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#FFFFFF",
+            "awayHex2": "#000000",
+            "awayHex3": null
+          },
+          "awayLeagueStanding": 16,
+          "match_date": "2026-09-14T16:30:00.000Z",
+          "match_time": "16:30",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 6
+            },
+            "name": "Italian Serie A",
+            "sort_order": 17
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 256
+              },
+              "name": "Como",
+              "short_name": "Como",
+              "teamAbrevName": "COM"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 1786
+              },
+              "name": "Parma",
+              "short_name": "Parma",
+              "teamAbrevName": "PAR"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "60298",
+                      "event": "36006591",
+                      "market": "930.381280390"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Como",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "2/11",
+                "odds_decimal": 1.18,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "60298",
+                      "event": "36006591",
+                      "market": "927.399794776"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Como",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "2/11",
+                "odds_decimal": 1.18,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "60298",
+                      "event": "36006591",
+                      "market": "924.536078740"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Como",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "1/5",
+                "odds_decimal": 1.2,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36006591",
+                      "market": "930.381280390"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "11/2",
+                "odds_decimal": 6.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36006591",
+                      "market": "927.399794776"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "5/1",
+                "odds_decimal": 6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36006591",
+                      "market": "924.536078740"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "11/2",
+                "odds_decimal": 6.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "191607",
+                      "event": "36006591",
+                      "market": "930.381280390"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Parma",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "13/1",
+                "odds_decimal": 14,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "191607",
+                      "event": "36006591",
+                      "market": "927.399794776"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Parma",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "14/1",
+                "odds_decimal": 15,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "191607",
+                      "event": "36006591",
+                      "market": "924.536078740"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Parma",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "15/1",
+                "odds_decimal": 16,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 224152,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#0066CC",
+            "homeHex2": "#00CCFF",
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 3,
+          "homeComp": "Swedish Allsvenskan",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Swedish Allsvenskan",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#164804",
+            "awayHex2": "#000000",
+            "awayHex3": "#ffffff"
+          },
+          "awayLeagueStanding": 10,
+          "match_date": "2026-09-14T17:00:00.000Z",
+          "match_time": "17:00",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 81
+            },
+            "name": "Swedish Allsvenskan",
+            "sort_order": 88
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 1667
+              },
+              "name": "Djurg\u00e5rden",
+              "short_name": "Djurg\u00e5rden",
+              "teamAbrevName": "DJU"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 2902
+              },
+              "name": "GAIS",
+              "short_name": "GAIS",
+              "teamAbrevName": "GAI"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "232104",
+                      "event": "36043078",
+                      "market": "930.382825362"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Djurgardens",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "8/15",
+                "odds_decimal": 1.53,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36043078",
+                      "market": "930.382825362"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "14/5",
+                "odds_decimal": 3.8,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36043078",
+                      "market": "927.401376455"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "3/1",
+                "odds_decimal": 4,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36043078",
+                      "market": "924.537702564"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "31/10",
+                "odds_decimal": 4.1,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "384083",
+                      "event": "36043078",
+                      "market": "930.382825362"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "GAIS",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "15/4",
+                "odds_decimal": 4.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "384083",
+                      "event": "36043078",
+                      "market": "927.401376455"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "GAIS",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "4/1",
+                "odds_decimal": 5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "384083",
+                      "event": "36043078",
+                      "market": "924.537702564"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "GAIS",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "4/1",
+                "odds_decimal": 5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "232104",
+                      "event": "36043078",
+                      "market": "927.401376455"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Djurgardens",
+                "result": null,
+                "sort_value": 3,
+                "odds": "8/15",
+                "odds_decimal": 1.53,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "232104",
+                      "event": "36043078",
+                      "market": "924.537702564"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Djurgardens",
+                "result": null,
+                "sort_value": 6,
+                "odds": "4/7",
+                "odds_decimal": 1.57,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 224596,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#f1d104",
+            "homeHex2": "#000000",
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 1,
+          "homeComp": "Norwegian Eliteserien",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Norwegian Eliteserien",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": null,
+            "awayHex2": null,
+            "awayHex3": null
+          },
+          "awayLeagueStanding": 13,
+          "match_date": "2026-09-14T17:00:00.000Z",
+          "match_time": "17:00",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 29
+            },
+            "name": "Norwegian Eliteserien",
+            "sort_order": 86
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 594
+              },
+              "name": "Bod\u00f8/Glimt",
+              "short_name": "Bod\u00f8/Glimt",
+              "teamAbrevName": "BOD"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 1736
+              },
+              "name": "Sandefjord",
+              "teamAbrevName": "SAN"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "373549",
+                      "event": "36043662",
+                      "market": "930.382876216"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Bodo Glimt",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "1/8",
+                "odds_decimal": 1.13,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36043662",
+                      "market": "930.382876216"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "6/1",
+                "odds_decimal": 7,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36043662",
+                      "market": "927.401426819"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "13/2",
+                "odds_decimal": 7.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36043662",
+                      "market": "924.537754171"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "7/1",
+                "odds_decimal": 8,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "199646",
+                      "event": "36043662",
+                      "market": "930.382876216"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Sandefjord",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "10/1",
+                "odds_decimal": 11,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "199646",
+                      "event": "36043662",
+                      "market": "927.401426819"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Sandefjord",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "13/1",
+                "odds_decimal": 14,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "199646",
+                      "event": "36043662",
+                      "market": "924.537754171"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Sandefjord",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "14/1",
+                "odds_decimal": 15,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "373549",
+                      "event": "36043662",
+                      "market": "927.401426819"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Bodo Glimt",
+                "result": null,
+                "sort_value": 3,
+                "odds": "1/8",
+                "odds_decimal": 1.13,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "373549",
+                      "event": "36043662",
+                      "market": "924.537754171"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Bodo Glimt",
+                "result": null,
+                "sort_value": 6,
+                "odds": "1/7",
+                "odds_decimal": 1.14,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 229726,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#000000",
+            "homeHex2": "#FF0000",
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 3,
+          "homeComp": "Danish Superligaen",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Danish Superligaen",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#FFFF00",
+            "awayHex2": "#0033FF",
+            "awayHex3": null
+          },
+          "awayLeagueStanding": 5,
+          "match_date": "2026-09-14T17:00:00.000Z",
+          "match_time": "17:00",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 73
+            },
+            "name": "Danish Superligaen",
+            "sort_order": 83
+          },
+          "round": {
+            "round_number": 1
+          },
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 825
+              },
+              "name": "Midtjylland",
+              "short_name": "FC Midtjylland",
+              "teamAbrevName": "MID"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 868
+              },
+              "name": "Br\u00f8ndby",
+              "short_name": "Br\u00f8ndby IF",
+              "teamAbrevName": "BRO"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "28220",
+                      "event": "36042882",
+                      "market": "930.382815122"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Midtjylland",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "3/4",
+                "odds_decimal": 1.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "28220",
+                      "event": "36042882",
+                      "market": "927.401366291"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Midtjylland",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "3/4",
+                "odds_decimal": 1.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "28220",
+                      "event": "36042882",
+                      "market": "924.537692224"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Midtjylland",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "4/5",
+                "odds_decimal": 1.8,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36042882",
+                      "market": "930.382815122"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "13/5",
+                "odds_decimal": 3.6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36042882",
+                      "market": "927.401366291"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "14/5",
+                "odds_decimal": 3.8,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36042882",
+                      "market": "924.537692224"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "29/10",
+                "odds_decimal": 3.9,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "28223",
+                      "event": "36042882",
+                      "market": "930.382815122"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Brondby",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "13/5",
+                "odds_decimal": 3.6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "28223",
+                      "event": "36042882",
+                      "market": "927.401366291"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Brondby",
+                "result": null,
+                "sort_value": 5,
+                "odds": "14/5",
+                "odds_decimal": 3.8,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "28223",
+                      "event": "36042882",
+                      "market": "924.537692224"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Brondby",
+                "result": null,
+                "sort_value": 8,
+                "odds": "29/10",
+                "odds_decimal": 3.9,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 237923,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": null,
+            "homeHex2": null,
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 10,
+          "homeComp": "Turkish Super Lig",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Turkish Super Lig",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#003399",
+            "awayHex2": "#EFE47F",
+            "awayHex3": "#FFFFFF"
+          },
+          "awayLeagueStanding": 12,
+          "match_date": "2026-09-14T17:00:00.000Z",
+          "match_time": "17:00",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 15
+            },
+            "name": "Turkish Super Lig",
+            "sort_order": 66
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 3007
+              },
+              "name": "Gaziantep",
+              "teamAbrevName": "GAZ"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 304
+              },
+              "name": "Fenerbah\u00e7e",
+              "short_name": "Fenerbah\u00e7e",
+              "teamAbrevName": "FEN"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": null
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 224099,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": null,
+            "homeHex2": null,
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 1,
+          "homeComp": "Swedish Allsvenskan",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Swedish Allsvenskan",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": null,
+            "awayHex2": null,
+            "awayHex3": null
+          },
+          "awayLeagueStanding": 14,
+          "match_date": "2026-09-14T17:00:00.000Z",
+          "match_time": "17:00",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 81
+            },
+            "name": "Swedish Allsvenskan",
+            "sort_order": 88
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 1655
+              },
+              "name": "Sirius",
+              "teamAbrevName": "SIR"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 3419
+              },
+              "name": "Degerfors",
+              "teamAbrevName": "DEG"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "4638067",
+                      "event": "36043081",
+                      "market": "930.382825785"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Sirius",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "4/11",
+                "odds_decimal": 1.36,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "4638067",
+                      "event": "36043081",
+                      "market": "927.401376916"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Sirius",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "4/11",
+                "odds_decimal": 1.36,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "4638067",
+                      "event": "36043081",
+                      "market": "924.537703039"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Sirius",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "2/5",
+                "odds_decimal": 1.4,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36043081",
+                      "market": "930.382825785"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "10/3",
+                "odds_decimal": 4.33,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36043081",
+                      "market": "927.401376916"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "7/2",
+                "odds_decimal": 4.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36043081",
+                      "market": "924.537703039"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "15/4",
+                "odds_decimal": 4.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "784612",
+                      "event": "36043081",
+                      "market": "930.382825785"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Degerfors",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "5/1",
+                "odds_decimal": 6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "784612",
+                      "event": "36043081",
+                      "market": "927.401376916"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Degerfors",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "11/2",
+                "odds_decimal": 6.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "784612",
+                      "event": "36043081",
+                      "market": "924.537703039"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Degerfors",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "11/2",
+                "odds_decimal": 6.5,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 231015,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": null,
+            "homeHex2": null,
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 14,
+          "homeComp": "Polish Ekstraklasa",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Polish Ekstraklasa",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": null,
+            "awayHex2": null,
+            "awayHex3": null
+          },
+          "awayLeagueStanding": 9,
+          "match_date": "2026-09-14T17:00:00.000Z",
+          "match_time": "17:00",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 44
+            },
+            "name": "Polish Ekstraklasa",
+            "sort_order": 87
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 3495
+              },
+              "name": "Radomiak Radom",
+              "teamAbrevName": "RAD"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 750
+              },
+              "name": "Piast Gliwice",
+              "short_name": "Piast",
+              "teamAbrevName": "PIA"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "1306561",
+                      "event": "36045284",
+                      "market": "930.382925205"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Radomiak Radom",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "6/5",
+                "odds_decimal": 2.2,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "1306561",
+                      "event": "36045284",
+                      "market": "927.401475494"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Radomiak Radom",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "5/4",
+                "odds_decimal": 2.25,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "1306561",
+                      "event": "36045284",
+                      "market": "924.537804102"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Radomiak Radom",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "13/10",
+                "odds_decimal": 2.3,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36045284",
+                      "market": "930.382925205"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "12/5",
+                "odds_decimal": 3.4,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36045284",
+                      "market": "927.401475494"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "5/2",
+                "odds_decimal": 3.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36045284",
+                      "market": "924.537804102"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "13/5",
+                "odds_decimal": 3.6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "3157365",
+                      "event": "36045284",
+                      "market": "930.382925205"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Piast Gliwice",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "17/10",
+                "odds_decimal": 2.7,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "3157365",
+                      "event": "36045284",
+                      "market": "927.401475494"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Piast Gliwice",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "7/4",
+                "odds_decimal": 2.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "3157365",
+                      "event": "36045284",
+                      "market": "924.537804102"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Piast Gliwice",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "9/5",
+                "odds_decimal": 2.8,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 237544,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#FFFFFF",
+            "homeHex2": "#009966",
+            "homeHex3": "#FFFFFF"
+          },
+          "homeLeagueStanding": 16,
+          "homeComp": "Portuguese Primeira Liga",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Portuguese Primeira Liga",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#652e24",
+            "awayHex2": "#07604e",
+            "awayHex3": "#ffffff"
+          },
+          "awayLeagueStanding": 6,
+          "match_date": "2026-09-14T17:45:00.000Z",
+          "match_time": "17:45",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 14
+            },
+            "name": "Portuguese Primeira Liga",
+            "sort_order": 49
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 287
+              },
+              "name": "Rio Ave",
+              "short_name": "Rio Ave",
+              "teamAbrevName": "AVE"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 4251
+              },
+              "name": "Estrela",
+              "short_name": "Estrela",
+              "teamAbrevName": "EST"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "495321",
+                      "event": "36044153",
+                      "market": "930.382884981"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Rio Ave",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "6/4",
+                "odds_decimal": 2.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "495321",
+                      "event": "36044153",
+                      "market": "927.401435468"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Rio Ave",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "8/5",
+                "odds_decimal": 2.6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "495321",
+                      "event": "36044153",
+                      "market": "924.537763102"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Rio Ave",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "13/8",
+                "odds_decimal": 2.63,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36044153",
+                      "market": "930.382884981"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "13/5",
+                "odds_decimal": 3.6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36044153",
+                      "market": "927.401435468"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "12/5",
+                "odds_decimal": 3.4,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36044153",
+                      "market": "924.537763102"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "5/2",
+                "odds_decimal": 3.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "36362918",
+                      "event": "36044153",
+                      "market": "930.382884981"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Club Football Estrela",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "6/4",
+                "odds_decimal": 2.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "36362918",
+                      "event": "36044153",
+                      "market": "927.401435468"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Club Football Estrela",
+                "result": null,
+                "sort_value": 5,
+                "odds": "8/5",
+                "odds_decimal": 2.6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "36362918",
+                      "event": "36044153",
+                      "market": "924.537763102"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Club Football Estrela",
+                "result": null,
+                "sort_value": 8,
+                "odds": "13/8",
+                "odds_decimal": 2.63,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 230014,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#0033CC",
+            "homeHex2": "#000000",
+            "homeHex3": "#000000"
+          },
+          "homeLeagueStanding": 3,
+          "homeComp": "Italian Serie A",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Italian Serie A",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#000000",
+            "awayHex2": "#ffffff",
+            "awayHex3": "#FFFF00"
+          },
+          "awayLeagueStanding": 13,
+          "match_date": "2026-09-14T18:45:00.000Z",
+          "match_time": "18:45",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 6
+            },
+            "name": "Italian Serie A",
+            "sort_order": 17
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 77
+              },
+              "name": "Internazionale",
+              "short_name": "Inter",
+              "teamAbrevName": "INT"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 105
+              },
+              "name": "Udinese",
+              "short_name": "Udinese",
+              "teamAbrevName": "UDI"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "63347",
+                      "event": "36007437",
+                      "market": "930.381289326"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Inter",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "2/9",
+                "odds_decimal": 1.22,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "63347",
+                      "event": "36007437",
+                      "market": "927.399803429"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Inter",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "2/9",
+                "odds_decimal": 1.22,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "63347",
+                      "event": "36007437",
+                      "market": "924.536087811"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Inter",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "2/9",
+                "odds_decimal": 1.22,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36007437",
+                      "market": "930.381289326"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "11/2",
+                "odds_decimal": 6.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36007437",
+                      "market": "927.399803429"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "5/1",
+                "odds_decimal": 6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36007437",
+                      "market": "924.536087811"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "5/1",
+                "odds_decimal": 6,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "215821",
+                      "event": "36007437",
+                      "market": "930.381289326"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Udinese",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "11/1",
+                "odds_decimal": 12,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "215821",
+                      "event": "36007437",
+                      "market": "927.399803429"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Udinese",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "11/1",
+                "odds_decimal": 12,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "215821",
+                      "event": "36007437",
+                      "market": "924.536087811"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Udinese",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "12/1",
+                "odds_decimal": 13,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 241271,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": null,
+            "homeHex2": null,
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 11,
+          "homeComp": "English Isthmian League Premier",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "English Isthmian League Premier",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": null,
+            "awayHex2": null,
+            "awayHex3": null
+          },
+          "awayLeagueStanding": 16,
+          "match_date": "2026-09-14T18:45:00.000Z",
+          "match_time": "18:45",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 64
+            },
+            "name": "English Isthmian League Premier",
+            "sort_order": 91
+          },
+          "round": {
+            "round_number": 1
+          },
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 1318
+              },
+              "name": "Aveley",
+              "teamAbrevName": "AVE"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 1163
+              },
+              "name": "Wingate & Finchley",
+              "teamAbrevName": "WIN"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "4231684",
+                      "event": "36067653",
+                      "market": "930.383981773"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Aveley",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "4/9",
+                "odds_decimal": 1.44,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "4231684",
+                      "event": "36067653",
+                      "market": "927.402559694"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Aveley",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "4/9",
+                "odds_decimal": 1.44,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "4231684",
+                      "event": "36067653",
+                      "market": "924.538906982"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Aveley",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "4/9",
+                "odds_decimal": 1.44,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "151478",
+                      "event": "36067653",
+                      "market": "930.383981773"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "29/10",
+                "odds_decimal": 3.9,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "151478",
+                      "event": "36067653",
+                      "market": "927.402559694"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "16/5",
+                "odds_decimal": 4.2,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "151478",
+                      "event": "36067653",
+                      "market": "924.538906982"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "16/5",
+                "odds_decimal": 4.2,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "8901995",
+                      "event": "36067653",
+                      "market": "930.383981773"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Wingate and Finchley",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "15/4",
+                "odds_decimal": 4.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "8901995",
+                      "event": "36067653",
+                      "market": "927.402559694"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Wingate and Finchley",
+                "result": null,
+                "sort_value": 5,
+                "odds": "4/1",
+                "odds_decimal": 5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "8901995",
+                      "event": "36067653",
+                      "market": "924.538906982"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Wingate and Finchley",
+                "result": null,
+                "sort_value": 8,
+                "odds": "4/1",
+                "odds_decimal": 5,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 235817,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#FFFF00",
+            "homeHex2": "#000000",
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 18,
+          "homeComp": "Spanish La Liga",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Spanish La Liga",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#f8f8ff",
+            "awayHex2": "#329b5c",
+            "awayHex3": "#000000"
+          },
+          "awayLeagueStanding": 7,
+          "match_date": "2026-09-14T19:00:00.000Z",
+          "match_time": "19:00",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 74
+            },
+            "name": "Spanish La Liga",
+            "sort_order": 16
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 786
+              },
+              "name": "Villarreal",
+              "short_name": "Villarreal",
+              "teamAbrevName": "VIL"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 1143
+              },
+              "name": "Real Betis",
+              "short_name": "Betis",
+              "teamAbrevName": "BET"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "28191",
+                      "event": "36011366",
+                      "market": "930.381313206"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Villarreal",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "19/20",
+                "odds_decimal": 1.95,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "28191",
+                      "event": "36011366",
+                      "market": "927.399827133"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Villarreal",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "19/20",
+                "odds_decimal": 1.95,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "28191",
+                      "event": "36011366",
+                      "market": "924.536111963"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Villarreal",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "19/20",
+                "odds_decimal": 1.95,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36011366",
+                      "market": "930.381313206"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "14/5",
+                "odds_decimal": 3.8,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36011366",
+                      "market": "927.399827133"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "11/4",
+                "odds_decimal": 3.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36011366",
+                      "market": "924.536111963"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "29/10",
+                "odds_decimal": 3.9,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "44507",
+                      "event": "36011366",
+                      "market": "930.381313206"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Betis",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "5/2",
+                "odds_decimal": 3.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "44507",
+                      "event": "36011366",
+                      "market": "927.399827133"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Betis",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "5/2",
+                "odds_decimal": 3.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "44507",
+                      "event": "36011366",
+                      "market": "924.536111963"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Betis",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "13/5",
+                "odds_decimal": 3.6,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 233015,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#f8f8ff",
+            "homeHex2": "#133699",
+            "homeHex3": "#ffd952"
+          },
+          "homeLeagueStanding": 11,
+          "homeComp": "English Premier League",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "English Premier League",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#000000",
+            "awayHex2": "#FFFFFF",
+            "awayHex3": null
+          },
+          "awayLeagueStanding": 10,
+          "match_date": "2026-09-14T19:00:00.000Z",
+          "match_time": "19:00",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 1
+            },
+            "name": "English Premier League",
+            "sort_order": 0
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 216
+              },
+              "name": "Leeds United",
+              "short_name": "Leeds",
+              "teamAbrevName": "LEE"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 207
+              },
+              "name": "Newcastle United",
+              "short_name": "Newcastle",
+              "teamAbrevName": "NEW"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "48317",
+                      "event": "36005134",
+                      "market": "930.381249254"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Leeds",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "13/10",
+                "odds_decimal": 2.3,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "48317",
+                      "event": "36005134",
+                      "market": "927.399764281"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Leeds",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "13/10",
+                "odds_decimal": 2.3,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "48317",
+                      "event": "36005134",
+                      "market": "924.536047152"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Leeds",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "13/10",
+                "odds_decimal": 2.3,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36005134",
+                      "market": "930.381249254"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "5/2",
+                "odds_decimal": 3.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36005134",
+                      "market": "927.399764281"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "12/5",
+                "odds_decimal": 3.4,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36005134",
+                      "market": "924.536047152"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "5/2",
+                "odds_decimal": 3.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "25422",
+                      "event": "36005134",
+                      "market": "930.381249254"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Newcastle",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "19/10",
+                "odds_decimal": 2.9,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "25422",
+                      "event": "36005134",
+                      "market": "927.399764281"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Newcastle",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "2/1",
+                "odds_decimal": 3,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "25422",
+                      "event": "36005134",
+                      "market": "924.536047152"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Newcastle",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "2/1",
+                "odds_decimal": 3,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 237672,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#f8f8ff",
+            "homeHex2": "#0c6e35",
+            "homeHex3": "#000000"
+          },
+          "homeLeagueStanding": 15,
+          "homeComp": "Portuguese Primeira Liga",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Portuguese Primeira Liga",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#ff0019",
+            "awayHex2": "#075b56",
+            "awayHex3": "#ffffff"
+          },
+          "awayLeagueStanding": 10,
+          "match_date": "2026-09-14T19:15:00.000Z",
+          "match_time": "19:15",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 14
+            },
+            "name": "Portuguese Primeira Liga",
+            "sort_order": 49
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 278
+              },
+              "name": "Moreirense",
+              "short_name": "Moreirense",
+              "teamAbrevName": "MOR"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 280
+              },
+              "name": "Mar\u00edtimo",
+              "short_name": "Mar\u00edtimo",
+              "teamAbrevName": "MAR"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "191604",
+                      "event": "36045507",
+                      "market": "930.382944039"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Moreirense",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "29/20",
+                "odds_decimal": 2.45,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "191604",
+                      "event": "36045507",
+                      "market": "927.401494122"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Moreirense",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "6/4",
+                "odds_decimal": 2.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "191604",
+                      "event": "36045507",
+                      "market": "924.537823130"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Moreirense",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "6/4",
+                "odds_decimal": 2.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36045507",
+                      "market": "930.382944039"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "12/5",
+                "odds_decimal": 3.4,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36045507",
+                      "market": "927.401494122"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "23/10",
+                "odds_decimal": 3.3,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36045507",
+                      "market": "924.537823130"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "23/10",
+                "odds_decimal": 3.3,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "46964",
+                      "event": "36045507",
+                      "market": "930.382944039"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Maritimo",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "7/4",
+                "odds_decimal": 2.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "46964",
+                      "event": "36045507",
+                      "market": "927.401494122"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Maritimo",
+                "result": null,
+                "sort_value": 5,
+                "odds": "9/5",
+                "odds_decimal": 2.8,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "46964",
+                      "event": "36045507",
+                      "market": "924.537823130"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Maritimo",
+                "result": null,
+                "sort_value": 8,
+                "odds": "9/5",
+                "odds_decimal": 2.8,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        },
+        {
+          "match_reference": {
+            "id": 237653,
+            "external_reference": []
+          },
+          "homePlayers": [],
+          "homeGoals": [],
+          "homeKit": {
+            "homeHex1": "#FF0000",
+            "homeHex2": "#FFFFFF",
+            "homeHex3": null
+          },
+          "homeLeagueStanding": 8,
+          "homeComp": "Portuguese Primeira Liga",
+          "homeGroup": "",
+          "awayGroup": "",
+          "awayComp": "Portuguese Primeira Liga",
+          "awayPlayers": [],
+          "awayGoals": [],
+          "awayKit": {
+            "awayHex1": "#FFFF00",
+            "awayHex2": "#0000FF",
+            "awayHex3": null
+          },
+          "awayLeagueStanding": 17,
+          "match_date": "2026-09-14T19:45:00.000Z",
+          "match_time": "19:45",
+          "state": "PREMATCH",
+          "match_type": "Regular",
+          "competition": {
+            "competition_reference": {
+              "id": 14
+            },
+            "name": "Portuguese Primeira Liga",
+            "sort_order": 49
+          },
+          "round": {},
+          "legs": 1,
+          "leg": 1,
+          "team_score_a": {
+            "team": {
+              "team_reference": {
+                "id": 283
+              },
+              "name": "Sporting Braga",
+              "short_name": "Braga",
+              "teamAbrevName": "BRA"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "team_score_b": {
+            "team": {
+              "team_reference": {
+                "id": 282
+              },
+              "name": "Estoril",
+              "short_name": "Estoril",
+              "teamAbrevName": "EST"
+            },
+            "score": [
+              {
+                "score": 0
+              }
+            ]
+          },
+          "match_betting_market": {
+            "match_betting": [],
+            "match_betting_v2": [
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "48799",
+                      "event": "36044154",
+                      "market": "930.382885408"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Braga",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "2/5",
+                "odds_decimal": 1.4,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "48799",
+                      "event": "36044154",
+                      "market": "927.401435840"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Braga",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "2/5",
+                "odds_decimal": 1.4,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "48799",
+                      "event": "36044154",
+                      "market": "924.537763549"
+                    }
+                  ]
+                },
+                "for": "HOME",
+                "name": "Braga",
+                "result": "H",
+                "sort_value": 0,
+                "odds": "4/9",
+                "odds_decimal": 1.44,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "58805",
+                      "event": "36044154",
+                      "market": "930.382885408"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "15/4",
+                "odds_decimal": 4.75,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "58805",
+                      "event": "36044154",
+                      "market": "927.401435840"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "7/2",
+                "odds_decimal": 4.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "58805",
+                      "event": "36044154",
+                      "market": "924.537763549"
+                    }
+                  ]
+                },
+                "for": "DRAW",
+                "name": "Draw",
+                "result": "D",
+                "sort_value": 1,
+                "odds": "7/2",
+                "odds_decimal": 4.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 17,
+                      "ref": "skybetv2",
+                      "value": "8942696",
+                      "event": "36044154",
+                      "market": "930.382885408"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Estoril Praia",
+                "result": "A",
+                "sort_value": 2,
+                "odds": "11/2",
+                "odds_decimal": 6.5,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 6,
+                      "ref": "paddypower",
+                      "value": "8942696",
+                      "event": "36044154",
+                      "market": "927.401435840"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Estoril Praia",
+                "result": null,
+                "sort_value": 5,
+                "odds": "6/1",
+                "odds_decimal": 7,
+                "has_sp": null
+              },
+              {
+                "bet_reference": {
+                  "external_reference": [
+                    {
+                      "ref_id": 4,
+                      "ref": "betfairsportsbook",
+                      "value": "8942696",
+                      "event": "36044154",
+                      "market": "924.537763549"
+                    }
+                  ]
+                },
+                "for": "AWAY",
+                "name": "Estoril Praia",
+                "result": null,
+                "sort_value": 8,
+                "odds": "6/1",
+                "odds_decimal": 7,
+                "has_sp": null
+              }
+            ]
+          },
+          "match_outcome": {}
+        }
+      ],
+      "competitions": [
+        {
+          "competition_reference": {
+            "id": 1,
+            "external_reference": []
+          },
+          "name": "English Premier League",
+          "round": [],
+          "sort_order": 0,
+          "show_tables": true,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 49,
+            "external_reference": []
+          },
+          "name": "English Community Shield",
+          "round": [],
+          "sort_order": 1,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 10,
+            "external_reference": []
+          },
+          "name": "Sky Bet Championship",
+          "round": [],
+          "sort_order": 2,
+          "show_tables": true,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 16,
+            "external_reference": []
+          },
+          "name": "Sky Bet League One",
+          "round": [],
+          "sort_order": 3,
+          "show_tables": true,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 83,
+            "external_reference": []
+          },
+          "name": "Sky Bet League Two",
+          "round": [],
+          "sort_order": 4,
+          "show_tables": true,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 76,
+            "external_reference": []
+          },
+          "name": "English FA Cup",
+          "round": [],
+          "sort_order": 5,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 50,
+            "external_reference": []
+          },
+          "name": "English League Cup",
+          "round": [],
+          "sort_order": 6,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 62,
+            "external_reference": []
+          },
+          "name": "Scottish Premiership",
+          "round": [],
+          "sort_order": 7,
+          "show_tables": true,
+          "table_key": "After 33 games the league splits in half and the teams in each half play each other once more: Top half split 1,2,3,4,5,6. Bottom half split 7,8,9,10,11,12. ",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 7,
+            "external_reference": []
+          },
+          "name": "English National League",
+          "round": [],
+          "sort_order": 8,
+          "show_tables": true,
+          "table_key": "Positions: Promotion 1. Play-offs 2,3,4,5,6,7. Relegation 21,22,23,24.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 63,
+            "external_reference": []
+          },
+          "name": "UEFA Champions League",
+          "round": [],
+          "sort_order": 9,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 70,
+            "external_reference": []
+          },
+          "name": "UEFA Europa League",
+          "round": [],
+          "sort_order": 10,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 148,
+            "external_reference": []
+          },
+          "name": "UEFA Conference League",
+          "round": [],
+          "sort_order": 11,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 72,
+            "external_reference": []
+          },
+          "name": "Scottish Championship",
+          "round": [],
+          "sort_order": 12,
+          "show_tables": false,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 60,
+            "external_reference": []
+          },
+          "name": "Scottish League One",
+          "round": [],
+          "sort_order": 13,
+          "show_tables": false,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 59,
+            "external_reference": []
+          },
+          "name": "Scottish League Two",
+          "round": [],
+          "sort_order": 14,
+          "show_tables": false,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 53,
+            "external_reference": []
+          },
+          "name": "Spanish Supercopa",
+          "round": [],
+          "sort_order": 15,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 74,
+            "external_reference": []
+          },
+          "name": "Spanish La Liga",
+          "round": [],
+          "sort_order": 16,
+          "show_tables": true,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 6,
+            "external_reference": []
+          },
+          "name": "Italian Serie A",
+          "round": [],
+          "sort_order": 17,
+          "show_tables": true,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 11,
+            "external_reference": []
+          },
+          "name": "German Bundesliga",
+          "round": [],
+          "sort_order": 18,
+          "show_tables": true,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 8,
+            "external_reference": []
+          },
+          "name": "French Ligue 1",
+          "round": [],
+          "sort_order": 19,
+          "show_tables": true,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 18,
+            "external_reference": []
+          },
+          "name": "FIFA World Cup",
+          "round": [],
+          "sort_order": 20,
+          "show_tables": true,
+          "table_key": "Top two teams in each group qualify for the last 16.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 9,
+            "external_reference": []
+          },
+          "name": "UEFA World Cup Qualifiers",
+          "round": [],
+          "sort_order": 21,
+          "show_tables": false,
+          "table_key": "",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 28,
+            "external_reference": []
+          },
+          "name": "English Women's Super League",
+          "round": [],
+          "sort_order": 22,
+          "show_tables": false,
+          "table_key": "Positions: Champions League 1,2,3. Relegation 12.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 98,
+            "external_reference": []
+          },
+          "name": "UEFA Nations League",
+          "round": [],
+          "sort_order": 23,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 112,
+            "external_reference": []
+          },
+          "name": "English Non-League Promotion Play-offs",
+          "round": [],
+          "sort_order": 24,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 42,
+            "external_reference": []
+          },
+          "name": "Scottish League Cup",
+          "round": [],
+          "sort_order": 25,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 71,
+            "external_reference": []
+          },
+          "name": "Scottish Cup",
+          "round": [],
+          "sort_order": 26,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 32,
+            "external_reference": []
+          },
+          "name": "Scottish Premiership Play-offs",
+          "round": [],
+          "sort_order": 27,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 33,
+            "external_reference": []
+          },
+          "name": "Scottish Championship Play-offs",
+          "round": [],
+          "sort_order": 28,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 31,
+            "external_reference": []
+          },
+          "name": "Scottish League One Play-offs",
+          "round": [],
+          "sort_order": 29,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 267,
+            "external_reference": []
+          },
+          "name": "Scottish League Two Play-offs",
+          "round": [],
+          "sort_order": 30,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 65,
+            "external_reference": []
+          },
+          "name": "Internationals",
+          "round": [],
+          "sort_order": 31,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 158,
+            "external_reference": []
+          },
+          "name": "UEFA Women's Champions League",
+          "round": [],
+          "sort_order": 32,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 255,
+            "external_reference": []
+          },
+          "name": "UEFA Women's Championship Qualifiers",
+          "round": [],
+          "sort_order": 33,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 38,
+            "external_reference": []
+          },
+          "name": "UEFA European Championship Finals",
+          "round": [],
+          "sort_order": 34,
+          "show_tables": false,
+          "table_key": "Top two teams in each group qualify for the last 16, plus the four best third-placed teams.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 21,
+            "external_reference": []
+          },
+          "name": "UEFA European Championship Qualifiers",
+          "round": [],
+          "sort_order": 35,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 268,
+            "external_reference": []
+          },
+          "name": "FIFA Club World Cup",
+          "round": [],
+          "sort_order": 36,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 174,
+            "external_reference": []
+          },
+          "name": "Women's FA Cup",
+          "round": [],
+          "sort_order": 37,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 194,
+            "external_reference": []
+          },
+          "name": "UEFA Women's Championship",
+          "round": [],
+          "sort_order": 38,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 274,
+            "external_reference": []
+          },
+          "name": "FIFA World Cup Play-offs",
+          "round": [],
+          "sort_order": 39,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 37,
+            "external_reference": []
+          },
+          "name": "CONMEBOL World Cup Qualifiers",
+          "round": [],
+          "sort_order": 40,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 19,
+            "external_reference": []
+          },
+          "name": "FIFA Women's World Cup",
+          "round": [],
+          "sort_order": 41,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 22,
+            "external_reference": []
+          },
+          "name": "CAF World Cup Qualifiers",
+          "round": [],
+          "sort_order": 42,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 20,
+            "external_reference": []
+          },
+          "name": "AFC World Cup Qualifiers",
+          "round": [],
+          "sort_order": 43,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 85,
+            "external_reference": []
+          },
+          "name": "Concacaf World Cup Qualifiers",
+          "round": [],
+          "sort_order": 44,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 27,
+            "external_reference": []
+          },
+          "name": "OFC World Cup Qualifiers",
+          "round": [],
+          "sort_order": 45,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 238,
+            "external_reference": []
+          },
+          "name": "UEFA Women's Nations League",
+          "round": [],
+          "sort_order": 46,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 77,
+            "external_reference": []
+          },
+          "name": "English Football League Trophy",
+          "round": [],
+          "sort_order": 47,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 46,
+            "external_reference": []
+          },
+          "name": "Dutch Eredivisie",
+          "round": [],
+          "sort_order": 48,
+          "show_tables": false,
+          "table_key": "Positions: Champions League 1,2. Europa League 3. Europa League qualification play-offs 4,5,6,7. Relegation play-off 16,17. Relegation 18.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 14,
+            "external_reference": []
+          },
+          "name": "Portuguese Primeira Liga",
+          "round": [],
+          "sort_order": 49,
+          "show_tables": false,
+          "table_key": "Positions: Champions League 1,2. Europa League 3,4. Relegation 17,18.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 84,
+            "external_reference": []
+          },
+          "name": "US Major League Soccer",
+          "round": [],
+          "sort_order": 50,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 58,
+            "external_reference": []
+          },
+          "name": "Spanish Copa Del Rey",
+          "round": [],
+          "sort_order": 51,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 68,
+            "external_reference": []
+          },
+          "name": "CAF Africa Cup of Nations",
+          "round": [],
+          "sort_order": 52,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 254,
+            "external_reference": []
+          },
+          "name": "AFC Asian Cup",
+          "round": [],
+          "sort_order": 53,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 80,
+            "external_reference": []
+          },
+          "name": "Coupe de France",
+          "round": [],
+          "sort_order": 54,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 43,
+            "external_reference": []
+          },
+          "name": "UEFA Champions League Qualifying",
+          "round": [],
+          "sort_order": 55,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 48,
+            "external_reference": []
+          },
+          "name": "UEFA Europa League Qualifying",
+          "round": [],
+          "sort_order": 56,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 157,
+            "external_reference": []
+          },
+          "name": "UEFA Conference League Qualifying",
+          "round": [],
+          "sort_order": 57,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 55,
+            "external_reference": []
+          },
+          "name": "English National North",
+          "round": [],
+          "sort_order": 58,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 39,
+            "external_reference": []
+          },
+          "name": "English National South",
+          "round": [],
+          "sort_order": 59,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 202,
+            "external_reference": []
+          },
+          "name": "Saudi Arabian League",
+          "round": [],
+          "sort_order": 60,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 203,
+            "external_reference": []
+          },
+          "name": "Brazilian Serie A",
+          "round": [],
+          "sort_order": 61,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 47,
+            "external_reference": []
+          },
+          "name": "UEFA Super Cup",
+          "round": [],
+          "sort_order": 62,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 12,
+            "external_reference": []
+          },
+          "name": "Coppa Italia",
+          "round": [],
+          "sort_order": 63,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 56,
+            "external_reference": []
+          },
+          "name": "German DFB Pokal",
+          "round": [],
+          "sort_order": 64,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 78,
+            "external_reference": []
+          },
+          "name": "Belgian Jupiler Pro League",
+          "round": [],
+          "sort_order": 65,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 15,
+            "external_reference": []
+          },
+          "name": "Turkish Super Lig",
+          "round": [],
+          "sort_order": 66,
+          "show_tables": false,
+          "table_key": "Positions: Champions League 1,2. Europa League 3,4. Relegation 16,17,18.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 3,
+            "external_reference": []
+          },
+          "name": "FIFA Intercontinental Cup",
+          "round": [],
+          "sort_order": 67,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 160,
+            "external_reference": []
+          },
+          "name": "UEFA Women's Champions League Qualifying",
+          "round": [],
+          "sort_order": 68,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 45,
+            "external_reference": []
+          },
+          "name": "Scottish Challenge Cup",
+          "round": [],
+          "sort_order": 69,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 82,
+            "external_reference": []
+          },
+          "name": "UEFA Under 21 Championship",
+          "round": [],
+          "sort_order": 70,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 35,
+            "external_reference": []
+          },
+          "name": "CONMEBOL Copa America",
+          "round": [],
+          "sort_order": 71,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 116,
+            "external_reference": []
+          },
+          "name": "English Women's Community Shield",
+          "round": [],
+          "sort_order": 72,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 89,
+            "external_reference": []
+          },
+          "name": "Women's European World Cup Qualifiers",
+          "round": [],
+          "sort_order": 73,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 2,
+            "external_reference": []
+          },
+          "name": "Friendly",
+          "round": [],
+          "sort_order": 74,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 5,
+            "external_reference": []
+          },
+          "name": "Italian Serie B",
+          "round": [],
+          "sort_order": 75,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 4,
+            "external_reference": []
+          },
+          "name": "Italian Super Cup",
+          "round": [],
+          "sort_order": 76,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 52,
+            "external_reference": []
+          },
+          "name": "German Super Cup",
+          "round": [],
+          "sort_order": 77,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 25,
+            "external_reference": []
+          },
+          "name": "French Champions' Trophy",
+          "round": [],
+          "sort_order": 78,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 69,
+            "external_reference": []
+          },
+          "name": "English FA Vase",
+          "round": [],
+          "sort_order": 79,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 67,
+            "external_reference": []
+          },
+          "name": "English FA Trophy",
+          "round": [],
+          "sort_order": 80,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 40,
+            "external_reference": []
+          },
+          "name": "Austrian Bundesliga",
+          "round": [],
+          "sort_order": 81,
+          "show_tables": false,
+          "table_key": "Positions: Champions League 1,2. Europa League 3,4. Relegation 10.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 17,
+            "external_reference": []
+          },
+          "name": "Australian A-League Men",
+          "round": [],
+          "sort_order": 82,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 73,
+            "external_reference": []
+          },
+          "name": "Danish Superligaen",
+          "round": [],
+          "sort_order": 83,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 41,
+            "external_reference": []
+          },
+          "name": "Greek Super League",
+          "round": [],
+          "sort_order": 84,
+          "show_tables": false,
+          "table_key": "Positions: Champions League 1. Europa League play-offs 2,3,4,5. Relegation 15,16.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 30,
+            "external_reference": []
+          },
+          "name": "Japanese J1 League",
+          "round": [],
+          "sort_order": 85,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 29,
+            "external_reference": []
+          },
+          "name": "Norwegian Eliteserien",
+          "round": [],
+          "sort_order": 86,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 44,
+            "external_reference": []
+          },
+          "name": "Polish Ekstraklasa",
+          "round": [],
+          "sort_order": 87,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 81,
+            "external_reference": []
+          },
+          "name": "Swedish Allsvenskan",
+          "round": [],
+          "sort_order": 88,
+          "show_tables": false,
+          "table_key": "Positions: Champions League 1. Europa League 2,3. Relegation play-off 14. Relegation 15,16.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 36,
+            "external_reference": []
+          },
+          "name": "Swiss Super League",
+          "round": [],
+          "sort_order": 89,
+          "show_tables": false,
+          "table_key": "Positions: Champions League 1,2. Europa League 3,4. Relegation 10.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 54,
+            "external_reference": []
+          },
+          "name": "Welsh Premier League",
+          "round": [],
+          "sort_order": 90,
+          "show_tables": false,
+          "table_key": "Positions: Champions League 1. Europa League 2. Europa League qualification play-offs 3,4,5,6,7. Relegation 11,12.",
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 64,
+            "external_reference": []
+          },
+          "name": "English Isthmian League Premier",
+          "round": [],
+          "sort_order": 91,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 99,
+            "external_reference": []
+          },
+          "name": "International Champions Cup",
+          "round": [],
+          "sort_order": 92,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 75,
+            "external_reference": []
+          },
+          "name": "Under 21 Internationals",
+          "round": [],
+          "sort_order": 93,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 34,
+            "external_reference": []
+          },
+          "name": "Finnish Veikkausliiga",
+          "round": [],
+          "sort_order": 94,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 90,
+            "external_reference": []
+          },
+          "name": "Asian and North American World Cup Play-Off",
+          "round": [],
+          "sort_order": 95,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        },
+        {
+          "competition_reference": {
+            "id": 92,
+            "external_reference": []
+          },
+          "name": "South America and Oceania World Cup Play-Off",
+          "round": [],
+          "sort_order": 96,
+          "show_tables": false,
+          "teams": [],
+          "show_teams_dropdown": true
+        }
+      ],
+      "date": "2026-09-14",
+      "isToday": true,
+      "isFuture": false,
+      "hasError": false,
+      "overrideDate": "",
+      "_sentryTraceData": "b1f491617b8c4be6ab980967660bcec3-b8e0abf5224a1696-0",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=aku_UdxGMZhY_AWFUd6em,sentry-public_key=f4c295df0d7341fce08b62704bfe7744,sentry-trace_id=b1f491617b8c4be6ab980967660bcec3,sentry-sample_rate=0.01,sentry-transaction=%2Ffootball%2Ffixtures-results%2F%5Bdate%5D,sentry-sampled=false"
+    },
+    "isMobileWebView": false,
+    "isWidgetPath": false,
+    "isRacecardSignposting": false,
+    "isAuthPage": false,
+    "viewerGeoLocation": "CO",
+    "authenticatedUser": {
+      "loggedIn": false,
+      "user": {},
+      "idToken": null,
+      "productToken": null,
+      "ssoToken": null,
+      "slPlusToken": null,
+      "loginPromptOpen": false,
+      "loginEnabled": true,
+      "isPremiumUser": false,
+      "isMigratedUser": null,
+      "ssoBrand": null,
+      "ssoProduct": null,
+      "selectedBookmakerId": 17
+    },
+    "eventHubSportData": null,
+    "articleData": null
+  },
+  "page": "/football/fixtures-results/[date]",
+  "query": {
+    "date": "2026-09-14"
+  },
+  "buildId": "aku_UdxGMZhY_AWFUd6em",
+  "isFallback": false,
+  "gip": true,
+  "appGip": true,
+  "locale": "en-GB",
+  "locales": [
+    "en-GB"
+  ],
+  "defaultLocale": "en-GB",
+  "scriptLoader": []
+}

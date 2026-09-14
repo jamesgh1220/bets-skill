@@ -1,0 +1,81 @@
+{
+  "match": "Banfield vs Barracas Central",
+  "probabilities": {
+    "1": 0.3805,
+    "X": 0.3125,
+    "2": 0.307,
+    "under_1_5": 0.3913,
+    "over_1_5": 0.6087,
+    "under_2_5": 0.6146,
+    "over_2_5": 0.3854,
+    "under_3_5": 0.8526,
+    "over_3_5": 0.1474,
+    "btts_yes": 0.4065,
+    "btts_no": 0.5935,
+    "1x": 0.693,
+    "x2": 0.6195,
+    "12": 0.6875,
+    "dnb_home": 0.3805,
+    "dnb_away": 0.307,
+    "expected_goals_home": 1.15,
+    "expected_goals_away": 0.88
+  },
+  "evaluations": {
+    "over_2_5": {
+      "market": "over_2_5",
+      "odds": 3.1,
+      "model_prob": 0.3854,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3354,
+      "implied_prob": 0.3226,
+      "fair_odds": 2.59,
+      "edge": 19.47,
+      "ev_percent": 19.47,
+      "robust_ev_percent": 3.97,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.36,
+      "model_prob": 0.6146,
+      "push_prob": 0.0,
+      "conservative_prob": 0.5646,
+      "implied_prob": 0.7353,
+      "fair_odds": 1.63,
+      "edge": -16.41,
+      "ev_percent": -16.41,
+      "robust_ev_percent": -23.21,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 2.25,
+      "model_prob": 0.4065,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3565,
+      "implied_prob": 0.4444,
+      "fair_odds": 2.46,
+      "edge": -8.54,
+      "ev_percent": -8.54,
+      "robust_ev_percent": -19.79,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_no": {
+      "market": "btts_no",
+      "odds": 1.57,
+      "model_prob": 0.5935,
+      "push_prob": 0.0,
+      "conservative_prob": 0.5435,
+      "implied_prob": 0.6369,
+      "fair_odds": 1.68,
+      "edge": -6.82,
+      "ev_percent": -6.82,
+      "robust_ev_percent": -14.67,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

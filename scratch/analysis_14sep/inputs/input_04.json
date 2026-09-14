@@ -1,0 +1,21 @@
+{
+ "home_team": "Inter",
+ "away_team": "Udinese",
+ "league": "Serie A",
+ "xg_home_for": 1.75,
+ "xg_home_against": 0.95,
+ "xg_away_for": 1.05,
+ "xg_away_against": 1.35,
+ "elo_home": 1840,
+ "elo_away": 1600,
+ "odds": {
+  "1": 1.45,
+  "X": 4.6,
+  "2": 7.0,
+  "over_2_5": 1.62,
+  "under_2_5": 2.25,
+  "btts_yes": 1.85,
+  "btts_no": 1.85
+ },
+ "match": "Inter vs Udinese"
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "comp": "US Major League Soccer",
+    "home": "San Diego",
+    "away": "Philadelphia Union",
+    "date": "2026-09-14T01:00:00.000Z",
+    "time": "01:00",
+    "odds_1": 2.8,
+    "odds_X": 4.2,
+    "odds_2": 2.15
+  },
+  {
+    "comp": "Finnish Veikkausliiga",
+    "home": "Inter Turku",
+    "away": "VPS",
+    "date": "2026-09-14T15:00:00.000Z",
+    "time": "15:00",
+    "odds_1": 1.62,
+    "odds_X": 3.6,
+    "odds_2": 4.75
+  },
+  {
+    "comp": "Italian Serie A",
+    "home": "Torino",
+    "away": "Roma",
+    "date": "2026-09-14T16:30:00.000Z",
+    "time": "16:30",
+    "odds_1": 6.5,
+    "odds_X": 4.2,
+    "odds_2": 1.53
+  },
+  {
+    "comp": "Italian Serie A",
+    "home": "Como",
+    "away": "Parma",
+    "date": "2026-09-14T16:30:00.000Z",
+    "time": "16:30",
+    "odds_1": 1.2,
+    "odds_X": 6.5,
+    "odds_2": 16
+  },
+  {
+    "comp": "Swedish Allsvenskan",
+    "home": "Djurg\u00e5rden",
+    "away": "GAIS",
+    "date": "2026-09-14T17:00:00.000Z",
+    "time": "17:00",
+    "odds_1": 1.57,
+    "odds_X": 4.1,
+    "odds_2": 5
+  },
+  {
+    "comp": "Norwegian Eliteserien",
+    "home": "Bod\u00f8/Glimt",
+    "away": "Sandefjord",
+    "date": "2026-09-14T17:00:00.000Z",
+    "time": "17:00",
+    "odds_1": 1.14,
+    "odds_X": 8,
+    "odds_2": 15
+  },
+  {
+    "comp": "Danish Superligaen",
+    "home": "Midtjylland",
+    "away": "Br\u00f8ndby",
+    "date": "2026-09-14T17:00:00.000Z",
+    "time": "17:00",
+    "odds_1": 1.8,
+    "odds_X": 3.9,
+    "odds_2": 3.9
+  },
+  {
+    "comp": "Turkish Super Lig",
+    "home": "Gaziantep",
+    "away": "Fenerbah\u00e7e",
+    "date": "2026-09-14T17:00:00.000Z",
+    "time": "17:00",
+    "odds_1": null,
+    "odds_X": null,
+    "odds_2": null
+  },
+  {
+    "comp": "Swedish Allsvenskan",
+    "home": "Sirius",
+    "away": "Degerfors",
+    "date": "2026-09-14T17:00:00.000Z",
+    "time": "17:00",
+    "odds_1": 1.4,
+    "odds_X": 4.75,
+    "odds_2": 6.5
+  },
+  {
+    "comp": "Polish Ekstraklasa",
+    "home": "Radomiak Radom",
+    "away": "Piast Gliwice",
+    "date": "2026-09-14T17:00:00.000Z",
+    "time": "17:00",
+    "odds_1": 2.3,
+    "odds_X": 3.6,
+    "odds_2": 2.8
+  },
+  {
+    "comp": "Portuguese Primeira Liga",
+    "home": "Rio Ave",
+    "away": "Estrela",
+    "date": "2026-09-14T17:45:00.000Z",
+    "time": "17:45",
+    "odds_1": 2.63,
+    "odds_X": 3.6,
+    "odds_2": 2.63
+  },
+  {
+    "comp": "Italian Serie A",
+    "home": "Internazionale",
+    "away": "Udinese",
+    "date": "2026-09-14T18:45:00.000Z",
+    "time": "18:45",
+    "odds_1": 1.22,
+    "odds_X": 6.5,
+    "odds_2": 13
+  },
+  {
+    "comp": "English Isthmian League Premier",
+    "home": "Aveley",
+    "away": "Wingate & Finchley",
+    "date": "2026-09-14T18:45:00.000Z",
+    "time": "18:45",
+    "odds_1": 1.44,
+    "odds_X": 4.2,
+    "odds_2": 5
+  },
+  {
+    "comp": "Spanish La Liga",
+    "home": "Villarreal",
+    "away": "Real Betis",
+    "date": "2026-09-14T19:00:00.000Z",
+    "time": "19:00",
+    "odds_1": 1.95,
+    "odds_X": 3.9,
+    "odds_2": 3.6
+  },
+  {
+    "comp": "English Premier League",
+    "home": "Leeds United",
+    "away": "Newcastle United",
+    "date": "2026-09-14T19:00:00.000Z",
+    "time": "19:00",
+    "odds_1": 2.3,
+    "odds_X": 3.5,
+    "odds_2": 3
+  },
+  {
+    "comp": "Portuguese Primeira Liga",
+    "home": "Moreirense",
+    "away": "Mar\u00edtimo",
+    "date": "2026-09-14T19:15:00.000Z",
+    "time": "19:15",
+    "odds_1": 2.5,
+    "odds_X": 3.4,
+    "odds_2": 2.8
+  },
+  {
+    "comp": "Portuguese Primeira Liga",
+    "home": "Sporting Braga",
+    "away": "Estoril",
+    "date": "2026-09-14T19:45:00.000Z",
+    "time": "19:45",
+    "odds_1": 1.44,
+    "odds_X": 4.75,
+    "odds_2": 7
+  }
+]

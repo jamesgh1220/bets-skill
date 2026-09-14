@@ -1,0 +1,25 @@
+{
+ "home_team": "Moreirense",
+ "away_team": "Marítimo",
+ "league": "Liga Portugal",
+ "xg_home_for": 1.0,
+ "xg_home_against": 1.15,
+ "xg_away_for": 1.05,
+ "xg_away_against": 1.35,
+ "elo_home": 1600,
+ "elo_away": 1580,
+ "odds": {
+  "1": 2.4,
+  "X": 3.2,
+  "2": 2.85,
+  "over_1_5": 1.4,
+  "under_1_5": 2.75,
+  "over_2_5": 2.03,
+  "under_2_5": 1.83,
+  "over_3_5": 4.0,
+  "under_3_5": 1.22,
+  "btts_yes": 1.95,
+  "btts_no": 1.8
+ },
+ "match": "Moreirense vs Marítimo"
+}

@@ -1,0 +1,81 @@
+{
+  "match": "Braga vs Estoril",
+  "probabilities": {
+    "1": 0.5995,
+    "X": 0.2452,
+    "2": 0.1553,
+    "under_1_5": 0.2704,
+    "over_1_5": 0.7296,
+    "under_2_5": 0.4204,
+    "over_2_5": 0.5796,
+    "under_3_5": 0.7469,
+    "over_3_5": 0.2531,
+    "btts_yes": 0.4808,
+    "btts_no": 0.5192,
+    "1x": 0.8447,
+    "x2": 0.4005,
+    "12": 0.7548,
+    "dnb_home": 0.5995,
+    "dnb_away": 0.1553,
+    "expected_goals_home": 1.68,
+    "expected_goals_away": 0.88
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.44,
+      "model_prob": 0.5995,
+      "push_prob": 0.0,
+      "conservative_prob": 0.5495,
+      "implied_prob": 0.6944,
+      "fair_odds": 1.67,
+      "edge": -13.67,
+      "ev_percent": -13.67,
+      "robust_ev_percent": -20.87,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.5,
+      "model_prob": 0.2452,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1952,
+      "implied_prob": 0.2222,
+      "fair_odds": 4.08,
+      "edge": 10.34,
+      "ev_percent": 10.34,
+      "robust_ev_percent": -12.16,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 6.8,
+      "model_prob": 0.1553,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1053,
+      "implied_prob": 0.1471,
+      "fair_odds": 6.44,
+      "edge": 5.6,
+      "ev_percent": 5.6,
+      "robust_ev_percent": -28.4,
+      "stake_recommended_units": 0.0,
+      "has_value": true
+    },
+    "btts_yes": {
+      "market": "btts_yes",
+      "odds": 1.83,
+      "model_prob": 0.4808,
+      "push_prob": 0.0,
+      "conservative_prob": 0.4308,
+      "implied_prob": 0.5464,
+      "fair_odds": 2.08,
+      "edge": -12.01,
+      "ev_percent": -12.01,
+      "robust_ev_percent": -21.16,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

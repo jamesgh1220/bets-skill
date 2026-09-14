@@ -1,0 +1,81 @@
+{
+  "match": "América de Cali vs Deportivo Pasto",
+  "probabilities": {
+    "1": 0.6727,
+    "X": 0.2278,
+    "2": 0.0994,
+    "under_1_5": 0.281,
+    "over_1_5": 0.719,
+    "under_2_5": 0.4374,
+    "over_2_5": 0.5626,
+    "under_3_5": 0.7577,
+    "over_3_5": 0.2423,
+    "btts_yes": 0.4346,
+    "btts_no": 0.5654,
+    "1x": 0.9006,
+    "x2": 0.3273,
+    "12": 0.7722,
+    "dnb_home": 0.6727,
+    "dnb_away": 0.0994,
+    "expected_goals_home": 1.77,
+    "expected_goals_away": 0.73
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.37,
+      "model_prob": 0.6727,
+      "push_prob": 0.0,
+      "conservative_prob": 0.6227,
+      "implied_prob": 0.7299,
+      "fair_odds": 1.49,
+      "edge": -7.84,
+      "ev_percent": -7.84,
+      "robust_ev_percent": -14.69,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.2,
+      "model_prob": 0.2278,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1778,
+      "implied_prob": 0.2381,
+      "fair_odds": 4.39,
+      "edge": -4.32,
+      "ev_percent": -4.32,
+      "robust_ev_percent": -25.32,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 7.5,
+      "model_prob": 0.0994,
+      "push_prob": 0.0,
+      "conservative_prob": 0.0494,
+      "implied_prob": 0.1333,
+      "fair_odds": 10.06,
+      "edge": -25.45,
+      "ev_percent": -25.45,
+      "robust_ev_percent": -62.95,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "btts_no": {
+      "market": "btts_no",
+      "odds": 1.65,
+      "model_prob": 0.5654,
+      "push_prob": 0.0,
+      "conservative_prob": 0.5154,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.77,
+      "edge": -6.71,
+      "ev_percent": -6.71,
+      "robust_ev_percent": -14.96,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}
