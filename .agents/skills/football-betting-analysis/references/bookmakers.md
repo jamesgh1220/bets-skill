@@ -52,6 +52,18 @@
 
 ## Protocolo de Scraping
 
+### Capas de Obtención de Cuotas
+
+| Capa | Fuente | Bookmakers | Cuándo |
+|------|--------|-----------|--------|
+| **Capa 1 (MCP)** | `odds-api` (The Odds API vía MCP local `uvx mcp-odds-api`) | Betsson, 1xBet, Pinnacle, Unibet, Betano, William Hill | Siempre primero; registrar timestamp de captura y, tras el partido, **closing odds** para CLV |
+| **Capa 2 (manual)** | Investigación del agente (websearch/webfetch) | Betplay, Wplay, Rushbet, Zamba, Sportium | Para cuotas faltantes o mercado corners/cards |
+| **Capa 3 (agregadores)** | OddsPortal, FlashScore, SofaScore, BetExplorer | — | Respaldo si 1 y 2 fallan |
+
+- Betplay, Wplay, Rushbet, Zamba **NO están** en The Odds API → siempre por capa 2.
+- Betsson publica mercados de corners/cards → fuente principal de cuota para esos mercados (capa 2 si Odds API no lo cubre).
+- **CLV**: registrar siempre la cuota de captura (timestamp). El cierre se obtiene luego con Historical Odds (`https://api.the-odds-api.com/v4/historical/sports/{sport}/odds/`) en el paso de review; el campo CLV de los modelos deja de ser `null`.
+
 ### Proceso General
 
 1. **Verificar disponibilidad**: Confirmar que cada bookmaker está operativo y accesible.

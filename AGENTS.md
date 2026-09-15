@@ -22,6 +22,19 @@ Sistema cuantitativo para análisis de apuestas de fútbol, búsqueda de value y
 ## Datos
 Goles, xG/xGA, tiros, tiros a puerta, grandes ocasiones, xG/tiro, posesión, progresión, creación, PPDA, errores, balón parado, localía, descanso, viajes, congestión, calendario, competición, importancia, rotaciones, jugadores, minutos, xG/xA, tiros y penaltis.
 
+## MCPs disponibles y cuándo usarlos
+Configuración en `opencode.jsonc`. Si un MCP no está operativo, continuar con investigación del agente (websearch/webfetch) y consignar el fallback.
+
+| MCP | Tipo | Herramientas clave | Cuándo |
+|-----|------|--------------------|--------|
+| `football-stats` (local, `soccer-mcp`) | Datos descargados con `collect-data` | `get_team_stats`, `compare_teams`, `get_match`, `get_player`, `get_player_match_stats` | xG for/against, shots, possession, big chances, forma. **NO expone corners/cards** |
+| `odds-api` (local, `uvx mcp-odds-api`) | The Odds API (500 créditos/mes) | `get_events`, `get_odds`, `get_event_odds` | Cuotas capa 1 (Betsson, 1xBet, Pinnacle, Unibet, Betano, William Hill) + Historical Odds para CLV |
+| `apifootball` (remoto, bearer key) | APIfootball, plan gratis (100 req/día) | `search_football_leagues`, `get_football_matches`, `get_football_standings`, `get_head_to_head`, `get_match_details` (statistics) | Fixtures, resultados/rest_days, standings, H2H, lineups, **corners/cards**. Odds NO en plan gratis |
+
+**Garantía corners/cards (§9 del plan MCP):** Todo partido analizado incluye los 8 campos `corners_*_for/against` y `cards_*_for/against` en `match_input.json` (obligatorio antes de `calc_engine.py`). Fuentes: `apifootball.get_match_details` (statistics, últimos 5–10 partidos) y SofaScore/FlashScore. Si faltan, recolectarlos; si es imposible, consignar "corners/cards no disponibles" en `NO BET`, nunca omitirlos silenciosamente. Sin cuota verificable → mercado no disponible; **cobrar SIEMPRE ambos lados O/U** por línea (goles 1.5/2.5/3.5; corners 8.5/9.5/10.5; cards 3.5/4.5/5.5).
+
+**Features aspiracionales (recolección SIEMPRE, cálculo en Fase 2):** `shots_per_game`, `possession_avg`, `big_chances_created`, `form_last_5`, `xG_form_last_5`, `head_to_head_record`, `rest_days`, `competition_importance`, `travel_distance`, `manager_tenure`, `referee`, `line`. Se registran siempre como contexto documentado en el artefacto; integrarlas al motor requiere el ciclo de refinement (nunca fuera de él).
+
 ## Modelos
 Poisson, Dixon-Coles, ratings, regresión, Bayes, Monte Carlo y ensembles según disponibilidad. Aumentar incertidumbre ante muestras pequeñas o grandes cambios de plantilla/entrenador.
 

@@ -16,6 +16,12 @@ Verificar equipo: identidad actual, competición, entrenador, plantilla, entrada
 
 Verificar jugador: club actual, fecha de transferencia, rol, minutos esperados, lesión, sanción y disponibilidad. Nunca trasladar automáticamente estadísticas de un club a otro.
 
+**Fuentes vía MCPs (apifootball):**
+- Fixtures del rango: `get_football_matches` (filtro estricto por fechas; rango máx. 15 días por request).
+- `rest_days` / congestión: `get_football_matches` — días desde el último partido de cada equipo (incluye copas/Europa).
+- Lineups / lesiones confirmadas en alineación: `get_match_details` (include lineups).
+- Standings (importancia/rotaciones): `get_football_standings`.
+
 Prioridad de fuentes: club oficial; competición/federación; proveedor estadístico fiable; medio fiable; agregador.
 
 Clasificar hechos como `confirmed`, `probable`, `uncertain` o `rumor`. Los rumores no son hechos.

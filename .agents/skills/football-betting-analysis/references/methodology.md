@@ -37,6 +37,45 @@ Modelos: Poisson/Dixon-Coles, ratings, regresión, Bayes, Monte Carlo y ensemble
 
 Usar escenarios conservador/base/optimista. Reducir stake si el value desaparece con pequeños cambios.
 
+## Recolección vía MCPs
+
+El pipeline usa 3 MCP servers configurados en `opencode.jsonc`:
+
+1. **`football-stats`** (local, `soccer-mcp`): `get_team_stats`, `compare_teams`, `get_match`, `get_player`, `get_player_match_stats`. Expone `avg_xg_for`, `avg_xg_against`, `avg_possession`, `avg_shots`, `avg_big_chances_for`, `home_avg_xg_for`, `away_avg_xg_for` y ClubElo. NO expone corners ni cards.
+2. **`odds-api`** (local, `uvx mcp-odds-api` sobre The Odds API): `get_events`, `get_odds`, `get_event_odds` (cuotas capa 1). Un solo `ODDS_API_SPORT` por servidor; para otras ligas, REST directo vía `webfetch` a `https://api.the-odds-api.com/v4/sports/{sport}/odds/`.
+3. **`apifootball`** (remoto, bearer key): fixtures, resultados, standings, H2H, predicciones, details con `statistics` (corners/cards por partido) y limitación de 15 días por request. Odds NO disponibles en plan gratis (`get_football_odds` es de pago).
+
+Los MCPs son la **capa central**; si un MCP no está operativo, se continúa con investigación del agente (websearch/webfetch) y se consigna el fallback en el artefacto.
+
+## Tasas de Corners y Cards (SIEMPRE)
+
+Los 8 campos `corners_*_for/against` y `cards_*_for/against` son obligatorios en `match_input.json` para cada partido:
+
+1. **APIfootball** `get_match_details` (include `statistics`) → acumular últimos 5–10 partidos de cada equipo → promedio corners/cards for/against.
+2. **Investigación del agente** en SofaScore/FlashScore (tablas de corners/cards por equipo home/away).
+3. `football-data-mcp` **no expone corners/cards** → no usar como fuente para esto.
+
+Sin cuota verificable → mercado "no disponible" (nunca inventar cuota). **Cobrar SIEMPRE ambos lados** over Y under de cada línea de corners (8.5/9.5/10.5) y cards (3.5/4.5/5.5).
+
+## Features aspiracionales (recolección SIEMPRE, cálculo en Fase 2)
+
+El motor `calc_engine.py` solo consume hoy `xg_*`, `elo_*` y `corners/cards`. Estas features se **registran siempre en el artefacto como contexto documentado** (no alimentan el cálculo todavía):
+
+| Feature | Fuente | Herramienta |
+|---|---|---|
+| `xg_home_for/against`, `xg_away_for/against` | football-data-mcp | `get_team_stats` (avg_xg_for/against) |
+| `shots_per_game` | football-data-mcp | `get_team_stats` (avg_shots) |
+| `possession_avg` | football-data-mcp | `get_team_stats` (avg_possession) |
+| `big_chances_created` | football-data-mcp | `get_team_stats` (avg_big_chances_for) |
+| `form_last_5` / `xG_form_last_5` | APIfootball | `get_head_to_head` (recent_form) o `get_football_matches` |
+| `head_to_head_record` | APIfootball | `get_head_to_head` |
+| `rest_days` / congestión | APIfootball | `get_football_matches` (días desde el último partido de cada equipo) |
+| `competition_importance` | APIfootball | `get_football_standings` |
+| `travel_distance` | Investigación del agente | Distancia entre sedes |
+| `manager_tenure` / `referee` / `line` | Investigación del agente | websearch / webfetch |
+
+Integrar estas features al cálculo es un cambio de modelo y sigue el ciclo AGENTS.md (evaluación → refinement → backtesting → nueva versión), nunca fuera de él.
+
 ## Obtención de Cuotas (Bookmakers Colombianos)
 
 El sistema busca cuotas en las siguientes casas de apuestas colombianas:

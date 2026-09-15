@@ -1,9 +1,19 @@
 # Plan de Instalación de MCP Servers
 
 **Fecha:** 14 de septiembre de 2026
-**Estado:** PENDIENTE DE EJECUCIÓN — Este plan se ejecutará en el equipo autorizado para las instalaciones. No ejecutar en la máquina actual.
+**Estado:** EN EJECUCIÓN — Instalado en la máquina principal (14/09/2026). Datos de `football-data-mcp` descargando, resto completado.
 
 **Objetivo:** Integrar 3 MCP servers gratuitos en el proyecto `bets-skill` para automatizar la recolección de datos de fútbol y cuotas, garantizar que los mercados de corners/cards estén SIEMPRE operativos y que las features aspiracionales del modelo se recojan SIEMPRE.
+
+### Desviaciones corregidas en la implementación (verificado empíricamente)
+
+- **`mcp-odds-api` NO es un paquete npm.** Es un paquete **Python** (PyPI) que se ejecuta con `uvx`, no con `npx`. Además, **`mcp` 2.x rompe FastMCP** (`mcp.server.fastmcp` renombrado), por lo que se **fija `mcp<2`**. Comando final: `uvx --with "mcp<2" --env-file .env mcp-odds-api` (lee `ODDS_API_KEY` directamente de `.env`).
+- **opencode NO carga `.env` automáticamente** (verificado con `opencode debug config` en v1.18.30). Consecuencia:
+  - `ODDS_API_KEY` → la lee `uvx --env-file .env` (funciona solo con el `.env`).
+  - `APIFOOTBALL_KEY` → opencode interpola `{env:APIFOOTBALL_KEY}` **desde el proceso**, así que necesita `export` o `source .env` antes de lanzar opencode (o añadirla a `~/.zshrc`).
+- **Python 3.9.6 del sistema insuficiente**: `football-data-mcp` requiere ≥3.10. Instalado **Python 3.12.14** (gestionado por `uv`) y el paquete con `uv tool install football-data-mcp` (shims `soccer-mcp`/`collect-data` en `~/.local/bin`, ya en PATH).
+- `apifootball` remoto: se añadió `"oauth": false` (es autenticación por bearer header, no OAuth).
+- `collect-data` usa Chrome (Selenium Manager resuelve chromedriver); Chrome 152 detectado y descarga en curso.
 
 ---
 
@@ -465,18 +475,19 @@ Cuando se ejecute este plan, además de la instalación, se aplicarán estos cam
 ## Checklist de ejecución (para el equipo autorizado)
 
 ```
-[ ] python3 >= 3.10, node >= 18
-[ ] ODDS_API_KEY obtenida (the-odds-api.com, plan FREE)
-[ ] APIFOOTBALL_KEY obtenida (apifootball.com/register)
-[ ] Variables de entorno exportadas y recargadas
-[ ] pip install football-data-mcp
-[ ] collect-data (descarga inicial) o flags incrementales
-[ ] opencode.jsonc creado con los 3 MCPs (raíz del proyecto)
-[ ] opencode mcp list → 3 connected
+[x] python3 >= 3.10, node >= 18   (Python 3.12.14 vía uv; node v22)
+[ ] ODDS_API_KEY obtenida (the-odds-api.com, plan FREE) → rellenar .env
+[ ] APIFOOTBALL_KEY obtenida (apifootball.com/register) → rellenar .env y export (o source .env)
+[~] Variables de entorno exportadas y recargadas   (APIFOOTBALL_KEY pendiente de export)
+[x] Instalar football-data-mcp   (uv tool install; soccer-mcp/collect-data en ~/.local/bin)
+[~] collect-data (descarga inicial)   (EN CURSO — 14/09/2026, log en scratch/collect-data.log)
+[x] opencode.jsonc creado con los 3 MCPs (raíz del proyecto)
+[ ] opencode mcp list → 3 connected   (requiere datos completos + keys; hoy: football-stats/odds-api pendientes de key/datos, apifootball falla con 400 por key vacía)
 [ ] Probar get_team_stats / compare_teams (football-stats)
 [ ] Probar get_odds / get_event_odds (odds-api)
 [ ] Probar get_football_matches / get_match_details (apifootball)
-[ ] Aplicar cambios de archivos de skill (tabla §10)
+[x] Aplicar cambios de archivos de skill (tabla §10)
 [ ] Ejecutar un análisis piloto y validar que corners/cards aparecen en el artefacto
 ```
-```
+
+**Desviaciones de la implementación (ver cabecera):** `uvx` en lugar de `npx` para `mcp-odds-api` + pin `mcp<2`; `.env` leído solo por `uvx --env-file`; `APIFOOTBALL_KEY` debe exportarse en el shell; Python 3.12.14 instalado; `soccer-mcp` requiere el dataset completo (duckdb falla hasta que `collect-data` termine).

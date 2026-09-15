@@ -51,7 +51,7 @@ Para cada pick PENDIENTE:
 
 ## Paso 3: Buscar Resultados Automáticamente
 
-Usar `websearch` para buscar resultados de cada partido:
+Usar APIfootball (MCP `apifootball`) como fuente primaria (`get_football_matches` para fixtures/resultados; `get_match_details` para goles/estadísticas), con fallback a `websearch`:
 
 ### Formatos de Búsqueda
 
@@ -60,6 +60,10 @@ Usar `websearch` para buscar resultados de cada partido:
 "[Equipo Local] [Equipo Visitante] score [fecha]"
 "[Liga] [Equipo Local] vs [Equipo Visitante] resultado"
 ```
+
+### CLV (Closing Line Value)
+
+El CLV se calcula comparando la cuota de captura (registrada por `football-betting-analysis` en el artefacto, capa 1 de The Odds API) contra la **cuota de cierre** obtenida con Historical Odds de The Odds API (plan FREE lo incluye): `https://api.the-odds-api.com/v4/historical/sports/{sport}/odds/?apiKey=ODDS_API_KEY`. Si no hay cuota de cierre (bookmaker congelado o cuota manual), CLV = `null` y se consigna el motivo.
 
 ### Parsing del Resultado
 

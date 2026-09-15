@@ -1,0 +1,36 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    // Stats avanzadas: xG, shots, possession, form, big chances
+    // (FBref/Understat/SofaScore/ClubElo). Datos descargados con `collect-data`.
+    "football-stats": {
+      "type": "local",
+      "command": ["soccer-mcp"],
+      "description": "Stats avanzadas: xG, shots, possession, form, big chances (FBref/Understat/SofaScore/ClubElo)."
+    },
+    // Cuotas reales de bookmakers (Betsson, 1xBet, Pinnacle, Unibet) + historico para CLV.
+    // NOTA: mcp-odds-api es un paquete Python (no npm); se ejecuta con uvx, requiere
+    // mcp<2 (FastMCP fue renombrado en mcp 2.x) y lee ODDS_API_KEY desde .env via --env-file.
+    "odds-api": {
+      "type": "local",
+      "command": ["uvx", "--with", "mcp<2", "--env-file", ".env", "mcp-odds-api"],
+      "cwd": ".",
+      "environment": {
+        "ODDS_API_REGIONS": "eu,br,co,us",
+        "ODDS_API_SPORT": "soccer_epl"
+      },
+      "description": "Cuotas reales de bookmakers (Betsson, 1xBet, Pinnacle, Unibet) + historico para CLV."
+    },
+    // Fixtures, resultados, H2H, standings, predicciones, statistics (corners/cards).
+    // Requiere APIFOOTBALL_KEY exportada en el shell (ver .env). Sin odds en plan gratis.
+    "apifootball": {
+      "type": "remote",
+      "url": "https://mcp.apifootball.com/mcp",
+      "headers": {
+        "Authorization": "Bearer {env:APIFOOTBALL_KEY}"
+      },
+      "oauth": false,
+      "description": "Fixtures, resultados, H2H, standings, predicciones, statistics (corners/cards). Sin odds en plan gratis."
+    }
+  }
+}
