@@ -1,0 +1,75 @@
+{
+  "analysis_date_iso": "2026-09-16T07:22:47-05:00",
+  "match_dates_text": "16 de septiembre de 2026",
+  "information_cutoff": "2026-09-16T07:20:00-05:00",
+  "model_ia": "bigpickle",
+  "engine_version": "model-v1.2",
+  "leagues_display": "Europa League, LaLiga (España), EFL Cup (Inglaterra), Copa Libertadores, Copa Sudamericana, Liga BetPlay (Colombia)",
+  "requested_range": "16 de septiembre de 2026",
+  "universe_preamble": "Se analizaron los 22 partidos programados para el miércoles 16 de septiembre de 2026 en las 6 competiciones solicitadas (todas las competiciones de Europa/Inglaterra/Colombia/Sudamérica con partidos en esa fecha):",
+  "universe_matches": [
+    "**Europa League (Jornada 1):** Omonia Nicosia vs. Celta de Vigo; Sunderland vs. AZ Alkmaar; FC Ararat-Armenia vs. Sparta Prague; AC Milan vs. Benfica; Sturm Graz vs. Stade Rennais; Bayer Leverkusen vs. NK Celje; Anderlecht vs. Olympique Lyonnais; Hapoel Be'er Sheva vs. Dinamo Zagreb (sede neutral: Bucarest); Olympiacos vs. Jagiellonia Białystok.",
+    "**LaLiga (Jornada 6):** Atlético de Madrid vs. Osasuna; Deportivo de La Coruña vs. Sevilla FC; Barcelona vs. Racing de Santander; Levante UD vs. Athletic Club.",
+    "**EFL Cup (3ª ronda):** Manchester United vs. Brighton & Hove Albion; Coventry City vs. Aston Villa; Fleetwood Town vs. Sheffield United; Everton vs. Wolverhampton Wanderers.",
+    "**Copa Libertadores (QFs, vuelta):** LDU Quito vs. Palmeiras (LDU 0-1 en la ida); Corinthians vs. Estudiantes de La Plata (1-1 en la ida).",
+    "**Copa Sudamericana (QFs, vuelta):** Atlético Mineiro vs. Santos (0-2 en la ida).",
+    "**Liga BetPlay (Colombia):** Once Caldas vs. Deportes Tolima; Internacional de Bogotá vs. Atlético Nacional (James Rodríguez)."
+  ],
+  "picks_details": [
+    {
+      "match": "Hapoel Be'er Sheva vs Dinamo Zagreb",
+      "market": "over_2_5",
+      "min_odds": "1.39",
+      "conf": "Media-Alta",
+      "why": "Cruce en sede neutral con claro pronóstico de goles: Dinamo Zagreb promedia más de 21 remates por partido y Hapoel encajó 1-4 y 2-5 en sus últimos cruces de nivel (Maccabi TA y Sabah Baku). El xG combinado estimado (~3.4) y la calibración Platt del modelo sitúan el over 2.5 cerca del 77%.",
+      "risks": "Sede neutral sin ambiente local ni ventaja de localía para Hapoel; varianza intrínseca alta en partidos europeos; cuota bajó de 1.66 al momento de la captura.",
+      "sources": "Betway/BetMines aggregator avg 33 casas (BTTS 1.60/2.25), wincomparator, 15-16/09/2026 pre-kickoff"
+    },
+    {
+      "match": "AC Milan vs Benfica",
+      "market": "over_2_5",
+      "min_odds": "1.48",
+      "conf": "Media-Alta",
+      "why": "Benfica llega con 21 goles en sus últimos 6 partidos de liga y con racha invicta doméstica; Milan con xG ofensivo alto (1.9+). La combinación de perfiles ofensivos sugiere un partido con llegadas abundantes (xG total estimado 3.3).",
+      "risks": "Posible control de ritmo por parte de Milan y cierre defensivo si se adelanta; Benfica en desplazamiento europeo tiende a gestionar. Impacto de rotaciones en el once titular.",
+      "sources": "1xBet/1win (O2.5 1.75/U2.5 2.15; BTTS 1.60/2.35), Oddschecker, 15-16/09/2026 pre-kickoff"
+    },
+    {
+      "match": "Deportivo de La Coruña vs Sevilla FC",
+      "market": "x2",
+      "min_odds": "1.52",
+      "conf": "Media-Alta",
+      "why": "Sevilla llega con mayor plantel y clasificación (7º), mientras Deportivo es recién ascendido con una sola victoria. El x2 (Empate o Sevilla) cubre los dos escenarios más probables: la calidad superior visitante y el empate en Riazor; el modelo asigna ~70.6%.",
+      "risks": "Pérdida de seguridad si Deportivo aprovecha la presión en Riazor y gana; rotaciones de Sevilla (García Plaza) pueden bajar su nivel ofensivo.",
+      "sources": "ESPN/DraftKings, 1x2.expert, 15-16/09/2026 pre-kickoff"
+    },
+    {
+      "match": "Omonia Nicosia vs Celta de Vigo",
+      "market": "1x",
+      "min_odds": "1.57",
+      "conf": "Media-Alta",
+      "why": "Celta atraviesa su peor inicio de la era moderna (0 victorias en 6 jornadas) y con baja producción ofensiva (xG por debajo de 1.0 por partido), viajando a Chipre por primera vez. Omonia tiene fortaleza en casa con buen xG (~1.4) y el 1x cubre victoria local o empate; el modelo asigna ~68.8%.",
+      "risks": "Si Celta corta la racha y muestra su potencial de plantilla, el 1x pierde; la fatiga no es un factor relevante dado el calendario europeo inicial.",
+      "sources": "wincomparator/bet365 (1X2 4.50/3.55/1.86; O/U 2.5; BTTS 1.85), 15-16/09/2026 pre-kickoff"
+    },
+    {
+      "match": "Olympiacos vs Jagiellonia Białystok",
+      "market": "over_2_5",
+      "min_odds": "1.69",
+      "conf": "Media",
+      "why": "Olympiacos conserva uno de los ataques más productivos de Grecia (xG 1.8+) aunque sin El Kaabi (lesión); Jagiellonia llega a su primera fase de liga europea con un perfil defensivo débil fuera de casa (xGA 1.5). El over 2.5 en Karaiskakis con un rival inferior se sitúa ~64% para el modelo.",
+      "risks": "Salida cauta de Olympiacos sin su goleador y con Fortounis suspendido; Jagiellonia puede defender en bloque bajo; cuota justa ajustada exige EV positivo reducido.",
+      "sources": "bet365 via WinComparator (1.36/4.50/9.00; O2.5 1.90; BTTS 1.95), Betfred/William Hill, 15-16/09/2026 pre-kickoff"
+    },
+    {
+      "match": "Manchester United vs Brighton & Hove Albion",
+      "market": "x2",
+      "min_odds": "1.70",
+      "conf": "Media",
+      "why": "Brighton llega fuerte y completo (solo algunas bajas menores en el once de copa), mientras Manchester United acumula bajas importantes (Amad, De Ligt, Ugarte, Heaton) y viene de dos derrotas ligueras. El x2 (Empate o victoria de Brighton) cubre la tendencia visitante en un duelo de copa con expectativas altas; modelo ~63.7%.",
+      "risks": "Rotación masiva de ambas partes en EFL Cup reduce predictibilidad de los onces; Man Utd en Old Trafford siempre es peligroso con square focal inclinada a despertar en copa.",
+      "sources": "Sky Bet/Racing Post, Betfan, ESPN/DraftKings (O/U y BTTS), 15-16/09/2026 pre-kickoff"
+    }
+  ],
+  "fallback_source": "Motor predictivo model-v1.2, odds cutoff 2026-09-16 07:20 COT (pre-kickoff)"
+}
