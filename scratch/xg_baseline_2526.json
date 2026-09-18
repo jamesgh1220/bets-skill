@@ -1,0 +1,113 @@
+{
+  "Real Betis": {
+    "league": "Spain_La_Liga",
+    "M": 38,
+    "xG": 61.3,
+    "xGA": 50.32,
+    "xg_per": 1.613,
+    "xga_per": 1.324,
+    "pts": 60,
+    "goals": 59,
+    "GA": 48
+  },
+  "Getafe": {
+    "league": "Spain_La_Liga",
+    "M": 38,
+    "xG": 33.96,
+    "xGA": 48.31,
+    "xg_per": 0.894,
+    "xga_per": 1.271,
+    "pts": 51,
+    "goals": 32,
+    "GA": 38
+  },
+  "Villarreal": {
+    "league": "Spain_La_Liga",
+    "M": 38,
+    "xG": 68.84,
+    "xGA": 53.67,
+    "xg_per": 1.812,
+    "xga_per": 1.412,
+    "pts": 72,
+    "goals": 72,
+    "GA": 46
+  },
+  "Malaga": null,
+  "Real Sociedad": {
+    "league": "Spain_La_Liga",
+    "M": 38,
+    "xG": 59.7,
+    "xGA": 60.54,
+    "xg_per": 1.571,
+    "xga_per": 1.593,
+    "pts": 46,
+    "goals": 59,
+    "GA": 61
+  },
+  "Manchester City": {
+    "league": "England_Premier_League",
+    "M": 38,
+    "xG": 79.36,
+    "xGA": 46.49,
+    "xg_per": 2.088,
+    "xga_per": 1.223,
+    "pts": 78,
+    "goals": 77,
+    "GA": 35
+  },
+  "Bournemouth": {
+    "league": "England_Premier_League",
+    "M": 38,
+    "xG": 66.83,
+    "xGA": 56.77,
+    "xg_per": 1.759,
+    "xga_per": 1.494,
+    "pts": 57,
+    "goals": 58,
+    "GA": 54
+  },
+  "Crystal Palace": {
+    "league": "England_Premier_League",
+    "M": 38,
+    "xG": 62.46,
+    "xGA": 60.05,
+    "xg_per": 1.644,
+    "xga_per": 1.58,
+    "pts": 45,
+    "goals": 41,
+    "GA": 51
+  },
+  "Juventus": {
+    "league": "Italy_Serie_A",
+    "M": 38,
+    "xG": 74.16,
+    "xGA": 36.12,
+    "xg_per": 1.952,
+    "xga_per": 0.951,
+    "pts": 69,
+    "goals": 61,
+    "GA": 34
+  },
+  "Marseille": {
+    "league": "France_Ligue_1",
+    "M": 34,
+    "xG": 69.45,
+    "xGA": 49.66,
+    "xg_per": 2.043,
+    "xga_per": 1.461,
+    "pts": 59,
+    "goals": 63,
+    "GA": 45
+  },
+  "Hoffenheim": {
+    "league": "Germany_Bundesliga",
+    "M": 34,
+    "xG": 63.15,
+    "xGA": 54.09,
+    "xg_per": 1.857,
+    "xga_per": 1.591,
+    "pts": 61,
+    "goals": 65,
+    "GA": 52
+  }
+}

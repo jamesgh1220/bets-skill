@@ -1,0 +1,81 @@
+{
+  "match": "Peterborough vs Barnsley",
+  "probabilities": {
+    "1": 0.327,
+    "X": 0.2446,
+    "2": 0.4284,
+    "under_1_5": 0.1735,
+    "over_1_5": 0.8265,
+    "under_2_5": 0.2549,
+    "over_2_5": 0.7451,
+    "under_3_5": 0.6171,
+    "over_3_5": 0.3829,
+    "btts_yes": 0.6324,
+    "btts_no": 0.3676,
+    "1x": 0.5716,
+    "x2": 0.673,
+    "12": 0.7554,
+    "dnb_home": 0.327,
+    "dnb_away": 0.4284,
+    "expected_goals_home": 1.61,
+    "expected_goals_away": 1.52
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 2.15,
+      "model_prob": 0.327,
+      "push_prob": 0.0,
+      "conservative_prob": 0.277,
+      "implied_prob": 0.4651,
+      "fair_odds": 3.06,
+      "edge": -29.7,
+      "ev_percent": -29.7,
+      "robust_ev_percent": -40.45,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.5,
+      "model_prob": 0.2446,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1946,
+      "implied_prob": 0.2857,
+      "fair_odds": 4.09,
+      "edge": -14.39,
+      "ev_percent": -14.39,
+      "robust_ev_percent": -31.89,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 3.1,
+      "model_prob": 0.4284,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3784,
+      "implied_prob": 0.3226,
+      "fair_odds": 2.33,
+      "edge": 32.8,
+      "ev_percent": 32.8,
+      "robust_ev_percent": 17.3,
+      "stake_recommended_units": 0.04,
+      "has_value": true
+    },
+    "over_3_5": {
+      "market": "over_3_5",
+      "odds": 3.0,
+      "model_prob": 0.3829,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3329,
+      "implied_prob": 0.3333,
+      "fair_odds": 2.61,
+      "edge": 14.87,
+      "ev_percent": 14.87,
+      "robust_ev_percent": -0.13,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+ "home_team": "Real Sociedad",
+ "away_team": "Bournemouth",
+ "xg_home_for": 0.93,
+ "xg_home_against": 1.66,
+ "xg_away_for": 1.5,
+ "xg_away_against": 1.6,
+ "elo_home": 1768,
+ "elo_away": 1859,
+ "corners_home_for": 7.7,
+ "corners_home_against": 3.8,
+ "corners_away_for": 4.5,
+ "corners_away_against": 5.0,
+ "cards_home_for": 2.3,
+ "cards_home_against": 3.0,
+ "cards_away_for": 3.2,
+ "cards_away_against": 1.5,
+ "odds": {
+  "2": 2.3,
+  "1": 2.9,
+  "X": 3.55,
+  "over_2_5": 1.72,
+  "under_2_5": 2.1
+ }
+}

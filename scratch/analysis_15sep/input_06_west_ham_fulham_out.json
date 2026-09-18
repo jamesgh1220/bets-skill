@@ -1,0 +1,67 @@
+{
+  "match": "West Ham vs Fulham",
+  "probabilities": {
+    "1": 0.3965,
+    "X": 0.2374,
+    "2": 0.3662,
+    "under_1_5": 0.1486,
+    "over_1_5": 0.8514,
+    "under_2_5": 0.2124,
+    "over_2_5": 0.7876,
+    "under_3_5": 0.5727,
+    "over_3_5": 0.4273,
+    "btts_yes": 0.6584,
+    "btts_no": 0.3416,
+    "1x": 0.6338,
+    "x2": 0.6035,
+    "12": 0.7626,
+    "dnb_home": 0.3965,
+    "dnb_away": 0.3662,
+    "expected_goals_home": 1.84,
+    "expected_goals_away": 1.5
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 3.25,
+      "model_prob": 0.3965,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3465,
+      "implied_prob": 0.3077,
+      "fair_odds": 2.52,
+      "edge": 28.86,
+      "ev_percent": 28.86,
+      "robust_ev_percent": 12.61,
+      "stake_recommended_units": 0.03,
+      "has_value": true
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.55,
+      "model_prob": 0.2374,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1874,
+      "implied_prob": 0.2817,
+      "fair_odds": 4.21,
+      "edge": -15.72,
+      "ev_percent": -15.72,
+      "robust_ev_percent": -33.47,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "2": {
+      "market": "2",
+      "odds": 2.18,
+      "model_prob": 0.3662,
+      "push_prob": 0.0,
+      "conservative_prob": 0.3162,
+      "implied_prob": 0.4587,
+      "fair_odds": 2.73,
+      "edge": -20.17,
+      "ev_percent": -20.17,
+      "robust_ev_percent": -31.07,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

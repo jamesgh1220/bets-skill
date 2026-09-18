@@ -1,0 +1,900 @@
+[
+ {
+  "match": "OFI Crete vs TSG Hoffenheim",
+  "home_team": "OFI Crete",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "OFI Crete vs TSG Hoffenheim",
+  "home_team": "OFI Crete",
+  "away_team": "TSG Hoffenheim",
+  "market": "1",
+  "model_prob": 0.2971,
+  "ev_percent": 122.82,
+  "robust_ev_percent": 85.32,
+  "has_value": true
+ },
+ {
+  "match": "OFI Crete vs TSG Hoffenheim",
+  "home_team": "OFI Crete",
+  "away_team": "TSG Hoffenheim",
+  "market": "2",
+  "model_prob": 0.4835,
+  "ev_percent": -33.28,
+  "robust_ev_percent": -40.18,
+  "has_value": false
+ },
+ {
+  "match": "OFI Crete vs TSG Hoffenheim",
+  "home_team": "OFI Crete",
+  "away_team": "TSG Hoffenheim",
+  "market": "X",
+  "model_prob": 0.2194,
+  "ev_percent": 9.7,
+  "robust_ev_percent": -15.3,
+  "has_value": true
+ },
+ {
+  "match": "OFI Crete vs TSG Hoffenheim",
+  "home_team": "OFI Crete",
+  "away_team": "TSG Hoffenheim",
+  "market": "over_2_5",
+  "model_prob": 0.8162,
+  "ev_percent": 25.69,
+  "robust_ev_percent": 17.99,
+  "has_value": true
+ },
+ {
+  "match": "OFI Crete vs TSG Hoffenheim",
+  "home_team": "OFI Crete",
+  "away_team": "TSG Hoffenheim",
+  "market": "under_2_5",
+  "model_prob": 0.1838,
+  "ev_percent": -54.97,
+  "robust_ev_percent": -67.22,
+  "has_value": false
+ },
+ {
+  "match": "OFI Crete vs TSG Hoffenheim",
+  "home_team": "OFI Crete",
+  "away_team": "TSG Hoffenheim",
+  "market": "over_3_5",
+  "model_prob": 0.461,
+  "ev_percent": 6.03,
+  "robust_ev_percent": -5.47,
+  "has_value": true
+ },
+ {
+  "match": "OFI Crete vs TSG Hoffenheim",
+  "home_team": "OFI Crete",
+  "away_team": "TSG Hoffenheim",
+  "market": "under_3_5",
+  "model_prob": 0.539,
+  "ev_percent": -15.38,
+  "robust_ev_percent": -23.23,
+  "has_value": false
+ },
+ {
+  "match": "PFC Levski Sofia vs Salzburg",
+  "home_team": "PFC Levski Sofia",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "PFC Levski Sofia vs Salzburg",
+  "home_team": "PFC Levski Sofia",
+  "away_team": "Salzburg",
+  "market": "1",
+  "model_prob": 0.3495,
+  "ev_percent": 4.85,
+  "robust_ev_percent": -10.15,
+  "has_value": true
+ },
+ {
+  "match": "PFC Levski Sofia vs Salzburg",
+  "home_team": "PFC Levski Sofia",
+  "away_team": "Salzburg",
+  "market": "2",
+  "model_prob": 0.4192,
+  "ev_percent": -5.68,
+  "robust_ev_percent": -16.93,
+  "has_value": false
+ },
+ {
+  "match": "PFC Levski Sofia vs Salzburg",
+  "home_team": "PFC Levski Sofia",
+  "away_team": "Salzburg",
+  "market": "X",
+  "model_prob": 0.2313,
+  "ev_percent": -16.73,
+  "robust_ev_percent": -34.73,
+  "has_value": false
+ },
+ {
+  "match": "PFC Levski Sofia vs Salzburg",
+  "home_team": "PFC Levski Sofia",
+  "away_team": "Salzburg",
+  "market": "over_2_5",
+  "model_prob": 0.8326,
+  "ev_percent": 37.38,
+  "robust_ev_percent": 29.13,
+  "has_value": true
+ },
+ {
+  "match": "PFC Levski Sofia vs Salzburg",
+  "home_team": "PFC Levski Sofia",
+  "away_team": "Salzburg",
+  "market": "under_2_5",
+  "model_prob": 0.1674,
+  "ev_percent": -62.67,
+  "robust_ev_percent": -73.82,
+  "has_value": false
+ },
+ {
+  "match": "Besiktas JK vs Marseille",
+  "home_team": "Besiktas JK",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Besiktas JK vs Marseille",
+  "home_team": "Besiktas JK",
+  "away_team": "Marseille",
+  "market": "1",
+  "model_prob": 0.5124,
+  "ev_percent": -8.28,
+  "robust_ev_percent": -17.23,
+  "has_value": false
+ },
+ {
+  "match": "Besiktas JK vs Marseille",
+  "home_team": "Besiktas JK",
+  "away_team": "Marseille",
+  "market": "2",
+  "model_prob": 0.229,
+  "ev_percent": -6.11,
+  "robust_ev_percent": -26.61,
+  "has_value": false
+ },
+ {
+  "match": "Besiktas JK vs Marseille",
+  "home_team": "Besiktas JK",
+  "away_team": "Marseille",
+  "market": "X",
+  "model_prob": 0.2586,
+  "ev_percent": 3.44,
+  "robust_ev_percent": -16.56,
+  "has_value": true
+ },
+ {
+  "match": "Besiktas JK vs Marseille",
+  "home_team": "Besiktas JK",
+  "away_team": "Marseille",
+  "market": "over_2_5",
+  "model_prob": 0.6218,
+  "ev_percent": -3.0,
+  "robust_ev_percent": -10.8,
+  "has_value": false
+ },
+ {
+  "match": "Besiktas JK vs Marseille",
+  "home_team": "Besiktas JK",
+  "away_team": "Marseille",
+  "market": "under_2_5",
+  "model_prob": 0.3782,
+  "ev_percent": -9.23,
+  "robust_ev_percent": -21.23,
+  "has_value": false
+ },
+ {
+  "match": "Besiktas JK vs Marseille",
+  "home_team": "Besiktas JK",
+  "away_team": "Marseille",
+  "market": "over_3_5",
+  "model_prob": 0.2814,
+  "ev_percent": -35.84,
+  "robust_ev_percent": -47.24,
+  "has_value": false
+ },
+ {
+  "match": "Besiktas JK vs Marseille",
+  "home_team": "Besiktas JK",
+  "away_team": "Marseille",
+  "market": "under_3_5",
+  "model_prob": 0.7186,
+  "ev_percent": 12.1,
+  "robust_ev_percent": 4.3,
+  "has_value": true
+ },
+ {
+  "match": "Real Sociedad vs Bournemouth",
+  "home_team": "Real Sociedad",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Real Sociedad vs Bournemouth",
+  "home_team": "Real Sociedad",
+  "away_team": "Bournemouth",
+  "market": "2",
+  "model_prob": 0.4853,
+  "ev_percent": 11.62,
+  "robust_ev_percent": 0.12,
+  "has_value": true
+ },
+ {
+  "match": "Real Sociedad vs Bournemouth",
+  "home_team": "Real Sociedad",
+  "away_team": "Bournemouth",
+  "market": "1",
+  "model_prob": 0.2539,
+  "ev_percent": -26.37,
+  "robust_ev_percent": -40.87,
+  "has_value": false
+ },
+ {
+  "match": "Real Sociedad vs Bournemouth",
+  "home_team": "Real Sociedad",
+  "away_team": "Bournemouth",
+  "market": "X",
+  "model_prob": 0.2608,
+  "ev_percent": -7.42,
+  "robust_ev_percent": -25.17,
+  "has_value": false
+ },
+ {
+  "match": "Real Sociedad vs Bournemouth",
+  "home_team": "Real Sociedad",
+  "away_team": "Bournemouth",
+  "market": "over_2_5",
+  "model_prob": 0.671,
+  "ev_percent": 15.41,
+  "robust_ev_percent": 6.81,
+  "has_value": true
+ },
+ {
+  "match": "Real Sociedad vs Bournemouth",
+  "home_team": "Real Sociedad",
+  "away_team": "Bournemouth",
+  "market": "under_2_5",
+  "model_prob": 0.329,
+  "ev_percent": -30.91,
+  "robust_ev_percent": -41.41,
+  "has_value": false
+ },
+ {
+  "match": "Celtic vs Ferencváros TC",
+  "home_team": "Celtic",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Celtic vs Ferencváros TC",
+  "home_team": "Celtic",
+  "away_team": "Ferencváros TC",
+  "market": "1",
+  "model_prob": 0.5684,
+  "ev_percent": -1.67,
+  "robust_ev_percent": -10.32,
+  "has_value": false
+ },
+ {
+  "match": "Celtic vs Ferencváros TC",
+  "home_team": "Celtic",
+  "away_team": "Ferencváros TC",
+  "market": "2",
+  "model_prob": 0.1646,
+  "ev_percent": -28.23,
+  "robust_ev_percent": -50.03,
+  "has_value": false
+ },
+ {
+  "match": "Celtic vs Ferencváros TC",
+  "home_team": "Celtic",
+  "away_team": "Ferencváros TC",
+  "market": "X",
+  "model_prob": 0.2669,
+  "ev_percent": 6.76,
+  "robust_ev_percent": -13.24,
+  "has_value": true
+ },
+ {
+  "match": "Celtic vs Ferencváros TC",
+  "home_team": "Celtic",
+  "away_team": "Ferencváros TC",
+  "market": "over_2_5",
+  "model_prob": 0.4872,
+  "ev_percent": -24.0,
+  "robust_ev_percent": -31.8,
+  "has_value": false
+ },
+ {
+  "match": "Celtic vs Ferencváros TC",
+  "home_team": "Celtic",
+  "away_team": "Ferencváros TC",
+  "market": "under_2_5",
+  "model_prob": 0.5128,
+  "ev_percent": 23.07,
+  "robust_ev_percent": 11.07,
+  "has_value": true
+ },
+ {
+  "match": "Celtic vs Ferencváros TC",
+  "home_team": "Celtic",
+  "away_team": "Ferencváros TC",
+  "market": "over_3_5",
+  "model_prob": 0.1986,
+  "ev_percent": -53.33,
+  "robust_ev_percent": -65.08,
+  "has_value": false
+ },
+ {
+  "match": "Celtic vs Ferencváros TC",
+  "home_team": "Celtic",
+  "away_team": "Ferencváros TC",
+  "market": "under_3_5",
+  "model_prob": 0.8014,
+  "ev_percent": 27.42,
+  "robust_ev_percent": 19.47,
+  "has_value": true
+ },
+ {
+  "match": "Crystal Palace vs Lech Poznań",
+  "home_team": "Crystal Palace",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Crystal Palace vs Lech Poznań",
+  "home_team": "Crystal Palace",
+  "away_team": "Lech Poznań",
+  "market": "1",
+  "model_prob": 0.2338,
+  "ev_percent": -67.74,
+  "robust_ev_percent": -74.64,
+  "has_value": false
+ },
+ {
+  "match": "Crystal Palace vs Lech Poznań",
+  "home_team": "Crystal Palace",
+  "away_team": "Lech Poznań",
+  "market": "2",
+  "model_prob": 0.5515,
+  "ev_percent": 300.94,
+  "robust_ev_percent": 264.59,
+  "has_value": true
+ },
+ {
+  "match": "Crystal Palace vs Lech Poznań",
+  "home_team": "Crystal Palace",
+  "away_team": "Lech Poznań",
+  "market": "X",
+  "model_prob": 0.2147,
+  "ev_percent": 7.35,
+  "robust_ev_percent": -17.65,
+  "has_value": true
+ },
+ {
+  "match": "Crystal Palace vs Lech Poznań",
+  "home_team": "Crystal Palace",
+  "away_team": "Lech Poznań",
+  "market": "over_2_5",
+  "model_prob": 0.7714,
+  "ev_percent": 24.97,
+  "robust_ev_percent": 16.87,
+  "has_value": true
+ },
+ {
+  "match": "Crystal Palace vs Lech Poznań",
+  "home_team": "Crystal Palace",
+  "away_team": "Lech Poznań",
+  "market": "under_2_5",
+  "model_prob": 0.2286,
+  "ev_percent": -48.57,
+  "robust_ev_percent": -59.82,
+  "has_value": false
+ },
+ {
+  "match": "Juventus vs NEC Nijmegen",
+  "home_team": "Juventus",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Juventus vs NEC Nijmegen",
+  "home_team": "Juventus",
+  "away_team": "NEC Nijmegen",
+  "market": "1",
+  "model_prob": 0.5079,
+  "ev_percent": -39.56,
+  "robust_ev_percent": -45.51,
+  "has_value": false
+ },
+ {
+  "match": "Juventus vs NEC Nijmegen",
+  "home_team": "Juventus",
+  "away_team": "NEC Nijmegen",
+  "market": "2",
+  "model_prob": 0.2594,
+  "ev_percent": 211.28,
+  "robust_ev_percent": 151.28,
+  "has_value": true
+ },
+ {
+  "match": "Juventus vs NEC Nijmegen",
+  "home_team": "Juventus",
+  "away_team": "NEC Nijmegen",
+  "market": "X",
+  "model_prob": 0.2327,
+  "ev_percent": 62.89,
+  "robust_ev_percent": 27.89,
+  "has_value": true
+ },
+ {
+  "match": "Juventus vs NEC Nijmegen",
+  "home_team": "Juventus",
+  "away_team": "NEC Nijmegen",
+  "market": "over_2_5",
+  "model_prob": 0.7249,
+  "ev_percent": 1.49,
+  "robust_ev_percent": -5.51,
+  "has_value": false
+ },
+ {
+  "match": "Juventus vs NEC Nijmegen",
+  "home_team": "Juventus",
+  "away_team": "NEC Nijmegen",
+  "market": "under_2_5",
+  "model_prob": 0.2751,
+  "ev_percent": -19.67,
+  "robust_ev_percent": -34.27,
+  "has_value": false
+ },
+ {
+  "match": "Juventus vs NEC Nijmegen",
+  "home_team": "Juventus",
+  "away_team": "NEC Nijmegen",
+  "market": "over_3_5",
+  "model_prob": 0.3639,
+  "ev_percent": -27.22,
+  "robust_ev_percent": -37.22,
+  "has_value": false
+ },
+ {
+  "match": "Juventus vs NEC Nijmegen",
+  "home_team": "Juventus",
+  "away_team": "NEC Nijmegen",
+  "market": "under_3_5",
+  "model_prob": 0.6361,
+  "ev_percent": 13.23,
+  "robust_ev_percent": 4.33,
+  "has_value": true
+ },
+ {
+  "match": "Lillestrom vs Torreense",
+  "home_team": "Lillestrom",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Lillestrom vs Torreense",
+  "home_team": "Lillestrom",
+  "away_team": "Torreense",
+  "market": "1",
+  "model_prob": 0.474,
+  "ev_percent": -28.9,
+  "robust_ev_percent": -36.4,
+  "has_value": false
+ },
+ {
+  "match": "Lillestrom vs Torreense",
+  "home_team": "Lillestrom",
+  "away_team": "Torreense",
+  "market": "2",
+  "model_prob": 0.27,
+  "ev_percent": 59.3,
+  "robust_ev_percent": 29.8,
+  "has_value": true
+ },
+ {
+  "match": "Lillestrom vs Torreense",
+  "home_team": "Lillestrom",
+  "away_team": "Torreense",
+  "market": "X",
+  "model_prob": 0.256,
+  "ev_percent": 15.2,
+  "robust_ev_percent": -7.3,
+  "has_value": true
+ },
+ {
+  "match": "Lillestrom vs Torreense",
+  "home_team": "Lillestrom",
+  "away_team": "Torreense",
+  "market": "over_2_5",
+  "model_prob": 0.6403,
+  "ev_percent": -0.11,
+  "robust_ev_percent": -7.91,
+  "has_value": false
+ },
+ {
+  "match": "Lillestrom vs Torreense",
+  "home_team": "Lillestrom",
+  "away_team": "Torreense",
+  "market": "under_2_5",
+  "model_prob": 0.3597,
+  "ev_percent": -15.47,
+  "robust_ev_percent": -27.22,
+  "has_value": false
+ },
+ {
+  "match": "Viktoria Plzeň vs Union Saint-Gilloise",
+  "home_team": "Viktoria Plzeň",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Viktoria Plzeň vs Union Saint-Gilloise",
+  "home_team": "Viktoria Plzeň",
+  "away_team": "Union Saint-Gilloise",
+  "market": "2",
+  "model_prob": 0.5213,
+  "ev_percent": 30.33,
+  "robust_ev_percent": 17.83,
+  "has_value": true
+ },
+ {
+  "match": "Viktoria Plzeň vs Union Saint-Gilloise",
+  "home_team": "Viktoria Plzeň",
+  "away_team": "Union Saint-Gilloise",
+  "market": "1",
+  "model_prob": 0.2398,
+  "ev_percent": -35.73,
+  "robust_ev_percent": -49.13,
+  "has_value": false
+ },
+ {
+  "match": "Viktoria Plzeň vs Union Saint-Gilloise",
+  "home_team": "Viktoria Plzeň",
+  "away_team": "Union Saint-Gilloise",
+  "market": "X",
+  "model_prob": 0.2389,
+  "ev_percent": -16.15,
+  "robust_ev_percent": -33.7,
+  "has_value": false
+ },
+ {
+  "match": "Viktoria Plzeň vs Union Saint-Gilloise",
+  "home_team": "Viktoria Plzeň",
+  "away_team": "Union Saint-Gilloise",
+  "market": "over_2_5",
+  "model_prob": 0.7542,
+  "ev_percent": 35.0,
+  "robust_ev_percent": 26.05,
+  "has_value": true
+ },
+ {
+  "match": "Viktoria Plzeň vs Union Saint-Gilloise",
+  "home_team": "Viktoria Plzeň",
+  "away_team": "Union Saint-Gilloise",
+  "market": "under_2_5",
+  "model_prob": 0.2458,
+  "ev_percent": -50.84,
+  "robust_ev_percent": -60.84,
+  "has_value": false
+ },
+ {
+  "match": "Real Betis vs Getafe",
+  "home_team": "Real Betis",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Real Betis vs Getafe",
+  "home_team": "Real Betis",
+  "away_team": "Getafe",
+  "market": "2",
+  "model_prob": 0.3667,
+  "ev_percent": 101.69,
+  "robust_ev_percent": 74.19,
+  "has_value": true
+ },
+ {
+  "match": "Real Betis vs Getafe",
+  "home_team": "Real Betis",
+  "away_team": "Getafe",
+  "market": "1",
+  "model_prob": 0.3753,
+  "ev_percent": -37.32,
+  "robust_ev_percent": -45.67,
+  "has_value": false
+ },
+ {
+  "match": "Real Betis vs Getafe",
+  "home_team": "Real Betis",
+  "away_team": "Getafe",
+  "market": "X",
+  "model_prob": 0.258,
+  "ev_percent": -4.54,
+  "robust_ev_percent": -23.04,
+  "has_value": false
+ },
+ {
+  "match": "Real Betis vs Getafe",
+  "home_team": "Real Betis",
+  "away_team": "Getafe",
+  "market": "over_2_5",
+  "model_prob": 0.6358,
+  "ev_percent": 33.52,
+  "robust_ev_percent": 23.02,
+  "has_value": true
+ },
+ {
+  "match": "Real Betis vs Getafe",
+  "home_team": "Real Betis",
+  "away_team": "Getafe",
+  "market": "under_2_5",
+  "model_prob": 0.3642,
+  "ev_percent": -38.09,
+  "robust_ev_percent": -46.59,
+  "has_value": false
+ },
+ {
+  "match": "Málaga vs Villarreal",
+  "home_team": "Málaga",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Málaga vs Villarreal",
+  "home_team": "Málaga",
+  "away_team": "Villarreal",
+  "market": "1",
+  "model_prob": 0.2191,
+  "ev_percent": -21.12,
+  "robust_ev_percent": -39.12,
+  "has_value": false
+ },
+ {
+  "match": "Málaga vs Villarreal",
+  "home_team": "Málaga",
+  "away_team": "Villarreal",
+  "market": "2",
+  "model_prob": 0.5183,
+  "ev_percent": 1.07,
+  "robust_ev_percent": -8.68,
+  "has_value": false
+ },
+ {
+  "match": "Málaga vs Villarreal",
+  "home_team": "Málaga",
+  "away_team": "Villarreal",
+  "market": "X",
+  "model_prob": 0.2626,
+  "ev_percent": -1.52,
+  "robust_ev_percent": -20.27,
+  "has_value": false
+ },
+ {
+  "match": "Málaga vs Villarreal",
+  "home_team": "Málaga",
+  "away_team": "Villarreal",
+  "market": "over_2_5",
+  "model_prob": 0.6358,
+  "ev_percent": 2.36,
+  "robust_ev_percent": -5.69,
+  "has_value": false
+ },
+ {
+  "match": "Málaga vs Villarreal",
+  "home_team": "Málaga",
+  "away_team": "Villarreal",
+  "market": "under_2_5",
+  "model_prob": 0.3642,
+  "ev_percent": -16.96,
+  "robust_ev_percent": -28.36,
+  "has_value": false
+ },
+ {
+  "match": "Manchester City vs Norwich City",
+  "home_team": "Manchester City",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Manchester City vs Norwich City",
+  "home_team": "Manchester City",
+  "away_team": "Norwich City",
+  "market": "1",
+  "model_prob": 0.6375,
+  "ev_percent": -29.87,
+  "robust_ev_percent": -35.38,
+  "has_value": false
+ },
+ {
+  "match": "Manchester City vs Norwich City",
+  "home_team": "Manchester City",
+  "away_team": "Norwich City",
+  "market": "2",
+  "model_prob": 0.1553,
+  "ev_percent": 167.89,
+  "robust_ev_percent": 81.64,
+  "has_value": true
+ },
+ {
+  "match": "Manchester City vs Norwich City",
+  "home_team": "Manchester City",
+  "away_team": "Norwich City",
+  "market": "X",
+  "model_prob": 0.2072,
+  "ev_percent": 96.84,
+  "robust_ev_percent": 49.34,
+  "has_value": true
+ },
+ {
+  "match": "Manchester City vs Norwich City",
+  "home_team": "Manchester City",
+  "away_team": "Norwich City",
+  "market": "over_2_5",
+  "model_prob": 0.7541,
+  "ev_percent": -5.74,
+  "robust_ev_percent": -11.99,
+  "has_value": false
+ },
+ {
+  "match": "Manchester City vs Norwich City",
+  "home_team": "Manchester City",
+  "away_team": "Norwich City",
+  "market": "under_2_5",
+  "model_prob": 0.2459,
+  "ev_percent": -6.56,
+  "robust_ev_percent": -25.56,
+  "has_value": false
+ },
+ {
+  "match": "Manchester City vs Norwich City",
+  "home_team": "Manchester City",
+  "away_team": "Norwich City",
+  "market": "over_3_5",
+  "model_prob": 0.3917,
+  "ev_percent": -35.37,
+  "robust_ev_percent": -43.62,
+  "has_value": false
+ },
+ {
+  "match": "Manchester City vs Norwich City",
+  "home_team": "Manchester City",
+  "away_team": "Norwich City",
+  "market": "under_3_5",
+  "model_prob": 0.6083,
+  "ev_percent": 32.61,
+  "robust_ev_percent": 21.71,
+  "has_value": true
+ },
+ {
+  "match": "Flamengo-RJ vs Independiente del Valle",
+  "home_team": "Flamengo-RJ",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Flamengo-RJ vs Independiente del Valle",
+  "home_team": "Flamengo-RJ",
+  "away_team": "Independiente del Valle",
+  "market": "1",
+  "model_prob": 0.3197,
+  "ev_percent": -56.84,
+  "robust_ev_percent": -63.59,
+  "has_value": false
+ },
+ {
+  "match": "Flamengo-RJ vs Independiente del Valle",
+  "home_team": "Flamengo-RJ",
+  "away_team": "Independiente del Valle",
+  "market": "2",
+  "model_prob": 0.4339,
+  "ev_percent": 231.93,
+  "robust_ev_percent": 193.68,
+  "has_value": true
+ },
+ {
+  "match": "Flamengo-RJ vs Independiente del Valle",
+  "home_team": "Flamengo-RJ",
+  "away_team": "Independiente del Valle",
+  "market": "X",
+  "model_prob": 0.2464,
+  "ev_percent": 17.78,
+  "robust_ev_percent": -6.12,
+  "has_value": true
+ },
+ {
+  "match": "Flamengo-RJ vs Independiente del Valle",
+  "home_team": "Flamengo-RJ",
+  "away_team": "Independiente del Valle",
+  "market": "over_2_5",
+  "model_prob": 0.7009,
+  "ev_percent": 17.75,
+  "robust_ev_percent": 9.35,
+  "has_value": true
+ },
+ {
+  "match": "Flamengo-RJ vs Independiente del Valle",
+  "home_team": "Flamengo-RJ",
+  "away_team": "Independiente del Valle",
+  "market": "under_2_5",
+  "model_prob": 0.2991,
+  "ev_percent": -36.89,
+  "robust_ev_percent": -47.44,
+  "has_value": false
+ },
+ {
+  "match": "Montevideo City Torque vs Club Cienciano",
+  "home_team": "Montevideo City Torque",
+  "away_team": "",
+  "market": "prob_block",
+  "model_prob": null
+ },
+ {
+  "match": "Montevideo City Torque vs Club Cienciano",
+  "home_team": "Montevideo City Torque",
+  "away_team": "Club Cienciano",
+  "market": "2",
+  "model_prob": 0.339,
+  "ev_percent": 76.28,
+  "robust_ev_percent": 50.28,
+  "has_value": true
+ },
+ {
+  "match": "Montevideo City Torque vs Club Cienciano",
+  "home_team": "Montevideo City Torque",
+  "away_team": "Club Cienciano",
+  "market": "1",
+  "model_prob": 0.3897,
+  "ev_percent": -39.99,
+  "robust_ev_percent": -47.69,
+  "has_value": false
+ },
+ {
+  "match": "Montevideo City Torque vs Club Cienciano",
+  "home_team": "Montevideo City Torque",
+  "away_team": "Club Cienciano",
+  "market": "X",
+  "model_prob": 0.2713,
+  "ev_percent": 13.95,
+  "robust_ev_percent": -7.05,
+  "has_value": true
+ },
+ {
+  "match": "Montevideo City Torque vs Club Cienciano",
+  "home_team": "Montevideo City Torque",
+  "away_team": "Club Cienciano",
+  "market": "over_2_5",
+  "model_prob": 0.6155,
+  "ev_percent": 3.4,
+  "robust_ev_percent": -5.0,
+  "has_value": false
+ },
+ {
+  "match": "Montevideo City Torque vs Club Cienciano",
+  "home_team": "Montevideo City Torque",
+  "away_team": "Club Cienciano",
+  "market": "under_2_5",
+  "model_prob": 0.3845,
+  "ev_percent": -19.25,
+  "robust_ev_percent": -29.75,
+  "has_value": false
+ }
+]

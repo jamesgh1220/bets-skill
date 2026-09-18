@@ -1,0 +1,24 @@
+{
+  "home_team": "Reading",
+  "away_team": "Brentford",
+  "league": "EFL Cup R3",
+  "xg_home_for": 2.11,
+  "xg_home_against": 0.95,
+  "xg_away_for": 1.91,
+  "xg_away_against": 1.55,
+  "elo_home": 1519,
+  "elo_away": 1848,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 8.5,
+    "X": 5.2,
+    "2": 1.32
+  }
+}

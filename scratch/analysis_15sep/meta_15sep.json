@@ -1,0 +1,16 @@
+{
+  "analysis_date_iso": "2026-09-14T12:00:00-05:00",
+  "match_dates_text": "15 de septiembre de 2026 (Eredivisie y Liga BetPlay II)",
+  "information_cutoff": "2026-09-14T11:00:00-05:00",
+  "model_ia": "bigpickle",
+  "engine_version": "model-v1.2",
+  "leagues_display": "Eredivisie (Países Bajos), Liga BetPlay II (Colombia)",
+  "requested_range": "15 de septiembre de 2026",
+  "universe_preamble": "Universo = intersección(ligas, fecha 15 de septiembre de 2026, partidos=los 2 solicitados) para el martes 15 de septiembre de 2026. El partido colombiano se juega el lunes 14 por la noche en Cali (01:00 UTC del 15); se incluye por hora local y por ser el único con cuotas verificadas en el rango. Se analizaron los 2 partidos con cuotas reales prematch verificadas (cutoff antes del primer kickoff; América-Pasto inicia 01:00 UTC).",
+  "universe_matches": [
+    "1. **Eredivisie (Países Bajos), jornada 5:** Ajax vs Willem II (15 sep 2026, 18:00 UTC, Cruijff ArenA) — cuotas Bet365 1X2 1.13 / 8.50 / 17.00.",
+    "2. **Liga BetPlay II (Colombia), fecha 9:** América de Cali vs Deportivo Pasto (15 sep 2026, 01:00 UTC — lunes 14, 20:00 en Cali, Estadio Pascual Guerrero) — cuotas Legalbet 1X2 1.31 / 5.25 / 12.50."
+  ],
+  "picks_details": [],
+  "fallback_source": "Todos los MCPs no operativos (apifootball: 'Authentification failed!'; football-stats: MISSING_SOURCE; odds-api: get_events vacío/get_odds null) → investigación del agente vía web y fallback consignado. Cuotas prematch verificadas: Ajax-Willem Bet365 (índice FootyMetrics, 14/09/2026); América-Pasto Legalbet (13-14/09/2026) y cross-check hintscope 1@1.40. Eredivisie: xG/córners/tarjetas de FootyMetrics (misma fuente Opta, temporada 2026/27); Elo de ClubElo (14/09/2026, Ajax 1689, Willem II 1414). Colombia: sin fuente de xG -> xG estimado por goles reales (redscores: América GF 1.6/GA 0.8; Pasto GF 1.2/GA 1.5); Elo ClubElo (América 1678, Pasto 1524); córners/tarjetas de redscores (totales por partido, reparto estimado). Cuotas O/U 1.5/2.5/3.5 y BTTS NO capturadas en ninguna fuente fiable para ambos partidos -> n/d (no se fabrican; sin cuota verificada = mercado no disponible). Córners/tarjetas sin cuotas O/U verificadas -> probabilidades del modelo documentadas, sin valor EV. Motor calc_engine.py model-v1.2 (Poisson 0.35 / Dixon-Coles 0.30 / Elo 0.20 / regresión 0.15; calibración Platt 1X2 + O/U 2.5)."
+}

@@ -1,0 +1,57 @@
+{
+  "analysis_date_iso": "2026-09-15T00:10:00-05:00",
+  "match_dates_text": "15 de septiembre de 2026",
+  "information_cutoff": "2026-09-14T23:55:00-05:00",
+  "model_ia": "bigpickle",
+  "engine_version": "model-v1.2",
+  "leagues_display": "LaLiga (España), Eredivisie (Países Bajos), Ingeniería EFL Cup (Inglaterra), Copa Italia (Italia), Copa Libertadores y Copa Sudamericana (CONMEBOL), Liga BetPlay II (Colombia)",
+  "requested_range": "15 de septiembre de 2026 (partidos:todos)",
+  "universe_preamble": "Universo = intersección(ligas, fecha 15 de septiembre de 2026, partidos=todos). Se analizaron los 15 partidos con cuota real prematch verificada o cuotas n/d consignadas (cutoff antes del primer kickoff). El partido colombiano (América-Pasto) inicia 01:00 UTC del 15 = lunes 20:00 en Cali y pertenece al rango solicitado. São Paulo-Boca (00:30 UTC del 16, martes 21:30 en Argentina) entra como vuelta jugada el día 15 local; sin cuota publicada quedó sin mercado (n/d).",
+  "universe_matches": [
+    "1. **LaLiga (España), jornada 5:** Rayo Vallecano vs Espanyol (15 sep, 17:00 UTC, Butarque) — 1X2 DraftKings 2.25 / 3.45 / 3.25; O/U 2.5 1.91/1.87.",
+    "2. **LaLiga (España), jornada 5:** Alavés vs Valencia (15 sep, 18:00 UTC, Mendizorroza) — 1X2 DraftKings 1.87 / 3.30 / 4.80; O/U 2.5 2.20/1.67.",
+    "3. **LaLiga (España), jornada 5:** Elche vs Real Madrid (15 sep, 19:30 UTC, Martínez Valero) — 1X2 DraftKings 11.00 / 7.00 / 1.235; O/U 3.5 1.80/2.00.",
+    "4. **Eredivisie, jornada 5:** Ajax vs Willem II (15 sep 2026, 18:00 UTC, Cruijff ArenA) — 1X2 Bet365 1.13 / 8.50 / 17.00.",
+    "5. **Liga BetPlay II, fecha 9:** América de Cali vs Deportivo Pasto (15 sep 2026, 01:00 UTC — lunes 14, 20:00 en Cali, Pascual Guerrero) — 1X2 Legalbet 1.31 / 5.25 / 12.50.",
+    "6. **EFL Cup R3 (Inglaterra):** Peterborough vs Barnsley (15 sep, 18:30 UTC) — 1X2 Betano 2.15 / 3.50 / 3.10; O3.5 3.00.",
+    "7. **EFL Cup R3 (Inglaterra):** West Ham vs Fulham (15 sep, 18:45 UTC) — 1X2 Betano 3.25 / 3.55 / 2.18.",
+    "8. **EFL Cup R3 (Inglaterra):** Ipswich vs Arsenal (15 sep, 19:00 UTC) — 1X2 Betano 8.00 / 4.85 / 1.39.",
+    "9. **EFL Cup R3 (Inglaterra):** Liverpool vs Tottenham (15 sep, 19:00 UTC) — 1X2 1xBet 1.80 / 3.80 / 3.90; O/U 2.5 1.50/2.45; O3.5 2.21; BTTS 1.45/2.55.",
+    "10. **EFL Cup R3 (Inglaterra):** Reading vs Brentford (15 sep, 19:00 UTC) — 1X2 Betano 8.50 / 5.20 / 1.32.",
+    "11. **Copa Libertadores QF (vuelta):** Platense vs Fluminense (15 sep, 22:00 UTC) — 1X2 Betnacional 2.70 / 3.25 / 2.70; BTTS 1.90. Ida 2-0 Fluminense (Flu lidera 2-0 global).",
+    "12. **Copa Sudamericana QF (vuelta):** Vasco da Gama vs Santa Fe (15 sep, 22:00 UTC) — 1X2 1.44 / 3.80 / 7.00; U2.5 1.65.",
+    "13. **Copa Sudamericana QF (vuelta):** São Paulo vs Boca Juniors (15 sep, 00:30 UTC 16) — cuotas NO publicadas a cutoff (n/d). Ida 1-0 Boca.",
+    "14. **Coppa Italia R32:** Genoa vs Südtirol (15 sep, 16:00 UTC) — 1X2 1.65 / 3.80 / 5.25; O/U 2.5 1.60/2.10; BTTS 1.90/1.80.",
+    "15. **Coppa Italia R32:** Fiorentina vs Pisa (15 sep, 19:00 UTC) — 1X2 SNAI 1.38 / 4.75 / 8.00; O/U 1.5 1.15/4.50; O/U 2.5 1.52/2.25; O/U 3.5 2.30/1.52; BTTS 1.72/2.00."
+  ],
+  "picks_details": [
+    {
+      "match": "Rayo Vallecano vs Espanyol",
+      "market": "over_2_5",
+      "why": "Rayo concentra el peor xGA de la liga (2.06/g), con partidos de muchos goles y 6.0 córners propios; Espanyol genera ~1.2 xG/g y más de 2.5 en sus cruces recientes. La cuota 1.91 sobre 2.5 sitúa la implícita en 52%, frente a 67.8% del modelo.",
+      "risks": "Rayo cedió 2.05 xGA/g y su bloque es frágil; aun así el over depende de que ambos marquen, y Espanyol tiene portería en cero en 2 de 5. Incertidumbre base +/-5%.",
+      "sources": "DraftKings vía ESPN (14/09); ESPN team stats xG; Statz córners; ClubElo.",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0% (muestra LaLiga jornada 5)"
+    },
+    {
+      "match": "Alavés vs Valencia",
+      "market": "over_2_5",
+      "why": "Mercado con over a 2.20 (implícita 45.5%) frente a 56.9% del modelo. Aunque Alavés tiene buena defensa, su ataque genera 1.6 xG/g y Valencia es el peor equipo (0.76 xG/g, 1 gol en 5, xGA 1.61) con alta varianza post-cambio de técnico.",
+      "risks": "Alavés solo concede ~1.0 g/g y domina el balón; Valencia podría cerrarse. Es el pick con menor edge (rEV +14.3%). Si el nuevo técnico ordena el bloque, el under gana.",
+      "sources": "DraftKings vía ESPN (14/09); ESPN team stats xG; ClubElo.",
+      "conf": "Media",
+      "incertidumbre": "Base +/- 5.0% (xG estimado y cambio de técnico Valencia)"
+    },
+    {
+      "match": "Genoa vs Südtirol",
+      "market": "under_2_5",
+      "why": "Genoa es el peor ataque de Serie A (0.5 GF en 5, xG for ~0.8/g, over 2.5 en solo 25% de sus partidos); Südtirol (Serie B, 1.33 GF, 0.33 GA) tampoco juega high-scoring. Cuota under 2.10 (implícita 47.6%) vs 56.6% del modelo.",
+      "risks": "Derrota a pens. En Coppa con Genoa obligado a ganar, el partido puede abrirse si Südtirol provoca. El 1X2 del mismo partido está distorsionado (mismatch Serie A vs Serie B) y se EXCLUYE: no apostar resultado aunque el modelo lo marque.",
+      "sources": "statz.ai/Sportmonks xG Serie A/B; bottadiculo cuotas (14/09); ClubElo.",
+      "conf": "Media",
+      "incertidumbre": "Base +/- 5.0% (muestra Serie B 3 partidos)"
+    }
+  ],
+  "fallback_source": "Todos los MCPs no operativos (apifootball: 'Authentification failed!' con APIFOOTBALL_KEY en .env y HTTP 500 en llamada directa; football-stats: MISSING_SOURCE -> 'python -m collect_data --rebuild-only' y DB sin datos de 2026-27; odds-api: get_events/get_odds sin cobertura fuera de EPL) -> investigación del agente vía web y fallback consignado. Fuentes: ESPN fixtures/resultados, DraftKings (cuotas LaLiga 14/09), Betano/1xBet/SNAI/Betnacional/Legalbet (cuotas 13-14/09), ClubElo (ratings 15/09 00:02, corte igual a análisis), Statz y estadísticas oficiales de LaLiga (córners/tarjetas), FOX boxscore y Sportmonks/statz (xG Serie A/B), redscores (goles Colombia). xG de liga/división distintos NO ajustados por el motor (regresión sin término de nivel de liga): los resultados 1X2 de cruces interdivisión (EFL cup vs PL/Championship, Coppa Serie A vs Serie B, etc.) se EXCLUYERON por robustez (probabilidad-mismatch); se conservan únicamente mercados O/U plausibles. São Paulo-Boca sin cuota publicada (n/d) -> mercado no disponible. Córners/tarjetas: solo completos en LaLiga (Statz/Oficial) y Coppa (statz.ai); EFL Cup y CONMEBOL sin cuotas O/U ni datos de córners en fuentes fiables -> 'corners/cards no disponibles' en NO BET (nunca omitidos en silencio). Motor calc_engine.py model-v1.2 con calibración Platt (1X2 local/visitante, O/U 2.5)."
+}

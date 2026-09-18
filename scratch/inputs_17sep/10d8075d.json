@@ -1,0 +1,25 @@
+{
+ "home_team": "Montevideo City Torque",
+ "away_team": "Club Cienciano",
+ "xg_home_for": 1.43,
+ "xg_home_against": 1.08,
+ "xg_away_for": 1.46,
+ "xg_away_against": 1.35,
+ "elo_home": 1550,
+ "elo_away": 1593,
+ "corners_home_for": 4.3,
+ "corners_home_against": 5.0,
+ "corners_away_for": 5.13,
+ "corners_away_against": 3.87,
+ "cards_home_for": 2.9,
+ "cards_home_against": null,
+ "cards_away_for": 1.36,
+ "cards_away_against": null,
+ "odds": {
+  "2": 5.2,
+  "1": 1.54,
+  "X": 4.2,
+  "over_2_5": 1.68,
+  "under_2_5": 2.1
+ }
+}

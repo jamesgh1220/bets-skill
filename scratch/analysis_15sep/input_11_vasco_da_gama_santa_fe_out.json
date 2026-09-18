@@ -1,0 +1,81 @@
+{
+  "match": "Vasco da Gama vs Santa Fe",
+  "probabilities": {
+    "1": 0.3371,
+    "X": 0.3147,
+    "2": 0.3481,
+    "under_1_5": 0.3979,
+    "over_1_5": 0.6021,
+    "under_2_5": 0.6245,
+    "over_2_5": 0.3755,
+    "under_3_5": 0.8571,
+    "over_3_5": 0.1429,
+    "btts_yes": 0.4056,
+    "btts_no": 0.5944,
+    "1x": 0.6519,
+    "x2": 0.6629,
+    "12": 0.6853,
+    "dnb_home": 0.3371,
+    "dnb_away": 0.3481,
+    "expected_goals_home": 1.07,
+    "expected_goals_away": 0.93
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.44,
+      "model_prob": 0.3371,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2871,
+      "implied_prob": 0.6944,
+      "fair_odds": 2.97,
+      "edge": -51.46,
+      "ev_percent": -51.46,
+      "robust_ev_percent": -58.66,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 3.8,
+      "model_prob": 0.3147,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2647,
+      "implied_prob": 0.2632,
+      "fair_odds": 3.18,
+      "edge": 19.59,
+      "ev_percent": 19.59,
+      "robust_ev_percent": 0.59,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 7.0,
+      "model_prob": 0.3481,
+      "push_prob": 0.0,
+      "conservative_prob": 0.2981,
+      "implied_prob": 0.1429,
+      "fair_odds": 2.87,
+      "edge": 143.67,
+      "ev_percent": 143.67,
+      "robust_ev_percent": 108.67,
+      "stake_recommended_units": 0.06,
+      "has_value": true
+    },
+    "under_2_5": {
+      "market": "under_2_5",
+      "odds": 1.65,
+      "model_prob": 0.6245,
+      "push_prob": 0.0,
+      "conservative_prob": 0.5745,
+      "implied_prob": 0.6061,
+      "fair_odds": 1.6,
+      "edge": 3.04,
+      "ev_percent": 3.04,
+      "robust_ev_percent": -5.21,
+      "stake_recommended_units": 0.01,
+      "has_value": false
+    }
+  }
+}

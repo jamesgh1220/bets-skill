@@ -1,0 +1,48 @@
+{
+  "analysis_date_iso": "2026-09-17T01:40:00Z",
+  "match_dates_text": "17 de septiembre de 2026",
+  "information_cutoff": "2026-09-17T01:38:19Z",
+  "model_ia": "bigpickle",
+  "engine_version": "model-v1.2",
+  "leagues_display": "UEFA Europa League (fase liga, jornada 1)",
+  "requested_range": "17 de septiembre de 2026 — UEFA Europa League: Real Sociedad vs Bournemouth, Celtic vs Ferencvaros TC, Crystal Palace vs Lech Poznan",
+  "universe_preamble": "Universo = interseccion(liga UEFA Europa League, fecha 17 de septiembre de 2026, los tres partidos solicitados). Se analizaron los 3 encuentros de la jornada 1 con cuota real prematch verificada (snapshot The Odds API 17/09 01:38 UTC, cutoff anterior al primer kickoff de las 19:00 UTC). Las tasas de corners y tarjetas for/against de ambos equipos se recolectaron y constan en el match_input (campo obligatorio), pero no existe cuota O/U verificable de corners/tarjetas en las fuentes disponibles, por lo que esos mercados quedan NO DISPONIBLES (no se inventan cuotas).",
+  "universe_matches": [
+    "1. **UEFA Europa League, Jornada 1:** Real Sociedad vs Bournemouth (17 sep, 19:00 UTC, Estadio Anoeta) — 1X2 mediana 2.90 / 3.55 / 2.30; O/U 2.5 1.72/2.10.",
+    "2. **UEFA Europa League, Jornada 1:** Celtic vs Ferencvaros TC (17 sep, 19:00 UTC, Celtic Park) — 1X2 1.73 / 4.00 / 4.36; O/U 2.5 1.56/2.40; O/U 3.5 2.35/1.59.",
+    "3. **UEFA Europa League, Jornada 1:** Crystal Palace vs Lech Poznan (17 sep, 19:00 UTC, Selhurst Park) — 1X2 1.38 / 5.00 / 7.27; O/U 2.5 1.62/2.25."
+  ],
+  "picks_details": [
+    {
+      "match": "Celtic vs Ferencvaros TC",
+      "market": "under_3_5",
+      "min_odds": "1.33",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0% (xG de proveedores con muestras cortas; línea 3.5 con 4 casas)",
+      "why": "El Celtic sostiene una defensa de élite (0.25 xGA por partido, 3 goles en 6 jornadas) y Ferencváros promedia 1.46 xG / 1.59 xGA. El motor estima lambda 1.56-0.73 (total 2.29) y da Under 3.5 al 80.1%, frente al 62.9% implícito en la cuota 1.59. El partido tiende a pocos goles pese al poderío ofensivo local.",
+      "risks": "El Celtic viene de golear (3-0 al Aberdeen, 7-0 en Copa) y podría repetir un marcador abultado; si Ferencváros se abre, un 4-0 rompe el under. La línea 3.5 se capturó en solo 4 casas (mediana con muestra fina).",
+      "sources": "The Odds API (captura 17/09 01:38 UTC); fotmob (7.7 xG del Celtic en 6); performanceOdds (Ferencváros 1.46/1.59); Pythia (córners/tarjetas); ClubElo (1692/1657); Sports Mole team news (15/09)."
+    },
+    {
+      "match": "Crystal Palace vs Lech Poznan",
+      "market": "over_2_5",
+      "min_odds": "1.39",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0% (muestra 3-6 partidos; xG de ligas distintas)",
+      "why": "Crystal Palace concede 1.93 xGA en casa y Lech Poznań promedia 2.11 xG a domicilio con 0.84 xGA; el motor estima lambda 1.36-1.90 (total 3.26) y da Over 2.5 al 77.1%, frente al 61.7% implícito en la cuota 1.62. El Palace acumula 11 goles en contra en 4 jornadas de Premier y el Lech ha marcado 3+ en varios partidos.",
+      "risks": "El Palace tiene calidad individual para controlar y cerrar el partido; las ausencias defensivas (Henderson, Riad, Disasi sancionado) añaden varianza en ambas direcciones. El 1X2 del Lech se excluye por robustez (xG entre ligas).",
+      "sources": "The Odds API (captura 17/09 01:38 UTC); xGLab/FootyMetrics/StatMuse (xG Palace); FootyMetrics (Lech 2.11/0.84); Statz/FootyMetrics (córners/tarjetas); ClubElo (1818/1676); Sports Mole team news (15/09)."
+    },
+    {
+      "match": "Real Sociedad vs Bournemouth",
+      "market": "over_2_5",
+      "min_odds": "1.61",
+      "conf": "Media",
+      "incertidumbre": "Base +/- 5.0% (muestra 5-6 partidos; discrepancia entre proveedores de xG)",
+      "why": "Real Sociedad concede 1.66 xGA por partido en LaLiga 2026-27 y apenas genera 0.93 xG propios; Bournemouth produce 1.50 xG y cede 1.60 en la Premier. El motor estima lambda 1.39-1.46 (total 2.85) y da Over 2.5 al 67.1%, frente al 58.1% implícito en la cuota 1.72. Ambos llegan con defensas frágiles y partidos abiertos (4 de los últimos 5 del Bournemouth con 2+ goles).",
+      "risks": "Anoeta puede cerrarse si la Real protege el resultado tras el 0-3 ante el Atlético; la muestra de xG es de 5-6 partidos y la calibración Platt solo cubre O/U 2.5. La cuota 1.72 es de consenso multi-casa.",
+      "sources": "The Odds API (mediana multi-casa, captura 17/09 01:38 UTC); xGLab/StatMuse (xG Real Sociedad y Bournemouth); Pythia (córners/tarjetas); ClubElo (1768/1859); Sports Mole team news (15/09)."
+    }
+  ],
+  "fallback_source": "MCPs no operativos: apifootball devolvio 'Authentification failed!' (fixtures/standings/H2H y corners-cards via statistics) y football-stats no tiene datos 2026-27; el MCP local odds-api devolvio null, por lo que se uso el snapshot de The Odds API capturado en scratch/odds_17sep (17/09 01:38 UTC; mercados h2h y totals). Investigacion del agente via web: Sports Mole (team news, 15/09), Pythia/FootyMetrics/Statz (corners/tarjetas), xGLab/StatMuse/fotmob/performanceOdds (xG) y ClubElo (Elo). Robustez: el 1X2 de Lech Poznan (cuota 7.27) se EXCLUYE porque el motor no ajusta nivel de liga y el xG de la Ekstraklasa frente a la Premier produce una probabilidad no fiable (55.2% modelo vs 13.8% implicito). Motor calc_engine.py model-v1.2 con calibracion Platt (1X2 local/visitante, O/U 2.5)."
+}

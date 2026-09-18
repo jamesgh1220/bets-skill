@@ -1,0 +1,90 @@
+{
+ "analysis_date_iso": "2026-09-17T02:00:00Z",
+ "match_dates_text": "17 de septiembre de 2026",
+ "information_cutoff": "2026-09-17T01:38:19Z",
+ "model_ia": "bigpickle",
+ "engine_version": "model-v1.2",
+ "leagues_display": "Liga Española (LaLiga), UEFA Europa League, EFL Cup (Inglaterra), Copa Libertadores, Copa Sudamericana, Liga Colombiana (0 partidos el 17 sep)",
+ "requested_range": "17 de septiembre de 2026",
+ "universe_preamble": "Universo = 14 partidos del 17-09-2026 (hora local de sede): 9 UEFA Europa League, 2 LaLiga, 1 EFL Cup, 1 Copa Libertadores, 1 Copa Sudamericana. Liga colombiana: 0 partidos el 17 sep (Fecha 11 comienza el 18-sep; el 16-sep se disputó Once Caldas–Tolima e Internacional de Bogotá–Nacional, fuera del rango). MCP apifootball fuera de servicio (auth) y football-stats sin team stats: investigación vía agentes + fotmob/sofascore/understat (baseline xG 25-26 rescatado local). Cuotas: The Odds API vía REST (fallback, capa 1 multiagente).",
+ "universe_matches": [
+  "OFI Crete vs TSG Hoffenheim (UEL)",
+  "PFC Levski Sofia vs Salzburg (UEL)",
+  "Besiktas JK vs Marseille (UEL)",
+  "Real Sociedad vs Bournemouth (UEL)",
+  "Celtic vs Ferencváros TC (UEL)",
+  "Crystal Palace vs Lech Poznań (UEL)",
+  "Juventus vs NEC Nijmegen (UEL)",
+  "Lillestrom vs Torreense (UEL)",
+  "Viktoria Plzeň vs Union Saint-Gilloise (UEL)",
+  "Real Betis vs Getafe (LaLiga)",
+  "Málaga vs Villarreal (LaLiga)",
+  "Manchester City vs Norwich City (EFL Cup)",
+  "Flamengo-RJ vs Independiente del Valle (Libertadores QF vuelta, 0-2 ida)",
+  "Montevideo City Torque vs Club Cienciano (Sudamericana, 0-2 ida)",
+  "Liga Colombiana: 0 partidos en fecha (Fuente: Dimayor/ESPN, Fecha 11 inicia 18-sep)"
+ ],
+ "fallback_source": "The Odds API (REST, layer 1: ~20 libros incl. Pinnacle/Betfair), Understat baseline 25-26, fotmob/sofascore vía agentes",
+ "picks_details": [
+  {
+   "match": "PFC Levski Sofia vs Salzburg",
+   "market": "over_2_5",
+   "min_odds": "1.20",
+   "conf": "Media-Alta",
+   "incertidumbre": "Media: xG de levski de liga búlgara (5 partidos) y Salzburg austriaca (5 partidos)",
+   "why": "λ total 3.59 (H 1.91 / A 1.68) por ataque dominante de Salzburg y defensa vulnerable de Levski (xGA 1.37); mercado en 1.65 vs modelo 83.3% → EV +37%.",
+   "risks": "Salzburg rota por congestión (Europa League semana doble); Levski juega muy replegado en fase de grupos inicial.",
+   "sources": "FotMob/SofaScore (xG 5 PJ), The Odds API 17-sep 01:38Z"
+  },
+  {
+   "match": "OFI Crete vs TSG Hoffenheim",
+   "market": "over_2_5",
+   "min_odds": "1.22",
+   "conf": "Media-Alta",
+   "incertidumbre": "Alta: muestra de OFI limitada (1 PJ Europa League + dif.); xG Hoffenheim 5 PJ Bundesliga fiables",
+   "why": "Hoffenheim (favorito 1.38) genera 1.87 xGF y encaja 1.85 xGA; λ total 3.49. Mercado 1.54 vs modelo 81.6% → EV +25.7%.",
+   "risks": "OFI es un equipo defensivo de liga griega; partido bajo en ocasiones si Hoffenheim controla temprano.",
+   "sources": "FotMob/SofaScore, The Odds API 17-sep 01:38Z"
+  },
+  {
+   "match": "Celtic vs Ferencváros TC",
+   "market": "under_3_5",
+   "min_odds": "1.25",
+   "conf": "Media-Alta",
+   "incertidumbre": "Media: xG Ferencváros (liga húngara 5 PJ) con poca equivalencia entre ligas",
+   "why": "Celtic sólido en casa (xGA 0.25) y Fradi juega cerrado; λ total 2.29. Mercado u3.5 1.59 vs modelo 80.1% → EV +27.4%.",
+   "risks": "Celtic en Parkhead puede revertir el plan conservador de Ferencváros y meter 4+; gestor de cuota 3.5 cubre escenarios altos parcialmente.",
+   "sources": "FotMob/SofaScore, The Odds API 17-sep 01:38Z"
+  },
+  {
+   "match": "Crystal Palace vs Lech Poznań",
+   "market": "over_2_5",
+   "min_odds": "1.30",
+   "conf": "Media",
+   "incertidumbre": "Alta: xG de Lech (Ekstraklasa) no directamente comparable con EPL; ajuste de nivel aplicado (to 1.40/1.50) mantiene value (p 0.766, rEV +16%).",
+   "why": "Palace con calidad ofensiva en casa (xGF 1.63) y Lech ataca (xGF 2.11 en Polonia) aunque defiende (xGA 0.84 a nivel Ekstraklasa); λ total 3.26 (ajustado 2.90). Mercado 1.62 vs modelo 77.1% → EV +25%.",
+   "risks": "Palace en mala racha goleadora (3 goles en 5 PL, 16º); Lech priorizará no perder fuera en fase de grupos.",
+   "sources": "FotMob/SofaScore, Understat (por equipo), The Odds API 17-sep 01:38Z"
+  },
+  {
+   "match": "Viktoria Plzeň vs Union Saint-Gilloise",
+   "market": "over_2_5",
+   "min_odds": "1.33",
+   "conf": "Media",
+   "incertidumbre": "Alta: xG de Plzen estimado por goles (16 GF/15 GA en 8 PJ) ante ausencia de xG fiables checos",
+   "why": "Union SG líder en Bélgica con xGF 2.0 y xGA 1.2 (nivel comparable); Plzen local con 2.0 goles/partido de media; λ total 3.17. Mercado 1.79 vs modelo 75.4% → EV +35%.",
+   "risks": "Plzen contra rival fuerte juega en transición y puede quedar 0-1 / 1-1; línea 2.5 exige 3 goles y el partido puede ser táctico en la UEL.",
+   "sources": "FotMob/SofaScore, The Odds API 17-sep 01:38Z"
+  },
+  {
+   "match": "Manchester City vs Norwich City",
+   "market": "under_3_5",
+   "min_odds": "1.79",
+   "conf": "Media",
+   "incertidumbre": "Media: xG de Norwich es de Championship e inflar los totales hacia arriba; escenario de rotación masiva en copa",
+   "why": "Pep rotará en EFL Cup y Norwich plantará un bloque bajo; el modelo da u3.5 60.8% vs mercado 45.9% → EV +32.6%; robusto a escenario de rotación (xG City -7.5% → rEV +23%).",
+   "risks": "City con titulares ofensivos podría golear si el partido se abre; cup lineups anunciados tarde.",
+   "sources": "FotMob/SofaScore, BBC (rotación EFL Cup), The Odds API 17-sep 01:38Z"
+  }
+ ]
+}

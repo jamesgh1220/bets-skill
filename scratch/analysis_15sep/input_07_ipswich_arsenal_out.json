@@ -1,0 +1,67 @@
+{
+  "match": "Ipswich vs Arsenal",
+  "probabilities": {
+    "1": 0.1074,
+    "X": 0.219,
+    "2": 0.6736,
+    "under_1_5": 0.216,
+    "over_1_5": 0.784,
+    "under_2_5": 0.3277,
+    "over_2_5": 0.6723,
+    "under_3_5": 0.6809,
+    "over_3_5": 0.3191,
+    "btts_yes": 0.5632,
+    "btts_no": 0.4368,
+    "1x": 0.3264,
+    "x2": 0.8926,
+    "12": 0.781,
+    "dnb_home": 0.1074,
+    "dnb_away": 0.6736,
+    "expected_goals_home": 1.14,
+    "expected_goals_away": 1.71
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 8.0,
+      "model_prob": 0.1074,
+      "push_prob": 0.0,
+      "conservative_prob": 0.0574,
+      "implied_prob": 0.125,
+      "fair_odds": 9.31,
+      "edge": -14.08,
+      "ev_percent": -14.08,
+      "robust_ev_percent": -54.08,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.85,
+      "model_prob": 0.219,
+      "push_prob": 0.0,
+      "conservative_prob": 0.169,
+      "implied_prob": 0.2062,
+      "fair_odds": 4.57,
+      "edge": 6.21,
+      "ev_percent": 6.21,
+      "robust_ev_percent": -18.04,
+      "stake_recommended_units": 0.0,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 1.39,
+      "model_prob": 0.6736,
+      "push_prob": 0.0,
+      "conservative_prob": 0.6236,
+      "implied_prob": 0.7194,
+      "fair_odds": 1.48,
+      "edge": -6.37,
+      "ev_percent": -6.37,
+      "robust_ev_percent": -13.32,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    }
+  }
+}

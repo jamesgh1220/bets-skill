@@ -1,0 +1,24 @@
+{
+  "home_team": "América de Cali",
+  "away_team": "Deportivo Pasto",
+  "league": "Liga BetPlay II",
+  "xg_home_for": 2.0,
+  "xg_home_against": 0.8,
+  "xg_away_for": 0.8,
+  "xg_away_against": 1.7,
+  "elo_home": 1678,
+  "elo_away": 1524,
+  "corners_home_for": 6.2,
+  "corners_home_against": 3.8,
+  "corners_away_for": 3.8,
+  "corners_away_against": 6.2,
+  "cards_home_for": 2.8,
+  "cards_home_against": 2.7,
+  "cards_away_for": 2.7,
+  "cards_away_against": 2.8,
+  "odds": {
+    "1": 1.31,
+    "X": 5.25,
+    "2": 12.50
+  }
+}

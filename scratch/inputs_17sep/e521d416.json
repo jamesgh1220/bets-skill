@@ -1,0 +1,27 @@
+{
+ "home_team": "Manchester City",
+ "away_team": "Norwich City",
+ "xg_home_for": 2.2,
+ "xg_home_against": 0.7,
+ "xg_away_for": 1.9,
+ "xg_away_against": 1.55,
+ "elo_home": 2032,
+ "elo_away": 1620,
+ "corners_home_for": 5.4,
+ "corners_home_against": 2.8,
+ "corners_away_for": 4.9,
+ "corners_away_against": 4.8,
+ "cards_home_for": 1.8,
+ "cards_home_against": 2.0,
+ "cards_away_for": 3.0,
+ "cards_away_against": 2.0,
+ "odds": {
+  "1": 1.1,
+  "2": 17.25,
+  "X": 9.5,
+  "over_2_5": 1.25,
+  "under_2_5": 3.8,
+  "over_3_5": 1.65,
+  "under_3_5": 2.18
+ }
+}

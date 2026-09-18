@@ -1,0 +1,2309 @@
+{
+ "cff5815d2f10c40b034716e082023a84": {
+  "id": "cff5815d2f10c40b034716e082023a84",
+  "sport": "UEFA Europa League",
+  "commence": "2026-09-17T16:45:00Z",
+  "home": "OFI Crete",
+  "away": "TSG Hoffenheim",
+  "markets": {
+   "h2h": {
+    "OFI Crete": {
+     "n": 39,
+     "min": 6.5,
+     "max": 8.5,
+     "median": 7.5,
+     "trim_mean": 7.51
+    },
+    "TSG Hoffenheim": {
+     "n": 39,
+     "min": 1.33,
+     "max": 1.44,
+     "median": 1.38,
+     "trim_mean": 1.38
+    },
+    "Draw": {
+     "n": 39,
+     "min": 4.6,
+     "max": 5.3,
+     "median": 5.0,
+     "trim_mean": 4.95
+    }
+   },
+   "totals": {
+    "Over@3.5": {
+     "n": 5,
+     "min": 2.24,
+     "max": 2.4,
+     "median": 2.3,
+     "trim_mean": 2.3
+    },
+    "Under@3.5": {
+     "n": 5,
+     "min": 1.55,
+     "max": 1.63,
+     "median": 1.57,
+     "trim_mean": 1.57
+    },
+    "Over@3.0": {
+     "n": 5,
+     "min": 1.82,
+     "max": 1.94,
+     "median": 1.91,
+     "trim_mean": 1.91
+    },
+    "Under@3.0": {
+     "n": 5,
+     "min": 1.83,
+     "max": 1.98,
+     "median": 1.84,
+     "trim_mean": 1.84
+    },
+    "Over@2.5": {
+     "n": 8,
+     "min": 1.44,
+     "max": 1.55,
+     "median": 1.54,
+     "trim_mean": 1.54
+    },
+    "Under@2.5": {
+     "n": 8,
+     "min": 2.3,
+     "max": 2.48,
+     "median": 2.45,
+     "trim_mean": 2.45
+    }
+   },
+   "h2h_lay": {
+    "OFI Crete": {
+     "n": 3,
+     "min": 8.6,
+     "max": 8.6,
+     "median": 8.6,
+     "trim_mean": 0.0
+    },
+    "TSG Hoffenheim": {
+     "n": 3,
+     "min": 1.45,
+     "max": 1.45,
+     "median": 1.45,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 3,
+     "min": 5.3,
+     "max": 5.4,
+     "median": 5.4,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "7293d131a4072c4123dde03fb3e50b3e": {
+  "id": "7293d131a4072c4123dde03fb3e50b3e",
+  "sport": "UEFA Europa League",
+  "commence": "2026-09-17T16:45:00Z",
+  "home": "PFC Levski Sofia",
+  "away": "Salzburg",
+  "markets": {
+   "h2h": {
+    "PFC Levski Sofia": {
+     "n": 43,
+     "min": 2.75,
+     "max": 3.25,
+     "median": 3.0,
+     "trim_mean": 2.99
+    },
+    "Salzburg": {
+     "n": 43,
+     "min": 2.15,
+     "max": 2.35,
+     "median": 2.25,
+     "trim_mean": 2.25
+    },
+    "Draw": {
+     "n": 43,
+     "min": 3.4,
+     "max": 3.7,
+     "median": 3.6,
+     "trim_mean": 3.56
+    }
+   },
+   "h2h_lay": {
+    "PFC Levski Sofia": {
+     "n": 4,
+     "min": 3.35,
+     "max": 3.35,
+     "median": 3.35,
+     "trim_mean": 0.0
+    },
+    "Salzburg": {
+     "n": 4,
+     "min": 2.36,
+     "max": 2.36,
+     "median": 2.36,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 3.75,
+     "max": 3.8,
+     "median": 3.77,
+     "trim_mean": 0.0
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 13,
+     "min": 1.55,
+     "max": 1.69,
+     "median": 1.65,
+     "trim_mean": 1.64
+    },
+    "Under@2.5": {
+     "n": 13,
+     "min": 2.08,
+     "max": 2.27,
+     "median": 2.23,
+     "trim_mean": 2.21
+    },
+    "Over@3.0": {
+     "n": 5,
+     "min": 2.04,
+     "max": 2.1,
+     "median": 2.04,
+     "trim_mean": 2.04
+    },
+    "Under@3.0": {
+     "n": 5,
+     "min": 1.71,
+     "max": 1.75,
+     "median": 1.75,
+     "trim_mean": 1.75
+    },
+    "Over@2.75": {
+     "n": 1,
+     "min": 1.87,
+     "max": 1.87,
+     "median": 1.87,
+     "trim_mean": 0.0
+    },
+    "Under@2.75": {
+     "n": 1,
+     "min": 2.0,
+     "max": 2.0,
+     "median": 2.0,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "72b83b12135b1fcb72f4c154804a5e3f": {
+  "id": "72b83b12135b1fcb72f4c154804a5e3f",
+  "sport": "UEFA Europa League",
+  "commence": "2026-09-17T19:00:00Z",
+  "home": "Besiktas JK",
+  "away": "Marseille",
+  "markets": {
+   "h2h": {
+    "Besiktas JK": {
+     "n": 42,
+     "min": 1.7,
+     "max": 1.85,
+     "median": 1.79,
+     "trim_mean": 1.78
+    },
+    "Marseille": {
+     "n": 42,
+     "min": 3.6,
+     "max": 4.4,
+     "median": 4.1,
+     "trim_mean": 4.08
+    },
+    "Draw": {
+     "n": 42,
+     "min": 3.7,
+     "max": 4.2,
+     "median": 4.0,
+     "trim_mean": 3.97
+    }
+   },
+   "h2h_lay": {
+    "Besiktas JK": {
+     "n": 4,
+     "min": 1.87,
+     "max": 1.87,
+     "median": 1.87,
+     "trim_mean": 0.0
+    },
+    "Marseille": {
+     "n": 4,
+     "min": 4.5,
+     "max": 4.5,
+     "median": 4.5,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 4.3,
+     "max": 4.3,
+     "median": 4.3,
+     "trim_mean": 0.0
+    }
+   },
+   "totals": {
+    "Over@3.5": {
+     "n": 2,
+     "min": 2.26,
+     "max": 2.3,
+     "median": 2.28,
+     "trim_mean": 0.0
+    },
+    "Under@3.5": {
+     "n": 2,
+     "min": 1.54,
+     "max": 1.57,
+     "median": 1.56,
+     "trim_mean": 0.0
+    },
+    "Over@2.5": {
+     "n": 11,
+     "min": 1.47,
+     "max": 1.61,
+     "median": 1.56,
+     "trim_mean": 1.56
+    },
+    "Under@2.5": {
+     "n": 11,
+     "min": 2.25,
+     "max": 2.43,
+     "median": 2.4,
+     "trim_mean": 2.4
+    },
+    "Over@3.0": {
+     "n": 6,
+     "min": 1.87,
+     "max": 1.95,
+     "median": 1.9,
+     "trim_mean": 1.9
+    },
+    "Under@3.0": {
+     "n": 6,
+     "min": 1.87,
+     "max": 1.94,
+     "median": 1.88,
+     "trim_mean": 1.88
+    }
+   }
+  }
+ },
+ "802837ee46675cf2e15f0492a56d269a": {
+  "id": "802837ee46675cf2e15f0492a56d269a",
+  "sport": "UEFA Europa League",
+  "commence": "2026-09-17T19:00:00Z",
+  "home": "Real Sociedad",
+  "away": "Bournemouth",
+  "markets": {
+   "h2h": {
+    "Bournemouth": {
+     "n": 43,
+     "min": 2.15,
+     "max": 2.4,
+     "median": 2.3,
+     "trim_mean": 2.29
+    },
+    "Real Sociedad": {
+     "n": 43,
+     "min": 2.7,
+     "max": 3.1,
+     "median": 2.9,
+     "trim_mean": 2.93
+    },
+    "Draw": {
+     "n": 43,
+     "min": 3.35,
+     "max": 3.7,
+     "median": 3.55,
+     "trim_mean": 3.56
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 14,
+     "min": 1.62,
+     "max": 1.75,
+     "median": 1.72,
+     "trim_mean": 1.71
+    },
+    "Under@2.5": {
+     "n": 14,
+     "min": 1.96,
+     "max": 2.2,
+     "median": 2.1,
+     "trim_mean": 2.1
+    },
+    "Over@3.0": {
+     "n": 4,
+     "min": 2.08,
+     "max": 2.1,
+     "median": 2.09,
+     "trim_mean": 0.0
+    },
+    "Under@3.0": {
+     "n": 4,
+     "min": 1.69,
+     "max": 1.71,
+     "median": 1.71,
+     "trim_mean": 0.0
+    },
+    "Over@2.75": {
+     "n": 1,
+     "min": 1.9,
+     "max": 1.9,
+     "median": 1.9,
+     "trim_mean": 0.0
+    },
+    "Under@2.75": {
+     "n": 1,
+     "min": 1.99,
+     "max": 1.99,
+     "median": 1.99,
+     "trim_mean": 0.0
+    }
+   },
+   "h2h_lay": {
+    "Bournemouth": {
+     "n": 4,
+     "min": 2.42,
+     "max": 2.44,
+     "median": 2.42,
+     "trim_mean": 0.0
+    },
+    "Real Sociedad": {
+     "n": 4,
+     "min": 3.2,
+     "max": 3.2,
+     "median": 3.2,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 3.75,
+     "max": 3.75,
+     "median": 3.75,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "f2d062505296c5434be2d3b7345807ae": {
+  "id": "f2d062505296c5434be2d3b7345807ae",
+  "sport": "UEFA Europa League",
+  "commence": "2026-09-17T19:00:00Z",
+  "home": "Celtic",
+  "away": "Ferencváros TC",
+  "markets": {
+   "h2h": {
+    "Celtic": {
+     "n": 42,
+     "min": 1.63,
+     "max": 1.8,
+     "median": 1.73,
+     "trim_mean": 1.72
+    },
+    "Ferencváros TC": {
+     "n": 42,
+     "min": 3.8,
+     "max": 4.8,
+     "median": 4.36,
+     "trim_mean": 4.39
+    },
+    "Draw": {
+     "n": 42,
+     "min": 3.8,
+     "max": 4.2,
+     "median": 4.0,
+     "trim_mean": 4.01
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 10,
+     "min": 1.47,
+     "max": 1.56,
+     "median": 1.56,
+     "trim_mean": 1.56
+    },
+    "Under@2.5": {
+     "n": 10,
+     "min": 2.25,
+     "max": 2.48,
+     "median": 2.4,
+     "trim_mean": 2.4
+    },
+    "Over@3.5": {
+     "n": 4,
+     "min": 2.25,
+     "max": 2.46,
+     "median": 2.35,
+     "trim_mean": 0.0
+    },
+    "Under@3.5": {
+     "n": 4,
+     "min": 1.54,
+     "max": 1.67,
+     "median": 1.59,
+     "trim_mean": 0.0
+    },
+    "Over@3.0": {
+     "n": 6,
+     "min": 1.82,
+     "max": 1.88,
+     "median": 1.84,
+     "trim_mean": 1.84
+    },
+    "Under@3.0": {
+     "n": 6,
+     "min": 1.9,
+     "max": 2.02,
+     "median": 1.94,
+     "trim_mean": 1.94
+    }
+   },
+   "h2h_lay": {
+    "Celtic": {
+     "n": 4,
+     "min": 1.79,
+     "max": 1.81,
+     "median": 1.81,
+     "trim_mean": 0.0
+    },
+    "Ferencváros TC": {
+     "n": 4,
+     "min": 4.9,
+     "max": 4.9,
+     "median": 4.9,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 4.2,
+     "max": 4.2,
+     "median": 4.2,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "e21f5417eecd4ef4cb1581eee499b80a": {
+  "id": "e21f5417eecd4ef4cb1581eee499b80a",
+  "sport": "UEFA Europa League",
+  "commence": "2026-09-17T19:00:00Z",
+  "home": "Crystal Palace",
+  "away": "Lech Poznań",
+  "markets": {
+   "h2h": {
+    "Crystal Palace": {
+     "n": 43,
+     "min": 1.34,
+     "max": 1.43,
+     "median": 1.38,
+     "trim_mean": 1.38
+    },
+    "Lech Poznań": {
+     "n": 43,
+     "min": 6.5,
+     "max": 8.4,
+     "median": 7.27,
+     "trim_mean": 7.4
+    },
+    "Draw": {
+     "n": 43,
+     "min": 4.5,
+     "max": 5.4,
+     "median": 5.0,
+     "trim_mean": 4.98
+    }
+   },
+   "h2h_lay": {
+    "Crystal Palace": {
+     "n": 4,
+     "min": 1.43,
+     "max": 1.44,
+     "median": 1.44,
+     "trim_mean": 0.0
+    },
+    "Lech Poznań": {
+     "n": 4,
+     "min": 8.6,
+     "max": 8.6,
+     "median": 8.6,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 5.5,
+     "max": 5.5,
+     "median": 5.5,
+     "trim_mean": 0.0
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 13,
+     "min": 1.53,
+     "max": 1.64,
+     "median": 1.62,
+     "trim_mean": 1.61
+    },
+    "Under@2.5": {
+     "n": 13,
+     "min": 2.12,
+     "max": 2.4,
+     "median": 2.25,
+     "trim_mean": 2.27
+    },
+    "Over@3.0": {
+     "n": 6,
+     "min": 1.93,
+     "max": 2.05,
+     "median": 2.02,
+     "trim_mean": 2.02
+    },
+    "Under@3.0": {
+     "n": 6,
+     "min": 1.74,
+     "max": 1.87,
+     "median": 1.79,
+     "trim_mean": 1.79
+    }
+   }
+  }
+ },
+ "8e42b05b63dfa24c0f5785aac3835fe5": {
+  "id": "8e42b05b63dfa24c0f5785aac3835fe5",
+  "sport": "UEFA Europa League",
+  "commence": "2026-09-17T19:00:00Z",
+  "home": "Juventus",
+  "away": "NEC Nijmegen",
+  "markets": {
+   "h2h": {
+    "Juventus": {
+     "n": 42,
+     "min": 1.14,
+     "max": 1.22,
+     "median": 1.19,
+     "trim_mean": 1.19
+    },
+    "NEC Nijmegen": {
+     "n": 42,
+     "min": 10.5,
+     "max": 16.5,
+     "median": 12.0,
+     "trim_mean": 12.84
+    },
+    "Draw": {
+     "n": 42,
+     "min": 6.5,
+     "max": 8.05,
+     "median": 7.0,
+     "trim_mean": 7.13
+    }
+   },
+   "totals": {
+    "Over@3.5": {
+     "n": 15,
+     "min": 1.88,
+     "max": 2.1,
+     "median": 2.0,
+     "trim_mean": 2.0
+    },
+    "Under@3.5": {
+     "n": 15,
+     "min": 1.69,
+     "max": 1.82,
+     "median": 1.78,
+     "trim_mean": 1.76
+    },
+    "Over@3.25": {
+     "n": 1,
+     "min": 1.85,
+     "max": 1.85,
+     "median": 1.85,
+     "trim_mean": 0.0
+    },
+    "Under@3.25": {
+     "n": 1,
+     "min": 2.02,
+     "max": 2.02,
+     "median": 2.02,
+     "trim_mean": 0.0
+    },
+    "Over@2.5": {
+     "n": 2,
+     "min": 1.39,
+     "max": 1.4,
+     "median": 1.4,
+     "trim_mean": 0.0
+    },
+    "Under@2.5": {
+     "n": 2,
+     "min": 2.9,
+     "max": 2.95,
+     "median": 2.92,
+     "trim_mean": 0.0
+    }
+   },
+   "h2h_lay": {
+    "Juventus": {
+     "n": 4,
+     "min": 1.23,
+     "max": 1.23,
+     "median": 1.23,
+     "trim_mean": 0.0
+    },
+    "NEC Nijmegen": {
+     "n": 4,
+     "min": 17.5,
+     "max": 17.51,
+     "median": 17.5,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 8.4,
+     "max": 8.4,
+     "median": 8.4,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "01678a3de0b0537624fbc64304d90710": {
+  "id": "01678a3de0b0537624fbc64304d90710",
+  "sport": "UEFA Europa League",
+  "commence": "2026-09-17T19:00:00Z",
+  "home": "Lillestrom",
+  "away": "Torreense",
+  "markets": {
+   "h2h": {
+    "Lillestrom": {
+     "n": 35,
+     "min": 1.41,
+     "max": 1.55,
+     "median": 1.5,
+     "trim_mean": 1.49
+    },
+    "Torreense": {
+     "n": 35,
+     "min": 5.4,
+     "max": 6.6,
+     "median": 5.9,
+     "trim_mean": 5.9
+    },
+    "Draw": {
+     "n": 35,
+     "min": 4.25,
+     "max": 4.8,
+     "median": 4.5,
+     "trim_mean": 4.54
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 12,
+     "min": 1.47,
+     "max": 1.58,
+     "median": 1.56,
+     "trim_mean": 1.56
+    },
+    "Under@2.5": {
+     "n": 12,
+     "min": 2.22,
+     "max": 2.38,
+     "median": 2.35,
+     "trim_mean": 2.34
+    },
+    "Over@3.0": {
+     "n": 4,
+     "min": 1.91,
+     "max": 1.99,
+     "median": 1.95,
+     "trim_mean": 0.0
+    },
+    "Under@3.0": {
+     "n": 4,
+     "min": 1.83,
+     "max": 1.88,
+     "median": 1.83,
+     "trim_mean": 0.0
+    }
+   },
+   "h2h_lay": {
+    "Lillestrom": {
+     "n": 2,
+     "min": 1.55,
+     "max": 1.55,
+     "median": 1.55,
+     "trim_mean": 0.0
+    },
+    "Torreense": {
+     "n": 2,
+     "min": 7.0,
+     "max": 7.0,
+     "median": 7.0,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 2,
+     "min": 4.9,
+     "max": 4.9,
+     "median": 4.9,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "9fdd372c461b22bca9a6306427583499": {
+  "id": "9fdd372c461b22bca9a6306427583499",
+  "sport": "UEFA Europa League",
+  "commence": "2026-09-17T19:00:00Z",
+  "home": "Viktoria Plzeň",
+  "away": "Union Saint-Gilloise",
+  "markets": {
+   "h2h": {
+    "Union Saint-Gilloise": {
+     "n": 42,
+     "min": 2.38,
+     "max": 2.62,
+     "median": 2.5,
+     "trim_mean": 2.5
+    },
+    "Viktoria Plzeň": {
+     "n": 42,
+     "min": 2.5,
+     "max": 2.84,
+     "median": 2.68,
+     "trim_mean": 2.68
+    },
+    "Draw": {
+     "n": 42,
+     "min": 3.3,
+     "max": 3.65,
+     "median": 3.51,
+     "trim_mean": 3.51
+    }
+   },
+   "h2h_lay": {
+    "Union Saint-Gilloise": {
+     "n": 4,
+     "min": 2.66,
+     "max": 2.66,
+     "median": 2.66,
+     "trim_mean": 0.0
+    },
+    "Viktoria Plzeň": {
+     "n": 4,
+     "min": 2.88,
+     "max": 2.88,
+     "median": 2.88,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 3.7,
+     "max": 3.7,
+     "median": 3.7,
+     "trim_mean": 0.0
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 18,
+     "min": 1.7,
+     "max": 1.81,
+     "median": 1.79,
+     "trim_mean": 1.77
+    },
+    "Under@2.5": {
+     "n": 18,
+     "min": 1.85,
+     "max": 2.2,
+     "median": 2.0,
+     "trim_mean": 2.01
+    },
+    "Over@2.75": {
+     "n": 1,
+     "min": 2.0,
+     "max": 2.0,
+     "median": 2.0,
+     "trim_mean": 0.0
+    },
+    "Under@2.75": {
+     "n": 1,
+     "min": 1.87,
+     "max": 1.87,
+     "median": 1.87,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "7f644eca099054612d9a7e7e5d8787da": {
+  "id": "7f644eca099054612d9a7e7e5d8787da",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-17T17:00:00Z",
+  "home": "Real Betis",
+  "away": "Getafe",
+  "markets": {
+   "h2h": {
+    "Getafe": {
+     "n": 45,
+     "min": 5.0,
+     "max": 6.2,
+     "median": 5.5,
+     "trim_mean": 5.58
+    },
+    "Real Betis": {
+     "n": 45,
+     "min": 1.57,
+     "max": 1.74,
+     "median": 1.67,
+     "trim_mean": 1.65
+    },
+    "Draw": {
+     "n": 45,
+     "min": 3.5,
+     "max": 3.91,
+     "median": 3.7,
+     "trim_mean": 3.69
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 18,
+     "min": 1.97,
+     "max": 2.25,
+     "median": 2.1,
+     "trim_mean": 2.12
+    },
+    "Under@2.5": {
+     "n": 18,
+     "min": 1.62,
+     "max": 1.77,
+     "median": 1.7,
+     "trim_mean": 1.7
+    },
+    "Over@2.25": {
+     "n": 2,
+     "min": 1.89,
+     "max": 1.93,
+     "median": 1.91,
+     "trim_mean": 0.0
+    },
+    "Under@2.25": {
+     "n": 2,
+     "min": 1.93,
+     "max": 1.96,
+     "median": 1.94,
+     "trim_mean": 0.0
+    }
+   },
+   "h2h_lay": {
+    "Getafe": {
+     "n": 4,
+     "min": 6.4,
+     "max": 6.6,
+     "median": 6.4,
+     "trim_mean": 0.0
+    },
+    "Real Betis": {
+     "n": 4,
+     "min": 1.71,
+     "max": 1.72,
+     "median": 1.71,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 3.9,
+     "max": 3.95,
+     "median": 3.9,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "56c5e4d30fc27dedb3ae48a80b81346d": {
+  "id": "56c5e4d30fc27dedb3ae48a80b81346d",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-17T19:30:00Z",
+  "home": "Málaga",
+  "away": "Villarreal",
+  "markets": {
+   "h2h": {
+    "Málaga": {
+     "n": 45,
+     "min": 3.2,
+     "max": 4.0,
+     "median": 3.6,
+     "trim_mean": 3.62
+    },
+    "Villarreal": {
+     "n": 45,
+     "min": 1.8,
+     "max": 2.02,
+     "median": 1.95,
+     "trim_mean": 1.95
+    },
+    "Draw": {
+     "n": 45,
+     "min": 3.45,
+     "max": 4.0,
+     "median": 3.75,
+     "trim_mean": 3.78
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 14,
+     "min": 1.51,
+     "max": 1.68,
+     "median": 1.61,
+     "trim_mean": 1.6
+    },
+    "Under@2.5": {
+     "n": 14,
+     "min": 2.14,
+     "max": 2.38,
+     "median": 2.28,
+     "trim_mean": 2.28
+    },
+    "Over@3.0": {
+     "n": 6,
+     "min": 2.0,
+     "max": 2.09,
+     "median": 2.02,
+     "trim_mean": 2.02
+    },
+    "Under@3.0": {
+     "n": 6,
+     "min": 1.81,
+     "max": 1.85,
+     "median": 1.82,
+     "trim_mean": 1.82
+    }
+   },
+   "h2h_lay": {
+    "Málaga": {
+     "n": 4,
+     "min": 3.85,
+     "max": 3.9,
+     "median": 3.9,
+     "trim_mean": 0.0
+    },
+    "Villarreal": {
+     "n": 4,
+     "min": 2.04,
+     "max": 2.04,
+     "median": 2.04,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 4.1,
+     "max": 4.1,
+     "median": 4.1,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "da3d3fec3e0b6b939910427a76ecfb76": {
+  "id": "da3d3fec3e0b6b939910427a76ecfb76",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-18T19:00:00Z",
+  "home": "Espanyol",
+  "away": "Elche CF",
+  "markets": {
+   "h2h": {
+    "Elche CF": {
+     "n": 45,
+     "min": 3.85,
+     "max": 4.7,
+     "median": 4.4,
+     "trim_mean": 4.41
+    },
+    "Espanyol": {
+     "n": 45,
+     "min": 1.7,
+     "max": 1.91,
+     "median": 1.83,
+     "trim_mean": 1.82
+    },
+    "Draw": {
+     "n": 45,
+     "min": 3.2,
+     "max": 3.8,
+     "median": 3.55,
+     "trim_mean": 3.55
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 20,
+     "min": 1.76,
+     "max": 1.91,
+     "median": 1.84,
+     "trim_mean": 1.85
+    },
+    "Under@2.5": {
+     "n": 20,
+     "min": 1.76,
+     "max": 2.03,
+     "median": 1.93,
+     "trim_mean": 1.93
+    }
+   },
+   "h2h_lay": {
+    "Elche CF": {
+     "n": 4,
+     "min": 4.8,
+     "max": 4.8,
+     "median": 4.8,
+     "trim_mean": 0.0
+    },
+    "Espanyol": {
+     "n": 4,
+     "min": 1.89,
+     "max": 1.89,
+     "median": 1.89,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 3.85,
+     "max": 3.85,
+     "median": 3.85,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "9a70cbf505030f8bfe5c7864f5ac75b5": {
+  "id": "9a70cbf505030f8bfe5c7864f5ac75b5",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-19T12:00:00Z",
+  "home": "CA Osasuna",
+  "away": "Rayo Vallecano",
+  "markets": {
+   "h2h": {
+    "CA Osasuna": {
+     "n": 44,
+     "min": 2.1,
+     "max": 2.4,
+     "median": 2.28,
+     "trim_mean": 2.28
+    },
+    "Rayo Vallecano": {
+     "n": 44,
+     "min": 2.85,
+     "max": 3.3,
+     "median": 3.1,
+     "trim_mean": 3.13
+    },
+    "Draw": {
+     "n": 44,
+     "min": 3.1,
+     "max": 3.45,
+     "median": 3.3,
+     "trim_mean": 3.3
+    }
+   },
+   "totals": {
+    "Over@2.25": {
+     "n": 2,
+     "min": 1.81,
+     "max": 1.82,
+     "median": 1.81,
+     "trim_mean": 0.0
+    },
+    "Under@2.25": {
+     "n": 2,
+     "min": 2.02,
+     "max": 2.03,
+     "median": 2.02,
+     "trim_mean": 0.0
+    },
+    "Over@2.5": {
+     "n": 18,
+     "min": 1.93,
+     "max": 2.18,
+     "median": 2.04,
+     "trim_mean": 2.04
+    },
+    "Under@2.5": {
+     "n": 18,
+     "min": 1.65,
+     "max": 1.89,
+     "median": 1.75,
+     "trim_mean": 1.76
+    }
+   },
+   "h2h_lay": {
+    "CA Osasuna": {
+     "n": 4,
+     "min": 2.44,
+     "max": 2.44,
+     "median": 2.44,
+     "trim_mean": 0.0
+    },
+    "Rayo Vallecano": {
+     "n": 4,
+     "min": 3.4,
+     "max": 3.45,
+     "median": 3.42,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 3.5,
+     "max": 3.55,
+     "median": 3.55,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "a995ad3266759e67c9f9b0617c184b71": {
+  "id": "a995ad3266759e67c9f9b0617c184b71",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-19T14:15:00Z",
+  "home": "Athletic Bilbao",
+  "away": "Alavés",
+  "markets": {
+   "h2h": {
+    "Alavés": {
+     "n": 44,
+     "min": 4.6,
+     "max": 5.8,
+     "median": 5.22,
+     "trim_mean": 5.25
+    },
+    "Athletic Bilbao": {
+     "n": 44,
+     "min": 1.55,
+     "max": 1.71,
+     "median": 1.65,
+     "trim_mean": 1.64
+    },
+    "Draw": {
+     "n": 44,
+     "min": 3.6,
+     "max": 4.0,
+     "median": 3.8,
+     "trim_mean": 3.82
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 20,
+     "min": 1.85,
+     "max": 2.06,
+     "median": 1.95,
+     "trim_mean": 1.97
+    },
+    "Under@2.5": {
+     "n": 20,
+     "min": 1.72,
+     "max": 1.89,
+     "median": 1.81,
+     "trim_mean": 1.82
+    }
+   },
+   "h2h_lay": {
+    "Alavés": {
+     "n": 4,
+     "min": 6.6,
+     "max": 6.8,
+     "median": 6.7,
+     "trim_mean": 0.0
+    },
+    "Athletic Bilbao": {
+     "n": 4,
+     "min": 1.72,
+     "max": 1.72,
+     "median": 1.72,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 4.1,
+     "max": 4.2,
+     "median": 4.15,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "e6b36629bb3480a570ea0db2f47888dd": {
+  "id": "e6b36629bb3480a570ea0db2f47888dd",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-19T16:30:00Z",
+  "home": "Celta Vigo",
+  "away": "Real Racing Club de Santander",
+  "markets": {
+   "h2h": {
+    "Celta Vigo": {
+     "n": 43,
+     "min": 1.68,
+     "max": 1.88,
+     "median": 1.8,
+     "trim_mean": 1.8
+    },
+    "Real Racing Club de Santander": {
+     "n": 43,
+     "min": 3.6,
+     "max": 4.36,
+     "median": 4.0,
+     "trim_mean": 4.01
+    },
+    "Draw": {
+     "n": 43,
+     "min": 3.6,
+     "max": 4.15,
+     "median": 3.9,
+     "trim_mean": 3.9
+    }
+   },
+   "totals": {
+    "Over@2.75": {
+     "n": 2,
+     "min": 1.85,
+     "max": 1.85,
+     "median": 1.85,
+     "trim_mean": 0.0
+    },
+    "Under@2.75": {
+     "n": 2,
+     "min": 1.98,
+     "max": 1.99,
+     "median": 1.98,
+     "trim_mean": 0.0
+    },
+    "Over@2.5": {
+     "n": 13,
+     "min": 1.55,
+     "max": 1.74,
+     "median": 1.64,
+     "trim_mean": 1.64
+    },
+    "Under@2.5": {
+     "n": 13,
+     "min": 2.1,
+     "max": 2.27,
+     "median": 2.2,
+     "trim_mean": 2.19
+    },
+    "Over@3.0": {
+     "n": 3,
+     "min": 2.16,
+     "max": 2.2,
+     "median": 2.16,
+     "trim_mean": 0.0
+    },
+    "Under@3.0": {
+     "n": 3,
+     "min": 1.71,
+     "max": 1.71,
+     "median": 1.71,
+     "trim_mean": 0.0
+    }
+   },
+   "h2h_lay": {
+    "Celta Vigo": {
+     "n": 4,
+     "min": 1.94,
+     "max": 1.96,
+     "median": 1.96,
+     "trim_mean": 0.0
+    },
+    "Real Racing Club de Santander": {
+     "n": 4,
+     "min": 4.3,
+     "max": 4.4,
+     "median": 4.35,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 4.2,
+     "max": 4.3,
+     "median": 4.3,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "e4cd525660de25ecfee1099882ef00e4": {
+  "id": "e4cd525660de25ecfee1099882ef00e4",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-19T19:00:00Z",
+  "home": "Sevilla",
+  "away": "Barcelona",
+  "markets": {
+   "h2h": {
+    "Barcelona": {
+     "n": 43,
+     "min": 1.14,
+     "max": 1.23,
+     "median": 1.19,
+     "trim_mean": 1.19
+    },
+    "Sevilla": {
+     "n": 43,
+     "min": 9.5,
+     "max": 17.5,
+     "median": 13.0,
+     "trim_mean": 13.05
+    },
+    "Draw": {
+     "n": 43,
+     "min": 6.25,
+     "max": 8.0,
+     "median": 7.0,
+     "trim_mean": 7.18
+    }
+   },
+   "totals": {
+    "Over@3.75": {
+     "n": 2,
+     "min": 1.85,
+     "max": 1.85,
+     "median": 1.85,
+     "trim_mean": 0.0
+    },
+    "Under@3.75": {
+     "n": 2,
+     "min": 1.98,
+     "max": 1.98,
+     "median": 1.98,
+     "trim_mean": 0.0
+    },
+    "Over@2.5": {
+     "n": 2,
+     "min": 1.25,
+     "max": 1.27,
+     "median": 1.26,
+     "trim_mean": 0.0
+    },
+    "Under@2.5": {
+     "n": 2,
+     "min": 3.6,
+     "max": 3.7,
+     "median": 3.65,
+     "trim_mean": 0.0
+    },
+    "Over@3.5": {
+     "n": 12,
+     "min": 1.62,
+     "max": 1.81,
+     "median": 1.74,
+     "trim_mean": 1.72
+    },
+    "Under@3.5": {
+     "n": 12,
+     "min": 1.93,
+     "max": 2.3,
+     "median": 2.04,
+     "trim_mean": 2.07
+    },
+    "Over@4.0": {
+     "n": 3,
+     "min": 2.13,
+     "max": 2.15,
+     "median": 2.13,
+     "trim_mean": 0.0
+    },
+    "Under@4.0": {
+     "n": 3,
+     "min": 1.73,
+     "max": 1.74,
+     "median": 1.73,
+     "trim_mean": 0.0
+    }
+   },
+   "h2h_lay": {
+    "Barcelona": {
+     "n": 4,
+     "min": 1.22,
+     "max": 1.23,
+     "median": 1.23,
+     "trim_mean": 0.0
+    },
+    "Sevilla": {
+     "n": 4,
+     "min": 18.48,
+     "max": 18.5,
+     "median": 18.5,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 8.2,
+     "max": 8.2,
+     "median": 8.2,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "a5b897588648ae4d05d17a370f2afae1": {
+  "id": "a5b897588648ae4d05d17a370f2afae1",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-20T12:00:00Z",
+  "home": "Getafe",
+  "away": "Málaga",
+  "markets": {
+   "h2h": {
+    "Getafe": {
+     "n": 43,
+     "min": 1.98,
+     "max": 2.24,
+     "median": 2.1,
+     "trim_mean": 2.12
+    },
+    "Málaga": {
+     "n": 43,
+     "min": 3.5,
+     "max": 4.2,
+     "median": 3.8,
+     "trim_mean": 3.85
+    },
+    "Draw": {
+     "n": 43,
+     "min": 2.85,
+     "max": 3.19,
+     "median": 3.0,
+     "trim_mean": 3.02
+    }
+   },
+   "totals": {
+    "Over@2.0": {
+     "n": 5,
+     "min": 2.08,
+     "max": 2.1,
+     "median": 2.09,
+     "trim_mean": 2.09
+    },
+    "Under@2.0": {
+     "n": 5,
+     "min": 1.77,
+     "max": 1.78,
+     "median": 1.77,
+     "trim_mean": 1.77
+    },
+    "Over@2.5": {
+     "n": 2,
+     "min": 2.62,
+     "max": 2.75,
+     "median": 2.69,
+     "trim_mean": 0.0
+    },
+    "Under@2.5": {
+     "n": 2,
+     "min": 1.44,
+     "max": 1.44,
+     "median": 1.44,
+     "trim_mean": 0.0
+    },
+    "Over@1.5": {
+     "n": 12,
+     "min": 1.42,
+     "max": 1.61,
+     "median": 1.5,
+     "trim_mean": 1.5
+    },
+    "Under@1.5": {
+     "n": 12,
+     "min": 2.38,
+     "max": 2.55,
+     "median": 2.54,
+     "trim_mean": 2.5
+    }
+   },
+   "h2h_lay": {
+    "Getafe": {
+     "n": 4,
+     "min": 2.26,
+     "max": 2.26,
+     "median": 2.26,
+     "trim_mean": 0.0
+    },
+    "Málaga": {
+     "n": 4,
+     "min": 4.3,
+     "max": 4.4,
+     "median": 4.4,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 3.2,
+     "max": 3.25,
+     "median": 3.2,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "5866dae1e72b96ab74508039cd3dcca7": {
+  "id": "5866dae1e72b96ab74508039cd3dcca7",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-20T14:15:00Z",
+  "home": "Atlético Madrid",
+  "away": "Real Madrid",
+  "markets": {
+   "h2h": {
+    "Atlético Madrid": {
+     "n": 43,
+     "min": 3.15,
+     "max": 4.1,
+     "median": 3.7,
+     "trim_mean": 3.67
+    },
+    "Real Madrid": {
+     "n": 43,
+     "min": 1.77,
+     "max": 2.05,
+     "median": 1.91,
+     "trim_mean": 1.91
+    },
+    "Draw": {
+     "n": 43,
+     "min": 3.55,
+     "max": 4.0,
+     "median": 3.8,
+     "trim_mean": 3.79
+    }
+   },
+   "totals": {
+    "Over@3.25": {
+     "n": 2,
+     "min": 1.95,
+     "max": 1.96,
+     "median": 1.96,
+     "trim_mean": 0.0
+    },
+    "Under@3.25": {
+     "n": 2,
+     "min": 1.87,
+     "max": 1.88,
+     "median": 1.88,
+     "trim_mean": 0.0
+    },
+    "Over@2.5": {
+     "n": 2,
+     "min": 1.44,
+     "max": 1.46,
+     "median": 1.45,
+     "trim_mean": 0.0
+    },
+    "Under@2.5": {
+     "n": 2,
+     "min": 2.68,
+     "max": 2.7,
+     "median": 2.69,
+     "trim_mean": 0.0
+    },
+    "Over@3.5": {
+     "n": 12,
+     "min": 1.95,
+     "max": 2.2,
+     "median": 2.07,
+     "trim_mean": 2.07
+    },
+    "Under@3.5": {
+     "n": 12,
+     "min": 1.63,
+     "max": 1.78,
+     "median": 1.72,
+     "trim_mean": 1.71
+    },
+    "Over@3.0": {
+     "n": 4,
+     "min": 1.71,
+     "max": 1.75,
+     "median": 1.71,
+     "trim_mean": 0.0
+    },
+    "Under@3.0": {
+     "n": 4,
+     "min": 2.16,
+     "max": 2.21,
+     "median": 2.17,
+     "trim_mean": 0.0
+    }
+   },
+   "h2h_lay": {
+    "Atlético Madrid": {
+     "n": 4,
+     "min": 3.95,
+     "max": 3.95,
+     "median": 3.95,
+     "trim_mean": 0.0
+    },
+    "Real Madrid": {
+     "n": 4,
+     "min": 2.0,
+     "max": 2.0,
+     "median": 2.0,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 4.1,
+     "max": 4.1,
+     "median": 4.1,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "ded5c2293009b93b7d8ee3c890b6617e": {
+  "id": "ded5c2293009b93b7d8ee3c890b6617e",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-20T16:30:00Z",
+  "home": "Deportivo La Coruña",
+  "away": "Real Betis",
+  "markets": {
+   "h2h": {
+    "Deportivo La Coruña": {
+     "n": 40,
+     "min": 2.65,
+     "max": 3.1,
+     "median": 2.88,
+     "trim_mean": 2.88
+    },
+    "Real Betis": {
+     "n": 40,
+     "min": 2.15,
+     "max": 2.55,
+     "median": 2.38,
+     "trim_mean": 2.38
+    },
+    "Draw": {
+     "n": 40,
+     "min": 3.15,
+     "max": 3.6,
+     "median": 3.4,
+     "trim_mean": 3.38
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 19,
+     "min": 1.83,
+     "max": 1.98,
+     "median": 1.92,
+     "trim_mean": 1.92
+    },
+    "Under@2.5": {
+     "n": 19,
+     "min": 1.7,
+     "max": 1.99,
+     "median": 1.85,
+     "trim_mean": 1.86
+    }
+   },
+   "h2h_lay": {
+    "Deportivo La Coruña": {
+     "n": 4,
+     "min": 3.2,
+     "max": 3.3,
+     "median": 3.25,
+     "trim_mean": 0.0
+    },
+    "Real Betis": {
+     "n": 4,
+     "min": 2.44,
+     "max": 2.44,
+     "median": 2.44,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 3.75,
+     "max": 3.8,
+     "median": 3.77,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "5502f6f20eccc2f2ed0d3904712e4a2c": {
+  "id": "5502f6f20eccc2f2ed0d3904712e4a2c",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-20T16:30:00Z",
+  "home": "Villarreal",
+  "away": "Levante",
+  "markets": {
+   "h2h": {
+    "Levante": {
+     "n": 42,
+     "min": 4.5,
+     "max": 5.7,
+     "median": 5.25,
+     "trim_mean": 5.22
+    },
+    "Villarreal": {
+     "n": 42,
+     "min": 1.47,
+     "max": 1.62,
+     "median": 1.56,
+     "trim_mean": 1.56
+    },
+    "Draw": {
+     "n": 42,
+     "min": 4.0,
+     "max": 4.65,
+     "median": 4.33,
+     "trim_mean": 4.33
+    }
+   },
+   "totals": {
+    "Over@3.0": {
+     "n": 5,
+     "min": 1.87,
+     "max": 1.87,
+     "median": 1.87,
+     "trim_mean": 1.87
+    },
+    "Under@3.0": {
+     "n": 5,
+     "min": 1.95,
+     "max": 1.97,
+     "median": 1.96,
+     "trim_mean": 1.96
+    },
+    "Over@2.5": {
+     "n": 9,
+     "min": 1.48,
+     "max": 1.57,
+     "median": 1.56,
+     "trim_mean": 1.56
+    },
+    "Under@2.5": {
+     "n": 9,
+     "min": 2.23,
+     "max": 2.48,
+     "median": 2.35,
+     "trim_mean": 2.35
+    },
+    "Over@3.5": {
+     "n": 5,
+     "min": 2.22,
+     "max": 2.42,
+     "median": 2.3,
+     "trim_mean": 2.3
+    },
+    "Under@3.5": {
+     "n": 5,
+     "min": 1.54,
+     "max": 1.66,
+     "median": 1.56,
+     "trim_mean": 1.56
+    }
+   },
+   "h2h_lay": {
+    "Levante": {
+     "n": 4,
+     "min": 6.0,
+     "max": 6.0,
+     "median": 6.0,
+     "trim_mean": 0.0
+    },
+    "Villarreal": {
+     "n": 4,
+     "min": 1.64,
+     "max": 1.64,
+     "median": 1.64,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 4.7,
+     "max": 4.8,
+     "median": 4.75,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "d05fb9feb5722b2f2cedb8bbe7c33a1d": {
+  "id": "d05fb9feb5722b2f2cedb8bbe7c33a1d",
+  "sport": "La Liga (España)",
+  "commence": "2026-09-20T19:00:00Z",
+  "home": "Valencia",
+  "away": "Real Sociedad",
+  "markets": {
+   "h2h": {
+    "Real Sociedad": {
+     "n": 42,
+     "min": 2.3,
+     "max": 2.6,
+     "median": 2.5,
+     "trim_mean": 2.48
+    },
+    "Valencia": {
+     "n": 42,
+     "min": 2.5,
+     "max": 2.88,
+     "median": 2.75,
+     "trim_mean": 2.75
+    },
+    "Draw": {
+     "n": 42,
+     "min": 3.15,
+     "max": 3.55,
+     "median": 3.4,
+     "trim_mean": 3.36
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 19,
+     "min": 1.77,
+     "max": 1.97,
+     "median": 1.88,
+     "trim_mean": 1.89
+    },
+    "Under@2.5": {
+     "n": 19,
+     "min": 1.79,
+     "max": 1.97,
+     "median": 1.88,
+     "trim_mean": 1.88
+    }
+   },
+   "h2h_lay": {
+    "Real Sociedad": {
+     "n": 4,
+     "min": 2.68,
+     "max": 2.68,
+     "median": 2.68,
+     "trim_mean": 0.0
+    },
+    "Valencia": {
+     "n": 4,
+     "min": 2.98,
+     "max": 3.0,
+     "median": 2.99,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 4,
+     "min": 3.65,
+     "max": 3.8,
+     "median": 3.7,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "e521d4165ecf78c3b58864293e866030": {
+  "id": "e521d4165ecf78c3b58864293e866030",
+  "sport": "EFL Cup (Inglaterra)",
+  "commence": "2026-09-17T18:30:00Z",
+  "home": "Manchester City",
+  "away": "Norwich City",
+  "markets": {
+   "h2h": {
+    "Manchester City": {
+     "n": 38,
+     "min": 1.06,
+     "max": 1.14,
+     "median": 1.1,
+     "trim_mean": 1.11
+    },
+    "Norwich City": {
+     "n": 38,
+     "min": 15.0,
+     "max": 25.0,
+     "median": 17.25,
+     "trim_mean": 17.97
+    },
+    "Draw": {
+     "n": 38,
+     "min": 8.0,
+     "max": 11.0,
+     "median": 9.5,
+     "trim_mean": 9.55
+    }
+   },
+   "totals": {
+    "Over@3.5": {
+     "n": 11,
+     "min": 1.55,
+     "max": 1.69,
+     "median": 1.65,
+     "trim_mean": 1.65
+    },
+    "Under@3.5": {
+     "n": 11,
+     "min": 2.04,
+     "max": 2.21,
+     "median": 2.18,
+     "trim_mean": 2.16
+    },
+    "Over@2.5": {
+     "n": 2,
+     "min": 1.22,
+     "max": 1.27,
+     "median": 1.25,
+     "trim_mean": 0.0
+    },
+    "Under@2.5": {
+     "n": 2,
+     "min": 3.7,
+     "max": 3.9,
+     "median": 3.8,
+     "trim_mean": 0.0
+    },
+    "Over@3.75": {
+     "n": 1,
+     "min": 1.83,
+     "max": 1.83,
+     "median": 1.83,
+     "trim_mean": 0.0
+    },
+    "Under@3.75": {
+     "n": 1,
+     "min": 2.01,
+     "max": 2.01,
+     "median": 2.01,
+     "trim_mean": 0.0
+    },
+    "Over@4.0": {
+     "n": 4,
+     "min": 2.05,
+     "max": 2.13,
+     "median": 2.05,
+     "trim_mean": 0.0
+    },
+    "Under@4.0": {
+     "n": 4,
+     "min": 1.67,
+     "max": 1.79,
+     "median": 1.71,
+     "trim_mean": 0.0
+    }
+   },
+   "h2h_lay": {
+    "Manchester City": {
+     "n": 3,
+     "min": 1.15,
+     "max": 1.15,
+     "median": 1.15,
+     "trim_mean": 0.0
+    },
+    "Norwich City": {
+     "n": 3,
+     "min": 29.0,
+     "max": 29.0,
+     "median": 29.0,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 3,
+     "min": 11.5,
+     "max": 11.5,
+     "median": 11.5,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "d808e576d838e0739ba2dc69bd02a4b4": {
+  "id": "d808e576d838e0739ba2dc69bd02a4b4",
+  "sport": "Copa Libertadores",
+  "commence": "2026-09-17T00:30:00Z",
+  "home": "Corinthians-SP",
+  "away": "Estudiantes La Plata",
+  "markets": {
+   "h2h": {
+    "Corinthians-SP": {
+     "n": 27,
+     "min": 2.55,
+     "max": 3.3,
+     "median": 2.8,
+     "trim_mean": 2.8
+    },
+    "Estudiantes La Plata": {
+     "n": 27,
+     "min": 4.6,
+     "max": 6.0,
+     "median": 5.1,
+     "trim_mean": 5.16
+    },
+    "Draw": {
+     "n": 27,
+     "min": 1.73,
+     "max": 1.92,
+     "median": 1.85,
+     "trim_mean": 1.85
+    }
+   },
+   "h2h_lay": {
+    "Corinthians-SP": {
+     "n": 3,
+     "min": 3.2,
+     "max": 3.45,
+     "median": 3.35,
+     "trim_mean": 0.0
+    },
+    "Estudiantes La Plata": {
+     "n": 3,
+     "min": 5.9,
+     "max": 6.6,
+     "median": 6.2,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 3,
+     "min": 1.9,
+     "max": 2.18,
+     "median": 1.94,
+     "trim_mean": 0.0
+    }
+   },
+   "totals": {
+    "Over@0.5": {
+     "n": 10,
+     "min": 1.54,
+     "max": 1.7,
+     "median": 1.62,
+     "trim_mean": 1.62
+    },
+    "Under@0.5": {
+     "n": 10,
+     "min": 2.05,
+     "max": 2.2,
+     "median": 2.16,
+     "trim_mean": 2.14
+    },
+    "Over@0.75": {
+     "n": 1,
+     "min": 1.92,
+     "max": 1.92,
+     "median": 1.92,
+     "trim_mean": 0.0
+    },
+    "Under@0.75": {
+     "n": 1,
+     "min": 1.93,
+     "max": 1.93,
+     "median": 1.93,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "9f51bed6dc9cb798333ea483c49ec233": {
+  "id": "9f51bed6dc9cb798333ea483c49ec233",
+  "sport": "Copa Libertadores",
+  "commence": "2026-09-18T00:30:00Z",
+  "home": "Flamengo-RJ",
+  "away": "Independiente del Valle",
+  "markets": {
+   "h2h": {
+    "Flamengo-RJ": {
+     "n": 34,
+     "min": 1.3,
+     "max": 1.38,
+     "median": 1.35,
+     "trim_mean": 1.34
+    },
+    "Independiente del Valle": {
+     "n": 34,
+     "min": 6.25,
+     "max": 9.0,
+     "median": 7.65,
+     "trim_mean": 7.65
+    },
+    "Draw": {
+     "n": 34,
+     "min": 4.5,
+     "max": 5.25,
+     "median": 4.78,
+     "trim_mean": 4.79
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 15,
+     "min": 1.6,
+     "max": 1.71,
+     "median": 1.68,
+     "trim_mean": 1.68
+    },
+    "Under@2.5": {
+     "n": 15,
+     "min": 1.95,
+     "max": 2.2,
+     "median": 2.11,
+     "trim_mean": 2.12
+    },
+    "Over@3.0": {
+     "n": 3,
+     "min": 2.1,
+     "max": 2.12,
+     "median": 2.1,
+     "trim_mean": 0.0
+    },
+    "Under@3.0": {
+     "n": 3,
+     "min": 1.69,
+     "max": 1.73,
+     "median": 1.69,
+     "trim_mean": 0.0
+    },
+    "Over@2.75": {
+     "n": 1,
+     "min": 1.87,
+     "max": 1.87,
+     "median": 1.87,
+     "trim_mean": 0.0
+    },
+    "Under@2.75": {
+     "n": 1,
+     "min": 1.99,
+     "max": 1.99,
+     "median": 1.99,
+     "trim_mean": 0.0
+    }
+   },
+   "h2h_lay": {
+    "Flamengo-RJ": {
+     "n": 1,
+     "min": 1.52,
+     "max": 1.52,
+     "median": 1.52,
+     "trim_mean": 0.0
+    },
+    "Independiente del Valle": {
+     "n": 1,
+     "min": 10.0,
+     "max": 10.0,
+     "median": 10.0,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 1,
+     "min": 6.6,
+     "max": 6.6,
+     "median": 6.6,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ },
+ "10d8075d3ece90f2ada6650e988c69d9": {
+  "id": "10d8075d3ece90f2ada6650e988c69d9",
+  "sport": "Copa Sudamericana",
+  "commence": "2026-09-18T00:30:00Z",
+  "home": "Montevideo City Torque",
+  "away": "Club Cienciano",
+  "markets": {
+   "h2h": {
+    "Club Cienciano": {
+     "n": 24,
+     "min": 4.8,
+     "max": 5.9,
+     "median": 5.2,
+     "trim_mean": 5.21
+    },
+    "Montevideo City Torque": {
+     "n": 24,
+     "min": 1.44,
+     "max": 1.61,
+     "median": 1.54,
+     "trim_mean": 1.54
+    },
+    "Draw": {
+     "n": 24,
+     "min": 3.95,
+     "max": 4.5,
+     "median": 4.2,
+     "trim_mean": 4.21
+    }
+   },
+   "h2h_lay": {
+    "Club Cienciano": {
+     "n": 3,
+     "min": 6.2,
+     "max": 6.2,
+     "median": 6.2,
+     "trim_mean": 0.0
+    },
+    "Montevideo City Torque": {
+     "n": 3,
+     "min": 1.63,
+     "max": 1.64,
+     "median": 1.64,
+     "trim_mean": 0.0
+    },
+    "Draw": {
+     "n": 3,
+     "min": 4.6,
+     "max": 4.6,
+     "median": 4.6,
+     "trim_mean": 0.0
+    }
+   },
+   "totals": {
+    "Over@2.5": {
+     "n": 8,
+     "min": 1.63,
+     "max": 1.75,
+     "median": 1.68,
+     "trim_mean": 1.67
+    },
+    "Under@2.5": {
+     "n": 8,
+     "min": 2.05,
+     "max": 2.23,
+     "median": 2.1,
+     "trim_mean": 2.1
+    },
+    "Over@2.75": {
+     "n": 1,
+     "min": 1.88,
+     "max": 1.88,
+     "median": 1.88,
+     "trim_mean": 0.0
+    },
+    "Under@2.75": {
+     "n": 1,
+     "min": 1.98,
+     "max": 1.98,
+     "median": 1.98,
+     "trim_mean": 0.0
+    },
+    "Over@3.0": {
+     "n": 2,
+     "min": 2.09,
+     "max": 2.15,
+     "median": 2.12,
+     "trim_mean": 0.0
+    },
+    "Under@3.0": {
+     "n": 2,
+     "min": 1.71,
+     "max": 1.72,
+     "median": 1.71,
+     "trim_mean": 0.0
+    }
+   }
+  }
+ }
+}

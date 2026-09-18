@@ -1,0 +1,27 @@
+{
+ "home_team": "Besiktas JK",
+ "away_team": "Marseille",
+ "xg_home_for": 1.74,
+ "xg_home_against": 0.46,
+ "xg_away_for": 1.65,
+ "xg_away_against": 1.51,
+ "elo_home": 1693,
+ "elo_away": 1775,
+ "corners_home_for": 6.3,
+ "corners_home_against": 4.0,
+ "corners_away_for": 5.3,
+ "corners_away_against": 4.3,
+ "cards_home_for": 2.11,
+ "cards_home_against": 2.33,
+ "cards_away_for": 1.25,
+ "cards_away_against": 2.25,
+ "odds": {
+  "1": 1.79,
+  "2": 4.1,
+  "X": 4.0,
+  "over_2_5": 1.56,
+  "under_2_5": 2.4,
+  "over_3_5": 2.28,
+  "under_3_5": 1.56
+ }
+}
