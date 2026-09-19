@@ -649,11 +649,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Atlético Tucumán vs River Plate - over_1_5) | PENDIENTE | — | — |
-| Pick 2 (TSG Hoffenheim vs VfB Stuttgart - x2) | PENDIENTE | — | — |
-| Pick 3 (AFC Bournemouth vs Brentford - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Mainz vs Eintracht Frankfurt - x2) | PENDIENTE | — | — |
-| Pick 5 (Atalanta vs Cagliari - over_2_5) | PENDIENTE | — | — |
-| Pick 6 (FC Cincinnati vs Charlotte FC - under_3_5) | PENDIENTE | — | — |
+| Pick 1 (Atlético Tucumán vs River Plate - over_1_5) | GANADA | 1 - 2 | +0.04u |
+| Pick 2 (TSG Hoffenheim vs VfB Stuttgart - x2) | PERDIDA | 2 - 1 | -0.06u |
+| Pick 3 (AFC Bournemouth vs Brentford - over_2_5) | GANADA | 2 - 2 | +0.03u |
+| Pick 4 (Mainz vs Eintracht Frankfurt - x2) | GANADA | 1 - 3 | +0.06u |
+| Pick 5 (Atalanta vs Cagliari - over_2_5) | GANADA | 1 - 2 | +0.08u |
+| Pick 6 (FC Cincinnati vs Charlotte FC - under_3_5) | PERDIDA | 3 - 3 | -0.07u |
+| **Total** | | | **+0.09u (4 G / 2 P)** |

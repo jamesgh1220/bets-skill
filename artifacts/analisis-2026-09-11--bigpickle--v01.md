@@ -133,8 +133,10 @@ Universo = intersección(ligas, fecha, partidos=todos). Partidos de las 7 ligas 
 - **Ajuste de stake por correlación:** No aplica; no se redujo exposición conjunta por correlación.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Venezia vs Fiorentina over_2_5 | PENDIENTE | — | — |
-| Jaguares vs Fortaleza 2 | PENDIENTE | — | — |
+| Venezia vs Fiorentina over_2_5 | GANADA | 2 - 4 | +0.08u |
+| Jaguares vs Fortaleza 2 | PERDIDA | 2 - 2 | -0.04u |
+| **Total** | | | **+0.04u (1 G / 1 P)** |

@@ -216,8 +216,10 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Rayo Vallecano vs Espanyol - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Alavés vs Valencia - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Genoa vs Südtirol - under_2_5) | PENDIENTE | — | — |
+| Pick 1 (Rayo Vallecano vs Espanyol - over_2_5) | GANADA | 2 - 1 | +0.07u |
+| Pick 2 (Alavés vs Valencia - over_2_5) | PERDIDA | 0 - 1 | -0.05u |
+| Pick 3 (Genoa vs Südtirol - under_2_5) | GANADA | 1 - 0 | +0.04u |
+| **Total** | | | **+0.07u (2 G / 1 P)** |

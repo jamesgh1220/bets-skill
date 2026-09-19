@@ -1,0 +1,28 @@
+{
+ "file": "m6_groningen_zwolle.json",
+ "home_team": "Groningen",
+ "away_team": "FC Zwolle",
+ "xg_home_for": 1.35,
+ "xg_home_against": 1.6,
+ "xg_away_for": 0.9,
+ "xg_away_against": 2.0,
+ "elo_home": 1518,
+ "elo_away": 1481,
+ "corners_home_for": 4.7,
+ "corners_home_against": 5.3,
+ "corners_away_for": 4.1,
+ "corners_away_against": 6.0,
+ "cards_home_for": 1.3,
+ "cards_home_against": 1.5,
+ "cards_away_for": 1.0,
+ "cards_away_against": 1.2,
+ "odds": {
+  "1": 1.64,
+  "X": 4.6,
+  "2": 5.39,
+  "over_2_5": 1.42,
+  "under_2_5": 2.79,
+  "over_3_5": 2.12,
+  "under_3_5": 1.86
+ }
+}

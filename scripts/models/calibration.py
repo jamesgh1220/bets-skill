@@ -133,6 +133,12 @@ class PlattCalibration:
         out["over_2_5"] = over
         out["under_2_5"] = 1.0 - over
 
+        # Goles: over/under 3.5 (aditivo; identidad si no está habilitado)
+        if "over_3_5" in probs:
+            over3 = self.transform_market("over_3_5", probs["over_3_5"], "over_3_5" in enabled_markets)
+            out["over_3_5"] = over3
+            out["under_3_5"] = 1.0 - over3
+
         # BTTS
         btts = self.transform_market("btts_yes", probs["btts_yes"], "btts_yes" in enabled_markets)
         out["btts_yes"] = btts

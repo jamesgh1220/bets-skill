@@ -1,0 +1,28 @@
+{
+ "file": "m7_nycfc_nyrb.json",
+ "home_team": "New York City FC",
+ "away_team": "New York Red Bulls",
+ "xg_home_for": 1.5,
+ "xg_home_against": 1.3,
+ "xg_away_for": 1.4,
+ "xg_away_against": 1.6,
+ "elo_home": 1605,
+ "elo_away": 1542,
+ "corners_home_for": 3.55,
+ "corners_home_against": 4.68,
+ "corners_away_for": 5.86,
+ "corners_away_against": 4.77,
+ "cards_home_for": null,
+ "cards_home_against": null,
+ "cards_away_for": null,
+ "cards_away_against": null,
+ "odds": {
+  "1": 1.85,
+  "X": 4.35,
+  "2": 4.3,
+  "over_2_5": 1.47,
+  "under_2_5": 2.62,
+  "over_3_5": 2.3,
+  "under_3_5": 1.78
+ }
+}

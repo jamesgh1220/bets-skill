@@ -172,7 +172,8 @@ def run_ensemble(match_data: dict, model_config: dict):
         calib = PlattCalibration(calibration_config.get("params", {}))
         calibrated = calib.transform(ensemble_probs, enabled_markets=enabled_markets)
         for key in ("1", "X", "2", "1x", "x2", "12", "dnb_home", "dnb_away",
-                    "over_2_5", "under_2_5", "btts_yes", "btts_no"):
+                    "over_2_5", "under_2_5", "over_3_5", "under_3_5",
+                    "btts_yes", "btts_no"):
             if key in calibrated:
                 ensemble_probs[key] = round(calibrated[key], 4)
 

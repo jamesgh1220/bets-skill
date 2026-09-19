@@ -2,7 +2,7 @@
   "version": "1.2",
   "created_at": "2026-09-07T00:00:00Z",
   "parent_version": "1.1",
-  "status": "active",
+  "status": "deprecated",
   "description": "Recalibración de probabilidades del ensemble con Platt scaling para 1X2 (local/visitante) y Over/Under 2.5. Se cifran los mercados con miscalibración validada out-of-sample; Empate (X) y BTTS se dejan sin calibrar porque calibrarlos no mejora las métricas OOS.",
   "model_type": "ensemble_with_count_markets",
   "components": {

@@ -145,9 +145,11 @@
 - **Ajuste de stake por correlación:** Sin penalización acumulada por tratarse de competiciones e instancias completamente independientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1: Como vs RB Leipzig (Over 2.5) | PENDIENTE | — | — |
-| Pick 2: Independiente del Valle vs Flamengo (Over 2.5) | PENDIENTE | — | — |
-| Pick 3: Slavia Praga vs RC Lens (Over 2.5) | PENDIENTE | — | — |
-| Pick 4: Bayern Múnich vs Bodø/Glimt (Under 3.5) | PENDIENTE | — | — |
+| Pick 1: Como vs RB Leipzig (Over 2.5) | GANADA | 4 - 1 | +0.04u |
+| Pick 2: Independiente del Valle vs Flamengo (Over 2.5) | PERDIDA | 0 - 2 | -0.07u |
+| Pick 3: Slavia Praga vs RC Lens (Over 2.5) | GANADA | 2 - 3 | +0.04u |
+| Pick 4: Bayern Múnich vs Bodø/Glimt (Under 3.5) | PERDIDA | 5 - 0 | -0.05u |
+| **Total** | | | **-0.05u (2 G / 2 P)** |

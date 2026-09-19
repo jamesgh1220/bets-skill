@@ -1,0 +1,59 @@
+{
+ "analysis_date_iso": "2026-09-18T01:48:28Z",
+ "match_dates_text": "2026-09-18",
+ "information_cutoff": "2026-09-18T01:48:28Z",
+ "model_ia": "bigpickle",
+ "engine_version": "model-v1.3",
+ "leagues_display": "Premier League, Bundesliga, Ligue 1, Serie A, La Liga, Eredivisie, MLS, Liga Argentina (Primera División), Liga Colombiana (Primera A)",
+ "requested_range": "18 de septiembre de 2026 (un día)",
+ "universe_preamble": "Universo = partidos del 2026-09-18 por liga solicitada (top-1 por liga en la fecha). Cuotas: The Odds API vía REST (fallback documentado; el MCP `odds-api` devolvió vacío y el plan gratis expone solo h2h y totals). Timestamp de captura de cuotas: 2026-09-18T01:48:28Z (referencia CLV). El MCP `apifootball` estaba inoperativo ('Authentification failed!'); el MCP local `football-stats` devolvió MISSING_SOURCE para varias ligas; se usó fallback con datos Understat para xG y Elo. Liga Colombiana no disponible en The Odds API: cuotas h2h tomadas del agregador (bwin/admiralbet) — Capa 3, solo 1X2. xG estimados (sin serie completa) en Monza, Espanyol, NYCFC, Central Córdoba y Medellín: se marcó `xg_estimado` en los inputs y se aplicó incertidumbre adicional. Mercados sin cuota capturada (1.5 goles, BTTS, DO, DNB, córners, tarjetas): n/d, nunca inventados; la probabilidad de córners/tarjetas se documenta solo cuando los 8 campos estaban disponibles y con cuota n/d se deja el mercado como no disponible.",
+ "universe_matches": [
+  "- **Brentford vs Chelsea** (Premier League) — 18-09 19:00 UTC — cuotas 1X2 y totals (2.5/3.5).",
+  "- **Bayern Munich vs Union Berlin** (Bundesliga) — 18-09 18:30 UTC — cuotas 1X2 y totals (2.5/3.5).",
+  "- **AS Monaco vs RC Lens** (Ligue 1) — 18-09 18:45 UTC — cuotas 1X2 y totals (2.5/3.5).",
+  "- **Monza vs Sassuolo** (Serie A) — 18-09 18:45 UTC — cuotas 1X2 y totals (2.5).",
+  "- **Espanyol vs Elche CF** (La Liga) — 18-09 19:00 UTC — cuotas 1X2 y totals (2.5).",
+  "- **Groningen vs FC Zwolle** (Eredivisie) — 18-09 18:00 UTC — cuotas 1X2 y totals (2.5/3.5).",
+  "- **New York City FC vs New York Red Bulls** (MLS) — 18-09 23:30 UTC — cuotas 1X2 y totals (2.5/3.5).",
+  "- **Central Córdoba vs Defensa y Justicia** (Argentina) — 18-09 21:00 UTC — cuotas 1X2 y totals (2.5).",
+  "- **Independiente Medellín vs Jaguares** (Colombia) — 18-09 20:10 COL — solo h2h (Capa 3, agregador)."
+ ],
+ "picks_details": [
+  {
+   "match": "AS Monaco vs RC Lens",
+   "market": "over_2_5",
+   "conf": "Media-Alta",
+   "incertidumbre": "Base +/-5.0% del motor. Datos xG completos (Ligue 1). Backtest de sensibilidad: +14.8% a +19.9% rEV (escenarios s1/s2).",
+   "why": "Lens es el 2º mejor ataque de la liga en xG generado y el peor perfil defensivo acumulado (2.08 xGA); Monaco viene de 3 victorias seguidas y ambos equipos generan contexto de goles. Probabilidad modelo 81% vs 64.1% implícita.",
+   "risks": "Monaco con cambio de DT; Lens con interino tras cese. Si Lens cae en intensidad con nueva gestión puede bajar el ritmo. Varianza de goles en partido único.",
+   "sources": "The Odds API (best price across books, timestamp 18-09 01:48Z); Understat xG 2026-27; ClubElo 2026-09."
+  },
+  {
+   "match": "AS Monaco vs RC Lens",
+   "market": "2",
+   "conf": "Media",
+   "incertidumbre": "Base +/-5.0%. Premium por cambio de entrenador interino en Lens y rotaciones post-parón FIFA. Sensibilidad: rEV +26.0% (s1) a +42.2% (s2).",
+   "why": "El conjunto Elo favorece claramente a Lens (1.798 vs 1.749) y en xG Lens domina el cómputo (2.23 xGF prom). El mercado paga 3.65 (27.4% implícito) por una probabilidad modelo 46.4%. Longshot admitido como excepción robusta (prob >30%, rEV +51.1% > +10%).",
+   "risks": "Monaco está 2º con 10 puntos y juega en casa; Lens con interino (Cahuzac). Un Lens mas conservador reduce su xG real. Stops de largo recorrido.",
+   "sources": "The Odds API h2h (best 3.65, timestamp 18-09 01:48Z); ClubElo; Understat xG."
+  },
+  {
+   "match": "Monza vs Sassuolo",
+   "market": "over_2_5",
+   "conf": "Media-Alta",
+   "incertidumbre": "Base +/-5.0% + incertidumbre por xG estimado de Sassuolo (5%).",
+   "why": "Monza anota y encaja (6 GF / 11 GA en 4 partidos, última derrota 3-2) y Sassuolo suma 11 goles en 4 con una victoria 3-2 ante Juventus. xG estimados por encima de promedio de la liga en ambos. Prob 71.3% vs 55.0% implícita.",
+   "risks": "xG de Sassuolo estimado (falta serie completa); si el partido se controla en medio campo puede caer en pocos goles. Monza sin victoria local este curso.",
+   "sources": "The Odds API totals (best 1.82, timestamp 18-09 01:48Z); Understat xG parcial; resultados recientes 2026-27."
+  },
+  {
+   "match": "Espanyol vs Elche CF",
+   "market": "over_2_5",
+   "conf": "Media-Alta",
+   "incertidumbre": "Base +/-5.0% + incertidumbre por xG estimado (5%). Sensibilidad: rEV +15.5% a +18.2% (s3/s4).",
+   "why": "Elche tiene el peor registro defensivo de La Liga (16 goles encajados en 4 partidos) y Espanyol genera volumen ofensivo en casa pese a xG modesto. Prob 65.8% vs 52.6% implícita. La cuota 1.90 está bien pagada para la probabilidad.",
+   "risks": "Espanyol con ataque inconstante (xG estimado bajo); si Elche plantea bloque bajo, el juego puede ser de pocas ocasiones. Partido 1-0 posible.",
+   "sources": "The Odds API totals (best 1.90, timestamp 18-09 01:48Z); Understat xG parcial; resultados La Liga."
+  }
+ ]
+}

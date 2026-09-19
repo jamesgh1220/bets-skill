@@ -221,11 +221,13 @@ No se incluyeron partidos fuera de la fecha solicitada del 9 de septiembre de 20
 - **Ajuste de stake por correlación:** Stake fraccional de Kelly (0.25x) mantenido de manera prudente entre 0.05u y 0.07u por pick, garantizando bajo riesgo de ruina y máxima diversificación.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1: Sporting CP vs Galatasaray (Over 2 5) | PENDIENTE | — | — |
-| Pick 2: D.C. United vs Columbus Crew (Over 2 5) | PENDIENTE | — | — |
-| Pick 3: Minnesota United vs FC Dallas (Over 2 5) | PENDIENTE | — | — |
-| Pick 4: New York City FC vs New England Revolution (Over 2 5) | PENDIENTE | — | — |
-| Pick 5: Philadelphia Union vs FC Cincinnati (Over 2 5) | PENDIENTE | — | — |
-| Pick 6: Liverpool FC vs Atlético de Madrid (Over 2 5) | PENDIENTE | — | — |
+| Pick 1: Sporting CP vs Galatasaray (Over 2 5) | GANADA | 3 - 1 | +0.05u |
+| Pick 2: D.C. United vs Columbus Crew (Over 2 5) | GANADA | 2 - 1 | +0.04u |
+| Pick 3: Minnesota United vs FC Dallas (Over 2 5) | GANADA | 1 - 2 | +0.05u |
+| Pick 4: New York City FC vs New England Revolution (Over 2 5) | GANADA | 1 - 2 | +0.04u |
+| Pick 5: Philadelphia Union vs FC Cincinnati (Over 2 5) | GANADA | 5 - 0 | +0.04u |
+| Pick 6: Liverpool FC vs Atlético de Madrid (Over 2 5) | GANADA | 2 - 1 | +0.06u |
+| **Total** | | | **+0.27u (6 G / 0 P)** |

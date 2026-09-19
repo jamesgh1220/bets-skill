@@ -249,10 +249,12 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17. Nota: duplicado exacto de v01 (mismos picks/cuotas) — al calcular métricas de serie solo se cuenta una vez._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Stade Rennais vs Olympique de Marseille - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Venezia FC vs ACF Fiorentina - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Sevilla FC vs Valencia CF - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (1. FC Union Berlin vs FC Schalke 04 - over_2_5) | PENDIENTE | — | — |
-| Pick 5 (Defensa y Justicia vs Gimnasia y Esgrima Mendoza - over_2_5) | PENDIENTE | — | — |
+| Pick 1 (Stade Rennais vs Olympique de Marseille - over_2_5) | PERDIDA | 1 - 0 | -0.05u |
+| Pick 2 (Venezia FC vs ACF Fiorentina - over_2_5) | GANADA | 2 - 4 | +0.05u |
+| Pick 3 (Sevilla FC vs Valencia CF - over_2_5) | PERDIDA | 1 - 0 | -0.05u |
+| Pick 4 (1. FC Union Berlin vs FC Schalke 04 - over_2_5) | GANADA | 1 - 3 | +0.04u |
+| Pick 5 (Defensa y Justicia vs Gimnasia y Esgrima Mendoza - over_2_5) | PERDIDA | 2 - 0 | -0.05u |
+| **Total** | | | **-0.06u (2 G / 3 P)** |

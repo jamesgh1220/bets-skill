@@ -1,0 +1,28 @@
+{
+ "file": "m1_brentford_chelsea.json",
+ "home_team": "Brentford",
+ "away_team": "Chelsea",
+ "xg_home_for": 1.83,
+ "xg_home_against": 1.38,
+ "xg_away_for": 1.63,
+ "xg_away_against": 1.55,
+ "elo_home": 1813,
+ "elo_away": 1857,
+ "corners_home_for": 4.6,
+ "corners_home_against": 5.6,
+ "corners_away_for": 4.4,
+ "corners_away_against": 4.9,
+ "cards_home_for": 1.7,
+ "cards_home_against": 2.2,
+ "cards_away_for": 2.6,
+ "cards_away_against": 2.4,
+ "odds": {
+  "1": 2.9,
+  "X": 3.9,
+  "2": 2.48,
+  "over_2_5": 1.49,
+  "under_2_5": 2.66,
+  "over_3_5": 2.23,
+  "under_3_5": 1.76
+ }
+}

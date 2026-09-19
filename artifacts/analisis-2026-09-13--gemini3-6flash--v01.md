@@ -256,10 +256,12 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17. Partido jugado el 14-sep._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Leeds United vs Newcastle United - x2) | PENDIENTE | — | — |
-| Pick 2 (Leeds United vs Newcastle United - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Villarreal vs Real Betis - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Torino vs Roma - over_2_5) | PENDIENTE | — | — |
-| Pick 5 (Leeds United vs Newcastle United - 2) | PENDIENTE | — | — |
+| Pick 1 (Leeds United vs Newcastle United - x2) | PERDIDA | 4 - 1 | -0.08u |
+| Pick 2 (Leeds United vs Newcastle United - over_2_5) | GANADA | 4 - 1 | +0.05u |
+| Pick 3 (Villarreal vs Real Betis - over_2_5) | GANADA | 1 - 2 | +0.04u |
+| Pick 4 (Torino vs Roma - over_2_5) | PERDIDA | 0 - 2 | -0.04u |
+| Pick 5 (Leeds United vs Newcastle United - 2) | PERDIDA | 4 - 1 | -0.05u |
+| **Total** | | | **-0.08u (2 G / 3 P)** |

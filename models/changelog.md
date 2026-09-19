@@ -31,6 +31,9 @@ Registro de todas las versiones del modelo y sus cambios.
 | v1.0 | 2026-08-25 | Versión inicial | — | — | — |
 | v1.1 | 2026-09-07 | Mercados ampliados + selección probabilidad-primero | Pendiente | +2.21% (legacy, N=42) | Pendiente |
 | v1.2 | 2026-09-07 | Recalibración Platt: 1X2 local/visitante + O/U 2.5 (ACTIVA) | 0.185 (OOS media 1X2) | Pendiente | Pendiente |
+| v1.3 | 2026-09-17 | Recalibración Platt añadida a línea O/U 3.5 (ACTIVA) | test O/U 3.5: 0.231→0.211 | Pendiente | Pendiente |
+
+## v1.2 — 2026-09-07 (ACTIVA → deprecada en v1.3)
 
 ## v1.1 — 2026-09-07 (experimental; no activo)
 
@@ -67,3 +70,14 @@ Registro de todas las versiones del modelo y sus cambios.
   - Empate (X) y BTTS: NO se calibran (calibrarlos no mejora OOS; ver `not_enabled_rationale`).
 - **Dataset:** `scratch/calibration_dataset.json` — 153 partidos con resultado (artefactos legacy 2026-08-27 a 2026-09-07 consolidados). Split temporal 70/30; CV repetida 10×5 para selección de método.
 - **Aprobado por:** Usuario (2026-09-07).
+
+---
+
+## v1.3 — 2026-09-17 (ACTIVA)
+
+- **Cambios:** Calibración Platt añadida al mercado Over/Under 3.5 (`calibration.enabled_markets` incluye ahora `over_3_5` con `params.over_3_5 = {a: 1.5542696742, b: 1.0510711272}`; `under_3_5` se deriva como complemento). Hook aditivo en `calc_engine.py` y `PlattCalibration.transform` para propagar `over_3_5`/`under_3_5` al output calibrado (identidad si no está habilitado → v1.2 sin cambios de comportamiento).
+- **Motivo:** El diagnóstico (`football-model-evaluation`, 2026-09-17) detectó miscalibración severa en la línea 3.5: `under_3_5` sobreestimado (vivos CE −0.43, 1G/4P). Raíz en el corpus: el crudo del ensemble subestimaba over_3_5 (mean 0.284 vs rate 0.435 en test OOS) y por tanto inflaba under_3_5 (0.716 vs 0.565). Prioridad del proyecto: calibración > ROI.
+- **Métricas antes (crudo, test OOS n=46, línea 3.5):** Brier 0.2311 · LogLoss 0.6423 · CalErr 0.1929
+- **Métricas después (Platt, test OOS n=46):** Brier 0.2107 (−0.020) · LogLoss 0.6053 (−0.037) · CalErr 0.1242 (−0.069)
+- **Folds temporales:** Brier 4/4, LogLoss 3/4, CalErr 3/4. Fold 3 degrada CE (+0.039) en ventana ya calibrada y rango de p baja no seleccionada.
+- **Aprobado por:** Usuario (2026-09-17).

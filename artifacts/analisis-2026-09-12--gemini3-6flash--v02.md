@@ -625,11 +625,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Levante vs Barcelona - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Brest vs Paris Saint-Germain - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (PEC Zwolle vs Feyenoord - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Sporting Kansas City vs Los Angeles FC - over_2_5) | PENDIENTE | — | — |
-| Pick 5 (Manchester United vs Manchester City - over_2_5) | PENDIENTE | — | — |
-| Pick 6 (Famalicao vs Sporting CP - over_2_5) | PENDIENTE | — | — |
+| Pick 1 (Levante vs Barcelona - over_2_5) | GANADA | 2 - 4 | +0.04u |
+| Pick 2 (Brest vs Paris Saint-Germain - over_2_5) | PERDIDA | 0 - 1 | -0.09u |
+| Pick 3 (PEC Zwolle vs Feyenoord - over_2_5) | GANADA | 0 - 7 | +0.05u |
+| Pick 4 (Sporting Kansas City vs Los Angeles FC - over_2_5) | GANADA | 3 - 1 | +0.05u |
+| Pick 5 (Manchester United vs Manchester City - over_2_5) | PERDIDA | 0 - 1 | -0.07u |
+| Pick 6 (Famalicao vs Sporting CP - over_2_5) | PERDIDA | 1 - 1 | -0.08u |
+| **Total** | | | **-0.10u (3 G / 3 P)** |

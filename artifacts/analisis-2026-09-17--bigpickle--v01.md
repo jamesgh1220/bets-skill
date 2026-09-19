@@ -131,8 +131,10 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Celtic vs Ferencvaros TC - under_3_5) | PENDIENTE | — | — |
-| Pick 2 (Crystal Palace vs Lech Poznan - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Real Sociedad vs Bournemouth - over_2_5) | PENDIENTE | — | — |
+| Pick 1 (Celtic vs Ferencvaros TC - under_3_5) | PERDIDA | 1 - 3 | -0.12u |
+| Pick 2 (Crystal Palace vs Lech Poznan - over_2_5) | GANADA | 4 - 0 | +0.06u |
+| Pick 3 (Real Sociedad vs Bournemouth - over_2_5) | GANADA | 1 - 2 | +0.04u |
+| **Total** | | | **-0.02u (2 G / 1 P)** |

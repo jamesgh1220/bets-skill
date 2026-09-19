@@ -1,0 +1,190 @@
+{
+ "Central C\u00f3rdoba vs Defensa y Justicia": {
+  "sport": "soccer_argentina_primera_division",
+  "match_id": "80791304ca8f59a7d54ef43fd0f44809",
+  "commence_time": "2026-09-18T21:00:00Z",
+  "h2h": {
+   "Central C\u00f3rdoba": 2.98,
+   "Defensa y Justicia": 2.85,
+   "Draw": 3.05
+  },
+  "totals": {
+   "2.0": {
+    "Over": 1.89,
+    "Under": 1.97
+   },
+   "2.5": {
+    "Over": 2.48,
+    "Under": 1.55
+   }
+  }
+ },
+ "Brentford vs Chelsea": {
+  "sport": "soccer_epl",
+  "match_id": "82d8b6a005d78bac0b1508abc17a7d39",
+  "commence_time": "2026-09-18T19:00:00Z",
+  "h2h": {
+   "Brentford": 2.9,
+   "Chelsea": 2.48,
+   "Draw": 3.9
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.49,
+    "Under": 2.66
+   },
+   "3.0": {
+    "Over": 1.73,
+    "Under": 2.17
+   },
+   "3.25": {
+    "Over": 1.99,
+    "Under": 1.89
+   },
+   "3.5": {
+    "Over": 2.23,
+    "Under": 1.76
+   }
+  }
+ },
+ "AS Monaco vs RC Lens": {
+  "sport": "soccer_france_ligue_one",
+  "match_id": "f6d8ec3ecfba4947770ddd7d391c8c73",
+  "commence_time": "2026-09-18T18:45:00Z",
+  "h2h": {
+   "AS Monaco": 2.14,
+   "RC Lens": 3.65,
+   "Draw": 3.9
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.56,
+    "Under": 2.52
+   },
+   "3.0": {
+    "Over": 1.87,
+    "Under": 2.06
+   },
+   "3.5": {
+    "Over": 2.38,
+    "Under": 1.68
+   }
+  }
+ },
+ "Bayern Munich vs Union Berlin": {
+  "sport": "soccer_germany_bundesliga",
+  "match_id": "b2d41e20e9485a8ad28e7534d389a37d",
+  "commence_time": "2026-09-18T18:30:00Z",
+  "h2h": {
+   "Bayern Munich": 1.08,
+   "Union Berlin": 40.0,
+   "Draw": 19.5
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.12,
+    "Under": 6.5
+   },
+   "4.5": {
+    "Over": 1.81,
+    "Under": 2.15
+   },
+   "4.75": {
+    "Over": 1.92,
+    "Under": 1.93
+   }
+  }
+ },
+ "Monza vs Sassuolo": {
+  "sport": "soccer_italy_serie_a",
+  "match_id": "8bc1f4d74cf888c97c0216fd26c4ece7",
+  "commence_time": "2026-09-18T18:45:00Z",
+  "h2h": {
+   "Monza": 3.1,
+   "Sassuolo": 2.56,
+   "Draw": 3.6
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.82,
+    "Under": 2.24
+   },
+   "2.75": {
+    "Over": 1.96,
+    "Under": 1.93
+   }
+  }
+ },
+ "Groningen vs FC Zwolle": {
+  "sport": "soccer_netherlands_eredivisie",
+  "match_id": "f0a8a8c62f272c53496fede6f4fb5926",
+  "commence_time": "2026-09-18T18:00:00Z",
+  "h2h": {
+   "FC Zwolle": 5.39,
+   "Groningen": 1.64,
+   "Draw": 4.6
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.42,
+    "Under": 2.79
+   },
+   "3.25": {
+    "Over": 1.86,
+    "Under": 2.01
+   },
+   "3.5": {
+    "Over": 2.12,
+    "Under": 1.86
+   }
+  }
+ },
+ "Espanyol vs Elche CF": {
+  "sport": "soccer_spain_la_liga",
+  "match_id": "da3d3fec3e0b6b939910427a76ecfb76",
+  "commence_time": "2026-09-18T19:00:00Z",
+  "h2h": {
+   "Elche CF": 5.0,
+   "Espanyol": 1.91,
+   "Draw": 3.75
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.9,
+    "Under": 2.05
+   },
+   "2.75": {
+    "Over": 2.06,
+    "Under": 1.84
+   }
+  }
+ },
+ "New York City FC vs New York Red Bulls": {
+  "sport": "soccer_usa_mls",
+  "match_id": "66849986905421eca414d1a6f10841e7",
+  "commence_time": "2026-09-18T23:30:00Z",
+  "h2h": {
+   "New York City FC": 1.85,
+   "New York Red Bulls": 4.3,
+   "Draw": 4.35
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.47,
+    "Under": 2.62
+   },
+   "3.0": {
+    "Over": 1.69,
+    "Under": 2.24
+   },
+   "3.25": {
+    "Over": 1.98,
+    "Under": 1.89
+   },
+   "3.5": {
+    "Over": 2.3,
+    "Under": 1.78
+   }
+  }
+ }
+}

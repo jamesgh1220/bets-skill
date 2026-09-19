@@ -1,0 +1,26 @@
+{
+ "file": "m4_monza_sassuolo.json",
+ "home_team": "Monza",
+ "away_team": "Sassuolo",
+ "xg_home_for": 1.4,
+ "xg_home_against": 1.3,
+ "xg_away_for": 2.0,
+ "xg_away_against": 1.3,
+ "elo_home": 1641,
+ "elo_away": 1692,
+ "corners_home_for": 4.9,
+ "corners_home_against": 3.6,
+ "corners_away_for": 3.2,
+ "corners_away_against": 5.0,
+ "cards_home_for": 1.3,
+ "cards_home_against": 1.5,
+ "cards_away_for": 1.8,
+ "cards_away_against": 2.3,
+ "odds": {
+  "1": 3.1,
+  "X": 3.6,
+  "2": 2.56,
+  "over_2_5": 1.82,
+  "under_2_5": 2.24
+ }
+}

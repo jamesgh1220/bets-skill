@@ -404,10 +404,12 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Excelsior vs FC Utrecht - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Getafe vs Deportivo - over_1_5) | PENDIENTE | — | — |
-| Pick 3 (Coventry City vs Brighton & Hove Albion - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Vancouver Whitecaps vs Austin FC - under_3_5) | PENDIENTE | — | — |
-| Pick 5 (Argentinos Juniors vs Gimnasia La Plata - over_2_5) | PENDIENTE | — | — |
+| Pick 1 (Excelsior vs FC Utrecht - over_2_5) | GANADA | 1 - 2 | +0.05u |
+| Pick 2 (Getafe vs Deportivo - over_1_5) | GANADA | 1 - 1 | +0.05u |
+| Pick 3 (Coventry City vs Brighton & Hove Albion - over_2_5) | GANADA | 0 - 5 | +0.04u |
+| Pick 4 (Vancouver Whitecaps vs Austin FC - under_3_5) | GANADA | 1 - 2 | +0.04u |
+| Pick 5 (Argentinos Juniors vs Gimnasia La Plata - over_2_5) | PERDIDA | 1 - 1 | -0.06u |
+| **Total** | | | **+0.13u (4 G / 1 P)** |

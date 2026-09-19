@@ -228,11 +228,13 @@ Se ordena la selección final y los candidatos con value por EV robusto / edge /
 - **Ajuste de stake por correlación:** Se redujo el stake individual (0.06–0.11u) por sobreexposición a goles en MLS del mismo día; no se sobredimensiona el Over de CL respecto a su EV dado que comparte riesgo general de goles europeos. Se mantiene la regla de no martingala ni porfolio agresivo.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Sporting CP vs Galatasaray — Over 2.5 | PENDIENTE | — | — |
-| Chelsea vs Leeds United — Over 2.5 | PENDIENTE | — | — |
-| VfB Stuttgart vs Viking FK — BTTS Sí | PENDIENTE | — | — |
-| New York City FC vs New England Revolution — Over 2.5 | PENDIENTE | — | — |
-| Austin FC vs Colorado Rapids — Over 2.5 | PENDIENTE | — | — |
-| Houston Dynamo vs Real Salt Lake — Over 2.5 | PENDIENTE | — | — |
+| Sporting CP vs Galatasaray — Over 2.5 | GANADA | 3 - 1 | +0.07u |
+| Chelsea vs Leeds United — Over 2.5 | GANADA | 6 - 3 | +0.06u |
+| VfB Stuttgart vs Viking FK — BTTS Sí | GANADA | 3 - 1 | +0.04u |
+| New York City FC vs New England Revolution — Over 2.5 | GANADA | 1 - 2 | +0.07u |
+| Austin FC vs Colorado Rapids — Over 2.5 | PERDIDA | 1 - 1 | -0.07u |
+| Houston Dynamo vs Real Salt Lake — Over 2.5 | GANADA | 2 - 1 | +0.04u |
+| **Total** | | | **+0.21u (5 G / 1 P)** |

@@ -293,11 +293,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (PFC Levski Sofia vs Salzburg - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (OFI Crete vs TSG Hoffenheim - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Celtic vs Ferencváros TC - under_3_5) | PENDIENTE | — | — |
-| Pick 4 (Crystal Palace vs Lech Poznań - over_2_5) | PENDIENTE | — | — |
-| Pick 5 (Viktoria Plzeň vs Union Saint-Gilloise - over_2_5) | PENDIENTE | — | — |
-| Pick 6 (Manchester City vs Norwich City - under_3_5) | PENDIENTE | — | — |
+| Pick 1 (PFC Levski Sofia vs Salzburg - over_2_5) | PERDIDA | 0 - 1 | -0.14u |
+| Pick 2 (OFI Crete vs TSG Hoffenheim - over_2_5) | PERDIDA | 2 - 0 | -0.12u |
+| Pick 3 (Celtic vs Ferencváros TC - under_3_5) | PERDIDA | 1 - 3 | -0.12u |
+| Pick 4 (Crystal Palace vs Lech Poznań - over_2_5) | GANADA | 4 - 0 | +0.06u |
+| Pick 5 (Viktoria Plzeň vs Union Saint-Gilloise - over_2_5) | GANADA | 0 - 3 | +0.09u |
+| Pick 6 (Manchester City vs Norwich City - under_3_5) | PERDIDA | 5 - 0 | -0.07u |
+| **Total** | | | **-0.30u (2 G / 4 P)** |

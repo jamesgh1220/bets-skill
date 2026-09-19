@@ -80,6 +80,22 @@ class TestCalcEngine(unittest.TestCase):
         self.assertAlmostEqual(cal["over_2_5"] + cal["under_2_5"], 1.0, places=4)
         self.assertEqual(cal["btts_yes"], raw["btts_yes"])  # BTTS no se calibra (identity)
 
+    def test_calibration_line_3_5_enabled_in_v13(self):
+        v12 = load_model_config("models/model-v1.2.json")
+        v13 = load_model_config("models/model-v1.3.json")
+        p12 = run_ensemble(self.sample_match, v12)["probabilities"]
+        p13 = run_ensemble(self.sample_match, v13)["probabilities"]
+        # línea 3.5 presente y complementaria en ambas
+        self.assertIn("over_3_5", p12)
+        self.assertAlmostEqual(p13["over_3_5"] + p13["under_3_5"], 1.0, places=4)
+        # v1.2 deja over_3_5 sin calibrar; v1.3 la cambia y bajo_confianza se corrige
+        self.assertAlmostEqual(p12["over_3_5"] + p12["under_3_5"], 1.0, places=4)
+        if "over_3_5" in load_model_config("models/model-v1.3.json")["calibration"]["enabled_markets"]:
+            self.assertNotAlmostEqual(p13["over_3_5"], p12["over_3_5"], places=2)
+        # invariantes que no deben romperse
+        self.assertAlmostEqual(p13["1"] + p13["X"] + p13["2"], 1.0, places=4)
+        self.assertAlmostEqual(p13["over_2_5"] + p13["under_2_5"], 1.0, places=4)
+
     def test_portfolio_allows_one_exceptional_longshot(self):
         candidates = [
             {"odds": 1.80, "model_prob": 0.60, "robust_ev_percent": 6.0, "ev_percent": 8.0, "stake_recommended_units": 0.30},

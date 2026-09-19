@@ -1,0 +1,67 @@
+{
+  "match": "Independiente Medellín vs Jaguares",
+  "probabilities": {
+    "1": 0.5679,
+    "X": 0.2454,
+    "2": 0.1867,
+    "under_1_5": 0.2491,
+    "over_1_5": 0.7509,
+    "under_2_5": 0.3845,
+    "over_2_5": 0.6155,
+    "under_3_5": 0.6081,
+    "over_3_5": 0.3919,
+    "btts_yes": 0.517,
+    "btts_no": 0.483,
+    "1x": 0.8133,
+    "x2": 0.4321,
+    "12": 0.7546,
+    "dnb_home": 0.5679,
+    "dnb_away": 0.1867,
+    "expected_goals_home": 1.67,
+    "expected_goals_away": 0.99
+  },
+  "evaluations": {
+    "1": {
+      "market": "1",
+      "odds": 1.35,
+      "model_prob": 0.5679,
+      "push_prob": 0.0,
+      "conservative_prob": 0.5179,
+      "implied_prob": 0.7407,
+      "fair_odds": 1.76,
+      "edge": -23.33,
+      "ev_percent": -23.33,
+      "robust_ev_percent": -30.08,
+      "stake_recommended_units": 0.0,
+      "has_value": false
+    },
+    "X": {
+      "market": "X",
+      "odds": 4.6,
+      "model_prob": 0.2454,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1954,
+      "implied_prob": 0.2174,
+      "fair_odds": 4.07,
+      "edge": 12.88,
+      "ev_percent": 12.88,
+      "robust_ev_percent": -10.12,
+      "stake_recommended_units": 0.01,
+      "has_value": true
+    },
+    "2": {
+      "market": "2",
+      "odds": 8.1,
+      "model_prob": 0.1867,
+      "push_prob": 0.0,
+      "conservative_prob": 0.1367,
+      "implied_prob": 0.1235,
+      "fair_odds": 5.36,
+      "edge": 51.23,
+      "ev_percent": 51.23,
+      "robust_ev_percent": 10.73,
+      "stake_recommended_units": 0.02,
+      "has_value": true
+    }
+  }
+}

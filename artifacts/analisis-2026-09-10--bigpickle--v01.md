@@ -91,7 +91,9 @@
 - **Ajuste de stake por correlación:** No aplica.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-09-17._
 
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| IDV vs Flamengo over_2_5 | PENDIENTE | — | — |
+| IDV vs Flamengo over_2_5 | PERDIDA | 0 - 2 | -0.06u |
+| **Total** | | | **-0.06u (0 G / 1 P)** |
