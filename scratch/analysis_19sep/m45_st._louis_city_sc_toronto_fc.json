@@ -1,0 +1,38 @@
+{
+  "file": "m45_st._louis_city_sc_toronto_fc.json",
+  "home_team": "St. Louis City SC",
+  "away_team": "Toronto FC",
+  "league": "MLS",
+  "match_date": "2026-09-19",
+  "xg_home_for": 1.7,
+  "xg_home_against": 1.37,
+  "xg_away_for": 1.37,
+  "xg_away_against": 1.51,
+  "elo_home": 1608,
+  "elo_away": 1525,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 1.67,
+    "X": 4.6,
+    "2": 5.2,
+    "over_2_5": 1.47,
+    "under_2_5": 2.62,
+    "over_3_5": 2.28,
+    "under_3_5": 1.73
+  },
+  "_meta": {
+    "league": "MLS",
+    "odds_source": "The Odds API (REST fallback, capa 1)",
+    "xg_home_source": "ASA MLS 2026",
+    "xg_away_source": "ASA MLS 2026",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

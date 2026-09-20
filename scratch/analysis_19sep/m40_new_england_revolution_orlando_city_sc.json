@@ -1,0 +1,38 @@
+{
+  "file": "m40_new_england_revolution_orlando_city_sc.json",
+  "home_team": "New England Revolution",
+  "away_team": "Orlando City SC",
+  "league": "MLS",
+  "match_date": "2026-09-19",
+  "xg_home_for": 1.6,
+  "xg_home_against": 1.56,
+  "xg_away_for": 1.68,
+  "xg_away_against": 2.03,
+  "elo_home": 1570,
+  "elo_away": 1602,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 1.96,
+    "X": 4.5,
+    "2": 3.85,
+    "over_2_5": 1.41,
+    "under_2_5": 2.85,
+    "over_3_5": 2.16,
+    "under_3_5": 1.85
+  },
+  "_meta": {
+    "league": "MLS",
+    "odds_source": "The Odds API (REST fallback, capa 1)",
+    "xg_home_source": "ASA MLS 2026",
+    "xg_away_source": "ASA MLS 2026",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

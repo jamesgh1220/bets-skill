@@ -1,0 +1,38 @@
+{
+  "file": "m43_minnesota_united_fc_la_galaxy.json",
+  "home_team": "Minnesota United FC",
+  "away_team": "LA Galaxy",
+  "league": "MLS",
+  "match_date": "2026-09-19",
+  "xg_home_for": 1.83,
+  "xg_home_against": 1.64,
+  "xg_away_for": 1.65,
+  "xg_away_against": 1.84,
+  "elo_home": 1575,
+  "elo_away": 1543,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 1.7,
+    "X": 4.65,
+    "2": 4.75,
+    "over_2_5": 1.39,
+    "under_2_5": 2.92,
+    "over_3_5": 2.05,
+    "under_3_5": 1.92
+  },
+  "_meta": {
+    "league": "MLS",
+    "odds_source": "The Odds API (REST fallback, capa 1)",
+    "xg_home_source": "ASA MLS 2026",
+    "xg_away_source": "ASA MLS 2026",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

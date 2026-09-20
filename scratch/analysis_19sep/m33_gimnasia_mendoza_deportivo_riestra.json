@@ -1,0 +1,36 @@
+{
+  "file": "m33_gimnasia_mendoza_deportivo_riestra.json",
+  "home_team": "Gimnasia Mendoza",
+  "away_team": "Deportivo Riestra",
+  "league": "Liga Argentina",
+  "match_date": "2026-09-19",
+  "xg_home_for": 1.0,
+  "xg_home_against": 1.38,
+  "xg_away_for": 0.9,
+  "xg_away_against": 0.91,
+  "elo_home": 1652,
+  "elo_away": 1613,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 2.25,
+    "X": 3.06,
+    "2": 4.3,
+    "over_2_5": 2.95,
+    "under_2_5": 1.39
+  },
+  "_meta": {
+    "league": "Liga Argentina",
+    "odds_source": "The Odds API (REST fallback, capa 1)",
+    "xg_home_source": "Statz.ai Liga Prof",
+    "xg_away_source": "Statz.ai Liga Prof",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

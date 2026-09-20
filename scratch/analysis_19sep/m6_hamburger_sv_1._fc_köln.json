@@ -1,0 +1,38 @@
+{
+  "file": "m6_hamburger_sv_1._fc_köln.json",
+  "home_team": "Hamburger SV",
+  "away_team": "1. FC Köln",
+  "league": "Bundesliga",
+  "match_date": "2026-09-19",
+  "xg_home_for": 0.62,
+  "xg_home_against": 2.35,
+  "xg_away_for": 2.26,
+  "xg_away_against": 2.21,
+  "elo_home": 1664,
+  "elo_away": 1660,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 2.85,
+    "X": 3.75,
+    "2": 2.6,
+    "over_2_5": 1.65,
+    "under_2_5": 2.45,
+    "over_3_5": 2.3,
+    "under_3_5": 1.55
+  },
+  "_meta": {
+    "league": "Bundesliga",
+    "odds_source": "The Odds API (REST fallback, capa 1)",
+    "xg_home_source": "Understat Bundesliga",
+    "xg_away_source": "Understat Bundesliga",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "file": "m37_cf_montreal_columbus_crew_sc.json",
+  "home_team": "CF Montreal",
+  "away_team": "Columbus Crew SC",
+  "league": "MLS",
+  "match_date": "2026-09-19",
+  "xg_home_for": 1.57,
+  "xg_home_against": 1.76,
+  "xg_away_for": 1.3,
+  "xg_away_against": 1.32,
+  "elo_home": 1487,
+  "elo_away": 1587,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 2.65,
+    "X": 3.8,
+    "2": 2.74,
+    "over_2_5": 1.64,
+    "under_2_5": 2.44,
+    "over_3_5": 2.38,
+    "under_3_5": 1.55
+  },
+  "_meta": {
+    "league": "MLS",
+    "odds_source": "The Odds API (REST fallback, capa 1)",
+    "xg_home_source": "ASA MLS 2026",
+    "xg_away_source": "ASA MLS 2026",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "file": "m22_le_mans_fc_lorient.json",
+  "home_team": "Le Mans FC",
+  "away_team": "Lorient",
+  "league": "Ligue 1",
+  "match_date": "2026-09-19",
+  "xg_home_for": 1.71,
+  "xg_home_against": 2.35,
+  "xg_away_for": 1.18,
+  "xg_away_against": 1.3,
+  "elo_home": 1588,
+  "elo_away": 1695,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 2.82,
+    "X": 3.55,
+    "2": 2.7,
+    "over_2_5": 1.84,
+    "under_2_5": 2.12
+  },
+  "_meta": {
+    "league": "Ligue 1",
+    "odds_source": "The Odds API (REST fallback, capa 1)",
+    "xg_home_source": "Understat Ligue_1",
+    "xg_away_source": "Understat Ligue_1",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "file": "m41_fc_dallas_austin_fc.json",
+  "home_team": "FC Dallas",
+  "away_team": "Austin FC",
+  "league": "MLS",
+  "match_date": "2026-09-19",
+  "xg_home_for": 1.73,
+  "xg_home_against": 1.46,
+  "xg_away_for": 1.16,
+  "xg_away_against": 2.02,
+  "elo_home": 1608,
+  "elo_away": 1546,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 1.73,
+    "X": 4.33,
+    "2": 4.8,
+    "over_2_5": 1.55,
+    "under_2_5": 2.38,
+    "over_3_5": 2.48,
+    "under_3_5": 1.63
+  },
+  "_meta": {
+    "league": "MLS",
+    "odds_source": "The Odds API (REST fallback, capa 1)",
+    "xg_home_source": "ASA MLS 2026",
+    "xg_away_source": "ASA MLS 2026",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

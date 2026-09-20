@@ -1,0 +1,36 @@
+{
+  "file": "m21_toulouse_le_havre.json",
+  "home_team": "Toulouse",
+  "away_team": "Le Havre",
+  "league": "Ligue 1",
+  "match_date": "2026-09-19",
+  "xg_home_for": 1.94,
+  "xg_home_against": 1.53,
+  "xg_away_for": 1.1,
+  "xg_away_against": 1.86,
+  "elo_home": 1684,
+  "elo_away": 1610,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 1.77,
+    "X": 4.1,
+    "2": 5.1,
+    "over_2_5": 1.76,
+    "under_2_5": 2.23
+  },
+  "_meta": {
+    "league": "Ligue 1",
+    "odds_source": "The Odds API (REST fallback, capa 1)",
+    "xg_home_source": "Understat Ligue_1",
+    "xg_away_source": "Understat Ligue_1",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

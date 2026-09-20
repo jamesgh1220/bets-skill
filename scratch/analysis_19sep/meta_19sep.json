@@ -1,0 +1,78 @@
+{
+ "analysis_date_iso": "2026-09-19T02:29:10Z",
+ "match_dates_text": "2026-09-19",
+ "information_cutoff": "2026-09-19T02:29:10Z",
+ "model_ia": "bigpickle",
+ "engine_version": "model-v1.3",
+ "leagues_display": "Premier League, Bundesliga, Ligue 1, Serie A, La Liga, Eredivisie, Primeira Liga, MLS, Liga Argentina (Primera División), Liga Colombiana (Primera A)",
+ "requested_range": "19 de septiembre de 2026 (un día)",
+ "universe_preamble": "Universo = 53 partidos del 2026-09-19 por liga solicitada (todos los partidos de las ligas en la fecha: The Odds API REST). Cuotas capa 1: The Odds API vía REST (fallback documentado; el MCP `odds-api` no estaba operativo) — plan gratis expone solo h2h y totals (2.5/3.5). Timestamp de captura de cuotas: 2026-09-18T21:22Z (referencia CLV). El MCP `apifootball` estaba inoperativo ('Authentification failed!'); el MCP local `football-stats` devolvió MISSING_SOURCE. xG: Understat (big-5), Statz.ai (Eredivisie y Liga Prof Argentina), FotMob/Opta (Primeira Liga), ASA (MLS), apwin.com (Colombia; Alianza FC proxy GF/GA). Elo: ClubElo para 98 equipos; Colombia estimado por regresión elo=70.3*xgd+1664.7 (r2=0.22, n=93) -> `elo_estimado`. Liga Colombiana no disponible en The Odds API: cuotas h2h tomadas del agregador football-predictions.ai (Pinnacle/best, Capa 3), solo 1X2 (totals n/d). Mercados sin cuota capturada (1.5 goles, BTTS, DO, DNB, córners, tarjetas): n/d, nunca inventados. Córners/tarjetas: tasas de ambos equipos no disponibles (librería parcial cubre 5 equipos sin ningún partido con ambas escuadras); los 8 campos quedan `null` y se documenta 'corners/cards no disponibles' -> mercados no disponibles, nunca omitidos silenciosamente.",
+ "universe_matches": [
+  "- **Tottenham Hotspur vs Aston Villa, Brighton vs Arsenal, Everton vs Ipswich, Newcastle vs Hull City, Nottingham Forest vs Coventry City** (Premier League) — 5 partidos — cuotas 1X2 y totals (2.5/3.5).",
+  "- **Hamburger SV vs 1. FC Köln, Werder Bremen vs Augsburg, Gladbach vs Mainz, Eintracht Frankfurt vs SC Freiburg, VfB Stuttgart vs Borussia Dortmund** (Bundesliga) — 5 partidos — cuotas 1X2 y totals (2.5/3.5).",
+  "- **Osasuna vs Rayo Vallecano, Athletic Bilbao vs Alavés, Celta Vigo vs Racing Santander, Sevilla vs Barcelona** (La Liga) — 4 partidos — cuotas 1X2 y totals (2.5/3.5).",
+  "- **Bologna vs Torino, Udinese vs Cagliari, AS Roma vs Inter Milan, Venezia vs Lazio** (Serie A) — 4 partidos — cuotas 1X2 y totals (2.5/3.5).",
+  "- **Paris FC vs Strasbourg, Angers vs Troyes, Toulouse vs Le Havre, Le Mans FC vs Lorient, Lyon vs Rennes** (Ligue 1) — 5 partidos — cuotas 1X2 y totals (2.5/3.5).",
+  "- **ADO Den Haag vs SC Cambuur, Sparta Rotterdam vs Heerenveen, Ajax vs Excelsior, Willem II vs Fortuna Sittard** (Eredivisie) — 4 partidos — cuotas 1X2 y totals (2.5/3.5).",
+  "- **Gil Vicente vs CS Maritimo, Nacional vs Famalicão, Alverca vs Rio Ave, Sporting Lisbon vs Arouca** (Primeira Liga) — 4 partidos — cuotas 1X2 y totals (2.5/3.5).",
+  "- **Gimnasia La Plata vs Banfield, Gimnasia Mendoza vs Deportivo Riestra, Unión vs Independiente, River Plate vs Atlético Huracán, Instituto vs Talleres** (Liga Argentina) — 5 partidos — cuotas 1X2 y totals (2.5/3.5).",
+  "- **13 partidos MLS** (CF Montreal vs Columbus, D.C. United vs Charlotte, San Jose vs LAFC, New England vs Orlando, FC Dallas vs Austin, Houston vs Cincinnati, Minnesota vs LA Galaxy, Sporting KC vs Philadelphia, St. Louis vs Toronto, Nashville vs Chicago, Colorado vs Seattle, Real Salt Lake vs Vancouver, Portland vs Atlanta) — cuotas 1X2 y totals (2.5/3.5).",
+  "- **Millonarios vs Boyacá Chicó, Alianza FC vs Santa Fe, Deportivo Cali vs Cúcuta, Deportivo Pasto vs Once Caldas** (Liga Colombiana, Clausura jornada 11) — 4 partidos — solo h2h (Capa 3, agregador football-predictions.ai; Pinnacle como principal)."
+ ],
+ "picks_details": [
+  {
+   "match": "VfB Stuttgart vs Borussia Dortmund",
+   "market": "over_3_5",
+   "conf": "Media-Alta",
+   "incertidumbre": "Base +/-5.0% del motor. Sensibilidad robusta (colchón pequeño por n=3 jornadas de Understat): rEV +58.2% a +68.1%. El `small_sample_penalty` del config no se aplica automáticamente en el motor; se verificó manualmente que el pick sobrevive hasta prob-15% (rEV +48.2%).",
+   "why": "xG combinados de ambos equipos muy por encima de la media (Stuttgart 2.48 GF / 3.30 GA; Dortmund 3.30 xGA visitante en n=1 pero 2.16 GF). El Elo favorece a Dortmund pero el contexto de goles es extremo. Probabilidad modelo 89.5% (cuota justa 1.12) vs 50.2% implícita. Line 3.5 con under_3_5 bien pagado (2.00) cubre el riesgo.",
+   "risks": "Muestras pequeñas de Understat (n=3); si Stuttgart corrige su fragilidad defensiva el total baja. Partido de alto riesgo en defensa; dos equipos ofensivos pueden igualmente cerrarse en 0-0 en derbi regional.",
+   "sources": "The Odds API totals (best 1.99, timestamp 2026-09-18T21:22Z); Understat Bundesliga xG; ClubElo 2026-09."
+  },
+  {
+   "match": "AS Roma vs Inter Milan",
+   "market": "over_2_5",
+   "conf": "Media-Alta",
+   "incertidumbre": "Base +/-5.0%. Sensibilidad: rEV +36.2% (prob-10%) a +44.5% (base).",
+   "why": "Inter genera 3.25 xGF por partido y Roma 3.45 xGF (n=4, ambos con ritmo altísimo). El Elo favorece levemente a Inter (1947 vs 1856) y el mercado paga 1.66 por un over 2.5 con probabilidad modelo 92.0% (implícita 60.2%). La cuota justa de 1.09 deja un edge amplio.",
+   "risks": "Derbi con contexto de odio que puede frenar el ritmo; si ambos plantean bloque alto se apuesta mucho al guion ofensivo. n=4 de xG aún corto para concluir.",
+   "sources": "The Odds API totals (best 1.66, timestamp 2026-09-18T21:22Z); Understat Serie A xG; ClubElo."
+  },
+  {
+   "match": "Venezia vs Lazio",
+   "market": "over_2_5",
+   "conf": "Media",
+   "incertidumbre": "Base +/-5.0%. Sensibilidad: rEV +38.5% (prob-10%) a +47.5% (base).",
+   "why": "Venezia muestra un perfil de ida y vuelta (2.65 xGA local) y Lazio genera ofensiva consistente. Prob 86.9% vs 55.6% implícita; la cuota 1.80 (fair 1.15) deja EV amplio. Lazio favorito por Elo (1772 vs 1651).",
+   "risks": "Venezia en casa puede bajar la línea defensiva ante Lazio; n=4 de xG. Si app Lazio domina sin goles del contrario el over 2.5 depende de un solo equipo.",
+   "sources": "The Odds API totals (best 1.80, timestamp 2026-09-18T21:22Z); Understat Serie A xG; ClubElo."
+  },
+  {
+   "match": "Brighton and Hove Albion vs Arsenal",
+   "market": "over_2_5",
+   "conf": "Alta",
+   "incertidumbre": "Base +/-5.0%. Sensibilidad: rEV +38.0% (prob-10%) a +47.2% (base).",
+   "why": "El Arsenal con 2.33 xGF en casa y Brighton con 3.11 xGF local y 1.85 xGA. Prob modelo 85.0% (fair 1.18) vs 54.4% implícita con cuota 1.84. Contexto de goles y ambos equipos en zona atacante.",
+   "risks": "Arsenal muy sólido defensivamente (0.83 xGA) puede ganar 0-2 o 1-0 en Amex si Brighton no aparece; partido con ritmo alto pero posible control del visitante.",
+   "sources": "The Odds API totals (best 1.84, timestamp 2026-09-18T21:22Z); Understat EPL xG; ClubElo."
+  },
+  {
+   "match": "Borussia Monchengladbach vs FSV Mainz 05",
+   "market": "over_2_5",
+   "conf": "Media",
+   "incertidumbre": "Base +/-5.0%. Sensibilidad: rEV +20.5% (prob-10%) a +28.2% (base).",
+   "why": "Mainz viaja con 70.4% de victoria modelo (Elo 1700+) y Gladbach encaja (xGA 2.6+). El mercado paga 1.55 por over 2.5 con probabilidad 87.7% (implícita 64.5%). El contexto favorece goles con Mainz como atacante clave.",
+   "risks": "Muestras n=3; si el partido lo controla Mainz a 0-1/0-2 el under gana. Edge menor entre las selecciones: sensibilidad lo deja en +12.7% con colchón -15%.",
+   "sources": "The Odds API totals (best 1.55, timestamp 2026-09-18T21:22Z); Understat Bundesliga xG; ClubElo."
+  },
+  {
+   "match": "Hamburger SV vs 1. FC Köln",
+   "market": "over_2_5",
+   "conf": "Media",
+   "incertidumbre": "Base +/-5.0%. Sensibilidad: rEV +24.1% (prob-10%) a +32.3% (base).",
+   "why": "Hamburger SV muestra 2.35 xGA por partido y Köln genera volumen ofensivo (2.26 xGF). Prob 85.2% vs 60.6% implícita; cuota 1.65 (fair 1.17). Elo parejo (1664 vs 1660).",
+   "risks": "Köln con 60% de victoria modelo puede dominar y cerrar el marcador; HSV en casa con fragilidad defensiva real (n=3). Partido de derbi del norte con ritmo alto.",
+   "sources": "The Odds API totals (best 1.65, timestamp 2026-09-18T21:22Z); Understat Bundesliga xG; ClubElo."
+  }
+ ]
+}

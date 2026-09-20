@@ -1,0 +1,38 @@
+{
+  "file": "m25_sparta_rotterdam_heerenveen.json",
+  "home_team": "Sparta Rotterdam",
+  "away_team": "Heerenveen",
+  "league": "Eredivisie",
+  "match_date": "2026-09-19",
+  "xg_home_for": 1.8,
+  "xg_home_against": 2.35,
+  "xg_away_for": 1.37,
+  "xg_away_against": 1.7,
+  "elo_home": 1506,
+  "elo_away": 1540,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 2.68,
+    "X": 3.85,
+    "2": 2.7,
+    "over_2_5": 1.45,
+    "under_2_5": 2.66,
+    "over_3_5": 2.26,
+    "under_3_5": 1.73
+  },
+  "_meta": {
+    "league": "Eredivisie",
+    "odds_source": "The Odds API (REST fallback, capa 1)",
+    "xg_home_source": "statz.ai Eredivisie",
+    "xg_away_source": "statz.ai Eredivisie",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

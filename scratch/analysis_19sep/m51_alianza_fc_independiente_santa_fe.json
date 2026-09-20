@@ -1,0 +1,34 @@
+{
+  "file": "m51_alianza_fc_independiente_santa_fe.json",
+  "home_team": "Alianza FC",
+  "away_team": "Independiente Santa Fe",
+  "league": "Liga Colombiana",
+  "match_date": "2026-09-19",
+  "xg_home_for": 0.89,
+  "xg_home_against": 1.78,
+  "xg_away_for": 1.41,
+  "xg_away_against": 1.36,
+  "elo_home": 1602,
+  "elo_away": 1668,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 2.81,
+    "X": 3.27,
+    "2": 2.55
+  },
+  "_meta": {
+    "league": "Liga Colombiana",
+    "odds_source": "football-predictions.ai best odds (Pinnacle, Capa 3)",
+    "xg_home_source": "GF/GA proxy Clausura (primatips)",
+    "xg_away_source": "apwin.com Colombia 2026",
+    "xg_estimado": true,
+    "elo_estimado": true
+  }
+}
