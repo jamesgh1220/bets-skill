@@ -1,0 +1,32 @@
+{
+  "home_team": "Real Cartagena",
+  "away_team": "Envigado FC",
+  "league": "Primera B Colombia (Torneo BetPlay II)",
+  "match_date": "2026-09-21",
+  "xg_home_for": 1.60,
+  "xg_home_against": 1.40,
+  "xg_away_for": 1.10,
+  "xg_away_against": 1.60,
+  "elo_home": 1485,
+  "elo_away": 1475,
+  "corners_home_for": 5.4,
+  "corners_home_against": 4.45,
+  "corners_away_for": 3.91,
+  "corners_away_against": 6.3,
+  "cards_home_for": 2.0,
+  "cards_home_against": 2.75,
+  "cards_away_for": 2.55,
+  "cards_away_against": 2.2,
+  "odds": {
+    "1": 1.66,
+    "X": 3.6,
+    "2": 4.75,
+    "over_2_5": 1.97,
+    "under_2_5": 1.77,
+    "over_3_5": 3.1,
+    "under_3_5": 1.33,
+    "1x": 1.19,
+    "x2": 1.95,
+    "12": 1.25
+  }
+}

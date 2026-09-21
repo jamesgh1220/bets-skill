@@ -1,0 +1,81 @@
+{
+  "analysis_date_iso": "2026-09-21T19:11:40Z",
+  "match_dates_text": "21 de septiembre de 2026",
+  "information_cutoff": "2026-09-21T19:11:40Z",
+  "model_ia": "bigpickle",
+  "engine_version": "model-v1.3",
+  "leagues_display": "Liga Profesional Argentina (Zonas A y B) y Primera B de Colombia",
+  "requested_range": "21 de septiembre de 2026 — Liga Argentina y Primera B Colombia (todos los partidos)",
+  "universe_preamble": "Universo = interseccion(ligas liga argentina + primera B colombia, fecha 21 de septiembre de 2026, todos los partidos programados). Cutoff de informacion 2026-09-21T19:11:40Z (anterior a todos los kickoffs: Bogota-Barranquilla 20:30 UTC, Barracas-IRivadavia y Real Cundinamarca-Quindio 22:00 UTC, Lanus-Estudiantes 00:15 UTC 22/09, Real Cartagena-Envigado 00:30 UTC 22/09). Aldosivi vs Atletico Tucuman se EXCLUYE por kickoff 17:30 UTC (partido en curso al cierre; no se usa informacion posterior al kickoff). MCPs inoperativos: apifootball devolvio 'Authentification failed!', football-stats sin datos 2026 (no corners/cards via MCP) y odds-api null, por lo que la investigacion se realizo via web (agente): APWin, FootyStats, OddStorm, PrimaTips, FootyBets, sitios de clubes, Soccerstats. Las tasas de corners/tarjetas for/against constan en cada match_input (campo obligatorio); las cuotas O/U de corners/tarjetas NO estan disponibles en las fuentes, por lo que esos mercados quedan NO DISPONIBLES (no se inventan cuotas). Nota Primera B: kickoff Bogota-Barranquilla con discrepancia 15:30 vs 16:30 COT en fuentes (APWin/OddStorm: 15:30 COT = 20:30 UTC); se consigna 20:30 UTC.",
+  "universe_matches": [
+    "1. **Liga Argentina, Zona A:** Lanus vs Estudiantes de La Plata (21 septiembre, 21:15 ART / 00:15 UTC; 1X2 Betsson 2.24 / bwin 2.14 / luckia 2.30; Est. 2 3.24-3.77; U2.5 mejor 1.37 bwin; BTTS mejor 2.27).",
+    "2. **Liga Argentina, Zona B:** Barracas Central vs Independiente Rivadavia (19:00 ART / 22:00 UTC; 1X2 PrimaTips 3.40/3.05/2.30-2.41; O1.5 1.50/U1.5 2.50; O2.5 2.60/U2.5 1.48; O3.5 5.50/U3.5 1.14; BTTS 2.10/1.67).",
+    "3. **Primera B Colombia:** Bogota FC vs Barranquilla FC (15:30 COT / 20:30 UTC, Estadio Olaya Herrera; 1X2 OddStorm 1.73/3.70/4.50; O/U 2.5 1.99/1.92; O/U 3.5 3.60/1.35).",
+    "4. **Primera B Colombia:** Real Cundinamarca (Real Soacha) vs Deportes Quindio (17:00 COT / 22:00 UTC; 1X2 OddStorm 2.20/3.15/3.90; O/U 2.5 2.44/1.64; O/U 3.5 4.80/1.24).",
+    "5. **Primera B Colombia:** Real Cartagena vs Envigado FC (19:30 COT / 00:30 UTC; 1X2 Gainblers 1.75/3.50/5.10; O/U 2.5 1.97/1.77; O/U 3.5 3.10/1.33).",
+    "EXCLUIDO: **Liga Argentina, Zona B:** Aldosivi vs Atletico Tucuman (kickoff 17:30 UTC 21/09; en curso al cierre -> NO BET pos-kickoff, sin analisis)."
+  ],
+  "picks_details": [
+    {
+      "match": "Barracas Central vs Independiente Rivadavia",
+      "market": "over_1_5",
+      "min_odds": "1.33",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0%; muestras cortas (Barracas n=22, IRiv n=12, FootyStats). over_1_5 NO cubierta por la calibracion Platt (solo 1, 2, O/U 2.5 y 3.5) -> probabilidad del ensemble sin calibrar.",
+      "why": "El motor estima lambda 1.44-1.53 (total ~2.97) y da Over 1.5 al 80.3% frente al 66.7% implicito (cuota 1.50). IRiv genera 1.64 xG y Barracas concede 1.68 xGA (defensa lateral mas debil); la escasa diferencia de fuerzas (Elo 1624 vs 1735) se compensa por produccion esperada alta. Edge +20.5%, EV robusto +13.0%.",
+      "risks": "Barracas apenas produce (GF 5 en 9 partidos) y lleva 7 sin ganar; un 0-0 o 1-0 en un partido cerrado rompe el Over. Cuota 1.50 justo en el umbral minimo prioritario (min 1.50) -> poca holgura. la linea 1.5 no esta calibrada.",
+      "sources": "FootyStats (xG n=22/12), statsfut (corners/tarjetas), PrimaTips/OddsChecker (cuotas 21/09 pre-match), ClubElo (1624/1735), TyC Sports (bajas/alineaciones 20-21/09)."
+    },
+    {
+      "match": "Lanús vs Estudiantes de La Plata",
+      "market": "over_1_5",
+      "min_odds": "1.25",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0%; discrepancia de xG entre proveedores (APWin 1.47/1.50 y 1.61/1.29 vs statz 1.32/1.02 y 1.24/1.03); se uso APWin (n=26 liga). Línea 1.5 sin calibracion Platt.",
+      "why": "El motor estima lambda 1.50-1.43 (total ~2.93) y da Over 1.5 al 79.8% frente al 55.6% implicito (cuota 1.80). Lanus media 1.47 xG con 2.41 goles esperados totales; ambas defensas conceden cerca de 1.3-1.5 xGA. Edge +43.6%, EV robusto +34.6%.",
+      "risks": "Estudiantes tiene la mejor defensa real de Argentina (GA 17/26, 0.65 por partido) y vendra de Libertadores (cuartos vs Corinthians), pudiendo cerrar 0-0/1-0; si rotas masivas por el desgaste europeo bajan el total. La asimetria xG/xGA de Est (xGA 1.29 vs GA 0.65) sugiere sobrejuego defensivo real.",
+      "sources": "APWin (xG, GA/GF, forma; fetch 21/09), Betsson/bwin/luckia (cuotas via APWin), sportytrader/Bet365 (O/U lineas), ClubElo (1695/1729 - no verificado directo), TyC/ESPN (fecha/kickoff)."
+    },
+    {
+      "match": "Real Cartagena vs Envigado FC",
+      "market": "over_2_5",
+      "min_odds": "1.49",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0%; Primera B sin Elo clubelo (estimado 1520/1505); xG/corners/tarjetas de APWin con muestra 2026-27; tarjetas Envigado con discrepancia (APWin 1.47 vs agente 2.55) - se uso APWin.",
+      "why": "El motor estima lambda 1.74-1.29 (total ~3.03) y da Over 2.5 al 72.0% frente al 50.8% implicito (cuota 1.97). Real Cartagena lidera el grupo B con la mejor xG del grupo (1.70) y Envigado lo sigue con 1.45 xG y 1.53 xGA en una racha LLLL con defensa permeable. Edge +41.8%, EV robusto +32.0%.",
+      "risks": "Envigado viene de 4 derrotas y puede plantear bloque bajo; el foco del grupo (lucha por semifinales) puede volver el partido cerrado. El liderazgo de RC y la baja forma del rival juegan a favor, pero en Primera B la varianza de xG es alta (muestra pequena).",
+      "sources": "APWin (xG 1.70/1.38 y 1.45/1.53, forma LLLL Envigado, corners 9.60, cuotas 1.79/3.28/4.02), Gainblers odds comparator (1.75/3.50/5.10, captura ~19:00 UTC 21/09), footywow (ELO 1536/1560 anterior)."
+    },
+    {
+      "match": "Bogotá F.C. vs Barranquilla F.C.",
+      "market": "over_2_5",
+      "min_odds": "1.52",
+      "conf": "Media",
+      "incertidumbre": "Base +/- 5.0%; Primera B sin Elo clubelo (estimado 1460/1480); kickoff con discrepancia 15:30 vs 16:30 COT en fuentes; muestra xG n=29.",
+      "why": "El motor estima lambda 1.64-1.34 (total ~2.98) y da Over 2.5 al 70.6% frente al 50.3% implicito (cuota 1.99). Ambos equipos conceden mucho: Bogota 8 goles en contra en 8 partidos de grupo y Barranquilla 4-4 GF/GA con ambas defensas con xGA >1.55. Edge +40.5%, EV robusto +30.6%.",
+      "risks": "Equipos en fases bajas de tabla con 6-8 partidos sin ganar (Bogota) y gol promedio moderado; un partido gris de Primera B (0-0/1-1) es resultado frecuente. Cuota 1.99 implica solo 50% y el modelo pide 70%, asumiendo correcta la conversion xG->goles.",
+      "sources": "APWin (xG 1.45/1.46 y 1.47/1.57, corners, tarjetas), OddStorm (cuotas 1.73/3.70/4.50; O/U 1.99/1.92; captura 21/09 pre-match), lowyatch/FotMob (kickoff 15:30 COT)."
+    },
+    {
+      "match": "Barracas Central vs Independiente Rivadavia",
+      "market": "btts_yes",
+      "min_odds": "1.80",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0%; BTTS no cubierto por calibracion Platt (media sin calibrar); muestras cortas de xG.",
+      "why": "El motor da BTTS al 60.5% frente al 47.6% implicito (cuota 2.10). Combinacion geometria ofensiva defensiva: Barracas concede 1.68 xGA y produce 1.27; IRiv genera 1.64 xG y cede 1.35. Se esperan goles por ambos lados (6 de los 9 partidos del IRiv con gol de ambos o superior; Barracas casi siempre 1-2 goles). Edge +26.9%, EV robusto +16.4%.",
+      "risks": "Barracas marca poco (GF 5 en 9; goleadores bajos) y en casa no ha mostrado chispa ofensiva; si IRiv controla y Barracas no convierte, falla. Mercado BTTS con muestra pequena y alta dependencia de la eficiencia real de Barracas.",
+      "sources": "FootyStats (xG n=22/12), PrimaTips (cuotas 21/09), ClubElo (1624/1735), TyC Sports (bajas Barracas: Orsini, Tobio, Bonifacio, Gamba, Duarte, Morales)."
+    },
+    {
+      "match": "Real Cartagena vs Envigado FC",
+      "market": "over_3_5",
+      "min_odds": "2.05",
+      "conf": "Media",
+      "incertidumbre": "Base +/- 5.0%; longshot de cola; el motor sobreestima O3.5 solo en lineas altas ya micro-recalibradas por Platt (mejoro calibracion OOS). Primera B muestra pequena.",
+      "why": "Longshot de cola con EV robusto +51.3%: el motor da Over 3.5 al 53.8% frente al 32.3% implicito (cuota 3.10). Lambda total ~3.03 (RC 1.74 - Envigado 1.29) con Envigado en 4 derrotas consecutivas concediendo (xGA 1.53). Seleccion de excepcion: 1 longshot max, probabilidad modelo y EV robusto por encima de umbrales reforzados.",
+      "risks": "Cola alta = mayor varianza; un partido 2-0 o 1-1 (2-3 goles) deja el pick en nada. la cuota 3.10 es media de mercado; si no hay goles de Envigado el over 3.5 depende de que RC marque 4+. Stake capado a 0.25u (aqui 0.08u recomendado).",
+      "sources": "APWin (xG 1.70/1.38 y 1.45/1.53; cuotas), Gainblers comparator (captura ~19:00 UTC 21/09), footywow (forma)."
+    }
+  ],
+  "fallback_source": "MCPs no operativos (apifootball 'Authentification failed!', football-stats sin datos 2026/27, odds-api null). Investigacion del agente via web: APWin.com (xG, forma, corners, tarjetas, cuotas), FootyStats (xG n=22/12), OddStorm/PrimaTips (odds Colombia/Argentina), FootyBets (tarjetas), Soccerstats, Wikipedia/Fotmob (kicks/times), sportsgambler/TyC (Argentina). Elo: clubelo (Argentina), estimates a partir de footywow/render para Primera B (sin clubelo). Motor calc_engine.py model-v1.3 con calibracion Platt (1/2, O/U 2.5 y O/U 3.5). xG Lanus-Estudiantes con discrepancia proveedores (APWin 1.47/1.50 y 1.61/1.29 vs statz 1.32/1.02 y 1.24/1.03); se uso APWin (n=26 liga, directo). Tarjetas Envigado APWin 1.47 vs input agente 2.55; se uso APWin. Primera B sin Elo clubelo: estimaciones documentadas en match_input."
+}
