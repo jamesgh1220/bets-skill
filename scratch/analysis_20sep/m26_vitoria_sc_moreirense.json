@@ -1,0 +1,42 @@
+{
+  "file": "m26_vitoria_sc_moreirense.json",
+  "home_team": "Vitoria SC",
+  "away_team": "Moreirense",
+  "league": "Liga Portugal",
+  "match_date": "2026-09-20",
+  "xg_home_for": 1.91,
+  "xg_home_against": 0.88,
+  "xg_away_for": 0.83,
+  "xg_away_against": 1.87,
+  "elo_home": 1571,
+  "elo_away": 1546,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 1.53,
+    "X": 4.3,
+    "2": 6.5,
+    "over_2_5": 1.93,
+    "under_2_5": 1.89
+  },
+  "odds_lines": {
+    "2.5": {
+      "over": 1.93,
+      "under": 1.89
+    }
+  },
+  "_meta": {
+    "league": "Liga Portugal",
+    "odds_source": "The Odds API (REST, capa 1)",
+    "xg_home_source": "OddAlerts xG Liga Portugal 2026/27 (Opta-derived, up to MD6; xG 11.47/6 xGA 5.26/6)",
+    "xg_away_source": "OddAlerts xG Liga Portugal 2026/27 (Opta-derived, up to MD6; xG 4.96/6 xGA 11.20/6)",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

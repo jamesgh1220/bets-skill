@@ -1,0 +1,783 @@
+{
+ "Bournemouth vs Liverpool": {
+  "sport": "soccer_epl",
+  "match_id": "784f777f5181e1efdad7a6ecb2cfde15",
+  "commence_time": "2026-09-20T13:00:00Z",
+  "h2h": {
+   "Bournemouth": 3.2,
+   "Draw": 3.9,
+   "Liverpool": 2.17
+  },
+  "totals": {
+   "3.0": {
+    "Over": 1.8,
+    "Under": 2.1
+   },
+   "3.5": {
+    "Over": 2.16,
+    "Under": 1.72
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Leeds United vs Crystal Palace": {
+  "sport": "soccer_epl",
+  "match_id": "b63aef4291a066e32644e591c19a235a",
+  "commence_time": "2026-09-20T13:00:00Z",
+  "h2h": {
+   "Leeds United": 1.71,
+   "Draw": 4.02,
+   "Crystal Palace": 5.1
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.7,
+    "Under": 2.3
+   },
+   "3.0": {
+    "Over": 2.1,
+    "Under": 1.68
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Manchester City vs Sunderland": {
+  "sport": "soccer_epl",
+  "match_id": "f923236e69ed946fdc55163494ee88db",
+  "commence_time": "2026-09-20T13:00:00Z",
+  "h2h": {
+   "Manchester City": 1.33,
+   "Draw": 5.65,
+   "Sunderland": 9.5
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.57,
+    "Under": 2.35
+   },
+   "3.0": {
+    "Over": 2.0,
+    "Under": 1.87
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Fulham vs Manchester United": {
+  "sport": "soccer_epl",
+  "match_id": "182b81a9e220b2347235107c42802fd8",
+  "commence_time": "2026-09-20T15:30:00Z",
+  "h2h": {
+   "Fulham": 3.51,
+   "Draw": 3.92,
+   "Manchester United": 2.05
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.54,
+    "Under": 2.3
+   },
+   "3.0": {
+    "Over": 1.91,
+    "Under": 1.98
+   },
+   "3.5": {
+    "Over": 2.35,
+    "Under": 1.57
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Bayer Leverkusen vs RB Leipzig": {
+  "sport": "soccer_germany_bundesliga",
+  "match_id": "a4b92030b5b48bceea0474e4d8066355",
+  "commence_time": "2026-09-20T13:30:00Z",
+  "h2h": {
+   "Bayer Leverkusen": 2.0,
+   "Draw": 4.12,
+   "RB Leipzig": 3.43
+  },
+  "totals": {
+   "3.5": {
+    "Over": 1.88,
+    "Under": 1.95
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "FC Schalke 04 vs SV Elversberg": {
+  "sport": "soccer_germany_bundesliga",
+  "match_id": "b437f1c16c351016133cef7395600f84",
+  "commence_time": "2026-09-20T15:30:00Z",
+  "h2h": {
+   "FC Schalke 04": 2.08,
+   "Draw": 3.8,
+   "SV Elversberg": 3.55
+  },
+  "totals": {
+   "3.0": {
+    "Over": 1.84,
+    "Under": 2.05
+   },
+   "3.5": {
+    "Over": 2.35,
+    "Under": 1.61
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "SC Paderborn vs TSG Hoffenheim": {
+  "sport": "soccer_germany_bundesliga",
+  "match_id": "9f5cd3de78cf482a77b4571fe363d04c",
+  "commence_time": "2026-09-20T17:30:00Z",
+  "h2h": {
+   "SC Paderborn": 4.47,
+   "Draw": 4.49,
+   "TSG Hoffenheim": 1.7
+  },
+  "totals": {
+   "3.25": {
+    "Over": 1.89,
+    "Under": 1.93
+   },
+   "3.5": {
+    "Over": 2.1,
+    "Under": 1.79
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Fiorentina vs Napoli": {
+  "sport": "soccer_italy_serie_a",
+  "match_id": "65acc2445541a5ed803ef0ce1a270097",
+  "commence_time": "2026-09-20T10:30:00Z",
+  "h2h": {
+   "Fiorentina": 3.22,
+   "Draw": 3.5,
+   "Napoli": 2.29
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.85,
+    "Under": 2.05
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Frosinone vs Como": {
+  "sport": "soccer_italy_serie_a",
+  "match_id": "f9e4aaa82676652e339be6c9b5ca44fb",
+  "commence_time": "2026-09-20T13:00:00Z",
+  "h2h": {
+   "Frosinone": 6.75,
+   "Draw": 4.7,
+   "Como": 1.53
+  },
+  "totals": {
+   "3.0": {
+    "Over": 1.71,
+    "Under": 2.2
+   },
+   "3.5": {
+    "Over": 2.1,
+    "Under": 1.71
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Parma vs Genoa": {
+  "sport": "soccer_italy_serie_a",
+  "match_id": "a48070d7ed928431ebe0d8ca2d6a8540",
+  "commence_time": "2026-09-20T13:00:00Z",
+  "h2h": {
+   "Parma": 3.19,
+   "Draw": 3.1,
+   "Genoa": 2.56
+  },
+  "totals": {
+   "2.0": {
+    "Over": 1.88,
+    "Under": 2.02
+   },
+   "2.5": {
+    "Over": 2.45,
+    "Under": 1.51
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Juventus vs Atalanta": {
+  "sport": "soccer_italy_serie_a",
+  "match_id": "58ed47e545ec3e4235ed8c1955cfdd42",
+  "commence_time": "2026-09-20T16:00:00Z",
+  "h2h": {
+   "Juventus": 1.72,
+   "Draw": 3.81,
+   "Atalanta": 5.26
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.89,
+    "Under": 2.02
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "AC Milan vs Lecce": {
+  "sport": "soccer_italy_serie_a",
+  "match_id": "32989e446cccc9a7f71ece00c93da57c",
+  "commence_time": "2026-09-20T18:45:00Z",
+  "h2h": {
+   "AC Milan": 1.29,
+   "Draw": 6.0,
+   "Lecce": 12.5
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.62,
+    "Under": 2.33
+   },
+   "3.0": {
+    "Over": 2.1,
+    "Under": 1.82
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Getafe vs Malaga": {
+  "sport": "soccer_spain_la_liga",
+  "match_id": "a5b897588648ae4d05d17a370f2afae1",
+  "commence_time": "2026-09-20T12:00:00Z",
+  "h2h": {
+   "Getafe": 2.06,
+   "Draw": 3.1,
+   "Malaga": 4.45
+  },
+  "totals": {
+   "1.5": {
+    "Over": 1.57,
+    "Under": 2.4
+   },
+   "1.75": {
+    "Over": 1.8,
+    "Under": 2.05
+   },
+   "2.0": {
+    "Over": 2.12,
+    "Under": 1.77
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Atletico Madrid vs Real Madrid": {
+  "sport": "soccer_spain_la_liga",
+  "match_id": "5866dae1e72b96ab74508039cd3dcca7",
+  "commence_time": "2026-09-20T14:15:00Z",
+  "h2h": {
+   "Atletico Madrid": 3.6,
+   "Draw": 3.9,
+   "Real Madrid": 2.02
+  },
+  "totals": {
+   "3.0": {
+    "Over": 1.71,
+    "Under": 2.21
+   },
+   "3.25": {
+    "Over": 1.95,
+    "Under": 1.87
+   },
+   "3.5": {
+    "Over": 2.1,
+    "Under": 1.71
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Deportivo La Coruna vs Real Betis": {
+  "sport": "soccer_spain_la_liga",
+  "match_id": "ded5c2293009b93b7d8ee3c890b6617e",
+  "commence_time": "2026-09-20T16:30:00Z",
+  "h2h": {
+   "Deportivo La Coruna": 3.6,
+   "Draw": 3.76,
+   "Real Betis": 2.05
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.83,
+    "Under": 2.02
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Villarreal vs Levante": {
+  "sport": "soccer_spain_la_liga",
+  "match_id": "5502f6f20eccc2f2ed0d3904712e4a2c",
+  "commence_time": "2026-09-20T16:30:00Z",
+  "h2h": {
+   "Villarreal": 1.53,
+   "Draw": 4.92,
+   "Levante": 6.1
+  },
+  "totals": {
+   "3.0": {
+    "Over": 1.72,
+    "Under": 2.2
+   },
+   "3.25": {
+    "Over": 1.95,
+    "Under": 1.87
+   },
+   "3.5": {
+    "Over": 2.25,
+    "Under": 1.62
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Valencia vs Real Sociedad": {
+  "sport": "soccer_spain_la_liga",
+  "match_id": "d05fb9feb5722b2f2cedb8bbe7c33a1d",
+  "commence_time": "2026-09-20T19:00:00Z",
+  "h2h": {
+   "Valencia": 2.8,
+   "Draw": 3.4,
+   "Real Sociedad": 2.65
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.95,
+    "Under": 1.88
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Auxerre vs Brest": {
+  "sport": "soccer_france_ligue_one",
+  "match_id": "9ad9809b917fa4d390e2332a246d3044",
+  "commence_time": "2026-09-20T13:00:00Z",
+  "h2h": {
+   "Auxerre": 2.9,
+   "Draw": 3.6,
+   "Brest": 2.47
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.83,
+    "Under": 2.07
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Nice vs Lille": {
+  "sport": "soccer_france_ligue_one",
+  "match_id": "68098e30e20a258d5ab0486c5ce437d2",
+  "commence_time": "2026-09-20T15:15:00Z",
+  "h2h": {
+   "Nice": 3.76,
+   "Draw": 3.52,
+   "Lille": 2.06
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.93,
+    "Under": 1.89
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Marseille vs Paris Saint-Germain": {
+  "sport": "soccer_france_ligue_one",
+  "match_id": "2b9e09738f8627da46e42d85e4ccb478",
+  "commence_time": "2026-09-20T18:45:00Z",
+  "h2h": {
+   "Marseille": 7.5,
+   "Draw": 5.55,
+   "Paris Saint-Germain": 1.43
+  },
+  "totals": {
+   "3.5": {
+    "Over": 1.95,
+    "Under": 1.89
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Feyenoord vs FC Utrecht": {
+  "sport": "soccer_netherlands_eredivisie",
+  "match_id": "943ccf70b92b1561e7e0afb049c4acb6",
+  "commence_time": "2026-09-20T10:15:00Z",
+  "h2h": {
+   "Feyenoord": 1.29,
+   "Draw": 6.57,
+   "FC Utrecht": 9.4
+  },
+  "totals": {
+   "3.5": {
+    "Over": 1.78,
+    "Under": 2.05
+   },
+   "3.75": {
+    "Over": 1.91,
+    "Under": 1.91
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "AZ Alkmaar vs SC Telstar": {
+  "sport": "soccer_netherlands_eredivisie",
+  "match_id": "46c45ca06b5d91e769c9dca3e854e0f1",
+  "commence_time": "2026-09-20T12:30:00Z",
+  "h2h": {
+   "AZ Alkmaar": 1.27,
+   "Draw": 7.05,
+   "SC Telstar": 10.0
+  },
+  "totals": {
+   "3.5": {
+    "Over": 1.71,
+    "Under": 2.16
+   },
+   "3.75": {
+    "Over": 1.89,
+    "Under": 1.93
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "FC Twente vs PSV Eindhoven": {
+  "sport": "soccer_netherlands_eredivisie",
+  "match_id": "27482672124b7ef365bbfe4c5466a580",
+  "commence_time": "2026-09-20T12:30:00Z",
+  "h2h": {
+   "FC Twente": 3.0,
+   "Draw": 4.11,
+   "PSV Eindhoven": 2.2
+  },
+  "totals": {
+   "3.5": {
+    "Over": 1.73,
+    "Under": 2.1
+   },
+   "3.75": {
+    "Over": 1.87,
+    "Under": 1.95
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "NEC Nijmegen vs Go Ahead Eagles": {
+  "sport": "soccer_netherlands_eredivisie",
+  "match_id": "888747c951587cdd49dec5ae4ab3b9ae",
+  "commence_time": "2026-09-20T14:45:00Z",
+  "h2h": {
+   "NEC Nijmegen": 1.93,
+   "Draw": 4.22,
+   "Go Ahead Eagles": 3.46
+  },
+  "totals": {
+   "3.5": {
+    "Over": 1.88,
+    "Under": 1.95
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Estrela da Amadora vs Academico de Viseu": {
+  "sport": "soccer_portugal_primeira_liga",
+  "match_id": "0eeca9f4e535dea18493b7ff0a2b811a",
+  "commence_time": "2026-09-20T14:30:00Z",
+  "h2h": {
+   "Estrela da Amadora": 2.2,
+   "Draw": 3.4,
+   "Academico de Viseu": 3.45
+  },
+  "totals": {
+   "2.25": {
+    "Over": 1.8,
+    "Under": 2.05
+   },
+   "2.5": {
+    "Over": 2.05,
+    "Under": 1.74
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Vitoria SC vs Moreirense": {
+  "sport": "soccer_portugal_primeira_liga",
+  "match_id": "f5c978d59b05fab4498d82a55005855f",
+  "commence_time": "2026-09-20T14:30:00Z",
+  "h2h": {
+   "Vitoria SC": 1.53,
+   "Draw": 4.3,
+   "Moreirense": 6.5
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.93,
+    "Under": 1.89
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Santa Clara vs Braga": {
+  "sport": "soccer_portugal_primeira_liga",
+  "match_id": "2a54ff70f108e67822197283422c2e72",
+  "commence_time": "2026-09-20T17:00:00Z",
+  "h2h": {
+   "Santa Clara": 3.6,
+   "Draw": 3.2,
+   "Braga": 2.2
+  },
+  "totals": {
+   "2.0": {
+    "Over": 1.87,
+    "Under": 1.95
+   },
+   "2.5": {
+    "Over": 2.45,
+    "Under": 1.55
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Estoril vs Casa Pia": {
+  "sport": "soccer_portugal_primeira_liga",
+  "match_id": "e5ae4558a97710adb3d9bb4bc6416ba9",
+  "commence_time": "2026-09-20T17:00:00Z",
+  "h2h": {
+   "Estoril": 1.74,
+   "Draw": 3.8,
+   "Casa Pia": 4.7
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.89,
+    "Under": 1.93
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "FC Porto vs Benfica": {
+  "sport": "soccer_portugal_primeira_liga",
+  "match_id": "908d70dec433245627941151e5ab8ecc",
+  "commence_time": "2026-09-20T19:30:00Z",
+  "h2h": {
+   "FC Porto": 2.8,
+   "Draw": 3.4,
+   "Benfica": 2.54
+  },
+  "totals": {
+   "2.5": {
+    "Over": 1.87,
+    "Under": 1.95
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Inter Miami vs San Diego FC": {
+  "sport": "soccer_usa_mls",
+  "match_id": "dc92a5925fcf4c94c17a4278a5e6a419",
+  "commence_time": "2026-09-20T23:00:00Z",
+  "h2h": {
+   "Inter Miami": 1.48,
+   "Draw": 5.5,
+   "San Diego FC": 6.5
+  },
+  "totals": {
+   "4.0": {
+    "Over": 1.78,
+    "Under": 2.0
+   },
+   "4.25": {
+    "Over": 2.0,
+    "Under": 1.86
+   },
+   "4.5": {
+    "Over": 2.25,
+    "Under": 1.62
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "San Lorenzo vs Boca Juniors": {
+  "sport": "soccer_argentina_primera_division",
+  "match_id": "3009fa8885b242efa9c330aa809c3e3e",
+  "commence_time": "2026-09-20T17:45:00Z",
+  "h2h": {
+   "San Lorenzo": 4.35,
+   "Draw": 3.17,
+   "Boca Juniors": 2.1
+  },
+  "totals": {
+   "1.5": {
+    "Over": 1.5,
+    "Under": 2.4
+   },
+   "2.0": {
+    "Over": 1.95,
+    "Under": 1.88
+   },
+   "2.5": {
+    "Over": 2.5,
+    "Under": 1.49
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Rosario Central vs Argentinos Juniors": {
+  "sport": "soccer_argentina_primera_division",
+  "match_id": "6405c2da07b0408da01dd2215f98ca8b",
+  "commence_time": "2026-09-20T20:00:00Z",
+  "h2h": {
+   "Rosario Central": 2.37,
+   "Draw": 3.1,
+   "Argentinos Juniors": 3.46
+  },
+  "totals": {
+   "1.5": {
+    "Over": 1.5,
+    "Under": 2.48
+   },
+   "2.0": {
+    "Over": 1.94,
+    "Under": 1.89
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Platense vs Newell's Old Boys": {
+  "sport": "soccer_argentina_primera_division",
+  "match_id": "b270132136894ce875c99eba0d11ba28",
+  "commence_time": "2026-09-20T20:00:00Z",
+  "h2h": {
+   "Platense": 2.22,
+   "Draw": 3.1,
+   "Newell's Old Boys": 3.87
+  },
+  "totals": {
+   "1.5": {
+    "Over": 1.5,
+    "Under": 2.4
+   },
+   "2.0": {
+    "Over": 1.95,
+    "Under": 1.87
+   },
+   "2.5": {
+    "Over": 2.45,
+    "Under": 1.5
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Belgrano de Cordoba vs Estudiantes de Rio Cuarto": {
+  "sport": "soccer_argentina_primera_division",
+  "match_id": "22cc3c1b00edc99f15e065abcfde29aa",
+  "commence_time": "2026-09-20T22:15:00Z",
+  "h2h": {
+   "Belgrano de Cordoba": 1.45,
+   "Draw": 4.35,
+   "Estudiantes de Rio Cuarto": 8.5
+  },
+  "totals": {
+   "2.0": {
+    "Over": 1.77,
+    "Under": 2.1
+   },
+   "2.5": {
+    "Over": 2.3,
+    "Under": 1.6
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ },
+ "Fortaleza CEIF vs Atletico Junior": {
+  "sport": "soccer_colombia_primera_a",
+  "match_id": "col-2026-09-20-fortaleza-junior",
+  "commence_time": "2026-09-20T19:00:00Z",
+  "h2h": {
+   "Fortaleza CEIF": 2.88,
+   "Draw": 3.25,
+   "Atletico Junior": 2.52
+  },
+  "totals": {
+   "2.5": {
+    "Over": 2.1,
+    "Under": 1.8
+   }
+  },
+  "btts": {},
+  "dnb": {},
+  "dc": {}
+ }
+}

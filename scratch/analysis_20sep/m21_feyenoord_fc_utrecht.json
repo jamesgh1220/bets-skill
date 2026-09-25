@@ -1,0 +1,46 @@
+{
+  "file": "m21_feyenoord_fc_utrecht.json",
+  "home_team": "Feyenoord",
+  "away_team": "FC Utrecht",
+  "league": "Eredivisie",
+  "match_date": "2026-09-20",
+  "xg_home_for": 2.69,
+  "xg_home_against": 0.91,
+  "xg_away_for": 1.71,
+  "xg_away_against": 1.46,
+  "elo_home": 1712,
+  "elo_away": 1580,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 1.29,
+    "X": 6.57,
+    "2": 9.4,
+    "over_3_5": 1.78,
+    "under_3_5": 2.05
+  },
+  "odds_lines": {
+    "3.5": {
+      "over": 1.78,
+      "under": 2.05
+    },
+    "3.75": {
+      "over": 1.91,
+      "under": 1.91
+    }
+  },
+  "_meta": {
+    "league": "Eredivisie",
+    "odds_source": "The Odds API (REST, capa 1)",
+    "xg_home_source": "Statz.ai Eredivisie xG 2026-27 (Sportmonks), games through 2026-09-19",
+    "xg_away_source": "Statz.ai Eredivisie xG 2026-27 (Sportmonks), games through 2026-09-19",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

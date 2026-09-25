@@ -1,0 +1,46 @@
+{
+  "file": "m9_frosinone_como.json",
+  "home_team": "Frosinone",
+  "away_team": "Como",
+  "league": "Serie A",
+  "match_date": "2026-09-20",
+  "xg_home_for": 1.15,
+  "xg_home_against": 2.05,
+  "xg_away_for": 1.72,
+  "xg_away_against": 1.5,
+  "elo_home": 1679,
+  "elo_away": 1816,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 6.75,
+    "X": 4.7,
+    "2": 1.53,
+    "over_3_5": 2.1,
+    "under_3_5": 1.71
+  },
+  "odds_lines": {
+    "3.0": {
+      "over": 1.71,
+      "under": 2.2
+    },
+    "3.5": {
+      "over": 2.1,
+      "under": 1.71
+    }
+  },
+  "_meta": {
+    "league": "Serie A",
+    "odds_source": "The Odds API (REST, capa 1)",
+    "xg_home_source": "OddAlerts Serie A xG 2026-27 (updated 2026-09-19)",
+    "xg_away_source": "OddAlerts Serie A xG 2026-27 (updated 2026-09-19)",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "analysis_date_iso": "2026-09-20T03:33:53Z",
+  "match_dates_text": "2026-09-20",
+  "information_cutoff": "2026-09-20T03:01:00Z",
+  "model_ia": "bigpickle",
+  "engine_version": "model-v1.3",
+  "leagues_display": "Premier League, Bundesliga, Serie A, La Liga, Ligue 1, Eredivisie, Primeira Liga, MLS, Liga Argentina (Primera División), Liga Colombiana (Primera A)",
+  "requested_range": "20 de septiembre de 2026 (un día)",
+  "universe_preamble": "Universo = 35 partidos del 2026-09-20 por liga solicitada (todos los partidos de las ligas en la fecha: The Odds API REST). Cutoff del análisis: 2026-09-20T03:01Z; 4 partidos MLS previos al cutoff (Nashville SC, Real Salt Lake, Portland Timbers, Colorado Rapids) excluidos del universo. Cuotas capa 1: The Odds API vía REST (el MCP `odds-api` no estaba operativo) — plan gratis expone h2h y totals; el plan no expone deducidas (BTTS, DO, DNB). Timestamp de captura de cuotas: 2026-09-18T21:22Z (referencia CLV). El MCP `apifootball` estaba inoperativo ('Authentification failed!') y el MCP local `football-stats` devolvió MISSING_SOURCE. xG: Understat (big-5), Statz.ai (Eredivisie, MLS y Liga Arg), FotMob/Opta (Primeira Liga), apwin.com (Colombia). Elo: ClubElo real para los 70 equipos del universo (clubelo.com, sin regresiones). Liga Colombiana no disponible en The Odds API: cuotas h2h y O/U 2.5 tomadas del agregador football-predictions.ai (Pinnacle/best, Capa 3). Mercados sin cuota capturada (1.5 goles, BTTS, DO, DNB, córners, tarjetas): n/d, nunca inventados. Córners/tarjetas: tasas de ambos equipos no disponibles (sin librería corners/cards para 20-sep); los 8 campos quedan `null` y se documenta 'corners/cards no disponibles' -> mercados no disponibles, nunca omitidos silenciosamente.",
+  "universe_matches": [
+    "- **Bournemouth vs Liverpool, Leeds United vs Crystal Palace, Manchester City vs Sunderland, Fulham vs Manchester United** (Premier League) — 4 partidos — cuotas 1X2 y totals (2.5/3.5).",
+    "- **Bayer Leverkusen vs RB Leipzig, FC Schalke 04 vs SV Elversberg, SC Paderborn vs TSG Hoffenheim** (Bundesliga) — 3 partidos — cuotas 1X2 y totals (2.5/3.5).",
+    "- **Getafe vs Malaga, Atletico Madrid vs Real Madrid, Deportivo La Coruna vs Real Betis, Villarreal vs Levante, Valencia vs Real Sociedad** (La Liga) — 5 partidos — cuotas 1X2 y totals (2.5/3.5).",
+    "- **Fiorentina vs Napoli, Frosinone vs Como, Parma vs Genoa, Juventus vs Atalanta, AC Milan vs Lecce** (Serie A) — 5 partidos — cuotas 1X2 y totals (2.5/3.5).",
+    "- **Auxerre vs Brest, Nice vs Lille, Marseille vs Paris Saint-Germain** (Ligue 1) — 3 partidos — cuotas 1X2 y totals (2.5/3.5).",
+    "- **Feyenoord vs FC Utrecht, AZ Alkmaar vs SC Telstar, FC Twente vs PSV Eindhoven, NEC Nijmegen vs Go Ahead Eagles** (Eredivisie) — 4 partidos — cuotas 1X2 y totals (2.5/3.5).",
+    "- **Estrela da Amadora vs Academico de Viseu, Vitoria SC vs Moreirense, Santa Clara vs Braga, Estoril vs Casa Pia, FC Porto vs Benfica** (Primeira Liga) — 5 partidos — cuotas 1X2 y totals (2.5/3.5).",
+    "- **Inter Miami vs San Diego FC** (MLS) — 1 partido — cuotas 1X2 y totals (2.5/3.5).",
+    "- **San Lorenzo vs Boca Juniors, Rosario Central vs Argentinos Juniors, Platense vs Newell's Old Boys, Belgrano de Cordoba vs Estudiantes de Rio Cuarto** (Liga Argentina) — 4 partidos — cuotas 1X2 y totals (2.5/3.5).",
+    "- **Fortaleza CEIF vs Atletico Junior** (Liga Colombiana) — 1 partido — cuotas 1X2 (Capa 3) y O/U 2.5."
+  ],
+  "picks_details": []
+}

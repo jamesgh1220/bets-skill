@@ -1,0 +1,46 @@
+{
+  "file": "m34_belgrano_de_cordoba_estudiantes_de_rio_cuarto.json",
+  "home_team": "Belgrano de Cordoba",
+  "away_team": "Estudiantes de Rio Cuarto",
+  "league": "Liga Argentina",
+  "match_date": "2026-09-20",
+  "xg_home_for": 1.22,
+  "xg_home_against": 1.22,
+  "xg_away_for": 0.81,
+  "xg_away_against": 1.5,
+  "elo_home": 1695,
+  "elo_away": 1547,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 1.45,
+    "X": 4.35,
+    "2": 8.5,
+    "over_2_5": 2.3,
+    "under_2_5": 1.6
+  },
+  "odds_lines": {
+    "2.0": {
+      "over": 1.77,
+      "under": 2.1
+    },
+    "2.5": {
+      "over": 2.3,
+      "under": 1.6
+    }
+  },
+  "_meta": {
+    "league": "Liga Argentina",
+    "odds_source": "The Odds API (REST, capa 1)",
+    "xg_home_source": "OddAlerts xG Superliga (Liga Profesional) 2026 (xG 35.47/29 xGA 35.47/29)",
+    "xg_away_source": "OddAlerts xG Superliga (Liga Profesional) 2026 (xG 20.35/25 xGA 37.45/25)",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "file": "m18_auxerre_brest.json",
+  "home_team": "Auxerre",
+  "away_team": "Brest",
+  "league": "Ligue 1",
+  "match_date": "2026-09-20",
+  "xg_home_for": 1.55,
+  "xg_home_against": 1.76,
+  "xg_away_for": 2.71,
+  "xg_away_against": 1.42,
+  "elo_home": 1645,
+  "elo_away": 1678,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 2.9,
+    "X": 3.6,
+    "2": 2.47,
+    "over_2_5": 1.83,
+    "under_2_5": 2.07
+  },
+  "odds_lines": {
+    "2.5": {
+      "over": 1.83,
+      "under": 2.07
+    }
+  },
+  "_meta": {
+    "league": "Ligue 1",
+    "odds_source": "The Odds API (REST, capa 1)",
+    "xg_home_source": "Statz.ai Ligue_1 xG 2026-27 (Sportmonks), games through 2026-09-19",
+    "xg_away_source": "Statz.ai Ligue_1 xG 2026-27 (Sportmonks), games through 2026-09-19",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "file": "m32_rosario_central_argentinos_juniors.json",
+  "home_team": "Rosario Central",
+  "away_team": "Argentinos Juniors",
+  "league": "Liga Argentina",
+  "match_date": "2026-09-20",
+  "xg_home_for": 1.45,
+  "xg_home_against": 1.11,
+  "xg_away_for": 1.37,
+  "xg_away_against": 0.86,
+  "elo_home": 1732,
+  "elo_away": 1745,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 2.37,
+    "X": 3.1,
+    "2": 3.46,
+    "over_1_5": 1.5,
+    "under_1_5": 2.48
+  },
+  "odds_lines": {
+    "1.5": {
+      "over": 1.5,
+      "under": 2.48
+    },
+    "2.0": {
+      "over": 1.94,
+      "under": 1.89
+    }
+  },
+  "_meta": {
+    "league": "Liga Argentina",
+    "odds_source": "The Odds API (REST, capa 1)",
+    "xg_home_source": "OddAlerts xG Superliga (Liga Profesional) 2026 (xG 40.62/28 xGA 31.04/28)",
+    "xg_away_source": "OddAlerts xG Superliga (Liga Profesional) 2026 (xG 38.35/28 xGA 23.98/28)",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "file": "m35_fortaleza_ceif_atletico_junior.json",
+  "home_team": "Fortaleza CEIF",
+  "away_team": "Atletico Junior",
+  "league": "Liga Colombiana",
+  "match_date": "2026-09-20",
+  "xg_home_for": 0.66,
+  "xg_home_against": 1.32,
+  "xg_away_for": 1.14,
+  "xg_away_against": 1.43,
+  "elo_home": 1544,
+  "elo_away": 1617,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 2.88,
+    "X": 3.25,
+    "2": 2.52,
+    "over_2_5": 2.1,
+    "under_2_5": 1.8
+  },
+  "odds_lines": {
+    "2.5": {
+      "over": 2.1,
+      "under": 1.8
+    }
+  },
+  "_meta": {
+    "league": "Liga Colombiana",
+    "odds_source": "The Odds API (REST, capa 1)",
+    "xg_home_source": "Clausura 2026-II, Fortaleza 9MP (1W 5D 3L, GF 10 GA 12). xg_for: FotMob cumulative Clausura xG 5.9 -> 0.66/match (heavy xG overperformance: 10 GF from 5.9 xG). xg_against: CLAUSURA-ONLY xGA NOT PUBLISHED; proxy = APWin per-match full-2026 avg 1.32 (home 1.17/away 1.46). Cross-check: Scoreo home concedes 1.01.",
+    "xg_away_source": "Clausura 2026-II, Junior 7MP (0W 3D 4L, GF 8 GA 13). xg_for: FotMob cumulative Clausura xG 8.0 -> 1.14/match (xG ~= GF). xg_against: CLAUSURA-ONLY xGA NOT PUBLISHED; proxy = APWin per-match full-2026 avg 1.43 (home 1.21/away 1.67). Cross-check: Scoreo away concedes 1.36, Junior concedes 1.86/match in Clausura.",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

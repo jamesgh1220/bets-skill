@@ -1,0 +1,46 @@
+{
+  "file": "m25_estrela_da_amadora_academico_de_viseu.json",
+  "home_team": "Estrela da Amadora",
+  "away_team": "Academico de Viseu",
+  "league": "Liga Portugal",
+  "match_date": "2026-09-20",
+  "xg_home_for": 1.51,
+  "xg_home_against": 1.4,
+  "xg_away_for": 1.13,
+  "xg_away_against": 1.94,
+  "elo_home": 1505,
+  "elo_away": 1497,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 2.2,
+    "X": 3.4,
+    "2": 3.45,
+    "over_2_5": 2.05,
+    "under_2_5": 1.74
+  },
+  "odds_lines": {
+    "2.25": {
+      "over": 1.8,
+      "under": 2.05
+    },
+    "2.5": {
+      "over": 2.05,
+      "under": 1.74
+    }
+  },
+  "_meta": {
+    "league": "Liga Portugal",
+    "odds_source": "The Odds API (REST, capa 1)",
+    "xg_home_source": "OddAlerts xG Liga Portugal 2026/27 (Opta-derived, up to MD6 13-14 Sep; xG 9.07/6 xGA 8.38/6)",
+    "xg_away_source": "OddAlerts xG Liga Portugal 2026/27 (Opta-derived, up to MD6; xG 6.75/6 xGA 11.65/6)",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}

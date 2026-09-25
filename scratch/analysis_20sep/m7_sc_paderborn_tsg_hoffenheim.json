@@ -1,0 +1,46 @@
+{
+  "file": "m7_sc_paderborn_tsg_hoffenheim.json",
+  "home_team": "SC Paderborn",
+  "away_team": "TSG Hoffenheim",
+  "league": "Bundesliga",
+  "match_date": "2026-09-20",
+  "xg_home_for": 0.76,
+  "xg_home_against": 1.41,
+  "xg_away_for": 1.94,
+  "xg_away_against": 1.83,
+  "elo_home": 1654,
+  "elo_away": 1738,
+  "corners_home_for": null,
+  "corners_home_against": null,
+  "corners_away_for": null,
+  "corners_away_against": null,
+  "cards_home_for": null,
+  "cards_home_against": null,
+  "cards_away_for": null,
+  "cards_away_against": null,
+  "odds": {
+    "1": 4.47,
+    "X": 4.49,
+    "2": 1.7,
+    "over_3_5": 2.1,
+    "under_3_5": 1.79
+  },
+  "odds_lines": {
+    "3.25": {
+      "over": 1.89,
+      "under": 1.93
+    },
+    "3.5": {
+      "over": 2.1,
+      "under": 1.79
+    }
+  },
+  "_meta": {
+    "league": "Bundesliga",
+    "odds_source": "The Odds API (REST, capa 1)",
+    "xg_home_source": "OddAlerts Bundesliga xG 2026-27 (updated 2026-09-19)",
+    "xg_away_source": "OddAlerts Bundesliga xG 2026-27 (updated 2026-09-19)",
+    "xg_estimado": false,
+    "elo_estimado": false
+  }
+}
