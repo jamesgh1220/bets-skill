@@ -1,0 +1,77 @@
+{
+ "match_dates_text": "28 de septiembre de 2026",
+ "analysis_date_iso": "2026-09-28T14:05:00-04:00",
+ "information_cutoff": "2026-09-28T14:02:02+00:00",
+ "model_ia": "big-pickle",
+ "engine_version": "model-v1.3",
+ "leagues_display": "UEFA Nations League (Ligas A1, B2, B4, C2)",
+ "requested_range": "2026-09-28",
+ "universe_preamble": "Universo: 8 partidos UEFA Nations League del 28 de septiembre de 2026 (MD2). Incluidos: Armenia–Montenegro, Latvia–Cyprus, Georgia–Ukraine (16:00 UTC) y Belgium–France, Romania–Bosnia & Herzegovina, Northern Ireland–Hungary, Turkey–Italy, Sweden–Poland (18:45 UTC). Excluidos: ningún partido por fecha/liga dentro del rango solicitado.",
+ "universe_matches": [
+  "- Armenia vs Montenegro (Liga C2) — 16:00 UTC",
+  "- Latvia vs Cyprus (Liga C2) — 16:00 UTC",
+  "- Georgia vs Ukraine (Liga B2) — 16:00 UTC",
+  "- Belgium vs France (Liga A1) — 18:45 UTC",
+  "- Romania vs Bosnia & Herzegovina (Liga B4) — 18:45 UTC",
+  "- Northern Ireland vs Hungary (Liga B2) — 18:45 UTC",
+  "- Turkey vs Italy (Liga A1) — 18:45 UTC",
+  "- Sweden vs Poland (Liga B4) — 18:45 UTC"
+ ],
+ "fallback_source": "statz.ai 2026/27 (goals/corners/cards, N=10 salvo indicado), international-football.net Elo 2026-09-28 post-MD1, The Odds API 25-26 casas corte 14:02Z",
+ "picks_details": [
+  {
+   "match": "Sweden vs Poland",
+   "market": "over_2_5",
+   "conf": "Media-Alta",
+   "incertidumbre": "Alta por proxy de goles (xG no disponible en selecciones): media observada Alta en ambos equipos; N=10.",
+   "why": "Modelo proyectó 3.35 goles esperados (lambdas 1.67/1.68). Probabilidad over 2.5 del 79.1% vs 59.5% implícita en la cuota 1.68; ambas defensas conceden goles (SWE 2.0 recibidos/partido) y MD1 mostró intensidad. EV robusto +24.4%.",
+   "risks": "Partido cerrado de Nations League con apuestas a no perder; Polonia puede bajar el ritmo si empata temprano; sustitución de jugadores clave.",
+   "sources": "statz.ai (SWE 1.9/2.0, POL 1.6/1.2 goles); Elo 1741/1699; The Odds API 1.68"
+  },
+  {
+   "match": "Belgium vs France",
+   "market": "over_2_5",
+   "conf": "Media-Alta",
+   "incertidumbre": "Alta por proxy de goles; rendimiento ofensivo real de Bélgica vs Francia en partido grande puede bajar la media.",
+   "why": "Dos de las mejores ofensivas de la liga: Bélgica 2.4 y Francia 2.4 goles/partido; lambdas 1.88/1.48; prob over 2.5 79.1% vs 64.5% implícita (cuota 1.55). EV robusto +14.8%.",
+   "risks": "Clásico de alta tensión con posible gestión de resultado; Francia sólida atrás en partidos grandes (MD1 1-0); cuota corta deja poco margen si el partido se cierra.",
+   "sources": "statz.ai (BEL 2.4/0.8, FRA 2.4/1.1); Elo 1979/2083; The Odds API 1.55"
+  },
+  {
+   "match": "Armenia vs Montenegro",
+   "market": "over_2_5",
+   "conf": "Media",
+   "incertidumbre": "Alta: cuota larga refleja mercado escéptico; N=10 con oponentes débiles (inflado por San Marino en Cyprus).",
+   "why": "Montenegro ataca (1.5) y Armenia concede mucho (2.3 recibidos/partido); lambdas 1.48/1.77; prob over 2.5 77.0% vs 47.2% implícita (cuota 2.12). EV robusto +52.7% — el mayor del portfolio.",
+   "risks": "Cuota excepcionalmente larga para over 2.5 en partido de Liga C puede indicar información (lesiones, planteamiento ultradefensivo de Armenia tras MD1 en casa); selección gran EV pero varianza alta.",
+   "sources": "statz.ai (ARM 0.8/2.3, MNE 1.5/1.9); Elo 1388/1469; The Odds API 2.12"
+  },
+  {
+   "match": "Latvia vs Cyprus",
+   "market": "x2",
+   "conf": "Media-Alta",
+   "incertidumbre": "Media: doble oportunidad reduce riesgo; proxy de goles no relevante para fair odds por doble camino.",
+   "why": "Cyprus favorito (Elo 1306 vs 1273) con mejor ataque (1.7/partido); prob combinada Empate/Cyprus 76.5% vs 66.7% implícita (cuota 1.50). EV robusto +7.2%.",
+   "risks": "Letonia en casa tras caer 0-2 con Armenia buscará reacción; partidos entre \"pequeños\" con cuota 1.50 dejan EV menor.",
+   "sources": "statz.ai (LVA 0.6/1.4, CYP 1.7/1.6); Elo 1273/1306; The Odds API 1.50"
+  },
+  {
+   "match": "Latvia vs Cyprus",
+   "market": "over_1_5",
+   "conf": "Media",
+   "incertidumbre": "Media-Alta: línea baja con goles esperados 2.65; N=10 modesto en Liga C.",
+   "why": "Lambdas 1.23/1.42 suman 2.65 goles esperados; prob over 1.5 75.0% vs 63.7% implícita (cuota 1.57). EV robusto +9.8%.",
+   "risks": "Doble pick en el mismo partido (x2) aumenta correlación; si Letonia bloquea para no perder, el partido puede quedarse en 0-0/1-0.",
+   "sources": "statz.ai (LVA 0.6/1.4, CYP 1.7/1.6); Elo 1273/1306; The Odds API 1.57"
+  },
+  {
+   "match": "Sweden vs Poland",
+   "market": "x2",
+   "conf": "Media",
+   "incertidumbre": "Media: doble oportunidad con cuota 1.88; Elo casi parejo aunque Polonia superior en ranking FIFA.",
+   "why": "Polonia (Eló 1699, FIFA 36) con mejor balance que Suecia (Elo 1741, FIFA 37 — Elo rankeado más arriba por calendario). Prob combinada Empate/Polonia 67.3% vs 53.2% implícita (cuota 1.88). EV robusto +17.1%.",
+   "risks": "Suecia juega en casa con moral por ganar MD1; doble pick en el mismo partido (over_2_5) correlacionado; Polonia nunca gana cómodo de visita.",
+   "sources": "statz.ai; Elo 1741/1699; FIFA Jul-2026 37/36; The Odds API 1.88"
+  }
+ ]
+}

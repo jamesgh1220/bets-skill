@@ -1,0 +1,408 @@
+{
+  "Armenia|Montenegro": {
+    "event_id": "0891f1ff09ec9c814d38c2465c9f53da",
+    "kickoff_utc": "2026-09-28T16:00:00Z",
+    "home": "Armenia",
+    "away": "Montenegro",
+    "capture_last_update_max": "2026-09-28T14:02:02Z",
+    "n_bookmakers": 25,
+    "odds": {
+      "1": 3.0,
+      "12": 1.34,
+      "1x": 1.57,
+      "2": 2.66,
+      "X": 3.44,
+      "btts_no": 1.95,
+      "btts_yes": 1.8,
+      "dnb_away": 1.77,
+      "dnb_home": 2.0,
+      "over_2_25": 1.82,
+      "over_2_5": 2.12,
+      "under_2_25": 2.02,
+      "under_2_5": 1.79,
+      "x2": 1.44
+    },
+    "odds_book": {
+      "1": "betfair_ex_eu",
+      "12": "onexbet",
+      "1x": "onexbet",
+      "2": "betfair_ex_eu",
+      "X": "onexbet",
+      "btts_no": "ladbrokes_uk",
+      "btts_yes": "livescorebet",
+      "dnb_away": "livescorebet",
+      "dnb_home": "ladbrokes_uk",
+      "over_2_25": "bovada",
+      "over_2_5": "onexbet",
+      "under_2_25": "bovada",
+      "under_2_5": "onexbet",
+      "x2": "onexbet"
+    },
+    "totals_lines": {
+      "2.25": [
+        "Over",
+        "Under"
+      ],
+      "2.5": [
+        "Over",
+        "Under"
+      ]
+    }
+  },
+  "Latvia|Cyprus": {
+    "event_id": "e4b63f94de5a52095f9d94be94b2c4aa",
+    "kickoff_utc": "2026-09-28T16:00:00Z",
+    "home": "Latvia",
+    "away": "Cyprus",
+    "capture_last_update_max": "2026-09-28T14:02:02Z",
+    "n_bookmakers": 25,
+    "odds": {
+      "1": 2.88,
+      "1x": 1.44,
+      "2": 3.0,
+      "X": 3.13,
+      "btts_no": 1.76,
+      "btts_yes": 2.1,
+      "dnb_away": 1.91,
+      "dnb_home": 1.8,
+      "over_1_5": 1.57,
+      "over_2_0": 1.95,
+      "over_2_5": 2.62,
+      "under_1_5": 2.53,
+      "under_2_0": 1.87,
+      "under_2_5": 1.56,
+      "x2": 1.5
+    },
+    "odds_book": {
+      "1": "betfair_ex_eu",
+      "1x": "onexbet",
+      "2": "betfair_ex_eu",
+      "X": "onexbet",
+      "btts_no": "livescorebet",
+      "btts_yes": "betfred_uk",
+      "dnb_away": "ladbrokes_uk",
+      "dnb_home": "ladbrokes_uk",
+      "over_1_5": "onexbet",
+      "over_2_0": "bovada",
+      "over_2_5": "betsson",
+      "under_1_5": "onexbet",
+      "under_2_0": "bovada",
+      "under_2_5": "casumo",
+      "x2": "onexbet"
+    },
+    "totals_lines": {
+      "1.5": [
+        "Over",
+        "Under"
+      ],
+      "2.0": [
+        "Over",
+        "Under"
+      ],
+      "2.5": [
+        "Over",
+        "Under"
+      ]
+    }
+  },
+  "Georgia|Ukraine": {
+    "event_id": "ede91daefcca16990379ab59f170ad5c",
+    "kickoff_utc": "2026-09-28T16:00:00Z",
+    "home": "Georgia",
+    "away": "Ukraine",
+    "capture_last_update_max": "2026-09-28T14:02:02Z",
+    "n_bookmakers": 25,
+    "odds": {
+      "1": 2.9,
+      "12": 1.39,
+      "1x": 1.48,
+      "2": 2.82,
+      "X": 3.25,
+      "btts_no": 1.91,
+      "btts_yes": 1.83,
+      "dnb_away": 1.85,
+      "dnb_home": 1.85,
+      "over_2_5": 2.21,
+      "under_2_5": 1.73,
+      "x2": 1.47
+    },
+    "odds_book": {
+      "1": "betfair_ex_eu",
+      "12": "onexbet",
+      "1x": "onexbet",
+      "2": "betfair_ex_eu",
+      "X": "betfair_ex_eu",
+      "btts_no": "williamhill",
+      "btts_yes": "williamhill",
+      "dnb_away": "ladbrokes_uk",
+      "dnb_home": "betrivers",
+      "over_2_5": "onexbet",
+      "under_2_5": "onexbet",
+      "x2": "onexbet"
+    },
+    "totals_lines": {
+      "2.5": [
+        "Over",
+        "Under"
+      ]
+    }
+  },
+  "Belgium|France": {
+    "event_id": "bb8c6293badc2a09ec9d7994c4895a6e",
+    "kickoff_utc": "2026-09-28T18:45:00Z",
+    "home": "Belgium",
+    "away": "France",
+    "capture_last_update_max": "2026-09-28T14:02:02Z",
+    "n_bookmakers": 26,
+    "odds": {
+      "1": 4.1,
+      "12": 1.28,
+      "1x": 2.01,
+      "2": 1.95,
+      "X": 4.1,
+      "btts_no": 2.49,
+      "btts_yes": 1.57,
+      "dnb_away": 1.41,
+      "dnb_home": 3.02,
+      "over_2_5": 1.55,
+      "over_3_0": 1.98,
+      "over_3_5": 2.48,
+      "under_2_5": 2.43,
+      "under_3_0": 1.9,
+      "under_3_5": 1.59,
+      "x2": 1.28
+    },
+    "odds_book": {
+      "1": "betfair_ex_uk",
+      "12": "pinnacle",
+      "1x": "pinnacle",
+      "2": "betfair_ex_uk",
+      "X": "onexbet",
+      "btts_no": "pinnacle",
+      "btts_yes": "pinnacle",
+      "dnb_away": "pinnacle",
+      "dnb_home": "pinnacle",
+      "over_2_5": "betsson",
+      "over_3_0": "pinnacle",
+      "over_3_5": "onexbet",
+      "under_2_5": "casumo",
+      "under_3_0": "pinnacle",
+      "under_3_5": "onexbet",
+      "x2": "onexbet"
+    },
+    "totals_lines": {
+      "2.5": [
+        "Over",
+        "Under"
+      ],
+      "3.0": [
+        "Over",
+        "Under"
+      ],
+      "3.5": [
+        "Over",
+        "Under"
+      ]
+    }
+  },
+  "Romania|Bosnia & Herzegovina": {
+    "event_id": "f3f0913d41ae698f82c06ef5ff26187a",
+    "kickoff_utc": "2026-09-28T18:45:00Z",
+    "home": "Romania",
+    "away": "Bosnia & Herzegovina",
+    "capture_last_update_max": "2026-09-28T14:02:02Z",
+    "n_bookmakers": 25,
+    "odds": {
+      "1": 2.54,
+      "1x": 1.4,
+      "2": 3.15,
+      "X": 3.48,
+      "btts_no": 1.97,
+      "btts_yes": 1.83,
+      "dnb_away": 2.1,
+      "dnb_home": 1.67,
+      "over_2_25": 1.83,
+      "over_2_5": 2.08,
+      "under_2_25": 2.0,
+      "under_2_5": 1.82,
+      "x2": 1.62
+    },
+    "odds_book": {
+      "1": "betfair_ex_eu",
+      "1x": "onexbet",
+      "2": "betfair_ex_eu",
+      "X": "onexbet",
+      "btts_no": "virginbet",
+      "btts_yes": "betfred_uk",
+      "dnb_away": "virginbet",
+      "dnb_home": "ladbrokes_uk",
+      "over_2_25": "bovada",
+      "over_2_5": "onexbet",
+      "under_2_25": "bovada",
+      "under_2_5": "onexbet",
+      "x2": "onexbet"
+    },
+    "totals_lines": {
+      "2.25": [
+        "Over",
+        "Under"
+      ],
+      "2.5": [
+        "Over",
+        "Under"
+      ]
+    }
+  },
+  "Northern Ireland|Hungary": {
+    "event_id": "ca4e66bc4c5b00d3da48863e51527d13",
+    "kickoff_utc": "2026-09-28T18:45:00Z",
+    "home": "Northern Ireland",
+    "away": "Hungary",
+    "capture_last_update_max": "2026-09-28T14:02:02Z",
+    "n_bookmakers": 25,
+    "odds": {
+      "1": 3.05,
+      "1x": 1.51,
+      "2": 2.84,
+      "X": 3.17,
+      "btts_no": 1.76,
+      "btts_yes": 2.1,
+      "dnb_away": 1.79,
+      "dnb_home": 1.95,
+      "over_2_0": 1.89,
+      "over_2_5": 2.53,
+      "under_2_0": 1.93,
+      "under_2_5": 1.57,
+      "x2": 1.44
+    },
+    "odds_book": {
+      "1": "betfair_ex_eu",
+      "1x": "onexbet",
+      "2": "betfair_ex_eu",
+      "X": "onexbet",
+      "btts_no": "virginbet",
+      "btts_yes": "betfred_uk",
+      "dnb_away": "virginbet",
+      "dnb_home": "ladbrokes_uk",
+      "over_2_0": "bovada",
+      "over_2_5": "onexbet",
+      "under_2_0": "bovada",
+      "under_2_5": "onexbet",
+      "x2": "onexbet"
+    },
+    "totals_lines": {
+      "2.0": [
+        "Over",
+        "Under"
+      ],
+      "2.5": [
+        "Over",
+        "Under"
+      ]
+    }
+  },
+  "Turkey|Italy": {
+    "event_id": "058603d04d090992dc3bbdf040e0f50c",
+    "kickoff_utc": "2026-09-28T18:45:00Z",
+    "home": "Turkey",
+    "away": "Italy",
+    "capture_last_update_max": "2026-09-28T14:02:02Z",
+    "n_bookmakers": 26,
+    "odds": {
+      "1": 2.84,
+      "1x": 1.57,
+      "2": 2.62,
+      "X": 3.81,
+      "btts_no": 2.66,
+      "btts_yes": 1.53,
+      "dnb_away": 1.83,
+      "dnb_home": 2.02,
+      "over_2_5": 1.65,
+      "over_3_0": 2.04,
+      "over_3_5": 2.6,
+      "under_2_5": 2.35,
+      "under_3_0": 1.85,
+      "under_3_5": 1.47,
+      "x2": 1.49
+    },
+    "odds_book": {
+      "1": "betfair_ex_eu",
+      "1x": "onexbet",
+      "2": "betfair_ex_eu",
+      "X": "onexbet",
+      "btts_no": "pinnacle",
+      "btts_yes": "betfred_uk",
+      "dnb_away": "ladbrokes_uk",
+      "dnb_home": "pinnacle",
+      "over_2_5": "onexbet",
+      "over_3_0": "pinnacle",
+      "over_3_5": "casumo",
+      "under_2_5": "onexbet",
+      "under_3_0": "pinnacle",
+      "under_3_5": "casumo",
+      "x2": "onexbet"
+    },
+    "totals_lines": {
+      "2.5": [
+        "Over",
+        "Under"
+      ],
+      "3.0": [
+        "Over",
+        "Under"
+      ],
+      "3.5": [
+        "Over",
+        "Under"
+      ]
+    }
+  },
+  "Sweden|Poland": {
+    "event_id": "8d7b8ce34cb79368b97c0e14cefe817c",
+    "kickoff_utc": "2026-09-28T18:45:00Z",
+    "home": "Sweden",
+    "away": "Poland",
+    "capture_last_update_max": "2026-09-28T14:02:02Z",
+    "n_bookmakers": 25,
+    "odds": {
+      "1": 2.02,
+      "1x": 1.31,
+      "2": 4.0,
+      "X": 3.92,
+      "btts_no": 2.38,
+      "btts_yes": 1.57,
+      "dnb_away": 2.62,
+      "dnb_home": 1.44,
+      "over_2_5": 1.68,
+      "over_3_0": 2.02,
+      "under_2_5": 2.3,
+      "under_3_0": 1.82,
+      "x2": 1.88
+    },
+    "odds_book": {
+      "1": "betfair_ex_uk",
+      "1x": "onexbet",
+      "2": "betfair_ex_uk",
+      "X": "onexbet",
+      "btts_no": "williamhill",
+      "btts_yes": "betfred_uk",
+      "dnb_away": "ladbrokes_uk",
+      "dnb_home": "ladbrokes_uk",
+      "over_2_5": "onexbet",
+      "over_3_0": "bovada",
+      "under_2_5": "onexbet",
+      "under_3_0": "bovada",
+      "x2": "onexbet"
+    },
+    "totals_lines": {
+      "2.5": [
+        "Over",
+        "Under"
+      ],
+      "3.0": [
+        "Over",
+        "Under"
+      ]
+    }
+  }
+}
