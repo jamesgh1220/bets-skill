@@ -258,6 +258,16 @@ def render(results: dict, meta: dict) -> str:
                 parts.append(f"{label} ({c['market']}) EV {c['ev_percent']:+.2f}% / EV rob {c['robust_ev_percent']:+.2f}%")
             reason = cands[0].get("selection_reason", "No cumple los mínimos de selección probabilidad-primero.")
             lines.append(f"  - {match}: {', '.join(parts)} — {reason}")
+    data_limited = [m for m in all_results if m.get("data_limited")]
+    if data_limited:
+        reasons = meta.get("data_limited_reasons", {})
+        lines.append("- **Partidos sin datos suficientes (NO BET, motor no ejecutado):**")
+        for entry in data_limited:
+            reason = reasons.get(
+                entry["match"],
+                "Sin xG verificable para ambos equipos; no se ejecutó el motor para evitar probabilidades basadas en priors por defecto.",
+            )
+            lines.append(f"  - {entry['match']}: {reason}")
     lines.append("")
 
     # Portfolio y Correlaciones

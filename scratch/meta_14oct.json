@@ -1,0 +1,98 @@
+{
+  "analysis_date_iso": "2026-10-14T13:29:28Z",
+  "match_dates_text": "14 de octubre de 2026",
+  "information_cutoff": "2026-10-14T13:29:28Z",
+  "model_ia": "big-pickle",
+  "engine_version": "model-v1.3",
+  "leagues_display": "UEFA Champions League (fase de liga), MLS (Decision Day), Copa Libertadores y Copa Sudamericana (semifinales de ida)",
+  "requested_range": "14 de octubre de 2026 - Champions League, MLS, Copa Libertadores y Copa Sudamericana (todos los partidos)",
+  "universe_preamble": "Universo = interseccion(ligas: Champions League + MLS + Copa Libertadores + Copa Sudamericana, fecha 14 de octubre de 2026, todos los partidos programados). Cutoff de informacion 2026-10-14T13:29:28Z, anterior al primer kickoff (Feyenoord-Como 16:45 UTC). No se usa informacion posterior a ningun kickoff. Universo final = 26 partidos (9 de Champions League fase de liga, 15 de MLS en jornada de Decision Day, 1 semifinal de ida de Copa Libertadores y 1 semifinal de ida de Copa Sudamericana; las semifinales de CONMEBOL se juegan el 15/10 a las 00:30 UTC, es decir dentro de la fecha solicitada). MCPs inoperativos en esta sesion: apifootball/odds-api/football-stats no expuestos y api.clubelo.com sin acceso de red, por lo que toda la recoleccion se hizo via web (agente): querostats.com, statz.ai, footystats.org, oddalerts.com, pitchmath.com, footymetrics.com, statmuse.com, clubelo.com, ESPN, FOX Sports, bettingview.com y oddschecker. Las tasas de corners y tarjetas for/against constan en cada match_input cuando estuvieron disponibles; donde las cuotas O/U no estaban cotizadas se marcan n/d (no se inventan). ADVERTENCIAS DE DATOS: (1) Bodø/Glimt vs Dortmund requirio arbitraje: el xG de 0.20 publicado por ESPN/FOX correspondia a un unico partido de UCL (0-5 vs Bayern) y no a su liga domestica, por lo que se adopto la ventana domestica (statz 2.90/0.73; footystats 2.28 como tercera opinion) con incertidumbre elevada y documentada. (2) Slovan Bratislava: el xG de 0.64 era tambien de un solo partido de UCL; se adopto footystats de la liga eslovaca (1.91/1.15) como unica fuente domestica disponible. (3) Atletico Mineiro vs Montevideo City Torque queda como NO BET por datos insuficientes: el club uruguayo no tiene xG por partido ni rating Elo en ninguna fuente consultada, y ejecutar el motor habria exigido priors por defecto para el visitante.",
+  "universe_matches": [
+    "1. **Champions League:** Feyenoord vs Como (16:45 UTC). 1X2 3.30/3.90/1.91; O/U 1.5 1.12/6.00, 2.5 1.44/2.75, 3.5 2.00/1.75; BTTS 1.40. Elo 1724/1807; xG 2.47/0.98 vs 1.97/1.44.",
+    "2. **Champions League:** LASK vs Liverpool (16:45 UTC). 1X2 9.39/6.16/1.29; O/U 2.5 1.34; BTTS 1.59. Elo 1628/1929; xG 0.72/1.71 vs 1.56/1.19.",
+    "3. **Champions League:** Real Betis vs FC Porto (19:00 UTC). 1X2 2.16/3.76/3.50; O/U 2.5 1.79/2.19; BTTS 1.61. Elo 1823/1842; xG 1.77/1.75 vs 2.12/1.06.",
+    "4. **Champions League:** Aston Villa vs Fenerbahce (19:00 UTC). 1X2 1.70/4.10/4.50; O/U 1.5 1.17/5.00, 2.5 1.57/2.38, 3.5 2.38/1.57; DC 1X 1.17 / X2 2.25 / 12 1.22; BTTS 1.57/2.35; corners 8.5 y 9.5. Elo 1893/1785; xG 1.43/1.64 vs 2.05/1.09.",
+    "5. **Champions League:** Shakhtar Donetsk vs AEK Athens (19:00 UTC, Stamford Bridge). 1X2 2.77/3.37/2.67; O/U 2.5 1.95/1.95; BTTS 1.70/2.25; corners 8.5 capturada. Elo 1692/1708; xG 0.62/0.44 vs 1.71/0.72.",
+    "6. **Champions League:** Roma vs Real Madrid (19:00 UTC). 1X2 3.65/3.95/1.91; O/U 3.5 2.10/1.74; BTTS 1.39/3.00; DC 1X 1.91 / X2 1.33 / 12 1.28; corners 8.5 y 9.5. Elo 1856/1975; xG 2.25/1.12 vs 2.41/1.20.",
+    "7. **Champions League:** Manchester City vs Paris Saint-Germain (19:00 UTC). 1X2 2.00/4.00/3.30; O/U 3.5 2.05/1.77; BTTS 1.40/2.95; corners 8.5 y 9.5. Elo 2034/1957; xG 2.03/1.44 vs 2.45/1.09.",
+    "8. **Champions League:** Slovan Bratislava vs VfB Stuttgart (19:00 UTC). 1X2 7.50/5.75/1.35; O/U 3.5 1.83/1.95; BTTS 1.57/2.40; corners 8.5 y 9.5. Elo 1551/1824; xG 1.91/1.15 (domestico, arbitrado) vs 1.94/2.08.",
+    "9. **Champions League:** Bodo/Glimt vs Borussia Dortmund (19:00 UTC). 1X2 3.00/3.95/2.20; O/U 3.5 1.95/1.87; BTTS 1.33/3.30; corners 8.5 y 9.5. Elo 1781/1895; xG 2.90/0.73 (domestico, arbitrado) vs 1.79/0.92.",
+    "10. **Copa Libertadores (semifinal ida):** Fluminense vs Palmeiras (15/10 00:30 UTC). 1X2 2.87/3.10/2.62; O/U 1.5 1.57/2.25, 2.5 2.87/1.40, 3.5 6.00/1.13; BTTS 2.25/1.57; DC 1X 1.49 / X2 1.46 / 12 1.36; DNB 1.90/1.80; corners 9.5 1.80/1.90. Elo 1769/1856; xG 1.46/1.38 vs 1.85/1.01.",
+    "11. **Copa Sudamericana (semifinal ida):** Atletico Mineiro vs Montevideo City Torque (15/10 00:30 UTC). 1X2 1.40/4.20/9.50; O/U 1.5 1.30/3.40, 2.5 2.00/1.80, 3.5 3.35/1.24; BTTS 2.25/1.57; corners 9.5 1.83/1.83. DATOS INSUFICIENTES (sin xG del visitante ni Elo) -> NO BET.",
+    "12. **MLS:** CF Montreal vs Atlanta United (23:30 UTC). 1X2 2.50/3.80/2.85; O/U 2.5 1.54; BTTS 1.50/2.70; DC 1X 1.47 / X2 1.63 / 12 1.28; DNB 1.80/2.18; tarjetas 4.5 2.10/1.63. Elo 1486/1508; xG 1.40/1.57 vs 1.36/1.53.",
+    "13. **MLS:** Columbus Crew vs Charlotte FC (23:30 UTC). 1X2 2.00/4.00/3.60; O/U 2.5 1.52/2.48; BTTS 1.46/2.95; DC 1X 1.36 / X2 1.82 / 12 1.26; DNB 1.57/2.62; tarjetas 4.5 2.10/1.63. Elo 1595/1609; xG 1.21/1.19 vs 1.53/1.44.",
+    "14. **MLS:** DC United vs New York Red Bulls (23:30 UTC). 1X2 2.20/4.10/3.50; BTTS 1.49/2.64; DC 1X 1.39 / X2 1.87 / 12 1.27; DNB 1.45/2.84; tarjetas 4.5 2.10/1.63. Elo 1494/1551; xG 1.44/1.53 vs 1.59/2.01.",
+    "15. **MLS:** FC Cincinnati vs New England Revolution (23:30 UTC). 1X2 1.95/4.60/4.20; O/U 3.5 1.91/1.95; BTTS 1.37/3.05; DC 1X 1.32 / X2 2.15 / 12 1.24; DNB 1.49/3.35; tarjetas 3.5 1.63/2.10. Elo 1603/1559; xG 1.74/1.77 vs 1.56/1.30.",
+    "16. **MLS:** Inter Miami vs New York City FC (23:30 UTC). 1X2 1.59/4.80/5.25; O/U 3.5 1.80/1.96; BTTS 1.43/2.90; DC 1X 1.17 / X2 2.38; DNB 1.29/4.10; tarjetas 4.5 2.10/1.63. Elo 1684/1592; xG 2.05/1.62 vs 1.25/1.50.",
+    "17. **MLS:** Toronto FC vs Orlando City (23:30 UTC). 1X2 2.35/3.90/2.85; O/U 3.5 2.02/1.87; BTTS 1.39/3.30; DC 1X 1.47 / X2 1.66 / 12 1.27; DNB 1.74/2.20; tarjetas 4.5 2.00/1.62. Elo 1520/1595; xG 1.18/1.46 vs 1.54/1.92.",
+    "18. **MLS:** Chicago Fire vs Philadelphia Union (15/10 00:30 UTC). 1X2 2.60/4.10/2.60; O/U 3.5 2.05/1.95; BTTS 1.40/3.10; DC 1X 1.54 / X2 1.54 / 12 1.27; DNB 2.00/1.89; tarjetas 4.5 1.80/1.78. Elo 1605/1649; xG 1.81/1.31 vs 1.93/1.37.",
+    "19. **MLS:** FC Dallas vs Seattle Sounders (15/10 00:30 UTC). 1X2 1.98/4.10/4.00; BTTS 1.55/2.60; DC 1X 1.31 / X2 1.97 / 12 1.25; DNB 1.47/2.92; tarjetas 3.5 1.72/1.88. Elo 1605/1623; xG 1.50/1.38 vs 1.34/1.37.",
+    "20. **MLS:** Nashville SC vs Sporting Kansas City (15/10 00:30 UTC). 1X2 1.29/6.50/10.00; O/U 2.5 1.29/3.50, 3.5 1.76/2.00; BTTS 1.77/2.18; DC 1X 1.07 / X2 4.40 / 12 1.11; DNB 1.08/10.40; tarjetas 3.5 2.05/1.60. Elo 1690/1457; xG 1.62/1.30 vs 1.19/1.99.",
+    "21. **MLS:** St. Louis CITY vs Vancouver Whitecaps (15/10 00:30 UTC). 1X2 2.30/4.00/3.00; O/U 1.5 1.14/5.50, 2.5 1.50/2.50, 3.5 2.20/1.62; BTTS 1.48/2.85; DC 1X 1.44 / X2 1.72 / 12 1.26; DNB 1.72/2.30; tarjetas 4.5 1.92/1.68. Elo 1626/1653; xG 1.59/1.23 vs 2.18/1.10.",
+    "22. **MLS:** Colorado Rapids vs Minnesota United (15/10 01:30 UTC). 1X2 2.05/3.60/3.20; O/U 2.5 1.61/2.30; BTTS 1.53/2.50; corners 8.5 1.50/2.45 y 9.5 1.83/1.87. Elo 1540/1561; xG 1.51/1.19 vs 1.73/1.64.",
+    "23. **MLS:** Real Salt Lake vs San Jose Earthquakes (15/10 01:30 UTC). 1X2 1.91/3.85/3.35; O/U 2.5 1.48/2.75, 3.5 2.15/1.69; BTTS 1.43/2.80; corners 8.5 1.31/3.15, 9.5 1.54/2.35, 10.5 1.87/1.83. Elo 1541/1568; xG 1.37/1.50 vs 1.84/1.37.",
+    "24. **MLS:** LA Galaxy vs Portland Timbers (15/10 02:30 UTC). 1X2 2.00/3.80/3.10; O/U 2.5 1.40/3.20, 3.5 2.00/1.80; BTTS 1.35/3.15; corners 8.5 1.45/2.55, 9.5 1.74/1.95. Elo 1547/1555; xG 1.53/1.71 vs 1.51/1.63.",
+    "25. **MLS:** LAFC vs Austin FC (15/10 02:30 UTC). 1X2 1.43/4.60/6.00; O/U 2.5 1.57/2.35, 3.5 2.35/1.59. Elo 1652/1540; xG 1.47/1.42 vs 1.03/2.04.",
+    "26. **MLS:** San Diego FC vs Houston Dynamo (15/10 02:30 UTC). 1X2 2.10/3.55/3.05; O/U 2.5 1.65/2.20; BTTS 1.52/2.39; DC 1X 1.27 / X2 1.84 / 12 1.24. Elo 1600/1588; xG 1.57/1.70 vs 1.12/1.36."
+  ],
+  "picks_details": [
+    {
+      "match": "Real Betis vs FC Porto",
+      "market": "over_2_5",
+      "min_odds": "1.35",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestras de 5-22 partidos segun liga",
+      "why": "Elo casi identico (1842 vs 1823) pero Porto con mejor perfil de xG (2.12 a favor / 1.06 en contra) que un Betis que concede 1.75. El motor model-v1.3 estima 79.1% para 'Over 2.5 Goles' frente a una probabilidad implicita de 55.9% (cuota 1.79); edge +41.52% y EV robusto +32.57%.",
+      "risks": "Solo 1X2, O/U 2.5 y BTTS cotizados; corners muy altos en contra del Betis (6.6) con muestra corta.",
+      "sources": "querostats.com + statz.ai (xG), querostats.com + statz.ai + footymetrics.com (corners/tarjetas), clubelo.com (Elo), ESPN/FOX/bettingview/oddsportal (cuotas); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Fluminense vs Palmeiras",
+      "market": "over_1_5",
+      "min_odds": "1.36",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestras de 5-22 partidos segun liga",
+      "why": "Semifinal de Libertadores muy equilibrada: Palmeiras con mejor Elo (1856 vs 1769) y xG (1.85 a favor / 1.01 en contra) frente a un Fluminense local que concede 1.38. El motor model-v1.3 estima 78.4% para 'Over 1.5 Goles' frente a una probabilidad implicita de 63.7% (cuota 1.57); edge +23.14% y EV robusto +15.29%.",
+      "risks": "Ventanas de datos distintas (xG = ultimos 10 partidos de Brasileirao; corners/tarjetas = ultimos 10 de todas las competiciones, incluida Libertadores). Sin 1X2 alternativo ni lineas de corners 8.5/10.5 ni tarjetas; semifinal a ida suele ser de bajo ritmo.",
+      "sources": "statz.ai (xG/corners/tarjetas), clubelo.com (Elo), bwin/oddstorm/aiscore (cuotas); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Aston Villa vs Fenerbahce",
+      "market": "over_2_5",
+      "min_odds": "1.45",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestras de 5-22 partidos segun liga",
+      "why": "Villa con Elo superior (1893 vs 1785) y localia; Fenerbahce llega con mejor xG a favor (2.05) pero defensa mas solida del local. El motor model-v1.3 estima 73.8% para 'Over 2.5 Goles' frente a una probabilidad implicita de 63.7% (cuota 1.57); edge +15.90% y EV robusto +8.05%.",
+      "risks": "xG del Villa discrepa con su rendimiento liguero (1.43 a favor); corners del Villa inusualmente bajos (3.1); sin DNB cotizado.",
+      "sources": "querostats.com + statz.ai (xG), querostats.com + statz.ai + footymetrics.com (corners/tarjetas), clubelo.com (Elo), ESPN/FOX/bettingview/oddsportal (cuotas); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "St. Louis CITY SC vs Vancouver Whitecaps",
+      "market": "x2",
+      "min_odds": "1.47",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestras de 5-22 partidos segun liga",
+      "why": "Vancouver llega con el mejor ataque visitante del lote oeste (2.18 xG a favor, 1.10 en contra) y Elo ligeramente superior, pero cotiza a 3.00. El motor model-v1.3 estima 73.0% para 'Doble Oportunidad Empate/Vancouver Whitecaps' frente a una probabilidad implicita de 58.1% (cuota 1.72); edge +25.59% y EV robusto +16.99%.",
+      "risks": "Sin corners cotizados pese a que Vancouver concede solo 2.96; xG del visitante muy alto con muestra de temporada MLS.",
+      "sources": "pitchmath.com (xG y corners), statz.ai (tarjetas), oddalerts.com (xG MLS, lote oeste), clubelo.com/USA (Elo), bettingview.com + oddschecker (cuotas); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Shakhtar Donetsk vs AEK Athens",
+      "market": "under_2_5",
+      "min_odds": "1.49",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestras de 5-22 partidos segun liga",
+      "why": "Partido de Elo casi identico (1708 vs 1692) con xG bajo del local (0.62) en cancha neutral (Stamford Bridge), lo que reduce la ventaja de localia. El motor model-v1.3 estima 72.3% para 'Under 2.5 Goles' frente a una probabilidad implicita de 51.3% (cuota 1.95); edge +41.06% y EV robusto +31.31%.",
+      "risks": "Localia neutral (sede designada); tarjetas/contadores del proveedor con valores extremos (6.0) y simetria invertida, se usan solo como contexto.",
+      "sources": "querostats.com + statz.ai (xG), querostats.com + statz.ai + footymetrics.com (corners/tarjetas), clubelo.com (Elo), ESPN/FOX/bettingview/oddsportal (cuotas); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Colorado Rapids vs Minnesota United",
+      "market": "over_2_5",
+      "min_odds": "1.49",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestras de 5-22 partidos segun liga",
+      "why": "Elo very similar (1561 vs 1540) con Minnesota algo mejor al ataque (1.73 vs 1.51) pero peor defensa (1.64 vs 1.19). El motor model-v1.3 estima 72.1% para 'Over 2.5 Goles' frente a una probabilidad implicita de 62.1% (cuota 1.61); edge +16.11% y EV robusto +8.06%.",
+      "risks": "Sin lineas 1.5/3.5 de goles, sin doble oportunidad, DNB ni tarjetas; corners del local (4.96 a favor, 4.18 en contra) con dispersion baja.",
+      "sources": "pitchmath.com (xG y corners), statz.ai (tarjetas), oddalerts.com (xG MLS, lote oeste), clubelo.com/USA (Elo), bettingview.com + oddschecker (cuotas); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    }
+  ],
+  "data_limited_reasons": {
+    "Atletico Mineiro vs Montevideo City Torque": "Montevideo City Torque (Uruguay) no tiene xG por partido ni rating Elo en ninguna fuente consultada (statz.ai, understat y xg-edge no cubren la liga uruguaya). Ejecutar el motor habria exigido priors por defecto para el visitante, por lo que no se ejecuto."
+  },
+  "fallback_source": "MCPs no operativos (apifootball/odds-api/football-stats sin herramientas; api.clubelo.com sin acceso de red desde bash). Investigacion web del agente: querostats.com, statz.ai, footystats.org, oddalerts.com, pitchmath.com, footymetrics.com, statmuse.com (xG y corners/tarjetas), clubelo.com (Elo), ESPN, FOX Sports, bettingview.com, oddschecker.com y oddsportal.com (cuotas). Motor calc_engine.py model-v1.3 con calibracion Platt (mercados 1, 2, O/U 2.5 y O/U 3.5). Conflictos de xG arbitrados y documentados (Bodo/Glimt, Slovan Bratislava); partidos sin xG verificable no se ejecutaron en el motor."
+}
