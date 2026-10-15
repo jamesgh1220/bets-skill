@@ -1,0 +1,68 @@
+[
+  {
+    "match": "Mjällby vs Inter Escaldes", "home": "Mjällby AIF", "away": "Inter Club d'Escaldes",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T16:45:00Z",
+    "xg_home_for": 1.64, "xg_home_against": 1.98, "xg_away_for": 1.75, "xg_away_against": 1.34,
+    "elo_home": 1522, "elo_away": 1337,
+    "corners_home_for": 4.7, "corners_home_against": 4.6, "corners_away_for": 4.75, "corners_away_against": 4.0,
+    "cards_home_for": 2.13, "cards_home_against": null, "cards_away_for": 3.5, "cards_away_against": null,
+    "odds": {"1": 1.33, "X": 5.25, "2": 8.0, "over_1_5": 1.20, "under_1_5": 4.33, "over_2_5": 1.67, "under_2_5": 2.15, "over_3_5": 2.62, "under_3_5": 1.44, "btts_yes": 2.00},
+    "sources": "xg-edge Mjallby Allsvenskan 16-17/23 with xG; footystats ECL xG table (Escaldes ~4-6g); statz corners (Mjallby n=23, Escaldes ECL n=4); bettingstats cards for; clubelo 2026-10-14; dailysportpick ladder",
+    "notes": "Mjallby xG conflict matchscan 1.21/1.47 n=23 (xg-edge chosen). Escaldes cards window ambiguous. cards_against not published either team."
+  },
+  {
+    "match": "Panathinaikos vs Borac Banja Luka", "home": "Panathinaikos FC", "away": "FK Borac Banja Luka",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T16:45:00Z",
+    "xg_home_for": 2.05, "xg_home_against": 0.92, "xg_away_for": 1.85, "xg_away_against": 1.27,
+    "elo_home": 1648, "elo_away": 1485,
+    "corners_home_for": 6.67, "corners_home_against": 6.17, "corners_away_for": 5.17, "corners_away_against": 4.67,
+    "cards_home_for": 2.8, "cards_home_against": null, "cards_away_for": 2.2, "cards_away_against": null,
+    "odds": {"1": 1.20, "X": 6.5, "2": 15.0, "over_1_5": 1.14, "under_1_5": 5.5, "over_2_5": 1.53, "under_2_5": 2.4, "over_3_5": 2.25, "under_3_5": 1.57, "btts_yes": 2.20},
+    "sources": "footystats Greek SL n=6 + ECL xG n=6 Borac; statz ECL corners n=6; soccerghost cards for Panathinaikos n=10; statz Borac cards for; clubelo; dailysportpick",
+    "notes": "Panathinaikos xG conflict soccerghost 1.52/0.99 (different model). Borac alt last-20 1.77/0.75. cards_against not published either team."
+  },
+  {
+    "match": "CSKA Sofia vs Monaco", "home": "PFC CSKA Sofia", "away": "AS Monaco",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T16:45:00Z",
+    "xg_home_for": 2.24, "xg_home_against": 0.86, "xg_away_for": 1.30, "xg_away_against": 1.34,
+    "elo_home": 1508, "elo_away": 1799,
+    "corners_home_for": 6.8, "corners_home_against": 2.5, "corners_away_for": 3.67, "corners_away_against": 5.67,
+    "cards_home_for": 2.3, "cards_home_against": 2.6, "cards_away_for": 1.83, "cards_away_against": null,
+    "odds": {"1": 5.50, "X": 4.50, "2": 1.53, "over_1_5": 1.20, "under_1_5": 4.33, "over_2_5": 1.67, "under_2_5": 2.15, "over_3_5": 2.62, "under_3_5": 1.44, "btts_yes": 1.80},
+    "sources": "xg-edge CSKA Parva Liga 7/10 with xG; StatMuse Monaco Ligue 1 n=6; footballnation CSKA corners/cards n~10-11; soccerghost Monaco corners/cards n=6; clubelo; dailysportpick",
+    "notes": "CSKA xG spread: prematchstats 2.38/0.86 n=10, footystats 2.28/1.23 n=5. Monaco xG alt soccerghost 1.26/1.33. Monaco cards_against not published."
+  },
+  {
+    "match": "Riga vs Kairat Almaty", "home": "FK Riga", "away": "FK Kairat Almaty",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T16:45:00Z",
+    "xg_home_for": 2.04, "xg_home_against": 0.94, "xg_away_for": 1.73, "xg_away_against": 1.05,
+    "elo_home": 1499, "elo_away": 1450,
+    "corners_home_for": 7.67, "corners_home_against": 3.0, "corners_away_for": 4.8, "corners_away_against": 5.0,
+    "cards_home_for": 1.9, "cards_home_against": 2.3, "cards_away_for": 2.0, "cards_away_against": 2.4,
+    "odds": {"1": 1.90, "X": 3.50, "2": 4.00, "over_1_5": 1.30, "under_1_5": 3.40, "over_2_5": 2.00, "under_2_5": 1.80, "over_3_5": 3.50, "under_3_5": 1.28, "btts_yes": 1.83},
+    "sources": "footystats Virsliga n=23 + Kairat club page; statz Kairat corners last-10; xpect cards season 2026 (Riga n=32, Kairat n=27); statz Riga ECL corners n=6; clubelo; dailysportpick",
+    "notes": "Kairat corners conflict: last-10 all-comps 4.8/5.0 vs KPL n=27 5.37/3.04 (European ties inflate concessions) — last-10 chosen. Kairat xG alt statof last-20 1.35/1.45 conflicts; futbor 1.73/1.04 agrees."
+  },
+  {
+    "match": "Craiova vs Getafe", "home": "CS Universitatea Craiova", "away": "Getafe CF",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T16:45:00Z",
+    "xg_home_for": 2.54, "xg_home_against": 1.04, "xg_away_for": 0.62, "xg_away_against": 1.35,
+    "elo_home": 1584, "elo_away": 1700,
+    "corners_home_for": 4.9, "corners_home_against": 3.4, "corners_away_for": 3.8, "corners_away_against": 5.8,
+    "cards_home_for": 1.82, "cards_home_against": null, "cards_away_for": 3.0, "cards_away_against": 2.4,
+    "odds": {"1": 3.30, "X": 3.20, "2": 2.25, "over_1_5": 1.40, "under_1_5": 2.75, "over_2_5": 2.25, "under_2_5": 1.62, "over_3_5": 4.33, "under_3_5": 1.20, "btts_yes": 1.91},
+    "sources": "xg-edge Craiova SuperLiga 10/11 + Getafe La Liga n=8; matchscan/footymetrics corners Craiova n=11; statsnext Getafe corners/cards n=8; clubelo; dailysportpick",
+    "notes": "Craiova xG LARGE spread: xg-edge 2.54/1.04 chosen (updated 12 Oct); footystats 2.05/1.14, matchscan 2.31/0.95, prematchstats 1.18/0.68. Getafe alt statz 0.85/1.48, statmuse 0.82/1.21. Craiova cards_against not published."
+  },
+  {
+    "match": "Estudiantes (LP) vs Flamengo", "home": "Estudiantes de La Plata", "away": "CR Flamengo",
+    "league": "Copa Libertadores - Semifinal (ida)", "kickoff_utc": "2026-10-16T00:30:00Z",
+    "xg_home_for": 1.32, "xg_home_against": 1.08, "xg_away_for": 1.69, "xg_away_against": 1.04,
+    "elo_home": 1723, "elo_away": 1872,
+    "corners_home_for": 3.8, "corners_home_against": 3.3, "corners_away_for": 4.4, "corners_away_against": 4.8,
+    "cards_home_for": 2.7, "cards_home_against": null, "cards_away_for": 1.8, "cards_away_against": null,
+    "odds": {"1": 3.55, "X": 2.92, "2": 2.10, "over_1_5": 2.35, "under_1_5": 1.50, "over_2_5": 2.50, "under_2_5": 1.41, "over_3_5": 5.10, "under_3_5": 1.13, "btts_yes": 2.22, "over_corners_8_5": 1.74, "under_corners_8_5": 2.10, "over_cards_5_5": 1.95, "under_cards_5_5": 1.71},
+    "sources": "statz corners last-10 both; valuestats n=20 yellows (conflict tipsme/statz noted); ClubElo; SportyTrader best-of books read 2026-10-15 (1 Unibet 3.55, X Bet365 2.92, 2 Betclic 2.10, O1.5 Bwin/PMU 2.35, U1.5 Unibet 1.50, O2.5 Unibet/Winamax 2.50, U2.5 Bwin 1.41, O3.5 Winamax 5.10, U3.5 Bwin 1.13, BTTS Bet365 2.22); corners line 8.5 + bookings line 5.5 both sides",
+    "notes": "xG from trusted prior fragments (Estudiantes Liga Profesional 2026, Flamengo Brasileirao 2026). Corners statz last-10 vs valuestats n=20 conflict (Estudiantes 4.2, Flamengo 5.8). Cards valuestats n=20 yellows; tipsme alt Estudiantes 3.4 / Flamengo 1.5-1.6; statz Flamengo 2.1. cards_against not published either team. ONLY match on slate with corners/cards market odds both sides."
+  }
+]

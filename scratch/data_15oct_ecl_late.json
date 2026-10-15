@@ -1,0 +1,90 @@
+[
+  {
+    "match": "Atalanta vs Pafos", "home": "Atalanta", "away": "Pafos",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 1.44, "xg_home_against": 1.31, "xg_away_for": 2.04, "xg_away_against": 1.26,
+    "elo_home": 1808, "elo_away": 1588,
+    "corners_home_for": 3.7, "corners_home_against": 5.5, "corners_away_for": 6.6, "corners_away_against": 3.4,
+    "cards_home_for": 0.7, "cards_home_against": 0.5, "cards_away_for": 2.5, "cards_away_against": 2.3,
+    "odds": {"1": 1.30, "X": 5.25, "2": 9.50, "over_1_5": 1.14, "under_1_5": 5.50, "over_2_5": 1.53, "under_2_5": 2.40, "over_3_5": 2.25, "under_3_5": 1.57, "btts_yes": 1.83, "btts_no": 1.83, "1x": 1.07, "x2": 3.25},
+    "sources": "dailysportpick ECL tips; beta.clubelo (Pafos 1588 unverified); statz Atalanta xG n=20; footystats Pafos xG n=4; xpect Atalanta corners/cards n=6; totalcorner Pafos corners n=5; statz Pafos cards last-10",
+    "notes": "Pafos Elo 1588 carried from prior pass, unverified. Pafos xG n=4 small sample. Atalanta card rates very low (0.7/0.5, n=6, Serie A discipline). Pafos cards alt totalcorner league-only 1.8 for vs statz 2.5."
+  },
+  {
+    "match": "Brighton vs Kauno Žalgiris", "home": "Brighton", "away": "Kauno Žalgiris",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 1.99, "xg_home_against": 1.62, "xg_away_for": 1.73, "xg_away_against": 1.10,
+    "elo_home": 1896, "elo_away": 1390,
+    "corners_home_for": 5.3, "corners_home_against": 5.0, "corners_away_for": null, "corners_away_against": null,
+    "cards_home_for": 2.2, "cards_home_against": 1.3, "cards_away_for": null, "cards_away_against": null,
+    "odds": {"1": 1.03, "X": 17.0, "2": 41.0, "over_1_5": 1.04, "under_1_5": 13.0, "over_2_5": 1.17, "under_2_5": 5.0, "over_3_5": 1.44, "under_3_5": 2.62, "btts_yes": 2.75, "btts_no": 1.40, "1x": 1.00, "x2": 15.0},
+    "sources": "dailysportpick ECL tips; clubelo; statz Brighton xG n=6 (conflict StatMuse 2.17/1.69); futbor Kauno xG A Lyga n~21 (corroborated djyydata 1.68/1.10); statz Brighton corners for (prior pass); xpect Brighton corners against 5.0 + cards 2.2/1.3 n=6",
+    "notes": "Kauno corners/cards not researched -> null (corners/cards markets NO BET). Brighton xG conflict documented. Massive Elo gap 1896 vs 1390."
+  },
+  {
+    "match": "Copenhagen vs Braga", "home": "Copenhagen", "away": "Braga",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 1.57, "xg_home_against": 1.13, "xg_away_for": 1.52, "xg_away_against": 0.69,
+    "elo_home": 1690, "elo_away": 1726,
+    "corners_home_for": 4.3, "corners_home_against": 3.7, "corners_away_for": 4.4, "corners_away_against": 3.1,
+    "cards_home_for": 1.9, "cards_home_against": 1.5, "cards_away_for": 1.86, "cards_away_against": 2.71,
+    "odds": {"1": 2.50, "X": 3.20, "2": 2.90, "over_1_5": 1.33, "under_1_5": 3.25, "over_2_5": 2.08, "under_2_5": 1.73, "over_3_5": 3.75, "under_3_5": 1.25, "btts_yes": 1.80, "btts_no": 1.91, "1x": 1.36, "x2": 1.53},
+    "sources": "dailysportpick ECL tips; clubelo; statz Copenhagen xG n=10 + corners table; footystats Braga xG for (1.52); xg-edge Braga xGA 0.69 n=7; nofluffpicks Braga cards n=7; statz Copenhagen cards against n=10",
+    "notes": "Braga xG_for from footystats, xG_against from xg-edge (different providers, both domestic). Copenhagen corners conflict (4.3/3.7 vs prior 5.36 for) resolved to statz table. Braga cards alt statz league 2.0/3.0."
+  },
+  {
+    "match": "Twente vs Thun", "home": "Twente", "away": "Thun",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 2.30, "xg_home_against": 1.19, "xg_away_for": 1.57, "xg_away_against": 2.19,
+    "elo_home": 1664, "elo_away": 1563,
+    "corners_home_for": 6.7, "corners_home_against": 5.3, "corners_away_for": 5.3, "corners_away_against": 4.7,
+    "cards_home_for": 1.75, "cards_home_against": 1.5, "cards_away_for": 2.3, "cards_away_against": 1.9,
+    "odds": {"1": 1.20, "X": 7.50, "2": 10.0, "over_1_5": 1.10, "under_1_5": 7.0, "over_2_5": 1.33, "under_2_5": 3.40, "over_3_5": 1.83, "under_3_5": 1.83, "btts_yes": 1.80, "btts_no": 1.91, "1x": 1.06, "x2": 4.33},
+    "sources": "dailysportpick ECL tips; clubelo; statz Thun xG/corners/cards n=10; footystats Twente xG n~6; statz Twente corners derived last-10; xpect cards against (Twente 1.5 n=8, Thun 1.9 n=10)",
+    "notes": "Twente corners conflict: 6.7/5.3 derived vs statz next-opp 8.25/2.75 vs sportsgambler 7.7/4.4. Twente cards_against alt statz league 1.86/last-10 2.11."
+  },
+  {
+    "match": "Hearts vs Nordsjælland", "home": "Hearts", "away": "FC Nordsjælland",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 1.99, "xg_home_against": 1.19, "xg_away_for": 2.13, "xg_away_against": 1.31,
+    "elo_home": 1552, "elo_away": 1640,
+    "corners_home_for": 6.3, "corners_home_against": 5.1, "corners_away_for": 4.3, "corners_away_against": 3.6,
+    "cards_home_for": 1.5, "cards_home_against": 2.5, "cards_away_for": 2.0, "cards_away_against": 1.5,
+    "odds": {"1": 2.90, "X": 3.75, "2": 2.20, "over_1_5": 1.14, "under_1_5": 5.50, "over_2_5": 1.53, "under_2_5": 2.40, "over_3_5": 2.25, "under_3_5": 1.57, "btts_yes": 1.44, "btts_no": 2.62, "1x": 1.67, "x2": 1.36},
+    "sources": "dailysportpick ECL tips; clubelo; statz both teams xG/corners last-10; xpect Hearts cards against n=8 (2.5); statz Nordsjælland cards against n=10 (1.5)",
+    "notes": "Corners windows statz last-10 all-comps; league tables differ (Hearts 7.38/3.25, NF 5.9/3.7). Nordsjælland UECL-only cards against 2.83 n=6 not used (different competition). Away favorites despite venue."
+  },
+  {
+    "match": "Sint-Truidense vs Iberia Tbilisi", "home": "Sint-Truidense", "away": "FC Iberia 1999",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 1.98, "xg_home_against": 1.59, "xg_away_for": 1.30, "xg_away_against": 1.11,
+    "elo_home": 1608, "elo_away": 1372,
+    "corners_home_for": 5.5, "corners_home_against": 3.6, "corners_away_for": 4.5, "corners_away_against": 4.67,
+    "cards_home_for": 2.0, "cards_home_against": 1.3, "cards_away_for": 3.07, "cards_away_against": 2.26,
+    "odds": {"1": 1.25, "X": 5.50, "2": 12.0, "over_1_5": 1.17, "under_1_5": 5.0, "over_2_5": 1.53, "under_2_5": 2.40, "over_3_5": 2.25, "under_3_5": 1.57, "btts_yes": 2.00, "btts_no": 1.73, "1x": 1.05, "x2": 3.50},
+    "sources": "dailysportpick ECL tips; clubelo; statz Sint-Truidense xG n=8-10 + corners; makeyourstats Iberia xG/corners/cards n=27 (corroborated futbor xG); xpect Sint-Truidense cards against n=8; cornerprobet snippet Iberia corners",
+    "notes": "Iberia cards_for 3.07 derived from FH+SH splits (rounding mismatch vs 2.9 game-total estimate flagged). Iberia high card rate (3.07 for) notable."
+  },
+  {
+    "match": "Freiburg vs Jablonec", "home": "SC Freiburg", "away": "Jablonec",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 2.08, "xg_home_against": 0.89, "xg_away_for": 1.32, "xg_away_against": 0.97,
+    "elo_home": 1793, "elo_away": 1547,
+    "corners_home_for": 5.6, "corners_home_against": 3.4, "corners_away_for": 5.3, "corners_away_against": 4.4,
+    "cards_home_for": 2.0, "cards_home_against": 2.2, "cards_away_for": 1.4, "cards_away_against": 2.7,
+    "odds": {"1": 1.22, "X": 6.0, "2": 12.0, "over_1_5": 1.14, "under_1_5": 5.50, "over_2_5": 1.50, "under_2_5": 2.50, "over_3_5": 2.20, "under_3_5": 1.62, "btts_yes": 2.00, "btts_no": 1.73, "1x": 1.05, "x2": 3.75},
+    "sources": "dailysportpick ECL tips; clubelo; statz Freiburg xG n=5 + corners for/cards for; xpect Freiburg corners against 3.4 + cards against 2.2; xg-edge Jablonec xG n=10; performanceodds Jablonec corners/cards n=10",
+    "notes": "Freiburg xG n=5 small sample (top of Bundesliga). Jablonec data from xg-edge + performanceodds, both n=10 domestic. Freiburg cards alt footymetrics 2.40 against."
+  },
+  {
+    "match": "Brann vs Lincoln Red Imps", "home": "Brann", "away": "Lincoln Red Imps",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 1.84, "xg_home_against": 1.74, "xg_away_for": 0.73, "xg_away_against": 0.50,
+    "elo_home": 1583, "elo_away": 1350,
+    "corners_home_for": 6.9, "corners_home_against": 5.09, "corners_away_for": 4.0, "corners_away_against": 7.1,
+    "cards_home_for": 1.6, "cards_home_against": 1.77, "cards_away_for": 2.7, "cards_away_against": 2.1,
+    "odds": {"1": 1.12, "X": 9.0, "2": 17.0, "over_1_5": 1.10, "under_1_5": 7.0, "over_2_5": 1.36, "under_2_5": 3.10, "over_3_5": 1.83, "under_3_5": 1.83, "btts_yes": 2.00, "btts_no": 1.73, "1x": 1.02, "x2": 6.50},
+    "sources": "dailysportpick ECL tips; clubelo; statz Brann xG n=22 (largest on slate) + corners for; matchscan/futbor/footymetrics Brann corners against 5.09 (3-way agreement n=22); statz Brann cards against n=22 (1.77); Lincoln xG footystats prose n=3 Gibraltar (LOW CONFIDENCE); statz Lincoln corners last-10 UEFA-only + cards 2026/27",
+    "notes": "Lincoln xG n=3 from page prose (summary table paywalled) — LOW CONFIDENCE, flagged. Lincoln corners window spans UEFA matches Jul 2025-Aug 2026 (Gibraltar league corners unpublished). Excluded: performanceodds Gibraltar 2025/26, bettingstats qualifiers-only."
+  }
+]
