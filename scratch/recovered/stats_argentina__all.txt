@@ -1,0 +1,1810 @@
+
+
+===== seq 155 =====
+Excellent. Statsbet gives per-team stats (Últimos 5 = last 5 matches window):
+- Instituto: corners team 4.8, total 7.2; cards team 4.0, total 7.2; xG 1.34/0.79 (season tab: 28? "Temporada (28)" — Instituto shows 28? Actually Instituto's page showed "Temporada (28)"? Let me check: Instituto page tabs: "Últimos 5 (5)Últimos 10 (10)Temporada (28)"? It showed "Temporada (28)"? I see in Instituto page: `Últimos 5 (5)Últimos 10 (10)Temporada (28)` — hmm actually it said "(28)"? The text shows "Temporada (28)"? Let me re-read: Instituto shows "Últimos 5 (5)Últimos 10 (10)Temporada (28)"... Actually I need to verify. In Defensa page: "Últimos 5 (5)Últimos 10 (10)Temporada (28)". Boca: "Temporada (29)". Hmm, these season counts ~28-29 for a 12-match Clausura? That suggests statsbet "Temporada" counts full calendar year or all competitions. Hmm, "Temporada (28)" for Defensa but Clausura has only 12 matches. 28 ≈ 12 Clausura + 16 Apertura? Yes! Apertura 2026 had 16 matches. So 28 = full 2026 season league matches. Boca 29 includes cups.
+
+Wait but the displayed values (Media goles a favor 1.80) correspond to last 5 (Últimos 5). The "Media goles a favor 1.80, en contra 0.60" — from statips, DyJ last 5: 1.7 GF... hmm statips said last6 10 goals/3. Statsbet last5: 1.80/0.60 → 9 GF/3 GA over 5. Consistent order.
+
+Important: Statsbet xG "xG a favor / Partido 0.96" for DyJ. Which window? Given Goles section is for the selected tab (Últimos 5 by default), maybe xG is also last-5? For Instituto 1.34/0.79 with "Diferencia xG +8.93" — hmm, diff +8.93 doesn't match 5 games (0.55*5=2.75). For Boca 1.22/0.66 diff +9.40 → 0.56*5 = 2.8, not 9.4. So "Diferencia xG" is probably season total difference (over ~29 matches): Boca xG for total ~46.6, against ~24.6 → diff +22, not 9.4. Hmm.
+
+Actually maybe xG per partido is over last 10? Boca last10 xG 8.18/5.30 → 0.82/0.53. Doesn't match 1.22/0.66.
+
+Let's test: difference xG +9.40 for Boca. If xG/partido 1.22 for and 0.66 against over n games: n*(1.22-0.66)=9.40 → n=16.8. Hmm ~17. If over 5: 2.8. Not.
+
+Alternatively the diff is just (xG for total − xG against total) over some n... For Boca over season 29: (1.22-0.66)*29=16.2. Not 9.4.
+
+Hmm, maybe the xG per game is a season-long average from a different sample and diff from another. Statsbet internal consistency is questionable. Let's check DyJ: -3.38 with 0.96/1.17 → n*(-0.21)=-3.38 → n=16.1. Instituto: +8.93 with 1.34/0.79 → 0.55n=8.93 → n=16.2. Boca: 0.56n=9.40 → n=16.8. So diff corresponds to n≈16 (Apertura?). Interesting — so the "xG a favor / Partido" might be a specific window average where diff = total difference. n≈16 → maybe last 16 matches? Or Apertura? Whatever.
+
+So statsbet xG/partido is ambiguous in window. Hmm.
+
+Better xG source: FotMob season totals (Liga Profesional 2026 season = Apertura+Clausura, league only). FotMob: DyJ xG 36.1 for, 33.9 against, goals 36. Instituto 39.3/22.3 goals 36. Boca 46.6/24.6 goals 43. Talleres 30.8/36.0 goals 28.
+
+Need games: FotMob "Liga Profesional 2026" — includes Apertura and Clausura league matches. DyJ: Clausura12 + Apertura16 =28. DyJ FotMob total goals 36; statsbet season tab? DyJ statsbet "Temporada (28)" GF 7? no that was broken. Hmm.
+
+Actually verify: DyJ Clausura GF 18 in 12; Apertura would be 16 games; total 28 games, 36 goals → Apertura 18 goals in 16 games. Plausible.
+
+Wait, is Apertura 2026 = 16 games per team? Apertura 2026 with 15 teams in each of 2 zones: 14 group games + 2-3 playoff games for playoff teams. Hmm, for non-playoff teams, 14. Then total would be 14+12=26 or so. FotMob "Liga Profesional 2026" might be only Clausura? But then it'd be 12 games.
+
+Hmm. Need the games count from FotMob. Let me compute from FotMob "Goles por partido" stat? The FotMob xG page shows team "Goles: 44" for River. If I knew matches... 
+
+Alternative approach: use the FotMob stat page "Goles por partido" (goals per match) which is per-game and equals total goals/games. River goals 44; if goals/match shown = 1.76 → 25 games. That's a way to derive n, but I'd need to fetch another page.
+
+Alternatively: FotMob team overview page shows xG per match? Not typically.
+
+Hmm. Given budget (~15 calls used), let me fetch:
+1. Talleres statsbet page (need corners/cards/xG for Talleres).
+2. Maybe a FotMob page showing matches played.
+
+Actually, a cleaner path for xG per game: FotMob league stats "expected_goals_team" is a season total. FotMob's season "Liga Profesional 2026" — I can determine the number of matches from the FotMob fixtures count... too expensive.
+
+Alternative: The task says "average xG per game for the current Argentine season 2026". Current season = Clausura 2026? The matches are in "Clausura" stage (12 rounds played). FotMob's league 112 season 2026 likely aggregates Apertura+Clausura ("Liga Profesional 2026"). Given both, dividing by unknown n is risky.
+
+Hmm — but note: FotMob stats pages often include a "Team" detail page (fotmob.com/teams/161730/overview) that shows per-match averages. Too expensive.
+
+What about derived n from goals: FotMob xG page lists "Goles: 36" for DyJ. The goals per game page would give GPG. DyJ Clausura GF 18 in 12 = 1.5/game. If FotMob total 36 over 28 → 1.29. If over 24 → 1.5.
+
+Alternatively use statsbet's "xG a favor / Partido" as the model input — it's a per-game figure from a single source family for all 4 teams, consistent. Window ambiguous but likely recent-ish. Hmm, but the task wants season average.
+
+Let me check Instituto: statsbet xG 1.34/0.79. FotMob total 39.3/22.3. If season = 28 games: 1.40/0.80. Very close to 1.34/0.79! Diff: 39.3/28 = 1.404 vs 1.34; 22.3/28=0.796 vs 0.79. Hmm very close. If 29: 1.36/0.77.
+
+For DyJ: FotMob 36.1/33.9; statsbet 0.96/1.17. 36.1/28=1.29 vs 0.96 — not close. 33.9/28=1.21 vs 1.17 close-ish.
+
+Hmm inconsistent. Maybe statsbet xG is last-5 after all? DyJ last5: xG for 0.96*5=4.8 (form table said Últimos 5 xG for 3.50, against 5.48). Boca last5: 4.03/3.27 vs 1.22*5=6.1/3.3. Instituto last5: 9.91/4.83 vs 1.34*5=6.7/3.95. Hmm.
+
+Actually check xG/partido vs "Últimos 10": Boca 1.22 vs 8.18/10=0.82. Instituto 1.34 vs 13.29/10=1.33 ✓ close! DyJ 0.96 vs 6.31/10=0.63. Hmm Instituto matches, Boca doesn't.
+
+The statsbet numbers are internally inconsistent; risky. Let me get a cleaner xG source.
+
+Option: FotMob team overview page includes per-game xG? FotMob team page "stats" section has season stats including xG per 90? Hmm.
+
+Better option: FotMob "expected_goals_team" totals plus number of matches from FotMob's own "Goles" count and "Goles por partido"? circular.
+
+Alternative: Try fbref via a proxy? fbref blocked.
+
+Try footystats team pages? 403.
+
+Try statbunker? Or "xg-edge.com"? Or "understat" (no Argentina). 
+
+Alternatively use "sofascore" API for team statistics in a season: e.g., https://www.sofascore.com/api/v1/unique-tournament/155/season/XXXXX/statistics — hmm sofascore may block.
+
+Alternative approach: compute per-game from FotMob totals using a known match count from a reliable page: Valuestats shows Clausura 12 games. But FotMob totals are season-wide (Apertura+Clausura). I could fetch FotMob's Apertura 2025/2026... no.
+
+Hmm, what about FotMob league page "Liga Profesional 2026" — does it include both Apertura and Clausura? FotMob lists season "Liga Profesional 2026" and "Liga Profesional - Apertura 2025" as separate entries. So 2026 = the calendar-year competition, which in Argentina 2026 = Apertura (Feb-Jun) + Clausura (Jul-Dec) = up to ~30 matches. So FotMob's 36.1 xG for DyJ covers ~28 games → 1.29/game.
+
+Hmm. Both Apertura and Clausura share the same clubs so a season average is legitimate, but sample definition matters. The user asked "current Argentine season 2026 ... it should be well advanced by October". So full-season (Apertura+Clausura) xG average is a reasonable interpretation. But they'd want per-game.
+
+Risk: if n unknown, I cannot compute. Let's try to nail n: FotMob has a "stats/teams" page which might show per-90. Actually I fetched "expected_goals_team" which gave totals. There's also a "Goles por partido" stat ("Goals per match") — if I fetch that page, I get GPG per team, and combined with "Goles" totals I could derive matches: matches = goals / GPG. But that's another fetch and derivation. Hmm, or the goals-per-match page might just directly give per-match values.
+
+Alternatively: FotMob leaderboard pages show "Goles: 44" and the stat value 53.1 = xG total. If I fetch "Goles por partido" page I get value e.g. 1.76 (per game). Then matches = 44/1.76 = 25. Then xG/game = 53.1/25 = 2.12. This derivation is exact arithmetic. Two fetches (goals per match page gives all teams in one page!). Yes — one page fetch gives GPG for all 30 teams. Then n matches per team = FotMob goals total (from the xG page I already have for the 4 teams) / GPG. Actually I have "Goles" for each of the 4 teams from both pages: River44, Boca43, RC42, Gimnasia39, Unión43, Estudiantes34, IndRiv45, Argentinos37, Instituto36, Belgrano38, Lanús33, DyJ36, Tigre29, Racing32, Huracán32, Vélez35, Sarmiento34, Banfield31, Talleres28, Independiente36, Platense22, AtlTuc25, GimMendoza29, Newells26, SanLorenzo21, Riestra14, CCS21, Aldosivi19, EdRC11, Barracas25.
+
+So one more fetch ("Goles por partido") → n per team → xG/game. But careful: does "Goles" include penalties etc.? Same page set, fine.
+
+Actually simpler: fetch the FotMob "Scores de FotMob" (Puntuación de FotMob) no. Let me just fetch the goals-per-match page: URL .../teams/goals_team? The stat key for "Goles por partido" in FotMob API is "goals_per_match_team" maybe. Let me guess "goals_per_match_team". Hmm risky. FotMob stat keys: "expected_goals_team", "expected_goals_conceded_team", "goals_team"?, "goals_per_match_team"?. Not sure.
+
+Hmm, alternatively the xG page might have a "per 90" toggle. Nope.
+
+Alternatively derive matches from FotMob standings: the table page returned nothing (JS). 
+
+Alternative: Use valuestats league stats page for teams: /liga/liga-profesional-de-f-tbol/estadisticas-equipos?season=26808 — might show GF/GC for season 26808 (Apertura+Clausura?) or the Clausura stage. Not xG though.
+
+Time/budget check: I've used ~16 calls. Remaining ~14. Needs: Talleres statsbet (1), maybe goals_per_match FotMob (1), context verification for injuries/coaches (maybe 1-2 searches), H2H already from statips.
+
+Let me think about what's most defensible for xG: Use statsbet xG per game (same source for all 4 teams, per-game values documented on page, window ambiguous) OR FotMob total/n.
+
+Actually maybe there's a third: FotMob team overview page for each team might have "xG per match"? Hmm.
+
+Let me try the FotMob stat key for goals per match. Common FotMob stat keys from their API: "goals_per_match_team", "goals_conceded_per_match_team", "possession_percentage_team", "clean_sheets_team", "expected_goals_team", "expected_goals_conceded_team", "expected_goals_difference_team", "shots_on_target_per_match_team", "big_chances_team", "corners_team", "fouls_per_match_team", "yellow_cards_team"...
+
+Wait! "corners_team" — FotMob has "Saques de esquina" (corners) stat. That gives corners total per team, not for/against. Not split. Hmm. But statsbet gives corners for/total (last 5). Good.
+
+For cards: FotMob "Tarjetas rojas" only in that list; maybe "yellow_cards_team" exists too.
+
+Plan: fetch FotMob "goals_per_match_team" page to derive n (and it also validates). If 404, fallback: use statsbet xG per game and note ambiguity.
+
+Actually — better idea. Rather than derive, maybe I should just use FotMob's xG totals and compute per-game using the count of matches from a page that explicitly states matches played. The statsbet "Temporada (N)" tabs: Defensa (28), Instituto (28?), Boca (29), Talleres (?) — these are per-team season match counts (all competitions? Boca 29 includes Libertadores/Sudamericana?). Statsbet Boca page header showed Libertadores #3 with 6 matches; its "Temporada (29)" probably = league+continental. Risky.
+
+Hmm, but FotMob xG is league-only, so m must be league-only.
+
+OK let's do the goals_per_match derivation: n = FotMob "Goles" total / GPG. Both from FotMob, same window. That's exact arithmetic, no invention.
+
+Let me try that page and the Talleres statsbet page in parallel.
+
+Actually wait: I realize the FotMob stat list order included "Goles por partido" (first). Its URL key likely "goals_per_match_team". Let's try.
+
+Also fetch Talleres statsbet: https://statsbet.es/futbol/equipos/talleres-cordoba.
+
+Then I'll have corners/cards for all 4 (last-5 statsbet) and can compute against = total − for.
+
+Hmm, one caveat: statsbet corners "Media equipo 3.2" (team's own corners) and "Media total 10.2" (total in matches). Doing arithmetic: against = total − team = 7.0. That's a legit derivation from fetched data. I'll note it in notes.
+
+Let me also consider that statsbet values are last-5 leagued games including cups? For DyJ last 5 (from statips, all league). For Boca, last 5 statsbet includes Sudamericana (Boca 5 games: 14/10 Vasco, 09/10 Instituto, 03/10 Unión, 27/09 Racing Copa Arg, 20/09 SL) — the "Últimos 5" might include cup matches. Corners total 6.8 for Boca — plausible either way. I'll note window ambiguity.
+
+Proceed: 2 fetches.</think>
+
+===== seq 168 =====
+Talleres statsbet URL slug different. Try "talleres-crdoba" (from statsbet's own link: /futbol/equipos/talleres-crdoba).
+
+Also the FotMob goals_per_match_team key didn't work. I'll rely on statsbet xG per game for XG, or FotMob totals with derived n.
+
+Hmm, let me reconsider: statsbet xG per game values:
+- DyJ 0.96 for / 1.17 against
+- Instituto 1.34 / 0.79
+- Boca 1.22 / 0.66
+- Talleres ? (need)
+
+Compare FotMob (total): DyJ 36.1/33.9; Instituto 39.3/22.3; Boca 46.6/24.6; Talleres 30.8/36.0.
+
+If statsbet xG per game × 28: DyJ 26.9/32.8; Instituto 37.5/22.1; Boca 34.2/18.5; Talleres ?. Instituto matches FotMob well (37.5 vs 39.3; 22.1 vs 22.3). DyJ doesn't (26.9 vs 36.1). Hmm so statsbet xG isn't season-wide consistent.
+
+Maybe statsbet xG = last-10 league? DyJ 0.96*10 = 9.6 vs form table last10 xG for 6.31. No.
+
+The statsbet "Diferencia xG" values (Boca +9.40, Instituto +8.93, DyJ −3.38) with the per-game giving n≈16. Note: 16 ≈ Apertura matches! So maybe "xG a favor / Partido" is an Apertura/stage average? But then diff over 16 games... DyJ: 0.96*16 = 15.4 for, 1.17*16=18.7 against; diff = -3.3 ✓ matches -3.38! And Instituto: 1.34*16=21.4, 0.79*16=12.6, diff +8.8 ✓ ≈+8.93. Boca: 1.22*16=19.5, 0.66*16=10.6, diff +8.9 ≈ +9.40 (n≈16.7). So the xG per-game figures come from a window of exactly 16 matches... which is Apertura 2026 for these teams (or "last 16" or the current tournament stage). Hmm, but wait: Apertura with 15 teams/zone = 14 group games + up to 3 playoff. Boca reached? Boca 16 games maybe including playoffs.
+
+Hmm, actually if Apertura had 16 matches for these teams... Or the statsbet xG might be over the "Temporada" for some subset. Ambiguity remains, but the internal diff consistency (n≈16) suggests a 16-match window for all teams. So per-game xG from statsbet ≈ their 16-match average. That's a reasonable xG/game figure — but which 16? Unknown; possibly Apertura 2026 (Feb–Jun) which is stale relative to current Clausura form.
+
+Meanwhile FotMob season totals / n where n = matches in FotMob "Liga Profesional 2026". Need n. If n = 28 for DyJ (12 Clausura + 16 Apertura), xG/game = 36.1/28 = 1.29 for, 1.21 against. For Instituto 39.3/28 = 1.40/0.80. Hmm Instituto's Apertura matches: if 16 → 28 too. Boca 29 (16+13? Boca has played 12 Clausura per table... hmm 12). Boca might have played a Clausura game more? Table says Boca 12 PJ. So Boca league 28 too. FotMob Boca xG/28 = 1.66/0.88.
+
+But wait — do Apertura totals double count? Apertura 2026 in Argentina: hmm, actually is there an Apertura 2026? Yes, the AFA 2026 season: Apertura (Feb–Jun) and Clausura (Jul–Nov), 30 teams in two zones of 15. Each zone plays 14 rounds (single round robin of 15 = 14 games)? Hmm 15 teams in a group → 14 games if round robin... wait 15 teams means 14 opponents... no: 15 teams in group → each plays 14 group matches. Hmm, but DyJ schedule in Clausura shows 12 played by fecha 13 — meaning group of 15 → 14 matches total (fecha 13 of 14?). Yes! So Apertura group stage = 14 matches + playoffs.
+
+So DyJ Apertura: 14 group + playoff games. 16 total = 14 + 2 playoff (DyJ reached cuartos?). Plausible! Instituto also 16 (14+2). Boca 16-17. Hmm.
+
+Then FotMob "Liga Profesional 2026" = 28-30 matches including playoffs? If it includes playoff matches, fine.
+
+So n per team: a rough 28. But I can't verify exactly. Deriving per-game xG = 36.1/28 introduces an assumption about n.
+
+Given the instruction "NEVER invent or estimate a number", using FotMob totals/n with assumed n is an estimate. Using statsbet's published per-game xG is a fetched number with ambiguous window.
+
+Hmm. Options for a directly published per-game xG for the 2026 season: maybe "xgscore.io"? Or "sofascore"? Statips? Or "tapology"? 
+
+What about valuestats team stats pages — they may show "xG"? Possibly not.
+
+What about "alargue.com" (Argentine stats site found in DDG) — liga profesional clausura 2026 estadisticas. Maybe it has xG for/against per team for Clausura. Could be good and it's Clausura-specific. Let me try that: https://alargue.com/ligas/liga-profesional--clausura-2026/estadisticas.
+
+Also "es.fcstats.com" club stats pages (found in DDG) list team season stats — may include corners/cards totals per team for Clausura. That could be a good source for corners/cards for/against? fcstats shows "racha de resultados" maybe includes corners. Hmm.
+
+Budget: ~17 used, ~13 left. Priorities:
+1. Talleres statsbet (corners/cards/xG) — need. URL: /futbol/equipos/talleres-crdoba
+2. xG source decision — try alargue or use statsbet xG noting window; also FotMob totals as cross-check.
+
+Let me fetch Talleres statsbet (correct slug) + alargue estadisticas in parallel.
+
+Actually, is statsbet "talleres-crdoba" correct? The DyJ page linked Talleres as /futbol/equipos/talleres-crdoba. Wait, in the table it was "/futbol/equipos/talleres-crdoba"? The Boca page table showed "[Talleres Córdoba](/futbol/equipos/talleres-crdoba)". And my 404 was for "talleres-cordoba" — that's what I used... Actually I fetched "https://statsbet.es/futbol/equipos/talleres-cordoba" and got 404. The link in page was "/futbol/equipos/talleres-crdoba". Yes different. Use that.</think>
+
+===== seq 184 =====
+Let me understand the current situation. This is a continuation of a task where I'm collecting verified per-team data for two Argentine Liga Profesional matches. The parent (orchestrator) gave me a strict contract: return ONLY a JSON array with 2 match records.
+
+However, wait — I need to re-read my role. I'm the "read-only explorer" agent. Actually, the checkpoint describes my earlier work. Let me re-read the actual instructions in my system prompt.
+
+My system prompt says I'm a "read-only explorer for generic ODD work" — map files, symbols, relationships. But the conversation checkpoint is about a football betting data collection task. This is a bit conflicting.
+
+Actually, looking more carefully: This seems to be a subagent invocation where the task is sports data collection. The checkpoint says I should return ONLY a JSON array. Let me focus on completing that task as described.
+
+Wait, but there's tension. The checkpoint says the parent gave me a schema and wants ONLY JSON. But my system prompt is the explorer agent. Let me reconcile: The actual user-facing task here is clearly the football data collection. The checkpoint is historical context. The "task" I need to complete is to emit the final JSON array.
+
+Hmm, but actually I should be careful. Let me re-read: "Return ONLY a JSON array with 2 match records in the exact schema provided by the parent; no prose, no markdown fence."
+
+But I don't have the parent's exact schema in front of me — I have it summarized in the checkpoint: keys are listed.
+
+Let me think about what I have and what I need. The checkpoint has all the data I need. Let me assemble.
+
+Actually, let me reconsider whether I should do additional fetches. The checkpoint says ~20 of ~30 tool calls used. It suggests optionally 1-2 more fetches for injuries/suspensions, then compute and emit.
+
+But given my context budget, let me be pragmatic. I have the data. Let me verify the key data points I need and assemble the JSON.
+
+Actually — importantly — I should be honest about what I can verify. The checkpoint is historical context. I should trust the checkpoint's recorded data since it represents work I actually did. But let me consider doing a couple of verification fetches to strengthen the data.
+
+Hmm, but there's a risk: re-fetching might give different data or fail. The checkpoint has already recorded the data with URLs. Let me just assemble.
+
+Wait, let me reconsider the tension between my system prompt (read-only explorer) and this task. Actually I think the practical thing: the conversation is clearly a football betting subagent task (the engram protocol, the AGENTS.md about football betting). The "code mode" tools available are context7, engram, opencode. No filesystem mutation.
+
+Actually, my available tools don't include `tools["football-stats"]` etc. The MCPs are down per the checkpoint. I have websearch, webfetch, execute, read, grep, glob.
+
+Let me think about the best action. The next move per checkpoint:
+1. Optionally fetch injuries/suspensions.
+2. Compute corners/cards for/against via derivation.
+3. Emit final JSON.
+4. Call mem_save for StatsBet discovery.
+
+Given "no prose" constraint — but I'm a chat agent, I need to output the JSON. The instruction says return only JSON array. However, the engram protocol says end turn with user-facing answer. These are compatible: the answer IS the JSON.
+
+Hmm, but should I do additional fetches first? Let me consider: the checkpoint says budget ~30 calls, ~20 used. I could do a couple of targeted fetches. But actually, the risk of fetch failures and the value... The parent needs the JSON. Let me do maybe 1-2 verification/context fetches then emit.
+
+Actually, let me reconsider. I'm a subagent. My job is to return data. I should be efficient. Let me do a small number of fetches to fill the remaining context gaps (injuries/suspensions) and verify a key source, then emit JSON.
+
+Let me think about what's genuinely missing and valuable:
+- Injury/suspension info: would strengthen context_home/context_away.
+- The StatsBet window ambiguity: could try to verify.
+
+Let me do a couple of web fetches. Actually, let me reconsider — re-fetching StatsBet to confirm the numbers would be the highest-value verification since those are the core xG/corners/cards numbers.
+
+Let me do that. Let me fetch the StatsBet pages for the 4 teams to confirm.
+
+Actually, wait. Let me be careful about tool budget and not over-engineer. The checkpoint already recorded these numbers with URLs. Re-fetching is verification I actually observed. But there's risk the pages return JS-only or change.
+
+Let me just do a focused set of parallel fetches: StatsBet for all 4 teams. That confirms the core numeric block. Let me use execute with fetch.
+
+Actually the tools available for fetch inside execute: `fetch` is available. Let me use that.
+
+Let me try to fetch the 4 StatsBet team pages in parallel.
+
+Hmm, but actually — do I even have the right approach? Let me reconsider whether the checkpoint data is trustworthy enough. The checkpoint explicitly says "NEVER invent or estimate a number; every numeric value must come from a page actually fetched, with exact URL recorded." The checkpoint recorded the numbers and URLs from actual fetches. So I can trust them.
+
+Given budget constraints, maybe I should just emit the JSON with the recorded data and note the uncertainties. But let me do at least a verification fetch to be safe and possibly fill context gaps.
+
+Let me do it. I'll fetch the 4 StatsBet pages + maybe search for injury news.
+
+Let me write the execute code.
+
+Actually, let me reconsider one more time about my identity and instructions. There's a strong mismatch: system prompt says "read-only explorer for generic ODD work... Map relevant files, symbols, relationships." But the task is football data. 
+
+I think what happened: This is a multi-agent system where the subagent's system prompt template is generic, but the actual assignment (in the conversation) is the football data collection. I should follow the actual assignment since it's the concrete user task.
+
+Hmm, but the system prompt is quite explicit about being read-only and NOT doing certain things. It says "Do not edit, write, run commands, or mutate state." Fetching web pages is read-only — OK. It says return a "compressed handoff." 
+
+But the actual conversation task says return a JSON array. I'll honor the concrete task while staying read-only (no writes except engram memory which is bookkeeping... actually engram mem_save is a write/mutate. Hmm.)
+
+The system prompt says "Do not edit, write, run commands, or mutate state." But the engram protocol (also in my system prompt) says to save. And the task says save the discovery to engram. There's tension. The engram protocol is "MANDATORY and ALWAYS ACTIVE." Memory saves are bookkeeping, not task-state mutation. I'll do the mem_save as it's explicitly requested and is memory bookkeeping.
+
+OK let me proceed. Let me do the verification fetches.
+
+Let me fetch the 4 StatsBet pages.
+
+I'll use execute with fetch in parallel.
+
+Let me also think about the exact output schema. Keys:
+match, home, away, league, kickoff_utc, xg_home_for, xg_home_against, xg_away_for, xg_away_against, corners_home_for, corners_home_against, corners_away_for, corners_away_against, cards_home_for, cards_home_against, cards_away_for, cards_away_against, context_home, context_away, h2h, sources, notes.
+
+Now compute derived values.
+
+Match 1: Defensa y Justicia (home) vs Instituto (away)
+StatsBet data:
+- DyJ: xG for 0.96, against 1.17; corners team 3.2, total 10.2; cards team 2.2, total 5.4
+- Instituto: xG for 1.34, against 0.79; corners team 4.8, total 7.2; cards team 4.0, total 7.2
+
+Derived:
+- corners_home_for = 3.2 (DyJ team corners)
+- corners_home_against = total − team = 10.2 − 3.2 = 7.0
+- corners_away_for = 4.8 (Instituto team corners)
+- corners_away_against = total − team = 7.2 − 4.8 = 2.4
+- cards_home_for = 2.2 (DyJ team)
+- cards_home_against = 5.4 − 2.2 = 3.2
+- cards_away_for = 4.0 (Instituto team)
+- cards_away_against = 7.2 − 4.0 = 3.2
+
+xG:
+- xg_home_for = 0.96, xg_home_against = 1.17
+- xg_away_for = 1.34, xg_away_against = 0.79
+
+Match 2: Boca Juniors (home) vs Talleres (away)
+- Boca: xG for 1.22, against 0.66; corners team 4.4, total 6.8; cards team 2.0, total 5.8
+- Talleres: xG for 0.97, against 0.90; corners team 4.8, total 9.0; cards team 2.6, total 5.4
+
+Derived:
+- corners_home_for = 4.4
+- corners_home_against = 6.8 − 4.4 = 2.4
+- corners_away_for = 4.8
+- corners_away_against = 9.0 − 4.8 = 4.2
+- cards_home_for = 2.0
+- cards_home_against = 5.8 − 2.0 = 3.8
+- cards_away_for = 2.6
+- cards_away_against = 5.4 − 2.6 = 2.8
+
+Hmm wait — these derived "against" values are suspicious. corners_away_against = 2.4 means Instituto concedes only 2.4 corners per game? And DyJ corners_against 7.0? That seems off. The "total" is the match total corners, and "team" is that team's corners. So opponent corners = total − team. For DyJ: total 10.2 means matches involving DyJ average 10.2 corners, DyJ takes 3.2, so opponents take 7.0. That's plausible if DyJ is a low-corner-creation, high-concession team. For Instituto: total 7.2, team 4.8, so opponents 2.4. Hmm, 2.4 opponent corners per game is very low but possible.
+
+Actually these derived values are inherently noisy because "total" and "team" may be computed over different windows. The checkpoint flagged this. I'll note the derivation.
+
+Hmm, actually the reliability of these derivations is questionable. But the task asks for for/against and the checkpoint decided this derivation approach. I'll go with it and clearly note it.
+
+Let me reconsider: maybe better to report corners as the raw StatsBet values and clearly label. But the schema requires corners_home_for AND corners_home_against. So I must produce a value. The derivation is documented.
+
+OK. Now, let me decide: do I fetch or just assemble? Given the constraints of my role (read-only, explorer) and the fact that I've already gathered data, and the risk/benefit, I think doing a couple of verification fetches is worthwhile and within budget.
+
+Let me try fetching StatsBet pages. Let me use execute.
+
+Let me write code to fetch 4 URLs and return truncated text.
+
+Actually, I realize I should be judicious. Let me do the fetches and see. If they work, great; if not, I fall back to checkpoint data.
+
+Let me go.
+
+Let me fetch:
+1. https://statsbet.es/futbol/equipos/defensa-y-justicia
+2. https://statsbet.es/futbol/equipos/instituto
+3. https://statsbet.es/futbol/equipos/boca-juniors
+4. https://statsbet.es/futbol/equipos/talleres-crdoba
+
+And maybe a search for injuries.
+
+Let me run.
+
+I'll write robust code that catches errors.
+
+Actually, given I want to limit output size, let me extract only lines containing xG/corners/cards keywords. But the page may be HTML with numbers embedded. Hard to parse. Let me just dump portions around keywords.
+
+Hmm, this could be messy. Let me fetch and grep for keywords like "xG", "corners", "tarjetas", "Córners".
+
+Let me do it and return matches.
+
+Let me write the code.
+
+I'll be careful: fetch returns Response; I'll get text.
+
+Let me code.
+
+Let me limit each output to relevant lines.
+
+Given uncertainty about page structure, let me just grab the text and search for patterns.
+
+Let me execute.
+
+Actually, let me reconsider the whole thing. My token budget and the value. The checkpoint is a serialized record of my own earlier work — it's reliable. Re-fetching is pure verification. Given the strict "never invent" rule, verification of core numbers is good practice. But if the fetch returns JS-only (many of these sites are), I gain nothing and it might even confuse.
+
+The checkpoint says these StatsBet pages DID return usable data (stat blocks = "Últimos 5"). So re-fetching should work.
+
+OK, let me just do it. Fetch all 4 in parallel.
+
+Let me go with execute.
+
+One concern: These fetches in code mode - are external network requests allowed? "fetch is available for HTTP requests." Yes.
+
+Let me write.
+
+I'll return for each URL a filtered set of lines.
+
+Let me define keywords: ['xG', 'xG ', 'corners', 'Córners', 'corner', 'tarjetas', 'Tarjetas', 'Media', 'Temporada', 'posesión', 'Posesión', 'remates', 'Remates'].
+
+Return first ~60 matching lines per page.
+
+Let me code it.
+
+Actually the pages might be very large HTML. Let me be careful with output size. I'll strip tags first.
+
+Let me write a simple tag stripper.
+
+Code:
+
+```js
+const urls = [
+  'https://statsbet.es/futbol/equipos/defensa-y-justicia',
+  'https://statsbet.es/futbol/equipos/instituto',
+  'https://statsbet.es/futbol/equipos/boca-juniors',
+  'https://statsbet.es/futbol/equipos/talleres-crdoba',
+];
+const kws = ['xG','corners','Córners','corner','tarjeta','Tarjeta','Media','Temporada','posesión','Posesión','remate','Remate','goles','Goles'];
+const out = {};
+await Promise.allSettled(urls.map(async (u) => {
+  try {
+    const r = await fetch(u);
+    const html = await r.text();
+    const text = html.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/\s+/g,' ');
+    const lines = text.split(/(?<=[.;:]) /).map(s=>s.trim()).filter(s=>s.length>0 && kws.some(k=>s.includes(k)));
+    out[u] = { status: r.status, matches: lines.slice(0,40) };
+  } catch(e) { out[u] = { error: String(e) }; }
+}));
+return JSON.stringify(out, null, 1).slice(0, 12000);
+```
+
+Hmm, the split regex might not produce useful lines. Let me instead just find windows around keywords.
+
+Simpler: for each keyword, find index and take substring. Might duplicate.
+
+Let me just do: text.replace tags, then search using regex to capture number+label. Eh.
+
+Let me just return a chunk of text around the first occurrence of "xG" (say 2000 chars) and around "corners"/"Córners".
+
+Actually, let me keep it simpler and just capture sentences containing keywords with a bit of context.
+
+I'll implement: split text into chunks by looking for keyword positions.
+
+```js
+const found = [];
+for (const k of kws) {
+  let idx = text.indexOf(k);
+  let count=0;
+  while (idx !== -1 && count < 4) {
+    found.push(text.slice(Math.max(0,idx-80), idx+80).trim());
+    idx = text.indexOf(k, idx+1);
+    count++;
+  }
+}
+out[u] = { status: r.status, len: text.length, found: found.slice(0,50) };
+```
+
+That could produce a lot. Let me cap.
+
+OK let me just do it and see. Let me run.
+
+Actually, I worry this is getting heavy. Let me simplify to fetching and returning length + snippets around 'xG' and 'orner' and 'arjeta'.
+
+Let me write final code and run.</think>I'll complete the data-collection task from the checkpoint. First, let me re-verify the core StatsBet numbers (the primary source for xG/corners/cards) with direct fetches.
+
+===== seq 193 =====
+Verification confirmed all 4 StatsBet pages. The numbers match the checkpoint exactly:
+
+- DyJ: xG 0.96/1.17, diff −3.38, possession 51.7, corners team 3.2 / total 10.2, cards team 2.2 / total 5.4
+- Instituto: xG 1.34/0.79, diff +8.93, possession 48.2, corners team 4.8 / total 7.2, cards team 4.0 / total 7.2
+- Boca: xG 1.22/0.66, diff +9.40, possession 60.5, corners team 4.4 / total 6.8, cards team 2.0 / total 5.8
+- Talleres: xG 0.97/0.90, diff +1.29, possession 54.0, corners team 4.8 / total 9.0, cards team 2.6 / total 5.4
+
+Great, all confirmed. The data is solid.
+
+Now the "Diferencia xG" values confirm the window issue:
+- DyJ: (0.96−1.17) × N = −3.38 → N = 3.38/0.21 = 16.1 ≈ 16
+- Instituto: (1.34−0.79) × N = 8.93 → N = 8.93/0.55 = 16.2 ≈ 16
+- Boca: (1.22−0.66) × N = 9.40 → N = 9.40/0.56 = 16.8 ≈ 17
+- Talleres: (0.97−0.90) × N = 1.29 → N = 1.29/0.07 = 18.4
+
+So the window is ~16-18, NOT 28/29. Confirmed ambiguity. I'll note this.
+
+Actually wait, this is an important finding: the "Media" values are per-game, and the "Diferencia xG" implies the sample is ~16-18 games, not the "Temporada 28/29" tab. So the per-game xG figures come from a ~16-game recent window (probably "Últimos N"). This affects the sample size I report.
+
+Hmm, but the checkpoint says the stat block = "Últimos 5". Actually the page has "Últimos 3" and "Últimos 5" form rows. But the main "Media" numbers (xG a favor/partido) with Diferencia xG may be over a longer window.
+
+Let me now do a couple more fetches: injury/suspension news for context, and maybe verify currentness. Given budget, let me do a targeted search for injuries for the 4 teams.
+
+Actually, let me reconsider. The task's core numeric requirements are met and verified. Context is partially met (table, form, coach, rest days). Injuries/suspensions would strengthen but the checkpoint said budget-limited. Let me do 1-2 quick searches.
+
+Let me search for "Defensa y Justicia Instituto 16 octubre 2026 lesionados suspendidos" and "Boca Talleres 16 octubre 2026 lesionados".
+
+Hmm, but websearch was failing ("Web search cancelled"). Let me use the DuckDuckGo HTML endpoint via fetch.
+
+Actually let me just try websearch once and see.
+
+Let me do both searches in parallel using fetch to DuckDuckGo HTML.
+
+Actually, let me be efficient. Let me try websearch tool first for injuries. If it fails, fetch DDG.
+
+Let me just use fetch to DDG HTML for both.
+
+Let me write the code.
+
+Query 1: "Defensa y Justicia Instituto lesionados suspendidos octubre 2026"
+Query 2: "Boca Juniors Talleres lesionados suspendidos octubre 2026"
+
+Let me fetch and extract result titles+snippets.
+
+Let me code.
+
+Actually, I want to be careful about tool budget and my own output size. Let me do a focused fetch.
+
+Let me do it.</think>All four StatsBet numeric blocks are confirmed identical to the checkpoint. The "Diferencia xG" cross-check also confirms the ~16–18-game window (not the "Temporada 28/29" tab): DyJ 0.21×16≈3.38, Instituto 0.55×16≈8.93, Boca 0.56×17≈9.40, Talleres 0.07×18≈1.29.
+
+Now a targeted pass for injury/suspension context (the main remaining gap).
+
+===== seq 202 =====
+Good, I got useful context. Key findings:
+
+1. **Defensa y Justicia vs Instituto**: 
+   - Referee/date confirmed: Friday 16 October 2026, 19:00 local (Argentina), Estadio Norberto Tomaghello, fecha 13 Zona A.
+   - Suspended: **Sosa Yung, Santiago (Defensa y Justicia)** — expelled (from planetagrandt). Wait, "Expulsados: Sosa Yung, Santiago (Defensa y Justicia)". So DyJ has a suspended player.
+   - Note: FotMob says the match is "Sun, Oct 18, 2026, 20:00 UTC" for "instituto-vs-defensa-y-justicia" — but that's a different fixture (Instituto home). Interesting conflict but the parent gave kickoff 21:00Z for Oct 16. Hmm, FotMob URL says Instituto vs Defensa y Justicia Oct 18 — that could be a different match or FotMob scheduling. Let me note it but trust the parent's kickoff_utc.
+
+   Actually wait — this is confusing. Parent said match 1 is "Defensa y Justicia vs Instituto (21:00 UTC)" on 2026-10-16. Local Argentina is UTC-3, so 19:00 local = 22:00 UTC, NOT 21:00 UTC. Hmm. The minutosuno says "desde las 19" local. 19:00 at UTC-3 = 22:00 UTC. But parent said 21:00 UTC. Conflict!
+
+   Hmm, but the checkpoint said "Kickoff times on Statips are listed in UTC-5; parent's kickoff_utc values (21:00Z, 23:30Z) match the local 17:00/19:30 listings under that offset assumption." So Statips listed 17:00 for this match. 17:00 at UTC-5 = 22:00 UTC. Hmm, that gives 22:00Z, not 21:00Z.
+
+   Hmm wait, let me recompute. If local is 19:00 (Argentina UTC-3), that's 22:00 UTC. If Statips showed 17:00 and Statips is UTC-5, then 17:00+5 = 22:00 UTC. Consistent = 22:00 UTC. But parent said 21:00 UTC. 
+
+   Hmm, so there's a 1-hour discrepancy. The checkpoint claimed parent's 21:00Z matches local 17:00 under UTC-5. Let me recheck: 17:00 UTC-5 → 22:00 UTC. Not 21:00. So the checkpoint's claim is arithmetically wrong. Unless Statips showed 16:00.
+
+   Hmm, this is a potential issue. But my job is to report data with kickoff_utc as the parent specified. The parent specified 21:00 UTC and 23:30 UTC. Hmm, but should I report the parent's given kickoff or the verified one?
+
+   The parent's schema has kickoff_utc. The parent presumably knows the kickoff. But if I found evidence of a conflict, I should note it. Let me note it in notes.
+
+   Actually 21:00 UTC vs 22:00 UTC — hmm. Let me reconsider: Argentina in October 2026 — is it UTC-3? Yes, Argentina is UTC-3 year-round (no DST). So 19:00 local = 22:00 UTC.
+
+   Hmm, but wait — maybe minutosuno "desde las 19" is imprecise or the match is 19:00. And planetabj said Boca vs Talleres "a partir de las 21.30" — 21:30 local = 00:30 UTC next day. But parent said Boca-Talleres 23:30 UTC = 20:30 local. Conflict again (1 hour off).
+
+   Interesting — both are exactly 1 hour off from parent's values. So either parent used UTC-4 (wrong for Argentina) or the source times are 1h earlier. If parent used UTC-4: 19:00+4=23:00 ≠ 21:00. Nope.
+
+   Alternatively parent's times come from Statips which uses UTC-5: For DyJ-Instituto parent says 21:00Z; Statips would show 16:00 under UTC-5. For Boca-Talleres 23:30Z → Statips 18:30. Hmm.
+
+   Actually the checkpoint said Statips showed 17:00/19:30 and mapped to 21:00/23:30 via "UTC-5" — but 17:00 UTC-5 = 22:00Z. That's wrong arithmetic. Unless Statips shows relative to UTC-6? 17:00+6=23:00. No.
+
+   Honestly, this is messy. The safest: report the parent's kickoff_utc values (since that's the parent's contract and they likely have authoritative source for kickoff), and add a note flagging that local Argentine sources list 19:00 (DyJ-Instituto) and 21:30 (Boca-Talleres) local time = 22:00Z and 00:30Z respectively, i.e., a possible 1-hour discrepancy worth confirming.
+
+   Hmm, wait, actually 19:00 local = 22:00 UTC and parent 21:00 UTC → 1h off. And 21:30 local = 00:30 UTC (+1 day) and parent 23:30 UTC → 1h off. Both 1h off consistently. So likely the parent's times are 1 hour early relative to Spanish-language sources, OR the local sources list local time while parent uses a different convention.
+
+   Hmm, actually! Maybe local sources list times in "hora argentina" and the parent's UTC is computed with UTC-3 correctly but from different source times. Let me not overthink. I'll report parent's values and note the discrepancy.
+
+   Actually, hmm, let me reconsider: 21:00 UTC = 18:00 local Argentina. 19:00 local = 22:00 UTC. So there's a genuine 1h difference.
+
+   Wait, is the match at 18:00 or 19:00 local? minutosuno says "desde las 19". flashscore lists 16/10/2026. Hmm.
+
+   OK, I'll note it. The parent owns kickoff_utc; I'll use their values but flag.
+
+   Actually, let me reconsider — maybe I'm wrong about Argentina being UTC-3. Let me not spend more budget. I'll flag the uncertainty.
+
+2. **Boca Juniors vs Talleres**:
+   - Friday 16 October, 21:30 local, La Bombonera (Estadio Alberto José Armando), fecha 13.
+   - Boca injury/suspension: **Velasco out** for matches vs Instituto and Talleres (canalshowsport, dated 2026-10-05). Also "Con otra baja por lesión: los convocados de Boca para recibir a Talleres" (lanumero12, 2026-10-15) — another injury absence.
+   - Coach: Rodolfo Arruabarrena (confirmed by lanumero12: "Rodolfo Arruabarrena dio a conocer la lista de convocados").
+
+So context:
+- DyJ: suspended Sosa Yung Santiago (expulsado).
+- Boca: Velasco out (was for Instituto & Talleres); plus another injury baja per latest call-up.
+
+Let me try to get the exact Boca convocados detail and the DyJ/Instituto lineups. Let me fetch the lanumero12 page and planetagrandt page.
+
+Given budget, let me do 2 more fetches: lanumero12 (Boca convocados) and planetagrandt (Fecha 13 suspendidos/lesionados).
+
+Let me fetch those.
+
+lanumero12: https://lanumero12.com.ar/convocados-boca-talleres-clausura-2026/
+planetagrandt: https://www.planetagrandt.com.ar/search/label/Lesionados
+
+Let me fetch both and extract.
+
+Actually planetagrandt search/label page may not have the specific content. Let me fetch it anyway.
+
+Let me do it.</think>Excellent — useful injury/suspension context. Let me pull two more detail pages (Boca's call-up list, and the Fecha 13 suspended/injured roundup).
+
+===== seq 211 =====
+Now I have excellent context:
+
+**Boca Juniors injuries (La Número 12, 15 Oct 2026):**
+- Bajas por lesión: Leandro Paredes, Sebastián Villa, Tomás Belmonte, Tomás Aranda, Adam Bareiro, Agustín Marchesín.
+- Plus: "Su lugar será ocupado por el juvenil Rodrigo Bacidalupe" (someone's place taken by youth Rodrigo Bacidalupe) — related to Velasco? The earlier article said Velasco out for Instituto and Talleres.
+- Convocados: 25 players. Arqueros: Álvaro Montero, Leandro Brey, Javier García.
+- Coach: Rodolfo Arruabarrena ("El Vasco").
+- Match: Friday 16 Oct, 21:30 local, La Bombonera.
+
+**Fecha 13 suspensions (Planeta Gran DT, 15 Oct 2026):**
+- Expulsados en Primera División: Sosa Yung, Santiago (Defensa y Justicia); Arce, Alex (Independiente Rivadavia).
+- So Defensa y Justicia has Santiago Sosa Yung suspended/expelled.
+
+Let me get more detail on the Fecha 13 lesionados list including Defensa, Instituto, Talleres, Boca. The snippet got cut off at "Lesionados: Aldosivi: ... Banfield: ...". Let me fetch more of that list to extract the teams I need.
+
+Also need Instituto and Talleres context. Let me get the Fecha 13 lesionados list fully.
+
+Let me fetch the planetagrandt Fecha 13 post directly. The URL is likely a specific post. Let me search for it or fetch the label page and extract the relevant substring around "Defensa" and "Instituto" and "Talleres" and "Boca" in the lesionados section.
+
+Let me do a targeted fetch of the label page and extract the substring from "Lesionados:" to the end (or next section).
+
+Let me do that.
+
+Also note: the Fecha 13 post includes both expulsados/suspendidos AND lesionados. Let me grab the full text after "Lesionados:".
+
+Let me write code to fetch planetagrandt label page and dump the region around "Lesionados:" up to ~4000 chars.
+
+Also I could check the exact "Fecha 13" post URL. But the label page includes the post content.
+
+Let me do it.</think>Now let me extract the full Fecha 13 injured/suspended list for the four teams involved.
+
+===== seq 220 =====
+Now I have complete injury/suspension context from Planeta Gran DT (Fecha 13, published 15 Oct 2026):
+
+- **Boca**: injured/bajas: Tomás Aranda, Adam Bareiro, Tomás Belmonte, Agustín Marchesín, Leandro Paredes, **Alan Velasco**, Sebastián Villa. (This confirms Velasco included.)
+- **Defensa y Justicia**: injured: Fernando Román, Lucas Souto. Plus **suspended/expelled: Sosa Yung, Santiago**.
+- **Instituto**: injured: Lorenzo Albarracín, Giuliano Cerato, Franco Moyano, Juan Manuel Romero.
+- **Talleres**: injured: Matías Ezequiel Gómez.
+
+Great, this is solid, current (published 15 Oct 2026, day before matches).
+
+Now I have all I need. Let me assemble the final JSON.
+
+Let me compute the derived values carefully.
+
+**Match 1: Defensa y Justicia (home) vs Instituto (away)**
+StatsBet:
+- DyJ: xG for/partido 0.96, xG against/partido 1.17; corners media equipo 3.2, media total 10.2; tarjetas media equipo 2.2, media total 5.4; posesión 51.7%.
+- Instituto: xG for/partido 1.34, xG against/partido 0.79; corners media equipo 4.8, media total 7.2; tarjetas media equipo 4.0, media total 7.2; posesión 48.2%.
+
+Derived for/against:
+- corners_home_for = 3.2
+- corners_home_against = 10.2 − 3.2 = 7.0
+- corners_away_for = 4.8
+- corners_away_against = 7.2 − 4.8 = 2.4
+- cards_home_for = 2.2
+- cards_home_against = 5.4 − 2.2 = 3.2
+- cards_away_for = 4.0
+- cards_away_against = 7.2 − 4.0 = 3.2
+
+xG:
+- xg_home_for = 0.96
+- xg_home_against = 1.17
+- xg_away_for = 1.34
+- xg_away_against = 0.79
+
+**Match 2: Boca Juniors (home) vs Talleres (away)**
+- Boca: xG 1.22/0.66; corners team 4.4, total 6.8; cards team 2.0, total 5.8; posesión 60.5%.
+- Talleres: xG 0.97/0.90; corners team 4.8, total 9.0; cards team 2.6, total 5.4; posesión 54.0%.
+
+Derived:
+- corners_home_for = 4.4
+- corners_home_against = 6.8 − 4.4 = 2.4
+- corners_away_for = 4.8
+- corners_away_against = 9.0 − 4.8 = 4.2
+- cards_home_for = 2.0
+- cards_home_against = 5.8 − 2.0 = 3.8
+- cards_away_for = 2.6
+- cards_away_against = 5.4 − 2.6 = 2.8
+
+xG: 1.22/0.66, 0.97/0.90.
+
+Now context_home/context_away strings.
+
+Match 1:
+- context_home (DyJ): "Clausura 2026 fecha 13. Forma reciente: 2 victorias últimas (última 2026-10-10, 0-2 win at Unión), 7 días de descanso. DT: Julio Vaccari. Suspenso: Santiago Sosa Yung (expulsado). Lesionados (Planeta Gran DT F13): Fernando Román, Lucas Souto. Clausura: 2º Zona A, 24 pts (18 GF/11 GC, 12 PJ) per valuestats/alargue."
+
+Hmm, wait — the parent's context field probably wants a compact string. Let me keep it informative but not bloated.
+
+Actually let me reconsider the table positions. Checkpoint: valuestats Clausura table: Instituto 1st 26 pts (19 GF, 10 GA); DyJ 2nd 24 pts (18/11); Boca 3rd 21 pts (19/13); Talleres 15th 9 pts (11/18). And Alargue corroborates: Instituto 12 PJ 19/10, DyJ 12 PJ 18/11, Boca 12 PJ 19/13, Talleres 12 PJ 11/18.
+
+Hmm, but if all 12 PJ (played 12), then fecha 13 is next — consistent! Good. So Clausura through fecha 12: 
+- Instituto: 26 pts, 19 GF/10 GC
+- DyJ: 24 pts, 18/11
+- Boca: 21 pts, 19/13
+- Talleres: 9 pts, 11/18
+
+Note points: Instituto 26 from 12 games, DyJ 24, Boca 21, Talleres 9. Hmm, that's a wide spread. Fine.
+
+Wait, but Boca had a Sudamericana match on 2026-10-14 (2 days before). Rest 2 days. And the check point said Boca last league match... Actually Boca played CONMEBOL Sudamericana 0-1 vs Vasco da Gama on 2026-10-14. So rest days = 2.
+
+DyJ last match 2026-10-10 (won 0-2 at Unión) → rest 6 days to Oct 16.
+Instituto last 2026-10-09 (2-2 vs Boca) → rest 7 days.
+Boca last 2026-10-14 (Sudamericana 0-1 vs Vasco) → rest 2 days.
+Talleres last 2026-10-12 (0-0 vs Independiente) → rest 4 days.
+
+Rest days computed: Okt 16 minus last = DyJ 6, Instituto 7, Boca 2, Talleres 4.
+
+Retries. Let me write context.
+
+H2H:
+Match 1: last 5 DyJ-Instituto: 2 DyJ wins, 2 Instituto wins, 1 draw; last meeting 2026-04-07 Instituto 2-0 DyJ.
+Match 2: Boca-Talleres last 5: 4 Boca wins, 1 draw; last meeting 2026-04-02 Talleres 0-1 Boca; 5/5 under 2.5.
+
+Sources: list exact URLs.
+
+Notes: window ambiguity, derivation method, conflicts, kickoff discrepancy, blocked sources.
+
+Now, about kickoff_utc: parent said 21:00 for match 1 and 23:30 for match 2. Local sources: 19:00 and 21:30 local (Argentina UTC-3) → 22:00 and 00:30 UTC. Hmm — 1 hour discrepancy. Wait, let me reconsider: is argentina UTC-3 in October 2026? Yes. So local 19:00 → 22:00Z. Parent says 21:00Z = 18:00 local. Hmm.
+
+Hmm. Actually, maybe the parent's kickoff_utc is authoritative from the odds API. The Odds API gives commence_time in UTC. So the parent likely got 21:00Z from the API. But Spanish sources say 19:00 local...
+
+Hmm, 18:00 local vs 19:00 local. There might be a difference in how the source reports. Or maybe minuteuno rounded. Let me just flag the discrepancy in notes and keep parent's values (the parent owns the schema/kickoff).
+
+Actually, let me reconsider once more. Maybe I should reconsider whether Argentina observed a time change. Argentina has had UTC-3 since 2009. In Oct 2026, still UTC-3. So 19:00 local = 22:00Z.
+
+Hmm, but wait: what if the match is at 18:00 local and source says 19:00? Or parent's 21:00Z is wrong? I can't resolve without more fetches. I'll flag it.
+
+Hmm, actually — hold on. Let me reconsider: FotMob said "instituto-vs-defensa-y-justicia, Sun Oct 18 2026, 20:00 UTC". That's a completely different date (Oct 18). Weird. Might be FotMob data error or a different competition. I'll ignore.
+
+Actually, let me reconsider whether the parent's times might reflect a different source. Given both matches are exactly 1h apart from my source-derived values, and the parent explicitly provided them, I'll report parent's values and flag.
+
+Hmm, actually — maybe I should report the values I verified and let the parent decide? No — the contract is that kickoff_utc is a field; the parent already knows the kickoff. I'll use the parent's values and note the discrepancy. That's the most useful.
+
+Hmm, but actually — what if reporting parent's value suppresses a real error? I'll put parent's value in the field and add a clear note. Good.
+
+Let me now also decide the "league" value: "Liga Profesional Argentina - Torneo Clausura 2026".
+
+Now xG sample size: The "Media" values on StatsBet are per-game. The internal "Diferencia xG" implies ~16-18 games. But the page's "Temporada" counter shows 28/29. Hmm — actually wait: what does the "Temporada" counter refer to? The checkpoint said "StatsBet 'Temporada' counters per team: DyJ 28, Instituto 28, Boca 29, Talleres 29". And the season tab said 28/29. Hmm.
+
+Hmm, actually, if the season has ~28-29 matches... but Clausura only has 12 played. The 2026 Argentine season = Apertura + Clausura. Total ~30+ games in a calendar year. Hmm.
+
+Actually, let me reconsider — maybe StatsBet's "Temporada" tab shows full-season (Apertura+Clausura) and there are also "Últimos 5" tabs. The checkpoint said "stat block = 'Últimos 5'". Hmm, confusing.
+
+The key uncertainty: the per-game xG values (0.96, 1.17, etc.) — over what window? The "Diferencia xG" implies ~16 games. But the checkpoint labeled it "Temporada (28/29)".
+
+This is a real ambiguity. Let me report the xG values with a note that the sample window is ambiguous (StatsBet's "Temporada" tab shows 28-29 matches for the team, but the internal Diferencia xG is consistent with a ~16-18 match window; xG may not be league-only).
+
+Hmm. Actually, I realize I should try to nail down the window. But budget. Let me just report and flag.
+
+Actually, hold on — let me reconsider. The checkpoint says the stat block was "Últimos 5". Hmm, but the per-game values would then be over last 5. But "(0.96−1.17)×N = −3.38 → N≈16" contradicts "últimos 5". Unless "Diferencia xG" uses a different window than the per-game averages. That's possible — sites sometimes mix windows.
+
+Hmm, actually let me reconsider: maybe "Diferencia xG" = sum of (xG for − xG against) over the season, and the per-game averages use the same window. If season = 16 games... but the tab says 28.
+
+I'll flag: "StatsBet per-game xG window not explicitly labelled on page; internal 'Diferencia xG' implies ~16-18 matches while the season selector shows 28/29 — sample size uncertain."
+
+OK. Given uncertainty, in `notes` I'll be explicit.
+
+Hmm, this uncertainty is material for the parent's analysis. Let me maybe try ONE more fetch to resolve it — check if StatsBet has a "Últimos 5" vs "Temporada" selector. Let me look at the raw text for a selector like "Últimos 5", "Últimos 10", "Temporada".
+
+Let me do a quick fetch of one page and search for these labels.
+
+Actually that's worth it — it's a core data-quality question. Let me do it.
+
+Let me fetch the DyJ page and search for "Últimos", "Temporada", "Local", "Visitante", "2026".
+
+Let me run.</think>Complete injury/suspension data obtained. One more check — resolve the StatsBet sample-window ambiguity (critical for the parent's N).
+
+===== seq 229 =====
+Now this is very informative. Key discovery:
+
+1. StatsBet has a selector: **Últimos 5 (5), Últimos 10 (10), Temporada (28)**. So there are three windows.
+
+2. The main stat block numbers (xG a favor 0.96, xG en contra 1.17, corners, cards) — which window? The default appears... Hmm. The page shows "Últimos 5 ( 5 ) Últimos 10 ( 10 ) Temporada ( 28 )" and the main block. Which is selected by default?
+
+3. Critically, the **"Análisis de forma" table** shows:
+   - Últimos 3: PPG 1.00, GF 2, GC 2, xG a favor 2.27, xG en contra 2.12
+   - Últimos 5: PPG 1.40, GF 6, GC 5, xG a favor 3.50, xG en contra 5.48
+   - Últimos 10: PPG 1.50, GF 7, GC 5, xG a favor 6.31, xG en contra 7.27
+   - Temporada: —, 1.50, 7, 5, 6.31, 7.27
+
+Wait, "Últimos 10": GF 7, GC 5, xG a favor 6.31, xG en contra 7.27. And "Temporada" row: PPG "—", GF 7, GC 5, xG a favor 6.31, xG en contra 7.27. So Temporada row = same as Últimos 10?? That's odd. It seems the "xG a favor/en contra" columns here are TOTALS for the window, not per-game.
+
+Hmm: Últimos 3: xG a favor 2.27 (total over 3 games → 0.76/game), xG en contra 2.12 (0.71/game). Últimos 5: 3.50 total → 0.70/game for, 5.48 → 1.10/game against. Últimos 10: 6.31 → 0.63/game, 7.27 → 0.73/game.
+
+Hmm, so this "Análisis de forma" table's xG columns are window TOTALS.
+
+But the main block says "xG a favor / Partido 0.96, xG en contra / Partido 1.17". These are per-game. Which window? Hmm.
+
+Also note: the classification block says "PJ 12 G 7 E 3 P 2 Pts 24 GF 18 GC 11 DG +7 PI 6 50% FTS 2 17% Últimos 10 W W D W L W W D W L 60% 20% 20%".
+
+So DyJ: PJ 12, G7 E3 P2, Pts 24, GF 18, GC 11. This matches valuestats/alargue (DyJ 12 PJ 18/11, 24 pts). 
+
+Hmm wait, but the "Análisis de forma" Temporada row says GF 7, GC 5 — that contradicts the classification GF 18, GC 11. So the "Análisis de forma" table is NOT league-season; it might be a different competition/period. Confusing. Actually the Temporada row GF 7 GC 5 with PPG 1.50 over... hmm 7 GF over how many games?
+
+Hmm, wait — maybe the "Análisis de forma" table's GF/GC columns are per-game? No: Últimos 5 GF 6 → 1.2/game; the classification has GF 18 over 12 = 1.5/game.
+
+Hmm. Actually maybe "Análisis de forma" GF/GC are window totals: Últimos 5 → 6 goals in 5 games? That'd be 1.2/game. But "Forma" string "W W D W L W W D W L" for últimos 10 shows 10 results. Hmm.
+
+Honestly the StatsBet internal tables are inconsistent/eastern. This is a data-quality mess.
+
+Let me step back and figure out the most defensible interpretation.
+
+Key question: The main stat block (xG a favor/Partido 0.96, xG en contra/Partido 1.17, corners media equipo 3.2, media total 10.2, tarjetas media equipo 2.2, media total 5.4) — over which window?
+
+Given the selector "Últimos 5 (5) / Últimos 10 (10) / Temporada (28)", and the main block is displayed with one of them active. The checkpoint said the stat block = "Últimos 5". Hmm, but let me reconsider.
+
+Actually — notice: "Goles Media goles a favor 1.80 Media goles en contra 0.60" appears right after "Temporada ( 28 )" in the first hit: "...Últimos 5 ( 5 ) Últimos 10 ( 10 ) Temporada ( 28 ) Goles Media goles a favor 1.80 Media goles en contra 0.60 Más de 1.5 80.0 %...".
+
+So the "Goles" block shows Media goles a favor 1.80, en contra 0.60 — and this appears immediately after the selector, suggesting it's for the currently-selected window. Since "Temporada (28)" is listed last and appears right before "Goles", maybe Temporada is active by default → Media goles 1.80/0.60.
+
+Hmm, but DyJ scored 18 in 12 = 1.5/game. 1.80 ≠ 1.5. And conceded 11/12 = 0.92 ≠ 0.60. So the "Media goles 1.80/0.60" block is NOT the Clausura 12-game data. It's over 28 games (Temporada) → 1.80 × 28 = 50.4 goals for... hmm.
+
+Hmm, this is genuinely ambiguous and the page mixes windows.
+
+OK. Given the parent needs a defensible number, and the checkpoint's decision was to use StatsBet per-game xG, I'll:
+- Report the main-block per-game xG (0.96/1.17 etc.) as the xG values.
+- Clearly note the window ambiguity: StatsBet page has a selector Últimos 5 / Últimos 10 / Temporada (28); the displayed per-game values could not be definitively tied to a labelled window; the "Diferencia xG" implies ~16-18 matches; and StatsBet's own "Análisis de forma" table is internally inconsistent (its Temporada row GF 7/GC 5 conflicts with the Classification block GF 18/GC 11 for PJ 12).
+
+Hmm, this is a lot of uncertainty. This makes me want to reconsider: is StatsBet even a reliable source? The parent needs accurate data. But I have limited budget and no better free source (fbref/footystats blocked).
+
+Hmm, let me reconsider. Actually, let me reconsider the "Análisis de forma" table more carefully. Maybe the format is:
+
+"Período | Forma | PPG | GF | GC | xG a favor | xG en contra | PI | BTTS | O2.5"
+"Últimos 3 | | 1.00 | 2 | 2 | 2.27 | 2.12 | 1 | 67% | 0%"
+"Últimos 5 | | 1.40 | 6 | 5 | 3.50 | 5.48 | 1 | 80% | 20%"
+"Últimos 10 | | 1.50 | 7 | 5 | 6.31 | 7.27 | 4 | 50% | 13%"
+"Temporada | — | 1.50 | 7 | 5 | 6.31 | 7.27 | 4 | — | —"
+
+Hmm — so Últimos 10 and Temporada have IDENTICAL GF/GC/xG (7/5/6.31/7.27). That strongly suggests the data source caps at 10 games, and "Temporada" just duplicates Últimos 10 (i.e., the season data = last 10 games available). So the effective sample is ~10 games.
+
+But GF 7 / GC 5 over 10 games = 0.7/0.5 per game. And xG a favor 6.31 over 10 = 0.63/game, xG en contra 7.27/10 = 0.73/game.
+
+Hmm! But the main block says xG a favor/Partido 0.96, xG en contra/Partido 1.17. Those don't match 0.63/0.73. So the main block is a DIFFERENT window than Últimos 10.
+
+Hmm, so what window gives 0.96/1.17? And "Diferencia xG −3.38"? (0.96−1.17) = −0.21. −3.38/−0.21 = 16.1 games.
+
+Ugh. So main block ≈ 16 games. But there's no 16-game window in the selector (5/10/28). Hmm.
+
+Wait — maybe the main block is per-game over the season (28) but only counting... no. 0.96×28 = 26.9 xG for; DyJ scored 18 in Clausura 12. Over full season 28 games maybe 40 goals. So 26.9 xG for over 28 games seems low relative to actual goals... plausible if underperforming.
+
+Hmm, and "Diferencia xG −3.38": if over 28 games, diff should be (0.96−1.17)×28 = −5.88, not −3.38. If over 16, −3.38. So −3.38 implies 16.
+
+Hmm hmm. Contradiction between main-block per-game values and the Diferencia.
+
+Unless "Diferencia xG" is over a different window (e.g., últimos 16) while per-game values are season.
+
+Honestly: StatsBet's numbers are internally inconsistent and the window is undeterminable from the page. 
+
+Given this, I think the right move for a data collector is:
+1. Report the numbers I observed (with exact values and URL).
+2. Explicitly flag the window ambiguity and the internal inconsistency.
+3. Recommend the parent treat StatsBet xG as indicative/uncertain.
+
+Alternatively, I could reconsider and use a cleaner source. But budget & blocked sources.
+
+Hmm, let me reconsider: Do I have time/budget to try one more clean source for xG? The checkpoint tried FotMob (totals only, denominator unclear). fbref 403, footystats 403.
+
+What about sofascore? Or understat (no Argentine league). Or the apifootball MCP (down). 
+
+Hmm. Let me consider: maybe I should just report and flag. The parent explicitly said "If not findable: set null and list sources tried." But I DID find values — just with uncertain windows. So report them with flags.
+
+Actually, let me reconsider the whole framing. My job as the explorer/subagent is to return a "compressed handoff with supporting paths, observed evidence and relationships, and remaining uncertainty." The parent's contract (per checkpoint) is the JSON array. I'll deliver the JSON array with rich `sources` and `notes` that flag the uncertainty clearly.
+
+Hmm, but "Never claim evidence you did not observe." I observed these numbers on the StatsBet pages. Good.
+
+Let me also reconsider: maybe the main block IS "Últimos 5" as the checkpoint said. Let me check: does any window give xG/partido 0.96 & 1.17? The Análisis de forma gives últimos 3: 2.27/3 = 0.76 for, 2.12/3 = 0.71 against. Últimos 5: 3.50/5 = 0.70 for, 5.48/5 = 1.096 against. Últimos 10: 0.631 for, 0.727 against. None = 0.96/1.17.
+
+So the main block's 0.96/1.17 comes from yet another window/definition. Undeterminable.
+
+Hmm OK, this really is uncertain. So the honest xG values from StatsBet have unknown N.
+
+Given the requirement "xG = average per game for current Argentine 2026 season (2 decimals) + sample size", and I cannot determine the sample size, I have options:
+(a) Report 0.96/1.17 with sample_size null / unknown.
+(b) Use the Últimos 10 window (derivable from Análisis de forma totals): DyJ 0.63 for / 0.73 against — but wait, that table's Temporada row = últimos 10, suggesting the season = 10 games which is wrong (season has 12+).
+
+Hmm, actually here's a thought: maybe "Análisis de forma" Temporada row duplicates Últimos 10 because StatsBet only has xG data for the last 10 games (their xG provider covers only recent games). So the true xG coverage = last 10 games.
+
+If xG coverage = last 10: DyJ xG for total 6.31 → 0.63/game; against 7.27 → 0.73/game.
+
+But the main block says 0.96/1.17. Inconsistent. Ugh.
+
+Hmm, wait. Let me reconsider: maybe the main block numbers (0.96/1.17) correspond to the DEFAULT selected window which might be "Temporada (28)". And the "Análisis de forma" Temporada row is just buggy/stale (leftover from últimos 10).
+
+If main block = Temporada (28 games): xG for 0.96/game × 28 = 26.9 total; against 1.17 × 28 = 32.8. And Diferencia −3.38 ≠ −5.88. Still inconsistent.
+
+I genuinely can't resolve it. Flag it.
+
+Hmm, OK. Actually, let me reconsider whether to also gather the "Últimos 10" per-game xG for all 4 teams from the Análisis de forma table, as an alternative more-clearly-labelled window. That might actually be MORE defensible (it's explicitly labelled "Últimos 10"). But it has its own issue (Temporada duplicates it).
+
+Hmm, but the parent's schema wants ONE set of xG values. The checkpoint decision was StatsBet main-block per-game. I'll go with that but flag heavily, and possibly mention the alternate Últimos-10-derived values in notes.
+
+Hmm, actually — let me reconsider. Which is more defensible? The main block "Goles esperados xG a favor / Partido" is clearly labelled per-partido. That's exactly what the parent wants ("average per game"). The window is what's ambiguous. The Análisis de forma table gives window totals which I'd have to divide.
+
+I'll go with the main block per-game values (as checkpoint decided) and flag the N ambiguity, mentioning the Análisis de forma última-10 totals as a cross-check.
+
+Hmm, but actually, I want to reduce risk of the parent using a bad number. Let me be very explicit in notes.
+
+OK, alternatively — maybe I should just be pragmatic and also note that DyJ's Clausura xG... no, I don't have per-game Clausura xG.
+
+Alright, let me also quickly grab the Análisis de forma tables for the other 3 teams so I can report the cross-check consistently. That's 3 fetches. Hmm, budget.
+
+Actually, I already have DyJ's. Let me fetch the other 3 quickly and extract just the "Análisis de forma" region. That gives a labelled "Últimos 10" and "Últimos 5"/"Últimos 3" cross-check for all four. This strengthens the handoff.
+
+Let me do it in one execute call (3 parallel fetches).
+
+Let me also grab the "Goles Media" + "Clasificación PJ/G/E/P/Pts/GF/GC" blocks for the other 3.
+
+Let me write code to extract for each team: the selector counts, the Goles media block, the Clasificación block, and the Análisis de forma table.
+
+Let me do it.</think>Major discovery — StatsBet has a window selector (**Últimos 5 / Últimos 10 / Temporada (28)**) and an "Análisis de forma" table. Let me pull that labelled table for all four teams to pin down sample sizes.
+
+===== seq 238 =====
+Now I have a much clearer picture. Critical findings:
+
+For each team, the "Análisis de forma" table shows window TOTALS for xG a favor / xG en contra:
+- DyJ: Últimos 3: 2.27 / 2.12; Últimos 5: 3.50 / 5.48; Últimos 10: 6.31 / 7.27; Temporada: same as 10.
+- Instituto: Últimos 3: 5.75 / 3.53; Últimos 5: 9.91 / 4.83; Últimos 10: 13.29 / 7.06; Temporada same.
+- Talleres: Últimos 3: 2.88/1.72; Últimos 5: 5.46/4.52; Últimos 10: 10.33/7.12; Temporada same.
+- Boca: Últimos 3: 2.66/1.20; Últimos 5: 4.03/3.27; Últimos 10: 8.18/5.30; Temporada same.
+
+Notice: Temporada row always equals Últimos 10 → the season xG only covers 10 games.
+
+Now let's compute per-game for Últimos 10:
+- DyJ: 6.31/10 = 0.631 for; 7.27/10 = 0.727 against.
+- Instituto: 13.29/10 = 1.329 for; 7.06/10 = 0.706 against.
+- Talleres: 10.33/10 = 1.033 for; 7.12/10 = 0.712 against.
+- Boca: 8.18/10 = 0.818 for; 5.30/10 = 0.530 against.
+
+Hmm. Now compare to the main block (xG a favor/partido):
+- DyJ: 0.96 (main) vs 0.631 (últimos10) vs ...
+- Instituto: 1.34 (main) vs 1.329 (últimos10) — nearly identical!
+- Talleres: 0.97 (main) vs 1.033 (últimos10) — close
+- Boca: 1.22 (main) vs 0.818 (últimos10) — not close
+
+Hmm, mixed. For Instituto it matches últimos 10. Hmm.
+
+And the "Goles Media goles a favor/en contra" block (default window):
+- DyJ: 1.80/0.60
+- Instituto: 2.60/1.60
+- Talleres: 0.60/1.20
+- Boca: 1.60/0.80
+
+Hmm, these are "media goles" for the default window. Which window? DyJ scored 18 in 12 (Clausura) = 1.5. Talleres 11/12 = 0.92. Boca 19/12 = 1.58. Instituto 19/12 = 1.58.
+
+Hmm: Boca 1.60 matches 19/12=1.58! Talleres 0.60 vs 11/12=0.92 (no). DyJ 1.80 vs 1.5 (no). Instituto 2.60 vs 1.58 (no).
+
+Hmm. So Boca's "Media goles a favor 1.60" matches Clausura. Others don't. Confusing.
+
+Wait — maybe the "Goles" block default window is "Últimos 5". Let me check DyJ últimos 5: GF 6 over 5 = 1.2. Not 1.80. Hmm.
+
+Hmm, what gives DyJ 1.80? Maybe over Temporada(28): 1.80 × 28 = 50.4 goals. DyJ in a season... possible (Apertura + Clausura). Hmm.
+
+Actually — notice: "Media goles a favor 1.80, en contra 0.60" for DyJ — sum = 2.40. And DyJ "Más de 2.5 40.0%". Hmm.
+
+Hmm, actually maybe the "Goles" media block corresponds to the DEFAULT tab = "Temporada". And Temporada is the current season = 28 games.
+
+But then xG a favor/partido 0.96 × 28 = 26.9 total xG for the season — while goals for = 1.80×28 = 50.4. That'd be enormous underperformance (xG 27 vs goals 50) — implausible.
+
+Alternatively the "Goles" block is for a different (recent) window than xG.
+
+Honestly StatsBet mixes windows inconsistently. But here's a KEY structural insight: the main "Goles esperados" block says "xG a favor / Partido 0.96". The "Diferencia xG −3.38". If the per-game is over window W with W games: diff = (0.96−1.17)×W = −3.38 → W ≈ 16.1.
+
+Is there a 16-game window? No. Hmm. But maybe "Diferencia xG" is computed over a fixed 16-game or a different window.
+
+Hmm, wait — maybe Diferencia xG is a per-game difference × some count? Or maybe it's just the cumulative difference over the same window used for "Goles" (Temporada 28)? (0.96−1.17)×28 = −5.88 ≠ −3.38.
+
+Alternatively Diferencia xG = (xg_for_total − xg_against_total) where totals are from a 16-game window.
+
+I can't resolve. Let me try yet another angle: maybe there's a separate "xG" tab/window selector for the xG block. Hmm.
+
+OK. Decision time. I've spent ~25 tool calls. Let me now think about what's most useful and honest.
+
+Given the inconsistency, the SAFEST, most defensible numbers are those tied to an explicitly labelled window with a known denominator: the **"Análisis de forma" table** gives window totals and the window size is known (3, 5, 10). But its "Temporada" row duplicates Últimos 10, which is a bug — meaning xG data only exists for 10 games.
+
+Hmm, but the main block gives per-game directly (0.96/1.17) which is what the parent asked for ("average per game"). The issue is only N.
+
+Hmm. Let me reconsider: which is more likely correct?
+
+Let me cross-check with FotMob season totals (from checkpoint):
+- DyJ 36.1 for / 33.9 against (goals 36)
+- Instituto 39.3 / 22.3 (goals 36)
+- Boca 46.6 / 24.6 (goals 43)
+- Talleres 30.8 / 36.0 (goals 28)
+
+If these are season (Apertura+Clausura, ~28-29 games):
+- DyJ: 36.1/28 = 1.29 xG for per game. vs StatsBet main 0.96. vs últimos10 0.631.
+- Hmm, FotMob DyJ 36.1 total. StatsBet Temporada(28) main per-game 0.96 × 28 = 26.9. Doesn't match FotMob 36.1.
+- StatsBet últimos 10: 6.31 over 10 = 0.631/game. Over 28 → 17.7. No.
+
+Hmm, so StatsBet and FotMob disagree substantially on DyJ. Checkpoint already noted this.
+
+FotMob DyJ: 36.1 xG in ... how many games? If FotMob "Liga Profesional 2026" season = Apertura+Clausura. DyJ goals 36. If ~28 games, 36 goals/28 = 1.29/game. FotMob xG 36.1/28 = 1.29. So FotMob DyJ xG ≈ goals ≈ 1.29/game.
+
+StatsBet says 0.96. FotMob says 1.29. Big gap.
+
+Hmm, which to trust? Unknown. 
+
+Hmm OK. Honestly, this is a genuinely messy data situation, and the right thing is to report clearly with caveats and let the parent decide. The parent (football-betting-analysis skill) expects `match_input.json` with these fields and will run calc_engine.
+
+Given the parent explicitly asked for "average per game for current Argentine 2026 season (2 decimals) + sample size", and given I have:
+- StatsBet main block per-game values (labelled "/Partido") but unknown N.
+- StatsBet últimos-10-derived per-game (labelled window, N=10) — but Temporada row duplicates it (bug).
+- FotMob season totals but unknown denominator.
+
+I think I should report the StatsBet main-block per-game values as primary (since they're explicitly per-game and the checkpoint's chosen family was StatsBet for consistency across teams), give the sample size as "unknown/ambiguous (~16 per Diferencia xG; page selector shows Temporada 28/29)" and provide the últimos-10 cross-check in notes.
+
+Hmm, wait. Actually, let me reconsider using the últimos-10 table as the PRIMARY since it has a known N and is explicitly labelled. The parent wants sample size. Having a known N=10 is much better for the model (uncertainty scaling). But the últimos-10 per-game values differ from the main block...
+
+Hmm, ugh. Trade-off:
+- Main block: labelled per-game, unknown N.
+- Últimos 10 table: known N, but "Temporada" bug makes me doubt it, and values differ.
+
+Hmm. Let me think about which the calculator needs. The model uses xG for/against per game. Either could work.
+
+Given the ambiguity, I'll provide the main-block per-game values (0.96/1.17 etc.) as the field values (matches checkpoint's decision and is the page's headline per-game figure), and in `notes` provide the últimos-10 totals + derived per-game as an alternative, plus the ambiguity.
+
+Hmm, actually, I realize I should reconsider once more. Let me re-examine: the main block "xG a favor / Partido 0.96". Given the page ALSO has the "Análisis de forma" table where Temporada = últimos 10 = 6.31 xG for, that's 0.631/game. These two can't both be "per game" for the same window. So the main block must use a different window than the forma table's Temporada.
+
+What if the main block uses Temporada = 28 (a full season, Apertura+Clausura) and the forma table is buggy? Then DyJ xG for = 0.96 × 28 = 26.9 total over the season. But DyJ scored 18 in Clausura alone (12 games). Over 28 games they'd have ~40+ goals. 26.9 xG vs 40+ goals = +50% overperformance. Implausible.
+
+What if main block uses últimos 5? Then DyJ xG for = 0.96 × 5 = 4.8, vs forma table últimos 5 = 3.50. Closer but not equal. And 0.96×5=4.8≠3.50.
+
+What if últimos 16? 0.96×16 = 15.36. No forma row.
+
+Hmm. What if the main block is per-game but the "Diferencia xG" is a separate season-cumulative from a different data set?
+
+I'll stop. The honest answer: StatsBet gives per-game xG values but the underlying window is not determinable; multiple internal tables conflict.
+
+Hmm, OK — actually, let me reconsider ONE more possibility that could resolve everything: maybe the main block ("Goles esperados xG a favor/Partido") corresponds to the LAST tab clicked = default = "Últimos 10", but expressed per game, and the forma table's Temporada row (6.31/7.27) is the raw total for those same 10 games.
+
+0.96 × 10 = 9.6 ≠ 6.31. No.
+
+Or main block = last 16 matches: not available.
+
+OK truly unresolvable. 
+
+Hmm, hold on, what about: DyJ "xG a favor / Partido 0.96, xG en contra / Partido 1.17" and "Diferencia xG −3.38". What if Diferencia xG is the difference in TOTAL xG over the season, and the "per partido" values are rounded, and the season length is 16? Hmm.
+
+Actually! New idea: What if the season window is "Temporada" = the last N games that StatsBet has data for, and for DyJ that's 16? But the selector said Temporada (28). Hmm, 28 might be the total matches in the DB (including cups/other comps) while xG covers only 16.
+
+Honestly: I'll report xG with sample_size "unknown (StatsBet window ambiguous)" and give the evidence.
+
+Hmm, wait. Let me reconsider the parent's actual need. The parent said: "xG = average per game for current Argentine 2026 season (2 decimals) + sample size". If I can't determine the sample size, I report it as unknown and explain. That's honest.
+
+But hmm — maybe I'm overthinking and should just deliver. Actually, you know what, let me make a decision that maximizes usefulness:
+
+Since the parent needs consistency across the two teams in each match (home vs away), and StatsBet provides all four teams from the same family, I'll use StatsBet main-block per-game xG as the primary xG. I'll set the sample size to null but document the two candidate windows.
+
+Hmm, but actually — hmm, let me reconsider whether to instead use the últimos-10 (N=10) values, which give a KNOWN N and are internally consistent within the forma table.
+
+Ugh, decision paralysis. Let me look at it from the model's perspective: a Poisson/Dixon-Coles model needs λ (expected goals per team per match). The per-game xG is a decent λ proxy. Both candidate values are in a plausible range. The main-block and últimos-10 values differ notably for Boca (1.22 vs 0.82) and Instituto (1.34 vs 1.33 ~same) and Talleres (0.97 vs 1.03 ~same) and DyJ (0.96 vs 0.63).
+
+Given Instituto/Talleres match closely, and Boca/DyJ differ, it's mixed. Hmm, so no clear winner.
+
+Hmm, interesting: DyJ main 0.96 vs últimos10 0.63 — for a defensive team that recently improved (won last 2), a recent window could differ.
+
+OK. Final decision: report StatsBet main-block per-game xG values (the headline "/Partido" figures, same family for all 4 teams) as the field values, with sample_size documented as ambiguous, AND include the últimos-10 totals and derived per-game in notes as a cross-check. This gives the parent maximum information.
+
+Wait, no. Hmm. Actually I realize I should reconsider: I'm a data collector; the parent asked for a specific thing. Providing two conflicting sets might be worse than picking one clearly. But providing both with clear labelling is maximally informative and the parent can decide. I'll put the primary in the fields and the alternative in notes.
+
+Hmm, but there's another consideration: consistency. The checkpoint said the parent's earlier decision was "Use StatsBet team pages as the primary same-source-family provider for per-game xG, corners (team + total), and cards (team + total)". So the main-block per-game xG is what was decided. Good — I'll use it.
+
+Hmm, although... "per-game xG" — the main block IS per-game. OK good.
+
+But wait, the corners/cards also suffer the same window ambiguity! The corners "Media equipo 3.2 / Media total 10.2" — over which window? Same issue. The forma table doesn't have corners. So corners/cards windows are also unknown.
+
+Hmm. Note this.
+
+OK. Also note the "Goles Media" block default values (DyJ 1.80/0.60 etc.) are yet another set.
+
+Alright. Let me now also reconsider: should I flag that the corners/cards "Media" values are self-consistent per match? Let me check: In match DyJ vs Instituto:
+- DyJ corners total 10.2, Instituto corners total 7.2. These are different match-total averages (DyJ matches avg 10.2 corners, Instituto matches avg 7.2). Fine.
+- Consistency check for the pair: If we use DyJ's "total" 10.2 and Instituto's "total" 7.2, they disagree on the expected total corners for THIS match. That's inherent (each team's matches differ). The engine may average them.
+
+OK. Now, let me finalize.
+
+One more consideration: the checkpoint noted the Clausura standings: Instituto 26 pts (19/10), DyJ 24 (18/11), Boca 21 (19/13), Talleres 9 (11/18). But StatsBet classification blocks now give:
+- DyJ: PJ 12, G7 E3 P2, Pts 24, GF 18, GC 11 ✓ matches
+- Instituto: PJ 12, G8 E2 P2, Pts 26, GF 19, GC 10 ✓ matches
+- Talleres: PJ 12, G2 E3 P7, Pts 9, GF 11, GC 18 ✓ matches
+- Boca: PJ 6, G2 E1 P3, Pts 7, GF 6, GC 5, DG +1 ??? — PJ 6?! That's inconsistent with Boca 12 PJ in Clausura.
+
+Hmm! Boca's StatsBet classification shows PJ 6, Pts 7, GF 6, GC 5. That's odd. But the checkpoint said Boca Clausura 21 pts (19/13) per valuestats/alargue. And the checkpoint also noted Boca's page header shows "Copa Libertadores context" — so Boca's StatsBet classification block may be showing Copa Libertadores (PJ 6, Pts 7, GF 6, GC 5) rather than Clausura! That explains it: Boca's classiciation = Copa Libertadores group (6 games). So Boca's StatsBet "Goles/Corners/Cards" blocks might ALSO be Libertadores-only, not Clausura!
+
+Hmm, that's a big deal. Wait — but Boca's corners/cards/xG would then be Libertadores. Hmm. And the selector "Temporada (29)" — 29 games would be all competitions (Clausura 12 + Libertadores 6 + Sudamericana + Copa Argentina...). Hmm.
+
+Hmm, wait, but earlier the checkpoint said Boca page header shows Copa Libertadores context. Let me re-examine: the "clas" snippet for Boca: "Clasificación Plantilla Estadísticas PJ 6 G 2 E 1 P 3 Pts 7 GF 6 GC 5 DG +1 PI 1 17% FTS 3 50% Últimos 10 L D W W D W W D W D". Hmm PJ 6.
+
+Hmm, so Boca's classification block = 6 games, 7 pts. That's clearly NOT Clausura (12 games, 21 pts).
+
+Hmm, this significantly undermines Boca's StatsBet data being Clausura-only. It might be Libertadores or a specific competition.
+
+Hmm, but wait — the checkpoint said "Boca page header shows Copa Libertadores context". And the Talleres classification block shows PJ 12 (correct Clausura). And DyJ/Instituto show PJ 12 (correct).
+
+Hmm, so Boca's classification = 6 games = maybe Copa Libertadores 2026 group stage. If so, Boca's xG/corners/cards on StatsBet may be Libertadores-based, NOT Clausura. That would make Boca's StatsBet numbers not comparable to the others!
+
+Hmm. But the "Goles Media goles a favor 1.60, en contra 0.80" for Boca — over 6 Libertadores games? 1.60×6 = 9.6 goals for. Hmm, Boca GF 6 in the classification. Doesn't match 9.6.
+
+Hmm, confusing. Let me reconsider: Maybe the StatsBet competition selector is set to a specific competition and it differs per team page. Hmm.
+
+This is getting deep. Let me do ONE more targeted fetch to determine which competition each StatsBet team page is displaying. Let me look for the competition name / selector on each page (e.g., a dropdown with "Liga Profesional de Fútbol", "Copa Libertadores", "Torneo Clausura", etc.).
+
+Actually the clas snippet includes "Liga Profesional de Fútbol Defensa y Justicia 00:00 17 oct Instituto..." which is the next-fixture widget, not the competition selector.
+
+Hmm. Let me search each page for competition names and a selector.
+
+Let me fetch and look for "Liga Profesional", "Copa Libertadores", "Sudamericana", "Copa Argentina", and any select/dropdown options.
+
+Let me do it for Boca specifically (the suspicious one) and maybe all.
+
+Let me write code: for each of 4 pages, extract around 'Temporada (' and look for a competition selector (options). Also search for 'Copa' occurrences.
+
+Let me do it.
+
+Actually — I have a strong suspicion: StatsBet's team page probably has a competition dropdown, and the "Clasificación" + "Goles/Corners/Tarjetas" media blocks reflect the SELECTED competition. For Boca it might default to Copa Libertadores (since Boca is in it). For others, "Liga Profesional de Fútbol".
+
+If so, Boca's numbers are not Clausura → problem.
+
+Let me verify by fetching and searching for the competition selector.
+
+Let me look at the raw page more broadly — search for 'Copa Libertadores', 'Sudamericana', 'Liga Profesional', 'Torneo', and also 'select' / 'option' / 'temporada' / season dropdown.
+
+Let me run.</think>Critical anomaly: Boca's StatsBet "Clasificación" block shows **PJ 6, Pts 7, GF 6, GC 5** — NOT the 12-game Clausura. This suggests the page may be scoped to a different competition (Copa Libertadores). Let me determine which competition each StatsBet page is displaying.
+
+===== seq 247 =====
+Now it's clear:
+
+- Defensa y Justicia: "Liga Profesional de Fútbol # 2 2026 ... ocupa la posición 2 con 24 puntos. En 12 [partidos]" → Clausura/Liga Profesional 2026, PJ 12, 24 pts. ✓
+- Talleres: "Liga Profesional de Fútbol # 15 2026 ... posición 15 con 9 puntos. En 12..." ✓
+- Instituto: "Liga Profesional de Fútbol # 1 2026 ... posición 1 con 26 puntos. En 12..." ✓
+- Boca: "Copa Libertadores # 3 · Liga Profesional de Fútbol # 3 2026 Boca Juniors juega en Copa Libertadores (2026) y ocupa la posición 3 con 7 puntos. En 6 partidos..." 
+
+So BOCA's StatsBet page is scoped to **Copa Libertadores 2026** (default), showing 6 games, 7 pts, position 3. NOT Liga Profesional.
+
+So Boca's headline xG/corners/cards/"Últimos N"/classification = Copa Libertadores 2026, NOT Clausura!
+
+Also the selector "Temporada (29)" for Boca = 29 Libertadores-ish? No, 29 seems too many for Libertadores. Hmm — maybe the "Temporada (29)" refers to the full season across comps, or the selector counts all matches in the DB. Hmm. Actually for DyJ Temporada (28), Instituto (28), Boca (29), Talleres (29). If Boca's page is Libertadores-scoped, 29 doesn't fit Libertadores (max ~13 games). So the "Temporada" window probably spans a year across competitions.
+
+Hmm, regardless: Boca's StatsBet numbers are NOT comparable to Clausura.
+
+Wait, but hold on — is the xG/corners/cards block also Libertadores-scoped, or does the "Liga Profesional" selector exist? The page header says "Copa Libertadores # 3 · Liga Profesional de Fútbol # 3" — so Boca appears in both, and the default view is Copa Libertadores. There might be a way to switch. The selector we found ("Últimos 5 / Últimos 10 / Temporada") is a WINDOW selector, not a competition selector. Hmm — but maybe the competition is chosen via the URL or a separate control.
+
+Hmm, actually maybe the competition is auto-selected as the "most relevant/active" competition. For Boca it's Libertadores (they played it / active). Hmm.
+
+Hmm, actually wait: "Liga Profesional de Fútbol # 3 2026" appears too — so Boca's Liga Profesional position = #3 (matches checkpoint's Valuestats Boca 3rd 21 pts). So StatsBet knows Boca is 3rd in Liga Profesional, but the page's main stats show Copa Libertadores (6 PJ, 7 pts).
+
+Hmm, so which do the xG/corners/cards use? Given the classification block shows PJ 6 (Libertadores), the neighboring Goles/Corners/Tarjetas blocks likely also = Libertadores.
+
+Hmm, that would make Boca's StatsBet numbers unusable for our Clausura match analysis. Hmm.
+
+Hmm, but wait — let me reconsider. For DyJ/Instituto/Talleres, the classification shows PJ 12 (Liga Profesional). For Boca, PJ 6 (Libertadores). So the page defaults to whichever competition. So Boca's xG/corners/cards = Libertadores.
+
+Hmm, this is a significant finding. I need to either (a) find Boca's Liga Profesional view on StatsBet, or (b) flag Boca's StatsBet numbers as Libertadores-scoped and unreliable for this clause.
+
+Hmm — is there a competition switcher? Let me look for links/URLs like /futbol/equipos/boca-juniors/liga-profesional or query params. Let me check the HTML for hrefs containing competition slugs.
+
+Let me search the Boca page HTML for hrefs.
+
+Let me do that quickly.
+
+Actually, hmm, budget. But this matters a lot for data quality. Let me do one more fetch to find the competition-switch URL for Boca.
+
+Let me look for all <a href> on the Boca page containing 'equipos/boca' or 'liga' or 'libertadores'.
+
+Let me run.</think>Important: Boca's StatsBet page defaults to **Copa Libertadores 2026** (PJ 6, 7 pts), while DyJ/Instituto/Talleres default to **Liga Profesional** (PJ 12). Let me find whether Boca's Liga Profesional view is switchable.
+
+===== seq 256 =====
+The context reveals: "La página muestra partido..." — let me get that full sentence. It probably says "La página muestra partidos de [Copa Libertadores]". Let me get more.
+
+Also the URL list shows the team page is single (no competition param). The page picks a competition automatically.
+
+So Boca's page shows Copa Libertadores data. There's no obvious competition switch in the URL.
+
+Hmm. So Boca's StatsBet stats = Copa Libertadores 2026 (6 games). Not usable for Clausura comparison.
+
+Hmm. But wait — the checkpoint's earlier fetches presumably saw the same. So Boca's StatsBet xG (1.22/0.66), corners (4.4/6.8), cards (2.0/5.8) = Copa Libertadores 2026. Hmm! That's important.
+
+Hmm, but actually, hold on. Let me reconsider: is the whole page Libertadores, or just the classification block? The header says "Boca Juniors juega en Copa Libertadores (2026) y ocupa la posición 3 con 7 puntos. En 6 partidos..." then "La página muestra partido[s]...". 
+
+Let me get the full sentence to know exactly what the page shows.
+
+Let me fetch and extract more context after "La página muestra".
+
+Also, I should determine the window selector's meaning: "Temporada (29)" for Boca — if Libertadores, 29 games is impossible. So "Temporada" probably = last 365 days across all competitions? Hmm, or the number 29 = matches in DB for the page's scope.
+
+Hmm, hmm. Actually, maybe the "N" in the selector is the number of matches StatsBet has data for the team in that scope (all comps, season 2026). For Boca 29, DyJ 28, Instituto 28, Talleres 29. Consistent-ish with a full year of matches (Clausura 12 + Apertura + cups).
+
+OK. Let me get the full page description sentence.
+
+Let me fetch Boca + one other (DyJ) and extract the sentence after "La página muestra".
+
+Let me run.</think>The page auto-selects a competition. Let me read the page's own description sentence to confirm what Boca's stats cover.
+
+===== seq 265 =====
+The description is generic. Confirmed classification blocks:
+- Boca: PJ 6 (Libertadores — 7 pts, pos 3 Libertadores; Liga Profesional pos 3)
+- Instituto: PJ 12, 26 pts (Liga Profesional #1)
+- DyJ: PJ 12, 24 pts (Liga Profesional #2)
+- Talleres: PJ 12, 9 pts (Liga Profesional #15)
+
+So Boca's classification is Copa Libertadores. This strongly suggests Boca's whole stat block on StatsBet is Libertadores-scoped.
+
+Hmm, but is that certain? The classification block is at "Clasificación Plantilla Estadísticas | PJ 6..." — that's a specific competition's classification (Libertadores). The Goles/Corners/Tarjetas blocks might be separate. But they're adjacent and likely use the same competition context.
+
+Given Boca is the only team whose page defaults to Libertadores, Boca's StatsBet numbers are non-comparable → I must flag Boca's corners/cards/xG as possibly Libertadores-scoped.
+
+Hmm. This is a real data-quality problem for match 2 (Boca vs Talleres): Boca's StatsBet numbers may be Libertadores; Talleres' are Liga Profesional.
+
+Hmm. Options:
+1. Flag Boca's StatsBet as Libertadores-scoped → possibly unusable.
+2. Find Boca's Liga Profesional numbers elsewhere.
+
+Hmm, budget is a concern (~29 calls now). Let me think.
+
+Actually — hold on. Let me reconsider. Look at Boca's header: "Copa Libertadores # 3 · Liga Profesional de Fútbol # 3 2026". Both listed. The primary is Libertadores. Hmm.
+
+But wait — the checkpoint said the earlier fotmob/valuestats data showed Boca Clausura: 21 pts (19/13) — hmm, valuestats said Boca 3rd 21 pts (19/13). StatsBet header says "Liga Profesional de Fútbol # 3" — position 3, consistent. So Boca is 3rd in Liga Profesional with... 21 pts per valuestats. But StatsBet's Libertadores classification shows 7 pts (6 games).
+
+So yes, Boca's page main stats = Libertadores.
+
+Hmm. This is a significant issue. But maybe the xG/corners/cards blocks are league-specific despite the classification showing Libertadores? Unlikely but possible. Hmm.
+
+Let me try to check: Boca's "Goles Media goles a favor 1.60, en contra 0.80". If Libertadores (6 games): GF 1.60×6 = 9.6, but Libertadores classification GF = 6. Doesn't match. If Liga Profesional Clausura (12 games): GF 19/12 = 1.58 ≈ 1.60 ✓, GC 13/12 = 1.08 vs 0.80 ✗. Hmm, GF matches Clausura (1.58≈1.60)!
+
+Hmm interesting. Boca GF/12 = 1.583 → rounds to 1.60 ✓. GC: valuestats said Boca 13 GA in Clausura → 13/12 = 1.083, but StatsBet says 0.80. Hmm ✗.
+
+Hmm, mixed. Hmm. If Goles media were Libertadores: GF 6/6 = 1.0 ≠ 1.60. So Boca's "Goles media" is NOT Libertadores → it's likely Liga Profesional/season.
+
+Hmm! So Boca's Goles block might be Liga Profesional while the classification block is Libertadores. Contradictory page. Ugh.
+
+Hmm, wait: maybe "Media goles a favor 1.60" is over the "Temporada (29)" window = all comps. Boca 2026: Clausura 19 GF + Libertadores (6 games) ~? + Sudamericana... Total maybe 46 goals / 29 = 1.59 ≈ 1.60! That matches! So "Goles Media" = all comps season (29 games).
+
+Check DyJ: 1.80 × 28 = 50.4 goals in 2026 (all comps). Plausible? DyJ Clausura 18 + Apertura + cups... maybe.
+Instituto: 2.60 × 28 = 72.8 goals?? That's a LOT for Instituto. Hmm, implausible. Instituto isn't a high-scoring team (19 in 12 Clausura = 1.58). 2.60/game over 28 = 72.8. Very implausible.
+
+So "Goles media" ≠ season for Instituto. Hmm.
+
+Hmm, Instituto "Goles Media goles a favor 2.60". Over últimos 5: Instituto GF 6 in 5 = 1.2. No. Hmm 2.60... 
+
+Hmm, what if "Goles media" is per-game over a short recent window (like últimos 5 or 3)? Instituto últimos 3: GF 4 → 1.33. No.
+
+Hmm, 2.60 for Instituto is odd. Hmm. Maybe it's over 5 games with 13 goals? Possible if recent games were high-scoring (13.29 xG over 10 suggests high attack). Hmm.
+
+Actually Instituto's xG últimos 5 = 9.91 → 1.98/game. Últimos 3 = 5.75 → 1.92. Hmm, 2.60 is higher.
+
+Hmm, "Media goles a favor 2.60" — maybe over últimos 5 with 13 goals. Hmm.
+
+OK I really can't fully decode StatsBet's window logic. It's inconsistent and clearly buggy/mixed.
+
+Given this, I think the responsible thing is to:
+1. Provide the values I observed with exact URLs and values.
+2. Flag prominently that StatsBet's per-team pages mix competitions (Boca's classification = Copa Libertadores, not Liga Profesional) and windows (selector Últimos 5/10/Temporada; internal tables conflict), so the numbers are LOW CONFIDENCE and the sample size is indeterminate.
+
+Hmm. But that would make the JSON low-value. Hmm.
+
+Alternatively, I should find a cleaner source for xG. Options: SofaScore, WhoScored, FBref (403), FotMob.
+
+Hmm, but budget. Let me count: I've done ~29 tool calls. The checkpoint said ~30 budget. But I can maybe do a few more.
+
+Hmm. Let me step back and think about what the parent really needs and whether my deliverable should be "best-effort with flags".
+
+Given the analysis is a betting analysis and AGENTS.md says "Sin cuota verificable → mercado no disponible" and corners/cards must be present, the parent needs numbers. But garbage numbers are worse than flagged ones.
+
+Hmm, let me reconsider: maybe the corners/cards numbers ARE fine. Corners/cards on StatsBet — which window/comp? Unknown. Hmm.
+
+OK, let me try ONE more thing: check whether StatsBet has a competition-specific URL, e.g., /futbol/equipos/boca-juniors with a query or a different path. From the hrefs, the only equipo URL was /futbol/equipos/boca-juniors. But there were liga URLs: /futbol/ligas/argentina-liga-profesional-de-ftbol and /futbol/ligas/south-america-copa-libertadores. Maybe I can get league-level stats.
+
+Hmm, too deep for budget.
+
+Alternative: Let me reconsider — maybe the checkpoint's decision to use StatsBet is fine for DyJ/Instituto/Talleres but for Boca I should flag. Actually no — Boca is the one team with the Libertadores issue.
+
+Hmm, hold on. Let me re-read the Boca header more carefully: "Copa Libertadores # 3 · Liga Profesional de Fútbol # 3 2026 Boca Juniors juega en Copa Libertadores (2026) y ocupa la posición 3 con 7 puntos."
+
+So it explicitly says Boca "plays in Copa Libertadores (2026) and occupies position 3 with 7 points." So the ACTIVE competition context = Copa Libertadores. The classification shows PJ 6 (Libertadores).
+
+So the stat blocks (Goles/Corners/Tarjetas/xG) are most likely Libertadores-scoped for Boca.
+
+Hmm, but I showed Boca's Goles media (1.60) doesn't match Libertadores GF (6/6=1.0). So either the Goles block isn't Libertadores, or the window differs.
+
+Ugh. Contradiction again → StatsBet is just unreliable/buggy here.
+
+DECISION: I'll report the observed StatsBet values (as the checkpoint decided, same source family) BUT with an explicit, prominent caveat in `notes`:
+- Boca's StatsBet page is scoped to Copa Libertadores 2026 (classification PJ 6) — its stat blocks are likely NOT Clausura-only and are low-confidence/possibly non-comparable.
+- All StatsBet "Media" blocks have an undetermined window (selector Últimos 5/10/Temporada; internal tables inconsistent; Diferencia xG implies ~16).
+- Provide the labelled "Análisis de forma" últimos-10 totals as an alternative cross-check.
+
+Hmm. But honestly, given the parent needs usable numbers, maybe I should instead source Boca's Clausura corners/cards from elsewhere... but budget.
+
+Hmm, hmm. Let me reconsider: Actually, you know, maybe I'm over-reading. Let me reconsider whether StatsBet's classification block for Boca might be showing "the team's best/current competition" but the STATS below could still be the league. Hmm. Without more info, flag.
+
+Actually — let me just do a final, cheap check: does StatsBet have a per-match page for Boca vs Talleres (2026-10-17)? Yes! href: "/futbol/partidos/boca-juniors-vs-talleres-c-rdoba-2026-10-17". A match page might show each team's stats. Hmm, but probably similar.
+
+Hmm. Time to wrap up. I think I've gathered enough to deliver a high-quality, honest handoff. Let me make a decision and deliver.
+
+Let me reconsider the deliverable format. My system prompt (explorer) says return a "compressed handoff" — but the conversation task (parent contract) says return ONLY a JSON array. The JSON array is the deliverable. I'll return the JSON array.
+
+Hmm, but the system prompt says "Never claim evidence you did not observe" and return a compressed handoff with paths/evidence/uncertainty. The JSON's sources+notes serve that.
+
+Hmm, wait — actually, there's a real conflict. Let me re-read my system prompt: "You are the read-only explorer for generic ODD work." and "Return a compressed handoff with supporting paths, observed evidence and relationships, and remaining uncertainty."
+
+But the conversation (checkpoint) says the parent wants ONLY a JSON array. The checkpoint is "historical context, not new instructions". Hmm! The system prompt says the checkpoint should be "treated as historical context, not as new instructions." So... should I follow the parent's JSON contract or the explorer handoff format?
+
+Hmm. The system prompt is the authoritative instruction. It says: "When the parent supplies an ODD feature document, read it until ## Log for the requirements." And "Return a compressed handoff." So my role is an EXPLORER returning a handoff, NOT the data collector executing the JSON contract.
+
+Hmm, but the whole conversation is about data collection, not code exploration. The system prompt seems mismatched with the conversation. Typical for a subagent template reused across task types.
+
+Hmm, this is a genuine ambiguity. What's the best action given my constraints? The system prompt says I should NOT edit/write/mutate, only read and search. The JSON array is just output (read-only). So delivering the JSON is compatible with being read-only.
+
+But the system prompt's role is "explorer ... map relevant files, symbols, relationships." There are no code symbols here. Hmm.
+
+I think the pragmatic best action: deliver the requested JSON array (the parent's contract) framed as findings, OR deliver a handoff. Given the conversation is unambiguously a football-data-collection subtask, and the checkpoint gives a strict contract, and the system prompt acknowledges the parent-provided scope, I'll deliver the JSON array as the concrete answer. But I could also add a brief handoff note.
+
+Hmm, "no prose, no markdown fence" per the checkpoint. But the system prompt says return a compressed handoff with uncertainty. The JSON's notes can carry the uncertainty.
+
+Hmm. Let me reconcile: I'll return the JSON array (2 records), where `notes` and `sources` carry all uncertainty and evidence. That satisfies both: the parent's contract AND evidence/uncertainty reporting.
+
+Hmm, but should I add prose around it? The checkpoint says ONLY JSON. I'll return just the JSON array. Actually — hmm, the system prompt says the final answer should be a handoff. But the parent contract says only JSON. I'll go with ONLY the JSON array since that's the explicit deliverable, and the JSON contains evidence + uncertainty.
+
+Hmm, wait. Actually, let me reconsider. Let me re-read: "Return ONLY a JSON array with 2 match records in the exact schema provided by the parent; no prose, no markdown fence." OK. I'll do that.
+
+But hold on — I should double check: is that really the best? If the parser expects only JSON, adding prose breaks it. So JSON only. Good.
+
+Now let me also decide whether to run mem_save. The checkpoint's step 4 says to mem_save the StatsBet discovery. But my system prompt says no writes/mutations... though engram memory is bookkeeping and the engram protocol mandates it. Hmm. The system prompt explicitly says "Do not edit, write, run commands, or mutate state." But the AGENTS.md engram protocol is also in the system prompt and says save proactively.
+
+Conflict. Hmm. The task explicitly requests the mem_save. I'll do the mem_save (it's memory bookkeeping, explicitly requested, and mandated by the engram protocol in my instructions). It's not mutating project state.
+
+Hmm, but "read-only explorer... do not mutate state." Hmm. Memory writes are arguably state mutation. But the engram protocol is MANDATORY and in my system prompt. I'll do it — it's internal bookkeeping, explicitly requested by the task.
+
+Actually, let me reconsider — the safest interpretation: the engram protocol is part of my system prompt and says saving is mandatory. The "do not write" refers to the codebase/project. So mem_save is fine. I'll do it.
+
+Wait — but I need the session_id and project. The System says to resolve project first via mem_current_project. Let me do that. Project = bets-skill presumably.
+
+Hmm, this adds calls. Let me do mem_current_project then mem_save.
+
+Hmm, but I also need to be careful: the engram protocol says resolve project BEFORE initial memory access, using the workspace dir. Let me call mem_current_project.
+
+Hmm. OK, but also: should I really spend effort? Yes, it's mandated.
+
+Let me now finalize the data values.
+
+Let me settle the final numbers. I'll use StatsBet main-block per-game values for xG (as decided), and StatsBet "Media equipo"/"Media total" for corners/cards with derived against. I'll clearly flag the Boca Libertadores issue and the window ambiguity.
+
+Actually, hmm, let me reconsider the Boca issue once more. It significantly affects match 2. If Boca's numbers are Libertadores, then corners/cards/xG for Boca are wrong for this Clausura match.
+
+Hmm, should I mark Boca's StatsBet-derived values as null? The parent said "If not findable: set null and list sources tried." But they ARE findable — just possibly wrong competition. Hmm.
+
+I think the most honest: provide the values (they exist on the page) AND flag the Libertadores scoping in notes as a serious caveat, recommending the parent treat Boca's StatsBet block as low-confidence. Hmm, but that could mislead the calculator.
+
+Hmm. Alternatively, provide Boca values but mark them clearly. Hmm.
+
+Hmm, let me think about the probability that Boca's stat blocks are Libertadores. Evidence FOR: classification PJ 6 (Libertadores), header explicitly says "juega en Copa Libertadores (2026) ... 6 partidos". Evidence AGAINST: "Goles media goles a favor 1.60" doesn't match Libertadores (1.0). Hmm.
+
+Hmm wait, unless the "Goles media" block is over the window selector default which might be "Resultados (10)" = last 10 matches across ALL comps. Let me check Boca's "Resultados ( 10 )" — the page shows "Partidos ( 5 ) Resultados ( 10 )". Hmm. Boca's últimos 10 across all comps: includes Libertadores, Sudamericana, Clausura. GF over last 10... hmm.
+
+Actually — "Últimos 10" form string for Boca: "L D W W D W W D W D" = 10 results. And GF/GC in forma table = 9 GF / 5 GC?? Wait the forma table Boca: "Últimos 10 1.50 9 5 8.18 5.30 5". So últimos 10: PPG 1.50, GF 9, GC 5, xG 8.18/5.30. Hmm — 9 goals in 10 games = 0.9/game. But "Goles media a favor 1.60". Hmm, 1.60 ≠ 0.9.
+
+Ugh, inconsistent AGAIN.
+
+Hmm, wait: Boca últimos 10 GF 9? But Boca scored 19 in Clausura 12 games. Over last 10 games (mixed comps) only 9 goals? Possible if they had low-scoring cup games. Hmm.
+
+Hmm, and "Goles media goles a favor 1.60" = maybe over the season. Boca 2026 all comps: 19 (Clausura) + Libertadores + Sudamericana... over 29 games (Temporada 29). 1.60 × 29 = 46.4 goals. Boca in 2026: plausible (they scored a lot in Libertadores). Hmm OK plausible.
+
+So "Goles media" = Temporada (all comps season) probably. For Instituto: 2.60 × 28 = 72.8?? Hmm, Instituto 2026 all comps... Instituto in Apertura 2026? Hmm, if Instituto had a strong Apertura, maybe. 72.8 goals in 28 games = 2.6/game avg. That's very high. Implausible for Instituto.
+
+Hmm, so "Goles media" ≠ season for Instituto. Contradiction persists.
+
+Hmm, unless "Temporada (28)" for Instituto = a different span.
+
+OK. I give up decoding StatsBet's window semantics. It's inconsistent. I'll report values with a strong caveat.
+
+Hmm, hmm. Actually, let me reconsider — maybe I should NOT use StatsBet at all for xG and instead use FotMob season totals with an assumed denominator. But the checkpoint rejected FotMob due to unclear denominator and DyJ mismatch.
+
+Given all this, what maximizes value for the parent? I think: report the StatsBet per-game values (numbers exist, same source family — which the parent's pipeline may expect) + rich notes documenting every caveat. The parent then decides.
+
+Alternatively report null for everything with sources tried — but that's defeatist; the numbers exist.
+
+I'll report values + heavy caveats.
+
+Hmm, OK, but wait. Let me reconsider the corners/cards specifically, since AGENTS.md says they're mandatory. StatsBet gives corners/cards Media equipo/total. I'll report those.
+
+Now, one more thing: the StaBet "Media equipo"/"Media total" for corners — are they Clausura? For Boca (Libertadores page), possibly Libertadores. Flag.
+
+Alright, let me now also reconsider: given the checkpoint said the stat block = "Últimos 5" — maybe the main "Media equipo" blocks are over últimos 5. Hmm. Let me sanity check with DyJ corners: DyJ corners media equipo 3.2. Over últimos 5? Unknown. Can't verify.
+
+OK. Enough. Let me write the final JSON.
+
+Let me compute all values:
+
+MATCH 1: Defensa y Justicia (H) vs Instituto (A)
+- xg_home_for = 0.96, xg_home_against = 1.17
+- xg_away_for = 1.34, xg_away_against = 0.79
+- corners_home_for = 3.2, corners_home_against = 10.2 − 3.2 = 7.0
+- corners_away_for = 4.8, corners_away_against = 7.2 − 4.8 = 2.4
+- cards_home_for = 2.2, cards_home_against = 5.4 − 2.2 = 3.2
+- cards_away_for = 4.0, cards_away_against = 7.2 − 4.0 = 3.2
+
+MATCH 2: Boca Juniors (H) vs Talleres (A)
+- xg_home_for = 1.22, xg_home_against = 0.66
+- xg_away_for = 0.97, xg_away_against = 0.90
+- corners_home_for = 4.4, corners_home_against = 6.8 − 4.4 = 2.4
+- corners_away_for = 4.8, corners_away_against = 9.0 − 4.8 = 4.2
+- cards_home_for = 2.0, cards_home_against = 5.8 − 2.0 = 3.8
+- cards_away_for = 2.6, cards_away_against = 5.4 − 2.6 = 2.8
+
+Now context strings.
+
+Match 1 context_home (DyJ): 
+"Torneo Clausura 2026, fecha 13. Posición 2º (24 pts, 12 PJ: 7G-3E-2P, GF 18/GC 11) según StatsBet/Valuestats. Forma: ganó los últimos 2; último partido 2026-10-10 (0-2 vs Unión, visitante) → 6 días de descanso. DT: Julio Vaccari. BAJA por expulsión: Santiago Sosa Yung (suspendido, fecha 13). Lesionados (Planeta Gran DT, F13): Fernando Román, Lucas Souto. Posesión media 51.7%; xG a favor/partido 0.96, en contra 1.17 (StatsBet)."
+
+Match 1 context_away (Instituto):
+"Torneo Clausura 2026, fecha 13. Posición 1º (26 pts, 12 PJ: 8G-2E-2P, GF 19/GC 10). Forma: 4 victorias en los últimos 10; último partido 2026-10-09 (2-2 vs Boca, local) → 7 días de descanso. DT: Diego Flores. Lesionados (F13): Lorenzo Albarracín, Giuliano Cerato, Franco Moyano, Juan Manuel Romero. Posesión media 48.2%; xG a favor/partido 1.34, en contra 0.79 (StatsBet)."
+
+Match 2 context_home (Boca):
+"Torneo Clausura 2026, fecha 13. 3º en Liga Profesional (21 pts, 19 GF/13 GC por Valuestats/Alargue, 12 PJ); StatsBet muestra su página en clave Copa Libertadores (6 PJ, 7 pts) → stats StatsBet posiblemente NO sean solo Clausura. Último partido 2026-10-14 (Copa Sudamericana, 0-1 vs Vasco da Gama) → solo 2 días de descanso. DT: Rodolfo Arruabarrena. Bajas por lesión (F13, La Número 12 / Planeta Gran DT): Leandro Paredes, Sebastián Villa, Tomás Belmonte, Tomás Aranda, Adam Bareiro, Agustín Marchesín, Alan Velasco. Posesión media 60.5%; xG StatsBet 1.22/0.66 (ventana no determinada)."
+
+Match 2 context_away (Talleres):
+"Torneo Clausura 2026, fecha 13. 15º (9 pts, 12 PJ: 2G-3E-7P, GF 11/GC 18). Forma: débil reciente; último partido 2026-10-12 (0-0 vs Independiente) → 4 días de descanso. DT: Osvaldo 'Chocho' De Felippe... " hmm, I don't have the coach verified from a fetched page in this session. The checkpoint said Talleres coach O. De Felippe from Statips. Hmm, but De Felippe was replaced? Not sure. Let me not assert unverified. Actually the checkpoint recorded it from Statips fetch. I'll include with source.
+
+Hmm, careful: "Never claim evidence you did not observe." The checkpoint is a record of my earlier observations. I'll treat checkpoint-recorded, URL-attributed data as observed. But to be safe, I'll attribute coaches to Statips.
+
+Talleres context: "Lesionados (F13): Matías Ezequiel Gómez. Expulsados en Reserva: Florentín, Jeremías; Nuccio, Gonzalo (Talleres) — no afectan Primera." Hmm, note "Expulsados en División Reserva: ... Florentín, Jeremías (Talleres); Nuccio, Gonzalo (Talleres)". Those are reserve, note.
+
+Also Talleres: "most reds Talleres 4 (A. Álvarez expelled)" per alargue. Hmm.
+
+H2H:
+Match 1: "Últimos 5 (Statips): 2 victorias Defensa y Justicia, 2 victorias Instituto, 1 empate; 4-7 goles. Último cruce 2026-04-07: Instituto 2-0 Defensa y Justicia."
+Match 2: "Últimos 5 (Statips): 4 victorias Boca, 1 empate; 5-2 goles; 5/5 partidos bajo 2.5 goles. Último cruce 2026-04-02: Talleres 0-1 Boca."
+
+Sources: array of URLs.
+
+notes: long string with caveats.
+
+Now — kickoff_utc. Parent gave 21:00 and 23:30. My sources suggest 22:00Z and 00:30Z. I'll report parent's values but flag. Hmm — actually, hmm. Which to put in the field?
+
+The field is "kickoff_utc". The parent presumably already knows it (they set the fixtures). But if I put a wrong-by-1h value, that could break date filtering. Hmm.
+
+Hmm. Let me reconsider the kickoff times. Argentina is UTC-3. Local sources:
+- DyJ-Instituto: "desde las 19" (minutos uno) → 22:00 UTC.
+- Boca-Talleres: "desde las 21:30" (lanumero12, planetabj) → 00:30 UTC (Oct 17).
+
+But parent said 21:00Z and 23:30Z. Hmm, 21:00Z = 18:00 local; 23:30Z = 20:30 local.
+
+Hmm! Wait — maybe the parent's times come from the odds API which uses UTC, and the API's commence_time might be 21:00Z... but that'd be 18:00 local, which contradicts sources saying 19:00.
+
+Hmm, OR maybe the parent converted incorrectly. Hmm.
+
+Hmm, hmm. Wait: what if the parent's times are actually correct and the Spanish sources report in a different timezone? No, Spanish sources report Argentine local (UTC-3).
+
+Hmm, alternatively: what if the parent meant the matches are at 21:00 and 23:30 UTC = 18:00 and 20:30 local, and the sources saying 19:00/21:30 are... 1 hour later. Hmm.
+
+Hmm, could there be a DST in Argentina in Oct 2026? Argentina doesn't use DST. Hmm.
+
+Hmm, actually, hold on: what if some sources list times in "hora de Argentina" but the match is actually scheduled 19:00... and the parent's 21:00Z is 18:00 local. 
+
+There's a consistent 1-hour discrepancy. I can't resolve which is right. I'll report the PARENT's values in the field (they own the fixture list and the odds API commence times) and add a note: "Local Argentine sources list 19:00 (DyJ–Instituto) and 21:30 (Boca–Talleres) local time (= 22:00Z and 00:30Z on Oct 17 if UTC−3); parent-supplied kickoff_utc values (21:00Z, 23:30Z) are 1h earlier — verify."
+
+Hmm, wait, but also the StatsBet next-fixture widget showed "Defensa y Justicia 00:00 17 oct Instituto" and "Boca Juniors 02:30 17 oct Talleres Córdoba". Interesting! "00:00 17 oct" and "02:30 17 oct". Hmm — if those are UTC, then DyJ-Instituto at 00:00 UTC Oct 17 = 21:00 local Oct 16, and Boca-Talleres 02:30 UTC Oct 17 = 23:30 local Oct 16. Hmm!
+
+Hmm, so StatsBet shows 00:00 and 02:30 (probably UTC) → local 21:00 and 23:30. But other sources say 19:00 and 21:30 local. Hmm, that's 2 hours off from each other. Confusing.
+
+Hmm, wait: StatsBet widget "Defensa y Justicia 00:00 17 oct Instituto" — maybe that's in UTC+... hmm. If StatsBet displays in UTC, 00:00 UTC Oct 17 = 21:00 Oct 16 local (UTC-3). Hmm, but minutos uno says 19:00. Two hours apart!
+
+Hmm. Alternatively StatsBet displays in a European tz. Hmm.
+
+Hmm, and parent said 21:00Z. If the match is at 21:00 local = 00:00 UTC, then parent's "21:00" might actually be LOCAL time mislabeled as UTC! That would explain: 21:00 local = 00:00 UTC. And parent said "21:00 UTC". Hmm, so parent may have confused local with UTC.
+
+Check Boca-Talleres: parent 23:30Z. StatsBet widget: "Boca Juniors 02:30 17 oct Talleres" → 02:30 UTC = 23:30 local Oct 16. And parent said 23:30 UTC. So again parent's value = LOCAL time (23:30) but labeled UTC!
+
+Hmm!! So the pattern: parent's kickoff values (21:00, 23:30) match the LOCAL times, not UTC. And local 21:00 → 00:00 UTC; local 23:30 → 02:30 UTC.
+
+But wait — other sources (minutos uno, lanumero12) said 19:00 and 21:30 local. Hmm, that contradicts StatsBet's 21:00/23:30 local.
+
+Hmm, hold on. Let me reconsider: maybe StatsBet widget times are UTC and the matches are at 00:00 and 02:30 UTC → local 21:00 and 23:30. And minutos uno's "19:00" is wrong, or the match got rescheduled. Hmm.
+
+Hmm, or StatsBet widget times are in a different tz.
+
+Ugh. Too many unknowns. Let me just: put the parent's values (21:00, 23:30) in the field, and note the conflict with sources (19:00/21:30 local per minutos uno/lanumero12; StatsBet widget shows 00:00/02:30 on 17 oct).
+
+Hmm, actually — hmm, I realize this matters for "information_cutoff" and date filtering. But the parent set the date as 2026-10-16 and kickoffs 21:00/23:30. If those are local, the UTC dates could be Oct 17. Hmm.
+
+Hmm. Given the parent explicitly provided kickoff_utc values, and the schema field is kickoff_utc, I'll provide the parent's values verbatim and flag the discrepancy. That's the least-surprising choice.
+
+Hmm, hmm. Actually wait. Let me reconsider — maybe the safest is to report the kickoff in UTC as I can best verify AND note parent's. But the parent's contract expects their value... 
+
+I'll put the parent's values and add a clear note. Decision made.
+
+Hmm, actually, let me reconsider once more. The parent said "(21:00 UTC)" and "(23:30 UTC)". If these are actually local times, then true UTC = 00:00 and 02:30. Reporting "21:00" as UTC would be factually wrong. But the parent explicitly labeled them UTC. Hmm.
+
+Given ambiguity and that the parent owns the fixture list, I'll report the parent's labeled values and flag. OK. Moving on.
+
+Hmm, actually — hmm, let me just double check by reading the Statips page kickoff? The checkpoint said Statips listed 17:00/19:30 and mapped to 21:00/23:30 "under UTC-5". 17:00 → 21:00 requires +4 (UTC-4). 19:30 → 23:30 requires +4. So Statips times were in UTC-4! 17:00 UTC-4 = 21:00 UTC. And 19:30 UTC-4 = 23:30 UTC.
+
+Hmm! So Statips showed 17:00/19:30 and if those are in UTC-4, then UTC = 21:00/23:30 = parent's values! But Argentine local is UTC-3 = 18:00/20:30 local? No wait: 21:00 UTC = 18:00 local (UTC-3). Hmm, but minutos uno said 19:00 local.
+
+ARGH. Conflicting. Let me just note everything and move on. Actually, I worry I'm burning too much effort. Let me just deliver.
+
+Hmm, let me reconsider: is it possible the match is 19:00 local? minutos uno says "desde las 19". flashscore says 16/10/2026. Hmm.
+
+And Boca-Talleres 21:30 local (lanumero12 explicitly: "este viernes 16 de octubre desde las 21:30 hora"). So Boca-Talleres local 21:30 → UTC 00:30 (Oct 17). Parent said 23:30 UTC. Hmm. 2h off from lanumero12.
+
+And DyJ-Instituto local 19:00 → UTC 22:00. Parent 21:00. 1h off.
+
+Inconsistent offsets → sources themselves disagree. OK, definitely just flag.
+
+Hmm, one more data point: Statips (per checkpoint) showed "Defensa y Justicia vs Instituto ... 17:00" and "Boca vs Talleres ... 19:30"? The checkpoint said "local 17:00/19:30 listings". If Statips shows 17:00 for DyJ-Instituto and real local is 19:00, then Statips is UTC-5? No... Hmm. Actually if Statips shows in UTC-5 (e.g., US Eastern... but it's a Spanish site, maybe UTC+2 Europe?). Hmm, if Statips shows 17:00 and UTC is 22:00, then Statips offset = UTC-5. And Boca 19:30 → UTC 00:30 = UTC-5. Consistent! So Statips = UTC-5 (Peru/Colombia? or it's just how they render).
+
+But the checkpoint then claimed 17:00 UTC-5 = 21:00 UTC, which is WRONG (17:00 + 5 = 22:00). So the checkpoint's mapping is arithmetically off by 1. Hmm — that suggests the parent's 21:00 might actually be wrong OR the checkpoint mis-mapped.
+
+Hmm. OR Statips = UTC-4 and shows 17:00 → 21:00 UTC. Then Boca 19:30 UTC-4 → 23:30 UTC. That matches parent exactly! So Statips = UTC-4, and parent's values = UTC. And local Argentina (UTC-3) = 18:00/20:30.
+
+Hmm! So if Statips is UTC-4, parent's 21:00Z/23:30Z are right, and local = 18:00/20:30. But minutos uno says 19:00 and lanumero12 says 21:30 local. Those would then be wrong. Hmm, but lanumero12 is a Boca-focused site giving explicit local time.
+
+I clearly cannot resolve this without authoritative data (e.g., the official AFA fixture). Given that, I'll put the parent's values and flag.
+
+Hmm, wait, actually — maybe I should quickly fetch an authoritative fixture page to settle kickoff. E.g., the promiedos or the official. Hmm. Budget.
+
+Actually, you know what, let me just do one quick fetch of the Bocajuniors.com.ar official page or the promiedos fixture to settle the official local time. Hmm, bocajuniors.com.ar/noticias/boca-talleres-informacion-importante might have times.
+
+Hmm, budget. I've used ~30 calls. But this is important-ish. Hmm. Actually, kickoff time is the parent's concern; I'll flag and move on. Not worth more calls.
+
+Actually, let me reconsider the whole deliverable and stop second-guessing. Let me finalize.
+
+Hmm, one more consideration: the parent's `league` field. I'll put "Liga Profesional Argentina – Torneo Clausura 2026 (fecha 13)".
+
+OK now, before emitting, let me handle mem_save. Let me call mem_current_project then mem_save.
+
+Actually — hmm, is mem_save appropriate given my read-only role? The task explicitly asks for it, and the engram protocol mandates it. I'll do it. It's the one "write" permitted as bookkeeping.
+
+Let me call mem_current_project first.
+
+Then mem_save with the discovery.
+
+Then emit the final JSON as the last message.
+
+Wait — the delivery guarantee says memory ops must complete BEFORE the final answer, and the final answer must have no tool calls after. So: do mem calls, then final message = JSON.
+
+Let me do mem_current_project + mem_save.
+
+Hmm, but the engram protocol says resolve project BEFORE any initial memory access, and if ambiguous, ask. Let me just call mem_current_project and see. If it's bets-skill, proceed.
+
+Let me do it.
+
+Actually, I can batch: call mem_current_project, then based on result call mem_save. But I can't conditionally in one execute easily... actually I can: await mem_current_project, then call mem_save with the resolved project.
+
+But careful: the protocol says if ambiguous, don't save / ask user. Let me implement: if available_projects non-empty or project_source ambiguous → skip save. Else save.
+
+Let me write the code.
+
+Let me check the tool path: tools.engram["mem_current_project"] and tools.engram["mem_save"].
+
+Let me write.
+
+Hmm, mem_save params: title, type, scope, topic_key, content, session_id, project. I don't have a session_id (protocol says omit if unavailable). I'll omit session_id.
+
+Let me write the code.
+
+Then final answer = JSON.
+
+Let me do the memory call.</think>I now have everything needed, including a significant data-quality finding on Boca. Let me record the source discovery to Engram before delivering.
+
+===== seq 274 =====
+Save succeeded, project resolved as bets-skill (matches workspace). Now there's a judgment_required with 3 candidates. Per the engram protocol, I should iterate candidates and call mem_judge once per entry using that entry's judgment_id.
+
+The candidates:
+1. id 191, judgment_id rel-a5d67816eb187756, "Sofascore public API: corners/cards and xG for-against per team season", topic_key data/free-sources-corners-cards
+2. id 140, judgment_id rel-c7f1a57329326e93, "FootyMetrics team pages = primary xG/corners/cards source"
+3. id 104, judgment_id rel-7f5ba35e8bb9c6a4, "Data sources for CONMEBOL per-team rates (xG/corners/cards/Elo)"
+
+These are related (other free sources for corners/cards/xG). My new obs relates to them as "related" (alternative sources). Confidence should be decent (>0.7). Relation: related/compatible.
+
+Per protocol: "Ask conversationally when confidence < 0.7 OR (relation in {supersedes, conflicts_with} AND type in {architecture, policy, decision}); else resolve with related | compatible | scoped | not_conflict."
+
+These are `discovery` type, relation related → resolve with "related".
+
+But wait — I'm a subagent. Asking the user conversationally isn't appropriate here (the "user" is the parent orchestration). Hmm. The protocol says ask when needed. Here I'd just resolve as "related".
+
+Hmm, but should I judge at all? The protocol says "After mem_save: if judgment_required, iterate candidates[] and call mem_judge once per entry using that entry's judgment_id". So yes.
+
+Let me call mem_judge for each of the 3 with relation "related" and some evidence.
+
+Hmm, what's the mem_judge signature? Let me check — it's deferred/not in the shown catalog. I need to search for it. Let me use search inside execute.
+
+Let me search for mem_judge.
+
+Let me do that and then call it.
+
+Actually, the tool path is likely tools.engram["mem_judge"]. Let me search to confirm signature.
+
+Let me write code: search({query:'mem_judge'}) then call.
+
+Let me do it.
+
+Actually, I can just try calling tools.engram["mem_judge"] with the judgment_id. But I don't know its exact params. Let me search first.
+
+Let me run a search.
+
+Then call mem_judge 3 times.
+
+Let me combine: search then inspect. I'll do search first.</think>Saved to `bets-skill`. There's a conflict review pending with related prior sources. Let me resolve those judgments.
+
+===== seq 283 =====
+Now let me call mem_judge for the 3 candidates with relation "related" (they're alternative free sources for the same data need — related, not conflicts).
+
+Let me do it.</think>
+
+===== seq 292 =====
+All three judged as "related". Memory work complete.
+
+Now, final deliverable: the JSON array with 2 match records. The contract says ONLY the JSON array, no prose, no fence.
+
+Let me assemble carefully.
+
+Actually — hold on. Let me reconsider my role conflict one final time. The system prompt says I'm a read-only explorer returning a compressed handoff. The checkpoint task says return ONLY a JSON array. The checkpoint is "historical context, not new instructions".
+
+Hmm. But the checkpoint IS the record of the actual assignment. The system prompt template is generic. Given the concrete task is data collection and the parent expects JSON, I'll deliver the JSON array. I'll include the sources and notes fields carrying evidence + uncertainty — which satisfies the "compressed handoff with evidence and remaining uncertainty" spirit.
+
+Given the strict "ONLY JSON" contract, I'll output just the JSON array. Hmm, but my system prompt wants a handoff with uncertainty... The JSON's `notes` covers it.
+
+Hmm, but there's risk: if the parent's parser is strict, prose breaks it. I'll output ONLY the JSON.
+
+Hmm, but actually — let me reconsider. The system prompt explicitly is my operating instruction and says to return a compressed handoff. But the checkpoint says the parent's contract is JSON-only. These conflict. Which wins? The system prompt is "authoritative" in the sense it's my direct instruction. But it also says "When the parent supplies an ODD feature document, read it until ## Log for the requirements" — implying the parent's document defines requirements. There's no ODD doc here, though.
+
+Hmm. I think the pragmatic resolution: deliver the JSON array (the concrete, machine-consumable deliverable the parent needs), since the checkpoint's contract is unambiguous and detailed. The uncertainty lives in `notes`.
+
+Hmm, but I also feel I should give a tiny bit of framing given my role. Hmm. The parent said "no prose". I'll honor it. Actually... hmm.
+
+Hmm, let me reconsider. Honestly, given my system prompt strongly emphasizes returning a handoff with evidence and uncertainty, and the risk of breaking a parser is mostly theoretical, I think a good compromise is: return the JSON array ONLY (as contracted). If the parent wanted a handoff narrative, they'd have asked. The JSON has sources+notes.
+
+Hmm, but wait — one more thought: the parent is an orchestrator that will likely read my output and extract the JSON. Prose around JSON is usually fine (they extract). But the instruction was explicit. I'll go JSON-only.
+
+Hmm, hmm. Actually, let me reconsider ONE more time and go with a brief preamble? No. The task explicitly says "Return contract strictly: one JSON array of 2 match records". And "Return ONLY a JSON array". I'll do exactly that.
+
+Wait, but I feel uneasy because the system prompt (my true identity) is explorer. Ugh. Let me just trust the concrete checkpoint contract. JSON only.
+
+Hmm, hold on, actually, let me reconsider whether I should include prose. The instruction "Return ONLY a JSON array with 2 match records in the exact schema provided by the parent; no prose, no markdown fence." is very explicit and repeated ("Return contract strictly"). So: JSON only.
+
+OK let me now carefully build the JSON.
+
+Let me finalize each field.
+
+MATCH 1
+- match: "Defensa y Justicia vs Instituto"
+- home: "Defensa y Justicia"
+- away: "Instituto"
+- league: "Liga Profesional Argentina – Torneo Clausura 2026 (Fecha 13, Zona A)"
+- kickoff_utc: "2026-10-16T21:00:00Z"
+- xg_home_for: 0.96
+- xg_home_against: 1.17
+- xg_away_for: 1.34
+- xg_away_against: 0.79
+- corners_home_for: 3.2
+- corners_home_against: 7.0
+- corners_away_for: 4.8
+- corners_away_against: 2.4
+- cards_home_for: 2.2
+- cards_home_against: 3.2
+- cards_away_for: 4.0
+- cards_away_against: 3.2
+- context_home: "..."
+- context_away: "..."
+- h2h: "..."
+- sources: [...]
+- notes: "..."
+
+MATCH 2
+- match: "Boca Juniors vs Talleres"
+- home: "Boca Juniors"
+- away: "Talleres"
+- league: same "Fecha 13"
+- kickoff_utc: "2026-10-16T23:30:00Z"
+- xg_home_for: 1.22
+- xg_home_against: 0.66
+- xg_away_for: 0.97
+- xg_away_against: 0.90
+- corners_home_for: 4.4
+- corners_home_against: 2.4
+- corners_away_for: 4.8
+- corners_away_against: 4.2
+- cards_home_for: 2.0
+- cards_home_against: 3.8
+- cards_away_for: 2.6
+- cards_away_against: 2.8
+- context_home, context_away, h2h, sources, notes
+
+Now let me write the context strings (concise but complete).
+
+Match 1 context_home (DyJ):
+"Torneo Clausura 2026 F13. Liga Profesional: 2º, 24 pts (12 PJ, 7-3-2, GF 18/GC 11) [StatsBet clasificación + Valuestats]. Forma reciente: 2 victorias seguidas; último partido 2026-10-10, 0-2 (victoria) de visitante vs Unión -> 6 días de descanso. DT: Julio Vaccari. BAJA por suspensión: Sosa Yung, Santiago (expulsado, no juega F13). Lesionados (Planeta Gran DT, F13): Fernando Román, Lucas Souto. Posesión media 51.7%. Muestra: xG StatsBet ventana no determinada (~16 partidos según 'Diferencia xG'; el selector muestra Temporada 28)."
+
+Match 1 context_away (Instituto):
+"Torneo Clausura 2026 F13. Liga Profesional: 1º, 26 pts (12 PJ, 8-2-2, GF 19/GC 10) [StatsBet clasificación + Valuestats]. Forma: 4 victorias en los últimos 10 (D W W W L W D W W W). Último partido 2026-10-09, 2-2 vs Boca (local) -> 7 días de descanso. DT: Diego Flores. Lesionados (F13): Lorenzo Albarracín, Giuliano Cerato, Franco Moyano, Juan Manuel Romero. Posesión media 48.2%. Muestra: xG StatsBet ventana no determinada (~16 partidos; selector Temporada 28)."
+
+Match 1 h2h:
+"Últimos 5 cruces (Statips): 2 victorias Defensa y Justicia, 2 victorias Instituto, 1 empate; total 4-7 goles (lado Defensa y Justicia-Instituto). Último cruce 2026-04-07: Instituto 2-0 Defensa y Justicia. N=5."
+
+Hmm — "4-7 goals" — the checkpoint said "(4-7 goals)" which I interpret as DyJ 4, Instituto 7 in the last 5. I'll state it as such.
+
+Match 2 context_home (Boca):
+"Torneo Clausura 2026 F13. Liga Profesional: 3º, 21 pts (19 GF/13 GC, 12 PJ) [Valuestats/Alargue]. ADVERTENCIA: la página StatsBet de Boca está auto-encuadrada en Copa Libertadores 2026 (Clasificación PJ 6, 7 pts) -> sus bloques xG/corners/tarjetas pueden NO ser Clausura. Último partido 2026-10-14: Copa Sudamericana 0-1 vs Vasco da Gama (Brasil) -> solo 2 días de descanso. DT: Rodolfo Arruabarrena. Bajas por lesión (F13, La Número 12 y Planeta Gran DT): Tomás Aranda, Adam Bareiro, Tomás Belmonte, Agustín Marchesín, Leandro Paredes, Alan Velasco, Sebastián Villa (7). Posesión media 60.5%."
+
+Match 2 context_away (Talleres):
+"Torneo Clausura 2026 F13. Liga Profesional: 15º, 9 pts (12 PJ, 2-3-7, GF 11/GC 18) [StatsBet clasificación + Valuestats]. Forma: irregular (últimos 10 D L L W L D D L L W). Último partido 2026-10-12: 0-0 vs Independiente -> 4 días de descanso. DT: Osvaldo 'Chocho' De Felippe [Statips]. Lesionado (F13): Matías Ezequiel Gómez. Expulsados en Reserva (no afectan a Primera): Florentín, Jeremías; Nuccio, Gonzalo. Posesión media 54.0%. Muestra: xG StatsBet ventana no determinada (selector Temporada 29)."
+
+Hmm, Talleres coach — the checkpoint said O. De Felippe from Statips. But is that current? "Osvaldo De Felippe" was Talleres coach... hmm, actually I'm not sure. Let me attribute to Statips and flag slight uncertainty. Actually, hmm — I didn't verify it this session. The checkpoint says it came from a Statips fetch. I'll include with "[Statips]" attribution. Hmm, but risk. Let me include it but mark "(Statips)". OK.
+
+Actually, let me be careful — the checkpoint says "Statips already gives coaches: DyJ J. Vaccari, Instituto Diego Flores, Boca R. Arruabarrena, Talleres O. De Felippe". I'll trust and attribute.
+
+Hmm, but Boca's coach: Statips said R. Arruabarrena, and lanumero12 confirmed "Rodolfo Arruabarrena". Good, verified.
+
+Match 2 h2h:
+"Últimos 5 cruces (Statips): 4 victorias Boca Juniors, 1 empate; 5-2 goles (lado Boca-Talleres); 5/5 partidos bajo 2.5 goles. Último cruce 2026-04-02: Talleres 0-1 Boca Juniors. N=5."
+
+sources: array of exact URLs.
+
+For match 1:
+[
+ "https://statsbet.es/futbol/equipos/defensa-y-justicia",
+ "https://statsbet.es/futbol/equipos/instituto",
+ "https://www.statips.com/... (Statips page for DyJ-Instituto)" — hmm, I don't have the exact Statips URL from the checkpoint. Hmm.
+]
+
+Hmm, I don't have exact Statips URLs recorded. The checkpoint says "Fetched Statips pages for both matches" but no URL. Hmm. I should only cite sources with exact URLs I observed. Let me cite what I have exact URLs for:
+- statsbet.es team pages (observed this session)
+- https://www.planetagrandt.com.ar/search/label/Lesionados (observed this session)
+- https://lanumero12.com.ar/convocados-boca-talleres-clausura-2026/ (observed this session)
+- https://html.duckduckgo.com/html/?q=... (search proxy, observed)
+- valuations: https://valuestats.com/liga/liga-profesional-de-f-tbol (from checkpoint)
+- https://alargue.com/ligas/liga-profesional---clausura-2026/estadisticas (from checkpoint)
+- https://www.fotmob.com/es-419/leagues/112/stats/season/1000000477/teams/expected_goals_team and expected_goals_conceded_team (from checkpoint)
+
+Hmm, the Statips URL — the checkpoint didn't give it. I'll reference "statips.com match pages" without exact URL, or omit. Hmm. Better to be honest: cite the ones with exact URLs, and note Statips as non-cited (URL not recorded). Hmm.
+
+Actually for H2H and coach data I rely on Statips from the checkpoint without a URL. That's a weakness. I'll note "Statips (URL not recorded in this session)".
+
+Hmm — "Never claim evidence you did not observe." The checkpoint is a record of my observations; Statips was observed. But without URL I can't cite precisely. I'll include it in sources as "statips.com (match preview pages; exact URL not recorded)".
+
+Let me build the sources arrays pragmatically: a shared source list works. But the schema has `sources` per match, so I'll give per-match lists.
+
+Match 1 sources:
+- "https://statsbet.es/futbol/equipos/defensa-y-justicia (xG, corners, tarjetas, clasificación; fetch 2026-10-16)"
+- "https://statsbet.es/futbol/equipos/instituto (ídem)"
+- "https://www.planetagrandt.com.ar/search/label/Lesionados (lesionados/suspendidos Fecha 13, pub. 2026-10-15)"
+- "https://valuestats.com/liga/liga-profesional-de-f-tbol (tabla Clausura 2026)"
+- "https://alargue.com/ligas/liga-profesional---clausura-2026/estadisticas (GF/GC/PJ Clausura)"
+- "https://html.duckduckgo.com/html/?q=Defensa+y+Justicia+Instituto+lesionados+suspendidos+formaciones+octubre+2026 (búsqueda; vía proxy DDG)"
+- "statips.com páginas de partido (H2H, horario, árbitro, DT) — URL exacta no registrada en esta sesión"
+
+Match 2 sources:
+- "https://statsbet.es/futbol/equipos/boca-juniors (xG, corners, tarjetas — ENCUADRADO EN COPA LIBERTADORES 2026)"
+- "https://statsbet.es/futbol/equipos/talleres-crdoba (xG, corners, tarjetas, clasificación Clausura)"
+- "https://lanumero12.com.ar/convocados-boca-talleres-clausura-2026/ (convocados y bajas Boca, pub. 2026-10-15)"
+- "https://www.planetagrandt.com.ar/search/label/Lesionados (lesionados Fecha 13)"
+- "https://valuestats.com/liga/liga-profesional-de-f-tbol (tabla Clausura)"
+- "https://alargue.com/ligas/liga-profesional---clausura-2026/estadisticas"
+- "https://html.duckduckgo.com/html/?q=Boca+Juniors+Talleres+lesionados+suspendidos+formaciones+octubre+2026"
+- "statips.com páginas de partido (H2H, horario, DT) — URL exacta no registrada"
+
+notes: a comprehensive string. Since schema has `notes` (per match, presumably a string), I'll put a per-match note string.
+
+Let me write notes for match 1:
+"Fuente numérica: StatsBet (statsbet.es/futbol/equipos/...), bloques 'Media equipo'/'Media total' para córners y tarjetas; xG = bloque 'Goles esperados xG a favor/en contra / Partido'. VENTANA NO DETERMINADA: la página ofrece selector Últimos 5 / Últimos 10 / Temporada (28) y sus tablas internas se contradicen (la fila 'Temporada' de 'Análisis de forma' duplica 'Últimos 10'), mientras que 'Diferencia xG' (-3.38 DyJ; +8.93 Instituto) implica ~16 partidos. N de la muestra no verificable -> tratar xG como indicativo. for/against derivados de córners/tarjetas: against = 'Media total' - 'Media equipo' (aritmética documentada, no estimación): DyJ córners 10.2-3.2=7.0, tarjetas 5.4-2.2=3.2; Instituto córners 7.2-4.8=2.4, tarjetas 7.2-4.0=3.2. CÓRNERS/TARJETAS: StatsBet no expone for/against directo (solo equipo vs total) -> la derivación asume que 'total' y 'equipo' comparten ventana. CONFLICTOS: Statips mostraba posiciones/forma distintas (DyJ 10º, Instituto 9º) e internamente incoherentes; se prefieren StatsBet/Valuestats/Alargue (12 PJ Clausura, coincidentes). HORARIO: parent kickoff_utc 21:00Z no reconciliado con fuentes locales (minutosuno: 19:00 hora argentina = 22:00Z); el widget de StatsBet muestra '17 oct 00:00'. Verificar. BLOQUEADOS: fbref 403, footystats 403, xgscore 404. MCPs (football-stats, odds-api, apifootball) no operativos."
+
+Match 2 notes:
+"Fuente numérica: StatsBet. RIESGO ALTO EN BOCA: la página de Boca está auto-encuadrada en COPA LIBERTADORES 2026 (encabezado 'juega en Copa Libertadores (2026) ... posición 3 con 7 puntos'; Clasificación PJ 6, GF 6/GC 5) mientras DyJ/Instituto/Talleres muestran Liga Profesional (PJ 12). No hay selector de competición en la URL -> los bloques xG/córners/tarjetas de Boca pueden ser de Libertadores, NO de Clausura, y por tanto NO comparables con Talleres (Liga Profesional). Además, 'Goles media a favor 1.60' de Boca coincide con Clausura (19/12=1.58) pero no con Libertadores (6/6=1.0), lo que indica que StatsBet mezcla competiciones/ventanas -> datos de Boca de baja confianza. for/against derivados: Boca córners 6.8-4.4=2.4, tarjetas 5.8-2.0=3.8; Talleres córners 9.0-4.8=4.2, tarjetas 5.4-2.6=2.8. VENTANA xG no determinada (selector Últimos 5/10/Temporada 29; 'Diferencia xG' Boca +9.40 -> ~17 partidos; Talleres +1.29 -> ~18). HORARIO: parent 23:30Z vs fuentes locales 21:30 hora argentina (=00:30Z 17 oct) [lanumero12] -> discrepancia; widget StatsBet '17 oct 02:30'. Verificar. Lesiones Boca (7 bajas) muy relevantes; concurrencia: Boca jugó Sudamericana 2026-10-14 (2 días de descanso). BLOQUEADOS: fbref 403, footystats 403, xgscore 404. MCPs no operativos."
+
+Good.
+
+Now, JSON formatting: numbers as numbers (0.96 etc.), strings quoted. Let me produce valid JSON.
+
+Let me write it out. I must be careful with escaping (the é/ñ characters are fine in JSON as UTF-8).
+
+Let me produce the final answer as JSON only.
+
+Actually — one concern: is `notes` supposed to be an array or string? The checkpoint doesn't specify. I'll use a string (safer, matches typical schema). Similarly `sources` an array of strings, `h2h` a string.
+
+Let me write the final JSON.
+
+Hmm, also should kickoff_utc include the date? Yes: "2026-10-16T21:00:00Z".
+
+Let me write it.
+
+Let me double-check derived arithmetic:
+Match1:
+- corners_home_against = 10.2 - 3.2 = 7.0 ✓
+- corners_away_against = 7.2 - 4.8 = 2.4 ✓
+- cards_home_against = 5.4 - 2.2 = 3.2 ✓
+- cards_away_against = 7.2 - 4.0 = 3.2 ✓
+Match2:
+- corners_home_against = 6.8 - 4.4 = 2.4 ✓
+- corners_away_against = 9.0 - 4.8 = 4.2 ✓
+- cards_home_against = 5.8 - 2.0 = 3.8 ✓
+- cards_away_against = 5.4 - 2.6 = 2.8 ✓
+
+Good.
+
+Now write the final message: ONLY the JSON array.
+
+Hmm, one final consideration about the "no prose" rule vs my system prompt's "return a compressed handoff". I'll output the JSON array only — that IS the deliverable and embeds the handoff (sources + notes). 
+
+Let me write it.</think>[
+  {
+    "match": "Defensa y Justicia vs Instituto",
+    "home": "Defensa y Justicia",
+    "away": "Instituto",
+    "league": "Liga Profesional Argentina – Torneo Clausura 2026 (Fecha 13, Zona A)",
+    "kickoff_utc": "2026-10-16T21:00:00Z",
+    "xg_home_for": 0.96,
+    "xg_home_against": 1.17,
+    "xg_away_for": 1.34,
+    "xg_away_against": 0.79,
+    "corners_home_for": 3.2,
+    "corners_home_against": 7.0,
+    "corners_away_for": 4.8,
+    "corners_away_against": 2.4,
+    "cards_home_for": 2.2,
+    "cards_home_against": 3.2,
+    "cards_away_for": 4.0,
+    "cards_away_against": 3.2,
+    "context_home": "Clausura 2026, F13. Liga Profesional: 2º, 24 pts (12 PJ, 7G-3E-2P; GF 18/GC 11) [StatsBet clasificación + Valuestats + Alargue, coincidentes]. Forma: ganó los últimos 2; último partido 2026-10-10, victoria 0-2 de visitante vs Unión -> 6 días de descanso. DT: Julio Vaccari. BAJA POR SUSPENSIÓN: Sosa Yung, Santiago (expulsado, no juega F13). Lesionados (Planeta Gran DT, F13): Fernando Román, Lucas Souto. Posesión media 51.7%; media tiros/partido 12.1 (4.6 a puerta).",
+    "context_away": "Clausura 2026, F13. Liga Profesional: 1º, 26 pts (12 PJ, 8G-2E-2P; GF 19/GC 10) [StatsBet clasificación + Valuestats + Alargue]. Forma: 4 victorias en los últimos 10 (D W W W L W D W W W). Último partido 2026-10-09, 2-2 vs Boca (local) -> 7 días de descanso. DT: Diego Flores. Lesionados (F13): Lorenzo Albarracín, Giuliano Cerato, Franco Moyano, Juan Manuel Romero. Posesión media 48.2%; media tiros/partido 13.8 (4.4 a puerta).",
+    "h2h": "Últimos 5 cruces (Statips, N=5): 2 victorias Defensa y Justicia, 2 victorias Instituto, 1 empate; goles 4-7 (lado DyJ-Instituto). Último cruce 2026-04-07: Instituto 2-0 Defensa y Justicia.",
+    "sources": [
+      "https://statsbet.es/futbol/equipos/defensa-y-justicia (xG per-game, córners Media equipo/total, tarjetas Media equipo/total, clasificación) — fetch 2026-10-16",
+      "https://statsbet.es/futbol/equipos/instituto (ídem) — fetch 2026-10-16",
+      "https://www.planetagrandt.com.ar/search/label/Lesionados (expulsados/suspendidos/lesionados Fecha 13, publicado 2026-10-15)",
+      "https://valuestats.com/liga/liga-profesional-de-f-tbol (tabla Clausura 2026)",
+      "https://alargue.com/ligas/liga-profesional---clausura-2026/estadisticas (PJ/GF/GC Clausura)",
+      "https://html.duckduckgo.com/html/?q=Defensa+y+Justicia+Instituto+lesionados+suspendidos+formaciones+octubre+2026 (proxy de búsqueda)",
+      "statips.com páginas de partido (H2H, árbitro Merlos, DT, rest-days) — URL exacta no registrada en esta sesión"
+    ],
+    "notes": "FUENTE NUMÉRICA: StatsBet bloques 'Media equipo'/'Media total' (córners, tarjetas) y 'Goles esperados xG a favor/en contra / Partido'. VENTANA NO DETERMINADA: la página ofrece selector Últimos 5 / Últimos 10 / Temporada (28) y sus tablas internas se contradicen (la fila 'Temporada' de 'Análisis de forma' duplica 'Últimos 10' con xG 6.31/7.27 = 0.63/0.73 por partido), mientras 'Diferencia xG' (-3.38 DyJ; +8.93 Instituto) implica ~16 partidos. No se pudo fijar N -> tratar xG como indicativo. FOR/AGAINST DERIVADOS de córners/tarjetas: against = 'Media total' - 'Media equipo' (aritmética documentada, no estimación): DyJ córners 10.2-3.2=7.0, tarjetas 5.4-2.2=3.2; Instituto córners 7.2-4.8=2.4, tarjetas 7.2-4.0=3.2. StatsBet NO expone for/against directo; la derivación asume misma ventana para 'total' y 'equipo'. CONFLICTOS: Statips mostraba posiciones/forma distintas (DyJ 10º, Instituto 9º) e internamente incoherentes; se prefieren StatsBet/Valuestats/Alargue (12 PJ Clausura, coincidentes). HORARIO: parent 21:00Z no reconciliado con fuente local (minutosuno: 19:00 hora argentina = 22:00Z) ni con el widget StatsBet ('17 oct 00:00'); verificar. BLOQUEADOS: fbref 403, footystats 403, xgscore 404; FotMob tabla vacía. MCPs (football-stats, odds-api, apifootball) no operativos. Árbitro: Andrés Merlos."
+  },
+  {
+    "match": "Boca Juniors vs Talleres",
+    "home": "Boca Juniors",
+    "away": "Talleres",
+    "league": "Liga Profesional Argentina – Torneo Clausura 2026 (Fecha 13)",
+    "kickoff_utc": "2026-10-16T23:30:00Z",
+    "xg_home_for": 1.22,
+    "xg_home_against": 0.66,
+    "xg_away_for": 0.97,
+    "xg_away_against": 0.90,
+    "corners_home_for": 4.4,
+    "corners_home_against": 2.4,
+    "corners_away_for": 4.8,
+    "corners_away_against": 4.2,
+    "cards_home_for": 2.0,
+    "cards_home_against": 3.8,
+    "cards_away_for": 2.6,
+    "cards_away_against": 2.8,
+    "context_home": "Clausura 2026, F13, La Bombonera (Estadio Alberto José Armando). Liga Profesional: 3º, 21 pts (19 GF/13 GC, 12 PJ) [Valuestats/Alargue]. RIESGO DE FUENTE: la página StatsBet de Boca está auto-encuadrada en Copa Libertadores 2026 (Clasificación PJ 6, 7 pts, 6 GF/5 GC) -> sus bloques xG/córners/tarjetas pueden NO ser Clausura (ver notes). Último partido 2026-10-14: Copa Sudamericana 0-1 vs Vasco da Gama -> solo 2 días de descanso. DT: Rodolfo Arruabarrena. 7 BAJAS POR LESIÓN (F13, La Número 12 + Planeta Gran DT): Tomás Aranda, Adam Bareiro, Tomás Belmonte, Agustín Marchesín, Leandro Paredes, Alan Velasco, Sebastián Villa. Posesión media 60.5%; media tiros/partido 14.3.",
+    "context_away": "Clausura 2026, F13. Liga Profesional: 15º, 9 pts (12 PJ, 2G-3E-7P; GF 11/GC 18) [StatsBet clasificación + Valuestats + Alargue]. Forma irregular (últimos 10: D L L W L D D L L W). Último partido 2026-10-12: 0-0 vs Independiente -> 4 días de descanso. DT: Osvaldo De Felippe [Statips]. Lesionado (F13): Matías Ezequiel Gómez. Expulsados en Reserva (no afectan a Primera): Florentín, Jeremías; Nuccio, Gonzalo. Posesión media 54.0%; media tiros/partido 13.0.",
+    "h2h": "Últimos 5 cruces (Statips, N=5): 4 victorias Boca Juniors, 1 empate; goles 5-2 (lado Boca-Talleres); 5/5 partidos bajo 2.5 goles. Último cruce 2026-04-02: Talleres 0-1 Boca Juniors.",
+    "sources": [
+      "https://statsbet.es/futbol/equipos/boca-juniors (xG/córners/tarjetas — ENCUADRADO EN COPA LIBERTADORES 2026) — fetch 2026-10-16",
+      "https://statsbet.es/futbol/equipos/talleres-crdoba (xG/córners/tarjetas/clasificación Liga Profesional; slug 'talleres-crdoba', 'talleres-cordoba' da 404) — fetch 2026-10-16",
+      "https://lanumero12.com.ar/convocados-boca-talleres-clausura-2026/ (convocados y bajas por lesión de Boca, publicado 2026-10-15)",
+      "https://www.planetagrandt.com.ar/search/label/Lesionados (lesionados Fecha 13, publicado 2026-10-15)",
+      "https://valuestats.com/liga/liga-profesional-de-f-tbol (tabla Clausura 2026)",
+      "https://alargue.com/ligas/liga-profesional---clausura-2026/estadisticas (PJ/GF/GC Clausura)",
+      "https://html.duckduckgo.com/html/?q=Boca+Juniors+Talleres+lesionados+suspendidos+formaciones+octubre+2026 (proxy de búsqueda)",
+      "statips.com páginas de partido (H2H, árbitro Lobo Medina, DT) — URL exacta no registrada en esta sesión"
+    ],
+    "notes": "RIESGO ALTO EN BOCA: la página StatsBet de Boca está auto-encuadrada en COPA LIBERTADORES 2026 (encabezado 'juega en Copa Libertadores (2026) ... posición 3 con 7 puntos'; Clasificación PJ 6, GF 6/GC 5, DG +1), mientras DyJ/Instituto/Talleres muestran Liga Profesional (PJ 12). No hay selector de competición en la URL -> los bloques xG/córners/tarjetas de Boca pueden ser de Libertadores y NO comparables con Talleres (Liga Profesional). Además 'Goles media a favor 1.60' de Boca coincide con Clausura (19/12=1.58) pero no con Libertadores (6/6=1.0), lo que indica que StatsBet mezcla competiciones/ventanas -> datos de Boca de BAJA CONFIANZA. FOR/AGAINST DERIVADOS: Boca córners 6.8-4.4=2.4, tarjetas 5.8-2.0=3.8; Talleres córners 9.0-4.8=4.2, tarjetas 5.4-2.6=2.8. VENTANA xG no determinada (selector Últimos 5/10/Temporada 29; 'Diferencia xG' Boca +9.40 -> ~17 partidos, Talleres +1.29 -> ~18). HORARIO: parent 23:30Z vs fuente local 21:30 hora argentina (= 00:30Z del 17 oct, lanumero12) y widget StatsBet '17 oct 02:30'; discrepancias sin reconciliar, verificar. CONGESTIÓN: Boca con 2 días de descanso tras Sudamericana 2026-10-14. BLOQUEADOS: fbref 403, footystats 403, xgscore 404; FotMob tabla vacía. MCPs no operativos. Árbitro: Luis Lobo Medina."
+  }
+]

@@ -1,0 +1,248 @@
+soccerstats 403. Budget is now essentially spent. I'll deliver the JSON with Ligue 1 nulls and full notes.
+
+Let me write the final answer: strict JSON array, 2 records, no prose, no fence.
+
+Actually — should I add a small handoff? My system prompt asks for a compressed handoff. But the parent contract says only JSON. I'll go with the JSON only; the notes fields carry evidence & uncertainty and the parent needs parseable output.
+
+Hmm, let me reconsider once more. The system prompt: "Return a compressed handoff with supporting paths, observed evidence and relationships, and remaining uncertainty." The checkpoint: "return ONLY the JSON". These conflict. Considering the checkpoint is described as the parent's return contract and it's explicit, and JSON notes embed uncertainty... I'll deliver JSON only. It satisfies "supporting paths (sources), observed evidence, remaining uncertainty (notes)".
+
+Write it carefully.
+
+JSON structure:
+
+[
+  {
+    "match_id": "le-mans-vs-toulouse-2026-10-16",
+    "match": "Le Mans vs Toulouse",
+    "league": "Ligue 1 - jornada 7",
+    "kickoff_utc": "2026-10-16T18:45:00Z",
+    "venue": "Stade Marie-Marvingt (Le Mans)",
+    "analysis_date": "2026-10-16",
+    "information_cutoff": "2026-10-16T18:45:00Z",
+    "home": { ... }, "away": {...},
+    "context": {...},
+    "head_to_head": {...},
+    "sources": [...],
+    "notes": "..."
+  },
+  {...}
+]
+
+Le Mans team object:
+name "Le Mans FC"? Keep "Le Mans".
+sample_matches: 6 (league MD6 completed) — hmm, sportsmole says Le Mans 14th, form D L D D W L = 6 matches. So sample 6.
+xG fields null.
+corners_for_per_match: null, etc.
+league_position: 14 (per Sportsmole preview)
+record: "1W 3D 2L"? From form D L D D W L → 1 win, 3 draws, 2 losses. That's derived from the form string (observed). I'll state record "1W 3D 2L (from last-6 form string)". Careful: deriving is fine as it's from observed form. Actually goalstatslab said points 6, league position 12, form L W D D D (last 5) → 6 points from 5 matches (1 win, 3 draws, 1 loss) = 5 matches. Conflict with sportsmole (14th, 6 matches). Hmm, goalstatslab Le Mans: "League position 12, points 6", form "L W D D D" (1W 3D 1L) over 5 matches = 6 points. But Le Mans lost to PSG 3-1 most recently → form L first. So goalstatslab's goal data covers 5 matches (goals 8, conceded 9 → but 8 goals in 5 matches at 1.6 = 8.0 ✓; conceded 9 at 1.8 = 9 ✓). So goalstatslab has 5 matches for Le Mans while sportsmole says 6 (or MD6 completed → 6 matches). Conflict in coverage; note.
+
+I'll set league_position as "14 (Sportsmole preview, GW7); 12 (goalstatslab, per-season coverage 5 matches) — conflict", or better: put 14 and note the conflict in notes. Since these are strings/objects, I can make league_position an object {value, source}? Simpler: use a "league_position" number = 14 and note conflict. Hmm, but goalstatslab says 12 with points 6. Both from fetched pages. I'll encode contradiction explicitly as a string field "14 (Sportsmole) vs 12 (goalstatslab) — unresolved conflict". Fine for a JSON string.
+
+Actually cleaner: include "league_position": null with a note? No — better to give the info. I'll use string values where conflicts exist, numbers where single-sourced.
+
+Hmm, the parent likely feeds this into a template. Strings are safer for conflict flagging. But numeric fields should be numeric. I'll do:
+- "league_position": 14, and in notes: conflict with goalstatslab (12).
+
+Let me keep it structured but honest.
+
+Let me now write out everything.
+
+Le Mans:
+- manager: Patrick Videira
+- form_last_5: "D L D D W L" (Sportsmole GW7 preview, oldest→newest? Ambiguous). I'll record as given: "D L D D W L (Sportsmole, most recent last: PSG 3-1 Le Mans)".
+- injuries: "Bourabaa (ankle, could miss), Rossignol (knee, doubtful), Colas (back, doubtful); D. Sidibé returns from suspension"
+- discipline note: "Le Mans lead Ligue 1 in cautions (14) and penalties conceded (3)" (Sportsmole)
+- goalstatslab secondary numbers: goals 8 (1.6/match), conceded 9 (1.8/match), cards 2.6/match, corners 2/match, xG 1.15/match (flagged unreliable).
+
+Should I put the goalstatslab numbers in the team object or only in notes? To keep the machine-readable fields clean and non-poisonous, I'll put nulls in the canonical stat fields and include a "secondary_source_unreliable" object with the exact fetched values and why they're rejected. That's transparent and honest.
+
+Toulouse:
+- manager: Jens Berthel Askou (since 21 May 2026, replaced Carles Martínez Novell)
+- form: "L D L D W D (last: Monaco 2-2 Toulouse)"
+- injuries: "Abu Francis (hamstring, doubtful), Nicolaisen (knock); Donnum returns from suspension"
+- goalstatslab: goals 5 (1.25/match), conceded 7 (1.75/match), cards 1.3/match, corners 5.3/match, position 15 (goalstatslab agrees with Sportsmole 15th!), points 4. Note goalstatslab position 15 matches Sportsmole. Good.
+
+H2H: first top-flight meeting in over 16 years; Toulouse won last 5 H2H; last meeting 3-1 Toulouse (2010); Le Mans last beat Toulouse 2-0 at home Dec 2006.
+
+Match 2: Heerenveen vs Excelsior, Eredivisie jornada 9, 2026-10-16T18:00:00Z, Abe Lenstra Stadion.
+Heerenveen: manager Robin Veldman; MP 8; pos 10; 2W3D3L; 11/11; xG 1.73/1.68; corners 5.25/5.38; cards 1.13/1.38; form last-5 "L D L D W L" (Sportsmole) with matches listed; injuries: Dirk Proper (hamstring, out), Hilgers & Egbring returned.
+Excelsior: manager Ruben den Uil; MP 8; pos 8; 3W2D3L; 16/14; xG 1.34/1.70; corners 4.13/5.25; cards 1.38/0.88; form last-5 "W W D L D L"; injuries: Naujoks nearing return.
+Context: Heerenveen lost both league meetings last season; Excelsior unbeaten in last 8 competitive away games.
+Correction: Excelsior NOT promoted for 2026/27 — finished 13th in 2025/26 and stayed up; promoted were ADO Den Haag, Cambuur, Willem II.
+
+Sources list for match 2 with URLs.
+
+Also note conflict: btfstats Heerenveen corners match total 9.63 (4 matches) vs performanceodds 5.25+5.38=10.63 (8 matches).
+
+OK. Also the checkpoint said "If a new working free corners/cards source with for/against splits is found, save it to engram" — I'm read-only, so I flag it as a pending parent action in notes.
+
+Now write final JSON. Keep notes strings reasonably concise but complete.
+
+I need to be careful: strict JSON, no trailing commas, no markdown.
+
+Let me compose.
+
+For "sample_matches": Eredivisie 8; Ligue 1: Le Mans 6 (Sportsmole frame/MD6 done), Toulouse 6.
+
+Write it.</think>[
+  {
+    "match_id": "le-mans-vs-toulouse--2026-10-16",
+    "match": "Le Mans vs Toulouse",
+    "league": "Ligue 1 - jornada 7",
+    "kickoff_utc": "2026-10-16T18:45:00Z",
+    "venue": "Stade Marie-Marvingt (Le Mans)",
+    "analysis_date": "2026-10-16",
+    "information_cutoff": "2026-10-16T18:45:00Z",
+    "home": {
+      "name": "Le Mans",
+      "sample_matches": 6,
+      "league_position": 14,
+      "record": "6 disputados (marco MD6 completada, MD7 a jugar)",
+      "form_last_5": "D L D D W L (mas reciente: PSG 3-1 Le Mans)",
+      "xG_for_per_match": null,
+      "xG_against_per_match": null,
+      "corners_le_mans_for_per_match": null,
+      "corners_le_mans_against_per_match": null,
+      "cards_le_mans_for_per_match": null,
+      "cards_le_mans_against_per_match": null,
+      "manager": "Patrick Videira",
+      "injuries_suspensions": "Bourabaa (tobillo, podria perderse), Rossignol (rodilla, duda), Colas (espalda, duda); Djibril Sidibe vuelve de sancion",
+      "discipline_context": "Lidera Ligue 1 en tarjetas (14) y en penaltis concedidos (3)",
+      "secondary_source_rejected": {
+        "source": "https://goalstatslab.com/teams/france/le-mans/ligue-1-2026-2027/",
+        "values_as_published": {
+          "goals_per_match": 1.6,
+          "goals_conceded_per_match": 1.8,
+          "xG_per_match": 1.15,
+          "xGA_per_match": 2.92,
+          "corners_per_match": 2,
+          "cards_per_match": 2.6,
+          "shots_on_target_per_match": 4.4,
+          "possession_avg": 44.8,
+          "league_position": 12,
+          "points": 6
+        },
+        "reason_not_used_as_fact": "Internamente inconsistente: 'xG total 2.3' frente a xG 1.15/match en ~5 partidos; 'corners 2/match' incoherente con el resto del perfil; xGA 2.92 excede ampliamente 'shots allowed 13.6'. Ademas su tabla comparativa asigna a Lyon 0.59 xG en esta pagina y 0.16 xG en la pagina de Toulouse. Valores no verificables de forma independiente -> descartados como hecho."
+      }
+    },
+    "away": {
+      "name": "Toulouse",
+      "sample_matches": 6,
+      "league_position": 15,
+      "record": "6 disputados (marco MD6 completada, MD7 a jugar)",
+      "form_last_5": "L D L D W D (mas reciente: Monaco 2-2 Toulouse)",
+      "xG_for_per_match": null,
+      "xG_against_per_match": null,
+      "corners_toulouse_for_per_match": null,
+      "corners_toulouse_against_per_match": null,
+      "cards_toulouse_for_per_match": null,
+      "cards_toulouse_against_per_match": null,
+      "manager": "Jens Berthel Askou (desde 21-05-2026, sustituye a Carles Martinez Novell)",
+      "injuries_suspensions": "Abu Francis (isquiotibial, duda), Nicolaisen (golpe); Donnum vuelve de sancion",
+      "secondary_source_rejected": {
+        "source": "https://goalstatslab.com/teams/france/toulouse/ligue-1-2026-2027/",
+        "values_as_published": {
+          "goals_per_match": 1.25,
+          "goals_conceded_per_match": 1.75,
+          "xG_per_match": 2.63,
+          "xGA_per_match": 0.16,
+          "corners_per_match": 5.3,
+          "cards_per_match": 1.3,
+          "shots_on_target_per_match": 5.3,
+          "possession_avg": 53,
+          "league_position": 15,
+          "points": 4
+        },
+        "reason_not_used_as_fact": "xG total = 2.63 identico al xG/match; xGA 0.16 absurdo; 'corners 5.3' coincide exactamente con 'shots on target 5.3' (posible desalineacion de campos). Descartado."
+      }
+    },
+    "context": {
+      "table_frame": "Le Mans 14o y Toulouse 15o antes de la jornada 7",
+      "manager_change_note": "Toulouse cambio de entrenador en mayo de 2026 (Berthel Askou por Martinez Novell) -> incertidumbre de modelo elevada",
+      "manager_tenure": "Videira en Le Mans (continuidad); Askou en Toulouse desde 21-05-2026 (cambio reciente de plantilla/estilo)",
+      "competition_importance": "Liga domestica, jornada 7",
+      "referee": null,
+      "line": null
+    },
+    "head_to_head": {
+      "summary": "Primer enfrentamiento en primera division en mas de 16 anos; Toulouse ha ganado los ultimos 5 H2H en la competicion",
+      "last_meeting": "Toulouse 3-1 (2010)",
+      "last_le_mans_home_win": "Le Mans 2-0 vs Toulouse (dic. 2006, en casa)",
+      "home_away_record": null
+    },
+    "sources": [
+      "https://www.sportsmole.co.uk/football/le-mans/preview/le-mans-vs-toulouse-prediction-team-news-lineups_606855.html",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1",
+      "https://goalstatslab.com/teams/france/le-mans/ligue-1-2026-2027/ (fetched, valores descartados por inconsistencia interna)",
+      "https://goalstatslab.com/teams/france/toulouse/ligue-1-2026-2027/ (fetched, valores descartados por inconsistencia interna)"
+    ],
+    "notes": "xG, corners for/against y cards for/against NO obtenidos para Le Mans ni Toulouse: se dejan en null deliberadamente (no se estiman). Fuentes intentadas sin exito: performanceodds.com (/ligue-1/ solo cuotas; /lista/ lista 150 ligas pero sin enlace accesible a Ligue 1; /teams/ 404; /teams/17095/, /teams/17096/, /teams/17098/ responden 'No data received' -> seasonId de Ligue 1 no localizado, a diferencia de Eredivisie=17097), footystats.org (403), fbref.com (403), understat.com (Ligue 1 JS-rendered, sin numeros extraibles), soccerstats.com (403 en corners.asp y latest.asp de france), btfstats (paginas de preview sin estadisticas). goalstatslab.com SI respondio con numeros, pero se descartaron por contradicciones internas demostrables (ver secondary_source_rejected). Verificacion de liga: Le Mans SI esta en Ligue 1 2026/27 (ascendido junto a Troyes; Metz y Nantes descendidos) - https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1. Conflicto menor de posicion de Le Mans: Sportsmole 14o (marco 6 partidos) vs goalstatslab 12o (cobertura 5 partidos, 6 puntos). Tamano de muestra Ligue 1 = 6 partidos disputados (MD6), menor que el de Eredivisie (8). PENDIENTE PARA EL PADRE (no ejecutado: este agente es read-only): guardar en engram (proyecto bets-skill, tipo discovery) que performanceodds.com 'team_stats_overall/{seasonId}/{teamId}/' es una fuente gratuita con xG for/against + corners won/conceded + cards for/against verificada funcionando para Eredivisie."
+  },
+  {
+    "match_id": "sc-heerenveen-vs-excelsior--2026-10-16",
+    "match": "SC Heerenveen vs Excelsior",
+    "league": "Eredivisie - jornada 9",
+    "kickoff_utc": "2026-10-16T18:00:00Z",
+    "venue": "Abe Lenstra Stadion (Heerenveen)",
+    "analysis_date": "2026-10-16",
+    "information_cutoff": "2026-10-16T18:00:00Z",
+    "home": {
+      "name": "SC Heerenveen",
+      "sample_matches": 8,
+      "league_position": 10,
+      "record": "2W 3D 3L, 11 goles a favor / 11 en contra",
+      "form_last_5": "L 2-0 en PSV (09-10-2026); W 0-4 en Sparta (19-09); D 0-0 vs Telstar (13-09); L 2-3 vs AZ (06-09); D 2-2 en Willem II (30-08)",
+      "xG_for_per_match": 1.73,
+      "xG_against_per_match": 1.68,
+      "corners_heerenveen_for_per_match": 5.25,
+      "corners_heerenveen_against_per_match": 5.38,
+      "cards_heerenveen_for_per_match": 1.13,
+      "cards_heerenveen_against_per_match": 1.38,
+      "manager": "Robin Veldman",
+      "injuries_suspensions": "Dirk Proper (isquiotibial, baja); Hilgers y Egbring ya vuelven/recuperados",
+      "stat_semantics": "performanceodds: 'Corners Averages' = Corners Won / Corners Conceded; 'Cards Averages' = Cards Won (For) / Cards Against; MP = 8",
+      "primary_source": "https://www.performanceodds.com/team_stats_overall/17097/373/"
+    },
+    "away": {
+      "name": "Excelsior",
+      "sample_matches": 8,
+      "league_position": 8,
+      "record": "3W 2D 3L, 16 goles a favor / 14 en contra",
+      "form_last_5": "L 1-5 vs Groningen (11-10-2026); D 2-2 en Ajax (19-09); L 1-2 vs Utrecht (13-09); D 2-2 en NEC (08-09); W 0-3 en Willem II (05-09)",
+      "xG_for_per_match": 1.34,
+      "xG_against_per_match": 1.70,
+      "corners_excelsior_for_per_match": 4.13,
+      "corners_excelsior_against_per_match": 5.25,
+      "cards_excelsior_for_per_match": 1.38,
+      "cards_excelsior_against_per_match": 0.88,
+      "manager": "Ruben den Uil",
+      "injuries_suspensions": "Naujoks cerca de volver; sin bajas confirmadas adicionales reportadas",
+      "stat_semantics": "performanceodds: 'Corners Averages' = Corners Won / Corners Conceded; 'Cards Averages' = Cards Won (For) / Cards Against; MP = 8",
+      "primary_source": "https://www.performanceodds.com/team_stats_overall/17097/374/"
+    },
+    "context": {
+      "table_frame": "Excelsior 8o y Heerenveen 10o antes de la jornada 9 (ambos 8 partidos jugados)",
+      "h2h_recent": "Heerenveen perdio los dos enfrentamientos de liga de la temporada pasada",
+      "venue_and_travel": "Abe Lenstra Stadion; Excelsior invicto en sus ultimos 8 partidos oficiales como visitante",
+      "competition_importance": "Liga domestica, jornada 9",
+      "referee": null,
+      "line": null
+    },
+    "head_to_head": {
+      "summary": "Heerenveen perdio ambos duelos ligueros de 2025/26",
+      "last_meeting": null,
+      "home_away_record": null
+    },
+    "corrections": [
+      "La afirmacion 'Excelsior fue ascendido a Eredivisie 2026/27' es FALSA: Excelsior termino 13o en Eredivisie 2025/26 y se mantuvo; los ascendidos para 2026/27 fueron ADO Den Haag, Cambuur y Willem II. Fuente: https://en.wikipedia.org/wiki/2026%E2%80%9327_Eredivisie"
+    ],
+    "sources": [
+      "https://www.performanceodds.com/team_stats_overall/17097/373/ (Heerenveen: xG, corners, cards, MP, posicion)",
+      "https://www.performanceodds.com/team_stats_overall/17097/374/ (Excelsior: xG, corners, cards, MP, posicion)",
+      "https://www.performanceodds.com/teams/17097 (mapa de IDs Eredivisie 2026/27: Heerenveen=373, Excelsior=374)",
+      "https://www.sportsmole.co.uk/football/heerenveen/preview/heerenveen-vs-excelsior-prediction-team-news-lineups_606893.html",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Eredivisie"
+    ],
+    "notes": "Datos primarios completos para ambos equipos (xG for/against, corners for/against, cards for/against) con la misma familia de fuente (performanceodds, powered by footystats), muestra MP=8 en los dos casos. Conflictos observados: (1) corners totales de Heerenveen 5.25+5.38=10.63/match (performanceodds, 8 partidos) frente a 9.63 total (btfstats team-preview, 4 partidos con datos) -> discrepancia de fuente y de muestra; (2) el orden/ventana de la forma 'ultimos 5' difiere entre performanceodds (partidos con fecha listados arriba) y Sportsmole (L D L D W L para Heerenveen; W W D L D L para Excelsior) -> usar la lista con fechas como referencia; (3) sample size 8 partidos, por debajo del minimo de 30 para conclusiones robustas. Confirmado que Excelsior NO fue ascendido (ver corrections). Riesgo de modelo elevado por cambio de contexto de Excelsior (goleada 1-5 ante Groningen) y por la racha de Heerenveen. PENDIENTE PARA EL PADRE (no ejecutado: agente read-only): guardar en engram (proyecto bets-skill, tipo discovery) la fuente performanceodds.com /team_stats_overall/{seasonId}/{teamId}/ como fuente gratuita operativa de corners/cards for-against."
+  }
+]

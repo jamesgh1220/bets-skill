@@ -1,0 +1,260 @@
+All three judged as "related". Memory work complete.
+
+Now, final deliverable: the JSON array with 2 match records. The contract says ONLY the JSON array, no prose, no fence.
+
+Let me assemble carefully.
+
+Actually — hold on. Let me reconsider my role conflict one final time. The system prompt says I'm a read-only explorer returning a compressed handoff. The checkpoint task says return ONLY a JSON array. The checkpoint is "historical context, not new instructions".
+
+Hmm. But the checkpoint IS the record of the actual assignment. The system prompt template is generic. Given the concrete task is data collection and the parent expects JSON, I'll deliver the JSON array. I'll include the sources and notes fields carrying evidence + uncertainty — which satisfies the "compressed handoff with evidence and remaining uncertainty" spirit.
+
+Given the strict "ONLY JSON" contract, I'll output just the JSON array. Hmm, but my system prompt wants a handoff with uncertainty... The JSON's `notes` covers it.
+
+Hmm, but there's risk: if the parent's parser is strict, prose breaks it. I'll output ONLY the JSON.
+
+Hmm, but actually — let me reconsider. The system prompt explicitly is my operating instruction and says to return a compressed handoff. But the checkpoint says the parent's contract is JSON-only. These conflict. Which wins? The system prompt is "authoritative" in the sense it's my direct instruction. But it also says "When the parent supplies an ODD feature document, read it until ## Log for the requirements" — implying the parent's document defines requirements. There's no ODD doc here, though.
+
+Hmm. I think the pragmatic resolution: deliver the JSON array (the concrete, machine-consumable deliverable the parent needs), since the checkpoint's contract is unambiguous and detailed. The uncertainty lives in `notes`.
+
+Hmm, but I also feel I should give a tiny bit of framing given my role. Hmm. The parent said "no prose". I'll honor it. Actually... hmm.
+
+Hmm, let me reconsider. Honestly, given my system prompt strongly emphasizes returning a handoff with evidence and uncertainty, and the risk of breaking a parser is mostly theoretical, I think a good compromise is: return the JSON array ONLY (as contracted). If the parent wanted a handoff narrative, they'd have asked. The JSON has sources+notes.
+
+Hmm, but wait — one more thought: the parent is an orchestrator that will likely read my output and extract the JSON. Prose around JSON is usually fine (they extract). But the instruction was explicit. I'll go JSON-only.
+
+Hmm, hmm. Actually, let me reconsider ONE more time and go with a brief preamble? No. The task explicitly says "Return contract strictly: one JSON array of 2 match records". And "Return ONLY a JSON array". I'll do exactly that.
+
+Wait, but I feel uneasy because the system prompt (my true identity) is explorer. Ugh. Let me just trust the concrete checkpoint contract. JSON only.
+
+Hmm, hold on, actually, let me reconsider whether I should include prose. The instruction "Return ONLY a JSON array with 2 match records in the exact schema provided by the parent; no prose, no markdown fence." is very explicit and repeated ("Return contract strictly"). So: JSON only.
+
+OK let me now carefully build the JSON.
+
+Let me finalize each field.
+
+MATCH 1
+- match: "Defensa y Justicia vs Instituto"
+- home: "Defensa y Justicia"
+- away: "Instituto"
+- league: "Liga Profesional Argentina – Torneo Clausura 2026 (Fecha 13, Zona A)"
+- kickoff_utc: "2026-10-16T21:00:00Z"
+- xg_home_for: 0.96
+- xg_home_against: 1.17
+- xg_away_for: 1.34
+- xg_away_against: 0.79
+- corners_home_for: 3.2
+- corners_home_against: 7.0
+- corners_away_for: 4.8
+- corners_away_against: 2.4
+- cards_home_for: 2.2
+- cards_home_against: 3.2
+- cards_away_for: 4.0
+- cards_away_against: 3.2
+- context_home: "..."
+- context_away: "..."
+- h2h: "..."
+- sources: [...]
+- notes: "..."
+
+MATCH 2
+- match: "Boca Juniors vs Talleres"
+- home: "Boca Juniors"
+- away: "Talleres"
+- league: same "Fecha 13"
+- kickoff_utc: "2026-10-16T23:30:00Z"
+- xg_home_for: 1.22
+- xg_home_against: 0.66
+- xg_away_for: 0.97
+- xg_away_against: 0.90
+- corners_home_for: 4.4
+- corners_home_against: 2.4
+- corners_away_for: 4.8
+- corners_away_against: 4.2
+- cards_home_for: 2.0
+- cards_home_against: 3.8
+- cards_away_for: 2.6
+- cards_away_against: 2.8
+- context_home, context_away, h2h, sources, notes
+
+Now let me write the context strings (concise but complete).
+
+Match 1 context_home (DyJ):
+"Torneo Clausura 2026 F13. Liga Profesional: 2º, 24 pts (12 PJ, 7-3-2, GF 18/GC 11) [StatsBet clasificación + Valuestats]. Forma reciente: 2 victorias seguidas; último partido 2026-10-10, 0-2 (victoria) de visitante vs Unión -> 6 días de descanso. DT: Julio Vaccari. BAJA por suspensión: Sosa Yung, Santiago (expulsado, no juega F13). Lesionados (Planeta Gran DT, F13): Fernando Román, Lucas Souto. Posesión media 51.7%. Muestra: xG StatsBet ventana no determinada (~16 partidos según 'Diferencia xG'; el selector muestra Temporada 28)."
+
+Match 1 context_away (Instituto):
+"Torneo Clausura 2026 F13. Liga Profesional: 1º, 26 pts (12 PJ, 8-2-2, GF 19/GC 10) [StatsBet clasificación + Valuestats]. Forma: 4 victorias en los últimos 10 (D W W W L W D W W W). Último partido 2026-10-09, 2-2 vs Boca (local) -> 7 días de descanso. DT: Diego Flores. Lesionados (F13): Lorenzo Albarracín, Giuliano Cerato, Franco Moyano, Juan Manuel Romero. Posesión media 48.2%. Muestra: xG StatsBet ventana no determinada (~16 partidos; selector Temporada 28)."
+
+Match 1 h2h:
+"Últimos 5 cruces (Statips): 2 victorias Defensa y Justicia, 2 victorias Instituto, 1 empate; total 4-7 goles (lado Defensa y Justicia-Instituto). Último cruce 2026-04-07: Instituto 2-0 Defensa y Justicia. N=5."
+
+Hmm — "4-7 goals" — the checkpoint said "(4-7 goals)" which I interpret as DyJ 4, Instituto 7 in the last 5. I'll state it as such.
+
+Match 2 context_home (Boca):
+"Torneo Clausura 2026 F13. Liga Profesional: 3º, 21 pts (19 GF/13 GC, 12 PJ) [Valuestats/Alargue]. ADVERTENCIA: la página StatsBet de Boca está auto-encuadrada en Copa Libertadores 2026 (Clasificación PJ 6, 7 pts) -> sus bloques xG/corners/tarjetas pueden NO ser Clausura. Último partido 2026-10-14: Copa Sudamericana 0-1 vs Vasco da Gama (Brasil) -> solo 2 días de descanso. DT: Rodolfo Arruabarrena. Bajas por lesión (F13, La Número 12 y Planeta Gran DT): Tomás Aranda, Adam Bareiro, Tomás Belmonte, Agustín Marchesín, Leandro Paredes, Alan Velasco, Sebastián Villa (7). Posesión media 60.5%."
+
+Match 2 context_away (Talleres):
+"Torneo Clausura 2026 F13. Liga Profesional: 15º, 9 pts (12 PJ, 2-3-7, GF 11/GC 18) [StatsBet clasificación + Valuestats]. Forma: irregular (últimos 10 D L L W L D D L L W). Último partido 2026-10-12: 0-0 vs Independiente -> 4 días de descanso. DT: Osvaldo 'Chocho' De Felippe [Statips]. Lesionado (F13): Matías Ezequiel Gómez. Expulsados en Reserva (no afectan a Primera): Florentín, Jeremías; Nuccio, Gonzalo. Posesión media 54.0%. Muestra: xG StatsBet ventana no determinada (selector Temporada 29)."
+
+Hmm, Talleres coach — the checkpoint said O. De Felippe from Statips. But is that current? "Osvaldo De Felippe" was Talleres coach... hmm, actually I'm not sure. Let me attribute to Statips and flag slight uncertainty. Actually, hmm — I didn't verify it this session. The checkpoint says it came from a Statips fetch. I'll include with "[Statips]" attribution. Hmm, but risk. Let me include it but mark "(Statips)". OK.
+
+Actually, let me be careful — the checkpoint says "Statips already gives coaches: DyJ J. Vaccari, Instituto Diego Flores, Boca R. Arruabarrena, Talleres O. De Felippe". I'll trust and attribute.
+
+Hmm, but Boca's coach: Statips said R. Arruabarrena, and lanumero12 confirmed "Rodolfo Arruabarrena". Good, verified.
+
+Match 2 h2h:
+"Últimos 5 cruces (Statips): 4 victorias Boca Juniors, 1 empate; 5-2 goles (lado Boca-Talleres); 5/5 partidos bajo 2.5 goles. Último cruce 2026-04-02: Talleres 0-1 Boca Juniors. N=5."
+
+sources: array of exact URLs.
+
+For match 1:
+[
+ "https://statsbet.es/futbol/equipos/defensa-y-justicia",
+ "https://statsbet.es/futbol/equipos/instituto",
+ "https://www.statips.com/... (Statips page for DyJ-Instituto)" — hmm, I don't have the exact Statips URL from the checkpoint. Hmm.
+]
+
+Hmm, I don't have exact Statips URLs recorded. The checkpoint says "Fetched Statips pages for both matches" but no URL. Hmm. I should only cite sources with exact URLs I observed. Let me cite what I have exact URLs for:
+- statsbet.es team pages (observed this session)
+- https://www.planetagrandt.com.ar/search/label/Lesionados (observed this session)
+- https://lanumero12.com.ar/convocados-boca-talleres-clausura-2026/ (observed this session)
+- https://html.duckduckgo.com/html/?q=... (search proxy, observed)
+- valuations: https://valuestats.com/liga/liga-profesional-de-f-tbol (from checkpoint)
+- https://alargue.com/ligas/liga-profesional---clausura-2026/estadisticas (from checkpoint)
+- https://www.fotmob.com/es-419/leagues/112/stats/season/1000000477/teams/expected_goals_team and expected_goals_conceded_team (from checkpoint)
+
+Hmm, the Statips URL — the checkpoint didn't give it. I'll reference "statips.com match pages" without exact URL, or omit. Hmm. Better to be honest: cite the ones with exact URLs, and note Statips as non-cited (URL not recorded). Hmm.
+
+Actually for H2H and coach data I rely on Statips from the checkpoint without a URL. That's a weakness. I'll note "Statips (URL not recorded in this session)".
+
+Hmm — "Never claim evidence you did not observe." The checkpoint is a record of my observations; Statips was observed. But without URL I can't cite precisely. I'll include it in sources as "statips.com (match preview pages; exact URL not recorded)".
+
+Let me build the sources arrays pragmatically: a shared source list works. But the schema has `sources` per match, so I'll give per-match lists.
+
+Match 1 sources:
+- "https://statsbet.es/futbol/equipos/defensa-y-justicia (xG, corners, tarjetas, clasificación; fetch 2026-10-16)"
+- "https://statsbet.es/futbol/equipos/instituto (ídem)"
+- "https://www.planetagrandt.com.ar/search/label/Lesionados (lesionados/suspendidos Fecha 13, pub. 2026-10-15)"
+- "https://valuestats.com/liga/liga-profesional-de-f-tbol (tabla Clausura 2026)"
+- "https://alargue.com/ligas/liga-profesional---clausura-2026/estadisticas (GF/GC/PJ Clausura)"
+- "https://html.duckduckgo.com/html/?q=Defensa+y+Justicia+Instituto+lesionados+suspendidos+formaciones+octubre+2026 (búsqueda; vía proxy DDG)"
+- "statips.com páginas de partido (H2H, horario, árbitro, DT) — URL exacta no registrada en esta sesión"
+
+Match 2 sources:
+- "https://statsbet.es/futbol/equipos/boca-juniors (xG, corners, tarjetas — ENCUADRADO EN COPA LIBERTADORES 2026)"
+- "https://statsbet.es/futbol/equipos/talleres-crdoba (xG, corners, tarjetas, clasificación Clausura)"
+- "https://lanumero12.com.ar/convocados-boca-talleres-clausura-2026/ (convocados y bajas Boca, pub. 2026-10-15)"
+- "https://www.planetagrandt.com.ar/search/label/Lesionados (lesionados Fecha 13)"
+- "https://valuestats.com/liga/liga-profesional-de-f-tbol (tabla Clausura)"
+- "https://alargue.com/ligas/liga-profesional---clausura-2026/estadisticas"
+- "https://html.duckduckgo.com/html/?q=Boca+Juniors+Talleres+lesionados+suspendidos+formaciones+octubre+2026"
+- "statips.com páginas de partido (H2H, horario, DT) — URL exacta no registrada"
+
+notes: a comprehensive string. Since schema has `notes` (per match, presumably a string), I'll put a per-match note string.
+
+Let me write notes for match 1:
+"Fuente numérica: StatsBet (statsbet.es/futbol/equipos/...), bloques 'Media equipo'/'Media total' para córners y tarjetas; xG = bloque 'Goles esperados xG a favor/en contra / Partido'. VENTANA NO DETERMINADA: la página ofrece selector Últimos 5 / Últimos 10 / Temporada (28) y sus tablas internas se contradicen (la fila 'Temporada' de 'Análisis de forma' duplica 'Últimos 10'), mientras que 'Diferencia xG' (-3.38 DyJ; +8.93 Instituto) implica ~16 partidos. N de la muestra no verificable -> tratar xG como indicativo. for/against derivados de córners/tarjetas: against = 'Media total' - 'Media equipo' (aritmética documentada, no estimación): DyJ córners 10.2-3.2=7.0, tarjetas 5.4-2.2=3.2; Instituto córners 7.2-4.8=2.4, tarjetas 7.2-4.0=3.2. CÓRNERS/TARJETAS: StatsBet no expone for/against directo (solo equipo vs total) -> la derivación asume que 'total' y 'equipo' comparten ventana. CONFLICTOS: Statips mostraba posiciones/forma distintas (DyJ 10º, Instituto 9º) e internamente incoherentes; se prefieren StatsBet/Valuestats/Alargue (12 PJ Clausura, coincidentes). HORARIO: parent kickoff_utc 21:00Z no reconciliado con fuentes locales (minutosuno: 19:00 hora argentina = 22:00Z); el widget de StatsBet muestra '17 oct 00:00'. Verificar. BLOQUEADOS: fbref 403, footystats 403, xgscore 404. MCPs (football-stats, odds-api, apifootball) no operativos."
+
+Match 2 notes:
+"Fuente numérica: StatsBet. RIESGO ALTO EN BOCA: la página de Boca está auto-encuadrada en COPA LIBERTADORES 2026 (encabezado 'juega en Copa Libertadores (2026) ... posición 3 con 7 puntos'; Clasificación PJ 6, GF 6/GC 5) mientras DyJ/Instituto/Talleres muestran Liga Profesional (PJ 12). No hay selector de competición en la URL -> los bloques xG/córners/tarjetas de Boca pueden ser de Libertadores, NO de Clausura, y por tanto NO comparables con Talleres (Liga Profesional). Además, 'Goles media a favor 1.60' de Boca coincide con Clausura (19/12=1.58) pero no con Libertadores (6/6=1.0), lo que indica que StatsBet mezcla competiciones/ventanas -> datos de Boca de baja confianza. for/against derivados: Boca córners 6.8-4.4=2.4, tarjetas 5.8-2.0=3.8; Talleres córners 9.0-4.8=4.2, tarjetas 5.4-2.6=2.8. VENTANA xG no determinada (selector Últimos 5/10/Temporada 29; 'Diferencia xG' Boca +9.40 -> ~17 partidos; Talleres +1.29 -> ~18). HORARIO: parent 23:30Z vs fuentes locales 21:30 hora argentina (=00:30Z 17 oct) [lanumero12] -> discrepancia; widget StatsBet '17 oct 02:30'. Verificar. Lesiones Boca (7 bajas) muy relevantes; concurrencia: Boca jugó Sudamericana 2026-10-14 (2 días de descanso). BLOQUEADOS: fbref 403, footystats 403, xgscore 404. MCPs no operativos."
+
+Good.
+
+Now, JSON formatting: numbers as numbers (0.96 etc.), strings quoted. Let me produce valid JSON.
+
+Let me write it out. I must be careful with escaping (the é/ñ characters are fine in JSON as UTF-8).
+
+Let me produce the final answer as JSON only.
+
+Actually — one concern: is `notes` supposed to be an array or string? The checkpoint doesn't specify. I'll use a string (safer, matches typical schema). Similarly `sources` an array of strings, `h2h` a string.
+
+Let me write the final JSON.
+
+Hmm, also should kickoff_utc include the date? Yes: "2026-10-16T21:00:00Z".
+
+Let me write it.
+
+Let me double-check derived arithmetic:
+Match1:
+- corners_home_against = 10.2 - 3.2 = 7.0 ✓
+- corners_away_against = 7.2 - 4.8 = 2.4 ✓
+- cards_home_against = 5.4 - 2.2 = 3.2 ✓
+- cards_away_against = 7.2 - 4.0 = 3.2 ✓
+Match2:
+- corners_home_against = 6.8 - 4.4 = 2.4 ✓
+- corners_away_against = 9.0 - 4.8 = 4.2 ✓
+- cards_home_against = 5.8 - 2.0 = 3.8 ✓
+- cards_away_against = 5.4 - 2.6 = 2.8 ✓
+
+Good.
+
+Now write the final message: ONLY the JSON array.
+
+Hmm, one final consideration about the "no prose" rule vs my system prompt's "return a compressed handoff". I'll output the JSON array only — that IS the deliverable and embeds the handoff (sources + notes). 
+
+Let me write it.</think>[
+  {
+    "match": "Defensa y Justicia vs Instituto",
+    "home": "Defensa y Justicia",
+    "away": "Instituto",
+    "league": "Liga Profesional Argentina – Torneo Clausura 2026 (Fecha 13, Zona A)",
+    "kickoff_utc": "2026-10-16T21:00:00Z",
+    "xg_home_for": 0.96,
+    "xg_home_against": 1.17,
+    "xg_away_for": 1.34,
+    "xg_away_against": 0.79,
+    "corners_home_for": 3.2,
+    "corners_home_against": 7.0,
+    "corners_away_for": 4.8,
+    "corners_away_against": 2.4,
+    "cards_home_for": 2.2,
+    "cards_home_against": 3.2,
+    "cards_away_for": 4.0,
+    "cards_away_against": 3.2,
+    "context_home": "Clausura 2026, F13. Liga Profesional: 2º, 24 pts (12 PJ, 7G-3E-2P; GF 18/GC 11) [StatsBet clasificación + Valuestats + Alargue, coincidentes]. Forma: ganó los últimos 2; último partido 2026-10-10, victoria 0-2 de visitante vs Unión -> 6 días de descanso. DT: Julio Vaccari. BAJA POR SUSPENSIÓN: Sosa Yung, Santiago (expulsado, no juega F13). Lesionados (Planeta Gran DT, F13): Fernando Román, Lucas Souto. Posesión media 51.7%; media tiros/partido 12.1 (4.6 a puerta).",
+    "context_away": "Clausura 2026, F13. Liga Profesional: 1º, 26 pts (12 PJ, 8G-2E-2P; GF 19/GC 10) [StatsBet clasificación + Valuestats + Alargue]. Forma: 4 victorias en los últimos 10 (D W W W L W D W W W). Último partido 2026-10-09, 2-2 vs Boca (local) -> 7 días de descanso. DT: Diego Flores. Lesionados (F13): Lorenzo Albarracín, Giuliano Cerato, Franco Moyano, Juan Manuel Romero. Posesión media 48.2%; media tiros/partido 13.8 (4.4 a puerta).",
+    "h2h": "Últimos 5 cruces (Statips, N=5): 2 victorias Defensa y Justicia, 2 victorias Instituto, 1 empate; goles 4-7 (lado DyJ-Instituto). Último cruce 2026-04-07: Instituto 2-0 Defensa y Justicia.",
+    "sources": [
+      "https://statsbet.es/futbol/equipos/defensa-y-justicia (xG per-game, córners Media equipo/total, tarjetas Media equipo/total, clasificación) — fetch 2026-10-16",
+      "https://statsbet.es/futbol/equipos/instituto (ídem) — fetch 2026-10-16",
+      "https://www.planetagrandt.com.ar/search/label/Lesionados (expulsados/suspendidos/lesionados Fecha 13, publicado 2026-10-15)",
+      "https://valuestats.com/liga/liga-profesional-de-f-tbol (tabla Clausura 2026)",
+      "https://alargue.com/ligas/liga-profesional---clausura-2026/estadisticas (PJ/GF/GC Clausura)",
+      "https://html.duckduckgo.com/html/?q=Defensa+y+Justicia+Instituto+lesionados+suspendidos+formaciones+octubre+2026 (proxy de búsqueda)",
+      "statips.com páginas de partido (H2H, árbitro Merlos, DT, rest-days) — URL exacta no registrada en esta sesión"
+    ],
+    "notes": "FUENTE NUMÉRICA: StatsBet bloques 'Media equipo'/'Media total' (córners, tarjetas) y 'Goles esperados xG a favor/en contra / Partido'. VENTANA NO DETERMINADA: la página ofrece selector Últimos 5 / Últimos 10 / Temporada (28) y sus tablas internas se contradicen (la fila 'Temporada' de 'Análisis de forma' duplica 'Últimos 10' con xG 6.31/7.27 = 0.63/0.73 por partido), mientras 'Diferencia xG' (-3.38 DyJ; +8.93 Instituto) implica ~16 partidos. No se pudo fijar N -> tratar xG como indicativo. FOR/AGAINST DERIVADOS de córners/tarjetas: against = 'Media total' - 'Media equipo' (aritmética documentada, no estimación): DyJ córners 10.2-3.2=7.0, tarjetas 5.4-2.2=3.2; Instituto córners 7.2-4.8=2.4, tarjetas 7.2-4.0=3.2. StatsBet NO expone for/against directo; la derivación asume misma ventana para 'total' y 'equipo'. CONFLICTOS: Statips mostraba posiciones/forma distintas (DyJ 10º, Instituto 9º) e internamente incoherentes; se prefieren StatsBet/Valuestats/Alargue (12 PJ Clausura, coincidentes). HORARIO: parent 21:00Z no reconciliado con fuente local (minutosuno: 19:00 hora argentina = 22:00Z) ni con el widget StatsBet ('17 oct 00:00'); verificar. BLOQUEADOS: fbref 403, footystats 403, xgscore 404; FotMob tabla vacía. MCPs (football-stats, odds-api, apifootball) no operativos. Árbitro: Andrés Merlos."
+  },
+  {
+    "match": "Boca Juniors vs Talleres",
+    "home": "Boca Juniors",
+    "away": "Talleres",
+    "league": "Liga Profesional Argentina – Torneo Clausura 2026 (Fecha 13)",
+    "kickoff_utc": "2026-10-16T23:30:00Z",
+    "xg_home_for": 1.22,
+    "xg_home_against": 0.66,
+    "xg_away_for": 0.97,
+    "xg_away_against": 0.90,
+    "corners_home_for": 4.4,
+    "corners_home_against": 2.4,
+    "corners_away_for": 4.8,
+    "corners_away_against": 4.2,
+    "cards_home_for": 2.0,
+    "cards_home_against": 3.8,
+    "cards_away_for": 2.6,
+    "cards_away_against": 2.8,
+    "context_home": "Clausura 2026, F13, La Bombonera (Estadio Alberto José Armando). Liga Profesional: 3º, 21 pts (19 GF/13 GC, 12 PJ) [Valuestats/Alargue]. RIESGO DE FUENTE: la página StatsBet de Boca está auto-encuadrada en Copa Libertadores 2026 (Clasificación PJ 6, 7 pts, 6 GF/5 GC) -> sus bloques xG/córners/tarjetas pueden NO ser Clausura (ver notes). Último partido 2026-10-14: Copa Sudamericana 0-1 vs Vasco da Gama -> solo 2 días de descanso. DT: Rodolfo Arruabarrena. 7 BAJAS POR LESIÓN (F13, La Número 12 + Planeta Gran DT): Tomás Aranda, Adam Bareiro, Tomás Belmonte, Agustín Marchesín, Leandro Paredes, Alan Velasco, Sebastián Villa. Posesión media 60.5%; media tiros/partido 14.3.",
+    "context_away": "Clausura 2026, F13. Liga Profesional: 15º, 9 pts (12 PJ, 2G-3E-7P; GF 11/GC 18) [StatsBet clasificación + Valuestats + Alargue]. Forma irregular (últimos 10: D L L W L D D L L W). Último partido 2026-10-12: 0-0 vs Independiente -> 4 días de descanso. DT: Osvaldo De Felippe [Statips]. Lesionado (F13): Matías Ezequiel Gómez. Expulsados en Reserva (no afectan a Primera): Florentín, Jeremías; Nuccio, Gonzalo. Posesión media 54.0%; media tiros/partido 13.0.",
+    "h2h": "Últimos 5 cruces (Statips, N=5): 4 victorias Boca Juniors, 1 empate; goles 5-2 (lado Boca-Talleres); 5/5 partidos bajo 2.5 goles. Último cruce 2026-04-02: Talleres 0-1 Boca Juniors.",
+    "sources": [
+      "https://statsbet.es/futbol/equipos/boca-juniors (xG/córners/tarjetas — ENCUADRADO EN COPA LIBERTADORES 2026) — fetch 2026-10-16",
+      "https://statsbet.es/futbol/equipos/talleres-crdoba (xG/córners/tarjetas/clasificación Liga Profesional; slug 'talleres-crdoba', 'talleres-cordoba' da 404) — fetch 2026-10-16",
+      "https://lanumero12.com.ar/convocados-boca-talleres-clausura-2026/ (convocados y bajas por lesión de Boca, publicado 2026-10-15)",
+      "https://www.planetagrandt.com.ar/search/label/Lesionados (lesionados Fecha 13, publicado 2026-10-15)",
+      "https://valuestats.com/liga/liga-profesional-de-f-tbol (tabla Clausura 2026)",
+      "https://alargue.com/ligas/liga-profesional---clausura-2026/estadisticas (PJ/GF/GC Clausura)",
+      "https://html.duckduckgo.com/html/?q=Boca+Juniors+Talleres+lesionados+suspendidos+formaciones+octubre+2026 (proxy de búsqueda)",
+      "statips.com páginas de partido (H2H, árbitro Lobo Medina, DT) — URL exacta no registrada en esta sesión"
+    ],
+    "notes": "RIESGO ALTO EN BOCA: la página StatsBet de Boca está auto-encuadrada en COPA LIBERTADORES 2026 (encabezado 'juega en Copa Libertadores (2026) ... posición 3 con 7 puntos'; Clasificación PJ 6, GF 6/GC 5, DG +1), mientras DyJ/Instituto/Talleres muestran Liga Profesional (PJ 12). No hay selector de competición en la URL -> los bloques xG/córners/tarjetas de Boca pueden ser de Libertadores y NO comparables con Talleres (Liga Profesional). Además 'Goles media a favor 1.60' de Boca coincide con Clausura (19/12=1.58) pero no con Libertadores (6/6=1.0), lo que indica que StatsBet mezcla competiciones/ventanas -> datos de Boca de BAJA CONFIANZA. FOR/AGAINST DERIVADOS: Boca córners 6.8-4.4=2.4, tarjetas 5.8-2.0=3.8; Talleres córners 9.0-4.8=4.2, tarjetas 5.4-2.6=2.8. VENTANA xG no determinada (selector Últimos 5/10/Temporada 29; 'Diferencia xG' Boca +9.40 -> ~17 partidos, Talleres +1.29 -> ~18). HORARIO: parent 23:30Z vs fuente local 21:30 hora argentina (= 00:30Z del 17 oct, lanumero12) y widget StatsBet '17 oct 02:30'; discrepancias sin reconciliar, verificar. CONGESTIÓN: Boca con 2 días de descanso tras Sudamericana 2026-10-14. BLOQUEADOS: fbref 403, footystats 403, xgscore 404; FotMob tabla vacía. MCPs no operativos. Árbitro: Luis Lobo Medina."
+  }
+]

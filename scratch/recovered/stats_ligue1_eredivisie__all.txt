@@ -1,0 +1,655 @@
+
+
+===== seq 18 =====
+Starting data collection. First batch: xG sources for both leagues.
+
+===== seq 46 =====
+Understat has no Eredivisie. Trying footystats team pages (they cover xG + corners + cards).
+
+===== seq 79 =====
+Websearch is cancelling repeatedly. Falling back to direct webfetch on known URL patterns.
+
+===== seq 99 =====
+websearch is down (5/5 cancelled). Switching entirely to webfetch. Testing fallback sources:
+
+===== seq 122 =====
+DuckDuckGo HTML works as search fallback, Wikipedia confirms Le Mans in Ligue 1. statz.ai looks like a single-family source for xG+corners+cards. Probing team pages:
+
+===== seq 145 =====
+statz.ai returns empty (JS-rendered). Trying btfstats.com and performanceodds.com which advertise corners/cards, plus slug discovery:
+
+===== seq 168 =====
+JACKPOT: performanceodds.com team_stats_overall/{season}/{teamId}/ gives xG for/against, corners won/conceded, cards for/against per match — exactly the 8+4 fields needed, same source family, with sample size (8 MP for Heerenveen). It's footystats-powered (cdn.footystats.org img, "Data powered by oddspedia"). 
+
+Team IDs so far: Heerenveen = 373 (path /17097/373/). Need IDs for: Excelsior, Le Mans, Toulouse. season id 17097. The "Teams List" link: https://www.performanceodds.com/teams/17097 → lists all teams with IDs. One fetch could give all IDs. 
+
+Note discrepancy: performanceodds "Overall Match Averages" says corners 10.63 (match total) and "corners won 5.25 / conceded 5.38". Also "Cards Per Match 2.5" (match total) while team cards 1.13 for / 1.38 against. Good — we need for/against splits: corners for 5.25, against 5.38; cards for 1.13, against 1.38. xG for 1.73, xGA 1.68. Sample 8 matches.
+
+Hmm wait, one inconsistency: BTFstats also gives Heerenveen corners 9.63 (matches — but that's "Corners" stat = maybe match total over last 5) and Cards 2.50. And btfstats team averages (4 matches with statistics) corners for 6.0 / against 4.0. Different sample (4 matches, all competitions). Prefer performanceodds (8 league matches, clean for/against splits).
+
+Now fetch the teams list for season 17097 to get IDs for the other three teams. Also fetch the match preview? Not needed.
+
+Priority calls remaining (used 14 so far):
+1. https://www.performanceodds.com/teams/17097 → team IDs (one call, maybe large).
+Then:
+2. Excelsoir page /17097/{id}/
+3. Le Mans page
+4. Toulouse page
+Each gives xG, corners, cards, form, position — solves almost everything in 3 more calls.
+
+Then: context (injuries, coach status, news) — use wikipedia season pages (Le Mans FC season? Toulouse 2026-27 season) and maybe a news source. H2H: performanceodds match preview page or btfstats match-preview: https://www.btfstats.com/match-preview,2026,sc-heerenveen,excelsior,2026-10-16 and le-mans,toulouse. Those could give H2H. Or sportsmole preview pages give H2H/team news.
+
+Also need Ligue 1 jornada number. The match Le Mans vs Toulouse on 2026-10-16: Ligue 1 started 21 Aug 2026; matches played 45 total by ~20 Sept (5 rounds?). Actually 45 matches as of 20 September means 9 rounds? 18 teams → 9 matches per round; 45 matches = 5 rounds. So by 20 Sept = MD5? Hmm, 45/9 = 5 rounds. Then Oct 16 might be around MD8. Need actual data: I could fetch the performanceodds Le Mans page which may show match count (8 league matches for Heerenveen; Ligue 1 Le Mans might show 7). Jornada for the match: performanceodds match page /fixtures_match/{id}/ might state round. Alternatively footystats league page. Let me check btfstats match-preview page, which might include the round.
+
+Plan next batch (4 parallel):
+1. https://www.performanceodds.com/teams/17097 (team list with IDs)
+2. https://www.performanceodds.com/team_stats_overall/17097/373/ — already done, skip.
+2. https://www.btfstats.com/match-preview,2026,sc-heerenveen,excelsior,2026-10-16 (H2H + maybe round)
+3. https://www.btfstats.com/match-preview,2026,le-mans,toulouse-fc,2026-10-16 (H2H)
+   Hmm slug uncertainty: btfstats uses "toulouse" and "le-mans-fc"? DDG showed both team-preview,2026,toulouse and ,2026,toulouse-fc, and le-mans and le-mans-fc. For match-preview, first team is home: for Heerenveen page, links showed /match-preview,2026,sc-heerenveen,excelsior,2026-10-16 — exact URL confirmed! For Le Mans vs Toulouse: need exact slugs. Guess: le-mans-fc,toulouse-fc? The Heerenveen page used "sc-heerenveen" (same as team-preview). Various team names are ambiguous duplicates on btfstats. Risky; try "le-mans-fc,toulouse-fc" and if fails try other.
+
+Actually simpler: sportsmole preview page (found in DDG) contains team news + H2H for Le Mans vs Toulouse: https://www.sportsmole.co.uk/football/le-mans/preview/le-mans-vs-toulouse-prediction-team-news-lineups_606855.html. And thestatszone preview also useful. Those cover context + H2H for match 1. For match 2 (Heerenveen vs Excelsior), maybe a similar preview exists — search later if budget allows.
+
+Let me batch:
+1. performanceodds teams list (IDs for excelsior, le-mans, toulouse)
+2. btfstats match-preview,2026,sc-heerenveen,excelsior,2026-10-16
+3. sportsmole Le Mans vs Toulouse preview
+4. sportsmole Heerenveen preview? Unknown URL. Instead: pythiafootball.com/team/excelsior/ (Excelsior stats — corners/cards, alternative source, good for cross-check) — but performanceodds will cover. Better use 4th slot for thestatszone preview (Le Mans vs Toulouse) — no, sportsmole covers context. 
+
+Better 4th: performanceodds eredivisie page? Not needed.
+
+4th slot: DDG search for "Heerenveen vs Excelsior preview 16 October 2026 team news" to get a preview URL + context. That's useful.
+
+Actually, let me not waste; do the teams list fetch first alone? Parallel is fine, IDs list is needed to then fetch 3 team pages. Let's go.</think>Found the ideal source: performanceodds.com (footystats-powered) gives xG, corners and cards **with for/against splits** per team. Getting the team-ID list plus H2H/preview pages:
+
+===== seq 189 =====
+Excellent progress. Key data obtained:
+
+**Team IDs (performanceodds, season 17097):**
+- Excelsior = 374
+- Heerenveen = 373 (done: xG 1.73/1.68, corners 5.25/5.38, cards 1.13/1.38, 8 MP)
+- Ligue 1 teams: need IDs from Ligue 1 team list (different season id). French Ligue 1 2026-2027 team list at /teams/{frenchSeasonId}. Unknown. I could guess the pattern: Eredivisie season id 17097. Ligue 1 season id maybe 17096? Hmm. Or use DDG to find performanceodds team page for Le Mans/Toulouse. Actually simpler: the btfstats/performanceodds "Teams List" for Ligue 1 - I can try /teams/17098, /17096... risky.
+
+Better: search DDG for "performanceodds team_stats_overall le mans" to get exact URL. Or fetch the Ligue 1 league page https://www.performanceodds.com/ligue-1/ which may link to team pages with IDs.
+
+**Confirmed Ligue 1 round: Gameweek 7 (sportsmole says "Ligue 1 Gameweek 7").** Le Mans 14th, Toulouse 15th entering the match. Wait — sportsmole says "these teams sit 14th and 15th, respectively" = Le Mans 14th, Toulouse 15th. But also statz said Le Mans 14th, Toulouse 15th. Consistent.
+
+Note: sportsmole preview says "Le Mans ... Saturday ... Mafouta" with odd references to Saturday; kickoff per our task is 2026-10-16T18:45Z = Friday (19:45 CET). Sportsmole page header says "Oct 16, 2026 7.45pm". Good.
+
+Ligue 1 form (sportsmole):
+Le Mans: D(L2-2 Brest), L(3-2 at Rennes), D(1-1 at Nice), D(2-2 vs Lens), W(2-1 vs Lorient), L(3-1 at PSG) = last 6: D L D D W L → most recent L (PSG 1-3). Le Mans lost 3-1 to PSG "last weekend" (MD6). So Le Mans have played 6 matches, last on ~Oct 10-11. Rest days: Oct 16 minus Oct 10 = ~5-6 days.
+Toulouse: L(0-2 Lyon), D(2-2 Brest), L(0-1 Lille), D(2-2 Lorient), W(3-2 Le Havre), D(2-2 Monaco) → last: D at Monaco (2-2) MD6.
+
+Toulouse manager Jens Berthel Askou (changed in May 2026 from Carles Martínez Novell). Kits: confirmed.
+
+H2H: "For the first time in over 16 years, Toulouse will face Le Mans in the French top flight"; Le Mans last beat Toulouse 2-0 at home in Dec 2006; Toulouse won last meeting 3-1 (2010); "extend their winning run against Le Mans to five matches in this competition". So H2H: Toulouse won last 5 meetings (in Ligue 1), last official meeting 2010 (Toulouse 3-1). Good enough with citation.
+
+Team news:
+- Le Mans: Adil Bourabaa (ankle, could miss), Martin Rossignol (knee, questionable), Erwan Colas (back, doubtful), Djibril Sidibe eligible to return from suspension. Manager Patrick Videira. Le Mans lead league in penalties conceded (3) and cautions (14). Mafouta team-leading 4 goals.
+- Toulouse: Abu Francis (hamstring, doubtful), Rasmus Nicolaisen (knock), Aron Donnum returns from suspension. Manager Jens Berthel Askou seeking first away win. Third in touches in opposition box; fifth in big chances missed (14).
+
+**BTF match preview for Heerenveen vs Excelsior** returned no meaningful content (page didn't render stats, just nav + "Head to head, form and market statistics ahead of"). So no H2H there.
+
+Now needed:
+1. Excelsior team stats page: /team_stats_overall/17097/374/ — gives xG, corners, cards for/against + last 5 + position. 1 call.
+2. Le Mans + Toulouse team stats: need Ligue 1 season id and team ids. Try the Ligue 1 league page: https://www.performanceodds.com/ligue-1/ — might list teams. Or DDG search. Let me fetch the Ligue 1 league page and maybe it has team list links.
+3. Sportsmole Heerenveen vs Excelsior preview (for context + H2H): https://www.sportsmole.co.uk/football/heerenveen/preview/heerenveen-vs-excelsior-prediction-team-news-lineups_606893.html
+
+Batch next 3 calls (parallel):
+1. performanceodds /team_stats_overall/17097/374/
+2. performanceodds /ligue-1/ (hoping for team links)
+3. sportsmole heerenveen vs excelsior preview _606893
+
+Calls used: 18. Remaining ~12.
+
+Then likely: 2 more team stat calls (Le Mans, Toulouse), maybe 1-2 DDG for Ligue 1 team IDs if /ligue-1/ page doesn't give them. Then finalize. Also maybe btfstats Excelsior cards/corners cross-check — optional; skip if budget tight.
+
+Note: performanceodds last-5 for Heerenveen show matches Sep 6-Oct 9 — note their "last 5" excludes the Aug matches, fine.
+
+Also there's a discrepancy to record: victory claim "Excelsior is promoted" is false (they finished 13th in Eredivisie 2025-26 and stayed).
+
+Let me proceed.</think>Confirmed: **Gameweek 7** for Ligue 1, Excelsior ID=374. Fetching Excelsior stats, Ligue 1 team list, and the Heerenveen-Excelsior preview:
+
+===== seq 206 =====
+Got Excelsior: xG for 1.34 / against 1.7, corners won 4.13 / conceded 5.25, cards for 1.38 / against 0.88, 8 MP, position #8. Last 5: L 1-5 Groningen (11 Oct), D 2-2 Ajax, L 1-2 Utrecht, D 2-2 NEC, W 0-3 at Willem II.
+
+Note performanceodds "Excelsior league position #8" vs earlier DDG snippet said... fine.
+
+Heerenveen position #10, Excelsior #8. Sportsmole says round nine of Eredivisie, gameweek 9. Kickoff 16 Oct 19:00 local = 17:00 UTC?? Sportsmole says "Oct 16, 2026 7.00pm" — UK time? Their site is UK; 7pm UK = 18:00 UTC. Task says 18:00 UTC. Consistent.
+
+Now for Ligue 1 teams (Le Mans, Toulouse) I still need performanceodds pages. The DDG search didn't return performanceodds results for Le Mans. The Ligue 1 season id is unknown. Options:
+- Fetch https://www.performanceodds.com/ligue-1/ — likely shows league page with links to teams list.
+Let's try that; also try guessing French season id: Eredivisie = 17097. Footystats season ids for 2026/2027: England Premier League maybe 17094, Ligue 1 maybe 17102? Guessing is unreliable. Better: DDG search for "performanceodds.com team_stats_overall toulouse" or fetch /ligue-1/.
+
+Calls used: 21. Remaining ~9. Need: Le Mans + Toulouse stats (2 calls after finding IDs). Let me do a batch:
+1. https://www.performanceodds.com/ligue-1/ (hope for team links)
+2. https://html.duckduckgo.com/html/?q=%22performanceodds%22+%22team_stats_overall%22+toulouse+ligue+1
+
+Alternatively, I know footystats team IDs are shared: performanceodds path uses footystats team ids (Heerenveen 373, Excelsior 374, PSV 121, Feyenoord 367, Ajax 120 = footystats IDs indeed). Footystats team IDs for French clubs: Le Mans ≈ 1142? Toulouse ≈ 1161? I don't reliably know. And Ligue 1 season id unknown.
+
+Rather than guess, fetch /ligue-1/ and a DDG query. If /ligue-1/ has "Teams List" link like /teams/{id}, that gives season id + team ids in 1 more call. Might take 2 calls. Then 2 team pages = total 4 more calls (25). Then final. Should be fine.
+
+Also note: for Ligue 1 I should record that Ligue 1 teams have played 6 matches (MD6 played, MD7 upcoming). Le Mans xG sample will be ~6 matches.
+
+Let me batch the 2 discovery calls plus, to be efficient, also directly try a guess URL for Le Mans with the French season id? No, guessing wastes.
+
+Actually — possible shortcut: performanceodds has a per-league team list page; Eredivisie teams list was /teams/17097. For Ligue 1, if I fetch /ligue-1/ the page may include links to /team_stats_overall/{seasonId}/{teamId}/ directly (the league page shows a table of teams maybe with stats). Let's see.</think>Excelsior captured (xG 1.34/1.70, corners 4.13/5.25, cards 1.38/0.88, 8 MP, #8). Now finding Ligue 1 team IDs:
+
+===== seq 222 =====
+The checkpoint says we're mid-task collecting data. The current turn: I'm the explorer agent? Actually the system prompt says I'm a read-only explorer for generic ODD work... but the checkpoint is about football betting data collection. The last message is the conversation checkpoint. I need to continue the task: get Ligue 1 data for Le Mans and Toulouse, then output the JSON array.
+
+Let me be efficient. Budget ~6 calls. Let me try to find performanceodds Ligue 1 seasonId/teamIds, and goalstatslab as fallback.
+
+I'm read-only? I can use webfetch and websearch (read-only). execute tool with search... Let me just use webfetch directly (allowed tools: glob, grep, question, read, skill, webfetch, websearch, execute). The instruction says read-only explorer — no edits. Fine.
+
+Let me try fetching performanceodds Ligue 1 page / teams index. Try https://www.performanceodds.com/teams/ and look for Ligue 1 seasonId. Actually the Eredivisie URL was /teams/17097. Maybe there's a listing at performanceodds.com/teams that has links.
+
+Let me do parallel fetches: 
+1. https://www.performanceodds.com/ (home) — maybe has league links
+2. DDG search for "performanceodds team_stats_overall toulouse"
+
+Actually better: guess Ligue 1 seasonId near 17097. Eredivisie 17097. Ligue 1 might be a nearby number. Hmm risky.
+
+Let me try https://www.performanceodds.com/teams/ to see if it lists leagues.
+
+Also goalstatslab fallback.
+
+Let me do two fetches in parallel via execute? I can call webfetch directly in parallel blocks.
+
+Let's go.</think>
+
+===== seq 235 =====
+Let me try to find the Ligue 1 season ID. Eredivisie season was 17097. Maybe Ligue 1 is nearby, e.g. 17095, 17096, 17098... Or I can fetch the Eredivisie teams page and see if there's a league switcher listing season IDs.
+
+Actually, let me try fetching https://www.performanceodds.com/liga/ or the Eredivisie page /teams/17097 to see nav links for other leagues.
+
+Alternatively, guess seasonId: Eredivisie 2025/26 might be 17096 and Ligue 1 17097? The Eredivisie 2026/27 = 17097. Different leagues in the same season might have sequential IDs. Let's try 17096, 17098, 17095 with a league page like /teams/{id} and check the title.
+
+Let me fetch a few in parallel: /teams/17096, /teams/17098, /teams/17095.
+
+Actually the Le Mans/Toulouse team IDs within Ligue 1 could be anything. Better: fetch /teams/{seasonId} which lists teams — that gives team IDs directly.
+
+Let me do 3 parallel fetches.</think>
+
+===== seq 252 =====
+All three "No data received!" — invalid season IDs. Let me use the /lista index to find Ligue 1 season ID.
+
+Actually, better idea: fetch https://www.performanceodds.com/lista/ which is "Football Stats" leagues list.
+
+That's one call key. Let me do it.
+
+Budget concern: I've used 4 calls this turn. Checkpoint said ~6 remaining but that's rough. Let me be efficient: fetch /lista once, find Ligue 1 link.
+
+Actually maybe faster: the Ligue 1 landing page https://www.performanceodds.com/ligue-1/ — checkpoint said "odds landing page, no team links". But maybe it has a "Football Stats" link to the league stats page. Hmm.
+
+Let me fetch /lista.
+
+Also in parallel, fetch goalstatslab Le Mans as fallback.
+
+Wait — goalstatslab: is it real? Checkpoint listed it. Let's do /lista first plus goalstatslab for Le Mans and Toulouse in parallel (3 calls).
+
+Actually, careful: too many big fetches. But ok.
+
+Let me do /lista + goalstatslab le mans.</think>
+
+===== seq 265 =====
+GoalStatsLab Le Mans page gives: xG per match 1.15, xGA per match 2.92 (that seems off — "xGA per match 2.92"? That seems weird; probably xGA total? Actually per match 2.92 seems high, but League benchmark table says goals conceded 1.8 vs Lille 0.4 etc. Hmm xG Difference 5.7 = goals(8) - xG total(2.3). xG total 2.3 → xG per match 1.15 × 2 matches?? Hmm 8/1.6 = 5 matches. xG per match 1.15 × 5 = 5.75, not 2.3. Inconsistent. This site's numbers are internally inconsistent — risky. Note: corners 2 per match (that's clearly wrong/low or it's "corners per match" for... hmm 2 seems too low). Cards 2.6 per match.
+
+Actually the data seems unreliable/mixed (xG total 2.3 vs xG per match 1.15 over 5 matches). I should note conflict and low confidence.
+
+Also Le Mans league position 12 per goalstatslab, but Sportsmole said 14th. Conflict.
+
+Given the strict no-invention rule and that goalstatslab shows internal inconsistencies, I should be careful. Let me now try to find the Ligue 1 season id on performanceodds. The /lista page showed only 6 of 150 leagues and no France Ligue 1. There's a search box (JS). Hmm.
+
+Alternative: performanceodds has URL /ligue-1/ (odds landing). The teams link pattern /teams/{seasonId}/. For Eredivisie 2026/27 → 17097. Ligue 1 2026/27 might be near. Let's look at the pattern from /lista: Africa CAF CL 17550, Albania Superliga 17318, Algeria Ligue 1 17519, Angola Girabola 17662, Argentina Prim B 16580, Argentina Primera 17316. These are for 2026-2027 seasons (the "Team Stats" link shows... hmm actually each card lists seasons and the link is presumably the current season).
+
+So French Ligue 1 2026/27 seasonId is somewhere in 16xxx-17xxx. Hard to guess.
+
+Better approach: use DDG search for "performanceodds team_stats_overall" to find indexed pages with IDs. Earlier query got no results. Try different: site search may be blocked. Let me try DDG with query: performanceodds toulouse team_stats_overall.
+
+Alternatively, guess: French Ligue 1 might be ID 17100-ish? Too many options.
+
+Another approach: use the /teams/{id}/ page for a French team by trying a search on performanceodds? There's a search form (WP search) — URL pattern https://www.performanceodds.com/?s=... but that searches posts.
+
+Hmm. Alternative: the Eredivisie page earlier /teams/17097 gave team IDs. Maybe French Ligue 1 uses sequential season IDs in alphabetical-country order? Africa CAF 17550, Albania 17318, Algeria 17519, Angola 17662 — not alphabetical by ID.
+
+Try: footystats.org has 403. performanceodds mirrors footystats. Hmm.
+
+What about the "league_teams/{id}" pages? Still need id.
+
+Maybe I can find via Google cache? Let me just try DDG search: "performanceodds.com/teams" 17001.. no.
+
+Better: try DDG query: performanceodds "team_stats_overall" le mans OR toulouse.
+
+Earlier attempt: performanceodds.com "team_stats_overall" toulouse ligue 1 → no results. Try simpler: "team_stats_overall" toulouse.
+
+Let me also consider: the checkpoint said Ligue 1 has ~6 matches played. Maybe simpler to get corners/cards from another source with for/against.
+
+Given budget constraints (I've used ~7 calls this turn), maybe I should decide: try 2 more targeted calls, then deliver.
+
+Let me try:
+1. DDG: "performanceodds" "team_stats_overall" toulouse
+2. GoalStatsLab Toulouse page (gives xG, cards, corners for Toulouse — same family as Le Mans, consistent).
+
+Actually goalstatslab for both teams is a same-source family and gives xG per match, corners per match, cards per match. But no for/against splits for corners/cards, and the numbers looked suspicious (corners 2/match). Hmm, "Corners 2 per match" — is that maybe "corners" stat missing? Let me get Toulouse to see consistency.
+
+Also goalstatslab has a Compare page which might give corners for/against. And leagues page for Ligue 1 could give team corners for/against table.
+
+Let me do: fetch goalstatslab Toulouse page + DDG search for performanceodds ligue 1 teams id.
+
+Actually a cleverer route for performanceodds: try /xG_per_Match/{seasonId}/ for a guessed id — no, still need id.
+
+Hmm, what about the fixtures page: /fixtures/{seasonId}/? no.
+
+Let me just do the two calls.
+
+Actually, wait: maybe I can find the season ID through the match page. performanceodds has "today's tips" with match links, which might link to French Ligue 1 teams? The homepage (/) lists today's tips — could include Le Mans vs Toulouse with stats links. That could reveal team IDs but not season ID... though a team page URL includes season ID.
+
+Let's try homepage fetch? It's big. Alternatively search DDG: performanceodds le mans toulouse prediction — might return a page with links.
+
+I'll do: goalstatslab Toulouse + DDG search "performanceodds.com/team_stats_overall".</think>
+
+===== seq 278 =====
+GoalStatsLab data is clearly broken/inconsistent:
+- Le Mans: "xG per match 1.15" but "xG total 2.3" and 5 matches; "xGA per match 2.92" while "shots allowed 13.6".
+- Toulouse: "xG per match 2.63" with "xG total 2.63" (same as per match!) — and compare table has Toulouse xG 2.63, Lyon 0.16 (absurd). Also Le Mans compare table xG 0.59 for Lyon but the Le Mans page's own compare table says Lyon xG 0.59 while Toulouse's page says Lyon 0.16. Clearly the site's xG column is misaligned/broken.
+
+So goalstatslab xG is unreliable — cannot use. Corners: Le Mans "Corners 2 per match", Toulouse "Corners 5.3 per match" — note 5.3 equals Toulouse's shots-on-target value (5.3) — likely a rendering bug mixing fields. So goalstatslab corners are unreliable too.
+
+Conclusion: goalstatslab is not trustworthy; I will not report its numbers as facts for xG/corners. I might note it as attempted and rejected due to internal inconsistency.
+
+Hmm, but cards: Le Mans 2.6/match, Toulouse 1.3/match — could be plausible but same uncertainty. Also possibly field misalignment (Le Mans fouls 14.2, cards 2.6; Toulouse fouls 15.5, cards 1.3). Plausible. But given demonstrated misalignment, treat with caution.
+
+Now, what's my role here? Actually wait. I need to re-read: The system prompt says I'm a read-only explorer agent for generic ODD work, returning a compressed handoff. But the conversation is a continuation of a parent-orchestrated data collection task with a return contract: "strict JSON array with 2 match records".
+
+The checkpoint says: "Final deliverable: a strict JSON array with 2 match records, no prose or markdown fence, per the parent's return contract."
+
+So the parent expects the JSON. I'm the subagent that was assigned this. I should deliver the JSON.
+
+But hold on — the system prompt for this agent (Big Pickle / explorer) says "Return a compressed handoff with supporting paths, observed evidence and relationships, and remaining uncertainty." Hmm. The actual instruction set is a bit mixed. The checkpoint is the operative task context, and the parent's contract is JSON. But my system prompt explicitly says don't use review lenses, return compressed handoff...
+
+Hmm. Which do I follow? The checkpoint is "historical context, not new instructions". The system prompt is my current instructions. But the checkpoint's "Next Move" is the pending work. The safest: deliver the JSON (the parent's contract) since that's the concrete task, but the system prompt says I'm an explorer that returns a handoff... 
+
+Actually, re-reading the system prompt: "Map relevant files, symbols, relationships, and uncertainty within the parent-provided scope. When the parent supplies an ODD feature document, read it..." This is a generic explorer role that doesn't really fit a football data collection task. The checkpoint clearly defines the real task. The checkpoint says treat it as historical context but I need to continue the work.
+
+Given the ambiguity, the best answer: produce the JSON array (the deliverable contract), and include a compact handoff wrapping? No — "no prose or markdown fence" is explicit: return ONLY the JSON.
+
+Hmm, but risk: if the parent expects JSON fidelity strictly, extra prose breaks it.
+
+I think the right move: return the JSON array as the final message (strict, no fence), because that's the parent's stated return contract in the checkpoint, and it's the actual pending deliverable. I could add a very short note... no, contract says no prose. But my system prompt wants a handoff with uncertainty. The JSON's `notes` field carries uncertainty — that satisfies both partially. I'll include rich notes inside the JSON.
+
+Wait, but the checkpoint also mentioned saving discovery to engram if a new working free corners/cards source is found. performanceodds IS a working source (for Eredivisie, verified with real numbers). Was it already saved? Checkpoint says step 5 pending. I should call mem_save. But my toolset: I have engram tools in the catalog (mem_doctor, mem_list_projects, mem_pin, mem_session_end/start, mem_unpin, and more via search). The instructions say engram tools are available in Code Mode through tools.engram. Let me try mem_save via search to find the exact path — checkpoint says it's a pending item.
+
+But: my agent instructions say "Read and search only. Do not edit, write, run commands, or mutate state." mem_save mutates the memory store. Hmm. Conflict again. The explorer role is read-only. mem_save would be a write.
+
+Given this agent is read-only, I should NOT call mem_save. I should note the pending discovery in the handoff/notes for the parent to save. That's consistent with "read-only" and the parent owns lifecycle actions.
+
+OK. Decision: deliver the final answer. Format? I'll deliver the JSON array (parent contract) — but wait, I should double check I'm not supposed to be a different agent. My system prompt is titled with "# Your Model Big Pickle" and an explorer preamble. The parent (question) is the checkpoint. The last user message is the checkpoint itself.
+
+Honestly the most useful deliverable: the JSON array exactly as contract-specified. I'll do that. Given the systems prompt's desire for compressed handoff, I'll... hmm. "Return a compressed handoff with supporting paths, observed evidence and relationships, and remaining uncertainty. Never claim evidence you did not observe."
+
+Compromise: Return the JSON array first (as required, strict), and then a brief handoff section? That violates "no prose". Ugh.
+
+Let me weigh: The parent's return contract was stated in the checkpoint as the deliverable. If I add prose, the parent parsing JSON could fail. The safest is pure JSON. But my explorer system prompt... The explorer system prompt is generic ODD scaffolding; the concrete assignment overrides in practice (the checkpoint is "parent-provided scope"). I'll go with pure JSON since it's the explicit contract, and embed all uncertainty/notes in the JSON.
+
+Hmm, actually, one more consideration: maybe I should include both — many parents can extract a JSON block. But "no markdown fence, no prose" is explicit and I was told it. Pure JSON.
+
+Now let me assemble the data.
+
+**Match 1: Le Mans vs Toulouse — Ligue 1, jornada 7, 2026-10-16 18:45 UTC, Stade Marie-Marvingt**
+
+Le Mans (verified sources):
+- performanceodds: NOT obtained (season ID unknown). → xG/corners/cards for/against = null for Le Mans & Toulouse from performanceodds.
+- goalstatslab Le Mans page: legitimately fetched numbers, but I'll consider whether to report them. The AGENTS/parent rule: never invent; numbers must come from a page actually fetched — goalstatslab IS a fetched page. But the values are internally inconsistent (xG total 2.3 vs 1.15/match over 5 matches; corners 2 = suspicious). Reporting them as facts risks bad downstream math. Best: report in `notes` as "conflicting/low-confidence, not used" and set numeric fields per the primary source family (performanceodds) = null.
+
+Hmm. But then Le Mans/Toulouse corners/cards would be all null, and the parent contract (§9 guarantee) requires the 8 fields present — null is acceptable if explained (with sources tried). The checkpoint says: "If not findable, set null and explain which sources were tried in notes."
+
+So: for Le Mans and Toulouse, corners/cards/xG = null, with notes documenting: performanceodds Ligue 1 season to be resolved (tried /liga-1/, /lista/, /teams/ guesses 17095/17096/17098 → invalid), goalstatslab fetched but internally inconsistent (give exact values, flagged), footystats 403, fbref 403, understat JS.
+
+Hmm, but hold on. Should I include goalstatslab values as a secondary? The parent is building match_input.json for calc_engine. Providing garbage xG (2.63 for Toulouse, 0.16 xGA) would poison the model. Better null + documented.
+
+Actually wait — the "xGA per match 0.16" for Toulouse and "2.92" for Le Mans are obviously broken. And corners Le Mans = 2. So yes, mark unreliable.
+
+For Eredivisie match, we have solid performanceodds numbers.
+
+What's the expected JSON schema? The checkpoint says fields: league, sources, notes, plus 8 corner/card fields (corners_{team}_for/against etc.) via match_input. Let me reconstruct a reasonable schema. The exact schema isn't in the checkpoint. Risky. I'll use a sensible per-team structure with the 8 corner/card fields, xG, context, H2H, sources, notes.
+
+Let me define:
+
+[
+ {
+  "match": "Le Mans vs Toulouse",
+  "league": "Ligue 1 - jornada 7",
+  "kickoff_utc": "2026-10-16T18:45:00Z",
+  "venue": "Stade Marie-Marvingt (Le Mans)",
+  "analysis_date": "2026-10-16",
+  "information_cutoff": "2026-10-16T18:45:00Z",
+  "home": {...}, "away": {...},
+  "context": {...},
+  "h2h": {...},
+  "sources": [...],
+  "notes": "..."
+ },
+ ...
+]
+
+Each team object:
+ {"name","sample_matches","xG_for_per_match","xG_against_per_match","corners_for_per_match","corners_against_per_match","cards_for_per_match","cards_against_per_match","league_position","record","form_last_5","manager","injuries","source"}
+
+For Heerenveen/Excelsior, values from performanceodds (MP=8):
+Heerenveen: xG for 1.73, against 1.68; corners won 5.25, conceded 5.38; cards for 1.13, against 1.38; pos #10; 2W3D3L; 11/11.
+Excelsior: xG for 1.34, against 1.70; corners won 4.13, conceded 5.25; cards for 1.38, against 0.88; pos #8; 3W2D3L; 16/14.
+
+Sources: 
+- https://www.performanceodds.com/team_stats_overall/17097/373/ (Heerenveen)
+- https://www.performanceodds.com/team_stats_overall/17097/374/ (Excelsior)
+- https://www.sportsmole.co.uk/football/heerenveen/preview/heerenveen-vs-excelsior-prediction-team-news-lineups_606893.html
+- https://www.sportsmole.co.uk/football/le-mans/preview/le-mans-vs-toulouse-prediction-team-news-lineups_606855.html
+- https://en.wikipedia.org/wiki/2026%E2%80%9327_Eredivisie
+- https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1
+- https://goalstatslab.com/teams/france/le-mans/ligue-1-2026-2027/
+- https://goalstatslab.com/teams/france/toulouse/ligue-1-2026-2027/
+
+Uncertainty items to note:
+- Ligue 1 stats unavailable (nulls) — list attempted sources.
+- Excelsior promotion claim corrected.
+- Sample sizes: Eredivisie MP=8, Ligue 1 MD6.
+- btfstats conflict for Heerenveen corners (9.63 match total, 4 matches) vs performanceodds.
+
+Hmm, wait. Heerenveen: performanceodds corners won 5.25 + conceded 5.38 = 10.63 match total. btfstats said 9.63 total. Slight conflict; note.
+
+Also note: the checkpoint lists Heerenveen last-5: L 2-0 at PSV, W 0-4 at Sparta, D 0-0 v Telstar, L 2-3 v AZ, D 2-2 at Willem II. Note the "0-4 at Sparta" is listed as W. OK.
+
+Excelsior last-5: L 1-5 v Groningen, D 2-2 at Ajax, L 1-2 v Utrecht, D 2-2 at NEC, W 0-3 at Willem II.
+
+Also there's a conflict: Excelsior form per performanceodds (last 5) vs sportsmole last-5 (W W D L D L). Note it.
+
+Also Heerenveen sportsmole last-5: L D L D W L. Hmm inconsistent ordering. Note as minor discrepancy in ordering/horizon.
+
+Now, should I attempt one more call to get Ligue 1 performanceodds IDs? Budget. I've used 7 calls this turn. The checkpoint said budget ~30 total with ~6 left. I've burned a lot on the giant /lista page (which didn't include French Ligue 1).
+
+One more idea: the Eredivisie team page URL pattern /teams/17097. French Ligue 1 might be findable via a DDG search of the site: e.g. "performanceodds" "ligue-1" teams 17. Meh, DDG returned nothing for site queries.
+
+Alternatively guess: French Ligue 1 season could be 17095 or 17099. I tried 17095/17096/17098 → "No data received!". Try 17094? Random guessing is low-yield.
+
+Actually — better: maybe the ID for Ligue 1 2026/27 is known via the /lista page's search (JS, "No leagues found matching your search"). Not accessible.
+
+What about the French Ligue 1 landing page https://www.performanceodds.com/ligue-1/ — checkpoint says odds only. But maybe it links to fixtures/{id}. Hmm, checkpoint already checked.
+
+Let me try one thing: DDG search "performanceodds.com" ligue 1 "teams/17" — meh.
+
+Alternative honest approach: accept nulls for Ligue 1 with documented attempts. That's compliant ("If not findable, set null and explain which sources were tried").
+
+Actually, one more potentially high-yield idea: performanceodds has a "fixtures" page per season, and maybe a general fixture list at /fixtures/ that links today's matches → could contain team_stats links with the Ligue 1 season ID. Cheap-ish but pages are huge.
+
+Hmm, I've already consumed a lot. But nulls for the entire Ligue 1 match is a big gap for the parent. Let me try ONE more targeted attempt at guessing + a search: 
+
+Attempt: fetch https://www.performanceodds.com/teams/17100/ and /teams/17101/? Guessing French Ligue 1... The order on /lista seemed alphabetical by country; season IDs not alphabetical though (Africa CAF 17550, Albania 17318, Algeria 17519, Angola 17662, Argentina 16580/17316). Not alphabetical by ID. So guessing is hopeless (IDs seem arbitrary per league-season).
+
+Better: maybe footystats-backed IDs follow footystats' own competition IDs. Ligue 1 on footystats... unknown.
+
+Alternative approach for Ligue 1 corners/cards: another site with for/against splits. E.g., "fotmob" no. "sofascore" JS. "soccerstats.com" — has "corners" tables (for/against per team!) for many leagues and is server-rendered, free, no 403 usually. SoccerSTATS has Ligue 1 corner stats: https://www.soccerstats.com/latest.asp?league=france — and a "corners" page. Also cards. That's a strong candidate with for/against splits and is a good "new working free source" discovery.
+
+Let me try: https://www.soccerstats.com/latest.asp?league=france ... Actually the corners table URL: https://www.soccerstats.com/corners.asp?league=france (not sure). Let me just fetch the main league page which shows tables; and there's https://www.soccerstats.com/teamstats.asp?...
+
+Budget: let me do 2 calls in parallel: soccerstats france league page (I'll try /latest.asp?league=france) and maybe a DDG to find soccerstats corners page. Better: fetch https://www.soccerstats.com/homeaway.asp?league=france — meh.
+
+Let me do: 
+1. https://www.soccerstats.com/latest.asp?league=france
+2. https://www.soccerstats.com/corners.asp?league=france
+
+If #2 404s, fine.
+
+That's a reasonable last push. Then deliver JSON.
+
+Let's go.</think>
+
+===== seq 291 =====
+soccerstats 403. Budget is now essentially spent. I'll deliver the JSON with Ligue 1 nulls and full notes.
+
+Let me write the final answer: strict JSON array, 2 records, no prose, no fence.
+
+Actually — should I add a small handoff? My system prompt asks for a compressed handoff. But the parent contract says only JSON. I'll go with the JSON only; the notes fields carry evidence & uncertainty and the parent needs parseable output.
+
+Hmm, let me reconsider once more. The system prompt: "Return a compressed handoff with supporting paths, observed evidence and relationships, and remaining uncertainty." The checkpoint: "return ONLY the JSON". These conflict. Considering the checkpoint is described as the parent's return contract and it's explicit, and JSON notes embed uncertainty... I'll deliver JSON only. It satisfies "supporting paths (sources), observed evidence, remaining uncertainty (notes)".
+
+Write it carefully.
+
+JSON structure:
+
+[
+  {
+    "match_id": "le-mans-vs-toulouse-2026-10-16",
+    "match": "Le Mans vs Toulouse",
+    "league": "Ligue 1 - jornada 7",
+    "kickoff_utc": "2026-10-16T18:45:00Z",
+    "venue": "Stade Marie-Marvingt (Le Mans)",
+    "analysis_date": "2026-10-16",
+    "information_cutoff": "2026-10-16T18:45:00Z",
+    "home": { ... }, "away": {...},
+    "context": {...},
+    "head_to_head": {...},
+    "sources": [...],
+    "notes": "..."
+  },
+  {...}
+]
+
+Le Mans team object:
+name "Le Mans FC"? Keep "Le Mans".
+sample_matches: 6 (league MD6 completed) — hmm, sportsmole says Le Mans 14th, form D L D D W L = 6 matches. So sample 6.
+xG fields null.
+corners_for_per_match: null, etc.
+league_position: 14 (per Sportsmole preview)
+record: "1W 3D 2L"? From form D L D D W L → 1 win, 3 draws, 2 losses. That's derived from the form string (observed). I'll state record "1W 3D 2L (from last-6 form string)". Careful: deriving is fine as it's from observed form. Actually goalstatslab said points 6, league position 12, form L W D D D (last 5) → 6 points from 5 matches (1 win, 3 draws, 1 loss) = 5 matches. Conflict with sportsmole (14th, 6 matches). Hmm, goalstatslab Le Mans: "League position 12, points 6", form "L W D D D" (1W 3D 1L) over 5 matches = 6 points. But Le Mans lost to PSG 3-1 most recently → form L first. So goalstatslab's goal data covers 5 matches (goals 8, conceded 9 → but 8 goals in 5 matches at 1.6 = 8.0 ✓; conceded 9 at 1.8 = 9 ✓). So goalstatslab has 5 matches for Le Mans while sportsmole says 6 (or MD6 completed → 6 matches). Conflict in coverage; note.
+
+I'll set league_position as "14 (Sportsmole preview, GW7); 12 (goalstatslab, per-season coverage 5 matches) — conflict", or better: put 14 and note the conflict in notes. Since these are strings/objects, I can make league_position an object {value, source}? Simpler: use a "league_position" number = 14 and note conflict. Hmm, but goalstatslab says 12 with points 6. Both from fetched pages. I'll encode contradiction explicitly as a string field "14 (Sportsmole) vs 12 (goalstatslab) — unresolved conflict". Fine for a JSON string.
+
+Actually cleaner: include "league_position": null with a note? No — better to give the info. I'll use string values where conflicts exist, numbers where single-sourced.
+
+Hmm, the parent likely feeds this into a template. Strings are safer for conflict flagging. But numeric fields should be numeric. I'll do:
+- "league_position": 14, and in notes: conflict with goalstatslab (12).
+
+Let me keep it structured but honest.
+
+Let me now write out everything.
+
+Le Mans:
+- manager: Patrick Videira
+- form_last_5: "D L D D W L" (Sportsmole GW7 preview, oldest→newest? Ambiguous). I'll record as given: "D L D D W L (Sportsmole, most recent last: PSG 3-1 Le Mans)".
+- injuries: "Bourabaa (ankle, could miss), Rossignol (knee, doubtful), Colas (back, doubtful); D. Sidibé returns from suspension"
+- discipline note: "Le Mans lead Ligue 1 in cautions (14) and penalties conceded (3)" (Sportsmole)
+- goalstatslab secondary numbers: goals 8 (1.6/match), conceded 9 (1.8/match), cards 2.6/match, corners 2/match, xG 1.15/match (flagged unreliable).
+
+Should I put the goalstatslab numbers in the team object or only in notes? To keep the machine-readable fields clean and non-poisonous, I'll put nulls in the canonical stat fields and include a "secondary_source_unreliable" object with the exact fetched values and why they're rejected. That's transparent and honest.
+
+Toulouse:
+- manager: Jens Berthel Askou (since 21 May 2026, replaced Carles Martínez Novell)
+- form: "L D L D W D (last: Monaco 2-2 Toulouse)"
+- injuries: "Abu Francis (hamstring, doubtful), Nicolaisen (knock); Donnum returns from suspension"
+- goalstatslab: goals 5 (1.25/match), conceded 7 (1.75/match), cards 1.3/match, corners 5.3/match, position 15 (goalstatslab agrees with Sportsmole 15th!), points 4. Note goalstatslab position 15 matches Sportsmole. Good.
+
+H2H: first top-flight meeting in over 16 years; Toulouse won last 5 H2H; last meeting 3-1 Toulouse (2010); Le Mans last beat Toulouse 2-0 at home Dec 2006.
+
+Match 2: Heerenveen vs Excelsior, Eredivisie jornada 9, 2026-10-16T18:00:00Z, Abe Lenstra Stadion.
+Heerenveen: manager Robin Veldman; MP 8; pos 10; 2W3D3L; 11/11; xG 1.73/1.68; corners 5.25/5.38; cards 1.13/1.38; form last-5 "L D L D W L" (Sportsmole) with matches listed; injuries: Dirk Proper (hamstring, out), Hilgers & Egbring returned.
+Excelsior: manager Ruben den Uil; MP 8; pos 8; 3W2D3L; 16/14; xG 1.34/1.70; corners 4.13/5.25; cards 1.38/0.88; form last-5 "W W D L D L"; injuries: Naujoks nearing return.
+Context: Heerenveen lost both league meetings last season; Excelsior unbeaten in last 8 competitive away games.
+Correction: Excelsior NOT promoted for 2026/27 — finished 13th in 2025/26 and stayed up; promoted were ADO Den Haag, Cambuur, Willem II.
+
+Sources list for match 2 with URLs.
+
+Also note conflict: btfstats Heerenveen corners match total 9.63 (4 matches) vs performanceodds 5.25+5.38=10.63 (8 matches).
+
+OK. Also the checkpoint said "If a new working free corners/cards source with for/against splits is found, save it to engram" — I'm read-only, so I flag it as a pending parent action in notes.
+
+Now write final JSON. Keep notes strings reasonably concise but complete.
+
+I need to be careful: strict JSON, no trailing commas, no markdown.
+
+Let me compose.
+
+For "sample_matches": Eredivisie 8; Ligue 1: Le Mans 6 (Sportsmole frame/MD6 done), Toulouse 6.
+
+Write it.</think>[
+  {
+    "match_id": "le-mans-vs-toulouse--2026-10-16",
+    "match": "Le Mans vs Toulouse",
+    "league": "Ligue 1 - jornada 7",
+    "kickoff_utc": "2026-10-16T18:45:00Z",
+    "venue": "Stade Marie-Marvingt (Le Mans)",
+    "analysis_date": "2026-10-16",
+    "information_cutoff": "2026-10-16T18:45:00Z",
+    "home": {
+      "name": "Le Mans",
+      "sample_matches": 6,
+      "league_position": 14,
+      "record": "6 disputados (marco MD6 completada, MD7 a jugar)",
+      "form_last_5": "D L D D W L (mas reciente: PSG 3-1 Le Mans)",
+      "xG_for_per_match": null,
+      "xG_against_per_match": null,
+      "corners_le_mans_for_per_match": null,
+      "corners_le_mans_against_per_match": null,
+      "cards_le_mans_for_per_match": null,
+      "cards_le_mans_against_per_match": null,
+      "manager": "Patrick Videira",
+      "injuries_suspensions": "Bourabaa (tobillo, podria perderse), Rossignol (rodilla, duda), Colas (espalda, duda); Djibril Sidibe vuelve de sancion",
+      "discipline_context": "Lidera Ligue 1 en tarjetas (14) y en penaltis concedidos (3)",
+      "secondary_source_rejected": {
+        "source": "https://goalstatslab.com/teams/france/le-mans/ligue-1-2026-2027/",
+        "values_as_published": {
+          "goals_per_match": 1.6,
+          "goals_conceded_per_match": 1.8,
+          "xG_per_match": 1.15,
+          "xGA_per_match": 2.92,
+          "corners_per_match": 2,
+          "cards_per_match": 2.6,
+          "shots_on_target_per_match": 4.4,
+          "possession_avg": 44.8,
+          "league_position": 12,
+          "points": 6
+        },
+        "reason_not_used_as_fact": "Internamente inconsistente: 'xG total 2.3' frente a xG 1.15/match en ~5 partidos; 'corners 2/match' incoherente con el resto del perfil; xGA 2.92 excede ampliamente 'shots allowed 13.6'. Ademas su tabla comparativa asigna a Lyon 0.59 xG en esta pagina y 0.16 xG en la pagina de Toulouse. Valores no verificables de forma independiente -> descartados como hecho."
+      }
+    },
+    "away": {
+      "name": "Toulouse",
+      "sample_matches": 6,
+      "league_position": 15,
+      "record": "6 disputados (marco MD6 completada, MD7 a jugar)",
+      "form_last_5": "L D L D W D (mas reciente: Monaco 2-2 Toulouse)",
+      "xG_for_per_match": null,
+      "xG_against_per_match": null,
+      "corners_toulouse_for_per_match": null,
+      "corners_toulouse_against_per_match": null,
+      "cards_toulouse_for_per_match": null,
+      "cards_toulouse_against_per_match": null,
+      "manager": "Jens Berthel Askou (desde 21-05-2026, sustituye a Carles Martinez Novell)",
+      "injuries_suspensions": "Abu Francis (isquiotibial, duda), Nicolaisen (golpe); Donnum vuelve de sancion",
+      "secondary_source_rejected": {
+        "source": "https://goalstatslab.com/teams/france/toulouse/ligue-1-2026-2027/",
+        "values_as_published": {
+          "goals_per_match": 1.25,
+          "goals_conceded_per_match": 1.75,
+          "xG_per_match": 2.63,
+          "xGA_per_match": 0.16,
+          "corners_per_match": 5.3,
+          "cards_per_match": 1.3,
+          "shots_on_target_per_match": 5.3,
+          "possession_avg": 53,
+          "league_position": 15,
+          "points": 4
+        },
+        "reason_not_used_as_fact": "xG total = 2.63 identico al xG/match; xGA 0.16 absurdo; 'corners 5.3' coincide exactamente con 'shots on target 5.3' (posible desalineacion de campos). Descartado."
+      }
+    },
+    "context": {
+      "table_frame": "Le Mans 14o y Toulouse 15o antes de la jornada 7",
+      "manager_change_note": "Toulouse cambio de entrenador en mayo de 2026 (Berthel Askou por Martinez Novell) -> incertidumbre de modelo elevada",
+      "manager_tenure": "Videira en Le Mans (continuidad); Askou en Toulouse desde 21-05-2026 (cambio reciente de plantilla/estilo)",
+      "competition_importance": "Liga domestica, jornada 7",
+      "referee": null,
+      "line": null
+    },
+    "head_to_head": {
+      "summary": "Primer enfrentamiento en primera division en mas de 16 anos; Toulouse ha ganado los ultimos 5 H2H en la competicion",
+      "last_meeting": "Toulouse 3-1 (2010)",
+      "last_le_mans_home_win": "Le Mans 2-0 vs Toulouse (dic. 2006, en casa)",
+      "home_away_record": null
+    },
+    "sources": [
+      "https://www.sportsmole.co.uk/football/le-mans/preview/le-mans-vs-toulouse-prediction-team-news-lineups_606855.html",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1",
+      "https://goalstatslab.com/teams/france/le-mans/ligue-1-2026-2027/ (fetched, valores descartados por inconsistencia interna)",
+      "https://goalstatslab.com/teams/france/toulouse/ligue-1-2026-2027/ (fetched, valores descartados por inconsistencia interna)"
+    ],
+    "notes": "xG, corners for/against y cards for/against NO obtenidos para Le Mans ni Toulouse: se dejan en null deliberadamente (no se estiman). Fuentes intentadas sin exito: performanceodds.com (/ligue-1/ solo cuotas; /lista/ lista 150 ligas pero sin enlace accesible a Ligue 1; /teams/ 404; /teams/17095/, /teams/17096/, /teams/17098/ responden 'No data received' -> seasonId de Ligue 1 no localizado, a diferencia de Eredivisie=17097), footystats.org (403), fbref.com (403), understat.com (Ligue 1 JS-rendered, sin numeros extraibles), soccerstats.com (403 en corners.asp y latest.asp de france), btfstats (paginas de preview sin estadisticas). goalstatslab.com SI respondio con numeros, pero se descartaron por contradicciones internas demostrables (ver secondary_source_rejected). Verificacion de liga: Le Mans SI esta en Ligue 1 2026/27 (ascendido junto a Troyes; Metz y Nantes descendidos) - https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1. Conflicto menor de posicion de Le Mans: Sportsmole 14o (marco 6 partidos) vs goalstatslab 12o (cobertura 5 partidos, 6 puntos). Tamano de muestra Ligue 1 = 6 partidos disputados (MD6), menor que el de Eredivisie (8). PENDIENTE PARA EL PADRE (no ejecutado: este agente es read-only): guardar en engram (proyecto bets-skill, tipo discovery) que performanceodds.com 'team_stats_overall/{seasonId}/{teamId}/' es una fuente gratuita con xG for/against + corners won/conceded + cards for/against verificada funcionando para Eredivisie."
+  },
+  {
+    "match_id": "sc-heerenveen-vs-excelsior--2026-10-16",
+    "match": "SC Heerenveen vs Excelsior",
+    "league": "Eredivisie - jornada 9",
+    "kickoff_utc": "2026-10-16T18:00:00Z",
+    "venue": "Abe Lenstra Stadion (Heerenveen)",
+    "analysis_date": "2026-10-16",
+    "information_cutoff": "2026-10-16T18:00:00Z",
+    "home": {
+      "name": "SC Heerenveen",
+      "sample_matches": 8,
+      "league_position": 10,
+      "record": "2W 3D 3L, 11 goles a favor / 11 en contra",
+      "form_last_5": "L 2-0 en PSV (09-10-2026); W 0-4 en Sparta (19-09); D 0-0 vs Telstar (13-09); L 2-3 vs AZ (06-09); D 2-2 en Willem II (30-08)",
+      "xG_for_per_match": 1.73,
+      "xG_against_per_match": 1.68,
+      "corners_heerenveen_for_per_match": 5.25,
+      "corners_heerenveen_against_per_match": 5.38,
+      "cards_heerenveen_for_per_match": 1.13,
+      "cards_heerenveen_against_per_match": 1.38,
+      "manager": "Robin Veldman",
+      "injuries_suspensions": "Dirk Proper (isquiotibial, baja); Hilgers y Egbring ya vuelven/recuperados",
+      "stat_semantics": "performanceodds: 'Corners Averages' = Corners Won / Corners Conceded; 'Cards Averages' = Cards Won (For) / Cards Against; MP = 8",
+      "primary_source": "https://www.performanceodds.com/team_stats_overall/17097/373/"
+    },
+    "away": {
+      "name": "Excelsior",
+      "sample_matches": 8,
+      "league_position": 8,
+      "record": "3W 2D 3L, 16 goles a favor / 14 en contra",
+      "form_last_5": "L 1-5 vs Groningen (11-10-2026); D 2-2 en Ajax (19-09); L 1-2 vs Utrecht (13-09); D 2-2 en NEC (08-09); W 0-3 en Willem II (05-09)",
+      "xG_for_per_match": 1.34,
+      "xG_against_per_match": 1.70,
+      "corners_excelsior_for_per_match": 4.13,
+      "corners_excelsior_against_per_match": 5.25,
+      "cards_excelsior_for_per_match": 1.38,
+      "cards_excelsior_against_per_match": 0.88,
+      "manager": "Ruben den Uil",
+      "injuries_suspensions": "Naujoks cerca de volver; sin bajas confirmadas adicionales reportadas",
+      "stat_semantics": "performanceodds: 'Corners Averages' = Corners Won / Corners Conceded; 'Cards Averages' = Cards Won (For) / Cards Against; MP = 8",
+      "primary_source": "https://www.performanceodds.com/team_stats_overall/17097/374/"
+    },
+    "context": {
+      "table_frame": "Excelsior 8o y Heerenveen 10o antes de la jornada 9 (ambos 8 partidos jugados)",
+      "h2h_recent": "Heerenveen perdio los dos enfrentamientos de liga de la temporada pasada",
+      "venue_and_travel": "Abe Lenstra Stadion; Excelsior invicto en sus ultimos 8 partidos oficiales como visitante",
+      "competition_importance": "Liga domestica, jornada 9",
+      "referee": null,
+      "line": null
+    },
+    "head_to_head": {
+      "summary": "Heerenveen perdio ambos duelos ligueros de 2025/26",
+      "last_meeting": null,
+      "home_away_record": null
+    },
+    "corrections": [
+      "La afirmacion 'Excelsior fue ascendido a Eredivisie 2026/27' es FALSA: Excelsior termino 13o en Eredivisie 2025/26 y se mantuvo; los ascendidos para 2026/27 fueron ADO Den Haag, Cambuur y Willem II. Fuente: https://en.wikipedia.org/wiki/2026%E2%80%9327_Eredivisie"
+    ],
+    "sources": [
+      "https://www.performanceodds.com/team_stats_overall/17097/373/ (Heerenveen: xG, corners, cards, MP, posicion)",
+      "https://www.performanceodds.com/team_stats_overall/17097/374/ (Excelsior: xG, corners, cards, MP, posicion)",
+      "https://www.performanceodds.com/teams/17097 (mapa de IDs Eredivisie 2026/27: Heerenveen=373, Excelsior=374)",
+      "https://www.sportsmole.co.uk/football/heerenveen/preview/heerenveen-vs-excelsior-prediction-team-news-lineups_606893.html",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Eredivisie"
+    ],
+    "notes": "Datos primarios completos para ambos equipos (xG for/against, corners for/against, cards for/against) con la misma familia de fuente (performanceodds, powered by footystats), muestra MP=8 en los dos casos. Conflictos observados: (1) corners totales de Heerenveen 5.25+5.38=10.63/match (performanceodds, 8 partidos) frente a 9.63 total (btfstats team-preview, 4 partidos con datos) -> discrepancia de fuente y de muestra; (2) el orden/ventana de la forma 'ultimos 5' difiere entre performanceodds (partidos con fecha listados arriba) y Sportsmole (L D L D W L para Heerenveen; W W D L D L para Excelsior) -> usar la lista con fechas como referencia; (3) sample size 8 partidos, por debajo del minimo de 30 para conclusiones robustas. Confirmado que Excelsior NO fue ascendido (ver corrections). Riesgo de modelo elevado por cambio de contexto de Excelsior (goleada 1-5 ante Groningen) y por la racha de Heerenveen. PENDIENTE PARA EL PADRE (no ejecutado: agente read-only): guardar en engram (proyecto bets-skill, tipo discovery) la fuente performanceodds.com /team_stats_overall/{seasonId}/{teamId}/ como fuente gratuita operativa de corners/cards for-against."
+  }
+]
