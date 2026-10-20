@@ -279,7 +279,24 @@ def render(results: dict, meta: dict) -> str:
         lines.append(f"- **Correlaciones detectadas:** Los {picks_n} picks pertenecen todos al mercado {market_label(markets_used[0], selected[0]['home_team'], selected[0]['away_team'])} en ligas/equipos distintos; sin correlación directa por equipo, aunque el riesgo de sesgo global al mercado es común.")
     else:
         lines.append(f"- **Correlaciones detectadas:** Mercados presentes: {', '.join(sorted(set(markets_used))) or 'ninguno'}. Verificar solapamiento de mercado mismo partido.")
-    lines.append("- **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.\n")
+    lines.append("")
+    from collections import Counter as _Counter
+    _match_counts = _Counter(s["match"] for s in selected)
+    _repeated = [m for m, c in _match_counts.items() if c > 1]
+    if _repeated:
+        _detail = "; ".join(
+            f"{m} ({_match_counts[m]} picks: " +
+            ", ".join(s["market"] for s in selected if s["match"] == m) + ")"
+            for m in _repeated
+        )
+        lines.append(
+            f"- **Ajuste de stake por correlación:** Hay picks del mismo partido ({_detail}); "
+            "son eventos correlacionados y su exposición agregada debe leerse como una sola posición. "
+            "El detalle de cada pick documenta la correlación en su sección de riesgos."
+        )
+    else:
+        lines.append("- **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.")
+    lines.append("")
 
     # Tracking
     lines.append("## Tracking")
