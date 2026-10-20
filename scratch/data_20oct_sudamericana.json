@@ -1,0 +1,52 @@
+[
+  {
+    "match": "Vasco da Gama vs Boca Juniors",
+    "home": "Vasco da Gama",
+    "away": "Boca Juniors",
+    "league": "Copa Sudamericana 2026 (semifinal, vuelta)",
+    "kickoff_utc": "2026-10-21T00:30:00Z",
+    "xg_for_home": 1.60,
+    "xg_against_home": 1.16,
+    "xg_for_away": 1.22,
+    "xg_against_away": 0.66,
+    "elo_home": 1713,
+    "elo_away": 1771,
+    "corners_for_home": 7.4,
+    "corners_against_home": 5.2,
+    "corners_for_away": 5.2,
+    "corners_against_away": 2.2,
+    "cards_for_home": 2.0,
+    "cards_against_home": 1.6,
+    "cards_for_away": 2.0,
+    "cards_against_away": 3.6,
+    "odds": {
+      "1x2": { "1": 2.55, "X": 3.40, "2": 2.80 },
+      "dc": { "1x": 1.43, "x2": 1.65, "12": 1.33 },
+      "dnb": { "1": 1.687, "2": 2.233 },
+      "btts": { "yes": 2.12, "no": 1.73 },
+      "ou_goals": {
+        "over_1_5": 1.443, "under_1_5": 2.835,
+        "over_2_5": 2.337, "under_2_5": 1.687,
+        "over_3_5": 4.333, "under_3_5": 1.23
+      },
+      "ou_corners": {
+        "over_8_5": 1.763, "under_8_5": 2.191,
+        "over_9_5": 2.322, "under_9_5": 1.736,
+        "over_10_5": 3.05, "under_10_5": 1.41
+      },
+      "ou_cards": {
+        "over_3_5": 1.43, "under_3_5": 2.73,
+        "over_4_5": 1.60, "under_4_5": 2.20,
+        "over_5_5": 2.17, "under_5_5": 1.61
+      }
+    },
+    "sources": [
+      "https://r.jina.ai/https://www.statsbet.es/futbol/equipos/vasco-da-gama (xG, corners, cards; pestaña por defecto 'Últimos 5')",
+      "https://r.jina.ai/https://www.statsbet.es/futbol/equipos/boca-juniors (xG, corners, cards; pestaña por defecto 'Últimos 5')",
+      "https://clubelo.com/Ranking (Elo, página creada 2026-10-20 09:03:40 UTC)",
+      "https://www.oddssafari.com/matches/soccer/copa-sudamericana/vasco-da-gama-vs-boca-juniors/8426393 + API oddssafari /api/match (todas las cuotas; captura 2026-10-20 ~13:35 UTC; cuotas por bookmaker con timestamp ~14:20 CEST 20/10)",
+      "https://www.oddspedia.com/football/vasco-da-gama-boca-juniors (coteo 1X2/BTTS O-U, alineaciones probables, árbitro, 'no missing players')"
+    ],
+    "notes": "FIXTURE Y VUELTA (verificado por padre, no re-verificado aquí): semifinal de ida 1-0 en La Bombonera; el 0-0/1-0 lleva a Vasco, Boca necesita ganar. VENUE/ÁRBITRO: Maracanã, Río de Janeiro; Jesús Valenzuela (oddspedia). XG/VENTANA: statsbet pestaña por defecto = últimos 5 partidos oficiales de cada equipo (Vasco hasta 2026-09-29: Avai, Ceará, Mirassol, Flamengo + juego de marzo; Boca hasta 2026-09-27: Talleres, Independiente, River, Rosario Central + Aldosivi). Las cifras son medias por partido; 'xG a favor/en contra' = promedio de statsbet (estimación del sitio, no xG oficial de competición). CORNERS/CARDS: statsbet solo publica 'a favor' y 'Media total'; 'en contra' = Media total − a favor (Vasco: 12.6−7.4=5.2 corners; 3.6−2.0=1.6 cards. Boca: 7.4−5.2=2.2 corners; 5.6−2.0=3.6 cards); mismos últimos 5 partidos que xG. ELO: clubelo.com (1713 Vasco / 1771 Boca), página del 20/10; clubelo usa Elo pre/partido sin ajuste de copa. ODDS: todas de oddssafari API (EventID 8426393, ScopeID=0), captura 2026-10-20T13:35Z (~10h antes del kickoff; cutoff OK). 1X2 = mejor cuota por selección entre 20+ bookmakers (1: Bet365 2.55; X: Bet365 3.40; 2: Novibet 2.80; medias ~2.42/3.27/2.75). DC = medias de cuotas (1xBet/Betsson 1.45/1.43; Novibet 1.65; Betsson 1.33). DNB/BTTS/OU = mejores cuotas disponibles (Unibet/Bet365/Betsson). GOALS OU: mejores cuotas por línea (1.5: Bet365; 2.5: Pinnacle/Betsson; 3.5: Pinnacle/Fonbet) — ojo: O/U 1.5 (1.44/2.84) es coherente con total esperado ~2.4 goles. CORNERS OU: cuotas medias de agrupación oddssafari (8.5: 1.76/2.19; 9.5: 2.32/1.74; 10.5: 3.05/1.41); O9.5 refuerza que Vasco domina córners (7.4 a favor vs 2.2 de Boca). CARDS OU: BAJA CONFIANZA — sola casa de apuestas (Fonbet) ofrece el mercado en oddssafari; líneas 3.5/4.5/5.5 disponibles pero precios no coteados por múltiples libros. ABSENCES/NEWS (oddspedia, 20/10): 'No missing players' en ambos equipos; alineaciones probables Vasco 4-2-3-1 (Jardim; P. Henrique, Pereira, Robert Renan, Cuiabano; Tchê Tchê, Sosa; A. Gomez, Lescano, Colidio; B. Duarte) y Boca 4-3-3 (Montero; Lozano, Di Lollo, Costa, Blanco; Ascacibar, Battaglia, Delgado; Merentiel, Romero, Flores). Nota contextual: Coutinho no figura en la alineación probable de Vasco según oddspedia. MERCADOS ASPIRACIONALES no recolectados: shots_per_game, possession_avg, big_chances_created, form_last_5 (statsbet pestaña forma no fiable), head_to_head_record, rest_days, competition_importance, travel_distance, manager_tenure, referee (solo nombre: Valenzuela), line — no integrables hasta Fase 2."
+  }
+]

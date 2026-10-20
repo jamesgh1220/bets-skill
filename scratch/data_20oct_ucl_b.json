@@ -1,0 +1,249 @@
+[
+  {
+    "match": "Manchester City vs AEK Athens",
+    "home": "Manchester City",
+    "away": "AEK Athens",
+    "league": "UEFA Champions League 2026-27 - League phase MD3",
+    "kickoff_utc": "2026-10-20T19:00:00Z",
+    "xg_for_home": null,
+    "xg_against_home": null,
+    "xg_for_away": null,
+    "xg_against_away": null,
+    "elo_home": 2025,
+    "elo_away": 1701,
+    "corners_for_home": 5.4,
+    "corners_against_home": 3.6,
+    "corners_for_away": 5.6,
+    "corners_against_away": 4.4,
+    "cards_for_home": 0.8,
+    "cards_against_home": 2.0,
+    "cards_for_away": 2.2,
+    "cards_against_away": 3.0,
+    "odds": {
+      "1x2": { "1": 1.165, "X": 10, "2": 22 },
+      "dc": { "1x": 1.03, "x2": 6.5, "12": 1.09 },
+      "dnb": { "1": 1.04, "2": 17 },
+      "btts": { "yes": 2.05, "no": 1.89 },
+      "ou_goals": {
+        "over_1_5": 1.09, "under_1_5": 9,
+        "over_2_5": 1.32, "under_2_5": 3.7,
+        "over_3_5": 1.773, "under_3_5": 2.216
+      },
+      "ou_corners": {
+        "over_8_5": 1.475, "under_8_5": 2.9,
+        "over_9_5": 1.775, "under_9_5": 2.15,
+        "over_10_5": 2.23, "under_10_5": 1.7
+      },
+      "ou_cards": {
+        "over_3_5": 2.52, "under_3_5": 1.46
+      }
+    },
+    "sources": [
+      "https://clubelo.com/Ranking (Elo; página creada 2026-10-20 09:03:40 UTC; Man City 2025, AEK 1701)",
+      "https://www.statsbet.es/futbol/equipos/manchester-city (corners/cards; pestaña por defecto 'Últimos 5'; SIN sección 'Goles esperados'; captura directa 2026-10-20)",
+      "https://www.statsbet.es/futbol/equipos/aek-athens (corners/cards; 'Últimos 5'; SIN sección xG; captura directa 2026-10-20)",
+      "https://www.oddssafari.com/api/match?EventID=2310237&MarketTypeID=101&ScopeID=103 (todas las cuotas; MarketTypeID 101/102/103/105/108/130/186; captura 2026-10-20T14:36Z)",
+      "https://www.fotmob.com/matches/manchester-city-vs-aek-athens/2e8fgd (bajas, alineaciones)",
+      "https://www.foxsports.com/soccer/champions-league-man-city-vs-aek-athens-oct-20-2026-game-boxscore-1003362 (xG cross-check; Haaland no lesionado según Maresca)"
+    ],
+    "notes": "FIXTURE Y KICKOFF verificados por el padre (19:00Z), no re-verificados aquí. XG: null para ambos — statsbet no publica sección 'Goles esperados' para Man City ni AEK; no se inventa. CROSS-CHECK xG (solo contexto, no usado como valor): FOX por partido en UCL 2026-27 Man City 1.8 / AEK 1.0 (n=2 partidos). CORNERS/CARDS: statsbet 'Últimos 5' partidos oficiales (competiciones mixtas, captura directa 2026-10-20); 'en contra' derivado = Media total − a favor (Man City 9.0−5.4=3.6 corners, 2.8−0.8=2.0 cards; AEK 10.0−5.6=4.4 corners, 5.2−2.2=3.0 cards). BAJA CONFIANZA corners/cards Man City: el bloque de statsbet del Man City estaba desfasado ~1 partido respecto a sus últimos resultados reales (posible lag de hasta 1 partido) además de fuente única; AEK también fuente única statsbet. ELO: clubelo.com del 20/10 (2025 Man City / 1701 AEK); AEK es Elo al 14/10 — su partido del 17/10 aún no está registrado en clubelo. ODDS: oddssafari, mejor precio por selección entre ~14 bookmakers; captura 2026-10-20T14:36Z (~4h24m antes del kickoff). BOOKS (mejor precio, over/under en orden): 1=1xBet, X=1xBet, 2=Betsson; dc 1x=Betway, x2=Interwetten, 12=Fonbet; dnb 1=Bet365, 2=888Sport; btts yes=Interwetten, no=Novibet; goles 1.5=Bwin/Interwetten, 2.5=Bwin/Novibet, 3.5=1xBet/1xBet; corners 8.5=Betway/888Sport, 9.5=Betway/888Sport, 10.5=Fonbet/888Sport; cards 3.5=Fonbet/Fonbet. CARDS OU: BAJA CONFIANZA — una sola casa (Fonbet, ~8-9% margen); solo la línea 3.5 está ofrecida (4.5 y 5.5 NO ofrecidas → claves omitidas por regla de ambos lados). ABSENCES/NEWS (fotmob/FOX 19-20/10): Man City — Semenyo fuera hasta mediados de diciembre (lesión de pierna); dudosos Matheus Nunes (molestias físicas), Nico O'Reilly (espalda) y Mateo Kovačić (golpe); Haaland cojeó tras el pie el sábado pero Maresca confirma que no está lesionado ('Erling también dijo que estaba bien'). AEK — portero Strakosha fuera (lesión de muñeca); sin otras bajas reportadas."
+  },
+  {
+    "match": "Paris Saint-Germain vs FC Barcelona",
+    "home": "Paris Saint-Germain",
+    "away": "FC Barcelona",
+    "league": "UEFA Champions League 2026-27 - League phase MD3",
+    "kickoff_utc": "2026-10-20T19:00:00Z",
+    "xg_for_home": null,
+    "xg_against_home": null,
+    "xg_for_away": null,
+    "xg_against_away": null,
+    "elo_home": 1973,
+    "elo_away": 2037,
+    "corners_for_home": 4.2,
+    "corners_against_home": 4.8,
+    "corners_for_away": 8.2,
+    "corners_against_away": 1.2,
+    "cards_for_home": 0.8,
+    "cards_against_home": 2.8,
+    "cards_for_away": 1.4,
+    "cards_against_away": 2.6,
+    "odds": {
+      "1x2": { "1": 2.62, "X": 4.51, "2": 2.515 },
+      "dc": { "1x": 1.612, "x2": 1.571, "12": 1.242 },
+      "dnb": { "1": 1.97, "2": 1.85 },
+      "btts": { "yes": 1.23, "no": 4.5 },
+      "ou_goals": {
+        "over_1_5": 1.07, "under_1_5": 12,
+        "over_2_5": 1.22, "under_2_5": 4.8,
+        "over_3_5": 1.55, "under_3_5": 2.75
+      },
+      "ou_corners": {
+        "over_8_5": 1.55, "under_8_5": 2.52,
+        "over_9_5": 1.87, "under_9_5": 1.86,
+        "over_10_5": 2.45, "under_10_5": 1.55
+      },
+      "ou_cards": {
+        "over_3_5": 1.94, "under_3_5": 1.77
+      }
+    },
+    "sources": [
+      "https://clubelo.com/Ranking (Elo; página creada 2026-10-20 09:03:40 UTC; PSG 1973, FC Barcelona 2037)",
+      "https://www.statsbet.es/futbol/equipos/paris-saint-germain (corners/cards; 'Últimos 5'; SIN sección xG; captura directa 2026-10-20)",
+      "https://www.statsbet.es/futbol/equipos/fc-barcelona (corners/cards; 'Últimos 5'; SIN sección xG; captura directa 2026-10-20)",
+      "https://www.oddssafari.com/api/match?EventID=8963467&MarketTypeID=101&ScopeID=103 (todas las cuotas; MarketTypeID 101/102/103/105/108/130/186; captura 2026-10-20T14:36Z)",
+      "https://www.espn.co.uk/football/match/_/gameId/401915399/barcelona-paris-saint-germain (xG cross-check: PSG 3.27 a favor / 1.60 en contra, BAR 2.23 / 0.47)",
+      "https://www.foxsports.com/soccer/champions-league-paris-sg-vs-barcelona-oct-20-2026-game-boxscore-1003363 (xG cross-check 2.9/2.6; Marquinhos vuelve)"
+    ],
+    "notes": "FIXTURE Y KICKOFF verificados por el padre (19:00Z), no re-verificados aquí. XG: null para ambos — statsbet no publica 'Goles esperados' para PSG ni Barcelona; no se inventa. CROSS-CHECK xG (solo contexto, no usado como valor): ESPN por partido UCL PSG 3.27 a favor / 1.60 en contra, Barcelona 2.23 / 0.47; FOX por partido UCL PSG 2.9 / Barcelona 2.6 (ventanas no idénticas, divergencia documentada). CORNERS/CARDS: statsbet 'Últimos 5' (mixto, captura directa 2026-10-20); 'en contra' derivado = Media total − a favor (PSG 9.0−4.2=4.8 corners, 3.6−0.8=2.8 cards; Barcelona 9.4−8.2=1.2 corners, 4.0−1.4=2.6 cards). BAJA CONFIANZA corners/cards: fuente única (statsbet). ELO: clubelo.com del 20/10 (1973 PSG / 2037 Barcelona). ODDS: oddssafari mejor precio por selección entre ~14 bookmakers; captura 2026-10-20T14:36Z (~4h24m antes del kickoff); partido de cuotas ajustadas (1X2 2.62/4.51/2.515). BOOKS (mejor precio, over/under en orden): 1=Betano, X=1xBet, 2=1xBet; dc 1x=1xBet, x2=1xBet, 12=1xBet; dnb 1=Betsson, 2=10bet; btts yes=Bwin, no=Fonbet; goles 1.5=Fonbet/1xBet, 2.5=Bwin/Interwetten, 3.5=Bwin/Fonbet; corners 8.5=Interwetten/Fonbet, 9.5=Novibet/Novibet, 10.5=Novibet/Interwetten; cards 3.5=Fonbet/Fonbet. CARDS OU: BAJA CONFIANZA — una sola casa (Fonbet); solo la línea 3.5 está ofrecida (4.5 y 5.5 NO ofrecidas → claves omitidas por regla de ambos lados). ABSENCES/NEWS: PSG — Nuno Mendes fuera (lesión; Digne como opción en lateral izquierdo, captura previa de sesión); Marquinhos entrenó con normalidad el lunes y vuelve al once (comunicado del club vía FOX, 19/10); Barça — Eric García dudoso (muslo), Gerard Martín fuera, Koundé con molestias menores (captura previa de sesión, prensa 19-20/10; URLs no re-verificadas en esta pasada). CONTEXTO: ambos 2-0-0 en la fase liga; AS reporta incertidumbre logística por protestas violentas en Francia (19/10) — riesgo de aplazamiento no confirmado por UEFA."
+  },
+  {
+    "match": "FC Porto vs PSV Eindhoven",
+    "home": "FC Porto",
+    "away": "PSV Eindhoven",
+    "league": "UEFA Champions League 2026-27 - League phase MD3",
+    "kickoff_utc": "2026-10-20T19:00:00Z",
+    "xg_for_home": null,
+    "xg_against_home": null,
+    "xg_for_away": null,
+    "xg_against_away": null,
+    "elo_home": 1837,
+    "elo_away": 1772,
+    "corners_for_home": 4.4,
+    "corners_against_home": 4.0,
+    "corners_for_away": 6.4,
+    "corners_against_away": 5.2,
+    "cards_for_home": 2.0,
+    "cards_against_home": 3.6,
+    "cards_for_away": 1.8,
+    "cards_against_away": 1.6,
+    "odds": {
+      "1x2": { "1": 1.571, "X": 4.8, "2": 5.9 },
+      "dc": { "1x": 1.17, "x2": 2.67, "12": 1.225 },
+      "dnb": { "1": 1.22, "2": 4.45 },
+      "btts": { "yes": 1.71, "no": 2.25 },
+      "ou_goals": {
+        "over_1_5": 1.18, "under_1_5": 5.25,
+        "over_2_5": 1.58, "under_2_5": 2.5,
+        "over_3_5": 2.45, "under_3_5": 1.68
+      },
+      "ou_corners": {
+        "over_8_5": 1.55, "under_8_5": 2.625,
+        "over_9_5": 1.85, "under_9_5": 1.95,
+        "over_10_5": 2.38, "under_10_5": 1.571
+      },
+      "ou_cards": {
+        "over_3_5": 1.42, "under_3_5": 2.65,
+        "over_4_5": 1.99, "under_4_5": 1.73
+      }
+    },
+    "sources": [
+      "https://clubelo.com/Ranking (Elo; página creada 2026-10-20 09:03:40 UTC; Porto 1837, PSV 1772)",
+      "https://www.statsbet.es/futbol/equipos/porto (corners/cards; 'Últimos 5'; SIN sección xG; captura directa 2026-10-20)",
+      "https://www.statsbet.es/futbol/equipos/psv (corners/cards; 'Últimos 5'; SIN sección xG; captura directa 2026-10-20)",
+      "https://www.oddssafari.com/api/match?EventID=8964185&MarketTypeID=101&ScopeID=103 (todas las cuotas; MarketTypeID 101/102/103/105/108/130/186; captura 2026-10-20T14:36Z)",
+      "https://www.foxsports.com/soccer/champions-league-fc-porto-vs-psv-eindhoven-oct-20-2026-game-boxscore-1003360 (xG cross-check 0.7/0.8)",
+      "https://www.nytimes.com/athletic/football/game/psv-vs-porto/k1Dhpl9MClu4s0ZA/ (injury report 20/10: Porto sin lesiones; PSV 3 fuera)"
+    ],
+    "notes": "FIXTURE Y KICKOFF verificados por el padre (19:00Z), no re-verificados aquí. XG: null para ambos — statsbet no publica 'Goles esperados' para Porto ni PSV; no se inventa. CROSS-CHECK xG (solo contexto, no usado como valor): FOX por partido UCL Porto 0.7 / PSV 0.8 (n=2 partidos; el bloque de goles de statsbet para Porto sí coincidió con sus últimos 5 resultados reales al verificar hoy). CORNERS/CARDS: statsbet 'Últimos 5' (mixto, captura directa 2026-10-20); 'en contra' derivado = Media total − a favor (Porto 8.4−4.4=4.0 corners, 5.6−2.0=3.6 cards; PSV 11.6−6.4=5.2 corners, 3.4−1.8=1.6 cards). BAJA CONFIANZA corners/cards: fuente única (statsbet). ELO: clubelo.com del 20/10 (1837 Porto / 1772 PSV). ODDS: oddssafari mejor precio por selección entre ~14 bookmakers; captura 2026-10-20T14:36Z (~4h24m antes del kickoff). BOOKS (mejor precio, over/under en orden): 1=1xBet, X=Betsson, 2=1xBet; dc 1x=Betano, x2=Betsson, 12=1xBet; dnb 1=Betano, 2=Betsson; btts yes=Bwin, no=888Sport; goles 1.5=Bwin/Interwetten, 2.5=Bwin/Betsson, 3.5=Bwin/1xBet; corners 8.5=Interwetten/888Sport, 9.5=10bet/888Sport, 10.5=Betsson/888Sport; cards 3.5=Fonbet/Fonbet, 4.5=Fonbet/Fonbet. CARDS OU: BAJA CONFIANZA — una sola casa (Fonbet); líneas 3.5 y 4.5 ofrecidas, línea 5.5 NO ofrecida → clave omitida por regla de ambos lados. ABSENCES/NEWS (The Athletic, injury report 20/10): Porto — sin lesiones reportadas; PSV — Fofana (golpe), Mauro Júnior (hombro) y Boscagli (rodilla) fuera. Nota: rcdm.es había dejado las bajas 'por confirmar' (fuente débil única, captura previa) — el reporte del Athletic lo sustituye."
+  },
+  {
+    "match": "AS Roma vs Slovan Bratislava",
+    "home": "AS Roma",
+    "away": "Slovan Bratislava",
+    "league": "UEFA Champions League 2026-27 - League phase MD3",
+    "kickoff_utc": "2026-10-20T19:00:00Z",
+    "xg_for_home": 1.48,
+    "xg_against_home": 0.99,
+    "xg_for_away": 1.03,
+    "xg_against_away": 1.99,
+    "elo_home": 1854,
+    "elo_away": 1553,
+    "corners_for_home": 4.8,
+    "corners_against_home": 4.2,
+    "corners_for_away": 3.4,
+    "corners_against_away": 4.8,
+    "cards_for_home": 2.8,
+    "cards_against_home": 1.8,
+    "cards_for_away": 1.6,
+    "cards_against_away": 2.6,
+    "odds": {
+      "1x2": { "1": 1.15, "X": 10, "2": 24 },
+      "dc": { "1x": 1.03, "x2": 7.2, "12": 1.071 },
+      "dnb": { "1": 1.03, "2": 19 },
+      "btts": { "yes": 2.02, "no": 1.87 },
+      "ou_goals": {
+        "over_1_5": 1.08, "under_1_5": 9.4,
+        "over_2_5": 1.27, "under_2_5": 4,
+        "over_3_5": 1.712, "under_3_5": 2.32
+      },
+      "ou_corners": {
+        "over_8_5": 1.55, "under_8_5": 2.7,
+        "over_9_5": 1.87, "under_9_5": 1.94,
+        "over_10_5": 2.45, "under_10_5": 1.571
+      },
+      "ou_cards": {
+        "over_3_5": 1.85, "under_3_5": 1.85
+      }
+    },
+    "sources": [
+      "https://clubelo.com/Ranking (Elo; página creada 2026-10-20 09:03:40 UTC; Roma 1854, Slovan 1553)",
+      "https://www.statsbet.es/futbol/equipos/roma (xG, corners, cards; 'Últimos 5'; captura directa 2026-10-20)",
+      "https://www.statsbet.es/futbol/equipos/slovan-bratislava (xG, corners, cards; 'Últimos 5'; captura directa 2026-10-20)",
+      "https://www.oddssafari.com/api/match?EventID=7105472&MarketTypeID=101&ScopeID=103 (todas las cuotas; MarketTypeID 101/102/103/105/108/130/186; captura 2026-10-20T14:36Z)",
+      "https://www.foxsports.com/soccer/champions-league-roma-vs-slovan-bratisl-oct-20-2026-game-boxscore-1003359 (xG cross-check 1.2/0.7; bajas Dybala)",
+      "https://sports360news.com/en/football/roma-vs-slovan-bratislava-champions-league-s360-football-uefa-ucl-hp1/11145290 (team news confirmado 20/10, ruedas de prensa 19/10)",
+      "https://www.goal.com/en-us/lists/lorenzo-pellegrini-roma-contract-renewal-gasperini-quotes/blt322b0d6a235c8151 (Pellegrini disponible; Touré habla de bajas)"
+    ],
+    "notes": "FIXTURE Y KICKOFF verificados por el padre (19:00Z), no re-verificados aquí. XG: statsbet sección 'Goles esperados' con pestaña activa 'Últimos 5' pero ventana NO etiquetada (probablemente mixta) — Roma 1.48 a favor / 0.99 en contra; Slovan 1.03 / 1.99 (estimaciones del sitio, captura directa 2026-10-20). CROSS-CHECK xG (solo contexto): FOX por partido UCL Roma 1.2 / Slovan 0.7 — misma dirección, niveles inferiores (ventana UCL n=2). CORNERS/CARDS: statsbet 'Últimos 5' (mixto); 'en contra' derivado = Media total − a favor (Roma 9.0−4.8=4.2 corners, 4.6−2.8=1.8 cards; Slovan 8.2−3.4=4.8 corners, 4.2−1.6=2.6 cards). BAJA CONFIANZA corners/cards: fuente única (statsbet). ELO: clubelo.com del 20/10 (1854 Roma / 1553 Slovan; diferencia 301 elos — el mayor gap de este pliego junto con M1). ODDS: oddssafari mejor precio por selección entre ~14 bookmakers; captura 2026-10-20T14:36Z (~4h24m antes del kickoff). BOOKS (mejor precio, over/under en orden): 1=Novibet, X=Betano, 2=Betsson; dc 1x=Betway, x2=1xBet, 12=Betway; dnb 1=Bwin, 2=Bet365; btts yes=Betsson, no=Novibet; goles 1.5=Bwin/Betsson, 2.5=Bwin/Bet365, 3.5=1xBet/1xBet; corners 8.5=Interwetten/Fonbet, 9.5=Novibet/Fonbet, 10.5=Novibet/Betway; cards 3.5=Fonbet/Fonbet. CARDS OU: BAJA CONFIANZA — una sola casa (Fonbet); solo la línea 3.5 está ofrecida (4.5 y 5.5 NO ofrecidas → claves omitidas por regla de ambos lados). ABSENCES/NEWS (sports360news/goal, ruedas de prensa 19-20/10): Roma — Paulo Dybala fuera 'un par de semanas' (MRI: microlesión, Gasperini 19/10); Bryan Cristante no confirmado (Gasperini espera recuperarlo vs Napoli); Pellegrini disponible tras 6 meses de baja; Castro y Malen disponibles. Slovan — fuera Andraž Šporar (gripe con fiebre) y Roman Čerepkai (lumbar tras el golpe en el partido vs Stuttgart), confirmados por el entrenador Yaya Touré."
+  },
+  {
+    "match": "VfB Stuttgart vs Atlético Madrid",
+    "home": "VfB Stuttgart",
+    "away": "Atlético Madrid",
+    "league": "UEFA Champions League 2026-27 - League phase MD3",
+    "kickoff_utc": "2026-10-20T19:00:00Z",
+    "xg_for_home": 1.92,
+    "xg_against_home": 1.1,
+    "xg_for_away": null,
+    "xg_against_away": null,
+    "elo_home": 1821,
+    "elo_away": 1916,
+    "corners_for_home": 6.0,
+    "corners_against_home": 4.0,
+    "corners_for_away": 7.0,
+    "corners_against_away": 2.0,
+    "cards_for_home": 0.6,
+    "cards_against_home": 1.0,
+    "cards_for_away": 2.4,
+    "cards_against_away": 2.2,
+    "odds": {
+      "1x2": { "1": 3.4, "X": 4.005, "2": 2.126 },
+      "dc": { "1x": 1.801, "x2": 1.39, "12": 1.289 },
+      "dnb": { "1": 2.52, "2": 1.57 },
+      "btts": { "yes": 1.444, "no": 2.85 },
+      "ou_goals": {
+        "over_1_5": 1.15, "under_1_5": 6.25,
+        "over_2_5": 1.47, "under_2_5": 2.75,
+        "over_3_5": 2.2, "under_3_5": 1.806
+      },
+      "ou_corners": {
+        "over_8_5": 1.5, "under_8_5": 2.7,
+        "over_9_5": 1.8, "under_9_5": 2.0,
+        "over_10_5": 2.3, "under_10_5": 1.615
+      },
+      "ou_cards": {
+        "over_3_5": 1.7, "under_3_5": 2.03
+      }
+    },
+    "sources": [
+      "https://clubelo.com/Ranking (Elo; página creada 2026-10-20 09:03:40 UTC; Stuttgart 1821, Atlético 1916)",
+      "https://www.statsbet.es/futbol/equipos/vfb-stuttgart (xG, corners, cards; 'Últimos 5'; captura directa 2026-10-20 — bloque de corners/cards corregido con fetch fresco hoy)",
+      "https://www.statsbet.es/futbol/equipos/atltico-madrid (corners/cards; 'Últimos 5'; SIN sección xG; captura directa 2026-10-20)",
+      "https://www.oddssafari.com/api/match?EventID=8964182&MarketTypeID=101&ScopeID=103 (todas las cuotas; MarketTypeID 101/102/103/105/108/130/186; captura 2026-10-20T14:36Z)",
+      "https://www.foxsports.com/soccer/champions-league-vfb-stuttgart-vs-atletico-madrid-oct-20-2026-game-boxscore-1003365 (xG cross-check 1.7/0.7; bajas)",
+      "https://en.atleticodemadrid.com/noticias (Koke baja muscular 16/10)"
+    ],
+    "notes": "FIXTURE Y KICKOFF verificados por el padre (19:00Z), no re-verificados aquí. XG: Stuttgart 1.92 a favor / 1.10 en contra (statsbet 'Goles esperados', pestaña activa 'Últimos 5' pero ventana NO etiquetada); Atlético null — statsbet no publica 'Goles esperados' para Atlético; no se inventa. CROSS-CHECK xG (solo contexto, no usado como valor): FOX por partido UCL Stuttgart 1.7 / Atlético 0.7 (n=2). CORNERS/CARDS: statsbet 'Últimos 5' (mixto, captura directa 2026-10-20 — el snapshot previo de Stuttgart estaba desfasado y fue reemplazado por fetch fresco); 'en contra' derivado = Media total − a favor (Stuttgart 10.0−6.0=4.0 corners, 1.6−0.6=1.0 cards; Atlético 9.0−7.0=2.0 corners, 4.6−2.4=2.2 cards). BAJA CONFIANZA corners/cards: fuente única (statsbet). ELO: clubelo.com del 20/10 (1821 Stuttgart / 1916 Atlético). ODDS: oddssafari mejor precio por selección entre ~14 bookmakers; captura 2026-10-20T14:36Z (~4h24m antes del kickoff). BOOKS (mejor precio, over/under en orden): 1=Betsson, X=1xBet, 2=1xBet; dc 1x=1xBet, x2=Betano, 12=1xBet; dnb 1=Betsson, 2=Betano; btts yes=888Sport, no=Fonbet; goles 1.5=Betano/Interwetten, 2.5=Bwin/Betsson, 3.5=Bwin/1xBet; corners 8.5=Interwetten/888Sport, 9.5=Betway/888Sport, 10.5=Bwin/888Sport; cards 3.5=Fonbet/Fonbet. CARDS OU: BAJA CONFIANZA — una sola casa (Fonbet); solo la línea 3.5 está ofrecida (4.5 y 5.5 NO ofrecidas → claves omitidas por regla de ambos lados). ABSENCES/NEWS: Atlético — Koke fuera con lesión muscular en el muslo izquierdo (comunicado del club 16/10; progreso individual); sin otras bajas reportadas (once titular vs Espanyol disponible 17/10, FOX 20/10). Stuttgart — sin bajas reportadas (FOX 20/10; El Khannouss, Undav y Stiller en activo). CONTEXTO: Stuttgart 1º del grupo con 6 pts (2-0-0, 3.0 goles/partido) pero perdió 0-1 vs Hamburger SV el 17/10; Atlético 3 pts (1-0-1) con 1-0 al Espanyol el 17/10."
+  }
+]
