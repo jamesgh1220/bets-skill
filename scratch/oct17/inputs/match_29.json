@@ -1,0 +1,35 @@
+{
+ "home_team": "Atlético Tucuman",
+ "away_team": "Rosario Central",
+ "league": "Liga Profesional Argentina",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T23:00:00Z",
+ "xg_home_for": 0.893,
+ "xg_home_against": 1.071,
+ "xg_away_for": 1.321,
+ "xg_away_against": 0.893,
+ "elo_home": 1637.0,
+ "elo_away": 1743.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 3.3,
+  "2": 2.54,
+  "X": 3.15,
+  "over_2_5": 2.58,
+  "under_2_5": 1.54,
+  "over_1_5": 1.52,
+  "under_1_5": 2.61,
+  "over_3_5": 5.3,
+  "under_3_5": 1.17,
+  "btts_yes": 2.05,
+  "btts_no": 1.69,
+  "1x": 1.54,
+  "x2": 1.34,
+  "12": 1.39,
+  "dnb_home": 2.15,
+  "dnb_away": 1.66
+ },
+ "sources": {
+  "xg": "Wikipedia ARG 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

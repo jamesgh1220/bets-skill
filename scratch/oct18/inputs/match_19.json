@@ -1,0 +1,33 @@
+{
+ "home_team": "Racing Club",
+ "away_team": "Independiente",
+ "league": "Liga Profesional Argentina",
+ "match_date": "2026-10-18",
+ "kickoff_utc": "2026-10-18T17:45:00Z",
+ "xg_home_for": 1.083,
+ "xg_home_against": 1.583,
+ "xg_away_for": 0.917,
+ "xg_away_against": 1.0,
+ "elo_home": 1700.0,
+ "elo_away": 1689.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.26,
+  "2": 3.8,
+  "X": 3.25,
+  "over_2_5": 2.35,
+  "under_2_5": 1.65,
+  "over_1_5": 1.45,
+  "under_1_5": 2.84,
+  "over_3_5": 4.7,
+  "under_3_5": 1.2,
+  "btts_yes": 1.99,
+  "btts_no": 1.73,
+  "1x": 1.26,
+  "x2": 1.73,
+  "12": 1.34
+ },
+ "sources": {
+  "xg": "Wikipedia ARG 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

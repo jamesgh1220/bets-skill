@@ -1,0 +1,33 @@
+{
+ "home_team": "Lyon",
+ "away_team": "Nice",
+ "league": "Ligue 1",
+ "match_date": "2026-10-18",
+ "kickoff_utc": "2026-10-18T18:45:00Z",
+ "xg_home_for": 1.831,
+ "xg_home_against": 1.218,
+ "xg_away_for": 1.168,
+ "xg_away_against": 1.708,
+ "elo_home": 1801.0,
+ "elo_away": 1674.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 1.89,
+  "2": 4.8,
+  "X": 4.06,
+  "over_2_5": 1.75,
+  "under_2_5": 2.3,
+  "over_1_5": 1.22,
+  "under_1_5": 4.4,
+  "over_3_5": 2.71,
+  "under_3_5": 1.49,
+  "btts_yes": 1.67,
+  "btts_no": 2.28,
+  "1x": 1.25,
+  "x2": 2.1,
+  "12": 1.28
+ },
+ "sources": {
+  "xg": "Understat Ligue 1 2026 (xG real)"
+ }
+}

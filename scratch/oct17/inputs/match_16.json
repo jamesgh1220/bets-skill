@@ -1,0 +1,35 @@
+{
+ "home_team": "Real Betis",
+ "away_team": "Barcelona",
+ "league": "La Liga",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T16:30:00Z",
+ "xg_home_for": 1.976,
+ "xg_home_against": 1.742,
+ "xg_away_for": 4.039,
+ "xg_away_against": 0.993,
+ "elo_home": 1829.0,
+ "elo_away": 2032.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 7.31,
+  "2": 1.43,
+  "X": 6.1,
+  "over_2_5": 1.22,
+  "under_2_5": 4.34,
+  "over_1_5": 1.07,
+  "under_1_5": 10.5,
+  "over_3_5": 1.63,
+  "under_3_5": 2.4,
+  "btts_yes": 1.43,
+  "btts_no": 3.25,
+  "1x": 3.12,
+  "x2": 1.14,
+  "12": 1.18,
+  "dnb_home": 5.32,
+  "dnb_away": 1.18
+ },
+ "sources": {
+  "xg": "Understat La Liga 2026 (xG real)"
+ }
+}

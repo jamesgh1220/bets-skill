@@ -1,0 +1,35 @@
+{
+ "home_team": "New York City FC",
+ "away_team": "Los Angeles FC",
+ "league": "MLS",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T23:30:00Z",
+ "xg_home_for": 1.448,
+ "xg_home_against": 1.379,
+ "xg_away_for": 1.567,
+ "xg_away_against": 1.067,
+ "elo_home": 1589.0,
+ "elo_away": 1656.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.84,
+  "2": 2.58,
+  "X": 3.65,
+  "over_2_5": 1.78,
+  "under_2_5": 2.22,
+  "over_1_5": 1.24,
+  "under_1_5": 4.3,
+  "over_3_5": 2.85,
+  "under_3_5": 1.46,
+  "btts_yes": 1.6,
+  "btts_no": 2.4,
+  "1x": 1.55,
+  "x2": 1.49,
+  "12": 1.32,
+  "dnb_home": 1.98,
+  "dnb_away": 1.86
+ },
+ "sources": {
+  "xg": "Wikipedia MLS 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

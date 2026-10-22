@@ -1,0 +1,35 @@
+{
+ "home_team": "Brentford",
+ "away_team": "Liverpool",
+ "league": "Premier League",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T14:00:00Z",
+ "xg_home_for": 1.966,
+ "xg_home_against": 1.556,
+ "xg_away_for": 1.501,
+ "xg_away_against": 1.421,
+ "elo_home": 1863.0,
+ "elo_away": 1932.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.56,
+  "2": 2.88,
+  "X": 3.73,
+  "over_2_5": 1.57,
+  "under_2_5": 2.45,
+  "over_1_5": 1.18,
+  "under_1_5": 5.4,
+  "over_3_5": 2.46,
+  "under_3_5": 1.64,
+  "btts_yes": 1.52,
+  "btts_no": 2.88,
+  "1x": 1.48,
+  "x2": 1.6,
+  "12": 1.32,
+  "dnb_home": 1.79,
+  "dnb_away": 2.08
+ },
+ "sources": {
+  "xg": "Understat EPL 2026 (xG real)"
+ }
+}

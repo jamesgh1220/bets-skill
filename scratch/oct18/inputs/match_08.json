@@ -1,0 +1,33 @@
+{
+ "home_team": "Leeds United",
+ "away_team": "Manchester United",
+ "league": "Premier League",
+ "match_date": "2026-10-18",
+ "kickoff_utc": "2026-10-18T13:00:00Z",
+ "xg_home_for": 1.404,
+ "xg_home_against": 1.456,
+ "xg_away_for": 1.909,
+ "xg_away_against": 1.542,
+ "elo_home": 1814.0,
+ "elo_away": 1871.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.46,
+  "2": 3.05,
+  "X": 3.75,
+  "over_2_5": 1.71,
+  "under_2_5": 2.32,
+  "over_1_5": 1.23,
+  "under_1_5": 4.55,
+  "over_3_5": 2.73,
+  "under_3_5": 1.5,
+  "btts_yes": 1.63,
+  "btts_no": 2.56,
+  "1x": 1.45,
+  "x2": 1.64,
+  "12": 1.32
+ },
+ "sources": {
+  "xg": "Understat EPL 2026 (xG real)"
+ }
+}

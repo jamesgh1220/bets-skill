@@ -1,0 +1,35 @@
+{
+ "home_team": "Strasbourg",
+ "away_team": "Paris Saint Germain",
+ "league": "Ligue 1",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T15:15:00Z",
+ "xg_home_for": 1.152,
+ "xg_home_against": 1.862,
+ "xg_away_for": 2.612,
+ "xg_away_against": 1.508,
+ "elo_home": 1735.0,
+ "elo_away": 1969.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 7.2,
+  "2": 1.45,
+  "X": 6.0,
+  "over_2_5": 1.35,
+  "under_2_5": 3.3,
+  "over_1_5": 1.11,
+  "under_1_5": 7.6,
+  "over_3_5": 1.92,
+  "under_3_5": 2.06,
+  "btts_yes": 1.53,
+  "btts_no": 2.61,
+  "1x": 3.1,
+  "x2": 1.13,
+  "12": 1.18,
+  "dnb_home": 5.51,
+  "dnb_away": 1.17
+ },
+ "sources": {
+  "xg": "Understat Ligue 1 2026 (xG real)"
+ }
+}

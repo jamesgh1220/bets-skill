@@ -1,0 +1,33 @@
+{
+ "home_team": "FC Cincinnati",
+ "away_team": "Columbus Crew SC",
+ "league": "MLS",
+ "match_date": "2026-10-18",
+ "kickoff_utc": "2026-10-18T21:00:00Z",
+ "xg_home_for": 2.143,
+ "xg_home_against": 2.429,
+ "xg_away_for": 1.517,
+ "xg_away_against": 1.621,
+ "elo_home": 1596.0,
+ "elo_away": 1602.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.44,
+  "2": 2.75,
+  "X": 4.2,
+  "over_2_5": 1.35,
+  "under_2_5": 3.15,
+  "over_1_5": 1.11,
+  "under_1_5": 7.0,
+  "over_3_5": 1.97,
+  "under_3_5": 2.04,
+  "btts_yes": 1.39,
+  "btts_no": 3.3,
+  "1x": 1.49,
+  "x2": 1.62,
+  "12": 1.27
+ },
+ "sources": {
+  "xg": "Wikipedia MLS 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "home_team": "New England Revolution",
+ "away_team": "Chicago Fire",
+ "league": "MLS",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T23:30:00Z",
+ "xg_home_for": 1.655,
+ "xg_home_against": 1.414,
+ "xg_away_for": 1.793,
+ "xg_away_against": 1.483,
+ "elo_home": 1566.0,
+ "elo_away": 1597.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.48,
+  "2": 2.88,
+  "X": 4.0,
+  "over_2_5": 1.46,
+  "under_2_5": 2.68,
+  "over_1_5": 1.14,
+  "under_1_5": 5.92,
+  "over_3_5": 2.18,
+  "under_3_5": 1.72,
+  "btts_yes": 1.43,
+  "btts_no": 2.95,
+  "1x": 1.49,
+  "x2": 1.62,
+  "12": 1.28,
+  "dnb_home": 1.78,
+  "dnb_away": 2.08
+ },
+ "sources": {
+  "xg": "Wikipedia MLS 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

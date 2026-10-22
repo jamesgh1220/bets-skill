@@ -1,0 +1,35 @@
+{
+ "home_team": "Banfield",
+ "away_team": "Argentinos Juniors",
+ "league": "Liga Profesional Argentina",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T18:00:00Z",
+ "xg_home_for": 1.107,
+ "xg_home_against": 1.321,
+ "xg_away_for": 1.179,
+ "xg_away_against": 0.857,
+ "elo_home": 1705,
+ "elo_away": 1744.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 4.5,
+  "2": 2.0,
+  "X": 3.45,
+  "over_2_5": 2.3,
+  "under_2_5": 1.67,
+  "over_1_5": 1.4,
+  "under_1_5": 2.99,
+  "over_3_5": 4.21,
+  "under_3_5": 1.24,
+  "btts_yes": 1.94,
+  "btts_no": 1.77,
+  "1x": 1.84,
+  "x2": 1.23,
+  "12": 1.32,
+  "dnb_home": 3.0,
+  "dnb_away": 1.36
+ },
+ "sources": {
+  "xg": "Wikipedia ARG 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

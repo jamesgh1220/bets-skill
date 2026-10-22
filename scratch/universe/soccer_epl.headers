@@ -1,0 +1,18 @@
+HTTP/2 422 
+content-type: application/json; charset=utf-8
+content-length: 167
+date: Sat, 17 Oct 2026 02:35:42 GMT
+x-amzn-trace-id: Root=1-6ad2defe-2b5590bd009223225c1cfd5c;Parent=37ff8aaadcddab64;Sampled=0;Lineage=1:92ec0d90:0
+x-amzn-requestid: 7fda6621-9984-43a6-831a-9e2b9ed3fc11
+x-requests-remaining: 499
+x-amzn-remapped-content-length: 167
+x-requests-last: 0
+x-requests-used: 1
+vary: Accept-Encoding
+x-cache: Error from cloudfront
+via: 1.1 7d4df5940334be49e7f1705b0206d3ec.cloudfront.net (CloudFront)
+x-amz-cf-pop: BOG50-P2
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: uKt5wRJZQSxzcHCyA3xOeCU81hGCIC44-SNjwHqjmlv_WNPzCe_ovQ==
+vary: Origin
+

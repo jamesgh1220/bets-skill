@@ -1,0 +1,35 @@
+{
+ "home_team": "Bayern Munich",
+ "away_team": "RB Leipzig",
+ "league": "Bundesliga",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T16:30:00Z",
+ "xg_home_for": 3.581,
+ "xg_home_against": 0.992,
+ "xg_away_for": 2.696,
+ "xg_away_against": 1.421,
+ "elo_home": 2038.0,
+ "elo_away": 1829.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 1.26,
+  "2": 12.5,
+  "X": 8.4,
+  "over_2_5": 1.14,
+  "under_2_5": 6.06,
+  "over_1_5": 1.03,
+  "under_1_5": 16.0,
+  "over_3_5": 1.41,
+  "under_3_5": 3.15,
+  "btts_yes": 1.43,
+  "btts_no": 3.15,
+  "1x": 1.08,
+  "x2": 4.44,
+  "12": 1.12,
+  "dnb_home": 1.09,
+  "dnb_away": 8.71
+ },
+ "sources": {
+  "xg": "Understat Bundesliga 2026 (xG real)"
+ }
+}

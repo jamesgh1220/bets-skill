@@ -1,0 +1,35 @@
+{
+ "home_team": "Villarreal",
+ "away_team": "Elche CF",
+ "league": "La Liga",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T14:15:00Z",
+ "xg_home_for": 2.517,
+ "xg_home_against": 1.608,
+ "xg_away_for": 1.319,
+ "xg_away_against": 2.016,
+ "elo_home": 1805.0,
+ "elo_away": 1703.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 1.51,
+  "2": 6.75,
+  "X": 5.2,
+  "over_2_5": 1.45,
+  "under_2_5": 2.79,
+  "over_1_5": 1.15,
+  "under_1_5": 6.1,
+  "over_3_5": 2.23,
+  "under_3_5": 1.73,
+  "btts_yes": 1.68,
+  "btts_no": 2.4,
+  "1x": 1.15,
+  "x2": 2.81,
+  "12": 1.22,
+  "dnb_home": 1.19,
+  "dnb_away": 5.04
+ },
+ "sources": {
+  "xg": "Understat La Liga 2026 (xG real)"
+ }
+}

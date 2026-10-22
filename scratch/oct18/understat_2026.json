@@ -1,0 +1,962 @@
+{
+ "Aston Villa": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 7,
+  "xg_for": 1.273,
+  "xg_against": 1.865,
+  "goals_for": 1.0,
+  "goals_against": 1.571,
+  "pts": 8
+ },
+ "Everton": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 7,
+  "xg_for": 1.674,
+  "xg_against": 1.476,
+  "goals_for": 1.143,
+  "goals_against": 1.0,
+  "pts": 10
+ },
+ "Bournemouth": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 6,
+  "xg_for": 1.629,
+  "xg_against": 1.395,
+  "goals_for": 1.167,
+  "goals_against": 2.167,
+  "pts": 3
+ },
+ "Sunderland": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 6,
+  "xg_for": 1.824,
+  "xg_against": 1.749,
+  "goals_for": 1.0,
+  "goals_against": 2.0,
+  "pts": 4
+ },
+ "Crystal Palace": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 6,
+  "xg_for": 1.639,
+  "xg_against": 2.297,
+  "goals_for": 1.5,
+  "goals_against": 2.0,
+  "pts": 7
+ },
+ "Chelsea": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 7,
+  "xg_for": 1.702,
+  "xg_against": 1.792,
+  "goals_for": 2.429,
+  "goals_against": 1.857,
+  "pts": 13
+ },
+ "Tottenham": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 6,
+  "xg_for": 1.309,
+  "xg_against": 1.677,
+  "goals_for": 0.5,
+  "goals_against": 1.5,
+  "pts": 3
+ },
+ "Arsenal": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 6,
+  "xg_for": 1.956,
+  "xg_against": 1.109,
+  "goals_for": 1.667,
+  "goals_against": 0.833,
+  "pts": 15
+ },
+ "Newcastle United": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 7,
+  "xg_for": 1.24,
+  "xg_against": 1.869,
+  "goals_for": 1.429,
+  "goals_against": 2.0,
+  "pts": 8
+ },
+ "Liverpool": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 7,
+  "xg_for": 1.508,
+  "xg_against": 1.341,
+  "goals_for": 1.286,
+  "goals_against": 1.143,
+  "pts": 12
+ },
+ "Manchester City": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 7,
+  "xg_for": 2.376,
+  "xg_against": 1.33,
+  "goals_for": 2.714,
+  "goals_against": 1.0,
+  "pts": 21
+ },
+ "Manchester United": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 6,
+  "xg_for": 1.909,
+  "xg_against": 1.542,
+  "goals_for": 1.5,
+  "goals_against": 1.5,
+  "pts": 6
+ },
+ "Hull": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 7,
+  "xg_for": 1.056,
+  "xg_against": 1.751,
+  "goals_for": 1.143,
+  "goals_against": 1.0,
+  "pts": 9
+ },
+ "Brighton": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 6,
+  "xg_for": 2.422,
+  "xg_against": 1.583,
+  "goals_for": 3.0,
+  "goals_against": 0.833,
+  "pts": 13
+ },
+ "Fulham": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 7,
+  "xg_for": 1.717,
+  "xg_against": 1.688,
+  "goals_for": 1.0,
+  "goals_against": 1.429,
+  "pts": 5
+ },
+ "Brentford": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 7,
+  "xg_for": 1.808,
+  "xg_against": 1.555,
+  "goals_for": 1.857,
+  "goals_against": 1.143,
+  "pts": 10
+ },
+ "Leeds": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 6,
+  "xg_for": 1.404,
+  "xg_against": 1.456,
+  "goals_for": 1.333,
+  "goals_against": 0.833,
+  "pts": 9
+ },
+ "Nottingham Forest": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 6,
+  "xg_for": 2.041,
+  "xg_against": 1.21,
+  "goals_for": 0.833,
+  "goals_against": 1.333,
+  "pts": 5
+ },
+ "Ipswich": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 7,
+  "xg_for": 1.394,
+  "xg_against": 2.299,
+  "goals_for": 1.571,
+  "goals_against": 2.143,
+  "pts": 9
+ },
+ "Coventry": {
+  "league": "England Premier League",
+  "understat": "EPL",
+  "matches": 6,
+  "xg_for": 1.107,
+  "xg_against": 1.801,
+  "goals_for": 0.833,
+  "goals_against": 1.833,
+  "pts": 6
+ },
+ "Malaga": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 8,
+  "xg_for": 0.791,
+  "xg_against": 1.921,
+  "goals_for": 0.5,
+  "goals_against": 1.625,
+  "pts": 4
+ },
+ "Sevilla": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 8,
+  "xg_for": 1.325,
+  "xg_against": 1.564,
+  "goals_for": 1.625,
+  "goals_against": 1.5,
+  "pts": 14
+ },
+ "Deportivo La Coruna": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 9,
+  "xg_for": 1.354,
+  "xg_against": 1.372,
+  "goals_for": 1.444,
+  "goals_against": 1.333,
+  "pts": 11
+ },
+ "Real Sociedad": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 8,
+  "xg_for": 1.336,
+  "xg_against": 1.892,
+  "goals_for": 1.5,
+  "goals_against": 1.875,
+  "pts": 13
+ },
+ "Espanyol": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 9,
+  "xg_for": 1.254,
+  "xg_against": 1.411,
+  "goals_for": 1.222,
+  "goals_against": 1.333,
+  "pts": 8
+ },
+ "Getafe": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 8,
+  "xg_for": 0.805,
+  "xg_against": 1.713,
+  "goals_for": 0.5,
+  "goals_against": 1.25,
+  "pts": 8
+ },
+ "Atletico Madrid": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 9,
+  "xg_for": 1.942,
+  "xg_against": 1.107,
+  "goals_for": 2.111,
+  "goals_against": 0.889,
+  "pts": 22
+ },
+ "Rayo Vallecano": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 7,
+  "xg_for": 1.302,
+  "xg_against": 1.862,
+  "goals_for": 1.571,
+  "goals_against": 2.286,
+  "pts": 8
+ },
+ "Valencia": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 9,
+  "xg_for": 1.076,
+  "xg_against": 1.621,
+  "goals_for": 0.667,
+  "goals_against": 1.667,
+  "pts": 6
+ },
+ "Athletic Club": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 7,
+  "xg_for": 1.686,
+  "xg_against": 1.42,
+  "goals_for": 1.0,
+  "goals_against": 0.857,
+  "pts": 9
+ },
+ "Barcelona": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 9,
+  "xg_for": 3.945,
+  "xg_against": 1.033,
+  "goals_for": 4.333,
+  "goals_against": 1.0,
+  "pts": 27
+ },
+ "Real Madrid": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 8,
+  "xg_for": 2.636,
+  "xg_against": 1.038,
+  "goals_for": 2.375,
+  "goals_against": 1.0,
+  "pts": 18
+ },
+ "Levante": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 8,
+  "xg_for": 1.485,
+  "xg_against": 2.245,
+  "goals_for": 1.5,
+  "goals_against": 2.0,
+  "pts": 7
+ },
+ "Celta Vigo": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 8,
+  "xg_for": 1.004,
+  "xg_against": 1.24,
+  "goals_for": 1.0,
+  "goals_against": 0.75,
+  "pts": 8
+ },
+ "Real Betis": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 9,
+  "xg_for": 1.907,
+  "xg_against": 1.903,
+  "goals_for": 1.778,
+  "goals_against": 1.556,
+  "pts": 19
+ },
+ "Villarreal": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 9,
+  "xg_for": 2.493,
+  "xg_against": 1.454,
+  "goals_for": 1.444,
+  "goals_against": 1.444,
+  "pts": 9
+ },
+ "Osasuna": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 8,
+  "xg_for": 1.254,
+  "xg_against": 1.829,
+  "goals_for": 1.0,
+  "goals_against": 2.25,
+  "pts": 8
+ },
+ "Alaves": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 8,
+  "xg_for": 1.457,
+  "xg_against": 1.201,
+  "goals_for": 1.5,
+  "goals_against": 1.0,
+  "pts": 11
+ },
+ "Elche": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 9,
+  "xg_for": 1.197,
+  "xg_against": 2.047,
+  "goals_for": 1.222,
+  "goals_against": 1.889,
+  "pts": 7
+ },
+ "Racing Santander": {
+  "league": "Spain La Liga",
+  "understat": "La_liga",
+  "matches": 8,
+  "xg_for": 1.402,
+  "xg_against": 2.218,
+  "goals_for": 1.625,
+  "goals_against": 2.875,
+  "pts": 8
+ },
+ "Bayern Munich": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 3.801,
+  "xg_against": 0.944,
+  "goals_for": 3.667,
+  "goals_against": 0.833,
+  "pts": 14
+ },
+ "Hamburger SV": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 1.188,
+  "xg_against": 2.131,
+  "goals_for": 1.0,
+  "goals_against": 2.5,
+  "pts": 9
+ },
+ "Bayer Leverkusen": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 5,
+  "xg_for": 2.547,
+  "xg_against": 1.119,
+  "goals_for": 2.8,
+  "goals_against": 1.6,
+  "pts": 10
+ },
+ "Hoffenheim": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 5,
+  "xg_for": 1.93,
+  "xg_against": 1.972,
+  "goals_for": 1.8,
+  "goals_against": 2.6,
+  "pts": 3
+ },
+ "Augsburg": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 2.377,
+  "xg_against": 2.853,
+  "goals_for": 2.667,
+  "goals_against": 2.0,
+  "pts": 8
+ },
+ "Werder Bremen": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 1.467,
+  "xg_against": 1.718,
+  "goals_for": 2.0,
+  "goals_against": 2.0,
+  "pts": 9
+ },
+ "Schalke 04": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 1.226,
+  "xg_against": 2.243,
+  "goals_for": 0.667,
+  "goals_against": 1.167,
+  "pts": 5
+ },
+ "Mainz 05": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 2.375,
+  "xg_against": 1.483,
+  "goals_for": 2.333,
+  "goals_against": 1.667,
+  "pts": 10
+ },
+ "Borussia Dortmund": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 2.034,
+  "xg_against": 1.006,
+  "goals_for": 1.833,
+  "goals_against": 0.667,
+  "pts": 14
+ },
+ "Borussia M.Gladbach": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 5,
+  "xg_for": 1.703,
+  "xg_against": 2.791,
+  "goals_for": 1.4,
+  "goals_against": 3.6,
+  "pts": 0
+ },
+ "Eintracht Frankfurt": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 2.017,
+  "xg_against": 2.444,
+  "goals_for": 1.667,
+  "goals_against": 2.667,
+  "pts": 8
+ },
+ "VfB Stuttgart": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 2.222,
+  "xg_against": 2.628,
+  "goals_for": 1.333,
+  "goals_against": 1.667,
+  "pts": 6
+ },
+ "FC Cologne": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 1.918,
+  "xg_against": 1.835,
+  "goals_for": 1.333,
+  "goals_against": 1.833,
+  "pts": 7
+ },
+ "Freiburg": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 5,
+  "xg_for": 2.052,
+  "xg_against": 0.882,
+  "goals_for": 2.8,
+  "goals_against": 0.8,
+  "pts": 13
+ },
+ "RasenBallsport Leipzig": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 2.364,
+  "xg_against": 2.001,
+  "goals_for": 2.667,
+  "goals_against": 1.833,
+  "pts": 9
+ },
+ "Paderborn": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 1.09,
+  "xg_against": 2.132,
+  "goals_for": 0.833,
+  "goals_against": 1.5,
+  "pts": 5
+ },
+ "Union Berlin": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 1.183,
+  "xg_against": 2.355,
+  "goals_for": 0.833,
+  "goals_against": 2.833,
+  "pts": 5
+ },
+ "Elversberg": {
+  "league": "Germany Bundesliga",
+  "understat": "Bundesliga",
+  "matches": 6,
+  "xg_for": 1.757,
+  "xg_against": 2.468,
+  "goals_for": 2.0,
+  "goals_against": 1.833,
+  "pts": 10
+ },
+ "Roma": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 7,
+  "xg_for": 2.664,
+  "xg_against": 1.131,
+  "goals_for": 2.286,
+  "goals_against": 0.429,
+  "pts": 17
+ },
+ "Lazio": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 1.876,
+  "xg_against": 1.486,
+  "goals_for": 1.833,
+  "goals_against": 0.667,
+  "pts": 16
+ },
+ "Bologna": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 7,
+  "xg_for": 1.562,
+  "xg_against": 1.548,
+  "goals_for": 0.857,
+  "goals_against": 1.429,
+  "pts": 5
+ },
+ "Juventus": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 1.935,
+  "xg_against": 0.486,
+  "goals_for": 1.5,
+  "goals_against": 0.833,
+  "pts": 11
+ },
+ "Udinese": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 1.276,
+  "xg_against": 2.161,
+  "goals_for": 1.5,
+  "goals_against": 2.167,
+  "pts": 4
+ },
+ "Genoa": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 7,
+  "xg_for": 0.957,
+  "xg_against": 1.441,
+  "goals_for": 0.714,
+  "goals_against": 1.857,
+  "pts": 4
+ },
+ "Sassuolo": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 7,
+  "xg_for": 1.782,
+  "xg_against": 1.863,
+  "goals_for": 1.714,
+  "goals_against": 2.0,
+  "pts": 8
+ },
+ "Napoli": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 7,
+  "xg_for": 2.139,
+  "xg_against": 1.154,
+  "goals_for": 1.429,
+  "goals_against": 1.0,
+  "pts": 10
+ },
+ "Inter": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 7,
+  "xg_for": 3.152,
+  "xg_against": 1.377,
+  "goals_for": 3.0,
+  "goals_against": 1.286,
+  "pts": 19
+ },
+ "Atalanta": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 1.127,
+  "xg_against": 2.232,
+  "goals_for": 1.333,
+  "goals_against": 1.333,
+  "pts": 9
+ },
+ "Fiorentina": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 1.407,
+  "xg_against": 1.83,
+  "goals_for": 1.167,
+  "goals_against": 2.333,
+  "pts": 4
+ },
+ "AC Milan": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 1.926,
+  "xg_against": 1.21,
+  "goals_for": 1.833,
+  "goals_against": 0.833,
+  "pts": 12
+ },
+ "Frosinone": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 7,
+  "xg_for": 1.692,
+  "xg_against": 2.336,
+  "goals_for": 1.857,
+  "goals_against": 1.286,
+  "pts": 13
+ },
+ "Torino": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 1.242,
+  "xg_against": 1.375,
+  "goals_for": 1.167,
+  "goals_against": 1.5,
+  "pts": 7
+ },
+ "Cagliari": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 1.043,
+  "xg_against": 1.858,
+  "goals_for": 1.0,
+  "goals_against": 0.5,
+  "pts": 13
+ },
+ "Parma Calcio 1913": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 0.778,
+  "xg_against": 2.12,
+  "goals_for": 0.667,
+  "goals_against": 1.667,
+  "pts": 4
+ },
+ "Lecce": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 1.246,
+  "xg_against": 2.802,
+  "goals_for": 1.0,
+  "goals_against": 2.0,
+  "pts": 6
+ },
+ "Venezia": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 7,
+  "xg_for": 1.772,
+  "xg_against": 2.549,
+  "goals_for": 0.857,
+  "goals_against": 2.286,
+  "pts": 3
+ },
+ "Monza": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 1.87,
+  "xg_against": 1.604,
+  "goals_for": 1.5,
+  "goals_against": 2.5,
+  "pts": 4
+ },
+ "Como": {
+  "league": "Italy Serie A",
+  "understat": "Serie_A",
+  "matches": 6,
+  "xg_for": 2.233,
+  "xg_against": 1.504,
+  "goals_for": 1.5,
+  "goals_against": 1.0,
+  "pts": 11
+ },
+ "Lille": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 7,
+  "xg_for": 1.54,
+  "xg_against": 1.504,
+  "goals_for": 1.429,
+  "goals_against": 0.714,
+  "pts": 14
+ },
+ "Paris Saint Germain": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 7,
+  "xg_for": 2.576,
+  "xg_against": 1.48,
+  "goals_for": 2.0,
+  "goals_against": 1.286,
+  "pts": 14
+ },
+ "Rennes": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 6,
+  "xg_for": 2.239,
+  "xg_against": 1.974,
+  "goals_for": 2.0,
+  "goals_against": 1.667,
+  "pts": 13
+ },
+ "Marseille": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 6,
+  "xg_for": 1.629,
+  "xg_against": 2.237,
+  "goals_for": 1.5,
+  "goals_against": 1.333,
+  "pts": 6
+ },
+ "Angers": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 6,
+  "xg_for": 1.593,
+  "xg_against": 1.931,
+  "goals_for": 1.167,
+  "goals_against": 1.667,
+  "pts": 7
+ },
+ "Nice": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 6,
+  "xg_for": 1.168,
+  "xg_against": 1.708,
+  "goals_for": 0.833,
+  "goals_against": 1.167,
+  "pts": 8
+ },
+ "Monaco": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 6,
+  "xg_for": 1.234,
+  "xg_against": 1.33,
+  "goals_for": 1.667,
+  "goals_against": 0.833,
+  "pts": 14
+ },
+ "Troyes": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 7,
+  "xg_for": 1.273,
+  "xg_against": 1.949,
+  "goals_for": 0.714,
+  "goals_against": 2.286,
+  "pts": 4
+ },
+ "Toulouse": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 7,
+  "xg_for": 2.01,
+  "xg_against": 1.448,
+  "goals_for": 1.714,
+  "goals_against": 1.571,
+  "pts": 9
+ },
+ "Lyon": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 6,
+  "xg_for": 1.831,
+  "xg_against": 1.218,
+  "goals_for": 1.833,
+  "goals_against": 0.667,
+  "pts": 11
+ },
+ "Lorient": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 6,
+  "xg_for": 1.047,
+  "xg_against": 1.178,
+  "goals_for": 1.0,
+  "goals_against": 1.0,
+  "pts": 8
+ },
+ "Lens": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 7,
+  "xg_for": 2.251,
+  "xg_against": 1.542,
+  "goals_for": 2.0,
+  "goals_against": 1.571,
+  "pts": 10
+ },
+ "Strasbourg": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 7,
+  "xg_for": 1.175,
+  "xg_against": 1.933,
+  "goals_for": 1.714,
+  "goals_against": 2.143,
+  "pts": 7
+ },
+ "Brest": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 7,
+  "xg_for": 2.238,
+  "xg_against": 1.29,
+  "goals_for": 1.857,
+  "goals_against": 1.429,
+  "pts": 9
+ },
+ "Auxerre": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 6,
+  "xg_for": 1.342,
+  "xg_against": 2.113,
+  "goals_for": 1.333,
+  "goals_against": 2.667,
+  "pts": 6
+ },
+ "Le Havre": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 6,
+  "xg_for": 1.234,
+  "xg_against": 1.935,
+  "goals_for": 0.667,
+  "goals_against": 1.333,
+  "pts": 2
+ },
+ "Paris FC": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 6,
+  "xg_for": 1.721,
+  "xg_against": 0.629,
+  "goals_for": 1.333,
+  "goals_against": 0.667,
+  "pts": 11
+ },
+ "Le Mans": {
+  "league": "France Ligue 1",
+  "understat": "Ligue_1",
+  "matches": 7,
+  "xg_for": 1.517,
+  "xg_against": 2.393,
+  "goals_for": 1.429,
+  "goals_against": 2.143,
+  "pts": 6
+ }
+}

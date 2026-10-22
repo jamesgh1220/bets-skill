@@ -1,0 +1,35 @@
+{
+ "home_team": "Bologna",
+ "away_team": "Inter Milan",
+ "league": "Serie A",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T16:00:00Z",
+ "xg_home_for": 1.528,
+ "xg_home_against": 1.207,
+ "xg_away_for": 3.078,
+ "xg_away_against": 1.313,
+ "elo_home": 1756.0,
+ "elo_away": 1938.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 6.6,
+  "2": 1.65,
+  "X": 4.4,
+  "over_2_5": 1.73,
+  "under_2_5": 2.4,
+  "over_1_5": 1.22,
+  "under_1_5": 4.7,
+  "over_3_5": 2.67,
+  "under_3_5": 1.52,
+  "btts_yes": 1.77,
+  "btts_no": 2.22,
+  "1x": 2.53,
+  "x2": 1.16,
+  "12": 1.27,
+  "dnb_home": 4.83,
+  "dnb_away": 1.21
+ },
+ "sources": {
+  "xg": "Understat Serie A 2026 (xG real)"
+ }
+}

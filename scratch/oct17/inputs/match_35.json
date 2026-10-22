@@ -1,0 +1,35 @@
+{
+ "home_team": "New York Red Bulls",
+ "away_team": "Toronto FC",
+ "league": "MLS",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T23:30:00Z",
+ "xg_home_for": 1.345,
+ "xg_home_against": 1.862,
+ "xg_away_for": 1.517,
+ "xg_away_against": 1.897,
+ "elo_home": 1545.0,
+ "elo_away": 1597,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.1,
+  "2": 3.65,
+  "X": 4.3,
+  "over_2_5": 1.41,
+  "under_2_5": 2.85,
+  "over_1_5": 1.13,
+  "under_1_5": 6.25,
+  "over_3_5": 2.08,
+  "under_3_5": 1.79,
+  "btts_yes": 1.44,
+  "btts_no": 2.93,
+  "1x": 1.33,
+  "x2": 1.92,
+  "12": 1.27,
+  "dnb_home": 1.5,
+  "dnb_away": 2.7
+ },
+ "sources": {
+  "xg": "Wikipedia MLS 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

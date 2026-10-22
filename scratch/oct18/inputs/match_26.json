@@ -1,0 +1,33 @@
+{
+ "home_team": "Estudiantes",
+ "away_team": "San Lorenzo",
+ "league": "Liga Profesional Argentina",
+ "match_date": "2026-10-18",
+ "kickoff_utc": "2026-10-18T21:00:00Z",
+ "xg_home_for": 1.25,
+ "xg_home_against": 1.083,
+ "xg_away_for": 0.417,
+ "xg_away_against": 0.917,
+ "elo_home": 1724.0,
+ "elo_away": 1641.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.42,
+  "2": 3.75,
+  "X": 3.05,
+  "over_2_5": 2.72,
+  "under_2_5": 1.44,
+  "over_1_5": 1.58,
+  "under_1_5": 2.4,
+  "over_3_5": 5.87,
+  "under_3_5": 1.14,
+  "btts_yes": 2.16,
+  "btts_no": 1.62,
+  "1x": 1.28,
+  "x2": 1.62,
+  "12": 1.4
+ },
+ "sources": {
+  "xg": "Wikipedia ARG 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

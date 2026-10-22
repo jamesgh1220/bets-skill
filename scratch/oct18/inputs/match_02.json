@@ -1,0 +1,33 @@
+{
+ "home_team": "CA Osasuna",
+ "away_team": "Real Racing Club de Santander",
+ "league": "La Liga",
+ "match_date": "2026-10-18",
+ "kickoff_utc": "2026-10-18T12:00:00Z",
+ "xg_home_for": 1.254,
+ "xg_home_against": 1.829,
+ "xg_away_for": 1.402,
+ "xg_away_against": 2.218,
+ "elo_home": 1714.0,
+ "elo_away": 1686.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.06,
+  "2": 3.82,
+  "X": 3.9,
+  "over_2_5": 1.68,
+  "under_2_5": 2.4,
+  "over_1_5": 1.2,
+  "under_1_5": 5.0,
+  "over_3_5": 2.57,
+  "under_3_5": 1.57,
+  "btts_yes": 1.59,
+  "btts_no": 2.62,
+  "1x": 1.31,
+  "x2": 1.88,
+  "12": 1.31
+ },
+ "sources": {
+  "xg": "Understat La Liga 2026 (xG real)"
+ }
+}

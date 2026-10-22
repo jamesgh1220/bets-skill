@@ -1,0 +1,35 @@
+{
+ "home_team": "AS Roma",
+ "away_team": "Genoa",
+ "league": "Serie A",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T18:45:00Z",
+ "xg_home_for": 2.873,
+ "xg_home_against": 1.235,
+ "xg_away_for": 1.032,
+ "xg_away_against": 1.445,
+ "elo_home": 1851.0,
+ "elo_away": 1666.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 1.61,
+  "2": 6.6,
+  "X": 4.43,
+  "over_2_5": 1.92,
+  "under_2_5": 2.14,
+  "over_1_5": 1.28,
+  "under_1_5": 4.05,
+  "over_3_5": 3.12,
+  "under_3_5": 1.41,
+  "btts_yes": 1.99,
+  "btts_no": 1.95,
+  "1x": 1.15,
+  "x2": 2.56,
+  "12": 1.26,
+  "dnb_home": 1.21,
+  "dnb_away": 4.7
+ },
+ "sources": {
+  "xg": "Understat Serie A 2026 (xG real)"
+ }
+}

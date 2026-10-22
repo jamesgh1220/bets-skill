@@ -1,0 +1,33 @@
+{
+ "home_team": "Udinese",
+ "away_team": "Lecce",
+ "league": "Serie A",
+ "match_date": "2026-10-18",
+ "kickoff_utc": "2026-10-18T10:30:00Z",
+ "xg_home_for": 1.276,
+ "xg_home_against": 2.161,
+ "xg_away_for": 1.246,
+ "xg_away_against": 2.802,
+ "elo_home": 1690.0,
+ "elo_away": 1610.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 1.88,
+  "2": 4.9,
+  "X": 3.75,
+  "over_2_5": 2.09,
+  "under_2_5": 1.87,
+  "over_1_5": 1.37,
+  "under_1_5": 3.38,
+  "over_3_5": 3.8,
+  "under_3_5": 1.31,
+  "btts_yes": 1.96,
+  "btts_no": 2.0,
+  "1x": 1.24,
+  "x2": 2.05,
+  "12": 1.32
+ },
+ "sources": {
+  "xg": "Understat Serie A 2026 (xG real)"
+ }
+}

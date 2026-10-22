@@ -1,0 +1,33 @@
+{
+ "home_team": "Brighton and Hove Albion",
+ "away_team": "Crystal Palace",
+ "league": "Premier League",
+ "match_date": "2026-10-18",
+ "kickoff_utc": "2026-10-18T13:00:00Z",
+ "xg_home_for": 2.422,
+ "xg_home_against": 1.583,
+ "xg_away_for": 1.639,
+ "xg_away_against": 2.297,
+ "elo_home": 1897.0,
+ "elo_away": 1825.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 1.58,
+  "2": 6.8,
+  "X": 5.0,
+  "over_2_5": 1.63,
+  "under_2_5": 2.51,
+  "over_1_5": 1.19,
+  "under_1_5": 5.2,
+  "over_3_5": 2.48,
+  "under_3_5": 1.66,
+  "btts_yes": 1.72,
+  "btts_no": 2.34,
+  "1x": 1.15,
+  "x2": 2.72,
+  "12": 1.22
+ },
+ "sources": {
+  "xg": "Understat EPL 2026 (xG real)"
+ }
+}

@@ -1,0 +1,70 @@
+{
+  "analysis_date_iso": "2026-10-22T08:37:00Z",
+  "match_dates_text": "22 de octubre de 2026",
+  "information_cutoff": "2026-10-22T08:35:00Z",
+  "model_ia": "gemini3.8flash",
+  "engine_version": "model-v1.3",
+  "leagues_display": "UEFA Europa League, UEFA Conference League",
+  "requested_range": "2026-10-22 (todos los partidos)",
+  "universe_preamble": "Universo = 36 partidos del 22 de octubre de 2026 correspondientes a la UEFA Europa League (Jornada 3 de Fase de Liga, 18 partidos) y UEFA Conference League (Jornada 2 de Fase de Liga, 18 partidos). Cuotas Capa 1 capturadas mediante The Odds API (mercados 1X2 y totales de goles O/U 1.5, 2.5, 3.5). C\u00f3rners y tarjetas: no disponibles en feeds en vivo de The Odds API ni SofaScore para la totalidad del universo; consignado expl\u00edcitamente como NO DISPONIBLE sin inventar datos. Evaluaci\u00f3n cuantitativa determinista con scripts/calc_engine.py y modelo model-v1.3.",
+  "universe_matches": [
+    "- **UEFA Europa League (18 partidos):** FC Ararat-Armenia vs AZ Alkmaar, OFI Crete vs Bayer Leverkusen, Dinamo Zagreb vs NEC Nijmegen, Ferencv\u00e1ros TC vs Torreense, Union Saint-Gilloise vs Hapoel Be'er Sheva, Juventus vs Rennes, Lech Pozna\u0144 vs Sunderland, SK Sturm Graz vs Marseille, Bournemouth vs AC Milan, Jagiellonia Bia\u0142ystok vs Anderlecht, Omonoia FC vs Benfica, Besiktas JK vs Crystal Palace, Celtic vs Celta Vigo, Lillestrom vs Real Sociedad, TSG Hoffenheim vs Lyon, NK Celje vs Salzburg, Olympiakos Piraeus vs Sparta Prague, Viktoria Plze\u0148 vs PFC Levski Sofia",
+    "- **UEFA Conference League (18 partidos):** FC Kairat vs Panathinaikos FC, FK Jablonec vs Brighton and Hove Albion, Red Star Belgrade vs FC Copenhagen, FC Iberia 1999 vs Mj\u00e4llby AIF, Getafe vs FC Lugano, FC Nordsjaelland vs PFC CSKA Sofia, FK Kauno \u017dalgiris vs SK Brann, Trabzonspor vs Hearts, Inter Club d'Escaldes vs Universitatea Craiova, Pafos FC vs Riga FC, AGF Aarhus vs KF Egnatia, AS Monaco vs SC Freiburg, Ajax vs Atalanta BC, FC Midtjylland vs Sint Truiden, FC Thun vs Hajduk Split, Lincoln Red Imps FC vs FC Twente Enschede, FK Borac Banja Luka vs KuPS Kuopio, SC Braga vs Gent"
+  ],
+  "picks_details": [
+    {
+      "match": "Bournemouth vs AC Milan",
+      "market": "1",
+      "conf": "Alta",
+      "incertidumbre": "Base +/- 5.0%",
+      "why": "Ventaja sustancial de calidad y local\u00eda del Bournemouth frente a AC Milan. El motor proyecta dominio de xG y superioridad en rating Elo, generando cuota justa de 1.11 frente a cuota ofrecida de 2.01 (+70.4% EV robusto).",
+      "risks": "Riesgo de rotaciones t\u00e1cticas en fase de liga europea o desconcentraci\u00f3n defensiva.",
+      "sources": "The Odds API (Betsson/Pinnacle/1xBet) al cutoff 2026-10-22T08:03Z, ClubElo & Poisson/Dixon-Coles model-v1.3."
+    },
+    {
+      "match": "Olympiakos Piraeus vs Sparta Prague",
+      "market": "1",
+      "conf": "Alta",
+      "incertidumbre": "Base +/- 5.0%",
+      "why": "Ventaja sustancial de calidad y local\u00eda del Olympiakos Piraeus frente a Sparta Prague. El motor proyecta dominio de xG y superioridad en rating Elo, generando cuota justa de 1.18 frente a cuota ofrecida de 1.55 (+23.8% EV robusto).",
+      "risks": "Riesgo de rotaciones t\u00e1cticas en fase de liga europea o desconcentraci\u00f3n defensiva.",
+      "sources": "The Odds API (Betsson/Pinnacle/1xBet) al cutoff 2026-10-22T08:03Z, ClubElo & Poisson/Dixon-Coles model-v1.3."
+    },
+    {
+      "match": "Dinamo Zagreb vs NEC Nijmegen",
+      "market": "1",
+      "conf": "Alta",
+      "incertidumbre": "Base +/- 5.0%",
+      "why": "Ventaja sustancial de calidad y local\u00eda del Dinamo Zagreb frente a NEC Nijmegen. El motor proyecta dominio de xG y superioridad en rating Elo, generando cuota justa de 1.23 frente a cuota ofrecida de 1.51 (+15.6% EV robusto).",
+      "risks": "Riesgo de rotaciones t\u00e1cticas en fase de liga europea o desconcentraci\u00f3n defensiva.",
+      "sources": "The Odds API (Betsson/Pinnacle/1xBet) al cutoff 2026-10-22T08:03Z, ClubElo & Poisson/Dixon-Coles model-v1.3."
+    },
+    {
+      "match": "Viktoria Plze\u0148 vs PFC Levski Sofia",
+      "market": "1",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0%",
+      "why": "Ventaja sustancial de calidad y local\u00eda del Viktoria Plze\u0148 frente a PFC Levski Sofia. El motor proyecta dominio de xG y superioridad en rating Elo, generando cuota justa de 1.28 frente a cuota ofrecida de 1.78 (+30.5% EV robusto).",
+      "risks": "Riesgo de rotaciones t\u00e1cticas en fase de liga europea o desconcentraci\u00f3n defensiva.",
+      "sources": "The Odds API (Betsson/Pinnacle/1xBet) al cutoff 2026-10-22T08:03Z, ClubElo & Poisson/Dixon-Coles model-v1.3."
+    },
+    {
+      "match": "AGF Aarhus vs KF Egnatia",
+      "market": "1",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0%",
+      "why": "Ventaja sustancial de calidad y local\u00eda del AGF Aarhus frente a KF Egnatia. El motor proyecta dominio de xG y superioridad en rating Elo, generando cuota justa de 1.28 frente a cuota ofrecida de 1.51 (+10.2% EV robusto).",
+      "risks": "Riesgo de rotaciones t\u00e1cticas en fase de liga europea o desconcentraci\u00f3n defensiva.",
+      "sources": "The Odds API (Betsson/Pinnacle/1xBet) al cutoff 2026-10-22T08:03Z, ClubElo & Poisson/Dixon-Coles model-v1.3."
+    },
+    {
+      "match": "FK Jablonec vs Brighton and Hove Albion",
+      "market": "under_3_5",
+      "conf": "Media-Alta",
+      "incertidumbre": "Base +/- 5.0%",
+      "why": "Doble bloque t\u00e1ctico compacto y ritmo controlado en territorio checo; la calibraci\u00f3n Platt proyecta una probabilidad de 73.5% para la l\u00ednea under 3.5, superando ampliamente el 56.2% impl\u00edcito en la cuota 1.78.",
+      "risks": "Goles tempranos a bal\u00f3n parado o fallas individuales que rompan la estructura t\u00e1ctica.",
+      "sources": "The Odds API (Betsson/Pinnacle/1xBet) al cutoff 2026-10-22T08:03Z, ClubElo & Poisson/Dixon-Coles model-v1.3."
+    }
+  ]
+}

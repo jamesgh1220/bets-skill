@@ -1,0 +1,1169 @@
+{
+ "Eredivisie": [
+  {
+   "cols": [
+    "Pos",
+    "Team",
+    "Pld",
+    "W",
+    "D",
+    "L",
+    "GF",
+    "GA",
+    "GD",
+    "Pts",
+    "Qualification or relegation"
+   ],
+   "rows": [
+    {
+     "team": "Feyenoord",
+     "pld": 8,
+     "gf": 27,
+     "ga": 7
+    },
+    {
+     "team": "PSV Eindhoven",
+     "pld": 8,
+     "gf": 26,
+     "ga": 10
+    },
+    {
+     "team": "AZ",
+     "pld": 8,
+     "gf": 18,
+     "ga": 8
+    },
+    {
+     "team": "Twente",
+     "pld": 8,
+     "gf": 16,
+     "ga": 8
+    },
+    {
+     "team": "Ajax",
+     "pld": 8,
+     "gf": 22,
+     "ga": 10
+    },
+    {
+     "team": "Groningen",
+     "pld": 8,
+     "gf": 20,
+     "ga": 14
+    },
+    {
+     "team": "Fortuna Sittard",
+     "pld": 8,
+     "gf": 14,
+     "ga": 15
+    },
+    {
+     "team": "Heerenveen",
+     "pld": 9,
+     "gf": 15,
+     "ga": 11
+    },
+    {
+     "team": "Go Ahead Eagles",
+     "pld": 8,
+     "gf": 19,
+     "ga": 17
+    },
+    {
+     "team": "Excelsior",
+     "pld": 9,
+     "gf": 16,
+     "ga": 18
+    },
+    {
+     "team": "NEC",
+     "pld": 8,
+     "gf": 13,
+     "ga": 14
+    },
+    {
+     "team": "Cambuur",
+     "pld": 8,
+     "gf": 11,
+     "ga": 19
+    },
+    {
+     "team": "Utrecht",
+     "pld": 8,
+     "gf": 14,
+     "ga": 25
+    },
+    {
+     "team": "Sparta Rotterdam",
+     "pld": 8,
+     "gf": 13,
+     "ga": 20
+    },
+    {
+     "team": "Telstar",
+     "pld": 8,
+     "gf": 7,
+     "ga": 14
+    },
+    {
+     "team": "PEC Zwolle",
+     "pld": 8,
+     "gf": 6,
+     "ga": 21
+    },
+    {
+     "team": "ADO Den Haag",
+     "pld": 8,
+     "gf": 9,
+     "ga": 19
+    },
+    {
+     "team": "Willem II",
+     "pld": 8,
+     "gf": 7,
+     "ga": 23
+    }
+   ]
+  }
+ ],
+ "MLS": [
+  {
+   "cols": [
+    "Pos",
+    "Team v t e",
+    "Pld",
+    "W",
+    "L",
+    "T",
+    "GF",
+    "GA",
+    "GD",
+    "Pts",
+    "Qualification"
+   ],
+   "rows": [
+    {
+     "team": "Nashville SC",
+     "pld": 29,
+     "gf": 63,
+     "ga": 22
+    },
+    {
+     "team": "Inter Miami CF",
+     "pld": 29,
+     "gf": 70,
+     "ga": 50
+    },
+    {
+     "team": "New England Revolution",
+     "pld": 29,
+     "gf": 48,
+     "ga": 41
+    },
+    {
+     "team": "Chicago Fire FC",
+     "pld": 29,
+     "gf": 52,
+     "ga": 43
+    },
+    {
+     "team": "Charlotte FC",
+     "pld": 29,
+     "gf": 51,
+     "ga": 43
+    },
+    {
+     "team": "Philadelphia Union",
+     "pld": 29,
+     "gf": 59,
+     "ga": 46
+    },
+    {
+     "team": "Orlando City SC",
+     "pld": 29,
+     "gf": 54,
+     "ga": 69
+    },
+    {
+     "team": "New York Red Bulls",
+     "pld": 29,
+     "gf": 39,
+     "ga": 54
+    },
+    {
+     "team": "FC Cincinnati",
+     "pld": 28,
+     "gf": 60,
+     "ga": 68
+    },
+    {
+     "team": "New York City FC",
+     "pld": 29,
+     "gf": 42,
+     "ga": 40
+    },
+    {
+     "team": "Toronto FC",
+     "pld": 29,
+     "gf": 44,
+     "ga": 55
+    },
+    {
+     "team": "D.C. United",
+     "pld": 28,
+     "gf": 36,
+     "ga": 47
+    },
+    {
+     "team": "Columbus Crew",
+     "pld": 29,
+     "gf": 44,
+     "ga": 47
+    },
+    {
+     "team": "Atlanta United FC",
+     "pld": 29,
+     "gf": 36,
+     "ga": 48
+    },
+    {
+     "team": "CF Montréal",
+     "pld": 29,
+     "gf": 35,
+     "ga": 59
+    }
+   ]
+  },
+  {
+   "cols": [
+    "Pos",
+    "Team v t e",
+    "Pld",
+    "W",
+    "L",
+    "T",
+    "GF",
+    "GA",
+    "GD",
+    "Pts",
+    "Qualification"
+   ],
+   "rows": [
+    {
+     "team": "Vancouver Whitecaps FC",
+     "pld": 29,
+     "gf": 61,
+     "ga": 30
+    },
+    {
+     "team": "St. Louis City SC",
+     "pld": 29,
+     "gf": 54,
+     "ga": 38
+    },
+    {
+     "team": "FC Dallas",
+     "pld": 29,
+     "gf": 53,
+     "ga": 45
+    },
+    {
+     "team": "San Jose Earthquakes",
+     "pld": 29,
+     "gf": 51,
+     "ga": 41
+    },
+    {
+     "team": "Houston Dynamo FC",
+     "pld": 29,
+     "gf": 39,
+     "ga": 37
+    },
+    {
+     "team": "Los Angeles FC",
+     "pld": 30,
+     "gf": 47,
+     "ga": 32
+    },
+    {
+     "team": "Seattle Sounders FC",
+     "pld": 29,
+     "gf": 38,
+     "ga": 36
+    },
+    {
+     "team": "LA Galaxy",
+     "pld": 30,
+     "gf": 41,
+     "ga": 50
+    },
+    {
+     "team": "Colorado Rapids",
+     "pld": 29,
+     "gf": 41,
+     "ga": 41
+    },
+    {
+     "team": "Portland Timbers",
+     "pld": 29,
+     "gf": 51,
+     "ga": 56
+    },
+    {
+     "team": "Real Salt Lake",
+     "pld": 29,
+     "gf": 42,
+     "ga": 47
+    },
+    {
+     "team": "San Diego FC",
+     "pld": 29,
+     "gf": 51,
+     "ga": 54
+    },
+    {
+     "team": "Minnesota United FC",
+     "pld": 29,
+     "gf": 44,
+     "ga": 53
+    },
+    {
+     "team": "Austin FC",
+     "pld": 29,
+     "gf": 37,
+     "ga": 54
+    },
+    {
+     "team": "Sporting Kansas City",
+     "pld": 29,
+     "gf": 35,
+     "ga": 72
+    }
+   ]
+  },
+  {
+   "cols": [
+    "Pos",
+    "Team v t e",
+    "Pld",
+    "W",
+    "L",
+    "T",
+    "GF",
+    "GA",
+    "GD",
+    "Pts",
+    "Qualification"
+   ],
+   "rows": [
+    {
+     "team": "Nashville SC",
+     "pld": 29,
+     "gf": 63,
+     "ga": 22
+    },
+    {
+     "team": "Vancouver Whitecaps FC",
+     "pld": 29,
+     "gf": 61,
+     "ga": 30
+    },
+    {
+     "team": "Inter Miami CF",
+     "pld": 29,
+     "gf": 70,
+     "ga": 50
+    },
+    {
+     "team": "St. Louis City SC",
+     "pld": 29,
+     "gf": 54,
+     "ga": 38
+    },
+    {
+     "team": "FC Dallas",
+     "pld": 29,
+     "gf": 53,
+     "ga": 45
+    },
+    {
+     "team": "New England Revolution",
+     "pld": 29,
+     "gf": 48,
+     "ga": 41
+    },
+    {
+     "team": "Chicago Fire FC",
+     "pld": 29,
+     "gf": 52,
+     "ga": 43
+    },
+    {
+     "team": "San Jose Earthquakes",
+     "pld": 29,
+     "gf": 51,
+     "ga": 41
+    },
+    {
+     "team": "Charlotte FC",
+     "pld": 29,
+     "gf": 51,
+     "ga": 43
+    },
+    {
+     "team": "Houston Dynamo FC",
+     "pld": 29,
+     "gf": 39,
+     "ga": 37
+    },
+    {
+     "team": "Philadelphia Union",
+     "pld": 29,
+     "gf": 59,
+     "ga": 46
+    },
+    {
+     "team": "Los Angeles FC",
+     "pld": 30,
+     "gf": 47,
+     "ga": 32
+    },
+    {
+     "team": "Seattle Sounders FC",
+     "pld": 29,
+     "gf": 38,
+     "ga": 36
+    },
+    {
+     "team": "LA Galaxy",
+     "pld": 30,
+     "gf": 41,
+     "ga": 50
+    },
+    {
+     "team": "Colorado Rapids",
+     "pld": 29,
+     "gf": 41,
+     "ga": 41
+    },
+    {
+     "team": "Orlando City SC",
+     "pld": 29,
+     "gf": 54,
+     "ga": 69
+    },
+    {
+     "team": "New York Red Bulls",
+     "pld": 29,
+     "gf": 39,
+     "ga": 54
+    },
+    {
+     "team": "FC Cincinnati",
+     "pld": 28,
+     "gf": 60,
+     "ga": 68
+    },
+    {
+     "team": "Portland Timbers",
+     "pld": 29,
+     "gf": 51,
+     "ga": 56
+    },
+    {
+     "team": "Real Salt Lake",
+     "pld": 29,
+     "gf": 42,
+     "ga": 47
+    },
+    {
+     "team": "New York City FC",
+     "pld": 29,
+     "gf": 42,
+     "ga": 40
+    },
+    {
+     "team": "San Diego FC",
+     "pld": 29,
+     "gf": 51,
+     "ga": 54
+    },
+    {
+     "team": "Toronto FC",
+     "pld": 29,
+     "gf": 44,
+     "ga": 55
+    },
+    {
+     "team": "D.C. United",
+     "pld": 28,
+     "gf": 36,
+     "ga": 47
+    },
+    {
+     "team": "Columbus Crew",
+     "pld": 29,
+     "gf": 44,
+     "ga": 47
+    },
+    {
+     "team": "Minnesota United FC",
+     "pld": 29,
+     "gf": 44,
+     "ga": 53
+    },
+    {
+     "team": "Austin FC",
+     "pld": 29,
+     "gf": 37,
+     "ga": 54
+    },
+    {
+     "team": "Atlanta United FC",
+     "pld": 29,
+     "gf": 36,
+     "ga": 48
+    },
+    {
+     "team": "CF Montréal",
+     "pld": 29,
+     "gf": 35,
+     "ga": 59
+    },
+    {
+     "team": "Sporting Kansas City",
+     "pld": 29,
+     "gf": 35,
+     "ga": 72
+    }
+   ]
+  }
+ ],
+ "ARG": [
+  {
+   "cols": [
+    "Pos",
+    "Team",
+    "Pld",
+    "W",
+    "D",
+    "L",
+    "GF",
+    "GA",
+    "GD",
+    "Pts",
+    "Qualification"
+   ],
+   "rows": [
+    {
+     "team": "Estudiantes",
+     "pld": 16,
+     "gf": 19,
+     "ga": 7
+    },
+    {
+     "team": "Boca Juniors",
+     "pld": 16,
+     "gf": 22,
+     "ga": 9
+    },
+    {
+     "team": "Vélez Sarsfield",
+     "pld": 16,
+     "gf": 18,
+     "ga": 12
+    },
+    {
+     "team": "Talleres",
+     "pld": 16,
+     "gf": 17,
+     "ga": 13
+    },
+    {
+     "team": "Independiente",
+     "pld": 16,
+     "gf": 24,
+     "ga": 20
+    },
+    {
+     "team": "Lanús",
+     "pld": 16,
+     "gf": 18,
+     "ga": 15
+    },
+    {
+     "team": "San Lorenzo",
+     "pld": 16,
+     "gf": 14,
+     "ga": 14
+    },
+    {
+     "team": "Unión",
+     "pld": 16,
+     "gf": 24,
+     "ga": 20
+    },
+    {
+     "team": "Instituto",
+     "pld": 16,
+     "gf": 17,
+     "ga": 17
+    },
+    {
+     "team": "Defensa y Justicia",
+     "pld": 16,
+     "gf": 18,
+     "ga": 21
+    },
+    {
+     "team": "Gimnasia y Esgrima",
+     "pld": 16,
+     "gf": 14,
+     "ga": 22
+    },
+    {
+     "team": "Platense",
+     "pld": 16,
+     "gf": 10,
+     "ga": 15
+    },
+    {
+     "team": "Central Córdoba",
+     "pld": 16,
+     "gf": 11,
+     "ga": 21
+    },
+    {
+     "team": "Newell's Old Boys",
+     "pld": 16,
+     "gf": 15,
+     "ga": 27
+    },
+    {
+     "team": "Deportivo Riestra",
+     "pld": 16,
+     "gf": 5,
+     "ga": 12
+    }
+   ]
+  },
+  {
+   "cols": [
+    "Pos",
+    "Team",
+    "Pld",
+    "W",
+    "D",
+    "L",
+    "GF",
+    "GA",
+    "GD",
+    "Pts",
+    "Qualification"
+   ],
+   "rows": [
+    {
+     "team": "Independiente Rivadavia",
+     "pld": 16,
+     "gf": 29,
+     "ga": 15
+    },
+    {
+     "team": "River Plate",
+     "pld": 16,
+     "gf": 22,
+     "ga": 12
+    },
+    {
+     "team": "Argentinos Juniors",
+     "pld": 16,
+     "gf": 17,
+     "ga": 13
+    },
+    {
+     "team": "Rosario Central",
+     "pld": 16,
+     "gf": 20,
+     "ga": 16
+    },
+    {
+     "team": "Belgrano",
+     "pld": 16,
+     "gf": 17,
+     "ga": 13
+    },
+    {
+     "team": "Gimnasia y Esgrima",
+     "pld": 16,
+     "gf": 19,
+     "ga": 19
+    },
+    {
+     "team": "Huracán",
+     "pld": 16,
+     "gf": 17,
+     "ga": 13
+    },
+    {
+     "team": "Racing",
+     "pld": 16,
+     "gf": 17,
+     "ga": 15
+    },
+    {
+     "team": "Barracas Central",
+     "pld": 16,
+     "gf": 15,
+     "ga": 15
+    },
+    {
+     "team": "Tigre",
+     "pld": 16,
+     "gf": 18,
+     "ga": 15
+    },
+    {
+     "team": "Sarmiento",
+     "pld": 16,
+     "gf": 13,
+     "ga": 20
+    },
+    {
+     "team": "Banfield",
+     "pld": 16,
+     "gf": 17,
+     "ga": 19
+    },
+    {
+     "team": "Atlético Tucumán",
+     "pld": 16,
+     "gf": 15,
+     "ga": 20
+    },
+    {
+     "team": "Aldosivi",
+     "pld": 16,
+     "gf": 6,
+     "ga": 19
+    },
+    {
+     "team": "Estudiantes",
+     "pld": 16,
+     "gf": 5,
+     "ga": 24
+    }
+   ]
+  },
+  {
+   "cols": [
+    "Pos",
+    "Team",
+    "Pld",
+    "W",
+    "D",
+    "L",
+    "GF",
+    "GA",
+    "GD",
+    "Pts",
+    "Qualification"
+   ],
+   "rows": [
+    {
+     "team": "Instituto",
+     "pld": 13,
+     "gf": 20,
+     "ga": 10
+    },
+    {
+     "team": "Boca Juniors",
+     "pld": 13,
+     "gf": 21,
+     "ga": 14
+    },
+    {
+     "team": "Defensa y Justicia",
+     "pld": 13,
+     "gf": 18,
+     "ga": 12
+    },
+    {
+     "team": "Vélez Sarsfield",
+     "pld": 12,
+     "gf": 17,
+     "ga": 13
+    },
+    {
+     "team": "Lanús",
+     "pld": 12,
+     "gf": 15,
+     "ga": 9
+    },
+    {
+     "team": "Gimnasia y Esgrima",
+     "pld": 12,
+     "gf": 15,
+     "ga": 12
+    },
+    {
+     "team": "Independiente",
+     "pld": 12,
+     "gf": 11,
+     "ga": 12
+    },
+    {
+     "team": "Newell's Old Boys",
+     "pld": 12,
+     "gf": 11,
+     "ga": 9
+    },
+    {
+     "team": "Estudiantes",
+     "pld": 12,
+     "gf": 15,
+     "ga": 13
+    },
+    {
+     "team": "San Lorenzo",
+     "pld": 12,
+     "gf": 5,
+     "ga": 11
+    },
+    {
+     "team": "Unión",
+     "pld": 12,
+     "gf": 17,
+     "ga": 21
+    },
+    {
+     "team": "Deportivo Riestra",
+     "pld": 12,
+     "gf": 9,
+     "ga": 12
+    },
+    {
+     "team": "Platense",
+     "pld": 12,
+     "gf": 12,
+     "ga": 18
+    },
+    {
+     "team": "Central Córdoba",
+     "pld": 12,
+     "gf": 10,
+     "ga": 16
+    },
+    {
+     "team": "Talleres",
+     "pld": 13,
+     "gf": 12,
+     "ga": 20
+    }
+   ]
+  },
+  {
+   "cols": [
+    "Pos",
+    "Team",
+    "Pld",
+    "W",
+    "D",
+    "L",
+    "GF",
+    "GA",
+    "GD",
+    "Pts",
+    "Qualification"
+   ],
+   "rows": [
+    {
+     "team": "Rosario Central",
+     "pld": 12,
+     "gf": 17,
+     "ga": 9
+    },
+    {
+     "team": "Belgrano",
+     "pld": 12,
+     "gf": 14,
+     "ga": 7
+    },
+    {
+     "team": "Argentinos Juniors",
+     "pld": 12,
+     "gf": 16,
+     "ga": 11
+    },
+    {
+     "team": "Gimnasia y Esgrima",
+     "pld": 13,
+     "gf": 19,
+     "ga": 18
+    },
+    {
+     "team": "Sarmiento",
+     "pld": 12,
+     "gf": 21,
+     "ga": 18
+    },
+    {
+     "team": "Huracán",
+     "pld": 13,
+     "gf": 12,
+     "ga": 12
+    },
+    {
+     "team": "Barracas Central",
+     "pld": 12,
+     "gf": 10,
+     "ga": 9
+    },
+    {
+     "team": "Independiente Rivadavia",
+     "pld": 12,
+     "gf": 15,
+     "ga": 19
+    },
+    {
+     "team": "River Plate",
+     "pld": 12,
+     "gf": 15,
+     "ga": 13
+    },
+    {
+     "team": "Atlético Tucumán",
+     "pld": 12,
+     "gf": 10,
+     "ga": 10
+    },
+    {
+     "team": "Banfield",
+     "pld": 12,
+     "gf": 14,
+     "ga": 18
+    },
+    {
+     "team": "Tigre",
+     "pld": 12,
+     "gf": 11,
+     "ga": 13
+    },
+    {
+     "team": "Racing",
+     "pld": 12,
+     "gf": 13,
+     "ga": 19
+    },
+    {
+     "team": "Aldosivi",
+     "pld": 12,
+     "gf": 13,
+     "ga": 20
+    },
+    {
+     "team": "Estudiantes (RC)",
+     "pld": 12,
+     "gf": 6,
+     "ga": 16
+    }
+   ]
+  },
+  {
+   "cols": [
+    "Pos",
+    "Team",
+    "Pld",
+    "W",
+    "D",
+    "L",
+    "GF",
+    "GA",
+    "GD",
+    "Pts",
+    "Qualification or relegation"
+   ],
+   "rows": [
+    {
+     "team": "Boca Juniors",
+     "pld": 29,
+     "gf": 43,
+     "ga": 23
+    },
+    {
+     "team": "Independiente Rivadavia",
+     "pld": 28,
+     "gf": 44,
+     "ga": 34
+    },
+    {
+     "team": "Argentinos Juniors",
+     "pld": 28,
+     "gf": 33,
+     "ga": 24
+    },
+    {
+     "team": "Rosario Central",
+     "pld": 28,
+     "gf": 37,
+     "ga": 25
+    },
+    {
+     "team": "Instituto",
+     "pld": 29,
+     "gf": 37,
+     "ga": 27
+    },
+    {
+     "team": "Vélez Sarsfield",
+     "pld": 28,
+     "gf": 35,
+     "ga": 25
+    },
+    {
+     "team": "Belgrano",
+     "pld": 28,
+     "gf": 31,
+     "ga": 20
+    },
+    {
+     "team": "Gimnasia y Esgrima",
+     "pld": 29,
+     "gf": 38,
+     "ga": 37
+    },
+    {
+     "team": "River Plate",
+     "pld": 28,
+     "gf": 37,
+     "ga": 25
+    },
+    {
+     "team": "Estudiantes",
+     "pld": 28,
+     "gf": 34,
+     "ga": 20
+    },
+    {
+     "team": "Lanús",
+     "pld": 28,
+     "gf": 33,
+     "ga": 24
+    },
+    {
+     "team": "Defensa y Justicia",
+     "pld": 29,
+     "gf": 36,
+     "ga": 33
+    },
+    {
+     "team": "Independiente",
+     "pld": 28,
+     "gf": 35,
+     "ga": 32
+    },
+    {
+     "team": "Huracán",
+     "pld": 29,
+     "gf": 29,
+     "ga": 25
+    },
+    {
+     "team": "Barracas Central",
+     "pld": 28,
+     "gf": 25,
+     "ga": 24
+    },
+    {
+     "team": "Sarmiento",
+     "pld": 28,
+     "gf": 34,
+     "ga": 38
+    },
+    {
+     "team": "Gimnasia y Esgrima",
+     "pld": 28,
+     "gf": 29,
+     "ga": 34
+    },
+    {
+     "team": "San Lorenzo",
+     "pld": 28,
+     "gf": 19,
+     "ga": 25
+    },
+    {
+     "team": "Talleres",
+     "pld": 29,
+     "gf": 29,
+     "ga": 33
+    },
+    {
+     "team": "Unión",
+     "pld": 28,
+     "gf": 41,
+     "ga": 41
+    },
+    {
+     "team": "Tigre",
+     "pld": 28,
+     "gf": 29,
+     "ga": 28
+    },
+    {
+     "team": "Racing",
+     "pld": 28,
+     "gf": 30,
+     "ga": 34
+    },
+    {
+     "team": "Newell's Old Boys",
+     "pld": 28,
+     "gf": 26,
+     "ga": 36
+    },
+    {
+     "team": "Banfield",
+     "pld": 28,
+     "gf": 31,
+     "ga": 37
+    },
+    {
+     "team": "Atlético Tucumán",
+     "pld": 28,
+     "gf": 25,
+     "ga": 30
+    },
+    {
+     "team": "Platense",
+     "pld": 28,
+     "gf": 22,
+     "ga": 33
+    },
+    {
+     "team": "Central Córdoba",
+     "pld": 28,
+     "gf": 21,
+     "ga": 37
+    },
+    {
+     "team": "Deportivo Riestra",
+     "pld": 28,
+     "gf": 14,
+     "ga": 24
+    },
+    {
+     "team": "Aldosivi",
+     "pld": 28,
+     "gf": 19,
+     "ga": 39
+    },
+    {
+     "team": "Estudiantes (RC)",
+     "pld": 28,
+     "gf": 11,
+     "ga": 40
+    }
+   ]
+  }
+ ]
+}

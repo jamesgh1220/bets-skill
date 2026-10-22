@@ -1,0 +1,35 @@
+{
+ "home_team": "Philadelphia Union",
+ "away_team": "Charlotte FC",
+ "league": "MLS",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T18:30:00Z",
+ "xg_home_for": 2.034,
+ "xg_home_against": 1.586,
+ "xg_away_for": 1.759,
+ "xg_away_against": 1.483,
+ "elo_home": 1657.0,
+ "elo_away": 1603.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 1.6,
+  "2": 5.7,
+  "X": 5.2,
+  "over_2_5": 1.32,
+  "under_2_5": 3.25,
+  "over_1_5": 1.1,
+  "under_1_5": 7.5,
+  "over_3_5": 1.87,
+  "under_3_5": 2.03,
+  "btts_yes": 1.49,
+  "btts_no": 2.88,
+  "1x": 1.18,
+  "x2": 2.64,
+  "12": 1.2,
+  "dnb_home": 1.23,
+  "dnb_away": 4.34
+ },
+ "sources": {
+  "xg": "Wikipedia MLS 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

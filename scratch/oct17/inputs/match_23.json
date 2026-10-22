@@ -1,0 +1,35 @@
+{
+ "home_team": "Troyes",
+ "away_team": "RC Lens",
+ "league": "Ligue 1",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T18:45:00Z",
+ "xg_home_for": 1.239,
+ "xg_home_against": 1.966,
+ "xg_away_for": 2.319,
+ "xg_away_against": 1.554,
+ "elo_home": 1597.0,
+ "elo_away": 1809.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 4.3,
+  "2": 1.91,
+  "X": 4.05,
+  "over_2_5": 1.64,
+  "under_2_5": 2.46,
+  "over_1_5": 1.2,
+  "under_1_5": 5.1,
+  "over_3_5": 2.51,
+  "under_3_5": 1.58,
+  "btts_yes": 1.58,
+  "btts_no": 2.47,
+  "1x": 2.04,
+  "x2": 1.28,
+  "12": 1.28,
+  "dnb_home": 3.05,
+  "dnb_away": 1.41
+ },
+ "sources": {
+  "xg": "Understat Ligue 1 2026 (xG real)"
+ }
+}

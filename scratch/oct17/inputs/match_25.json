@@ -1,0 +1,33 @@
+{
+ "home_team": "Sparta Rotterdam",
+ "away_team": "Willem II",
+ "league": "Eredivisie",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T19:00:00Z",
+ "xg_home_for": 1.625,
+ "xg_home_against": 2.5,
+ "xg_away_for": 0.875,
+ "xg_away_against": 2.875,
+ "elo_home": 1497.0,
+ "elo_away": 1402.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 1.69,
+  "2": 5.3,
+  "X": 4.5,
+  "over_2_5": 1.45,
+  "under_2_5": 2.66,
+  "over_1_5": 1.15,
+  "under_1_5": 5.85,
+  "over_3_5": 2.19,
+  "under_3_5": 1.74,
+  "btts_yes": 1.54,
+  "btts_no": 2.52,
+  "1x": 1.18,
+  "x2": 2.33,
+  "12": 1.22
+ },
+ "sources": {
+  "xg": "Wikipedia Eredivisie 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

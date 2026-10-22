@@ -1,0 +1,35 @@
+{
+ "home_team": "Minnesota United FC",
+ "away_team": "St. Louis City SC",
+ "league": "MLS",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T20:30:00Z",
+ "xg_home_for": 1.517,
+ "xg_home_against": 1.828,
+ "xg_away_for": 1.862,
+ "xg_away_against": 1.31,
+ "elo_home": 1562.0,
+ "elo_away": 1626.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.68,
+  "2": 2.69,
+  "X": 4.04,
+  "over_2_5": 1.47,
+  "under_2_5": 2.62,
+  "over_1_5": 1.15,
+  "under_1_5": 5.84,
+  "over_3_5": 2.2,
+  "under_3_5": 1.71,
+  "btts_yes": 1.48,
+  "btts_no": 2.93,
+  "1x": 1.54,
+  "x2": 1.58,
+  "12": 1.28,
+  "dnb_home": 1.91,
+  "dnb_away": 1.93
+ },
+ "sources": {
+  "xg": "Wikipedia MLS 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

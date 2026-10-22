@@ -1,0 +1,33 @@
+{
+ "home_team": "ADO Den Haag",
+ "away_team": "PSV Eindhoven",
+ "league": "Eredivisie",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T14:30:00Z",
+ "xg_home_for": 1.125,
+ "xg_home_against": 2.375,
+ "xg_away_for": 3.25,
+ "xg_away_against": 1.25,
+ "elo_home": 1437.0,
+ "elo_away": 1784.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 11.0,
+  "2": 1.28,
+  "X": 7.6,
+  "over_2_5": 1.22,
+  "under_2_5": 4.08,
+  "over_1_5": 1.05,
+  "under_1_5": 10.0,
+  "over_3_5": 1.64,
+  "under_3_5": 2.37,
+  "btts_yes": 1.58,
+  "btts_no": 2.62,
+  "1x": 3.9,
+  "x2": 1.08,
+  "12": 1.11
+ },
+ "sources": {
+  "xg": "Wikipedia Eredivisie 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

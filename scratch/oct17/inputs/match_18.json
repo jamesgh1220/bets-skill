@@ -1,0 +1,33 @@
+{
+ "home_team": "SC Telstar",
+ "away_team": "Feyenoord",
+ "league": "Eredivisie",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T18:00:00Z",
+ "xg_home_for": 0.875,
+ "xg_home_against": 1.75,
+ "xg_away_for": 3.375,
+ "xg_away_against": 0.875,
+ "elo_home": 1447.0,
+ "elo_away": 1730.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 9.0,
+  "2": 1.38,
+  "X": 6.1,
+  "over_2_5": 1.31,
+  "under_2_5": 3.32,
+  "over_1_5": 1.09,
+  "under_1_5": 7.5,
+  "over_3_5": 1.86,
+  "under_3_5": 2.01,
+  "btts_yes": 1.61,
+  "btts_no": 2.48,
+  "1x": 3.3,
+  "x2": 1.09,
+  "12": 1.15
+ },
+ "sources": {
+  "xg": "Wikipedia Eredivisie 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

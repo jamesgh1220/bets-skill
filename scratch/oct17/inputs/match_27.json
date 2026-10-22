@@ -1,0 +1,35 @@
+{
+ "home_team": "Independiente Rivadavia",
+ "away_team": "CA Tigre BA",
+ "league": "Liga Profesional Argentina",
+ "match_date": "2026-10-17",
+ "kickoff_utc": "2026-10-17T20:30:00Z",
+ "xg_home_for": 1.571,
+ "xg_home_against": 1.214,
+ "xg_away_for": 1.036,
+ "xg_away_against": 1.0,
+ "elo_home": 1721.0,
+ "elo_away": 1643.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.04,
+  "2": 4.7,
+  "X": 3.3,
+  "over_2_5": 2.44,
+  "under_2_5": 1.56,
+  "over_1_5": 1.5,
+  "under_1_5": 2.68,
+  "over_3_5": 4.98,
+  "under_3_5": 1.18,
+  "btts_yes": 2.08,
+  "btts_no": 1.67,
+  "1x": 1.22,
+  "x2": 1.8,
+  "12": 1.35,
+  "dnb_home": 1.38,
+  "dnb_away": 2.9
+ },
+ "sources": {
+  "xg": "Wikipedia ARG 2026 (proxy GF/GA por partido, sin xG)"
+ }
+}

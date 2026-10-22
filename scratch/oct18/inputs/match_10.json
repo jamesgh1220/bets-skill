@@ -1,0 +1,33 @@
+{
+ "home_team": "Celta Vigo",
+ "away_team": "Alavés",
+ "league": "La Liga",
+ "match_date": "2026-10-18",
+ "kickoff_utc": "2026-10-18T14:15:00Z",
+ "xg_home_for": 1.004,
+ "xg_home_against": 1.24,
+ "xg_away_for": 1.457,
+ "xg_away_against": 1.201,
+ "elo_home": 1747.0,
+ "elo_away": 1721.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 2.32,
+  "2": 3.68,
+  "X": 3.44,
+  "over_2_5": 2.36,
+  "under_2_5": 1.78,
+  "over_1_5": 1.41,
+  "under_1_5": 3.12,
+  "over_3_5": 4.2,
+  "under_3_5": 1.26,
+  "btts_yes": 1.98,
+  "btts_no": 1.99,
+  "1x": 1.35,
+  "x2": 1.71,
+  "12": 1.36
+ },
+ "sources": {
+  "xg": "Understat La Liga 2026 (xG real)"
+ }
+}

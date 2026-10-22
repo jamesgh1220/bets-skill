@@ -1,0 +1,33 @@
+{
+ "home_team": "Real Madrid",
+ "away_team": "Sevilla",
+ "league": "La Liga",
+ "match_date": "2026-10-18",
+ "kickoff_utc": "2026-10-18T19:00:00Z",
+ "xg_home_for": 2.636,
+ "xg_home_against": 1.038,
+ "xg_away_for": 1.325,
+ "xg_away_against": 1.564,
+ "elo_home": 1980.0,
+ "elo_away": 1728.0,
+ "corner_cards_available": false,
+ "odds": {
+  "1": 1.27,
+  "2": 14.0,
+  "X": 7.4,
+  "over_2_5": 1.42,
+  "under_2_5": 2.94,
+  "over_1_5": 1.14,
+  "under_1_5": 6.6,
+  "over_3_5": 2.12,
+  "under_3_5": 1.84,
+  "btts_yes": 1.94,
+  "btts_no": 2.02,
+  "1x": 1.07,
+  "x2": 4.4,
+  "12": 1.14
+ },
+ "sources": {
+  "xg": "Understat La Liga 2026 (xG real)"
+ }
+}
