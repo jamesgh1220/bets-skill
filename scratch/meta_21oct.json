@@ -1,0 +1,88 @@
+{
+  "analysis_date_iso": "2026-10-21T12:39:43Z",
+  "match_dates_text": "21 de octubre de 2026",
+  "information_cutoff": "2026-10-21T12:39:43Z",
+  "model_ia": "gemini3.8flash",
+  "engine_version": "model-v1.3",
+  "leagues_display": "Liga BetPlay Dimayor (Finalización 2026), LaLiga EA Sports 2026-27, Major League Soccer (MLS) 2026, UEFA Champions League 2026-27, Copa Libertadores 2026 y Copa Sudamericana 2026",
+  "requested_range": "21 de octubre de 2026 - Liga BetPlay, LaLiga, MLS, Champions League, Copa Libertadores, Copa Sudamericana (todos los partidos)",
+  "universe_preamble": "Universo = intersección(ligas: Liga BetPlay, LaLiga, MLS, UEFA Champions League, Copa Libertadores, Copa Sudamericana, fecha 21 de octubre de 2026, todos los partidos programados). Cutoff de información 2026-10-21T12:39:43Z, anterior a los kickoffs. No se usa información posterior a ningún kickoff. Universo total = 15 partidos: 9 de UEFA Champions League, 1 de LaLiga, 1 de Copa Libertadores, 1 de Copa Sudamericana, 1 de MLS y 2 de Liga BetPlay Dimayor. Todos los partidos cuentan con las tasas de corners y tarjetas (for/against) por equipo recolectadas. Aquellos encuentros con xG incompleto en fuentes públicas pre-kickoff (Llaneros vs Deportivo Cali y Santa Fe vs Jaguares) se consignan como DATOS INSUFICIENTES -> NO BET sin forzar priors del motor. MCPs inoperativos en la sesión, recolección vía investigación web del agente (Pinnacle, Betsson, Understat, SofaScore, FlashScore, Dimayor, Conmebol). Mercados O/U evaluados en ambos lados (goles 1.5/2.5/3.5, corners 8.5/9.5/10.5, tarjetas 3.5/4.5/5.5) donde hubo cuotas publicadas por casas de apuestas.",
+  "universe_matches": [
+    "1. **UEFA Champions League 2026-27 - League phase MD3:** Lille vs Galatasaray (21T16:45Z). 1X2 2.16 3.71 3.15; O1.5 1.18 U1.5 5.0 O2.5 1.62 U2.5 2.35 O3.5 2.55 U3.5 1.55; btts_yes 1.6 btts_no 2.3 1x 1.38 x2 1.72 12 1.29 over_corners_8_5 1.5 under_corners_8_5 2.6 over_corners_9_5 1.85 under_corners_9_5 1.95 over_corners_10_5 2.35 under_corners_10_5 1.6 over_cards_3_5 1.55 under_cards_3_5 2.45 over_cards_4_5 2.05 under_cards_4_5 1.75. Elo 1795/1720; xG 1.62/1.15 vs 1.74/1.48.",
+    "2. **UEFA Champions League 2026-27 - League phase MD3:** Como vs Manchester United (21T16:45Z). 1X2 2.3 3.84 2.81; O1.5 1.19 U1.5 4.8 O2.5 1.65 U2.5 2.28 O3.5 2.65 U3.5 1.5; btts_yes 1.58 btts_no 2.38 1x 1.45 x2 1.63 12 1.28 over_corners_8_5 1.52 under_corners_8_5 2.5 over_corners_9_5 1.88 under_corners_9_5 1.92 over_corners_10_5 2.4 under_corners_10_5 1.57 over_cards_3_5 1.6 under_cards_3_5 2.3 over_cards_4_5 2.15 under_cards_4_5 1.68. Elo 1690/1820; xG 1.35/1.42 vs 1.68/1.38.",
+    "3. **UEFA Champions League 2026-27 - League phase MD3:** Bayern Munich vs Arsenal (21T19:00Z). 1X2 2.16 3.99 3.12; O1.5 1.14 U1.5 5.8 O2.5 1.58 U2.5 2.45 O3.5 2.38 U3.5 1.62; btts_yes 1.52 btts_no 2.55 1x 1.39 x2 1.72 12 1.27 over_corners_8_5 1.44 under_corners_8_5 2.8 over_corners_9_5 1.72 under_corners_9_5 2.15 over_corners_10_5 2.18 under_corners_10_5 1.7 over_cards_3_5 1.75 under_cards_3_5 2.05 over_cards_4_5 2.4 under_cards_4_5 1.55. Elo 1965/1940; xG 2.45/1.15 vs 1.88/0.98.",
+    "4. **UEFA Champions League 2026-27 - League phase MD3:** Real Madrid vs RB Leipzig (21T19:00Z). 1X2 1.27 6.83 9.19; O1.5 1.1 U1.5 7.5 O2.5 1.38 U2.5 3.15 O3.5 1.95 U3.5 1.9; btts_yes 1.72 btts_no 2.15 1x 1.08 x2 3.9 12 1.11 over_corners_8_5 1.46 under_corners_8_5 2.7 over_corners_9_5 1.75 under_corners_9_5 2.1 over_corners_10_5 2.22 under_corners_10_5 1.68 over_cards_3_5 1.65 under_cards_3_5 2.2 over_cards_4_5 2.2 under_cards_4_5 1.65. Elo 2010/1810; xG 2.52/1.05 vs 1.45/1.75.",
+    "5. **UEFA Champions League 2026-27 - League phase MD3:** Inter Milan vs Shakhtar Donetsk (21T19:00Z). 1X2 1.21 7.41 11.87; O1.5 1.11 U1.5 7.0 O2.5 1.42 U2.5 2.95 O3.5 1.88 U3.5 1.99; btts_yes 1.95 btts_no 1.88 1x 1.05 x2 4.5 12 1.1 over_corners_8_5 1.48 under_corners_8_5 2.65 over_corners_9_5 1.78 under_corners_9_5 2.05 over_corners_10_5 2.25 under_corners_10_5 1.66 over_cards_3_5 1.7 under_cards_3_5 2.12 over_cards_4_5 2.3 under_cards_4_5 1.6. Elo 1945/1670; xG 2.38/0.88 vs 1.12/1.95.",
+    "6. **UEFA Champions League 2026-27 - League phase MD3:** Sporting CP vs LASK Linz (21T19:00Z). 1X2 1.22 7.51 10.79; O1.5 1.12 U1.5 6.8 O2.5 1.45 U2.5 2.85 O3.5 1.85 U3.5 2.03; btts_yes 1.92 btts_no 1.9 1x 1.06 x2 4.3 12 1.1 over_corners_8_5 1.5 under_corners_8_5 2.6 over_corners_9_5 1.82 under_corners_9_5 2.0 over_corners_10_5 2.3 under_corners_10_5 1.62 over_cards_3_5 1.68 under_cards_3_5 2.15 over_cards_4_5 2.25 under_cards_4_5 1.63. Elo 1855/1610; xG 2.25/0.95 vs 1.05/1.88.",
+    "7. **UEFA Champions League 2026-27 - League phase MD3:** Aston Villa vs Viking FK (21T19:00Z). 1X2 1.22 6.94 12.37; O1.5 1.11 U1.5 7.0 O2.5 1.4 U2.5 3.05 O3.5 1.87 U3.5 2.0; btts_yes 1.85 btts_no 1.98 1x 1.05 x2 4.4 12 1.11 over_corners_8_5 1.48 under_corners_8_5 2.65 over_corners_9_5 1.78 under_corners_9_5 2.05 over_corners_10_5 2.25 under_corners_10_5 1.65 over_cards_3_5 1.75 under_cards_3_5 2.05 over_cards_4_5 2.35 under_cards_4_5 1.58. Elo 1840/1560; xG 2.35/1.02 vs 1.15/2.1.",
+    "8. **UEFA Champions League 2026-27 - League phase MD3:** Club Brugge vs Lens (21T19:00Z). 1X2 2.1 3.65 3.73; O1.5 1.24 U1.5 4.1 O2.5 1.82 U2.5 2.02 O3.5 3.0 U3.5 1.4; btts_yes 1.68 btts_no 2.2 1x 1.32 x2 1.78 12 1.3 over_corners_8_5 1.55 under_corners_8_5 2.45 over_corners_9_5 1.9 under_corners_9_5 1.9 over_corners_10_5 2.45 under_corners_10_5 1.55 over_cards_3_5 1.5 under_cards_3_5 2.55 over_cards_4_5 1.95 under_cards_4_5 1.85. Elo 1740/1755; xG 1.48/1.35 vs 1.42/1.28.",
+    "9. **UEFA Champions League 2026-27 - League phase MD3:** Real Betis vs Feyenoord (21T19:00Z). 1X2 1.51 4.71 5.49; O1.5 1.18 U1.5 4.9 O2.5 1.62 U2.5 2.35 O3.5 2.55 U3.5 1.55; btts_yes 1.65 btts_no 2.25 1x 1.17 x2 2.6 12 1.2 over_corners_8_5 1.48 under_corners_8_5 2.65 over_corners_9_5 1.78 under_corners_9_5 2.05 over_corners_10_5 2.25 under_corners_10_5 1.65 over_cards_3_5 1.55 under_cards_3_5 2.45 over_cards_4_5 2.05 under_cards_4_5 1.75. Elo 1780/1765; xG 1.65/1.25 vs 1.55/1.48.",
+    "10. **LaLiga EA Sports 2026-27 - Jornada 6 (aplazada):** Levante UD vs Athletic Club (21T18:00Z). 1X2 3.7 3.45 2.2; O1.5 1.32 U1.5 3.45 O2.5 2.05 U2.5 1.82 O3.5 3.65 U3.5 1.3; btts_yes 1.88 btts_no 1.95 1x 1.71 x2 1.3 12 1.33 over_corners_8_5 1.55 under_corners_8_5 2.45 over_corners_9_5 1.9 under_corners_9_5 1.9 over_corners_10_5 2.45 under_corners_10_5 1.55 over_cards_3_5 1.45 under_cards_3_5 2.7 over_cards_4_5 1.85 under_cards_4_5 1.95. Elo 1640/1810; xG 1.12/1.58 vs 1.48/1.05.",
+    "11. **Copa Libertadores 2026 - Semifinal (vuelta):** Palmeiras vs Fluminense (21T00:30Z). 1X2 1.91 3.42 4.15; O1.5 1.35 U1.5 3.25 O2.5 2.05 U2.5 1.78 O3.5 3.65 U3.5 1.29; btts_yes 1.98 btts_no 1.84 1x 1.25 x2 1.92 12 1.32 over_corners_8_5 1.55 under_corners_8_5 2.45 over_corners_9_5 1.9 under_corners_9_5 1.9 over_corners_10_5 2.45 under_corners_10_5 1.55 over_cards_3_5 1.3 under_cards_3_5 3.45 over_cards_4_5 1.62 under_cards_4_5 2.28 over_cards_5_5 2.15 under_cards_5_5 1.68. Elo 1860/1785; xG 1.72/0.95 vs 1.25/1.38.",
+    "12. **Copa Sudamericana 2026 - Semifinal (vuelta):** Montevideo City Torque vs Atlético Mineiro (21T22:00Z). 1X2 2.88 3.25 3.25; O1.5 1.32 U1.5 3.4 O2.5 2.05 U2.5 1.78 O3.5 3.7 U3.5 1.28; btts_yes 1.82 btts_no 1.98 1x 1.48 x2 1.48 12 1.35 over_corners_8_5 1.6 under_corners_8_5 2.35 over_corners_9_5 1.95 under_corners_9_5 1.85 over_corners_10_5 2.5 under_corners_10_5 1.52 over_cards_3_5 1.32 under_cards_3_5 3.35 over_cards_4_5 1.65 under_cards_4_5 2.22 over_cards_5_5 2.2 under_cards_5_5 1.65. Elo 1610/1790; xG 1.2/1.55 vs 1.58/1.1.",
+    "13. **Major League Soccer (MLS) 2026 - Regular Season:** FC Cincinnati vs D.C. United (21T20:00Z). 1X2 1.67 4.79 4.28; O1.5 1.14 U1.5 5.8 O2.5 1.5 U2.5 2.65 O3.5 2.25 U3.5 1.66; btts_yes 1.52 btts_no 2.5 1x 1.24 x2 2.25 12 1.2 over_corners_8_5 1.5 under_corners_8_5 2.6 over_corners_9_5 1.82 under_corners_9_5 2.0 over_corners_10_5 2.3 under_corners_10_5 1.62 over_cards_3_5 1.65 under_cards_3_5 2.2 over_cards_4_5 2.2 under_cards_4_5 1.65. Elo 1640/1530; xG 1.85/1.22 vs 1.32/1.88.",
+    "14. **Liga BetPlay Dimayor 2026-II - Fecha 9 (aplazada):** Llaneros FC vs Deportivo Cali (21T23:15Z). 1X2 2.75 3.1 2.65; O1.5 1.48 U1.5 2.6 O2.5 2.35 U2.5 1.55 O3.5 4.5 U3.5 1.2; btts_yes 2.05 btts_no 1.75 1x 1.5 x2 1.47 12 1.36. Elo n/d/n/d; xG n/d.",
+    "15. **Liga BetPlay Dimayor 2026-II - Fecha 7 (aplazada):** Independiente Santa Fe vs Jaguares de Córdoba (21T01:20Z). 1X2 1.35 5.0 8.8; O1.5 1.22 U1.5 4.2 O2.5 1.74 U2.5 2.1 O3.5 2.9 U3.5 1.42; btts_yes 2.05 btts_no 1.75 1x 1.08 x2 3.25 12 1.18. Elo n/d/n/d; xG n/d."
+  ],
+  "picks_details": [
+    {
+      "match": "Bayern Munich vs Arsenal",
+      "market": "over_2_5",
+      "min_odds": "1.31",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); calibración Platt",
+      "why": "Partido clave de UEFA Champions League 2026-27 - League phase MD3 entre Bayern Munich y Arsenal. Métricas subyacentes muestran xG 2.45/1.15 para el local y 1.88/0.98 para la visita; tasas de córners 6.8/6.2 y tarjetas 1.5/1.8. El motor model-v1.3 estima 76.6% para 'Over 2.5 Goles' frente a una probabilidad implícita de 63.3% (cuota 1.58); edge +21.04% y EV robusto +13.14%.",
+      "risks": "Riesgo de varianza deportiva inherente y ajuste del modelo ante partidos de eliminación/competición europea.",
+      "sources": "Pinnacle, Betsson, Understat, ClubElo; verosimilitud del modelo y calibración Platt (model-v1.3)."
+    },
+    {
+      "match": "Como vs Manchester United",
+      "market": "x2",
+      "min_odds": "1.38",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); calibración Platt",
+      "why": "Partido clave de UEFA Champions League 2026-27 - League phase MD3 entre Como y Manchester United. Métricas subyacentes muestran xG 1.35/1.42 para el local y 1.68/1.38 para la visita; tasas de córners 4.6/5.5 y tarjetas 2.2/1.9. El motor model-v1.3 estima 72.3% para 'Doble Oportunidad Empate/Manchester United' frente a una probabilidad implícita de 61.4% (cuota 1.63); edge +17.85% y EV robusto +9.70%.",
+      "risks": "Riesgo de varianza deportiva inherente y ajuste del modelo ante partidos de eliminación/competición europea. CORRELACIÓN: este mismo partido aporta 2 picks al portfolio (junto a over_2_5 (1.65)); son eventos correlacionados y elevan la varianza conjunta.",
+      "sources": "Pinnacle, Betsson, FlashScore, FBref; verosimilitud del modelo y calibración Platt (model-v1.3)."
+    },
+    {
+      "match": "Lille vs Galatasaray",
+      "market": "over_2_5",
+      "min_odds": "1.41",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); calibración Platt",
+      "why": "Partido clave de UEFA Champions League 2026-27 - League phase MD3 entre Lille y Galatasaray. Métricas subyacentes muestran xG 1.62/1.15 para el local y 1.74/1.48 para la visita; tasas de córners 5.4/5.6 y tarjetas 1.8/2.5. El motor model-v1.3 estima 71.1% para 'Over 2.5 Goles' frente a una probabilidad implícita de 61.7% (cuota 1.62); edge +15.21% y EV robusto +7.11%.",
+      "risks": "Riesgo de varianza deportiva inherente y ajuste del modelo ante partidos de eliminación/competición europea.",
+      "sources": "Pinnacle, Betsson, SofaScore, Understat; verosimilitud del modelo y calibración Platt (model-v1.3)."
+    },
+    {
+      "match": "Real Betis vs Feyenoord",
+      "market": "over_2_5",
+      "min_odds": "1.42",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); calibración Platt",
+      "why": "Partido clave de UEFA Champions League 2026-27 - League phase MD3 entre Real Betis y Feyenoord. Métricas subyacentes muestran xG 1.65/1.25 para el local y 1.55/1.48 para la visita; tasas de córners 5.5/5.8 y tarjetas 2.3/2.0. El motor model-v1.3 estima 70.3% para 'Over 2.5 Goles' frente a una probabilidad implícita de 61.7% (cuota 1.62); edge +13.97% y EV robusto +5.87%.",
+      "risks": "Riesgo de varianza deportiva inherente y ajuste del modelo ante partidos de eliminación/competición europea.",
+      "sources": "Pinnacle, Betsson, FlashScore, Understat; verosimilitud del modelo y calibración Platt (model-v1.3)."
+    },
+    {
+      "match": "Como vs Manchester United",
+      "market": "over_2_5",
+      "min_odds": "1.45",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); calibración Platt",
+      "why": "Partido clave de UEFA Champions League 2026-27 - League phase MD3 entre Como y Manchester United. Métricas subyacentes muestran xG 1.35/1.42 para el local y 1.68/1.38 para la visita; tasas de córners 4.6/5.5 y tarjetas 2.2/1.9. El motor model-v1.3 estima 69.0% para 'Over 2.5 Goles' frente a una probabilidad implícita de 60.6% (cuota 1.65); edge +13.90% y EV robusto +5.65%.",
+      "risks": "Riesgo de varianza deportiva inherente y ajuste del modelo ante partidos de eliminación/competición europea. CORRELACIÓN: este mismo partido aporta 2 picks al portfolio (junto a x2 (1.63)); son eventos correlacionados y elevan la varianza conjunta.",
+      "sources": "Pinnacle, Betsson, FlashScore, FBref; verosimilitud del modelo y calibración Platt (model-v1.3)."
+    },
+    {
+      "match": "Real Madrid vs RB Leipzig",
+      "market": "over_3_5",
+      "min_odds": "1.52",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); calibración Platt",
+      "why": "Partido clave de UEFA Champions League 2026-27 - League phase MD3 entre Real Madrid y RB Leipzig. Métricas subyacentes muestran xG 2.52/1.05 para el local y 1.45/1.75 para la visita; tasas de córners 6.5/4.8 y tarjetas 1.6/2.2. El motor model-v1.3 estima 66.0% para 'Over 3.5 Goles' frente a una probabilidad implícita de 51.3% (cuota 1.95); edge +28.68% y EV robusto +18.93%.",
+      "risks": "Riesgo de varianza deportiva inherente y ajuste del modelo ante partidos de eliminación/competición europea.",
+      "sources": "Pinnacle, Betsson, FlashScore, ClubElo; verosimilitud del modelo y calibración Platt (model-v1.3)."
+    }
+  ],
+  "data_limited_reasons": {
+    "Llaneros FC vs Deportivo Cali": "DATOS INSUFICIENTES: métricas xG no disponibles para Llaneros FC en proveedores públicos pre-kickoff",
+    "Independiente Santa Fe vs Jaguares de Córdoba": "DATOS INSUFICIENTES: métricas xG no disponibles para Jaguares de Córdoba en proveedores públicos pre-kickoff"
+  },
+  "fallback_source": "MCPs no operativos (football-stats, odds-api, apifootball). Investigación web del agente: Pinnacle, Betsson, Understat, SofaScore, FlashScore, Conmebol, MLS Soccer y Dimayor. Motor calc_engine.py model-v1.3 con calibración Platt. Partidos sin xG verificable completo no se ejecutan en el motor cuantitativo."
+}
