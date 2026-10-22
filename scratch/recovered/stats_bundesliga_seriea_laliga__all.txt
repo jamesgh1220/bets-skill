@@ -1,0 +1,156 @@
+
+
+===== seq 275 =====
+Wikipedia gives club background but not injuries/coaches for 26/27. Enough for "identity verified" only. Injuries/coach: null, note sources tried (websearch unavailable, no reachable injury feed).
+
+One more possible context source within budget: Sofascore event endpoints for the upcoming matches: `/api/v1/event/{id}/pregame-form` (exists for football: "pregame-form" gives form and sometimes missing players?). Actually there's `/api/v1/event/{id}/pregame-form` returning {homeTeam:{form:[],...}, awayTeam:{...}} — useful for last-5 form confirmation (already have from understat) — and maybe "missingPlayers"? Hmm. There's `/api/v1/event/{id}/lineups` (only near kickoff).
+
+Alternative: `/api/v1/team/{id}/unique-tournament/{tid}/season/{sid}/near-events` no.
+
+Let's spend 1 call on `/api/v1/event/{id}/pregame-form` for the 3 events; could yield form + maybe standings-based info. Low cost, might yield missing players. Then finish.
+
+Also should I verify a second source for xG (comparability)? Values from understat are self-consistent. Fine.
+
+Let's do the pregame-form probe plus save memory discovery in the same execute? mem_save is available via tools.engram — "mem_save" isn't in the shown catalog (only mem_doctor, mem_list_projects, mem_pin, mem_session_end, mem_session_start, mem_unpin). Hmm the engram server instructions mention mem_save as core tool, but the catalog shows only 6 of 19 tools (deferred). I can search for it: search({query:'mem_save'}). Let me try in the same execute.
+
+Actually the task says "If you discover a new working free data source for corners/cards with for/against splits, save it to engram via mem_save". I did discover sofascore API endpoints. Let me attempt mem_save; if unavailable, note it.
+
+But the engram protocol requires project resolution first (mem_current_project) and not guessing. Budget-wise: mem_current_project + mem_save = 2 calls. Total would be ~35. The return contract requires ONLY the JSON array — so memory ops must happen before final message, fine.
+
+Hmm, but instructions also state engram protocol mandates resolving project before initial access. As a subagent, doing this is somewhat in scope (the task explicitly asks to save). Let me do: search for mem_save tool, call mem_current_project, then mem_save. That's 1-2 executes.
+
+Let's combine: execute #1: pregame-form fetches (3 events) + search for engram tools? search() is available inside execute. Do that.
+
+Then execute #2: mem_current_project + mem_save.
+
+Then final JSON.
+
+Careful: is pregame-form useful? It might include "missingPlayers" — let's check.</think>
+
+===== seq 284 =====
+Pregame-form confirms positions/points/form (note: form arrays order — likely oldest→newest or newest→oldest; ambiguous). I'll rely on understat last5 for form details and just mention positions/points.
+
+Careful: Frankfurt pregame form [D,L,W,D,L] — understat last5 (newest first): L,D,W,L,D. So pregame form is oldest→newest = reverse. Consistent: Frankfurt oldest first: D(Union), L(Augsburg), W(Mainz), D(Freiburg), L(Leipzig) ✓. Cologne: [W,L,D,L,W] oldest→newest vs understat newest-first W,L,D,L,W — wait understat Cologne newest: W(Gladbach), L(HSV), D(Werder), L(Stuttgart), W(Hoffenheim). Pregame [W,L,D,L,W] = Hoffenheim W, Stuttgart L, Werder D, HSV L, Gladbach W → oldest→newest ✓. Consistent. Frosinone pregame [W,W,D,W,L]: oldest→newest = Fiorentina W, Venezia W, Genoa D, Como W, Napoli L ✓ matches understat. Great — data sources agree.
+
+Now save memory discovery. Need project resolution first per protocol: mem_current_project. Then mem_save with project 'bets-skill'? The protocol says don't guess project; use mem_current_project result.
+
+Let's call mem_current_project then mem_save. Note capture_prompt: this is an automated subagent artifact — set capture_prompt false to be safe? The task says save discovery. I'll set capture_prompt: false (automated artifact from subagent).
+
+Do both in one execute (sequential).</think>
+
+===== seq 293 =====
+Saved. Now compute final numbers.
+
+xG (understat, season 26/27, league matches only, n):
+- Frankfurt n=5: for 2.17, against 2.73
+- Cologne n=5: for 2.10, against 1.95
+- Frosinone n=6: for 1.48, against 2.42
+- Sassuolo n=6: for 1.78, against 1.68
+- Deportivo n=8: for 1.34, against 1.47
+- Levante n=7: for 1.62, against 2.36
+
+Corners/cards (Sofascore season totals / matches):
+- Frankfurt n=5: corners 25/5=5.0 for, 21/5=4.2 against; yellows 12/5=2.4 for, 6/5=1.2 against
+- Cologne n=5: corners 33/5=6.6 for, 31/5=6.2 against; yellows 9/5=1.8 for, 9/5=1.8 against
+- Frosinone n=6: corners 33/6=5.5 for, 44/6=7.333→7.3 against; yellows 12/6=2.0 for, 15/6=2.5 against
+- Sassuolo n=6: corners 26/6=4.333→4.3 for, 39/6=6.5 against; yellows 9/6=1.5 for, 13/6=2.166→2.2 against
+- Deportivo n=8: corners 44/8=5.5 for, 44/8=5.5 against; yellows 14/8=1.75→1.8 for, 15/8=1.875→1.9 against
+- Levante n=7: corners 23/7=3.285→3.3 for, 37/7=5.285→5.3 against; yellows 8/7=1.142→1.1 for, 17/7=2.428→2.4 against
+
+Context:
+- Frankfurt: 14th Bundesliga, 5 pts (1W2D2L), 9-16 goals. Last5 (newest first): L 0-6 at Leipzig (Oct10), D 2-2 vs Freiburg (Sep19), W 3-1 at Mainz (Sep12), L 1-4 vs Augsburg (Sep6), D 3-3 at Union (Aug29). Rest: 6 days (last played Oct 10). Only 5 league games played (one match postponed/no midweek). Note: no data found on injuries/coach.
+Wait, careful about Augsburg result: understat last5 for Frankfurt showed "Augsburg H 1-4 L" — that's xgf 2.51, xga 1.45, score 1-4 L. Hmm, xG said Frankfurt better but lost 1-4. OK.
+
+- Köln: 10th Bundesliga, 7 pts (2W1D2L), 8-10. Last5: W 2-1 vs Gladbach (Oct11), L 1-2 at HSV (Sep19), D 1-1 vs Werder (Sep12), L 1-4 at Stuttgart (Sep4), W 3-2 vs Hoffenheim (Aug29). Rest 5 days.
+- Frosinone: 9th Serie A, 10 pts (3W1D2L), 9-7. Last5: L 0-3 at Napoli (Oct10), W 2-0 vs Como (Sep20), D 1-1 at Genoa (Sep12), W 3-2 vs Venezia (Sep6), W 3-0 at Fiorentina (Aug29). Rest 6 days.
+- Sassuolo: 11th Serie A, 8 pts (2W2D2L), 10-10. Last5: D 1-1 vs Milan (Oct11), L 1-2 at Monza (Sep18), W 3-2 vs Juventus (Sep13), D 2-2 at Bologna (Sep6), W 2-1 vs Torino (Aug29). Rest 5 days.
+- Deportivo: 8th LaLiga, 10 pts (2W4D2L), 12-11, 8 played (one extra game). Last5: L 2-3 at Real Sociedad (Oct11), D 1-1 vs Betis (Sep20), L 0-1 vs Sevilla (Sep16), D 1-1 at Getafe (Sep13), W 3-2 at Villarreal (Sep5). Rest 5 days.
+- Levante: 17th LaLiga, 6 pts (1W3D3L), 11-15, 7 played. Last5: D 3-3 vs Sevilla (Oct12), L 1-3 at Villarreal (Sep20), L 2-4 vs Barcelona (Sep13), D 0-0 at Malaga (Sep6), W 5-2 vs Betis (Aug29). Rest 4 days.
+
+H2H (sofascore event h2h, historical aggregate):
+- Frankfurt vs Köln: homeWins 2, awayWins 3, draws 5 (Frankfurt home wins 2, Köln wins 3, 5 draws) — 10 meetings.
+- Frosinone vs Sassuolo: homeWins 2, awayWins 6, draws 2 — 10 meetings; Sassuolo dominant.
+- Deportivo vs Levante: homeWins 3, awayWins 3, draws 4 — 10 meetings.
+
+Sources strings:
+xG: https://understat.com/getTeamData/<slug>/2026 (n=5/6/8/7) — I should cite the endpoint URL used plus team page. Let's cite endpoint URLs with slugs; note header required. I'll cite the team page URL https://understat.com/team/<Slug>/2026 and the ajax endpoint.
+
+corners/cards: sofascore statistics/overall URLs with ids.
+context: sofascore standings + pregame-form + understat.
+
+Notes per match: sample sizes, note that xG-against from understat includes only league matches; sofascore stats counts same league matches; search tool unavailable so injuries/coach unknown; note that Frosinone played 6, Sassuolo 6, Deportivo 8, Levante 7, Frankfurt/Köln 5.
+
+Also note Sofascore corners/cards are season-to-date (not strictly "last 5-10") but equals all matches played (5-8) so within window.
+
+League labels: "Bundesliga - jornada 6"? Frankfurt/Köln played 5 and this is matchday 6 presumably. Understat n=5 each → this is their 6th league game. Frosinone/Sassuolo played 6 → jornada 7. Deportivo played 8 → jornada 9; Levante played 7 → jornada 8/9? Hmm, Levante 7 played, Deportivo 8 → Deportivo has a game in hand relative? If it's jornada 9 with Deportivo having played 8. Let's compute: standard: LaLiga round 9 would mean 8 or 9 played. Say "jornada 9" for Depor-Levante? Levante: 7 played → round 8 or 9 depending on postponement. Since both Deportivo (8) and Levante (7) are in the same league, and they meet each other now, their games played differ → one of them had a postponed game. Safer: report league as "LaLiga - jornada (no verificada)" or just "LaLiga". To avoid inventing, I'll use "Bundesliga" style without jornada number, or compute: total matches per team differ, so I'll say "jornada N (no verificada)". Hmm, the contract wants "Bundesliga - jornada N". I can state verified from events: this fixture's round number can be obtained from the event detail... I could check roundInfo: the events/next response likely had "roundInfo" field. I didn't capture it. I can't verify now without another call (budget ~34 used? Let's count: reads2, webfetch7, executes: 1..18 + pregame/memTools(19) + mem(20) = 20 executes. Total = 29. I have ~6 spare).
+
+Let's spend 1 execute to fetch roundInfo for the 3 upcoming events (and confirm kickoff/venue). That's worth accuracy.</think>
+
+===== seq 302 =====
+All confirmed: jornada 6 Bundesliga, jornada 7 Serie A, jornada 9 LaLiga.
+
+Now compose the final JSON array only.
+
+Sources strings per match — include:
+- xG: understat endpoint URL per team + note n.
+- corners: sofascore statistics URLs
+- cards: same sofascore URL
+- context: sofascore standings + pregame-form
+
+Notes: mention search tool returned no results (websearch unavailable), FBref 403, no injuries/coach data; note Levante/others window = season-to-date (all matches played).
+
+One consideration: cards "yellow cards" — Sofascore yellowCards includes yellows; yellowRedCards separate (Frankfurt 0). Fine, note that only straight yellows counted.
+
+Return only JSON. Numbers rounded as specified (xG 2 decimals, corners/cards 1 decimal).
+
+Frankfurt: xg_home_for 2.17, xg_home_against 2.73; corners 5.0/4.2; cards 2.4/1.2
+Köln: 2.10/1.95; corners 6.6/6.2; cards 1.8/1.8
+Frosinone: 1.48/2.42; corners 5.5/7.3; cards 2.0/2.5
+Sassuolo: 1.78/1.68; corners 4.3/6.5; cards 1.5/2.2
+Deportivo: 1.34/1.47; corners 5.5/5.5; cards 1.8/1.9
+Levante: 1.62/2.36; corners 3.3/5.3; cards 1.1/2.4
+
+Write it.</think>[
+  {
+    "match": "Eintracht Frankfurt vs FC Cologne",
+    "home": "Eintracht Frankfurt", "away": "FC Cologne",
+    "league": "Bundesliga - jornada 6",
+    "kickoff_utc": "2026-10-16T18:30:00Z",
+    "xg_home_for": 2.17, "xg_home_against": 2.73, "xg_away_for": 2.10, "xg_away_against": 1.95,
+    "corners_home_for": 5.0, "corners_home_against": 4.2, "corners_away_for": 6.6, "corners_away_against": 6.2,
+    "cards_home_for": 2.4, "cards_home_against": 1.2, "cards_away_for": 1.8, "cards_away_against": 1.8,
+    "context_home": "Sofascore standings (Bundesliga 26/27): 14th, 5 pts, 1W-2D-2L, 9 GF / 16 GA in 5 matches (avgRating 7.07). Understat form (newest first, league only): L 0-6 at RB Leipzig (10-Oct, xG 1.96-4.74), D 2-2 vs Freiburg (19-Sep), W 3-1 at Mainz 05 (12-Sep), L 1-4 vs Augsburg (06-Sep), D 3-3 at Union Berlin (29-Aug). Rest: 6 days (last competitive match 2026-10-10); next fixture after this one is 2026-10-24, so no midweek load. Coach status and injuries/suspensions: NOT VERIFIED - no reachable source this session (websearch returned zero results for every query; no injury feed fetched).",
+    "context_away": "Sofascore standings: 10th, 7 pts, 2W-1D-2L, 8 GF / 10 GA in 5 matches (avgRating 7.43). Understat form (newest first): W 2-1 vs Borussia M'gladbach (11-Oct, xG 1.54-1.04), L 1-2 at Hamburger SV (19-Sep), D 1-1 vs Werder Bremen (12-Sep), L 1-4 at VfB Stuttgart (04-Sep), W 3-2 vs Hoffenheim (29-Aug). Rest: 5 days (last competitive match 2026-10-11); next fixture 2026-10-24. Coach status and injuries/suspensions: NOT VERIFIED (no reachable source).",
+    "h2h": "Sofascore event H2H aggregate (all-time head-to-head): 10 meetings - Frankfurt home wins 2, Köln away wins 3, draws 5; no per-match detail endpoint available (event/{id}/h2h returns counts only; tournament/season h2h path returns 404). No meeting recorded in understat 26/27 data yet (first of the season).",
+    "sources": "xG: https://understat.com/getTeamData/Eintracht_Frankfurt/2026 and https://understat.com/getTeamData/FC_Cologne/2026 (ajax endpoint, requires X-Requested-With header; n=5 league matches each, avg = mean of per-match xG); corners: https://www.sofascore.com/api/v1/team/2674/unique-tournament/35/season/97464/statistics/overall and .../team/2671/... (n=5 each; corners 25/21 and 33/31 divided by matches); cards: same two Sofascore URLs (yellowCards 12/6 and 9/9 divided by 5); context: https://www.sofascore.com/api/v1/unique-tournament/35/season/97464/standings/total, https://www.sofascore.com/api/v1/event/16434063/pregame-form, https://understat.com/getTeamData/*/2026",
+    "notes": "Sample sizes: 5 league matches per team (season 26/27 to date = exactly the requested 5-10 match window). xG source (understat) and corners/cards source (Sofascore) are different families because no single reachable source exposes both; n matches agrees between them (5 and 5), so windows are comparable. Sofascore exposes NO expectedGoalsAgainst key -> xG-against could only come from understat. Cards = yellow cards only (separate yellowRedCards/redCards exist; Frankfurt's yellow-red count is 0). websearch tool returned 'No search results found' for all 8 queries (EN/DE/IT/ES), so injuries, suspensions and coach status are null/unverified for both teams."
+  },
+  {
+    "match": "Frosinone vs Sassuolo",
+    "home": "Frosinone", "away": "Sassuolo",
+    "league": "Serie A - jornada 7",
+    "kickoff_utc": "2026-10-16T18:45:00Z",
+    "xg_home_for": 1.48, "xg_home_against": 2.42, "xg_away_for": 1.78, "xg_away_against": 1.68,
+    "corners_home_for": 5.5, "corners_home_against": 7.3, "corners_away_for": 4.3, "corners_away_against": 6.5,
+    "cards_home_for": 2.0, "cards_home_against": 2.5, "cards_away_for": 1.5, "cards_away_against": 2.2,
+    "context_home": "Sofascore standings (Serie A 26/27): 9th, 10 pts, 3W-1D-2L, 9 GF / 7 GA in 6 matches (avgRating 7.49). Understat form (newest first): L 0-3 at Napoli (10-Oct, xG 0.79-3.53), W 2-0 vs Como (20-Sep), D 1-1 at Genoa (12-Sep), W 3-2 vs Venezia (06-Sep), W 3-0 at Fiorentina (29-Aug). Rest: 6 days (last match 2026-10-10); next fixture 2026-10-25. Wikipedia confirms club plays in Serie A 26/27 (recently promoted). Injuries/suspensions/coach: NOT VERIFIED (websearch unavailable).",
+    "context_away": "Sofascore standings: 11th, 8 pts, 2W-2D-2L, 10 GF / 10 GA in 6 matches (avgRating 7.49). Understat form (newest first): D 1-1 vs AC Milan (11-Oct, xG 1.34-1.87), L 1-2 at Monza (18-Sep), W 3-2 vs Juventus (13-Sep, xG 0.96-1.18 - won against xG), D 2-2 at Bologna (06-Sep, xG 1.84-3.01), W 2-1 vs Torino (29-Aug). Rest: 5 days (last match 2026-10-11); next fixture 2026-10-24. Injuries/suspensions/coach: NOT VERIFIED.",
+    "h2h": "Sofascore event H2H aggregate: 10 meetings - Frosinone home wins 2, Sassuolo away wins 6, draws 2 (Sassuolo historically dominant); manager duel 1-1-2. No per-match list available (counts-only endpoint); no meeting yet in 26/27 understat data.",
+    "sources": "xG: https://understat.com/getTeamData/Frosinone/2026 and https://understat.com/getTeamData/Sassuolo/2026 (n=6 league matches each; per-match mean); corners/cards: https://www.sofascore.com/api/v1/team/2801/unique-tournament/23/season/95836/statistics/overall and .../team/2793/... (n=6; corners 33/44 and 26/39, yellowCards 12/15 and 9/13, all divided by 6); context: https://www.sofascore.com/api/v1/unique-tournament/23/season/95836/standings/total, https://www.sofascore.com/api/v1/event/16285041/pregame-form, https://understat.com/getTeamData/*/2026, https://it.wikipedia.org/wiki/Frosinone_Calcio",
+    "notes": "Sample = 6 Serie A matches per team (full 26/27 season to date, inside the 5-10 window). Frosinone has the worst corners-against rate of the six teams (7.3/match) and Sassuolo the lowest corners-for (4.3). Understat and Sofascore agree on matches played (6/6). No expectedGoalsAgainst available on Sofascore; xG-against only from understat. Injuries/suspensions/coach null: websearch returned no results for IT/EN queries; no alternative injury feed reachable. Sassuolo squad/coach changes since 25/26 (Serie A) not verified, so season-to-date 26/27 sample preferred."
+  },
+  {
+    "match": "Deportivo vs Levante",
+    "home": "Deportivo La Coruña", "away": "Levante",
+    "league": "LaLiga - jornada 9",
+    "kickoff_utc": "2026-10-16T19:00:00Z",
+    "xg_home_for": 1.34, "xg_home_against": 1.47, "xg_away_for": 1.62, "xg_away_against": 2.36,
+    "corners_home_for": 5.5, "corners_home_against": 5.5, "corners_away_for": 3.3, "corners_away_against": 5.3,
+    "cards_home_for": 1.8, "cards_home_against": 1.9, "cards_away_for": 1.1, "cards_away_against": 2.4,
+    "context_home": "Sofascore standings (LaLiga 26/27): 8th, 10 pts, 2W-4D-2L, 12 GF / 11 GA in 8 matches (avgRating 7.24). Understat form (newest first): L 2-3 at Real Sociedad (11-Oct, xG 2.34-1.33 - lost despite higher xG), D 1-1 vs Real Betis (20-Sep), L 0-1 vs Sevilla (16-Sep, xG 0.19-0.85), D 1-1 at Getafe (13-Sep), W 3-2 at Villarreal (05-Sep, xG 2.44-3.64). Rest: 5 days (last match 2026-10-11); next fixture 2026-10-24. Wikipedia: back in Primera División in 2026-27 after 8 seasons absent, home at Riazor (32,490). Injuries/suspensions/coach: NOT VERIFIED (websearch unavailable).",
+    "context_away": "Sofascore standings: 17th, 6 pts, 1W-3D-3L, 11 GF / 15 GA in 7 matches (avgRating 7.03). Understat form (newest first): D 3-3 vs Sevilla (12-Oct, xG 2.01-3.20), L 1-3 at Villarreal (20-Sep, xG 0.94-4.29), L 2-4 vs Barcelona (13-Sep, xG 2.67-2.47), D 0-0 at Malaga (06-Sep), W 5-2 vs Real Betis (29-Aug, xG 3.04-1.92). Rest: 4 days (last match 2026-10-12) - shortest rest of the six teams; also has a fixture on 2026-10-21. Injuries/suspensions/coach: NOT VERIFIED.",
+    "h2h": "Sofascore event H2H aggregate: 10 meetings - Deportivo home wins 3, Levante away wins 3, draws 4; no per-match list available (counts-only endpoint). Both clubs were in different divisions until 26/27 (Deportivo came up from Segunda for 26-27), so no meeting in understat 26/27 data yet.",
+    "sources": "xG: https://understat.com/getTeamData/Deportivo_La_Coruna/2026 and https://understat.com/getTeamData/Levante/2026 (n=8 and n=7 league matches; per-match mean); corners/cards: https://www.sofascore.com/api/v1/team/2832/unique-tournament/8/season/97268/statistics/overall and .../team/2849/... (n=8 and n=7; Deportivo corners 44/44, yellows 14/15; Levante corners 23/37, yellows 8/17); context: https://www.sofascore.com/api/v1/unique-tournament/8/season/97268/standings/total, https://www.sofascore.com/api/v1/event/16421070/pregame-form, https://understat.com/getTeamData/*/2026, https://es.wikipedia.org/wiki/Real_Club_Deportivo_de_la_Coruña, https://es.wikipedia.org/wiki/Levante_Unión_Deportiva",
+    "notes": "Sample sizes differ by design: Deportivo n=8, Levante n=7 league matches (both full 26/27 season to date; Deportivo has played one more round than Levante, so windows are nearly identical). Sofascore and understat agree on matches played (8/7). Deportivo xG for (1.34) is the lowest of the six teams; Levante concedes 2.36 xG/match and averages 3.3 corners for (lowest of the six). No expectedGoalsAgainst on Sofascore -> xG-against only from understat. Injuries/suspensions/coach null for both: websearch returned zero results for ES/EN queries; FBref returned HTTP 403 to plain fetch, so no second xG source was obtained."
+  }
+]

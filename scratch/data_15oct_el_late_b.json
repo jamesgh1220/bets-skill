@@ -1,0 +1,57 @@
+[
+  {
+    "match": "Marseille vs Olympiacos", "home": "Olympique Marseille", "away": "Olympiacos FC",
+    "league": "UEFA Europa League - MD2", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 1.55, "xg_home_against": 1.94, "xg_away_for": 1.96, "xg_away_against": 0.96,
+    "elo_home": 1767, "elo_away": 1724,
+    "corners_home_for": 4.1, "corners_home_against": 5.3, "corners_away_for": 3.7, "corners_away_against": 5.25,
+    "cards_home_for": 1.7, "cards_home_against": null, "cards_away_for": 2.0, "cards_away_against": null,
+    "odds": {"1": 2.30, "X": 3.40, "2": 3.00, "over_2_5": 1.76, "btts_yes": 1.62},
+    "sources": "beta.clubelo 1767/1724; statz Marseille Ligue 1 n=6; footystats snippet Olympiacos Greek SL (n unstated); statz corners last-10/next-opp; Bet365 via wincomparator 02:00Z",
+    "notes": "Marseille xG conflict: Fox 1.30/g vs statz 1.55 (statz domestic chosen). Olympiacos domestic xG unconfirmed on statz (EL-only 3.19/0.46). Odds missing O1.5/U1.5/U2.5/O3.5/U3.5 (not observed) -> omitted. Referee Michael Oliver. Wincomparator alt: 1=2.39/X=3.65/2=3.20."
+  },
+  {
+    "match": "Rennes vs OFI Crete", "home": "Stade Rennais", "away": "OFI Crete",
+    "league": "UEFA Europa League - MD2", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 1.83, "xg_home_against": 1.85, "xg_away_for": 0.91, "xg_away_against": 1.25,
+    "elo_home": 1760, "elo_away": 1484,
+    "corners_home_for": 6.5, "corners_home_against": 5.9, "corners_away_for": 3.33, "corners_away_against": 6.33,
+    "cards_home_for": 2.2, "cards_home_against": null, "cards_away_for": 1.0, "cards_away_against": 2.7,
+    "odds": {"1": 1.20, "X": 6.50, "2": 13.0, "over_1_5": 1.13, "under_1_5": 6.0, "over_2_5": 1.40, "under_2_5": 3.0, "btts_yes": 1.94},
+    "sources": "beta.clubelo; statz Rennes Ligue 1 n=6; OFI xG = statz EL n=3 (no domestic rows); FanDuel via windrawwin (American converted)",
+    "notes": "OFI xG/corners/cards are EL-only samples n=3 (no Greek domestic data). Odds conflict: Fox 1.25/–/11.05, oddschecker 1.22/7.50/13.50, wincomparator best 1=1.44/X=5.01/2=7.40. O3.5/U3.5 not observed -> omitted."
+  },
+  {
+    "match": "Celta de Vigo vs Juventus", "home": "Celta de Vigo", "away": "Juventus",
+    "league": "UEFA Europa League - MD2", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 0.95, "xg_home_against": 1.53, "xg_away_for": 1.61, "xg_away_against": 0.59,
+    "elo_home": 1752, "elo_away": 1838,
+    "corners_home_for": 4.0, "corners_home_against": 4.4, "corners_away_for": 7.1, "corners_away_against": 2.5,
+    "cards_home_for": 1.9, "cards_home_against": null, "cards_away_for": 1.5, "cards_away_against": null,
+    "odds": {"1": 3.75, "X": 3.40, "2": 2.20, "over_2_5": 2.02, "under_2_5": 1.80},
+    "sources": "beta.clubelo; statz Celta La Liga last-20 (spans prior season) + Juve Serie A n=6; statz corners last-10; 1X2 sportytrader best (Bet365/22bet/Betsson); O2.5 Fox +102 / U2.5 BetMGM -125 converted",
+    "notes": "Celta xG window spans 20 games incl. prior season (0.95/1.53) vs 2026/27-only 0.91/1.20 — larger sample chosen per policy. ESPN UK alt 3.75/3.60/2.10. Missing O1.5/U1.5/O3.5/U3.5/btts -> omitted."
+  },
+  {
+    "match": "Benfica vs Celtic", "home": "Benfica", "away": "Celtic",
+    "league": "UEFA Europa League - MD2", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 2.32, "xg_home_against": 0.73, "xg_away_for": 2.59, "xg_away_against": 1.18,
+    "elo_home": 1856, "elo_away": 1676,
+    "corners_home_for": 6.8, "corners_home_against": 3.0, "corners_away_for": 9.0, "corners_away_against": 4.3,
+    "cards_home_for": 2.0, "cards_home_against": null, "cards_away_for": 1.3, "cards_away_against": null,
+    "odds": {"1": 1.25, "X": 6.0, "2": 11.0, "over_2_5": 1.44, "over_3_5": 1.82, "under_3_5": 2.05, "btts_yes": 1.83},
+    "sources": "beta.clubelo (highest Elo on slate 1856); statz both xG n=8 domestic; statz corners last-10 (Celtic 9.0 for!); Betfred insights updated 2026-10-15; Fox O3.5/U3.5 converted",
+    "notes": "Fox implied 1X2 1.19/–/11.90 conflicts with Betfred; predictlix best 1=1.27. Missing O1.5/U1.5/under_2_5 -> omitted. footballwhispers 1.73/4.00/3.40 rejected as different market."
+  },
+  {
+    "match": "Hoffenheim vs Beşiktaş", "home": "TSG Hoffenheim", "away": "Beşiktaş",
+    "league": "UEFA Europa League - MD2", "kickoff_utc": "2026-10-15T19:00:00Z",
+    "xg_home_for": 1.93, "xg_home_against": 1.38, "xg_away_for": 1.83, "xg_away_against": 0.72,
+    "elo_home": 1721, "elo_away": 1700,
+    "corners_home_for": 6.8, "corners_home_against": 5.0, "corners_away_for": 7.7, "corners_away_against": 3.3,
+    "cards_home_for": 2.0, "cards_home_against": null, "cards_away_for": 2.3, "cards_away_against": null,
+    "odds": {"1": 1.95, "X": 3.85, "2": 3.41, "over_1_5": 1.13, "over_2_5": 1.40, "under_2_5": 2.88, "over_3_5": 2.10, "under_3_5": 1.65, "btts_yes": 1.44},
+    "sources": "beta.clubelo; statz Hoffenheim last-10 all-comps xG + Bundesliga corners n=5; statz Besiktas Super Lig n=7 + last-10 corners; footystats odds table; Betfair U2.5; Fox U3.5 converted",
+    "notes": "Hoffenheim xG is last-10 all-comps (not domestic-only). Odds conflict: AfricaPicks 2.01/3.90/3.50 vs footystats 1.95/3.85/3.41. Hoffenheim corners alt last-10 7.2/4.3. Missing under_1_5 -> omitted."
+  }
+]

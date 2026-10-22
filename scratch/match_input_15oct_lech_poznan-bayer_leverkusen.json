@@ -1,0 +1,28 @@
+{
+  "xg_home_for": 2.07,
+  "xg_home_against": 0.88,
+  "xg_away_for": 2.32,
+  "xg_away_against": 1.32,
+  "elo_home": 1680,
+  "elo_away": 1876,
+  "corners_home_for": 6.89,
+  "corners_home_against": 4.22,
+  "corners_away_for": 8.0,
+  "corners_away_against": 3.4,
+  "cards_home_for": 1.7,
+  "cards_home_against": 2.4,
+  "cards_away_for": 1.7,
+  "cards_away_against": null,
+  "odds": {
+    "1": 4.4,
+    "X": 4.2,
+    "2": 1.65,
+    "over_1_5": 1.11,
+    "under_1_5": 6.5,
+    "over_2_5": 1.4,
+    "under_2_5": 3.0,
+    "over_3_5": 2.0,
+    "under_3_5": 1.8,
+    "btts_yes": 1.53
+  }
+}

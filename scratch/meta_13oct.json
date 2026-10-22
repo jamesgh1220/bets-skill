@@ -1,0 +1,79 @@
+{
+  "analysis_date_iso": "2026-10-13T14:51:45Z",
+  "match_dates_text": "13 de octubre de 2026",
+  "information_cutoff": "2026-10-13T14:51:45Z",
+  "model_ia": "big-pickle",
+  "engine_version": "model-v1.3",
+  "leagues_display": "UEFA Champions League (fase de liga) y Primera A de Colombia (Clausura)",
+  "requested_range": "13 de octubre de 2026 - Liga Colombiana, Champions League y Copa Sudamericana (todos los partidos)",
+  "universe_preamble": "Universo = interseccion(ligas: liga colombiana + champions league + copa sudamericana, fecha 13 de octubre de 2026, todos los partidos programados). Cutoff de informacion 2026-10-13T14:51:45Z, anterior al primer kickoff (Lens-Sporting 16:45 UTC). No se usa informacion posterior a ningun kickoff. Copa Sudamericana NO tiene partidos el 13/10/2026 (verificado en calendario): 0 partidos. Universo final = 10 partidos (9 de Champions League fase de liga + 1 de Primera A Colombia). MCPs inoperativos en esta sesion: apifootball/odds-api/football-stats no expuestos, soccer-mcp ausente, the-odds-api HTTP 401 y api.clubelo.com inaccesible; por ello la investigacion se realizo via web (agente): xg-edge, footymetrics, querostats, statz.ai, sportsgambler, 1x2.expert, 24score, wincomparator, foxsports, clubelo.com. Las tasas de corners/tarjetas for/against constan en cada match_input cuando estuvieron disponibles; donde las cuotas O/U de corners/tarjetas no estaban cotizadas, se marcan n/d (no se inventan). ADVERTENCIA DE DATOS: 3 partidos (Lens-Sporting, Sabah-Slavia, Viking-Bayern) NO tienen xG/goals verificables; para evitar publicar probabilidades basadas en priors por defecto del motor, NO se ejecuto el motor en ellos: figuran como NO BET por datos insuficientes (probabilidades n/d en la tabla O/U).",
+  "universe_matches": [
+    "1. **Champions League:** Lens vs Sporting CP (16:45 UTC). 1X2 2.36/3.50/2.70; O/U 2.5 1.56/2.35 (foxsports). Elo Lens 1817 / Sporting 1876. DATOS INSUFICIENTES (sin xG/goals ni corners/tarjetas) -> NO BET.",
+    "2. **Champions League:** Sabah FK vs Slavia Prague (16:45 UTC). 1X2 3.50/3.75/1.92; O/U 2.5 1.62/2.15; BTTS 1.54/2.25 (wincomparator). Sin Elo ni xG -> NO BET por datos insuficientes.",
+    "3. **Champions League:** Arsenal vs Lille (19:00 UTC). 1X2 1.22/7.00/13.00; O/U 1.5 1.17/5.00, 2.5 1.53/2.50, 3.5 2.30/1.62; BTTS 2.10/1.67; corners y tarjetas O/U capturadas. Elo 2043/1782; xG 1.84/0.79 vs 1.36/1.68.",
+    "4. **Champions League:** Atletico Madrid vs Manchester United (19:00 UTC). 1X2 1.925/3.96/3.54; O/U 1.5 1.12/4.70, 2.5 1.50/2.70, 3.5 2.39/1.68; BTTS 1.47/2.53; DNB 1.42/3.00. Elo 1907/1876; xG 1.76/1.05 vs 1.74/1.43.",
+    "5. **Champions League:** Villarreal vs Napoli (19:00 UTC). 1X2 2.20/3.65/3.10; O/U 1.5 1.20/4.50, 2.5 1.63/2.25, 3.5 2.50/1.50; BTTS 1.61/2.65; DC 1X 1.32 / X2 1.74; DNB 1.56/2.54. Elo 1797/1839; xG 2.16/1.22 vs 1.66/1.34.",
+    "6. **Champions League:** Galatasaray vs Barcelona (19:00 UTC). 1X2 8.25/6.21/1.26; O/U 1.5 1.05/11.0, 2.5 1.20/5.0, 3.5 1.51/2.63; BTTS 1.39/2.82; DNB 5.79/1.11; DC 1X 3.48 / X2 1.05 / 12 1.10. Elo 1798/2026; xG 2.37/1.03 vs 3.81/0.97.",
+    "7. **Champions League:** Inter Milan vs Club Brugge (19:00 UTC). 1X2 1.25/6.00/10.00; O/U 1.5 1.10/7.0, 2.5 1.37/3.10, 3.5 2.34/1.64; BTTS 1.73/2.05; DC 1X 1.04 / X2 3.80 / 12 1.12; DNB 1.06/7.00. Elo 1949/1812; xG 2.42/1.23 vs 2.40/1.01.",
+    "8. **Champions League:** RB Leipzig vs PSV Eindhoven (19:00 UTC). 1X2 1.60/4.90/4.50; O/U 2.5 1.27/3.75; BTTS 1.34/3.15; DC 1X 1.20 / X2 2.32 / 12 1.17; DNB 1.27/3.30. Elo 1825/1787; xG 2.27/1.40 vs 2.60/1.25.",
+    "9. **Champions League:** Viking FK vs Bayern Munich (19:00 UTC). 1X2 17.63/n-d/1.10 (foxsports; linea cotizada 4.5). Sin xG ni Elo local -> NO BET por datos insuficientes.",
+    "10. **Primera A Colombia (Clausura):** Atletico Bucaramanga vs Aguilas Doradas Rionegro (23:30 UTC). 1X2 1.95/3.25/3.80; O/U 1.5 1.33/3.10, 2.5 2.10/1.70, 3.5 3.80/1.23; BTTS 1.84/1.85; DC 1X 1.25 / X2 1.77 / 12 1.29; DNB 1.43/2.65; corners O/U 8.5 y 9.5 capturadas. Elo 1637/1548; xG 0.96/1.05 vs 1.29/1.00."
+  ],
+  "picks_details": [
+    {
+      "match": "Galatasaray vs Barcelona",
+      "market": "over_3_5",
+      "min_odds": "1.28",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestra corta de xG (n aprox. 5-8)",
+      "why": "Barcelona muy favorito (Elo 2026 vs 1798) y con xG a favor extremo (3.81) segun el proveedor consultado. El motor model-v1.3 estima 82.8% para 'Over 3.5 Goles' frente a una probabilidad implicita de 66.2% (cuota 1.51); edge +25.09% y EV robusto +17.54%.",
+      "risks": "xG away de 3.81 inusualmente alto (posible muestra corta del proveedor); tarjetas incompletas (2 de 4 tasas); cuotas de un solo agregador.",
+      "sources": "investigacion web del agente (agregadores de cuotas y xG), clubelo.com (Elo); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Villarreal vs Napoli",
+      "market": "over_2_5",
+      "min_odds": "1.41",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestra corta de xG (n aprox. 5-8)",
+      "why": "Villarreal con alto xG a favor (2.16) y corners altos; Elo ligeramente favorable al Napoli (1839 vs 1797). El motor model-v1.3 estima 75.8% para 'Over 2.5 Goles' frente a una probabilidad implicita de 61.4% (cuota 1.63); edge +23.47% y EV robusto +15.32%.",
+      "risks": "Cuotas de corners/tarjetas parciales; linea 12 y varias lineas O/U no cotizadas; bookmakers mezclados (novibet/betimate/ats.io).",
+      "sources": "xg-edge.com (xG), footymetrics.com (corners/tarjetas/goals), novibet/betimate/ats.io (cuotas), clubelo.com (Elo); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Galatasaray vs Barcelona",
+      "market": "under_corners_10_5",
+      "min_odds": "1.53",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestra corta de xG (n aprox. 5-8)",
+      "why": "Barcelona muy favorito (Elo 2026 vs 1798) y con xG a favor extremo (3.81) segun el proveedor consultado. El motor model-v1.3 estima 70.4% para 'Under 10.5 Córners' frente a una probabilidad implicita de 57.5% (cuota 1.74); edge +22.42% y EV robusto +13.72%.",
+      "risks": "xG away de 3.81 inusualmente alto (posible muestra corta del proveedor); tarjetas incompletas (2 de 4 tasas); cuotas de un solo agregador.",
+      "sources": "investigacion web del agente (agregadores de cuotas y xG), clubelo.com (Elo); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Inter Milan vs Club Brugge",
+      "market": "btts_yes",
+      "min_odds": "1.56",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestra corta de xG (n aprox. 5-8)",
+      "why": "Inter favorito claro (Elo 1949 vs 1812) con xG alto (2.42) y Brugge concediendo poco pero de liga menor. El motor model-v1.3 estima 69.1% para 'Ambos marcan (BTTS)' frente a una probabilidad implicita de 57.8% (cuota 1.73); edge +19.59% y EV robusto +10.94%.",
+      "risks": "Fuentes de xG con conflicto (footystats vs statz); tarjetas de Brugge incompletas; solo linea 9.5 de corners cotizada.",
+      "sources": "footystats.org + statz.ai (xG Inter), oddalerts.com (xG Brugge), sportsgambler.com (corners/goals/cuotas), thesoccerodds.com + pinnacle.com (cuotas), clubelo.com (Elo); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Arsenal vs Lille",
+      "market": "under_corners_9_5",
+      "min_odds": "1.58",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestra corta de xG (n aprox. 5-8)",
+      "why": "Arsenal muy superior en Elo (2043 vs 1782) y con xG a favor alto (1.84) frente a defensa de Lille vulnerable (xG contra 1.68). El motor model-v1.3 estima 68.3% para 'Under 9.5 Córners' frente a una probabilidad implicita de 55.6% (cuota 1.80); edge +23.01% y EV robusto +14.01%.",
+      "risks": "Rotaciones de Champions; DNB no ofrecido (no cotizado); Lille con mejor rendimiento defensivo reciente en Ligue 1.",
+      "sources": "xg-edge.com (xG), footymetrics.com (corners/tarjetas/goals), 1x2.expert + 24score.com (cuotas Bet365/MarathonBet), clubelo.com (Elo); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Atletico Bucaramanga vs Aguilas Doradas Rionegro",
+      "market": "x2",
+      "min_odds": "1.62",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3) sobre muestra corta de xG (n aprox. 5-8)",
+      "why": "Bucaramanga local con mejor Elo (1637 vs 1548); partido de expectativa de goles baja (xG total ~2.25). El motor model-v1.3 estima 66.7% para 'Doble Oportunidad Empate/Aguilas Doradas Rionegro' frente a una probabilidad implicita de 56.5% (cuota 1.77); edge +18.11% y EV robusto +9.26%.",
+      "risks": "Liga con menor cobertura estadistica; xG de proveedor unico; contextos de rotacion por calendario Clausura.",
+      "sources": "statof.com, bzzoiro, clubelo.com (Elo y datos de temporada); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    }
+  ],
+  "fallback_source": "MCPs no operativos (apifootball/odds-api/football-stats sin herramientas, soccer-mcp ausente, the-odds-api 401, api.clubelo.com inaccesible). Investigacion web del agente: xg-edge.com y querostats.com y statz.ai y footystats.org y oddalerts.com (xG/goals), footymetrics.com y pythiafootball.com y sportsgambler.com (corners/tarjetas), 1x2.expert y 24score.com y wincomparator.com y novibet y betgolazo y ats.io y thesoccerodds.com y pinnacle.com y foxsports.com (cuotas), clubelo.com (Elo). Motor calc_engine.py model-v1.3 con calibracion Platt (mercados 1, 2, O/U 2.5 y O/U 3.5). Conflictos de xG documentados por partido en los match_input. Los 3 partidos sin xG verificable no se ejecutaron en el motor (evitar priors por defecto)."
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "match": "Lugano vs Crvena Zvezda", "home": "FC Lugano", "away": "FK Crvena Zvezda",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T16:45:00Z",
+    "xg_home_for": 1.51, "xg_home_against": 1.48, "xg_away_for": 1.78, "xg_away_against": 1.43,
+    "elo_home": 1646, "elo_away": 1668,
+    "corners_home_for": 6.0, "corners_home_against": 4.0, "corners_away_for": 4.6, "corners_away_against": 3.2,
+    "cards_home_for": 2.3, "cards_home_against": 1.9, "cards_away_for": 2.3, "cards_away_against": 2.2,
+    "odds": {"1": 2.84, "X": 3.67, "2": 2.77, "over_1_5": 1.2, "under_1_5": 4.33, "over_2_5": 1.7, "under_2_5": 2.1, "over_3_5": 2.62, "under_3_5": 1.44, "btts_yes": 1.53, "btts_no": 2.38, "1x": 1.53, "x2": 1.4},
+    "sources": "xG footystats H2H page (window includes Europe); beta.clubelo.com 2026-10-14; corners/cards 2026/27 domestic prior collection; 1X2 sportytrader best; O/U+BTTS+DC dailysportpick.com captured pre-kickoff",
+    "notes": "1X2 conflict: dailysportpick reference 2.75/3.50/2.40 vs sportytrader best 2.84/3.67/2.77. No corners/cards market odds (team averages only)."
+  },
+  {
+    "match": "Hajduk Split vs Ajax", "home": "HNK Hajduk Split", "away": "Ajax",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T16:45:00Z",
+    "xg_home_for": 1.85, "xg_home_against": 1.05, "xg_away_for": 2.54, "xg_away_against": 1.09,
+    "elo_home": 1586, "elo_away": 1684,
+    "corners_home_for": 4.3, "corners_home_against": 2.4, "corners_away_for": 7.5, "corners_away_against": 2.4,
+    "cards_home_for": 2.4, "cards_home_against": 2.3, "cards_away_for": 2.0, "cards_away_against": 1.8,
+    "odds": {"1": 6.0, "X": 4.75, "2": 1.67, "over_1_5": 1.19, "under_1_5": 5.0, "over_2_5": 1.59, "under_2_5": 2.4, "over_3_5": 2.45, "under_3_5": 1.56, "btts_yes": 1.74, "btts_no": 2.2, "1x": 2.48, "x2": 1.17, "12": 1.2},
+    "sources": "footystats club pages 2026/27; beta.clubelo.com 2026-10-14; corners/cards 2026/27 domestic prior collection; sportytrader best 1X2; betPawa O/U; dailysportpick U-sides + BTTS No",
+    "notes": "Best-of-source merge. ESPN odds lines templated, excluded. Model xpect 29/23/48."
+  },
+  {
+    "match": "Gent vs AGF Aarhus", "home": "KAA Gent", "away": "AGF Aarhus",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T16:45:00Z",
+    "xg_home_for": 1.45, "xg_home_against": 1.24, "xg_away_for": 1.64, "xg_away_against": 1.58,
+    "elo_home": 1640, "elo_away": 1606,
+    "corners_home_for": 4.5, "corners_home_against": 4.3, "corners_away_for": 6.7, "corners_away_against": 3.4,
+    "cards_home_for": 1.5, "cards_home_against": 1.3, "cards_away_for": 1.4, "cards_away_against": 2.4,
+    "odds": {"1": 1.69, "X": 4.2, "2": 5.18, "over_1_5": 1.25, "under_1_5": 3.75, "over_2_5": 1.8, "under_2_5": 2.0, "over_3_5": 3.0, "under_3_5": 1.36, "btts_yes": 1.91, "btts_no": 1.8, "1x": 1.17, "x2": 2.3},
+    "sources": "Gent footystats 2026/27; AGF statz 2026/27; beta.clubelo.com; corners/cards 2026/27 domestic; sportytrader best 1X2; dailysportpick O/U+BTTS+DC",
+    "notes": "1X2 best-per-outcome merge (oddschecker 1.69, Bet365 X 4.20, 1xbet 5.18). Model xpect 60/22/18."
+  },
+  {
+    "match": "Egnatia vs Midtjylland", "home": "Egnatia Rrogozhinë", "away": "FC Midtjylland",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T16:45:00Z",
+    "xg_home_for": 1.57, "xg_home_against": 1.33, "xg_away_for": 1.71, "xg_away_against": 1.23,
+    "elo_home": 1418, "elo_away": 1720,
+    "corners_home_for": 5.2, "corners_home_against": 5.9, "corners_away_for": 5.4, "corners_away_against": 4.4,
+    "cards_home_for": 1.8, "cards_home_against": 2.0, "cards_away_for": 1.5, "cards_away_against": 1.8,
+    "odds": {"1": 6.25, "X": 4.33, "2": 1.57, "over_1_5": 1.22, "under_1_5": 4.0, "over_2_5": 1.8, "under_2_5": 2.0, "over_3_5": 2.75, "under_3_5": 1.4, "btts_yes": 1.83, "btts_no": 1.83, "1x": 2.38, "x2": 1.12},
+    "sources": "Egnatia footystats H2H fallback (window includes Europe); Midtjylland footystats Superliga 2026/27; beta.clubelo.com; Egnatia corners statz last-10; dailysportpick + footystats + oddschecker odds",
+    "notes": "Midtjylland xG CONFLICT: footystats 1.71/1.23 vs statz 1.41/1.32 — domestic footystats chosen, conflict flagged. Egnatia xG weak coverage (H2H fallback, no domestic xG). Egnatia corners last-10 not 2026/27 window."
+  },
+  {
+    "match": "KuPS vs Trabzonspor", "home": "KuPS Kuopio", "away": "Trabzonspor",
+    "league": "UEFA Conference League - MD1", "kickoff_utc": "2026-10-15T16:45:00Z",
+    "xg_home_for": 1.7, "xg_home_against": 1.27, "xg_away_for": 1.64, "xg_away_against": 1.55,
+    "elo_home": 1482, "elo_away": 1672,
+    "corners_home_for": 5.3, "corners_home_against": 3.7, "corners_away_for": 5.6, "corners_away_against": 3.7,
+    "cards_home_for": 1.3, "cards_home_against": 1.7, "cards_away_for": 2.3, "cards_away_against": 2.6,
+    "odds": {"1": 6.6, "X": 4.5, "2": 1.57, "over_1_5": 1.26, "under_1_5": 4.7, "over_2_5": 1.83, "under_2_5": 2.2, "over_3_5": 2.87, "under_3_5": 1.75, "btts_yes": 1.88, "btts_no": 2.04, "1x": 2.62, "x2": 1.1},
+    "sources": "footystats club pages 2026/27; beta.clubelo.com; corners/cards 2026/27 domestic; sportytrader full ladder (best-of); dailysportpick X + DC",
+    "notes": "Only match with complete single-source ladder (sportytrader). Note under_3_5 1.75 vs dailysportpick 1.44 — best prices kept."
+  }
+]

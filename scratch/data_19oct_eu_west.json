@@ -1,0 +1,73 @@
+[
+  {
+    "match": "Tottenham vs Coventry City", "home": "Tottenham", "away": "Coventry City",
+    "league": "Premier League - jornada 7", "kickoff_utc": "2026-10-19T19:00:00Z",
+    "xg_home_for": 1.31, "xg_home_against": 1.68, "xg_away_for": 1.11, "xg_away_against": 1.80,
+    "elo_home": 1799, "elo_away": 1705,
+    "corners_home_for": 7.8, "corners_home_against": 3.6, "corners_away_for": 3.2, "corners_away_against": 5.4,
+    "cards_home_for": 1.8, "cards_home_against": 2.6, "cards_away_for": 1.4, "cards_away_against": 1.4,
+    "odds": {
+      "1": 1.50, "X": 4.50, "2": 5.40,
+      "1x": 1.13, "x2": 2.38,
+      "dnb_home": 1.20, "dnb_away": 3.95,
+      "btts_yes": 1.65, "btts_no": 2.04,
+      "over_1_5": 1.19, "under_1_5": 5.00,
+      "over_2_5": 1.53, "under_2_5": 2.30,
+      "over_3_5": 2.52, "under_3_5": 1.57,
+      "over_corners_8_5": 1.37, "under_corners_8_5": 3.20,
+      "over_corners_9_5": 1.61, "under_corners_9_5": 2.30,
+      "over_corners_10_5": 2.01, "under_corners_10_5": 1.80,
+      "over_cards_3_5": 2.13, "under_cards_3_5": 1.63
+    },
+    "sources": "xG: understat.com/getLeagueData/EPL/2026 (n=6 por equipo, medias de los arrays history; TOT 1.31/1.68, COV 1.11/1.80); Elo: clubelo.com/Ranking via web.archive.org/web/20261015030319 (snapshot 15/10/2026: TOT 1799, COV 1705); corners/cards: statsbet.es/futbol/equipos/tottenham-hotspur y /coventry-city (ventana 'Ultimos 5', n=5, descargado 19/10/2026 08:19 UTC; against = Media total - Media equipo); cuotas 1X2/DC/DNB/BTTS/O-U 2.5: sportytrader.com/cotes/tottenham-coventry-city-8558882 (maximo por columna entre casas, 19/10/2026); O-U 1.5/3.5, corners y cards 3.5: oddssafari.com/api/match?EventID=3185148 (maximo entre 15 casas, 19/10/2026 08:30 UTC)",
+    "notes": "Muestra: xG n=6 (PL 26/27 hasta 10/10), corners/cards n=5 (statsbet 'Ultimos 5'); familias distintas (ninguna fuente alcanzable expone ambas). xG-against solo de understat (statsbet no lo expone). corners_against y cards_against derivados aritmeticamente: Media total - Media equipo (TOT: 11.4-7.8=3.6, 4.4-1.8=2.6; COV: 8.6-3.2=5.4, 2.8-1.4=1.4). Cards 4.5 y 5.5 SIN COTIZAR en oddssafari (solo 3.5, y con UNA sola casa -> mercado de tarjetas muy fino; cautela). DISCREPANCIAS >2% (se reportan, no se reemplazan): O2.5 oddssafari 1.65 vs 1.53 usado (+7.8%), U2.5 2.45 vs 2.30 (+6.5%); 1X2 oddssafari best 1.60/4.65/6.19 vs sportytrader 1.50/4.50/5.40 (+6.7%/+3.3%/+14.6% en '2' - las casas de oddssafari cotizan bien al empate/visitante respecto a sportytrader). Contexto (fuentes: sportytrader.es paginas de partido 17-18/10/2026; clasificacion Premier 18/10/2026): Tottenham ULTIMO (20o, 3 pts, 0-3-3, 3-9) bajo De Zerbi; Coventry 16o (6 pts, 2-0-4, 5-11) con dos victorias seguidas (1-0 Forest, 4-1 Newcastle). Bajas Tottenham verificadas en sportytrader.es: Porro, Bentancur, Kulusevski, Richarlison, Mudryk, Xavi Simons, Odobert; bajas Coventry: Woolfenden, Amenda, Hayden, Eccles, H. Wright. Descanso: TOT 9 dias (ultimo partido 10/10), COV 7 dias (12/10). H2H: solo Coventry 1-2 Tottenham, EFL Cup sep-2024 (sin enfrentamientos ligueros recientes). Nota: Tottenham sin victoria liguera en casa esta temporada; mercado 1.50 en un equipo ultimo de la tabla - validar contra modelo antes de operar."
+  },
+  {
+    "match": "Getafe vs Rayo Vallecano", "home": "Getafe", "away": "Rayo Vallecano",
+    "league": "LaLiga - jornada 9", "kickoff_utc": "2026-10-19T19:00:00Z",
+    "xg_home_for": 0.81, "xg_home_against": 1.71, "xg_away_for": 1.30, "xg_away_against": 1.86,
+    "elo_home": 1700, "elo_away": 1746,
+    "corners_home_for": 3.4, "corners_home_against": 6.6, "corners_away_for": 5.2, "corners_away_against": 7.0,
+    "cards_home_for": 3.6, "cards_home_against": 2.0, "cards_away_for": 2.8, "cards_away_against": 1.4,
+    "odds": {
+      "1": 2.92, "X": 2.90, "2": 2.55,
+      "1x": 1.44, "x2": 1.32,
+      "dnb_home": 1.97, "dnb_away": 1.68,
+      "btts_yes": 2.13, "btts_no": 1.58,
+      "over_1_5": 1.63, "under_1_5": 2.50,
+      "over_2_5": 2.65, "under_2_5": 1.38,
+      "over_3_5": 6.00, "under_3_5": 1.17,
+      "over_corners_8_5": 1.62, "under_corners_8_5": 2.40,
+      "over_corners_9_5": 1.98, "under_corners_9_5": 1.85,
+      "over_corners_10_5": 2.55, "under_corners_10_5": 1.51,
+      "over_cards_4_5": 1.40, "under_cards_4_5": 2.75,
+      "over_cards_5_5": 1.80, "under_cards_5_5": 1.90
+    },
+    "sources": "xG: understat.com/getLeagueData/La%20liga/2026 (n=8 Getafe, n=7 Rayo, medias de history; GET 0.81/1.71, RAY 1.30/1.86); Elo: clubelo.com/Ranking via web.archive.org/web/20261015030319 (snapshot 15/10/2026: GET 1700, RAY 1746); corners/cards: statsbet.es/futbol/equipos/getafe y /rayo-vallecano (ventana 'Ultimos 5', n=5, descargado 19/10/2026 08:19 UTC; against = Media total - Media equipo); cuotas 1X2/DC/DNB/BTTS/O-U 2.5: sportytrader.com/cotes/cf-getafe-rayo-vallecano-8586497 (maximo por columna, 19/10/2026); O-U 1.5/3.5, corners y cards 4.5/5.5: oddssafari.com/api/match?EventID=3458333 (maximo entre 11-15 casas, 19/10/2026)",
+    "notes": "Muestras desiguales: Getafe n=8, Rayo n=7 (Rayo no ha jugado liga desde 19/09 - 30 dias; CAUSA DEL PARON NO VERIFICADA, la busqueda web no devolvio explicacion; riesgo de sesgo por antiguedad de la muestra de Rayo). corners/cards n=5 (statsbet 'Ultimos 5'). against derivado aritmeticamente: GET 10.0-3.4=6.6 corners, 5.6-3.6=2.0 cards; RAY 12.2-5.2=7.0 corners, 4.2-2.8=1.4 cards. CARDS 3.5 SIN COTIZAR: oddssafari solo publica lineas 4.5 y 5.5 para este partido (ambas con UNA sola casa -> mercado de tarjetas fino). DISCREPANCIAS >2% (reportadas, no reemplazadas): O2.5 oddssafari 2.85 vs 2.65 usado (+7.5%), U2.5 1.48 vs 1.38 (+7.2%); 1X2 oddssafari best 3.13/3.09/2.69 vs sportytrader 2.92/2.90/2.55 (+7.2%/+6.6%/+5.5%). Contexto (fuentes: sportytrader.es paginas de partido 18/10/2026; marca.com y sportytrader.es 19/10/2026): Getafe 15o y Rayo 14o, ambos 8 pts. Getafe con SOLO 4 dias de descanso: juega Conference League el 15/10 (1-1 en Craiova) y venia de 0-3 en Barcelona (10/10) -> fatiga verificada por calendario. Bajas Getafe: Juanmi, Chistantus Uche; dudas: Unal, Mangala, Azon, Romero; Carvajal podria debutar (inscrito en LaLiga, marca.com 19/10). Bajas Rayo: Batalla, Luiz Felipe; duda: Ratiu. H2H ultimos 6: 3 victorias Rayo, 3 empates, 0 de Getafe (Betfair blog 19/10/2026) -> dominio historico reciente visitante. Getafe solo 0.81 xG a favor por partido (el mas bajo de los 6 equipos de esta recoleccion)."
+  },
+  {
+    "match": "SC Braga vs Gil Vicente", "home": "SC Braga", "away": "Gil Vicente",
+    "league": "Liga Portugal - jornada 2 (aplazada)", "kickoff_utc": "2026-10-19T19:15:00Z",
+    "xg_home_for": 1.52, "xg_home_against": 0.92, "xg_away_for": 1.47, "xg_away_against": 1.09,
+    "elo_home": 1726, "elo_away": 1571,
+    "corners_home_for": 5.2, "corners_home_against": 3.4, "corners_away_for": 4.2, "corners_away_against": 5.0,
+    "cards_home_for": 1.0, "cards_home_against": 2.8, "cards_away_for": 2.2, "cards_away_against": 2.0,
+    "odds": {
+      "1": 1.47, "X": 3.95, "2": 6.25,
+      "1x": 1.11, "x2": 2.48,
+      "dnb_home": 1.12, "dnb_away": 4.70,
+      "btts_yes": 1.98, "btts_no": 1.65,
+      "over_1_5": 1.34, "under_1_5": 3.50,
+      "over_2_5": 1.85, "under_2_5": 1.75,
+      "over_3_5": 3.50, "under_3_5": 1.33,
+      "over_corners_8_5": 1.75, "under_corners_8_5": 2.20,
+      "over_corners_9_5": 2.30, "under_corners_9_5": 1.75,
+      "over_corners_10_5": 3.10, "under_corners_10_5": 1.45,
+      "over_cards_3_5": 1.45, "under_cards_3_5": 2.45,
+      "over_cards_4_5": 2.10, "under_cards_4_5": 1.65
+    },
+    "sources": "xG: performanceodds.com/team_stats_overall/17217/172 (Braga) y /183 (Gil Vicente), temporada 2026/2027, MP=7 ambos, misma familia de fuente (descargado 19/10/2026); Elo: clubelo.com/Ranking via web.archive.org/web/20261015030319 (snapshot 15/10/2026: BRA 1726, GIL 1571); corners/cards: statsbet.es/futbol/equipos/sporting-braga y /gil-vicente (ventana 'Ultimos 5', n=5, descargado 19/10/2026 08:19 UTC; against = Media total - Media equipo); cuotas 1X2/DC/DNB/BTTS/O-U 2.5: sportytrader.com/cotes/sc-braga-gil-vicente-8872392 (maximo por columna, 19/10/2026); O-U 1.5/3.5, corners y cards: oddssafari.com/api/match?EventID=7068013 (maximo entre 11-15 casas; cards con UNA sola casa, 19/10/2026)",
+    "notes": "Understat no cubre Liga Portugal -> xG de performanceodds para ambos equipos (misma familia, MP=7 identico: Braga 1.52/0.92, GV 1.47/1.09); corners/cards de statsbet (n=5), familias distintas para xG vs corners/cards. against derivado: BRA 8.6-5.2=3.4 corners, 3.8-1.0=2.8 cards; GIL 9.2-4.2=5.0 corners, 4.2-2.2=2.0 cards. CARDS 5.5 SIN COTIZAR (solo 3.5 y 4.5, ambas con UNA sola casa). DISCREPANCIAS >2% (reportadas, no reemplazadas): O2.5 oddssafari 2.03 vs 1.85 usado (+9.7%), U2.5 1.86 vs 1.75 (+6.3%); 1X2 oddssafari best 1.58/4.17/6.75 vs sportytrader 1.47/3.95/6.25 (+7.5%/+5.6%/+8%). Contexto (fuentes: record.pt, zerozero.pt, abola.pt via busqueda web 19/10/2026; valuestats.es arbitro): ambos con 11 pts tras 7 jornadas (Braga 8o, GV 9o). Braga viene de perder 1-3 con Sporting (fin de racha de 5 victorias seguidas en casa) y 0-3 en Copenhague (Conference League, 15/10) -> doble carga europea y 3 dias de descanso antes de jugar Gent (Conference) el 22/10; entrenador Carlos Vicens bajo presion pero respaldado publicamente por el presidente Antonio Salvador (19/10) - CONTINUIDAD DEL ENTRENADOR VERIFICADA. Gil Vicente gano 1-0 en Moreirense (ultima jornada) y es el equipo con menor media de goles de la liga. Arbitro designado: Fabio Verssimo (valuestats.es, sin verificar concursado). Este partido es el aplazado de la jornada 2. Bajas/dudas NO VERIFICADAS en profundidad: la busqueda web no devolvio listados oficiales de bajas para ninguno de los dos equipos - tratar como dato incompleto."
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "analysis_date_iso": "2026-10-15T15:15:08Z",
+  "match_dates_text": "15 de octubre de 2026",
+  "information_cutoff": "2026-10-15T15:15:08Z",
+  "model_ia": "bigpickle",
+  "engine_version": "model-v1.3",
+  "leagues_display": "UEFA Europa League (fase de liga, MD2), UEFA Conference League (MD1) y Copa Libertadores (semifinal de ida)",
+  "requested_range": "15 de octubre de 2026 - Europa League, Conference League y Copa Libertadores (todos los partidos)",
+  "universe_preamble": "Universo = interseccion(ligas: Europa League + Conference League + Copa Libertadores, fecha 15 de octubre de 2026, todos los partidos programados). Cutoff de informacion 2026-10-15T15:15:08Z, anterior al primer kickoff (16:45 UTC). No se usa informacion posterior a ningun kickoff. Universo final = 37 partidos (18 de Europa League fase de liga MD2: 8 a las 16:45 UTC y 10 a las 19:00 UTC; 18 de Conference League MD1: 10 a las 16:45 UTC y 8 a las 19:00 UTC; 1 semifinal de ida de Copa Libertadores a las 00:30 UTC del 16/10). MCPs inoperativos en esta sesion (apifootball/odds-api/football-stats), por lo que toda la recoleccion se hizo via web del agente: statz.ai, xg-edge.com, footystats.org, futbor.com, makeyourstats.com, matchscan, performanceodds, totalcorner, clubelo.com/beta.clubelo, dailysportpick.com, sportytrader, fox sports, betfred, bettingstats, xpect y fuentes de contraste. Conflictos de xG arbitrados con la muestra domestica mas grande y documentados en las notas de cada partido. Jagiellonia vs Ararat-Armenia queda como NO BET por falta de xG verificable del visitante (liga armenia sin cobertura xG). Los mercados de corners y tarjetas quedan sin cotizar en casi todo el universo (solo la semifinal de Libertadores tiene lineas verificables 8.5 corners y 5.5 tarjetas); donde no hay cuota no se opera el mercado.",
+  "universe_matches": [
+    "1. **UEFA Conference League:** Mjällby vs Inter Escaldes (15T16:45Z). 1X2 1.33 5.25 8.00; O1.5 1.20 U1.5 4.33 O2.5 1.67 U2.5 2.15 O3.5 2.62 U3.5 1.44; btts_yes 2.00. Elo 1522/1337; xG 1.64/1.98 vs 1.75/1.34.",
+    "2. **UEFA Conference League:** Panathinaikos vs Borac Banja Luka (15T16:45Z). 1X2 1.20 6.50 15.00; O1.5 1.14 U1.5 5.50 O2.5 1.53 U2.5 2.40 O3.5 2.25 U3.5 1.57; btts_yes 2.20. Elo 1648/1485; xG 2.05/0.92 vs 1.85/1.27.",
+    "3. **UEFA Conference League:** CSKA Sofia vs Monaco (15T16:45Z). 1X2 5.50 4.50 1.53; O1.5 1.20 U1.5 4.33 O2.5 1.67 U2.5 2.15 O3.5 2.62 U3.5 1.44; btts_yes 1.80. Elo 1508/1799; xG 2.24/0.86 vs 1.3/1.34.",
+    "4. **UEFA Conference League:** Riga vs Kairat Almaty (15T16:45Z). 1X2 1.90 3.50 4.00; O1.5 1.30 U1.5 3.40 O2.5 2.00 U2.5 1.80 O3.5 3.50 U3.5 1.28; btts_yes 1.83. Elo 1499/1450; xG 2.04/0.94 vs 1.73/1.05.",
+    "5. **UEFA Conference League:** Craiova vs Getafe (15T16:45Z). 1X2 3.30 3.20 2.25; O1.5 1.40 U1.5 2.75 O2.5 2.25 U2.5 1.62 O3.5 4.33 U3.5 1.20; btts_yes 1.91. Elo 1584/1700; xG 2.54/1.04 vs 0.62/1.35.",
+    "6. **Copa Libertadores:** Estudiantes (LP) vs Flamengo (16T00:30Z). 1X2 3.55 2.92 2.10; O1.5 2.35 U1.5 1.50 O2.5 2.50 U2.5 1.41 O3.5 5.10 U3.5 1.13; btts_yes 2.22 over_corners_8_5 1.74 under_corners_8_5 2.10 over_cards_5_5 1.95 under_cards_5_5 1.71. Elo 1723/1872; xG 1.32/1.08 vs 1.69/1.04.",
+    "7. **UEFA Conference League:** Lugano vs Crvena Zvezda (15T16:45Z). 1X2 2.84 3.67 2.77; O1.5 1.20 U1.5 4.33 O2.5 1.70 U2.5 2.10 O3.5 2.62 U3.5 1.44; btts_yes 1.53 btts_no 2.38 1x 1.53 x2 1.40. Elo 1646/1668; xG 1.51/1.48 vs 1.78/1.43.",
+    "8. **UEFA Conference League:** Hajduk Split vs Ajax (15T16:45Z). 1X2 6.00 4.75 1.67; O1.5 1.19 U1.5 5.00 O2.5 1.59 U2.5 2.40 O3.5 2.45 U3.5 1.56; btts_yes 1.74 btts_no 2.20 1x 2.48 x2 1.17 12 1.20. Elo 1586/1684; xG 1.85/1.05 vs 2.54/1.09.",
+    "9. **UEFA Conference League:** Gent vs AGF Aarhus (15T16:45Z). 1X2 1.69 4.20 5.18; O1.5 1.25 U1.5 3.75 O2.5 1.80 U2.5 2.00 O3.5 3.00 U3.5 1.36; btts_yes 1.91 btts_no 1.80 1x 1.17 x2 2.30. Elo 1640/1606; xG 1.45/1.24 vs 1.64/1.58.",
+    "10. **UEFA Conference League:** Egnatia vs Midtjylland (15T16:45Z). 1X2 6.25 4.33 1.57; O1.5 1.22 U1.5 4.00 O2.5 1.80 U2.5 2.00 O3.5 2.75 U3.5 1.40; btts_yes 1.83 btts_no 1.83 1x 2.38 x2 1.12. Elo 1418/1720; xG 1.57/1.33 vs 1.71/1.23.",
+    "11. **UEFA Conference League:** KuPS vs Trabzonspor (15T16:45Z). 1X2 6.60 4.50 1.57; O1.5 1.26 U1.5 4.70 O2.5 1.83 U2.5 2.20 O3.5 2.87 U3.5 1.75; btts_yes 1.88 btts_no 2.04 1x 2.62 x2 1.10. Elo 1482/1672; xG 1.7/1.27 vs 1.64/1.55.",
+    "12. **UEFA Conference League:** Atalanta vs Pafos (15T19:00Z). 1X2 1.30 5.25 9.50; O1.5 1.14 U1.5 5.50 O2.5 1.53 U2.5 2.40 O3.5 2.25 U3.5 1.57; btts_yes 1.83 btts_no 1.83 1x 1.07 x2 3.25. Elo 1808/1588; xG 1.44/1.31 vs 2.04/1.26.",
+    "13. **UEFA Conference League:** Brighton vs Kauno Žalgiris (15T19:00Z). 1X2 1.03 17.00 41.00; O1.5 1.04 U1.5 13.00 O2.5 1.17 U2.5 5.00 O3.5 1.44 U3.5 2.62; btts_yes 2.75 btts_no 1.40 1x 1.00 x2 15.00. Elo 1896/1390; xG 1.99/1.62 vs 1.73/1.1.",
+    "14. **UEFA Conference League:** Copenhagen vs Braga (15T19:00Z). 1X2 2.50 3.20 2.90; O1.5 1.33 U1.5 3.25 O2.5 2.08 U2.5 1.73 O3.5 3.75 U3.5 1.25; btts_yes 1.80 btts_no 1.91 1x 1.36 x2 1.53. Elo 1690/1726; xG 1.57/1.13 vs 1.52/0.69.",
+    "15. **UEFA Conference League:** Twente vs Thun (15T19:00Z). 1X2 1.20 7.50 10.00; O1.5 1.10 U1.5 7.00 O2.5 1.33 U2.5 3.40 O3.5 1.83 U3.5 1.83; btts_yes 1.80 btts_no 1.91 1x 1.06 x2 4.33. Elo 1664/1563; xG 2.3/1.19 vs 1.57/2.19.",
+    "16. **UEFA Conference League:** Hearts vs Nordsjælland (15T19:00Z). 1X2 2.90 3.75 2.20; O1.5 1.14 U1.5 5.50 O2.5 1.53 U2.5 2.40 O3.5 2.25 U3.5 1.57; btts_yes 1.44 btts_no 2.62 1x 1.67 x2 1.36. Elo 1552/1640; xG 1.99/1.19 vs 2.13/1.31.",
+    "17. **UEFA Conference League:** Sint-Truidense vs Iberia Tbilisi (15T19:00Z). 1X2 1.25 5.50 12.00; O1.5 1.17 U1.5 5.00 O2.5 1.53 U2.5 2.40 O3.5 2.25 U3.5 1.57; btts_yes 2.00 btts_no 1.73 1x 1.05 x2 3.50. Elo 1608/1372; xG 1.98/1.59 vs 1.3/1.11.",
+    "18. **UEFA Conference League:** Freiburg vs Jablonec (15T19:00Z). 1X2 1.22 6.00 12.00; O1.5 1.14 U1.5 5.50 O2.5 1.50 U2.5 2.50 O3.5 2.20 U3.5 1.62; btts_yes 2.00 btts_no 1.73 1x 1.05 x2 3.75. Elo 1793/1547; xG 2.08/0.89 vs 1.32/0.97.",
+    "19. **UEFA Conference League:** Brann vs Lincoln Red Imps (15T19:00Z). 1X2 1.12 9.00 17.00; O1.5 1.10 U1.5 7.00 O2.5 1.36 U2.5 3.10 O3.5 1.83 U3.5 1.83; btts_yes 2.00 btts_no 1.73 1x 1.02 x2 6.50. Elo 1583/1350; xG 1.84/1.74 vs 0.73/0.5.",
+    "20. **UEFA Europa League:** Sparta Praha vs Lillestrøm (15T16:45Z). 1X2 1.35 5.00 8.00; O1.5 1.17 U1.5 5.00 O2.5 1.53 U2.5 2.50 O3.5 2.30 U3.5 1.62; btts_yes 1.75. Elo 1654/1516; xG 1.74/1.24 vs 1.56/1.53.",
+    "21. **UEFA Europa League:** AZ Alkmaar vs Hapoel Beer-Sheva (15T16:45Z). 1X2 1.30 5.00 9.00; O1.5 1.14 U1.5 5.50 O2.5 1.50 U2.5 2.62 O3.5 2.20 U3.5 1.67; btts_yes 1.85. Elo 1686/1629; xG 2.35/1.1 vs 1.3/1.64.",
+    "22. **UEFA Europa League:** Red Bull Salzburg vs AC Milan (15T16:45Z). 1X2 3.25 3.60 2.05; O1.5 1.20 U1.5 4.50 O2.5 1.67 U2.5 2.20 O3.5 2.62 U3.5 1.50; btts_yes 1.57. Elo 1654/1819; xG 2.48/1.09 vs 1.51/1.18.",
+    "23. **UEFA Europa League:** Lech Poznan vs Bayer Leverkusen (15T16:45Z). 1X2 4.40 4.20 1.65; O1.5 1.11 U1.5 6.50 O2.5 1.40 U2.5 3.00 O3.5 2.00 U3.5 1.80; btts_yes 1.53. Elo 1680/1876; xG 2.07/0.88 vs 2.32/1.32.",
+    "24. **UEFA Europa League:** NK Celje vs Omonia Nicosia (15T16:45Z). 1X2 2.60 3.20 2.62; O1.5 1.28 U1.5 3.75 O2.5 1.91 U2.5 1.91 O3.5 3.20 U3.5 1.36; btts_yes 1.70. Elo 1517/1645; xG 1.66/1.13 vs 2.43/0.77.",
+    "25. **UEFA Europa League:** Olympique Lyon vs Crystal Palace (15T16:45Z). 1X2 2.20 3.40 3.00; O1.5 1.20 U1.5 4.50 O2.5 1.67 U2.5 2.20 O3.5 2.62 U3.5 1.50; btts_yes 1.57. Elo 1795/1830; xG 1.71/1.26 vs 1.64/2.07.",
+    "26. **UEFA Europa League:** Union Saint-Gilloise vs Real Sociedad (15T16:45Z). 1X2 2.38 3.50 2.70; O1.5 1.20 U1.5 4.50 O2.5 1.67 U2.5 2.20 O3.5 2.62 U3.5 1.50; btts_yes 1.55. Elo 1808/1774; xG 1.99/1.07 vs 1.19/1.68.",
+    "27. **UEFA Europa League:** Torreense vs Sunderland (15T16:45Z). 1X2 7.00 4.80 1.36; O1.5 1.17 U1.5 5.00 O2.5 1.57 U2.5 2.38 O3.5 2.38 U3.5 1.57; btts_yes 1.80. Elo 1457/1732; xG 1.63/2.34 vs 1.78/1.7.",
+    "28. **UEFA Europa League:** Bournemouth vs Sturm Graz (15T19:00Z). 1X2 1.15 7.50 11.00; O1.5 1.08 U1.5 6.50 O2.5 1.30 U2.5 3.20 O3.5 1.83 U3.5 1.83; btts_yes 1.87. Elo 1850/1637; xG 1.45/1.2 vs 1.92/1.37.",
+    "29. **UEFA Europa League:** Ferencváros vs Viktoria Plzeň (15T19:00Z). 1X2 2.00 3.94 3.80; O1.5 1.20 U1.5 4.50 O2.5 1.71 U2.5 2.24 O3.5 2.63 U3.5 1.50; btts_yes 1.60. Elo 1661/1631; xG 1.62/1.25 vs 1.56/1.15.",
+    "30. **UEFA Europa League:** Dinamo Zagreb vs Anderlecht (15T19:00Z). 1X2 2.00 3.60 3.60; O1.5 1.23 U1.5 4.00 O2.5 1.80 U2.5 2.20 O3.5 2.88 U3.5 1.36; btts_yes 1.67. Elo 1668/1667; xG 2.04/0.93 vs 1.52/0.84.",
+    "31. **UEFA Europa League:** Jagiellonia Białystok vs Ararat-Armenia (15T19:00Z). 1X2 1.45 5.07 7.70; O1.5 1.17 O2.5 1.58 U2.5 2.33 O3.5 2.40; btts_yes 1.83. Elo 1595/1447; xG 1.39/1.59 vs None/None. DATOS INSUFICIENTES (xG visitante no verificable) -> NO BET.",
+    "32. **UEFA Europa League:** NEC Nijmegen vs Levski Sofia (15T19:00Z). 1X2 1.91 3.70 4.00; O1.5 1.25 O2.5 1.80 O3.5 2.90 U3.5 1.41; btts_yes 1.70. Elo 1589/1582; xG 1.6/1.92 vs 2.09/0.73.",
+    "33. **UEFA Europa League:** Marseille vs Olympiacos (15T19:00Z). 1X2 2.30 3.40 3.00; O2.5 1.76; btts_yes 1.62. Elo 1767/1724; xG 1.55/1.94 vs 1.96/0.96.",
+    "34. **UEFA Europa League:** Rennes vs OFI Crete (15T19:00Z). 1X2 1.20 6.50 13.00; O1.5 1.13 U1.5 6.00 O2.5 1.40 U2.5 3.00; btts_yes 1.94. Elo 1760/1484; xG 1.83/1.85 vs 0.91/1.25.",
+    "35. **UEFA Europa League:** Celta de Vigo vs Juventus (15T19:00Z). 1X2 3.75 3.40 2.20; O2.5 2.02 U2.5 1.80; . Elo 1752/1838; xG 0.95/1.53 vs 1.61/0.59.",
+    "36. **UEFA Europa League:** Benfica vs Celtic (15T19:00Z). 1X2 1.25 6.00 11.00; O2.5 1.44 O3.5 1.82 U3.5 2.05; btts_yes 1.83. Elo 1856/1676; xG 2.32/0.73 vs 2.59/1.18.",
+    "37. **UEFA Europa League:** Hoffenheim vs Beşiktaş (15T19:00Z). 1X2 1.95 3.85 3.41; O1.5 1.13 O2.5 1.40 U2.5 2.88 O3.5 2.10 U3.5 1.65; btts_yes 1.44. Elo 1721/1700; xG 1.93/1.38 vs 1.83/0.72."
+  ],
+  "picks_details": [
+    {
+      "match": "Torreense vs Sunderland",
+      "market": "over_2_5",
+      "min_odds": "1.17",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); muestras 3-27 partidos segun liga/club",
+      "why": "Elo favorece al visitante (1732 vs 1457, brecha 275) | perfil xG 1.63/2.34 (local) vs 1.78/1.70 (visitante). El motor model-v1.3 estima 85.3% para 'Over 2.5 Goles' frente a una probabilidad implicita de 63.7% (cuota 1.57); edge +33.87% y EV robusto +26.02%.",
+      "risks": "Torreense plays Liga Portugal 2 (second tier) 2026/27. Torreense corners_against 11.0 = statz EL n=1 outlier-prone. Cards against both = statz EL n=1.",
+      "sources": "prematchstats Liga Portugal 2 6g (Torreense); StatMuse PL 6g (Sunderland); clubelo; valuestats 19873870-family (cards+corners for); statz PL corners Sunderland; statz EL n=1 (against); footballpredictions.ai; verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Mjällby vs Inter Escaldes",
+      "market": "over_2_5",
+      "min_odds": "1.26",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); muestras 3-27 partidos segun liga/club",
+      "why": "Elo favorece al local (1522 vs 1337, brecha 185) | perfil xG 1.64/1.98 (local) vs 1.75/1.34 (visitante). El motor model-v1.3 estima 79.1% para 'Over 2.5 Goles' frente a una probabilidad implicita de 59.9% (cuota 1.67); edge +32.18% y EV robusto +23.83%.",
+      "risks": "Tasas sin publicar: cards_home_against, cards_away_against; Mjallby xG conflict matchscan 1.21/1.47 n=23 (xg-edge chosen). Escaldes cards window ambiguous. cards_against not published either team.",
+      "sources": "xg-edge Mjallby Allsvenskan 16-17/23 with xG; footystats ECL xG table (Escaldes ~4-6g); statz corners (Mjallby n=23, Escaldes ECL n=4); bettingstats cards for; clubelo 2026-10-14; dailysportpick ladder; verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Olympique Lyon vs Crystal Palace",
+      "market": "over_2_5",
+      "min_odds": "1.27",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); muestras 3-27 partidos segun liga/club",
+      "why": "Elo favorece al visitante (1830 vs 1795, brecha 35) | perfil xG 1.71/1.26 (local) vs 1.64/2.07 (visitante). El motor model-v1.3 estima 78.9% para 'Over 2.5 Goles' frente a una probabilidad implicita de 59.9% (cuota 1.67); edge +31.70% y EV robusto +23.35%.",
+      "risks": "Lyon cards_against 0.0 = statz EL n=1 degenerate. Palace xGA cluster 11.7-12.9 (StatMuse mid-cluster). Odds conflict vs OddsMath (2.20/3.40/3.00 vs 2.59/3.68/2.70).",
+      "sources": "StatMuse Ligue 1 + PL xG 6g each; clubelo; statz domestic corners n=6; valuestats 19873870 (cards for); statz EL cards n=1 (against); footballpredictions.ai; verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Hearts vs Nordsjælland",
+      "market": "over_2_5",
+      "min_odds": "1.28",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); muestras 3-27 partidos segun liga/club",
+      "why": "Elo favorece al visitante (1640 vs 1552, brecha 88) | perfil xG 1.99/1.19 (local) vs 2.13/1.31 (visitante). El motor model-v1.3 estima 78.3% para 'Over 2.5 Goles' frente a una probabilidad implicita de 65.4% (cuota 1.53); edge +19.75% y EV robusto +12.10%.",
+      "risks": "Corners windows statz last-10 all-comps; league tables differ (Hearts 7.38/3.25, NF 5.9/3.7). Nordsjælland UECL-only cards against 2.83 n=6 not used (different competition). Away favorites despite venue.",
+      "sources": "dailysportpick ECL tips; clubelo; statz both teams xG/corners last-10; xpect Hearts cards against n=8 (2.5); statz Nordsjælland cards against n=10 (1.5); verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Hajduk Split vs Ajax",
+      "market": "over_2_5",
+      "min_odds": "1.29",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); muestras 3-27 partidos segun liga/club",
+      "why": "Elo favorece al visitante (1684 vs 1586, brecha 98) | perfil xG 1.85/1.05 (local) vs 2.54/1.09 (visitante). El motor model-v1.3 estima 77.3% para 'Over 2.5 Goles' frente a una probabilidad implicita de 62.9% (cuota 1.59); edge +22.99% y EV robusto +15.04%.",
+      "risks": "Best-of-source merge. ESPN odds lines templated, excluded. Model xpect 29/23/48.",
+      "sources": "footystats club pages 2026/27; beta.clubelo.com 2026-10-14; corners/cards 2026/27 domestic prior collection; sportytrader best 1X2; betPawa O/U; dailysportpick U-sides + BTTS No; verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    },
+    {
+      "match": "Marseille vs Olympiacos",
+      "market": "over_2_5",
+      "min_odds": "1.31",
+      "incertidumbre": "Base +/- 5.0% (model-v1.3); muestras 3-27 partidos segun liga/club",
+      "why": "Elo favorece al local (1767 vs 1724, brecha 43) | perfil xG 1.55/1.94 (local) vs 1.96/0.96 (visitante). El motor model-v1.3 estima 76.1% para 'Over 2.5 Goles' frente a una probabilidad implicita de 56.8% (cuota 1.76); edge +33.88% y EV robusto +25.08%.",
+      "risks": "Cuotas no cotizadas: over_1_5, under_1_5, over_3_5, under_3_5; Tasas sin publicar: cards_home_against, cards_away_against; Marseille xG conflict: Fox 1.30/g vs statz 1.55 (statz domestic chosen). Olympiacos domestic xG unconfirmed on statz (EL-only 3.19/0.46). Odds missing O1.5/U1.5/U2.5/O3.5/U3.5 (not observed) -> omitted. Referee Michael Oliver. Wincomparator alt: 1=2.39/X=3.65/2=3.20.",
+      "sources": "beta.clubelo 1767/1724; statz Marseille Ligue 1 n=6; footystats snippet Olympiacos Greek SL (n unstated); statz corners last-10/next-opp; Bet365 via wincomparator 02:00Z; verosimilitud del modelo y calibracion Platt (model-v1.3)."
+    }
+  ],
+  "data_limited_reasons": {
+    "Jagiellonia Białystok vs Ararat-Armenia": "No hay xG verificable del visitante en ninguna fuente consultada; ejecutar el motor habria exigido priors por defecto, por lo que no se ejecuto."
+  },
+  "fallback_source": "MCPs no operativos. Investigacion web del agente: statz.ai, xg-edge.com, footystats.org, futbor.com, makeyourstats.com, clubelo.com (Elo), dailysportpick.com/sportytrader/fox/betfred (cuotas). Motor calc_engine.py model-v1.3 con calibracion Platt (mercados 1, 2, O/U 2.5 y O/U 3.5). Partidos sin xG verificable no se ejecutaron en el motor."
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "match": "Fenerbahçe SK vs SK Slavia Praha",
+    "xg_home_for": 1.62,
+    "xg_home_against": 1.45,
+    "xg_away_for": 1.92,
+    "xg_away_against": 2.05,
+    "source": "https://footystats.org/europe/uefa-champions-league/xg | cross-check: https://futbor.com/match/fenerbahce-vs-slavia-praha/stats-and-prediction/17128/105-1213 | https://www.apwin.com/match/slavia-praha-fenerbahce/fFEPj/ | https://www.espn.com/soccer/match/_/gameId/401915403/slavia-prague-fenerbahce | https://balonario.com/xg/champions-league/",
+    "window": "FootyStats season 2026/27 UEFA Champions League per-game (Fenerbahçe n=8 incl. 6 qualifying-round matches; Slavia n=2 league phase only) — asymmetric windows within the match, both confirmed by futbor/apwin game counts",
+    "checked_utc": "2026-10-20T15:03:15Z",
+    "notes": "All 4 values from FootyStats UCL xG table (xG For / xG Against columns). futbor.com and apwin.com show IDENTICAL values (Fenerbahçe 1.62/1.45 from 8 games 9:10 goals; Slavia 1.92/2.05 from 2 games 2:5) — three sites agree. Larger-window divergence for Fenerbahçe: statz.ai 'last 7 Champions League games' = 1.77 for / 0.73 against (spans 2025-26); statz.ai Slavia 'last 9 CL games' = 1.35 for / 2.18 against. League-phase-only n=2 cross-checks: ESPN Fenerbahçe 1.77/1.80, Slavia 2.08/1.62; balonario.com (upd. 2026-10-19) Fenerbahçe 1.06/1.80, Slavia 1.92/1.59. Published values follow FootyStats (largest same-source window available for both teams today)."
+  },
+  {
+    "match": "Sabah FK vs Borussia Dortmund",
+    "xg_home_for": null,
+    "xg_home_against": null,
+    "xg_away_for": 1.67,
+    "xg_away_against": 1.37,
+    "source": "https://footystats.org/europe/uefa-champions-league/xg | cross-check: https://www.statmuse.com/fc/ask/xg-and-xga-per-match-this-season-by-team?l=ucl | https://balonario.com/xg/champions-league/",
+    "window": "FootyStats season 2026/27 UEFA Champions League league phase per-game (Dortmund n=2)",
+    "checked_utc": "2026-10-20T15:03:15Z",
+    "notes": "Only Dortmund's 2 values filled (Sabah 1.68/1.81 already supplied by parent from statsbet — left null here for parent merge). FootyStats Dortmund xG for 1.67 matches the prior-pass hint exactly; xG against 1.37 from the same table row. FootyStats GF/GA (1.50/1.50 per game) match statz.ai league table (3:3 in 2) — row internally consistent. Cross-checks diverge by model: StatMuse season 2026-27 UCL totals 3.61 xG / 2.47 xGA in 2 games = 1.81 for / 1.24 against; balonario.com league phase n=2 = 1.48 for / 1.00 against; FOX hint (1.67 for) aligns with FootyStats."
+  },
+  {
+    "match": "Liverpool vs Villarreal",
+    "xg_home_for": 2.18,
+    "xg_home_against": 1.25,
+    "xg_away_for": 1.48,
+    "xg_away_against": 1.69,
+    "source": "https://footystats.org/europe/uefa-champions-league/xg | cross-check: https://www.statmuse.com/fc/ask/xg-and-xga-per-match-this-season-by-team?l=ucl | https://balonario.com/xg/champions-league/",
+    "window": "FootyStats season 2026/27 UEFA Champions League league phase per-game (Liverpool n=2, Villarreal n=2)",
+    "checked_utc": "2026-10-20T15:03:15Z",
+    "notes": "FootyStats xG-for values match prior hints exactly (Liverpool 2.18, Villarreal 1.48). Cross-checks: StatMuse season 2026-27 UCL totals over 2 games — Liverpool 5.05 xG (=2.53/g) / 2.84 xGA (=1.42/g); Villarreal 2.67 xG (=1.34/g) / 4.71 xGA (=2.36/g). balonario.com league phase n=2 — Liverpool 2.27/1.11, Villarreal 1.24/2.22. Attack values agree reasonably (2.18-2.53 Liverpool, 1.24-1.48 Villarreal); Villarreal xGA diverges strongly by provider (1.69 FootyStats vs 2.22-2.36 balonario/StatMuse) — model difference, both cited. FootyStats GF/GA (4.00/2.00 and 2.50/2.00) match statz league table (8:4 and 5:4 in 2)."
+  },
+  {
+    "match": "Manchester City vs AEK Athens",
+    "xg_home_for": 2.6,
+    "xg_home_against": 1.18,
+    "xg_away_for": 1.53,
+    "xg_away_against": 1.23,
+    "source": "https://footystats.org/europe/uefa-champions-league/xg | cross-check: https://www.statmuse.com/fc/ask/xg-and-xga-per-match-this-season-by-team?l=ucl | https://balonario.com/xg/champions-league/ | https://www.tifolab.com/teams/apifb-team-575-2026-27?competition=champions-league&season=2026%2F27 | https://statz.ai/team/aek-athens/expected-goals | https://statz.ai/team/manchester-city/expected-goals",
+    "window": "FootyStats season 2026/27 UEFA Champions League per-game (Manchester City n=2 league phase; AEK n=4 incl. 2 qualifying-round matches)",
+    "checked_utc": "2026-10-20T15:03:15Z",
+    "notes": "AEK n=4 window confirmed by Tifolab ('Champions League 4' matches: Levski A 0-0, Levski H 4-0, LASK H 1-0, Shakhtar A 1-3) and FootyStats GF/GA 6:3 = statz/Tifolab totals. Cross-checks: StatMuse City 5.12 xG/2.11 xGA in 2 = 2.56 for / 1.06 against (close to FootyStats 2.60/1.18); balonario.com n=2 City 2.17/0.71, AEK 1.45/1.09; Tifolab AEK n=4 = 1.63 for / 0.90 against (vs FootyStats 1.53/1.23 — provider divergence); statz.ai larger windows: Manchester City 'last 9 CL games' 1.80 for / 1.01 against, AEK 'last 3 CL games' 1.86 for / 0.86 against. FOX prior hint (City 1.8 / AEK 1.0, n=2) is close to the statz larger-window values."
+  },
+  {
+    "match": "Paris Saint-Germain vs FC Barcelona",
+    "xg_home_for": 2.85,
+    "xg_home_against": 1.91,
+    "xg_away_for": 2.51,
+    "xg_away_against": 0.62,
+    "source": "https://footystats.org/europe/uefa-champions-league/xg | cross-check: https://www.statmuse.com/fc/ask/xg-and-xga-per-match-this-season-by-team?l=ucl | https://balonario.com/xg/champions-league/",
+    "window": "FootyStats season 2026/27 UEFA Champions League league phase per-game (PSG n=2, Barcelona n=2)",
+    "checked_utc": "2026-10-20T15:03:15Z",
+    "notes": "No season-wide or last-10 UCL source found for these two — every source located is a league-phase n=2 window (documented per parent rule). Three n=2 providers diverge: FootyStats PSG 2.85/1.91, BAR 2.51/0.62; StatMuse totals/2 PSG 3.28/1.61, BAR 2.37/1.00 (PSG StatMuse matches parent's ESPN hint 3.27/1.60, but parent's ESPN BAR 2.23/0.47 matches neither); balonario.com PSG 2.58/1.57, BAR 1.98/0.26. Published values = FootyStats for cross-match source consistency; range for PSG for = 2.58-3.28, Barcelona against = 0.26-1.00 across providers. FootyStats GF/GA (5.00/1.50, 4.50/1.00) match statz league table (10:3, 9:2 in 2)."
+  },
+  {
+    "match": "FC Porto vs PSV Eindhoven",
+    "xg_home_for": 0.91,
+    "xg_home_against": 2.16,
+    "xg_away_for": 1.24,
+    "xg_away_against": 1.42,
+    "source": "https://footystats.org/europe/uefa-champions-league/xg | cross-check: https://www.statmuse.com/fc/ask/xg-and-xga-per-match-this-season-by-team?l=ucl | https://balonario.com/xg/champions-league/ | https://www.tifolab.com/teams/apifb-team-197-2026-27?competition=champions-league&season=2026%2F27",
+    "window": "FootyStats season 2026/27 UEFA Champions League league phase per-game (Porto n=2, PSV n=2)",
+    "checked_utc": "2026-10-20T15:03:15Z",
+    "notes": "Cross-checks: StatMuse Porto totals/2 = 0.68 for / 2.12 against; balonario.com n=2 Porto 0.57/2.24, PSV 0.66/1.43; Tifolab PSV n=2 (match-level: xG 1.40 at Leipzig, 0.49 vs Shakhtar) = 0.95 for / 1.30 against. Porto xGA agrees well across providers (2.12-2.24 vs FootyStats 2.16); Porto xG ranges 0.57-0.91; PSV xG ranges 0.66-1.24. Published = FootyStats (same table as all other matches). FootyStats GF/GA (1.00/2.50, 0.50/1.00) match statz league table (2:5, 1:2 in 2). FOX prior hint (Porto 0.7 / PSV 0.8 for) sits inside these ranges."
+  },
+  {
+    "match": "VfB Stuttgart vs Atlético Madrid",
+    "xg_home_for": null,
+    "xg_home_against": null,
+    "xg_away_for": 1.28,
+    "xg_away_against": 1.37,
+    "source": "https://footystats.org/europe/uefa-champions-league/xg | cross-check: https://www.statmuse.com/fc/ask/xg-and-xga-per-match-this-season-by-team?l=ucl | https://balonario.com/xg/champions-league/",
+    "window": "FootyStats season 2026/27 UEFA Champions League league phase per-game (Atlético n=2)",
+    "checked_utc": "2026-10-20T15:03:15Z",
+    "notes": "Only Atlético's 2 values filled (Stuttgart 1.92/1.10 already supplied by parent from statsbet — left null here for parent merge). Strong agreement on Atlético between FootyStats (1.28 for / 1.37 against) and StatMuse totals/2 (2.60 xG / 2.68 xGA in 2 games = 1.30 for / 1.34 against); balonario.com differs (0.97/1.61). FOX prior hint (Atlético 0.7 for, Stuttgart 1.7 for) diverges from both FootyStats and StatMuse on Atlético's attack — treat FOX as a different (n=2 FOX-specific) window. FootyStats Atlético GF/GA (1.50/1.00) match statz league table (3:2 in 2)."
+  }
+]
