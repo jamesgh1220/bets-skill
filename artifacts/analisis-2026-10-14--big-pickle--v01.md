@@ -494,11 +494,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Real Betis vs FC Porto - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Fluminense vs Palmeiras - over_1_5) | PENDIENTE | — | — |
-| Pick 3 (Aston Villa vs Fenerbahce - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (St. Louis CITY SC vs Vancouver Whitecaps - x2) | PENDIENTE | — | — |
-| Pick 5 (Shakhtar Donetsk vs AEK Athens - under_2_5) | PENDIENTE | — | — |
-| Pick 6 (Colorado Rapids vs Minnesota United - over_2_5) | PENDIENTE | — | — |
+| Pick 1 (Real Betis vs FC Porto - over_2_5) | GANADA | 3 - 2 | +0.10u |
+| Pick 2 (Fluminense vs Palmeiras - over_1_5) | GANADA | 1 - 2 | +0.06u |
+| Pick 3 (Aston Villa vs Fenerbahce - over_2_5) | GANADA | 6 - 0 | +0.04u |
+| Pick 4 (St. Louis CITY SC vs Vancouver Whitecaps - x2) | GANADA | 0 - 0 | +0.06u |
+| Pick 5 (Shakhtar Donetsk vs AEK Athens - under_2_5) | PERDIDA | 3 - 1 | -0.11u |
+| Pick 6 (Colorado Rapids vs Minnesota United - over_2_5) | GANADA | 2 - 2 | +0.04u |
+| **Total** | | | **+0.19u (5 G / 1 P)** |

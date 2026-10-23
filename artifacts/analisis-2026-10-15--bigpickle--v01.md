@@ -632,11 +632,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Torreense vs Sunderland - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Mjällby vs Inter Escaldes - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Olympique Lyon vs Crystal Palace - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Hearts vs Nordsjælland - over_2_5) | PENDIENTE | — | — |
-| Pick 5 (Hajduk Split vs Ajax - over_2_5) | PENDIENTE | — | — |
-| Pick 6 (Marseille vs Olympiacos - over_2_5) | PENDIENTE | — | — |
+| Pick 1 (Torreense vs Sunderland - over_2_5) | GANADA | 1 - 2 | +0.09u |
+| Pick 2 (Mjällby vs Inter Escaldes - over_2_5) | PERDIDA | 2 - 0 | -0.12u |
+| Pick 3 (Olympique Lyon vs Crystal Palace - over_2_5) | GANADA | 3 - 2 | +0.08u |
+| Pick 4 (Hearts vs Nordsjælland - over_2_5) | PERDIDA | 1 - 1 | -0.09u |
+| Pick 5 (Hajduk Split vs Ajax - over_2_5) | GANADA | 2 - 1 | +0.06u |
+| Pick 6 (Marseille vs Olympiacos - over_2_5) | PERDIDA | 0 - 1 | -0.11u |
+| **Total** | | | **-0.09u (3 G / 3 P)** |

@@ -226,11 +226,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Barracas Central vs Independiente Rivadavia - over_1_5) | PENDIENTE | — | — |
-| Pick 2 (Lanús vs Estudiantes de La Plata - over_1_5) | PENDIENTE | — | — |
-| Pick 3 (Real Cartagena vs Envigado FC - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Bogotá F.C. vs Barranquilla F.C. - over_2_5) | PENDIENTE | — | — |
-| Pick 5 (Barracas Central vs Independiente Rivadavia - btts_yes) | PENDIENTE | — | — |
-| Pick 6 (Real Cartagena vs Envigado FC - over_3_5) | PENDIENTE | — | — |
+| Pick 1 (Barracas Central vs Independiente Rivadavia - over_1_5) | PERDIDA | 0 - 1 | -0.10u |
+| Pick 2 (Lanús vs Estudiantes de La Plata - over_1_5) | GANADA | 2 - 1 | +0.11u |
+| Pick 3 (Real Cartagena vs Envigado FC - over_2_5) | PERDIDA | 0 - 0 | -0.11u |
+| Pick 4 (Bogotá F.C. vs Barranquilla F.C. - over_2_5) | GANADA | 2 - 1 | +0.10u |
+| Pick 5 (Barracas Central vs Independiente Rivadavia - btts_yes) | PERDIDA | 0 - 1 | -0.06u |
+| Pick 6 (Real Cartagena vs Envigado FC - over_3_5) | PERDIDA | 0 - 0 | -0.08u |
+| **Total** | | | **-0.14u (2 G / 4 P)** |

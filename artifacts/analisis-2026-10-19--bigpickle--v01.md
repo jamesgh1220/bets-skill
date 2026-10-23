@@ -383,11 +383,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Hay picks del mismo partido (Deportivo Riestra vs Unión de Santa Fe (2 picks: under_corners_9_5, x2)); son eventos correlacionados y su exposición agregada debe leerse como una sola posición. El detalle de cada pick documenta la correlación en su sección de riesgos.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Getafe vs Rayo Vallecano - over_1_5) | PENDIENTE | — | — |
-| Pick 2 (Deportivo Riestra vs Unión de Santa Fe - under_corners_9_5) | PENDIENTE | — | — |
-| Pick 3 (Parma vs Torino - under_cards_3_5) | PENDIENTE | — | — |
-| Pick 4 (Monza vs Cagliari - over_2_5) | PENDIENTE | — | — |
-| Pick 5 (Deportivo Pasto vs Alianza Valledupar FC - under_2_5) | PENDIENTE | — | — |
-| Pick 6 (Deportivo Riestra vs Unión de Santa Fe - x2) | PENDIENTE | — | — |
+| Pick 1 (Getafe vs Rayo Vallecano - over_1_5) | GANADA | 1 - 1 | +0.07u |
+| Pick 2 (Deportivo Riestra vs Unión de Santa Fe - under_corners_9_5) | GANADA | 7 córners | +0.04u |
+| Pick 3 (Parma vs Torino - under_cards_3_5) | PERDIDA | 5 tarjetas | -0.13u |
+| Pick 4 (Monza vs Cagliari - over_2_5) | GANADA | 4 - 0 | +0.16u |
+| Pick 5 (Deportivo Pasto vs Alianza Valledupar FC - under_2_5) | GANADA | 0 - 1 | +0.06u |
+| Pick 6 (Deportivo Riestra vs Unión de Santa Fe - x2) | GANADA | 1 - 1 | +0.04u |
+| **Total** | | | **+0.24u (5 G / 1 P)** |

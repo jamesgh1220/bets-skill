@@ -301,11 +301,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Galatasaray vs Barcelona - over_3_5) | PENDIENTE | — | — |
-| Pick 2 (Villarreal vs Napoli - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Galatasaray vs Barcelona - under_corners_10_5) | PENDIENTE | — | — |
-| Pick 4 (Inter Milan vs Club Brugge - btts_yes) | PENDIENTE | — | — |
-| Pick 5 (Arsenal vs Lille - under_corners_9_5) | PENDIENTE | — | — |
-| Pick 6 (Atletico Bucaramanga vs Aguilas Doradas Rionegro - x2) | PENDIENTE | — | — |
+| Pick 1 (Galatasaray vs Barcelona - over_3_5) | GANADA | 1 - 4 | +0.06u |
+| Pick 2 (Villarreal vs Napoli - over_2_5) | GANADA | 3 - 1 | +0.06u |
+| Pick 3 (Galatasaray vs Barcelona - under_corners_10_5) | GANADA | 7 córners | +0.06u |
+| Pick 4 (Inter Milan vs Club Brugge - btts_yes) | GANADA | 3 - 4 | +0.05u |
+| Pick 5 (Arsenal vs Lille - under_corners_9_5) | GANADA | 7 córners | +0.06u |
+| Pick 6 (Atletico Bucaramanga vs Aguilas Doradas Rionegro - x2) | GANADA | 1 - 1 | +0.05u |
+| **Total** | | | **+0.34u (6 G / 0 P)** |

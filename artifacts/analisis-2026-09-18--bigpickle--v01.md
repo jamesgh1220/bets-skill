@@ -205,9 +205,11 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** No se aplica reducción adicional más allá del stake Kelly que ya pondera la varianza; la pareja Monaco queda marcada para revisión en /football-review. El resto de picks pertenecen a partidos distintos (sin solapamiento directo por equipo).
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (AS Monaco vs RC Lens - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Monza vs Sassuolo - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Espanyol vs Elche CF - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (AS Monaco vs RC Lens - 2) | PENDIENTE | — | — |
+| Pick 1 (AS Monaco vs RC Lens - over_2_5) | GANADA | 2 - 1 | +0.07u |
+| Pick 2 (Monza vs Sassuolo - over_2_5) | GANADA | 2 - 1 | +0.07u |
+| Pick 3 (Espanyol vs Elche CF - over_2_5) | GANADA | 1 - 3 | +0.06u |
+| Pick 4 (AS Monaco vs RC Lens - 2) | PERDIDA | 2 - 1 | -0.07u |
+| **Total** | | | **+0.13u (3 G / 1 P)** |

@@ -561,11 +561,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Brighton and Hove Albion vs Crystal Palace - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Udinese vs Lecce - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Angers vs Marseille - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Borussia Monchengladbach vs TSG Hoffenheim - over_3_5) | PENDIENTE | — | — |
-| Pick 5 (Groningen vs Ajax - over_3_5) | PENDIENTE | — | — |
-| Pick 6 (Fiorentina vs Como - over_2_5) | PENDIENTE | — | — |
+| Pick 1 (Brighton and Hove Albion vs Crystal Palace - over_2_5) | GANADA | 5 - 0 | +0.11u |
+| Pick 2 (Udinese vs Lecce - over_2_5) | GANADA | 0 - 3 | +0.20u |
+| Pick 3 (Angers vs Marseille - over_2_5) | GANADA | 2 - 5 | +0.11u |
+| Pick 4 (Borussia Monchengladbach vs TSG Hoffenheim - over_3_5) | PERDIDA | 1 - 2 | -0.18u |
+| Pick 5 (Groningen vs Ajax - over_3_5) | GANADA | 2 - 5 | +0.17u |
+| Pick 6 (Fiorentina vs Como - over_2_5) | GANADA | 1 - 3 | +0.10u |
+| **Total** | | | **+0.51u (5 G / 1 P)** |

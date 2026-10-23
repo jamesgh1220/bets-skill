@@ -254,11 +254,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Sweden vs Poland - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Belgium vs France - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Armenia vs Montenegro - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Latvia vs Cyprus - x2) | PENDIENTE | — | — |
-| Pick 5 (Latvia vs Cyprus - over_1_5) | PENDIENTE | — | — |
-| Pick 6 (Sweden vs Poland - x2) | PENDIENTE | — | — |
+| Pick 1 (Sweden vs Poland - over_2_5) | GANADA | 3 - 1 | +0.08u |
+| Pick 2 (Belgium vs France - over_2_5) | PERDIDA | 0 - 1 | -0.10u |
+| Pick 3 (Armenia vs Montenegro - over_2_5) | GANADA | 2 - 3 | +0.16u |
+| Pick 4 (Latvia vs Cyprus - x2) | GANADA | 0 - 0 | +0.04u |
+| Pick 5 (Latvia vs Cyprus - over_1_5) | PERDIDA | 0 - 0 | -0.08u |
+| Pick 6 (Sweden vs Poland - x2) | PERDIDA | 3 - 1 | -0.08u |
+| **Total** | | | **+0.02u (3 G / 3 P)** |

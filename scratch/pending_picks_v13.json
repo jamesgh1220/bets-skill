@@ -1,0 +1,762 @@
+[
+  {
+    "file": "artifacts/analisis-2026-09-18--bigpickle--v01.md",
+    "pick_num": "1",
+    "date": "2026-09-18",
+    "match": "AS Monaco vs RC Lens",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.56,
+    "stake": 0.12
+  },
+  {
+    "file": "artifacts/analisis-2026-09-18--bigpickle--v01.md",
+    "pick_num": "2",
+    "date": "2026-09-18",
+    "match": "Monza vs Sassuolo",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.82,
+    "stake": 0.09
+  },
+  {
+    "file": "artifacts/analisis-2026-09-18--bigpickle--v01.md",
+    "pick_num": "3",
+    "date": "2026-09-18",
+    "match": "Espanyol vs Elche CF",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.9,
+    "stake": 0.07
+  },
+  {
+    "file": "artifacts/analisis-2026-09-18--bigpickle--v01.md",
+    "pick_num": "4",
+    "date": "2026-09-18",
+    "match": "AS Monaco vs RC Lens",
+    "market": "2",
+    "sel": "Victoria RC Lens",
+    "odds": 3.65,
+    "stake": 0.07
+  },
+  {
+    "file": "artifacts/analisis-2026-09-19--bigpickle--v01.md",
+    "pick_num": "1",
+    "date": "2026-09-19",
+    "match": "AS Roma vs Inter Milan",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.66,
+    "stake": 0.2
+  },
+  {
+    "file": "artifacts/analisis-2026-09-19--bigpickle--v01.md",
+    "pick_num": "2",
+    "date": "2026-09-19",
+    "match": "VfB Stuttgart vs Borussia Dortmund",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 1.99,
+    "stake": 0.2
+  },
+  {
+    "file": "artifacts/analisis-2026-09-19--bigpickle--v01.md",
+    "pick_num": "3",
+    "date": "2026-09-19",
+    "match": "Borussia Monchengladbach vs FSV Mainz 05",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.55,
+    "stake": 0.16
+  },
+  {
+    "file": "artifacts/analisis-2026-09-19--bigpickle--v01.md",
+    "pick_num": "4",
+    "date": "2026-09-19",
+    "match": "Venezia vs Lazio",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.8,
+    "stake": 0.18
+  },
+  {
+    "file": "artifacts/analisis-2026-09-19--bigpickle--v01.md",
+    "pick_num": "5",
+    "date": "2026-09-19",
+    "match": "Hamburger SV vs 1. FC K\u00f6ln",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.65,
+    "stake": 0.16
+  },
+  {
+    "file": "artifacts/analisis-2026-09-19--bigpickle--v01.md",
+    "pick_num": "6",
+    "date": "2026-09-19",
+    "match": "Brighton and Hove Albion vs Arsenal",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.84,
+    "stake": 0.17
+  },
+  {
+    "file": "artifacts/analisis-2026-09-20--bigpickle--v01.md",
+    "pick_num": "1",
+    "date": "2026-09-20",
+    "match": "Auxerre vs Brest",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.83,
+    "stake": 0.17
+  },
+  {
+    "file": "artifacts/analisis-2026-09-20--bigpickle--v01.md",
+    "pick_num": "2",
+    "date": "2026-09-20",
+    "match": "Fulham vs Manchester United",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.54,
+    "stake": 0.13
+  },
+  {
+    "file": "artifacts/analisis-2026-09-20--bigpickle--v01.md",
+    "pick_num": "3",
+    "date": "2026-09-20",
+    "match": "Leeds United vs Crystal Palace",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.7,
+    "stake": 0.14
+  },
+  {
+    "file": "artifacts/analisis-2026-09-20--bigpickle--v01.md",
+    "pick_num": "4",
+    "date": "2026-09-20",
+    "match": "Atletico Madrid vs Real Madrid",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 2.1,
+    "stake": 0.15
+  },
+  {
+    "file": "artifacts/analisis-2026-09-20--bigpickle--v01.md",
+    "pick_num": "5",
+    "date": "2026-09-20",
+    "match": "NEC Nijmegen vs Go Ahead Eagles",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 1.88,
+    "stake": 0.14
+  },
+  {
+    "file": "artifacts/analisis-2026-09-20--bigpickle--v01.md",
+    "pick_num": "6",
+    "date": "2026-09-20",
+    "match": "FC Porto vs Benfica",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.87,
+    "stake": 0.13
+  },
+  {
+    "file": "artifacts/analisis-2026-09-21--bigpickle--v01.md",
+    "pick_num": "1",
+    "date": "21 de septiembre de 2026",
+    "match": "Barracas Central vs Independiente Rivadavia",
+    "market": "over_1_5",
+    "sel": "Over 1.5 Goles",
+    "odds": 1.5,
+    "stake": 0.1
+  },
+  {
+    "file": "artifacts/analisis-2026-09-21--bigpickle--v01.md",
+    "pick_num": "2",
+    "date": "21 de septiembre de 2026",
+    "match": "Lan\u00fas vs Estudiantes de La Plata",
+    "market": "over_1_5",
+    "sel": "Over 1.5 Goles",
+    "odds": 1.8,
+    "stake": 0.14
+  },
+  {
+    "file": "artifacts/analisis-2026-09-21--bigpickle--v01.md",
+    "pick_num": "3",
+    "date": "21 de septiembre de 2026",
+    "match": "Real Cartagena vs Envigado FC",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.97,
+    "stake": 0.11
+  },
+  {
+    "file": "artifacts/analisis-2026-09-21--bigpickle--v01.md",
+    "pick_num": "4",
+    "date": "21 de septiembre de 2026",
+    "match": "Bogot\u00e1 F.C. vs Barranquilla F.C.",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.99,
+    "stake": 0.1
+  },
+  {
+    "file": "artifacts/analisis-2026-09-21--bigpickle--v01.md",
+    "pick_num": "5",
+    "date": "21 de septiembre de 2026",
+    "match": "Barracas Central vs Independiente Rivadavia",
+    "market": "btts_yes",
+    "sel": "Ambos marcan (BTTS)",
+    "odds": 2.1,
+    "stake": 0.06
+  },
+  {
+    "file": "artifacts/analisis-2026-09-21--bigpickle--v01.md",
+    "pick_num": "6",
+    "date": "21 de septiembre de 2026",
+    "match": "Real Cartagena vs Envigado FC",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 3.1,
+    "stake": 0.08
+  },
+  {
+    "file": "artifacts/analisis-2026-09-28--big-pickle--v01.md",
+    "pick_num": "1",
+    "date": "28 de septiembre de 2026",
+    "match": "Sweden vs Poland",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.68,
+    "stake": 0.12
+  },
+  {
+    "file": "artifacts/analisis-2026-09-28--big-pickle--v01.md",
+    "pick_num": "2",
+    "date": "28 de septiembre de 2026",
+    "match": "Belgium vs France",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.55,
+    "stake": 0.1
+  },
+  {
+    "file": "artifacts/analisis-2026-09-28--big-pickle--v01.md",
+    "pick_num": "3",
+    "date": "28 de septiembre de 2026",
+    "match": "Armenia vs Montenegro",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 2.12,
+    "stake": 0.14
+  },
+  {
+    "file": "artifacts/analisis-2026-09-28--big-pickle--v01.md",
+    "pick_num": "4",
+    "date": "28 de septiembre de 2026",
+    "match": "Latvia vs Cyprus",
+    "market": "x2",
+    "sel": "Doble Oportunidad Empate/Cyprus",
+    "odds": 1.5,
+    "stake": 0.07
+  },
+  {
+    "file": "artifacts/analisis-2026-09-28--big-pickle--v01.md",
+    "pick_num": "5",
+    "date": "28 de septiembre de 2026",
+    "match": "Latvia vs Cyprus",
+    "market": "over_1_5",
+    "sel": "Over 1.5 Goles",
+    "odds": 1.57,
+    "stake": 0.08
+  },
+  {
+    "file": "artifacts/analisis-2026-09-28--big-pickle--v01.md",
+    "pick_num": "6",
+    "date": "28 de septiembre de 2026",
+    "match": "Sweden vs Poland",
+    "market": "x2",
+    "sel": "Doble Oportunidad Empate/Poland",
+    "odds": 1.88,
+    "stake": 0.08
+  },
+  {
+    "file": "artifacts/analisis-2026-10-13--big-pickle--v01.md",
+    "pick_num": "1",
+    "date": "13 de octubre de 2026",
+    "match": "Galatasaray vs Barcelona",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 1.51,
+    "stake": 0.12
+  },
+  {
+    "file": "artifacts/analisis-2026-10-13--big-pickle--v01.md",
+    "pick_num": "2",
+    "date": "13 de octubre de 2026",
+    "match": "Villarreal vs Napoli",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.63,
+    "stake": 0.09
+  },
+  {
+    "file": "artifacts/analisis-2026-10-13--big-pickle--v01.md",
+    "pick_num": "3",
+    "date": "13 de octubre de 2026",
+    "match": "Galatasaray vs Barcelona",
+    "market": "under_corners_10_5",
+    "sel": "Under 10.5 C\u00f3rners",
+    "odds": 1.74,
+    "stake": 0.08
+  },
+  {
+    "file": "artifacts/analisis-2026-10-13--big-pickle--v01.md",
+    "pick_num": "4",
+    "date": "13 de octubre de 2026",
+    "match": "Inter Milan vs Club Brugge",
+    "market": "btts_yes",
+    "sel": "Ambos marcan (BTTS)",
+    "odds": 1.73,
+    "stake": 0.07
+  },
+  {
+    "file": "artifacts/analisis-2026-10-13--big-pickle--v01.md",
+    "pick_num": "5",
+    "date": "13 de octubre de 2026",
+    "match": "Arsenal vs Lille",
+    "market": "under_corners_9_5",
+    "sel": "Under 9.5 C\u00f3rners",
+    "odds": 1.8,
+    "stake": 0.07
+  },
+  {
+    "file": "artifacts/analisis-2026-10-13--big-pickle--v01.md",
+    "pick_num": "6",
+    "date": "13 de octubre de 2026",
+    "match": "Atletico Bucaramanga vs Aguilas Doradas Rionegro",
+    "market": "x2",
+    "sel": "Doble Oportunidad Empate/Aguilas Doradas Rionegro",
+    "odds": 1.77,
+    "stake": 0.06
+  },
+  {
+    "file": "artifacts/analisis-2026-10-14--big-pickle--v01.md",
+    "pick_num": "1",
+    "date": "14 de octubre de 2026",
+    "match": "Real Betis vs FC Porto",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.79,
+    "stake": 0.13
+  },
+  {
+    "file": "artifacts/analisis-2026-10-14--big-pickle--v01.md",
+    "pick_num": "2",
+    "date": "14 de octubre de 2026",
+    "match": "Fluminense vs Palmeiras",
+    "market": "over_1_5",
+    "sel": "Over 1.5 Goles",
+    "odds": 1.57,
+    "stake": 0.1
+  },
+  {
+    "file": "artifacts/analisis-2026-10-14--big-pickle--v01.md",
+    "pick_num": "3",
+    "date": "14 de octubre de 2026",
+    "match": "Aston Villa vs Fenerbahce",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.57,
+    "stake": 0.07
+  },
+  {
+    "file": "artifacts/analisis-2026-10-14--big-pickle--v01.md",
+    "pick_num": "4",
+    "date": "14 de octubre de 2026",
+    "match": "St. Louis CITY SC vs Vancouver Whitecaps",
+    "market": "x2",
+    "sel": "Doble Oportunidad Empate/Vancouver Whitecaps",
+    "odds": 1.72,
+    "stake": 0.09
+  },
+  {
+    "file": "artifacts/analisis-2026-10-14--big-pickle--v01.md",
+    "pick_num": "5",
+    "date": "14 de octubre de 2026",
+    "match": "Shakhtar Donetsk vs AEK Athens",
+    "market": "under_2_5",
+    "sel": "Under 2.5 Goles",
+    "odds": 1.95,
+    "stake": 0.11
+  },
+  {
+    "file": "artifacts/analisis-2026-10-14--big-pickle--v01.md",
+    "pick_num": "6",
+    "date": "14 de octubre de 2026",
+    "match": "Colorado Rapids vs Minnesota United",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.61,
+    "stake": 0.07
+  },
+  {
+    "file": "artifacts/analisis-2026-10-15--bigpickle--v01.md",
+    "pick_num": "1",
+    "date": "15 de octubre de 2026",
+    "match": "Torreense vs Sunderland",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.57,
+    "stake": 0.15
+  },
+  {
+    "file": "artifacts/analisis-2026-10-15--bigpickle--v01.md",
+    "pick_num": "2",
+    "date": "15 de octubre de 2026",
+    "match": "Mj\u00e4llby vs Inter Escaldes",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.67,
+    "stake": 0.12
+  },
+  {
+    "file": "artifacts/analisis-2026-10-15--bigpickle--v01.md",
+    "pick_num": "3",
+    "date": "15 de octubre de 2026",
+    "match": "Olympique Lyon vs Crystal Palace",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.67,
+    "stake": 0.12
+  },
+  {
+    "file": "artifacts/analisis-2026-10-15--bigpickle--v01.md",
+    "pick_num": "4",
+    "date": "15 de octubre de 2026",
+    "match": "Hearts vs Nordsj\u00e6lland",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.53,
+    "stake": 0.09
+  },
+  {
+    "file": "artifacts/analisis-2026-10-15--bigpickle--v01.md",
+    "pick_num": "5",
+    "date": "15 de octubre de 2026",
+    "match": "Hajduk Split vs Ajax",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.59,
+    "stake": 0.1
+  },
+  {
+    "file": "artifacts/analisis-2026-10-15--bigpickle--v01.md",
+    "pick_num": "6",
+    "date": "15 de octubre de 2026",
+    "match": "Marseille vs Olympiacos",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.76,
+    "stake": 0.11
+  },
+  {
+    "file": "artifacts/analisis-2026-10-16--bigpickle--v01.md",
+    "pick_num": "1",
+    "date": "16 de octubre de 2026",
+    "match": "Eintracht Frankfurt vs FC Cologne",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 1.91,
+    "stake": 0.19
+  },
+  {
+    "file": "artifacts/analisis-2026-10-16--bigpickle--v01.md",
+    "pick_num": "2",
+    "date": "16 de octubre de 2026",
+    "match": "Le Mans vs Toulouse",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.7,
+    "stake": 0.17
+  },
+  {
+    "file": "artifacts/analisis-2026-10-16--bigpickle--v01.md",
+    "pick_num": "3",
+    "date": "16 de octubre de 2026",
+    "match": "Deportivo vs Levante",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.98,
+    "stake": 0.15
+  },
+  {
+    "file": "artifacts/analisis-2026-10-16--bigpickle--v01.md",
+    "pick_num": "4",
+    "date": "16 de octubre de 2026",
+    "match": "Defensa y Justicia vs Instituto",
+    "market": "x2",
+    "sel": "Doble Oportunidad Empate/Instituto",
+    "odds": 1.55,
+    "stake": 0.08
+  },
+  {
+    "file": "artifacts/analisis-2026-10-16--bigpickle--v01.md",
+    "pick_num": "5",
+    "date": "16 de octubre de 2026",
+    "match": "Frosinone vs Sassuolo",
+    "market": "x2",
+    "sel": "Doble Oportunidad Empate/Sassuolo",
+    "odds": 1.62,
+    "stake": 0.08
+  },
+  {
+    "file": "artifacts/analisis-2026-10-16--bigpickle--v01.md",
+    "pick_num": "6",
+    "date": "16 de octubre de 2026",
+    "match": "Frosinone vs Sassuolo",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 2.11,
+    "stake": 0.13
+  },
+  {
+    "file": "artifacts/analisis-2026-10-17--bigpickle--v01.md",
+    "pick_num": "1",
+    "date": "17 de octubre de 2026",
+    "match": "FC Schalke 04 vs FSV Mainz 05",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.7,
+    "stake": 0.18
+  },
+  {
+    "file": "artifacts/analisis-2026-10-17--bigpickle--v01.md",
+    "pick_num": "2",
+    "date": "17 de octubre de 2026",
+    "match": "Venezia vs Napoli",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.78,
+    "stake": 0.18
+  },
+  {
+    "file": "artifacts/analisis-2026-10-17--bigpickle--v01.md",
+    "pick_num": "3",
+    "date": "17 de octubre de 2026",
+    "match": "Real Betis vs Barcelona",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 1.63,
+    "stake": 0.17
+  },
+  {
+    "file": "artifacts/analisis-2026-10-17--bigpickle--v01.md",
+    "pick_num": "4",
+    "date": "17 de octubre de 2026",
+    "match": "Elversberg vs Augsburg",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 2.17,
+    "stake": 0.17
+  },
+  {
+    "file": "artifacts/analisis-2026-10-17--bigpickle--v01.md",
+    "pick_num": "5",
+    "date": "17 de octubre de 2026",
+    "match": "Bologna vs Inter Milan",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.73,
+    "stake": 0.15
+  },
+  {
+    "file": "artifacts/analisis-2026-10-17--bigpickle--v01.md",
+    "pick_num": "6",
+    "date": "17 de octubre de 2026",
+    "match": "Union Berlin vs Borussia Dortmund",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.51,
+    "stake": 0.12
+  },
+  {
+    "file": "artifacts/analisis-2026-10-18--bigpickle--v01.md",
+    "pick_num": "1",
+    "date": "18 de octubre de 2026",
+    "match": "Brighton and Hove Albion vs Crystal Palace",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.63,
+    "stake": 0.17
+  },
+  {
+    "file": "artifacts/analisis-2026-10-18--bigpickle--v01.md",
+    "pick_num": "2",
+    "date": "18 de octubre de 2026",
+    "match": "Udinese vs Lecce",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 2.09,
+    "stake": 0.18
+  },
+  {
+    "file": "artifacts/analisis-2026-10-18--bigpickle--v01.md",
+    "pick_num": "3",
+    "date": "18 de octubre de 2026",
+    "match": "Angers vs Marseille",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.67,
+    "stake": 0.16
+  },
+  {
+    "file": "artifacts/analisis-2026-10-18--bigpickle--v01.md",
+    "pick_num": "4",
+    "date": "18 de octubre de 2026",
+    "match": "Borussia Monchengladbach vs TSG Hoffenheim",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 2.06,
+    "stake": 0.18
+  },
+  {
+    "file": "artifacts/analisis-2026-10-18--bigpickle--v01.md",
+    "pick_num": "5",
+    "date": "18 de octubre de 2026",
+    "match": "Groningen vs Ajax",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 1.99,
+    "stake": 0.17
+  },
+  {
+    "file": "artifacts/analisis-2026-10-18--bigpickle--v01.md",
+    "pick_num": "6",
+    "date": "18 de octubre de 2026",
+    "match": "Fiorentina vs Como",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.73,
+    "stake": 0.14
+  },
+  {
+    "file": "artifacts/analisis-2026-10-19--bigpickle--v01.md",
+    "pick_num": "1",
+    "date": "19 de octubre de 2026",
+    "match": "Getafe vs Rayo Vallecano",
+    "market": "over_1_5",
+    "sel": "Over 1.5 Goles",
+    "odds": 1.63,
+    "stake": 0.11
+  },
+  {
+    "file": "artifacts/analisis-2026-10-19--bigpickle--v01.md",
+    "pick_num": "2",
+    "date": "19 de octubre de 2026",
+    "match": "Deportivo Riestra vs Uni\u00f3n de Santa Fe",
+    "market": "under_corners_9_5",
+    "sel": "Under 9.5 C\u00f3rners",
+    "odds": 1.53,
+    "stake": 0.08
+  },
+  {
+    "file": "artifacts/analisis-2026-10-19--bigpickle--v01.md",
+    "pick_num": "3",
+    "date": "19 de octubre de 2026",
+    "match": "Parma vs Torino",
+    "market": "under_cards_3_5",
+    "sel": "Under 3.5 Tarjetas",
+    "odds": 2.02,
+    "stake": 0.13
+  },
+  {
+    "file": "artifacts/analisis-2026-10-19--bigpickle--v01.md",
+    "pick_num": "4",
+    "date": "19 de octubre de 2026",
+    "match": "Monza vs Cagliari",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 2.13,
+    "stake": 0.14
+  },
+  {
+    "file": "artifacts/analisis-2026-10-19--bigpickle--v01.md",
+    "pick_num": "5",
+    "date": "19 de octubre de 2026",
+    "match": "Deportivo Pasto vs Alianza Valledupar FC",
+    "market": "under_2_5",
+    "sel": "Under 2.5 Goles",
+    "odds": 1.73,
+    "stake": 0.08
+  },
+  {
+    "file": "artifacts/analisis-2026-10-19--bigpickle--v01.md",
+    "pick_num": "6",
+    "date": "19 de octubre de 2026",
+    "match": "Deportivo Riestra vs Uni\u00f3n de Santa Fe",
+    "market": "x2",
+    "sel": "Doble Oportunidad Empate/Uni\u00f3n de Santa Fe",
+    "odds": 1.67,
+    "stake": 0.06
+  },
+  {
+    "file": "artifacts/analisis-2026-10-20--bigpickle--v01.md",
+    "pick_num": "1",
+    "date": "20 de octubre de 2026",
+    "match": "Fenerbah\u00e7e vs Slavia Praha",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.53,
+    "stake": 0.12
+  },
+  {
+    "file": "artifacts/analisis-2026-10-20--bigpickle--v01.md",
+    "pick_num": "2",
+    "date": "20 de octubre de 2026",
+    "match": "Fenerbah\u00e7e vs Slavia Praha",
+    "market": "under_cards_4_5",
+    "sel": "Under 4.5 Tarjetas",
+    "odds": 1.85,
+    "stake": 0.14
+  },
+  {
+    "file": "artifacts/analisis-2026-10-20--bigpickle--v01.md",
+    "pick_num": "3",
+    "date": "20 de octubre de 2026",
+    "match": "Paris Saint-Germain vs FC Barcelona",
+    "market": "over_3_5",
+    "sel": "Over 3.5 Goles",
+    "odds": 1.55,
+    "stake": 0.11
+  },
+  {
+    "file": "artifacts/analisis-2026-10-20--bigpickle--v01.md",
+    "pick_num": "4",
+    "date": "20 de octubre de 2026",
+    "match": "Sabah FK vs Borussia Dortmund",
+    "market": "over_2_5",
+    "sel": "Over 2.5 Goles",
+    "odds": 1.5,
+    "stake": 0.08
+  },
+  {
+    "file": "artifacts/analisis-2026-10-20--bigpickle--v01.md",
+    "pick_num": "5",
+    "date": "20 de octubre de 2026",
+    "match": "Liverpool vs Villarreal",
+    "market": "over_cards_3_5",
+    "sel": "Over 3.5 Tarjetas",
+    "odds": 1.9,
+    "stake": 0.13
+  },
+  {
+    "file": "artifacts/analisis-2026-10-20--bigpickle--v01.md",
+    "pick_num": "6",
+    "date": "20 de octubre de 2026",
+    "match": "Paris Saint-Germain vs FC Barcelona",
+    "market": "x2",
+    "sel": "Doble Oportunidad Empate/FC Barcelona",
+    "odds": 1.57,
+    "stake": 0.08
+  }
+]

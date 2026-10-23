@@ -427,11 +427,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Auxerre vs Brest - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Fulham vs Manchester United - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Leeds United vs Crystal Palace - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Atletico Madrid vs Real Madrid - over_3_5) | PENDIENTE | — | — |
-| Pick 5 (NEC Nijmegen vs Go Ahead Eagles - over_3_5) | PENDIENTE | — | — |
-| Pick 6 (FC Porto vs Benfica - over_2_5) | PENDIENTE | — | — |
+| Pick 1 (Auxerre vs Brest - over_2_5) | GANADA | 2 - 1 | +0.14u |
+| Pick 2 (Fulham vs Manchester United - over_2_5) | PERDIDA | 1 - 1 | -0.13u |
+| Pick 3 (Leeds United vs Crystal Palace - over_2_5) | PERDIDA | 0 - 0 | -0.14u |
+| Pick 4 (Atletico Madrid vs Real Madrid - over_3_5) | PERDIDA | 2 - 1 | -0.15u |
+| Pick 5 (NEC Nijmegen vs Go Ahead Eagles - over_3_5) | PERDIDA | 1 - 1 | -0.14u |
+| Pick 6 (FC Porto vs Benfica - over_2_5) | GANADA | 3 - 1 | +0.11u |
+| **Total** | | | **-0.31u (2 G / 4 P)** |

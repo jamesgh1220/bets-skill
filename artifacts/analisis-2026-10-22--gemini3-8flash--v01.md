@@ -458,11 +458,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Bournemouth vs AC Milan - 1) | PENDIENTE | — | — |
-| Pick 2 (Olympiakos Piraeus vs Sparta Prague - 1) | PENDIENTE | — | — |
-| Pick 3 (Dinamo Zagreb vs NEC Nijmegen - 1) | PENDIENTE | — | — |
-| Pick 4 (Viktoria Plzeň vs PFC Levski Sofia - 1) | PENDIENTE | — | — |
-| Pick 5 (AGF Aarhus vs KF Egnatia - 1) | PENDIENTE | — | — |
-| Pick 6 (FK Jablonec vs Brighton and Hove Albion - under_3_5) | PENDIENTE | — | — |
+| Pick 1 (Bournemouth vs AC Milan - 1) | GANADA | 3 - 0 | +0.20u |
+| Pick 2 (Olympiakos Piraeus vs Sparta Prague - 1) | GANADA | 1 - 0 | +0.08u |
+| Pick 3 (Dinamo Zagreb vs NEC Nijmegen - 1) | PERDIDA | 2 - 4 | -0.11u |
+| Pick 4 (Viktoria Plzeň vs PFC Levski Sofia - 1) | PERDIDA | 1 - 2 | -0.13u |
+| Pick 5 (AGF Aarhus vs KF Egnatia - 1) | PERDIDA | 1 - 1 | -0.09u |
+| Pick 6 (FK Jablonec vs Brighton and Hove Albion - under_3_5) | GANADA | 0 - 0 | +0.08u |
+| **Total** | | | **+0.03u (3 G / 3 P)** |

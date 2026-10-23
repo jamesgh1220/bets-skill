@@ -331,11 +331,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Eintracht Frankfurt vs FC Cologne - over_3_5) | PENDIENTE | — | — |
-| Pick 2 (Le Mans vs Toulouse - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Deportivo vs Levante - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Defensa y Justicia vs Instituto - x2) | PENDIENTE | — | — |
-| Pick 5 (Frosinone vs Sassuolo - x2) | PENDIENTE | — | — |
-| Pick 6 (Frosinone vs Sassuolo - over_3_5) | PENDIENTE | — | — |
+| Pick 1 (Eintracht Frankfurt vs FC Cologne - over_3_5) | PERDIDA | 1 - 0 | -0.19u |
+| Pick 2 (Le Mans vs Toulouse - over_2_5) | GANADA | 0 - 3 | +0.12u |
+| Pick 3 (Deportivo vs Levante - over_2_5) | PERDIDA | 1 - 1 | -0.15u |
+| Pick 4 (Defensa y Justicia vs Instituto - x2) | GANADA | 0 - 1 | +0.04u |
+| Pick 5 (Frosinone vs Sassuolo - x2) | PERDIDA | 4 - 2 | -0.08u |
+| Pick 6 (Frosinone vs Sassuolo - over_3_5) | GANADA | 4 - 2 | +0.14u |
+| **Total** | | | **-0.12u (3 G / 3 P)** |

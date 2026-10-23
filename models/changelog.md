@@ -73,6 +73,16 @@ Registro de todas las versiones del modelo y sus cambios.
 
 ---
 
+## v1.4 — 2026-10-23
+
+- **Cambios:** Deshabilitada calibración paramétrica Platt en el mercado  (). Retorno a la probabilidad de ensemble cruda.
+- **Motivo:** En el diagnóstico del ciclo de 88 predicciones de , el intercepto positivo (=+1.051$) generaba sobreestimación severa (+25.5% de error de calibración y Brier de 0.3205). El ensemble crudo no sufre compresión artificial.
+- **Métricas antes (v1.3 en over_3_5):** Brier: 0.3205, Log Loss: 0.8712, Calibration Error: +25.5%, ROI: -6.3%
+- **Métricas después (v1.4 en over_3_5):** Brier: 0.2592, Log Loss: 0.6908, Calibration Error: +2.1%, ROI OOS: neutral/positivo
+- **Aprobado por:** usuario
+
+---
+
 ## v1.3 — 2026-09-17 (ACTIVA)
 
 - **Cambios:** Calibración Platt añadida al mercado Over/Under 3.5 (`calibration.enabled_markets` incluye ahora `over_3_5` con `params.over_3_5 = {a: 1.5542696742, b: 1.0510711272}`; `under_3_5` se deriva como complemento). Hook aditivo en `calc_engine.py` y `PlattCalibration.transform` para propagar `over_3_5`/`under_3_5` al output calibrado (identidad si no está habilitado → v1.2 sin cambios de comportamiento).

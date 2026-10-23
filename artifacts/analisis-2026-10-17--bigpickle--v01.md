@@ -691,11 +691,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (FC Schalke 04 vs FSV Mainz 05 - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Venezia vs Napoli - over_2_5) | PENDIENTE | — | — |
-| Pick 3 (Real Betis vs Barcelona - over_3_5) | PENDIENTE | — | — |
-| Pick 4 (Elversberg vs Augsburg - over_3_5) | PENDIENTE | — | — |
-| Pick 5 (Bologna vs Inter Milan - over_2_5) | PENDIENTE | — | — |
-| Pick 6 (Union Berlin vs Borussia Dortmund - over_2_5) | PENDIENTE | — | — |
+| Pick 1 (FC Schalke 04 vs FSV Mainz 05 - over_2_5) | PERDIDA | 0 - 1 | -0.18u |
+| Pick 2 (Venezia vs Napoli - over_2_5) | PERDIDA | 1 - 0 | -0.18u |
+| Pick 3 (Real Betis vs Barcelona - over_3_5) | GANADA | 2 - 5 | +0.11u |
+| Pick 4 (Elversberg vs Augsburg - over_3_5) | GANADA | 4 - 3 | +0.20u |
+| Pick 5 (Bologna vs Inter Milan - over_2_5) | GANADA | 1 - 3 | +0.11u |
+| Pick 6 (Union Berlin vs Borussia Dortmund - over_2_5) | PERDIDA | 0 - 0 | -0.12u |
+| **Total** | | | **-0.06u (3 G / 3 P)** |

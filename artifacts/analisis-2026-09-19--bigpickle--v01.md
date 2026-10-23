@@ -596,11 +596,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Los picks pertenecen a partidos distintos; no se aplica reducción adicional por eventos dependientes.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (AS Roma vs Inter Milan - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (VfB Stuttgart vs Borussia Dortmund - over_3_5) | PENDIENTE | — | — |
-| Pick 3 (Borussia Monchengladbach vs FSV Mainz 05 - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Venezia vs Lazio - over_2_5) | PENDIENTE | — | — |
-| Pick 5 (Hamburger SV vs 1. FC Köln - over_2_5) | PENDIENTE | — | — |
-| Pick 6 (Brighton and Hove Albion vs Arsenal - over_2_5) | PENDIENTE | — | — |
+| Pick 1 (AS Roma vs Inter Milan - over_2_5) | GANADA | 2 - 2 | +0.13u |
+| Pick 2 (VfB Stuttgart vs Borussia Dortmund - over_3_5) | PERDIDA | 0 - 1 | -0.20u |
+| Pick 3 (Borussia Monchengladbach vs FSV Mainz 05 - over_2_5) | GANADA | 3 - 4 | +0.09u |
+| Pick 4 (Venezia vs Lazio - over_2_5) | PERDIDA | 0 - 2 | -0.18u |
+| Pick 5 (Hamburger SV vs 1. FC Köln - over_2_5) | GANADA | 2 - 1 | +0.10u |
+| Pick 6 (Brighton and Hove Albion vs Arsenal - over_2_5) | GANADA | 3 - 0 | +0.14u |
+| **Total** | | | **+0.08u (4 G / 2 P)** |

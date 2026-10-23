@@ -475,11 +475,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Hay picks del mismo partido (Como vs Manchester United (2 picks: x2, over_2_5)); son eventos correlacionados y su exposición agregada debe leerse como una sola posición. El detalle de cada pick documenta la correlación en su sección de riesgos.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Bayern Munich vs Arsenal - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Como vs Manchester United - x2) | PENDIENTE | — | — |
-| Pick 3 (Lille vs Galatasaray - over_2_5) | PENDIENTE | — | — |
-| Pick 4 (Real Betis vs Feyenoord - over_2_5) | PENDIENTE | — | — |
-| Pick 5 (Como vs Manchester United - over_2_5) | PENDIENTE | — | — |
-| Pick 6 (Real Madrid vs RB Leipzig - over_3_5) | PENDIENTE | — | — |
+| Pick 1 (Bayern Munich vs Arsenal - over_2_5) | GANADA | 2 - 2 | +0.05u |
+| Pick 2 (Como vs Manchester United - x2) | PERDIDA | 4 - 1 | -0.07u |
+| Pick 3 (Lille vs Galatasaray - over_2_5) | GANADA | 2 - 4 | +0.04u |
+| Pick 4 (Real Betis vs Feyenoord - over_2_5) | PERDIDA | 1 - 0 | -0.06u |
+| Pick 5 (Como vs Manchester United - over_2_5) | GANADA | 4 - 1 | +0.03u |
+| Pick 6 (Real Madrid vs RB Leipzig - over_3_5) | GANADA | 4 - 1 | +0.08u |
+| **Total** | | | **+0.07u (4 G / 2 P)** |

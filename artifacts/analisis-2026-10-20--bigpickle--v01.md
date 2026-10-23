@@ -435,11 +435,13 @@ Ambos lados del mercado de goles (over y under) para las líneas 1.5, 2.5 y 3.5.
 - **Ajuste de stake por correlación:** Hay picks del mismo partido (Fenerbahçe vs Slavia Praha (2 picks: over_2_5, under_cards_4_5); Paris Saint-Germain vs FC Barcelona (2 picks: over_3_5, x2)); son eventos correlacionados y su exposición agregada debe leerse como una sola posición. El detalle de cada pick documenta la correlación en su sección de riesgos.
 
 ## Tracking
+_Fuente: resultados vía websearch (MCP apifootball no operativo — fallback activo). Actualizado 2026-10-23._
 | Pick | Estado | Resultado | Profit/Loss |
 |---|---|---|---|
-| Pick 1 (Fenerbahçe vs Slavia Praha - over_2_5) | PENDIENTE | — | — |
-| Pick 2 (Fenerbahçe vs Slavia Praha - under_cards_4_5) | PENDIENTE | — | — |
-| Pick 3 (Paris Saint-Germain vs FC Barcelona - over_3_5) | PENDIENTE | — | — |
-| Pick 4 (Sabah FK vs Borussia Dortmund - over_2_5) | PENDIENTE | — | — |
-| Pick 5 (Liverpool vs Villarreal - over_cards_3_5) | PENDIENTE | — | — |
-| Pick 6 (Paris Saint-Germain vs FC Barcelona - x2) | PENDIENTE | — | — |
+| Pick 1 (Fenerbahçe vs Slavia Praha - over_2_5) | GANADA | 2 - 2 | +0.06u |
+| Pick 2 (Fenerbahçe vs Slavia Praha - under_cards_4_5) | GANADA | 4 tarjetas | +0.12u |
+| Pick 3 (Paris Saint-Germain vs FC Barcelona - over_3_5) | GANADA | 4 - 2 | +0.06u |
+| Pick 4 (Sabah FK vs Borussia Dortmund - over_2_5) | GANADA | 1 - 2 | +0.04u |
+| Pick 5 (Liverpool vs Villarreal - over_cards_3_5) | PERDIDA | 2 tarjetas | -0.13u |
+| Pick 6 (Paris Saint-Germain vs FC Barcelona - x2) | PERDIDA | 4 - 2 | -0.08u |
+| **Total** | | | **+0.07u (4 G / 2 P)** |
