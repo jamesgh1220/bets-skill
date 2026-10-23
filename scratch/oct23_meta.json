@@ -1,0 +1,21 @@
+{
+  "analysis_date_iso": "2026-10-23T09:00:00Z",
+  "match_dates_text": "23 de octubre de 2026",
+  "information_cutoff": "2026-10-23T08:55:00Z",
+  "model_ia": "gemini3.8flash",
+  "engine_version": "model-v1.4",
+  "leagues_display": "Bundesliga, Liga Profesional Argentina, Liga BetPlay Dimayor, LaLiga, Ligue 1, Premier League, Serie A, Eredivisie, Liga Portugal",
+  "requested_range": "2026-10-23 (todos los partidos de las 9 ligas solicitadas)",
+  "universe_preamble": "Universo = 12 partidos programados para el viernes 23 de octubre de 2026 en las 9 ligas solicitadas (Bundesliga: 1, Premier League: 1, LaLiga: 1, Serie A: 1, Ligue 1: 1, Eredivisie: 1, Liga Portugal: 1, Liga Profesional Argentina: 3, Liga BetPlay Dimayor: 2). Recolecci\u00f3n de cuotas Capa 1 y Capa 2 (1X2, totales de goles O/U 1.5, 2.5, 3.5, BTTS, DNB, c\u00f3rners y tarjetas). Se garantizaron los 8 campos obligatorios de c\u00f3rners y tarjetas (tasas for/against para ambos equipos basadas en los \u00faltimos 5-10 partidos). Evaluaci\u00f3n cuantitativa determinista con scripts/calc_engine.py y calibraci\u00f3n Platt de model-v1.4.",
+  "universe_matches": [
+    "- **Bundesliga (1 partido):** VfB Stuttgart vs. Borussia M\u00f6nchengladbach (MHP Arena, Stuttgart)",
+    "- **Premier League (1 partido):** Ipswich Town vs. Nottingham Forest (Portman Road, Ipswich)",
+    "- **LaLiga (1 partido):** Deportivo Alav\u00e9s vs. M\u00e1laga (Estadio de Mendizorroza, Vitoria-Gasteiz)",
+    "- **Serie A (1 partido):** Torino vs. Monza (Stadio Olimpico Grande Torino, Tur\u00edn)",
+    "- **Ligue 1 (1 partido):** Brest vs. Nice (Stade Francis-Le Bl\u00e9, Brest)",
+    "- **Eredivisie (1 partido):** Go Ahead Eagles vs. Telstar (De Adelaarshorst, Deventer)",
+    "- **Liga Portugal (1 partido):** Vit\u00f3ria Guimar\u00e3es vs. Mar\u00edtimo (Est\u00e1dio D. Afonso Henriques, Guimar\u00e3es)",
+    "- **Liga Argentina (3 partidos):** Gimnasia La Plata vs. Sarmiento de Jun\u00edn, Gimnasia de Mendoza vs. Platense, Tigre vs. Atl\u00e9tico Tucum\u00e1n",
+    "- **Liga Colombiana (2 partidos):** Boyac\u00e1 Chic\u00f3 vs. Atl\u00e9tico Bucaramanga (La Independencia, Tunja), Junior vs. \u00c1guilas Doradas (Estadio Romelio Mart\u00ednez / Metropolitano, Barranquilla)"
+  ]
+}
