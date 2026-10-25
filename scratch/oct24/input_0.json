@@ -1,0 +1,27 @@
+{
+  "home_team": "Aston Villa",
+  "away_team": "Manchester City",
+  "league": "Premier League",
+  "commence_time": "2026-10-24T11:30:00Z",
+  "xg_home_for": 1.27,
+  "xg_home_against": 1.86,
+  "xg_away_for": 2.38,
+  "xg_away_against": 1.33,
+  "elo_home": 1904,
+  "elo_away": 1550,
+  "corners_home_for": 5.2,
+  "corners_home_against": 4.3,
+  "corners_away_for": 4.4,
+  "corners_away_against": 5.1,
+  "cards_home_for": 1.9,
+  "cards_home_against": 2.1,
+  "cards_away_for": 2.2,
+  "cards_away_against": 1.8,
+  "odds": {
+    "1": 2.94,
+    "2": 2.46,
+    "X": 3.9,
+    "over_3_5": 1.68,
+    "under_3_5": 2.3
+  }
+}

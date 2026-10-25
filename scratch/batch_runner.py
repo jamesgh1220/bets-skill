@@ -1,33 +1,386 @@
-#!/usr/bin/env python3
-"""Batch processor: runs calc_engine for each match in batch_matches.json"""
 import json
-import sys
+import subprocess
 import os
 
-# Add project root to path
-project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, project_root)
-os.chdir(project_root)
+matches = [
+    {
+        "id": "barca_madrid",
+        "name": "Barcelona vs Real Madrid",
+        "league": "La Liga",
+        "home_team": "Barcelona",
+        "away_team": "Real Madrid",
+        "xg_home_for": 2.25,
+        "xg_home_against": 1.15,
+        "xg_away_for": 1.70,
+        "xg_away_against": 1.25,
+        "elo_home": 1940,
+        "elo_away": 1910,
+        "corners_home_for": 6.8,
+        "corners_home_against": 3.9,
+        "corners_away_for": 5.6,
+        "corners_away_against": 4.2,
+        "cards_home_for": 2.1,
+        "cards_home_against": 2.8,
+        "cards_away_for": 2.4,
+        "cards_away_against": 2.5,
+        "odds": {
+            "1": 1.66, "X": 5.25, "2": 3.80,
+            "over_1_5": 1.16, "under_1_5": 5.50,
+            "over_2_5": 1.50, "under_2_5": 2.65,
+            "over_3_5": 2.25, "under_3_5": 1.65,
+            "btts_yes": 1.53, "btts_no": 2.50,
+            "1x": 1.25, "x2": 2.20, "12": 1.18,
+            "dnb_home": 1.30, "dnb_away": 3.40,
+            "over_8_5_corners": 1.45, "under_8_5_corners": 2.70,
+            "over_9_5_corners": 1.80, "under_9_5_corners": 2.00,
+            "over_10_5_corners": 2.30, "under_10_5_corners": 1.60,
+            "over_3_5_cards": 1.35, "under_3_5_cards": 3.10,
+            "over_4_5_cards": 1.75, "under_4_5_cards": 2.05,
+            "over_5_5_cards": 2.40, "under_5_5_cards": 1.55
+        }
+    },
+    {
+        "id": "freiburg_bayern",
+        "name": "SC Freiburg vs Bayern Munich",
+        "league": "Bundesliga",
+        "home_team": "SC Freiburg",
+        "away_team": "Bayern Munich",
+        "xg_home_for": 1.30,
+        "xg_home_against": 1.45,
+        "xg_away_for": 2.45,
+        "xg_away_against": 0.95,
+        "elo_home": 1680,
+        "elo_away": 1950,
+        "corners_home_for": 4.4,
+        "corners_home_against": 5.8,
+        "corners_away_for": 7.2,
+        "corners_away_against": 3.1,
+        "cards_home_for": 1.8,
+        "cards_home_against": 1.9,
+        "cards_away_for": 1.4,
+        "cards_away_against": 2.2,
+        "odds": {
+            "1": 5.80, "X": 5.00, "2": 1.42,
+            "over_1_5": 1.14, "under_1_5": 5.80,
+            "over_2_5": 1.44, "under_2_5": 2.80,
+            "over_3_5": 2.10, "under_3_5": 1.75,
+            "btts_yes": 1.62, "btts_no": 2.30,
+            "1x": 2.85, "x2": 1.14, "12": 1.18,
+            "dnb_home": 4.50, "dnb_away": 1.18,
+            "over_8_5_corners": 1.40, "under_8_5_corners": 2.85,
+            "over_9_5_corners": 1.72, "under_9_5_corners": 2.10,
+            "over_10_5_corners": 2.20, "under_10_5_corners": 1.65,
+            "over_3_5_cards": 1.55, "under_3_5_cards": 2.40,
+            "over_4_5_cards": 2.15, "under_4_5_cards": 1.70,
+            "over_5_5_cards": 3.10, "under_5_5_cards": 1.35
+        }
+    },
+    {
+        "id": "inter_fiorentina",
+        "name": "Inter Milan vs Fiorentina",
+        "league": "Serie A",
+        "home_team": "Inter Milan",
+        "away_team": "Fiorentina",
+        "xg_home_for": 2.15,
+        "xg_home_against": 0.85,
+        "xg_away_for": 1.10,
+        "xg_away_against": 1.95,
+        "elo_home": 1920,
+        "elo_away": 1690,
+        "corners_home_for": 6.5,
+        "corners_home_against": 3.5,
+        "corners_away_for": 4.5,
+        "corners_away_against": 5.2,
+        "cards_home_for": 1.7,
+        "cards_home_against": 2.3,
+        "cards_away_for": 2.6,
+        "cards_away_against": 2.1,
+        "odds": {
+            "1": 1.34, "X": 5.30, "2": 8.00,
+            "over_1_5": 1.15, "under_1_5": 5.60,
+            "over_2_5": 1.52, "under_2_5": 2.55,
+            "over_3_5": 2.30, "under_3_5": 1.62,
+            "btts_yes": 1.85, "btts_no": 1.95,
+            "1x": 1.08, "x2": 3.25, "12": 1.16,
+            "dnb_home": 1.11, "dnb_away": 6.50,
+            "over_8_5_corners": 1.48, "under_8_5_corners": 2.60,
+            "over_9_5_corners": 1.85, "under_9_5_corners": 1.95,
+            "over_10_5_corners": 2.40, "under_10_5_corners": 1.55,
+            "over_3_5_cards": 1.45, "under_3_5_cards": 2.70,
+            "over_4_5_cards": 1.95, "under_4_5_cards": 1.85,
+            "over_5_5_cards": 2.75, "under_5_5_cards": 1.44
+        }
+    },
+    {
+        "id": "liverpool_brighton",
+        "name": "Liverpool vs Brighton",
+        "league": "Premier League",
+        "home_team": "Liverpool",
+        "away_team": "Brighton",
+        "xg_home_for": 1.95,
+        "xg_home_against": 1.30,
+        "xg_away_for": 1.65,
+        "xg_away_against": 1.40,
+        "elo_home": 1880,
+        "elo_away": 1780,
+        "corners_home_for": 6.2,
+        "corners_home_against": 4.1,
+        "corners_away_for": 5.4,
+        "corners_away_against": 4.6,
+        "cards_home_for": 1.9,
+        "cards_home_against": 2.2,
+        "cards_away_for": 2.3,
+        "cards_away_against": 2.0,
+        "odds": {
+            "1": 2.08, "X": 3.85, "2": 3.10,
+            "over_1_5": 1.18, "under_1_5": 4.90,
+            "over_2_5": 1.58, "under_2_5": 2.40,
+            "over_3_5": 2.45, "under_3_5": 1.55,
+            "btts_yes": 1.52, "btts_no": 2.50,
+            "1x": 1.36, "x2": 1.75, "12": 1.26,
+            "dnb_home": 1.53, "dnb_away": 2.45,
+            "over_8_5_corners": 1.42, "under_8_5_corners": 2.75,
+            "over_9_5_corners": 1.75, "under_9_5_corners": 2.05,
+            "over_10_5_corners": 2.25, "under_10_5_corners": 1.62,
+            "over_3_5_cards": 1.50, "under_3_5_cards": 2.55,
+            "over_4_5_cards": 2.05, "under_4_5_cards": 1.75,
+            "over_5_5_cards": 2.90, "under_5_5_cards": 1.40
+        }
+    },
+    {
+        "id": "psv_feyenoord",
+        "name": "PSV Eindhoven vs Feyenoord",
+        "league": "Eredivisie",
+        "home_team": "PSV Eindhoven",
+        "away_team": "Feyenoord",
+        "xg_home_for": 2.30,
+        "xg_home_against": 1.25,
+        "xg_away_for": 1.85,
+        "xg_away_against": 1.35,
+        "elo_home": 1790,
+        "elo_away": 1760,
+        "corners_home_for": 6.4,
+        "corners_home_against": 4.0,
+        "corners_away_for": 5.8,
+        "corners_away_against": 4.4,
+        "cards_home_for": 1.6,
+        "cards_home_against": 2.1,
+        "cards_away_for": 2.1,
+        "cards_away_against": 2.0,
+        "odds": {
+            "1": 1.98, "X": 4.10, "2": 3.25,
+            "over_1_5": 1.14, "under_1_5": 5.70,
+            "over_2_5": 1.48, "under_2_5": 2.65,
+            "over_3_5": 2.20, "under_3_5": 1.67,
+            "btts_yes": 1.48, "btts_no": 2.60,
+            "1x": 1.33, "x2": 1.82, "12": 1.23,
+            "dnb_home": 1.48, "dnb_away": 2.60,
+            "over_8_5_corners": 1.40, "under_8_5_corners": 2.85,
+            "over_9_5_corners": 1.72, "under_9_5_corners": 2.10,
+            "over_10_5_corners": 2.20, "under_10_5_corners": 1.65,
+            "over_3_5_cards": 1.60, "under_3_5_cards": 2.30,
+            "over_4_5_cards": 2.25, "under_4_5_cards": 1.62,
+            "over_5_5_cards": 3.25, "under_5_5_cards": 1.33
+        }
+    },
+    {
+        "id": "sporting_viseu",
+        "name": "Sporting CP vs Academico de Viseu",
+        "league": "Liga Portugal",
+        "home_team": "Sporting CP",
+        "away_team": "Academico de Viseu",
+        "xg_home_for": 2.40,
+        "xg_home_against": 0.65,
+        "xg_away_for": 0.75,
+        "xg_away_against": 2.10,
+        "elo_home": 1850,
+        "elo_away": 1490,
+        "corners_home_for": 7.0,
+        "corners_home_against": 2.8,
+        "corners_away_for": 3.2,
+        "corners_away_against": 6.8,
+        "cards_home_for": 1.8,
+        "cards_home_against": 2.8,
+        "cards_away_for": 3.0,
+        "cards_away_against": 1.9,
+        "odds": {
+            "1": 1.25, "X": 5.75, "2": 11.00,
+            "over_1_5": 1.12, "under_1_5": 6.20,
+            "over_2_5": 1.46, "under_2_5": 2.70,
+            "over_3_5": 2.18, "under_3_5": 1.68,
+            "btts_yes": 2.15, "btts_no": 1.70,
+            "1x": 1.04, "x2": 4.10, "12": 1.13,
+            "dnb_home": 1.06, "dnb_away": 9.00,
+            "over_8_5_corners": 1.45, "under_8_5_corners": 2.70,
+            "over_9_5_corners": 1.80, "under_9_5_corners": 2.00,
+            "over_10_5_corners": 2.30, "under_10_5_corners": 1.60,
+            "over_3_5_cards": 1.42, "under_3_5_cards": 2.80,
+            "over_4_5_cards": 1.88, "under_4_5_cards": 1.90,
+            "over_5_5_cards": 2.60, "under_5_5_cards": 1.48
+        }
+    },
+    {
+        "id": "monaco_lille",
+        "name": "AS Monaco vs LOSC Lille",
+        "league": "Ligue 1",
+        "home_team": "AS Monaco",
+        "away_team": "LOSC Lille",
+        "xg_home_for": 1.75,
+        "xg_home_against": 1.20,
+        "xg_away_for": 1.40,
+        "xg_away_against": 1.30,
+        "elo_home": 1780,
+        "elo_away": 1750,
+        "corners_home_for": 5.3,
+        "corners_home_against": 4.2,
+        "corners_away_for": 4.9,
+        "corners_away_against": 4.5,
+        "cards_home_for": 2.0,
+        "cards_home_against": 2.2,
+        "cards_away_for": 2.3,
+        "cards_away_against": 2.1,
+        "odds": {
+            "1": 1.95, "X": 3.45, "2": 3.90,
+            "over_1_5": 1.22, "under_1_5": 4.20,
+            "over_2_5": 1.75, "under_2_5": 2.10,
+            "over_3_5": 2.90, "under_3_5": 1.42,
+            "btts_yes": 1.66, "btts_no": 2.20,
+            "1x": 1.26, "x2": 1.85, "12": 1.30,
+            "dnb_home": 1.44, "dnb_away": 2.75,
+            "over_8_5_corners": 1.55, "under_8_5_corners": 2.40,
+            "over_9_5_corners": 1.95, "under_9_5_corners": 1.85,
+            "over_10_5_corners": 2.60, "under_10_5_corners": 1.50,
+            "over_3_5_cards": 1.52, "under_3_5_cards": 2.50,
+            "over_4_5_cards": 2.10, "under_4_5_cards": 1.72,
+            "over_5_5_cards": 3.00, "under_5_5_cards": 1.38
+        }
+    },
+    {
+        "id": "nacional_dim",
+        "name": "Atletico Nacional vs Independiente Medellin",
+        "league": "Liga Colombiana",
+        "home_team": "Atletico Nacional",
+        "away_team": "Independiente Medellin",
+        "xg_home_for": 1.65,
+        "xg_home_against": 0.95,
+        "xg_away_for": 1.10,
+        "xg_away_against": 1.35,
+        "elo_home": 1580,
+        "elo_away": 1510,
+        "corners_home_for": 5.6,
+        "corners_home_against": 4.1,
+        "corners_away_for": 4.5,
+        "corners_away_against": 4.8,
+        "cards_home_for": 2.5,
+        "cards_home_against": 2.8,
+        "cards_away_for": 2.9,
+        "cards_away_against": 2.6,
+        "odds": {
+            "1": 1.88, "X": 3.45, "2": 4.10,
+            "over_1_5": 1.32, "under_1_5": 3.35,
+            "over_2_5": 2.05, "under_2_5": 1.78,
+            "over_3_5": 3.75, "under_3_5": 1.27,
+            "btts_yes": 1.95, "btts_no": 1.85,
+            "1x": 1.22, "x2": 1.90, "12": 1.30,
+            "dnb_home": 1.36, "dnb_away": 3.10,
+            "over_8_5_corners": 1.52, "under_8_5_corners": 2.45,
+            "over_9_5_corners": 1.90, "under_9_5_corners": 1.90,
+            "over_10_5_corners": 2.50, "under_10_5_corners": 1.52,
+            "over_3_5_cards": 1.30, "under_3_5_cards": 3.40,
+            "over_4_5_cards": 1.65, "under_4_5_cards": 2.20,
+            "over_5_5_cards": 2.20, "under_5_5_cards": 1.65
+        }
+    },
+    {
+        "id": "river_racing",
+        "name": "River Plate vs Racing Club",
+        "league": "Liga Argentina",
+        "home_team": "River Plate",
+        "away_team": "Racing Club",
+        "xg_home_for": 1.80,
+        "xg_home_against": 0.85,
+        "xg_away_for": 1.15,
+        "xg_away_against": 1.45,
+        "elo_home": 1720,
+        "elo_away": 1620,
+        "corners_home_for": 6.1,
+        "corners_home_against": 3.8,
+        "corners_away_for": 4.7,
+        "corners_away_against": 4.9,
+        "cards_home_for": 2.2,
+        "cards_home_against": 2.6,
+        "cards_away_for": 2.8,
+        "cards_away_against": 2.3,
+        "odds": {
+            "1": 1.46, "X": 4.00, "2": 7.00,
+            "over_1_5": 1.28, "under_1_5": 3.65,
+            "over_2_5": 1.95, "under_2_5": 1.86,
+            "over_3_5": 3.45, "under_3_5": 1.31,
+            "btts_yes": 2.05, "btts_no": 1.76,
+            "1x": 1.10, "x2": 2.70, "12": 1.24,
+            "dnb_home": 1.15, "dnb_away": 5.25,
+            "over_8_5_corners": 1.48, "under_8_5_corners": 2.60,
+            "over_9_5_corners": 1.85, "under_9_5_corners": 1.95,
+            "over_10_5_corners": 2.40, "under_10_5_corners": 1.55,
+            "over_3_5_cards": 1.35, "under_3_5_cards": 3.10,
+            "over_4_5_cards": 1.75, "under_4_5_cards": 2.05,
+            "over_5_5_cards": 2.40, "under_5_5_cards": 1.55
+        }
+    },
+    {
+        "id": "lafc_galaxy",
+        "name": "LAFC vs LA Galaxy",
+        "league": "MLS",
+        "home_team": "LAFC",
+        "away_team": "LA Galaxy",
+        "xg_home_for": 2.10,
+        "xg_home_against": 1.35,
+        "xg_away_for": 1.60,
+        "xg_away_against": 1.70,
+        "elo_home": 1620,
+        "elo_away": 1560,
+        "corners_home_for": 6.3,
+        "corners_home_against": 4.5,
+        "corners_away_for": 5.1,
+        "corners_away_against": 5.7,
+        "cards_home_for": 2.2,
+        "cards_home_against": 2.4,
+        "cards_away_for": 2.5,
+        "cards_away_against": 2.3,
+        "odds": {
+            "1": 1.58, "X": 4.30, "2": 5.10,
+            "over_1_5": 1.12, "under_1_5": 6.20,
+            "over_2_5": 1.42, "under_2_5": 2.85,
+            "over_3_5": 2.05, "under_3_5": 1.78,
+            "btts_yes": 1.51, "btts_no": 2.55,
+            "1x": 1.16, "x2": 2.35, "12": 1.21,
+            "dnb_home": 1.24, "dnb_away": 4.00,
+            "over_8_5_corners": 1.42, "under_8_5_corners": 2.75,
+            "over_9_5_corners": 1.75, "under_9_5_corners": 2.05,
+            "over_10_5_corners": 2.25, "under_10_5_corners": 1.62,
+            "over_3_5_cards": 1.45, "under_3_5_cards": 2.70,
+            "over_4_5_cards": 1.95, "under_4_5_cards": 1.85,
+            "over_5_5_cards": 2.75, "under_5_5_cards": 1.44
+        }
+    }
+]
 
-from scripts.calc_engine import run_ensemble, load_model_config
+results = {}
+for m in matches:
+    inp_path = f"scratch/input_{m['id']}.json"
+    out_path = f"scratch/output_{m['id']}.json"
+    with open(inp_path, "w") as f:
+        json.dump(m, f, indent=2)
+    
+    cmd = ["python3", "scripts/calc_engine.py", "--input", inp_path, "--output", out_path]
+    res = subprocess.run(cmd, capture_output=True, text=True)
+    if res.returncode != 0:
+        print(f"Error on {m['id']}: {res.stderr}")
+    else:
+        with open(out_path) as f:
+            results[m['id']] = json.load(f)
 
-def main():
-    with open("scratch/batch_matches.json", "r", encoding="utf-8") as f:
-        matches = json.load(f)
-    
-    config = load_model_config("models/model-v1.0.json")
-    
-    all_results = []
-    for match in matches:
-        result = run_ensemble(match, config)
-        result["id"] = match.get("id", "")
-        result["league"] = match.get("league", "")
-        all_results.append(result)
-    
-    with open("scratch/batch_output.json", "w", encoding="utf-8") as f:
-        json.dump(all_results, f, indent=2, ensure_ascii=False)
-    
-    print(f"Procesados {len(all_results)} partidos. Resultados en scratch/batch_output.json")
+with open("scratch/all_calc_results.json", "w") as f:
+    json.dump(results, f, indent=2)
 
-if __name__ == "__main__":
-    main()
+print(f"Calculated {len(results)} matches successfully.")

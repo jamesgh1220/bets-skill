@@ -1,0 +1,27 @@
+{
+  "home_team": "Banfield",
+  "away_team": "Lanus",
+  "league": "Liga Argentina",
+  "commence_time": "2026-10-24T17:45:00Z",
+  "xg_home_for": 1.1,
+  "xg_home_against": 1.15,
+  "xg_away_for": 1.15,
+  "xg_away_against": 1.1,
+  "elo_home": 1520,
+  "elo_away": 1540,
+  "corners_home_for": 5.1,
+  "corners_home_against": 4.4,
+  "corners_away_for": 4.2,
+  "corners_away_against": 5.2,
+  "cards_home_for": 2.0,
+  "cards_home_against": 2.2,
+  "cards_away_for": 2.3,
+  "cards_away_against": 1.9,
+  "odds": {
+    "1": 2.65,
+    "X": 3.0,
+    "2": 2.9,
+    "over_2_5": 2.45,
+    "under_2_5": 1.55
+  }
+}

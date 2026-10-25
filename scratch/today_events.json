@@ -1,0 +1,300 @@
+{
+  "Premier League": [
+    {
+      "id": "aca5dd297dbee71f576f7641569fe578",
+      "sport_key": "soccer_epl",
+      "sport_title": "EPL",
+      "commence_time": "2026-10-24T11:30:00Z",
+      "home_team": "Aston Villa",
+      "away_team": "Manchester City"
+    },
+    {
+      "id": "f66e4f29c1b7bcfc5ab58c0b88c8850b",
+      "sport_key": "soccer_epl",
+      "sport_title": "EPL",
+      "commence_time": "2026-10-24T14:00:00Z",
+      "home_team": "Arsenal",
+      "away_team": "Everton"
+    },
+    {
+      "id": "0fbb2626ed9534b9dcf21d16925f9bd7",
+      "sport_key": "soccer_epl",
+      "sport_title": "EPL",
+      "commence_time": "2026-10-24T14:00:00Z",
+      "home_team": "Coventry City",
+      "away_team": "Fulham"
+    },
+    {
+      "id": "0382a9faef0bb8df1bcc436536cffb05",
+      "sport_key": "soccer_epl",
+      "sport_title": "EPL",
+      "commence_time": "2026-10-24T16:30:00Z",
+      "home_team": "Chelsea",
+      "away_team": "Tottenham Hotspur"
+    }
+  ],
+  "LaLiga": [
+    {
+      "id": "734ad601156f5f4e6bc42317e5141516",
+      "sport_key": "soccer_spain_la_liga",
+      "sport_title": "La Liga - Spain",
+      "commence_time": "2026-10-24T12:00:00Z",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Elche CF"
+    },
+    {
+      "id": "5960b1b6c20acfd78e78764fed47d505",
+      "sport_key": "soccer_spain_la_liga",
+      "sport_title": "La Liga - Spain",
+      "commence_time": "2026-10-24T14:15:00Z",
+      "home_team": "Real Racing Club de Santander",
+      "away_team": "Espanyol"
+    },
+    {
+      "id": "0dae715cc56fe201f9e667917c126691",
+      "sport_key": "soccer_spain_la_liga",
+      "sport_title": "La Liga - Spain",
+      "commence_time": "2026-10-24T16:30:00Z",
+      "home_team": "Valencia",
+      "away_team": "Villarreal"
+    },
+    {
+      "id": "70df1835c3b5ddff1c99e0189532136b",
+      "sport_key": "soccer_spain_la_liga",
+      "sport_title": "La Liga - Spain",
+      "commence_time": "2026-10-24T19:00:00Z",
+      "home_team": "Atl\u00e9tico Madrid",
+      "away_team": "Deportivo La Coru\u00f1a"
+    }
+  ],
+  "Bundesliga": [
+    {
+      "id": "983440c6e348b558c6a3e10e2061ba55",
+      "sport_key": "soccer_germany_bundesliga",
+      "sport_title": "Bundesliga - Germany",
+      "commence_time": "2026-10-24T13:30:00Z",
+      "home_team": "1. FC K\u00f6ln",
+      "away_team": "FC Schalke 04"
+    },
+    {
+      "id": "04bb232a2940fcf03abf05b308e27577",
+      "sport_key": "soccer_germany_bundesliga",
+      "sport_title": "Bundesliga - Germany",
+      "commence_time": "2026-10-24T13:30:00Z",
+      "home_team": "Augsburg",
+      "away_team": "Union Berlin"
+    },
+    {
+      "id": "04dac5e98ab5fc5564980542ca3fc746",
+      "sport_key": "soccer_germany_bundesliga",
+      "sport_title": "Bundesliga - Germany",
+      "commence_time": "2026-10-24T13:30:00Z",
+      "home_team": "RB Leipzig",
+      "away_team": "Elversberg"
+    },
+    {
+      "id": "4e5820453145833132980b8d190998c7",
+      "sport_key": "soccer_germany_bundesliga",
+      "sport_title": "Bundesliga - Germany",
+      "commence_time": "2026-10-24T13:30:00Z",
+      "home_team": "FSV Mainz 05",
+      "away_team": "Werder Bremen"
+    },
+    {
+      "id": "7630f897583f3acc0f483fa2d17d1ac5",
+      "sport_key": "soccer_germany_bundesliga",
+      "sport_title": "Bundesliga - Germany",
+      "commence_time": "2026-10-24T13:30:00Z",
+      "home_team": "SC Paderborn",
+      "away_team": "Hamburger SV"
+    },
+    {
+      "id": "3ed4d1e775910625c50518a384e9c547",
+      "sport_key": "soccer_germany_bundesliga",
+      "sport_title": "Bundesliga - Germany",
+      "commence_time": "2026-10-24T16:30:00Z",
+      "home_team": "Borussia Dortmund",
+      "away_team": "Eintracht Frankfurt"
+    }
+  ],
+  "Serie A": [
+    {
+      "id": "b7f0880e3da978f9481f7cb5697e2aa5",
+      "sport_key": "soccer_italy_serie_a",
+      "sport_title": "Serie A - Italy",
+      "commence_time": "2026-10-24T13:00:00Z",
+      "home_team": "Cagliari",
+      "away_team": "Bologna"
+    },
+    {
+      "id": "08ffd99b2249c81d8a7410598f32b9b0",
+      "sport_key": "soccer_italy_serie_a",
+      "sport_title": "Serie A - Italy",
+      "commence_time": "2026-10-24T13:00:00Z",
+      "home_team": "Como",
+      "away_team": "Sassuolo"
+    },
+    {
+      "id": "0b4894e9fb123ef3045269f97e339eba",
+      "sport_key": "soccer_italy_serie_a",
+      "sport_title": "Serie A - Italy",
+      "commence_time": "2026-10-24T16:00:00Z",
+      "home_team": "Napoli",
+      "away_team": "AS Roma"
+    },
+    {
+      "id": "b27cb3ea731fa3f18d05e6a627bdf984",
+      "sport_key": "soccer_italy_serie_a",
+      "sport_title": "Serie A - Italy",
+      "commence_time": "2026-10-24T18:45:00Z",
+      "home_team": "Lazio",
+      "away_team": "Parma"
+    }
+  ],
+  "Ligue 1": [
+    {
+      "id": "fc6c50376190b578cfeb38c029db8487",
+      "sport_key": "soccer_france_ligue_one",
+      "sport_title": "Ligue 1 - France",
+      "commence_time": "2026-10-24T18:45:00Z",
+      "home_team": "RC Lens",
+      "away_team": "Paris FC"
+    }
+  ],
+  "Eredivisie": [
+    {
+      "id": "da3509ee80a4eeeab31b61669fd0c675",
+      "sport_key": "soccer_netherlands_eredivisie",
+      "sport_title": "Dutch Eredivisie",
+      "commence_time": "2026-10-24T14:30:00Z",
+      "home_team": "FC Utrecht",
+      "away_team": "FC Zwolle"
+    },
+    {
+      "id": "d962e99711c241eb444793ef2e07098b",
+      "sport_key": "soccer_netherlands_eredivisie",
+      "sport_title": "Dutch Eredivisie",
+      "commence_time": "2026-10-24T16:45:00Z",
+      "home_team": "Willem II",
+      "away_team": "SC Cambuur"
+    },
+    {
+      "id": "37b2e2ce6ac958b456f8b82543199993",
+      "sport_key": "soccer_netherlands_eredivisie",
+      "sport_title": "Dutch Eredivisie",
+      "commence_time": "2026-10-24T19:00:00Z",
+      "home_team": "ADO Den Haag",
+      "away_team": "Heerenveen"
+    }
+  ],
+  "Liga Portugal": [
+    {
+      "id": "5361a46399319e5c40d77e1b1e1c5933",
+      "sport_key": "soccer_portugal_primeira_liga",
+      "sport_title": "Primeira Liga - Portugal",
+      "commence_time": "2026-10-24T14:30:00Z",
+      "home_team": "CF Estrela",
+      "away_team": "Casa Pia"
+    },
+    {
+      "id": "3f752f1b9f725906b91ae5b699705cca",
+      "sport_key": "soccer_portugal_primeira_liga",
+      "sport_title": "Primeira Liga - Portugal",
+      "commence_time": "2026-10-24T17:00:00Z",
+      "home_team": "Alverca",
+      "away_team": "Arouca"
+    },
+    {
+      "id": "2fdd5b6eaa94bcdf2f61444eef54b645",
+      "sport_key": "soccer_portugal_primeira_liga",
+      "sport_title": "Primeira Liga - Portugal",
+      "commence_time": "2026-10-24T19:30:00Z",
+      "home_team": "Gil Vicente",
+      "away_team": "FC Porto"
+    }
+  ],
+  "MLS": [
+    {
+      "id": "baa6dd6e96ddcea8adfd3b27639cc736",
+      "sport_key": "soccer_usa_mls",
+      "sport_title": "MLS",
+      "commence_time": "2026-10-24T17:30:00Z",
+      "home_team": "CF Montreal",
+      "away_team": "Nashville SC"
+    },
+    {
+      "id": "ed2af0d89fd49629ed463d6d1f72b7bb",
+      "sport_key": "soccer_usa_mls",
+      "sport_title": "MLS",
+      "commence_time": "2026-10-24T19:30:00Z",
+      "home_team": "Columbus Crew SC",
+      "away_team": "Toronto FC"
+    },
+    {
+      "id": "a77f6e1732c3cf8508193a8a3c362fa0",
+      "sport_key": "soccer_usa_mls",
+      "sport_title": "MLS",
+      "commence_time": "2026-10-24T21:30:00Z",
+      "home_team": "New York Red Bulls",
+      "away_team": "Inter Miami CF"
+    },
+    {
+      "id": "1ed50340a47eb68b3ce69971b5bb5ba1",
+      "sport_key": "soccer_usa_mls",
+      "sport_title": "MLS",
+      "commence_time": "2026-10-24T23:30:00Z",
+      "home_team": "Atlanta United FC",
+      "away_team": "Chicago Fire"
+    },
+    {
+      "id": "7e6c72313c14e33ae72ba671e55ff6ea",
+      "sport_key": "soccer_usa_mls",
+      "sport_title": "MLS",
+      "commence_time": "2026-10-24T23:30:00Z",
+      "home_team": "D.C. United",
+      "away_team": "FC Cincinnati"
+    },
+    {
+      "id": "968d8c4d043dd61005219cf80e6babad",
+      "sport_key": "soccer_usa_mls",
+      "sport_title": "MLS",
+      "commence_time": "2026-10-24T23:30:00Z",
+      "home_team": "Philadelphia Union",
+      "away_team": "New England Revolution"
+    },
+    {
+      "id": "b82fe218ab7e84acc851e81b4dd5ee90",
+      "sport_key": "soccer_usa_mls",
+      "sport_title": "MLS",
+      "commence_time": "2026-10-24T23:30:00Z",
+      "home_team": "Orlando City SC",
+      "away_team": "New York City FC"
+    }
+  ],
+  "Liga Argentina": [
+    {
+      "id": "620fc2a8e5aa1f0ced9c494d2763a6e6",
+      "sport_key": "soccer_argentina_primera_division",
+      "sport_title": "Primera Divisi\u00f3n - Argentina",
+      "commence_time": "2026-10-24T17:45:00Z",
+      "home_team": "Banfield",
+      "away_team": "Lanus"
+    },
+    {
+      "id": "c66bf5a84e98c1fc8b8aed1e9641944d",
+      "sport_key": "soccer_argentina_primera_division",
+      "sport_title": "Primera Divisi\u00f3n - Argentina",
+      "commence_time": "2026-10-24T20:00:00Z",
+      "home_team": "Talleres",
+      "away_team": "Defensa y Justicia"
+    },
+    {
+      "id": "e8b066bbd83398ec000115ed52f11d1b",
+      "sport_key": "soccer_argentina_primera_division",
+      "sport_title": "Primera Divisi\u00f3n - Argentina",
+      "commence_time": "2026-10-24T22:15:00Z",
+      "home_team": "San Lorenzo",
+      "away_team": "Newells Old Boys"
+    }
+  ]
+}

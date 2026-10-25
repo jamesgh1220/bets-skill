@@ -1,0 +1,29 @@
+{
+  "home_team": "FSV Mainz 05",
+  "away_team": "Werder Bremen",
+  "league": "Bundesliga",
+  "commence_time": "2026-10-24T13:30:00Z",
+  "xg_home_for": 2.38,
+  "xg_home_against": 1.48,
+  "xg_away_for": 1.47,
+  "xg_away_against": 1.72,
+  "elo_home": 1743,
+  "elo_away": 1692,
+  "corners_home_for": 5.2,
+  "corners_home_against": 4.3,
+  "corners_away_for": 4.4,
+  "corners_away_against": 5.1,
+  "cards_home_for": 1.9,
+  "cards_home_against": 2.1,
+  "cards_away_for": 2.2,
+  "cards_away_against": 1.8,
+  "odds": {
+    "1": 1.76,
+    "2": 4.8,
+    "X": 4.42,
+    "over_3_5": 2.38,
+    "under_3_5": 1.68,
+    "over_2_5": 1.51,
+    "under_2_5": 2.61
+  }
+}
