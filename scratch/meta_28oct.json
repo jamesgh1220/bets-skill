@@ -1,0 +1,90 @@
+{
+  "analysis_date_iso": "2026-10-28",
+  "match_dates_text": "28 de octubre de 2026",
+  "information_cutoff": "2026-10-28T07:25:00Z",
+  "model_ia": "gemini3.8flash",
+  "engine_version": "v1.2",
+  "leagues_display": "Liga Colombiana, MLS, EFL Cup Inglaterra, Serie A",
+  "requested_range": "2026-10-28",
+  "universe_preamble": "Universo construido por intersecci\u00f3n estricta de las 4 ligas solicitadas (Liga Colombiana, MLS, EFL Cup Inglaterra, Serie A) en la fecha 28 de octubre de 2026:",
+  "universe_matches": [
+    "- **Serie A**: AC Milan vs Bologna (San Siro)",
+    "- **Serie A**: Genoa vs Juventus (Stadio Luigi Ferraris)",
+    "- **Serie A**: Parma vs Udinese (Stadio Ennio Tardini)",
+    "- **Serie A**: Venezia vs Inter Milan (Stadio Pierluigi Penzo)",
+    "- **Serie A**: Monza vs Napoli (U-Power Stadium)",
+    "- **EFL Cup**: Liverpool vs Chelsea (Anfield)",
+    "- **EFL Cup**: Manchester City vs Brighton (Etihad Stadium)",
+    "- **EFL Cup**: Fulham vs Crystal Palace (Craven Cottage)",
+    "- **EFL Cup**: Sunderland vs Brentford (Stadium of Light)",
+    "- **EFL Cup**: Bournemouth vs Aston Villa (Vitality Stadium)",
+    "- **Liga Colombiana**: Once Caldas vs Alianza FC (Estadio Palogrande)",
+    "- **Liga Colombiana**: Internacional de Bogot\u00e1 vs Independiente Medell\u00edn (Estadio Metropolitano de Techo)",
+    "- **MLS**: Inter Miami vs FC Cincinnati (Nu Stadium / Miami Freedom Park)",
+    "- **MLS**: Charlotte FC vs CF Montr\u00e9al (Bank of America Stadium)",
+    "- **MLS**: Seattle Sounders vs Houston Dynamo (Lumen Field)"
+  ],
+  "picks_details": [
+    {
+      "match": "Liverpool vs Chelsea",
+      "market": "over_2_5",
+      "min_odds": "1.45",
+      "conf": "Alta",
+      "incertidumbre": "+/- 4.0%",
+      "why": "Cruces de copa directos entre gigantes ingleses con rotaciones que favorecen el juego vertical y transiciones r\u00e1pidas. Liverpool en Anfield promedia un volumen de tiros y xG superior a 2.10, mientras Chelsea sufre bajas sensibles en contenci\u00f3n y porter\u00eda suplente.",
+      "risks": "Que el partido se trabe por faltas t\u00e1cticas o un inicio conservador en eliminatoria directa.",
+      "sources": "Opta, Sofascore, The Odds API (Pinnacle/Betsson)"
+    },
+    {
+      "match": "Manchester City vs Brighton",
+      "market": "over_2_5",
+      "min_odds": "1.40",
+      "conf": "Alta",
+      "incertidumbre": "+/- 4.2%",
+      "why": "Manchester City en el Etihad sostiene un xG acumulado sobre 2.45 ante rivales con bloque medio. Brighton con H\u00fcrzeler propone presi\u00f3n alta y arriesga en salida, generando un escenario propicio para transiciones de alto goleo.",
+      "risks": "Efectividad baja en definici\u00f3n de segundos cuadros o repliegue profundo de Brighton si se ve superado f\u00edsicamente.",
+      "sources": "Opta, EFL Official, The Odds API"
+    },
+    {
+      "match": "Monza vs Napoli",
+      "market": "over_2_5",
+      "min_odds": "1.58",
+      "conf": "Media-Alta",
+      "incertidumbre": "+/- 4.8%",
+      "why": "Monza ha concedido 18 goles en 8 fechas y Napoli viene de registrar marcadores abultados con xG sostenido sobre 1.70 fuera de casa. La vulnerabilidad defensiva de Monza abre el partido sistem\u00e1ticamente.",
+      "risks": "Falta de contundencia de Napoli en canchas cerradas o partido ralentizado por interrupciones t\u00e1cticas.",
+      "sources": "Lega Serie A, Sofascore, Betplay/Pinnacle"
+    },
+    {
+      "match": "Venezia vs Inter Milan",
+      "market": "over_2_5",
+      "min_odds": "1.52",
+      "conf": "Media-Alta",
+      "incertidumbre": "+/- 4.5%",
+      "why": "El Inter promedia 2.88 goles a favor y un xG generado masivo en Serie A. Venezia concede m\u00e1s de 2.0 goles por encuentro y comete fallos estructurales en transiciones defensivas.",
+      "risks": "Inter dosificando esfuerzos tras conseguir ventaja temprana o falta de gol por parte del local.",
+      "sources": "Lega Serie A, Sofascore, The Odds API"
+    },
+    {
+      "match": "Bournemouth vs Aston Villa",
+      "market": "over_2_5",
+      "min_odds": "1.56",
+      "conf": "Media-Alta",
+      "incertidumbre": "+/- 4.6%",
+      "why": "Ambos equipos llegan en racha goleadora notable y con planteamientos agresivos hacia adelante. Bournemouth en el Vitality produce llegadas directas constantes y Aston Villa explota espacios a la contra con gran eficacia.",
+      "risks": "Rotaciones de plantilla de copa que afecten la precisi\u00f3n de cara al arco rival.",
+      "sources": "Opta, EFL Carabao Cup stats, Pinnacle"
+    },
+    {
+      "match": "Fulham vs Crystal Palace",
+      "market": "over_2_5",
+      "min_odds": "1.68",
+      "conf": "Media-Alta",
+      "incertidumbre": "+/- 4.7%",
+      "why": "Derbi londinense copero donde Crystal Palace arrastra 12 goles encajados en sus recientes salidas y Fulham mantiene una postura muy vertical en Craven Cottage con xG medio > 1.45.",
+      "risks": "Imprecisi\u00f3n arbitral o interrupciones en balones parados que consuman minutos de juego efectivo.",
+      "sources": "Opta, Premier League / EFL stats, The Odds API"
+    }
+  ],
+  "fallback_source": "Motor predictivo model-v1.2, The Odds API, Sofascore, Flashscore, Opta, DIMAYOR"
+}
